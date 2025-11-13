@@ -28,29 +28,42 @@ export async function POST(
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
 
-    // Helper function to determine quarter from report date, handling fiscal year
+    // Helper function to map report date to calendar quarter (industry standard)
+    // This normalizes all companies to calendar quarters for meaningful peer comparison
     const getQuarterInfo = (reportDate: string) => {
       const date = new Date(reportDate);
       const month = date.getMonth(); // 0-11
-      let year = date.getFullYear();
+      const year = date.getFullYear();
 
-      // If company has custom fiscal year end, use that
+      // Determine calendar quarter based on report end date month
+      let calendarQuarter;
+      if (month >= 0 && month <= 2) {
+        calendarQuarter = 1; // Jan-Mar
+      } else if (month >= 3 && month <= 5) {
+        calendarQuarter = 2; // Apr-Jun
+      } else if (month >= 6 && month <= 8) {
+        calendarQuarter = 3; // Jul-Sep
+      } else {
+        calendarQuarter = 4; // Oct-Dec
+      }
+
+      // For fiscal year grouping (needed for Q4 calculation), determine fiscal year
+      let fiscalYear = year;
+      let fiscalQuarter = calendarQuarter;
+
       if (company.fiscalYearEnd) {
         const [fyEndMonth, fyEndDay] = company.fiscalYearEnd.split('-').map(Number);
-        const fyEndMonthIndex = fyEndMonth - 1; // Convert to 0-11
+        const fyEndMonthIndex = fyEndMonth - 1;
 
-        // Determine which fiscal year this date belongs to
-        // If we're past the fiscal year end month, we're in next fiscal year
+        // Determine which fiscal year this belongs to
         if (month > fyEndMonthIndex || (month === fyEndMonthIndex && date.getDate() > fyEndDay)) {
-          year = year + 1; // This is next fiscal year
+          fiscalYear = year + 1;
         }
 
-        // Calculate fiscal quarter based on months from fiscal year end
-        // Q1 starts right after fiscal year end
+        // Calculate fiscal quarter (for grouping purposes)
         let monthsSinceFYEnd = month - fyEndMonthIndex;
         if (monthsSinceFYEnd <= 0) monthsSinceFYEnd += 12;
 
-        let fiscalQuarter;
         if (monthsSinceFYEnd <= 3) {
           fiscalQuarter = 1;
         } else if (monthsSinceFYEnd <= 6) {
@@ -60,32 +73,15 @@ export async function POST(
         } else {
           fiscalQuarter = 4;
         }
-
-        return {
-          fiscalQuarter,
-          year,
-          quarter: `Q${fiscalQuarter} FY${year}`,
-          isFiscalYear: true
-        };
-      }
-
-      // Standard calendar year logic
-      let fiscalQuarter;
-      if (month >= 0 && month <= 2) {
-        fiscalQuarter = 1;
-      } else if (month >= 3 && month <= 5) {
-        fiscalQuarter = 2;
-      } else if (month >= 6 && month <= 8) {
-        fiscalQuarter = 3;
-      } else {
-        fiscalQuarter = 4;
       }
 
       return {
-        fiscalQuarter,
-        year,
-        quarter: `Q${fiscalQuarter} ${year}`,
-        isFiscalYear: false
+        calendarQuarter,
+        calendarYear: year,
+        fiscalQuarter, // Used for grouping and Q4 calculation
+        fiscalYear,    // Used for grouping and Q4 calculation
+        quarter: `Q${calendarQuarter} ${year}`, // Display as calendar quarter
+        reportDate
       };
     };
 
@@ -124,16 +120,16 @@ export async function POST(
       }
     }
 
-    // Group by fiscal year
+    // Group by fiscal year (for Q4 calculation)
     const byFiscalYear = new Map<number, any>();
     for (const report of analyzedFilings) {
-      const { year, fiscalQuarter } = report.quarterInfo;
+      const { fiscalYear, fiscalQuarter } = report.quarterInfo;
 
-      if (!byFiscalYear.has(year)) {
-        byFiscalYear.set(year, {});
+      if (!byFiscalYear.has(fiscalYear)) {
+        byFiscalYear.set(fiscalYear, {});
       }
 
-      const yearData = byFiscalYear.get(year)!;
+      const yearData = byFiscalYear.get(fiscalYear)!;
 
       if (report.filing.form === '10-K') {
         yearData.annual = report;
@@ -175,7 +171,11 @@ export async function POST(
           ? annualNetIncome - (q1NetIncome + q2NetIncome + q3NetIncome)
           : null;
 
-        console.log(`Calculated Q4 ${year}: Revenue ${q4Revenue}M, Net Income ${q4NetIncome}M`);
+        console.log(`Calculated Q4 FY${year}: Revenue ${q4Revenue}M, Net Income ${q4NetIncome}M`);
+
+        // Determine calendar quarter for the calculated Q4
+        // The 10-K filing date tells us which calendar quarter this Q4 falls in
+        const q4QuarterInfo = getQuarterInfo(data.annual.filing.reportDate);
 
         // Create Q4 report with calculated data + guidance from 10-K
         finalReports.push({
@@ -185,8 +185,8 @@ export async function POST(
             revenue: q4Revenue,
             netIncome: q4NetIncome
           },
-          quarter: `Q4 ${year}`,
-          quarterInfo: { fiscalQuarter: 4, year, quarter: `Q4 ${year}` },
+          quarter: q4QuarterInfo.quarter, // Use calendar quarter label
+          quarterInfo: q4QuarterInfo,
           analyzedSuccessfully: true
         });
       }
