@@ -141,12 +141,12 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
               <XAxis dataKey="quarter" />
               <YAxis
                 yAxisId="left"
-                hide={true}
+                tickFormatter={(value) => formatCurrency(value)}
               />
               <YAxis
                 yAxisId="right"
                 orientation="right"
-                hide={true}
+                tickFormatter={(value) => formatCurrency(value)}
               />
               <Tooltip
                 formatter={(value: number) => formatCurrency(value)}
@@ -174,20 +174,33 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
           </ResponsiveContainer>
 
           {/* Sentiment and Guidance badges aligned with quarters */}
-          <div className="mt-4 flex justify-between px-12">
-            {guidanceData.map((report, index) => (
-              <div key={index} className="flex flex-col items-center gap-2">
-                <div className="flex items-center gap-1">
-                  {getSentimentIcon(report.insights.overallSentiment)}
-                  <Badge className={getSentimentColor(report.insights.overallSentiment) + " text-xs"}>
-                    {report.insights.overallSentiment}
-                  </Badge>
-                </div>
-                <Badge className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-xs"}>
-                  {report.insights.guidanceDirection || "unknown"}
-                </Badge>
+          <div className="mt-6 space-y-3">
+            {/* Sentiment row */}
+            <div className="flex items-center gap-4">
+              <div className="text-sm font-semibold min-w-[100px]">Sentiment:</div>
+              <div className="flex justify-between flex-1 px-8">
+                {guidanceData.map((report, index) => (
+                  <div key={index} className="flex items-center gap-1">
+                    {getSentimentIcon(report.insights.overallSentiment)}
+                    <Badge className={getSentimentColor(report.insights.overallSentiment) + " text-xs"}>
+                      {report.insights.overallSentiment}
+                    </Badge>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            {/* Guidance row */}
+            <div className="flex items-center gap-4">
+              <div className="text-sm font-semibold min-w-[100px]">Guidance:</div>
+              <div className="flex justify-between flex-1 px-8">
+                {guidanceData.map((report, index) => (
+                  <Badge key={index} className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-xs"}>
+                    {report.insights.guidanceDirection || "unknown"}
+                  </Badge>
+                ))}
+              </div>
+            </div>
           </div>
         </CardContent>
       </Card>
