@@ -1,9 +1,19 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { EarningsInsights } from "@/types";
 
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
+// Lazy initialization to support both Next.js and standalone scripts
+let anthropic: Anthropic | null = null;
+
+function getAnthropicClient(): Anthropic {
+  if (!anthropic) {
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+      throw new Error("ANTHROPIC_API_KEY environment variable is not set");
+    }
+    anthropic = new Anthropic({ apiKey });
+  }
+  return anthropic;
+}
 
 const ANALYSIS_PROMPT = `You are an expert financial analyst specializing in earnings report analysis. Your task is to extract key macro insights from earnings reports that would be valuable to retail investors looking for market trends.
 
@@ -109,7 +119,8 @@ export async function analyzeEarningsReport(
       formTypeNote = `\n\n⚠️ IMPORTANT: This is a 10-Q QUARTERLY REPORT. Extract the quarterly revenue and net income from the "Condensed Consolidated Statements of Income/Operations" (usually labeled for "Three Months Ended"). DO NOT use year-to-date totals.`;
     }
 
-    const message = await anthropic.messages.create({
+    const client = getAnthropicClient();
+    const message = await client.messages.create({
       model: "claude-3-5-haiku-20241022",
       max_tokens: 2000,
       messages: [
@@ -174,7 +185,8 @@ Provide a macro analysis covering:
 Format as a concise 5-7 bullet point summary.`;
 
   try {
-    const message = await anthropic.messages.create({
+    const client = getAnthropicClient();
+    const message = await client.messages.create({
       model: "claude-3-5-haiku-20241022",
       max_tokens: 1500,
       messages: [
