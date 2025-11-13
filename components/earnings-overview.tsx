@@ -141,22 +141,12 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
               <XAxis dataKey="quarter" />
               <YAxis
                 yAxisId="left"
-                label={{
-                  value: "Revenue",
-                  angle: -90,
-                  position: "insideLeft",
-                }}
-                tickFormatter={(value) => formatCurrency(value)}
+                hide={true}
               />
               <YAxis
                 yAxisId="right"
                 orientation="right"
-                label={{
-                  value: "Net Income",
-                  angle: 90,
-                  position: "insideRight",
-                }}
-                tickFormatter={(value) => formatCurrency(value)}
+                hide={true}
               />
               <Tooltip
                 formatter={(value: number) => formatCurrency(value)}
@@ -167,53 +157,35 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
                 type="monotone"
                 dataKey="revenue"
                 stroke="#3b82f6"
-                strokeWidth={2}
+                strokeWidth={3}
                 name="Revenue"
-                dot={{ r: 4 }}
+                dot={{ r: 5 }}
               />
               <Line
                 yAxisId="right"
                 type="monotone"
                 dataKey="netIncome"
                 stroke="#10b981"
-                strokeWidth={2}
+                strokeWidth={3}
                 name="Net Income"
-                dot={{ r: 4 }}
+                dot={{ r: 5 }}
               />
             </LineChart>
           </ResponsiveContainer>
-        </CardContent>
-      </Card>
 
-      {/* Guidance & Sentiment Evolution */}
-      <Card>
-        <CardHeader>
-          <CardTitle>Guidance & Sentiment Evolution</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
+          {/* Sentiment and Guidance badges aligned with quarters */}
+          <div className="mt-4 flex justify-between px-12">
             {guidanceData.map((report, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-between p-4 border rounded-lg"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="text-sm font-semibold min-w-[100px]">
-                    {report.quarter}
-                  </div>
-                  <div className="flex items-center gap-2">
-                    {getSentimentIcon(report.insights.overallSentiment)}
-                    <Badge className={getSentimentColor(report.insights.overallSentiment)}>
-                      {report.insights.overallSentiment}
-                    </Badge>
-                  </div>
-                  <Badge className={getGuidanceColor(report.insights.guidanceDirection || "unknown")}>
-                    {report.insights.guidanceDirection || "unknown"}
-                  </Badge>
-                  <Badge variant="outline">
-                    {report.insights.guidanceTone || "unknown"} tone
+              <div key={index} className="flex flex-col items-center gap-2">
+                <div className="flex items-center gap-1">
+                  {getSentimentIcon(report.insights.overallSentiment)}
+                  <Badge className={getSentimentColor(report.insights.overallSentiment) + " text-xs"}>
+                    {report.insights.overallSentiment}
                   </Badge>
                 </div>
+                <Badge className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-xs"}>
+                  {report.insights.guidanceDirection || "unknown"}
+                </Badge>
               </div>
             ))}
           </div>

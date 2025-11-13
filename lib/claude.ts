@@ -7,7 +7,10 @@ const anthropic = new Anthropic({
 
 const ANALYSIS_PROMPT = `You are an expert financial analyst specializing in earnings report analysis. Your task is to extract key macro insights from earnings reports that would be valuable to retail investors looking for market trends.
 
-IMPORTANT: You must respond with ONLY valid JSON. Do not include any text before or after the JSON object.
+IMPORTANT:
+1. You must respond with ONLY valid JSON. Do not include any text before or after the JSON object.
+2. If this is a 10-K (annual report), extract ONLY the most recent QUARTER's data (Q4), NOT the full year data.
+3. For 10-Q reports, extract the quarterly data for that specific quarter.
 
 Analyze the provided earnings report text and extract the following information in JSON format:
 
@@ -56,11 +59,13 @@ Respond with ONLY the JSON object, nothing else.`;
 export async function analyzeEarningsReport(
   companyName: string,
   reportText: string,
-  quarter: string
+  quarter: string,
+  formType?: string
 ): Promise<EarningsInsights> {
   try {
-    // Truncate report if too long (Claude has context limits)
-    const maxLength = 100000; // ~100k characters
+    // Truncate report if too long (Claude has context limits and rate limits)
+    // 10-K annual reports can be 200+ pages, we need to be more aggressive
+    const maxLength = 50000; // ~50k characters (~12-15k tokens)
     const truncatedText =
       reportText.length > maxLength
         ? reportText.substring(0, maxLength) + "..."

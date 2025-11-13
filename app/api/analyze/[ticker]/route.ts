@@ -28,30 +28,42 @@ export async function POST(
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
 
-    // Analyze each filing
-    const reports = await Promise.all(
-      filings.map(async (filing, index) => {
-        console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate}`);
+    // Analyze each filing sequentially to avoid rate limits
+    const reports = [];
+    for (let index = 0; index < filings.length; index++) {
+      const filing = filings[index];
+      console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate}`);
 
         try {
           const { text } = await getFilingWithText(filing);
 
           // Determine quarter from report date
           // The reportDate is the END of the fiscal period being reported
+          // For most calendar-year companies:
+          // - Report ending ~Jan 31 = Q4 of previous year
+          // - Report ending ~Apr 30 = Q1
+          // - Report ending ~Jul 31 = Q2
+          // - Report ending ~Oct 31 = Q3
           const reportDate = new Date(filing.reportDate);
           const month = reportDate.getMonth(); // 0-11
-          const year = reportDate.getFullYear();
+          let year = reportDate.getFullYear();
 
-          // Calculate fiscal quarter based on the END month of the period
-          // Q1: Jan-Mar (ends in Mar/month 2)
-          // Q2: Apr-Jun (ends in Jun/month 5)
-          // Q3: Jul-Sep (ends in Sep/month 8)
-          // Q4: Oct-Dec (ends in Dec/month 11)
+          // Map the ending month to the quarter that ended
           let fiscalQuarter;
-          if (month <= 2) fiscalQuarter = 1;
-          else if (month <= 5) fiscalQuarter = 2;
-          else if (month <= 8) fiscalQuarter = 3;
-          else fiscalQuarter = 4;
+          if (month === 0 || month === 1) {
+            // Jan/Feb = Q4 of previous year
+            fiscalQuarter = 4;
+            year = year - 1;
+          } else if (month >= 2 && month <= 4) {
+            // Mar-May = Q1
+            fiscalQuarter = 1;
+          } else if (month >= 5 && month <= 7) {
+            // Jun-Aug = Q2
+            fiscalQuarter = 2;
+          } else {
+            // Sep-Dec = Q3
+            fiscalQuarter = 3;
+          }
 
           const quarter = `Q${fiscalQuarter} ${year}`;
 
@@ -61,23 +73,27 @@ export async function POST(
             quarter
           );
 
-          return {
+          reports.push({
             filing,
             insights,
             quarter,
             analyzedSuccessfully: true
-          };
+          });
         } catch (error) {
           console.error(`Error analyzing filing ${filing.accessionNumber}:`, error);
-          return {
+          reports.push({
             filing,
             quarter: filing.reportDate,
             analyzedSuccessfully: false,
             error: error instanceof Error ? error.message : 'Unknown error'
-          };
+          });
         }
-      })
-    );
+
+        // Add a small delay between requests to avoid rate limits
+        if (index < filings.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+        }
+    }
 
     console.log('Analysis complete!');
 
