@@ -67,21 +67,34 @@ export async function analyzeEarningsReport(
   formType?: string
 ): Promise<EarningsInsights> {
   try {
-    // For 10-K reports, try to find and prioritize the quarterly financial data section
+    // Smart text extraction to find financial data sections
     let truncatedText = reportText;
     const maxLength = 50000; // ~50k characters (~12-15k tokens)
 
-    if (formType === "10-K" && reportText.length > maxLength) {
-      // Try to find the quarterly data section
-      const quarterlyDataKeywords = [
-        "quarterly financial data",
-        "selected quarterly financial information",
-        "quarterly financial information",
-        "unaudited quarterly results"
-      ];
+    if (reportText.length > maxLength) {
+      let keywords: string[] = [];
+
+      if (formType === "10-K") {
+        // For 10-K, look for quarterly breakdown tables
+        keywords = [
+          "quarterly financial data",
+          "selected quarterly financial information",
+          "quarterly financial information",
+          "unaudited quarterly results"
+        ];
+      } else {
+        // For 10-Q, look for financial statements
+        keywords = [
+          "condensed consolidated statements of income",
+          "consolidated statements of operations",
+          "consolidated statements of income",
+          "statements of operations",
+          "financial statements"
+        ];
+      }
 
       let bestMatch = -1;
-      for (const keyword of quarterlyDataKeywords) {
+      for (const keyword of keywords) {
         const index = reportText.toLowerCase().indexOf(keyword);
         if (index !== -1 && (bestMatch === -1 || index < bestMatch)) {
           bestMatch = index;
@@ -89,20 +102,21 @@ export async function analyzeEarningsReport(
       }
 
       if (bestMatch !== -1) {
-        // Found quarterly section - extract from there
+        // Found financial section - extract from there
         const startIndex = Math.max(0, bestMatch - 5000); // Include some context before
         truncatedText = reportText.substring(startIndex, startIndex + maxLength);
       } else {
         // Fallback: take beginning of report
         truncatedText = reportText.substring(0, maxLength) + "...";
       }
-    } else if (reportText.length > maxLength) {
-      truncatedText = reportText.substring(0, maxLength) + "...";
     }
 
-    const formTypeNote = formType === "10-K"
-      ? `\n\n⚠️ CRITICAL: This is a 10-K ANNUAL REPORT. You MUST find the quarterly breakdown table (usually in Note 15 or similar) and extract ONLY Q4 quarterly numbers (Oct-Dec). DO NOT use the consolidated annual totals. If you cannot find quarterly breakdown, return null for revenue/netIncome.`
-      : "";
+    let formTypeNote = "";
+    if (formType === "10-K") {
+      formTypeNote = `\n\n⚠️ CRITICAL: This is a 10-K ANNUAL REPORT. You MUST find the quarterly breakdown table (usually in Note 15 or similar) and extract ONLY Q4 quarterly numbers (Oct-Dec). DO NOT use the consolidated annual totals. If you cannot find quarterly breakdown, return null for revenue/netIncome.`;
+    } else if (formType === "10-Q") {
+      formTypeNote = `\n\n⚠️ IMPORTANT: This is a 10-Q QUARTERLY REPORT. Extract the quarterly revenue and net income from the "Condensed Consolidated Statements of Income/Operations" (usually labeled for "Three Months Ended"). DO NOT use year-to-date or nine-month totals. Look for the most recent quarter's data only.`;
+    }
 
     const message = await anthropic.messages.create({
       model: "claude-3-5-haiku-20241022",
