@@ -70,10 +70,11 @@ export async function analyzeEarningsReport(
 
     if (reportText.length > maxLength) {
       if (formType === "10-K") {
-        // For 10-K: Take from 40% through the document to capture both main statements and notes
-        const startIndex = Math.floor(reportText.length * 0.4);
+        // For 10-K: Take from 25% through the document to capture main consolidated statements
+        // (financial summaries are typically 25-40% through the document)
+        const startIndex = Math.floor(reportText.length * 0.25);
         truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-        console.log(`10-K: Extracting ${maxLength} chars from 40% mark (position ${startIndex})`);
+        console.log(`10-K: Extracting ${maxLength} chars from 25% mark (position ${startIndex})`);
       } else {
         // For 10-Q: Look for financial statements at the beginning
         const keywords = [
