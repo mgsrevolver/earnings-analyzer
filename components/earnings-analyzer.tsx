@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Loader2, TrendingUp, TrendingDown, Minus, ExternalLink } from "lucide-react";
 import { Company, AnalysisResponse } from "@/types";
 import { EarningsOverview } from "./earnings-overview";
+import { CompanySummary } from "./company-summary";
 
 interface EarningsAnalyzerProps {
   company: Company;
@@ -135,6 +136,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
 
             {results.successfulAnalyses > 0 && (
               <>
+                <CompanySummary results={results} />
                 <EarningsOverview results={results} />
 
                 <Card>
