@@ -75,12 +75,24 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
     }
   };
 
+  const formatCurrency = (amount: number | null | undefined) => {
+    if (amount == null) return 'N/A';
+
+    // If 1 billion or more, show in billions
+    if (amount >= 1000) {
+      return `$${(amount / 1000).toFixed(2)}B`;
+    }
+
+    // Otherwise show in millions
+    return `$${amount.toLocaleString()}M`;
+  };
+
   return (
     <Card>
       <CardHeader>
         <CardTitle>Earnings Analysis</CardTitle>
         <CardDescription>
-          AI-powered analysis of the last 4 quarters using Claude Haiku
+          AI-powered analysis of the last 5 quarters using Claude Haiku
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -92,10 +104,10 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
               partnerships, and sentiment analysis.
             </p>
             <Button onClick={analyzeEarnings} size="lg">
-              Analyze Last 4 Quarters
+              Analyze Last 5 Quarters
             </Button>
             <p className="text-xs text-muted-foreground mt-4">
-              Cost: ~$0.04 (4 reports × $0.01 each)
+              Cost: ~$0.05 (5 reports × $0.01 each)
             </p>
           </div>
         )}
@@ -150,7 +162,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                     <li>Come back and click "Refresh Analysis"</li>
                   </ol>
                   <p className="mt-3 text-xs text-amber-700 dark:text-amber-300">
-                    Cost: ~$0.04 for analyzing 4 quarters
+                    Cost: ~$0.05 for analyzing 5 quarters
                   </p>
                 </div>
               </div>
@@ -185,17 +197,13 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                       <div>
                         <p className="text-xs text-muted-foreground">Revenue</p>
                         <p className="text-lg font-semibold">
-                          {report.insights.revenue != null
-                            ? `$${report.insights.revenue.toLocaleString()}M`
-                            : 'N/A'}
+                          {formatCurrency(report.insights.revenue)}
                         </p>
                       </div>
                       <div>
                         <p className="text-xs text-muted-foreground">Net Income</p>
                         <p className="text-lg font-semibold">
-                          {report.insights.netIncome != null
-                            ? `$${report.insights.netIncome.toLocaleString()}M`
-                            : 'N/A'}
+                          {formatCurrency(report.insights.netIncome)}
                         </p>
                       </div>
                       <div>
@@ -212,7 +220,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                       <div>
                         <p className="text-xs text-muted-foreground">Capex</p>
                         <p className="text-sm font-medium">
-                          ${report.insights.capexAmount.toLocaleString()}M
+                          {formatCurrency(report.insights.capexAmount)}
                           {report.insights.capexGrowth && (
                             <span className="text-xs text-muted-foreground ml-2">
                               ({report.insights.capexGrowth > 0 ? "+" : ""}

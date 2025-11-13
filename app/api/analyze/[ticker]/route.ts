@@ -17,8 +17,8 @@ export async function POST(
 
     console.log(`Fetching earnings filings for ${company.name} (${company.ticker})...`);
 
-    // Fetch last 4 quarters
-    const filings = await getRecentEarningsFilings(company.cik, 4);
+    // Fetch last 5 quarters
+    const filings = await getRecentEarningsFilings(company.cik, 5);
 
     if (filings.length === 0) {
       return NextResponse.json({

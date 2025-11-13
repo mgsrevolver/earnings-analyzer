@@ -83,17 +83,18 @@ export async function fetchCompanyFilings(
 
 /**
  * Get the last N earnings-related filings (8-K, 10-Q, 10-K) for a company
+ * Deduplicates by quarter - prefers 10-Q/10-K over 8-K for same period
  */
 export async function getRecentEarningsFilings(
   cik: string,
-  count: number = 4
+  count: number = 5
 ): Promise<Filing[]> {
   const data = await fetchCompanyFilings(cik);
-  const filings: Filing[] = [];
+  const filingsByQuarter = new Map<string, Filing>();
 
   const { recent } = data.filings;
 
-  for (let i = 0; i < recent.form.length && filings.length < count; i++) {
+  for (let i = 0; i < recent.form.length; i++) {
     const form = recent.form[i];
 
     // Only include earnings-related forms
@@ -106,20 +107,36 @@ export async function getRecentEarningsFilings(
         }
       }
 
+      const reportDate = recent.reportDate[i] || recent.filingDate[i];
       const accessionNumber = recent.accessionNumber[i].replace(/-/g, "");
       const filingUrl = `https://www.sec.gov/Archives/edgar/data/${cik.replace(/^0+/, "")}/${accessionNumber}/${recent.primaryDocument[i]}`;
 
-      filings.push({
+      const filing: Filing = {
         accessionNumber: recent.accessionNumber[i],
         filingDate: recent.filingDate[i],
-        reportDate: recent.reportDate[i] || recent.filingDate[i],
+        reportDate,
         form: form as "8-K" | "10-Q" | "10-K",
         url: filingUrl,
-      });
+      };
+
+      // Use report date as quarter key (YYYY-MM format for grouping by quarter)
+      const quarterKey = reportDate.substring(0, 7); // e.g., "2025-07"
+
+      // Prefer 10-Q/10-K over 8-K for the same quarter
+      const existing = filingsByQuarter.get(quarterKey);
+      if (!existing || (existing.form === "8-K" && form !== "8-K")) {
+        filingsByQuarter.set(quarterKey, filing);
+      }
     }
+
+    // Stop once we have enough unique quarters
+    if (filingsByQuarter.size >= count * 2) break; // Buffer to ensure we get enough
   }
 
-  return filings;
+  // Convert to array, sort by report date descending, and take the requested count
+  return Array.from(filingsByQuarter.values())
+    .sort((a, b) => b.reportDate.localeCompare(a.reportDate))
+    .slice(0, count);
 }
 
 /**
