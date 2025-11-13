@@ -69,78 +69,38 @@ export async function analyzeEarningsReport(
   try {
     // Smart text extraction to find financial data sections
     let truncatedText = reportText;
-    const maxLength = 50000; // ~50k characters (~12-15k tokens)
+    // Increase limit for better 10-K parsing - Claude Haiku can handle 200k context
+    const maxLength = formType === "10-K" ? 150000 : 50000; // 150k for 10-K, 50k for 10-Q
 
     if (reportText.length > maxLength) {
-      let keywords: string[] = [];
-
       if (formType === "10-K") {
-        // For 10-K, look for quarterly breakdown tables - these are usually in the NOTES section near the END
-        keywords = [
-          "quarterly financial data",
-          "selected quarterly financial information",
-          "quarterly financial information",
-          "unaudited quarterly results",
-          "summarized quarterly data",
-          "quarterly results of operations"
-        ];
+        // For 10-K: Take from 40% through the document to capture both main statements and notes
+        const startIndex = Math.floor(reportText.length * 0.4);
+        truncatedText = reportText.substring(startIndex, startIndex + maxLength);
+        console.log(`10-K: Extracting ${maxLength} chars from 40% mark (position ${startIndex})`);
       } else {
-        // For 10-Q, look for financial statements
-        keywords = [
+        // For 10-Q: Look for financial statements at the beginning
+        const keywords = [
           "condensed consolidated statements of income",
           "consolidated statements of operations",
           "consolidated statements of income",
-          "statements of operations",
-          "financial statements"
         ];
-      }
 
-      // For 10-K: find LAST occurrence (tables at end). For 10-Q: find FIRST occurrence (statements at beginning)
-      let bestMatch = -1;
-
-      if (formType === "10-K") {
-        // For 10-K, search for LAST occurrence
-        for (const keyword of keywords) {
-          let searchIndex = 0;
-          let lastFound = -1;
-
-          while (true) {
-            const index = reportText.toLowerCase().indexOf(keyword, searchIndex);
-            if (index === -1) break;
-            lastFound = index;
-            searchIndex = index + keyword.length;
-          }
-
-          if (lastFound !== -1 && (bestMatch === -1 || lastFound > bestMatch)) {
-            bestMatch = lastFound;
-            console.log(`Found "${keyword}" at position ${lastFound} (last occurrence)`);
-          }
-        }
-      } else {
-        // For 10-Q, search for FIRST occurrence
+        let bestMatch = -1;
         for (const keyword of keywords) {
           const index = reportText.toLowerCase().indexOf(keyword);
           if (index !== -1 && (bestMatch === -1 || index < bestMatch)) {
             bestMatch = index;
-            console.log(`Found "${keyword}" at position ${index} (first occurrence)`);
           }
         }
-      }
 
-      if (bestMatch !== -1) {
-        // Found financial section - extract from there
-        const startIndex = Math.max(0, bestMatch - 5000);
-        truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-        console.log(`Extracting from position ${startIndex} to ${startIndex + maxLength}`);
-      } else {
-        // Fallback: for 10-K, try to take from the MIDDLE/END where notes usually are
-        if (formType === "10-K") {
-          const startIndex = Math.floor(reportText.length * 0.6); // Start at 60% through the document
+        if (bestMatch !== -1) {
+          const startIndex = Math.max(0, bestMatch - 2000);
           truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-          console.log(`No quarterly keywords found. Extracting from 60% mark (${startIndex})`);
+          console.log(`10-Q: Found financial statements at position ${bestMatch}, extracting from ${startIndex}`);
         } else {
-          truncatedText = reportText.substring(0, maxLength) + "...";
-          console.log(`No keywords found. Taking first ${maxLength} characters`);
+          truncatedText = reportText.substring(0, maxLength);
+          console.log(`10-Q: No keywords found, taking first ${maxLength} characters`);
         }
       }
     }
