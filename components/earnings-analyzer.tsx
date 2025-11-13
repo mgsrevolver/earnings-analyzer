@@ -11,12 +11,13 @@ import { CompanySummary } from "./company-summary";
 
 interface EarningsAnalyzerProps {
   company: Company;
+  initialData?: AnalysisResponse | null;
 }
 
-export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
+export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [results, setResults] = useState<AnalysisResponse | null>(null);
+  const [results, setResults] = useState<AnalysisResponse | null>(initialData || null);
 
   const analyzeEarnings = async () => {
     setLoading(true);
@@ -130,7 +131,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                 </p>
               </div>
               <Button onClick={analyzeEarnings} variant="outline" size="sm">
-                Refresh Analysis
+                Force Re-Analyze
               </Button>
             </div>
 
