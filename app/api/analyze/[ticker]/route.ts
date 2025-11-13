@@ -69,7 +69,8 @@ export async function POST(
           const insights = await analyzeEarningsReport(
             company.name,
             text,
-            quarter
+            quarter,
+            filing.form
           );
 
           reports.push({
