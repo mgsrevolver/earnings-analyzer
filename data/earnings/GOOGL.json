@@ -1,0 +1,555 @@
+{
+  "company": {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "cik": "0001652044"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001652044-25-000091",
+        "filingDate": "2025-10-30",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 102346,
+        "netIncome": 34979,
+        "operatingCashFlow": 112311,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 7400,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 48,
+          "EMEA": 29,
+          "APAC": 17,
+          "Other_Americas": 6
+        },
+        "capexAmount": 63596,
+        "capexGrowth": 66,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q3 2025 performance with robust revenue growth of 16% to $102.3 billion and net income increasing to $35 billion. The company continues to invest heavily in technical infrastructure and AI, signaling long-term strategic commitment.",
+        "keyQuotes": [
+          "We expect to continue investing in new businesses, products, services and technologies",
+          "The continuing shift to an online world as the digital economy evolves will continue to benefit our business"
+        ]
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-25-000062",
+        "filingDate": "2025-07-24",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 96428,
+        "netIncome": 28196,
+        "operatingCashFlow": 63897,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4969,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 48,
+          "EMEA": 29,
+          "APAC": 17,
+          "Other_Americas": 6
+        },
+        "capexAmount": 39643,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet demonstrated strong Q2 performance with revenue growth to $96.4 billion and net income of $28.2 billion. The company continues to invest heavily in AI and technical infrastructure, signaling confidence in future growth opportunities.",
+        "keyQuotes": [
+          "We expect to continue to periodically review, refine, and update our methodologies for monitoring, gathering, and counting the number of paid clicks and impressions",
+          "We have plans to continue to invest in new businesses, products, services and technologies"
+        ]
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-25-000043",
+        "filingDate": "2025-04-25",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 90234,
+        "netIncome": 34540,
+        "operatingCashFlow": 36150,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 6600,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "EMEA": 29,
+          "APAC": 16,
+          "Other Americas": 6
+        },
+        "capexAmount": 17197,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q1 2025 results with revenue of $90.2 billion and net income of $34.5 billion, driven by continued growth in Google Services and Google Cloud. The company remains committed to investing in AI technologies and maintaining a robust financial position.",
+        "keyQuotes": [
+          "We expect to continue investing in technical infrastructure to support the growth of our business and long-term initiatives, in particular in support of artificial intelligence (AI) products and services",
+          "Our performance continues to be driven by the ongoing shift to an online world as the digital economy evolves"
+        ]
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-24-000118",
+        "filingDate": "2024-10-30",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000118/goog-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 88268,
+        "netIncome": 26301,
+        "operatingCashFlow": 86186,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4896,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 49,
+          "EMEA": 29,
+          "APAC": 16,
+          "Other_Americas": 6
+        },
+        "capexAmount": 38259,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q3 2024 results with revenues of $88.3 billion and net income of $26.3 billion, driven by robust performance across Google Search, YouTube, and Cloud services. The company continues to invest heavily in AI and technical infrastructure.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-24-000079",
+        "filingDate": "2024-07-24",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000079/goog-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 84742,
+        "netIncome": 23619,
+        "operatingCashFlow": 55488,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 5236,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 49,
+          "EMEA": 29,
+          "APAC": 17,
+          "OtherAmericas": 6
+        },
+        "capexAmount": 25198,
+        "capexGrowth": 91,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q2 2024 results with robust revenue growth of 13.6% year-over-year to $84.7 billion. Net income increased to $23.6 billion, demonstrating continued operational efficiency and strong performance across Google Services and Google Cloud segments.",
+        "keyQuotes": [
+          "We continue to invest in technical infrastructure to support the growth of our business and long-term initiatives, particularly in AI products and services",
+          "Our ongoing shift from offline to online continues to benefit our business"
+        ]
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-24-000053",
+        "filingDate": "2024-04-26",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000053/goog-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 80539,
+        "netIncome": 23662,
+        "operatingCashFlow": 28848,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4894,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 48,
+          "EMEA": 30,
+          "APAC": 16,
+          "Other_Americas": 6
+        },
+        "capexAmount": 12012,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "European Commission fines"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet reported strong Q1 2024 results with revenue of $80.5 billion and net income of $23.7 billion, driven by robust performance across Google Search, YouTube ads, and Google Cloud. The company continues to invest heavily in AI and maintain a confident outlook.",
+        "keyQuotes": [
+          "We expect to continue to invest in technical infrastructure to support the growth of our business and long-term initiatives, in particular in support of artificial intelligence (AI) products and services",
+          "Our expectation is that the portion of our revenues that we derive beyond advertising will continue to increase"
+        ]
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-24-000022",
+        "filingDate": "2024-01-31",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204424000022/goog-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 86310,
+        "netIncome": 20687,
+        "operatingCashFlow": 101746,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 5048,
+        "marketShareMention": "Growing in cloud and AI services",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 47,
+          "EMEA": 30,
+          "APAC": 17,
+          "OtherAmericas": 6
+        },
+        "capexAmount": 32300,
+        "capexGrowth": 2.5,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Antitrust complaints",
+          "EU Digital Markets Act",
+          "Digital Services Act"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong financial performance in 2023, with revenue growing 9% to $307.4B and net income increasing 23% to $73.8B. The company is heavily investing in AI and cloud services while managing costs through workforce optimization.",
+        "keyQuotes": [
+          "We continue to make significant research and development investments in areas of strategic focus as we seek to develop new, innovative offerings",
+          "We expect to increase our investment in technical infrastructure, particularly in support of AI products and services"
+        ]
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-23-000094",
+        "filingDate": "2023-10-25",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000094/goog-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 76693,
+        "netIncome": 19689,
+        "operatingCashFlow": 82831,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4303,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 47,
+          "EMEA": 30,
+          "APAC": 17,
+          "Other_Americas": 6
+        },
+        "capexAmount": 21232,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q3 2023 performance with robust revenue growth of 11% year-over-year, reaching $76.7 billion. Net income increased to $19.7 billion, reflecting the company's continued operational efficiency and core business strength across Google Search, Cloud, and advertising segments.",
+        "keyQuotes": [
+          "We expect to recognize approximately half of the revenue backlog as revenues over the next 24 months",
+          "Change in estimated useful lives of servers will have a favorable effect on our 2023 operating results"
+        ]
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-23-000070",
+        "filingDate": "2023-07-26",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000070/goog-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 74604,
+        "netIncome": 18368,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4513,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 47,
+          "EMEA": 30,
+          "APAC": 17,
+          "Other_Americas": 6
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Alphabet delivered strong Q2 2023 performance with revenue of $74.6 billion and net income of $18.4 billion, maintaining positive momentum across its core businesses. The company continues to demonstrate financial resilience with stable geographic revenue distribution and a confident management outlook.",
+        "keyQuotes": []
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001652044-23-000045",
+        "filingDate": "2023-04-26",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204423000045/goog-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 69787,
+        "netIncome": 15051,
+        "operatingCashFlow": 23509,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4325,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 47,
+          "EMEA": 30,
+          "APAC": 17,
+          "Other Americas": 6
+        },
+        "capexAmount": 6289,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "European Commission fines"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Alphabet reported stable Q1 2023 financial performance with revenues of $69.8 billion and net income of $15.1 billion. The company showed cautious management tone amid ongoing cost management and regulatory challenges.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 10,
+  "lastUpdated": "2025-11-13T21:43:27.513Z"
+}

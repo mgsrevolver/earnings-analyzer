@@ -1,0 +1,692 @@
+{
+  "company": {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "cik": "0000320193",
+    "fiscalYearEnd": "09-30"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000320193-25-000079",
+        "filingDate": "2025-10-31",
+        "reportDate": "2025-09-27",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 102466,
+        "netIncome": 27466,
+        "operatingCashFlow": 111482,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 9055,
+        "marketShareMention": "Minority market share in smartphone, PC, tablet and wearables markets could make developers less inclined to develop apps",
+        "customerConcentration": 12,
+        "geographicBreakdown": {
+          "Americas": 42.9,
+          "Europe": 26.7,
+          "Greater China": 15.5,
+          "Japan": 6.9,
+          "Rest of Asia Pacific": 8.1
+        },
+        "capexAmount": 12715,
+        "capexGrowth": 34.6,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act investigations",
+          "Antitrust investigations",
+          "Export and import regulations",
+          "Privacy and data protection laws"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered strong financial performance in fiscal year 2025, with total revenue of $416.2 billion and net income of $112.0 billion. The company continues to face regulatory challenges and supply chain constraints, but maintains a confident outlook with investments in emerging technologies like AI.",
+        "keyQuotes": [
+          "Much of the Company's future success depends on the talents and efforts of its team members",
+          "The Company believes that its distinctive and inclusive culture is a significant driver of its success"
+        ]
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-25-000073",
+        "filingDate": "2025-08-01",
+        "reportDate": "2025-06-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 94036,
+        "netIncome": 23434,
+        "operatingCashFlow": 81754,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 13600,
+        "marketShareMention": null,
+        "customerConcentration": 48,
+        "geographicBreakdown": {
+          "Americas": 43.8,
+          "Europe": 25.5,
+          "Greater China": 16.3,
+          "Japan": 6.1,
+          "Rest of Asia Pacific": 8.2
+        },
+        "capexAmount": 9473,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act investigation",
+          "Tariffs"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered strong Q2 2025 financial results with 10% revenue growth driven by iPhone and Services. The company maintained profitability despite macroeconomic challenges and regulatory pressures.",
+        "keyQuotes": []
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-25-000057",
+        "filingDate": "2025-05-02",
+        "reportDate": "2025-03-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 95359,
+        "netIncome": 24780,
+        "operatingCashFlow": 53887,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 13600,
+        "marketShareMention": null,
+        "customerConcentration": 37,
+        "geographicBreakdown": {
+          "Americas": 42.3,
+          "Europe": 25.6,
+          "Greater China": 16.8,
+          "Japan": 7.7,
+          "Rest of Asia Pacific": 7.6
+        },
+        "capexAmount": 6011,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act Investigations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered strong Q2 2025 financial results with 5% year-over-year revenue growth and continued expansion in Services and Mac segments. The company maintains a positive outlook, raising its dividend and share repurchase program.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-25-000008",
+        "filingDate": "2025-01-31",
+        "reportDate": "2024-12-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 124300,
+        "netIncome": 36330,
+        "operatingCashFlow": 29935,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 13200,
+        "marketShareMention": null,
+        "customerConcentration": 49,
+        "geographicBreakdown": {
+          "Americas": 42.3,
+          "Europe": 27.2,
+          "Greater China": 14.9,
+          "Japan": 7.2,
+          "Rest of Asia Pacific": 8.3
+        },
+        "capexAmount": 2940,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act investigations",
+          "DOJ antitrust lawsuit",
+          "Epic Games legal challenge"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered solid Q1 2025 results with 4% revenue growth, driven by Services and iPhone. Despite regulatory challenges, the company maintains a confident outlook with strong segment performance across most geographies.",
+        "keyQuotes": []
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-24-000123",
+        "filingDate": "2024-11-01",
+        "reportDate": "2024-09-28",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 94930,
+        "netIncome": 14736,
+        "operatingCashFlow": 118254,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12800,
+        "marketShareMention": null,
+        "customerConcentration": 38,
+        "geographicBreakdown": {
+          "Americas": 42.7,
+          "Europe": 25.9,
+          "Greater China": 17.1,
+          "Japan": 6.4,
+          "Rest of Asia Pacific": 7.8
+        },
+        "capexAmount": 9447,
+        "capexGrowth": -13.8,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act investigations",
+          "U.S. Department of Justice antitrust lawsuit",
+          "Export/import regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported stable financial performance in fiscal year 2024, with total revenue of $391 billion and net income of $93.7 billion. The company faces ongoing regulatory challenges in Europe and the US, while continuing to invest in AI and maintaining a cautious but confident outlook.",
+        "keyQuotes": [
+          "The Company continues to make changes to its compliance plan in response to feedback and engagement with the European Commission.",
+          "Apple Intelligence™, a personal intelligence system that uses generative models, was introduced in fiscal year 2024"
+        ]
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-24-000081",
+        "filingDate": "2024-08-02",
+        "reportDate": "2024-06-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 85777,
+        "netIncome": 21448,
+        "operatingCashFlow": 91443,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12500,
+        "marketShareMention": null,
+        "customerConcentration": 32,
+        "geographicBreakdown": {
+          "Americas": 44,
+          "Europe": 26,
+          "Greater China": 17,
+          "Japan": 6,
+          "Rest of Asia Pacific": 7
+        },
+        "capexAmount": 6539,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Digital Markets Act investigations",
+          "DOJ antitrust lawsuit"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Apple delivered steady quarterly performance with 5% revenue growth driven by strong Services segment. The company continues to invest in R&D and AI technologies while navigating regulatory challenges in Europe and the US.",
+        "keyQuotes": [
+          "Apple Intelligence is deeply integrated into iOS 18, macOS Sequoia and iPadOS 18",
+          "The Company believes it complies with the DMA and has continued to make changes to its compliance plan"
+        ]
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-24-000069",
+        "filingDate": "2024-05-03",
+        "reportDate": "2024-03-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 90753,
+        "netIncome": 23636,
+        "operatingCashFlow": 62585,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12600,
+        "marketShareMention": null,
+        "customerConcentration": 34,
+        "geographicBreakdown": {
+          "Americas": 41,
+          "Europe": 27,
+          "Greater China": 18,
+          "Japan": 7,
+          "Rest of Asia Pacific": 7
+        },
+        "capexAmount": 4388,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "European Commission Digital Markets Act Investigation",
+          "US Department of Justice Antitrust Lawsuit",
+          "Epic Games App Store Lawsuit"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported a quarterly revenue of $90.8 billion and net income of $23.6 billion, with Services revenue growing 14% and total net sales declining 4% year-over-year. The company continues to face regulatory challenges while maintaining stable financial performance.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-24-000006",
+        "filingDate": "2024-02-02",
+        "reportDate": "2023-12-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000006/aapl-20231230.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 119575,
+        "netIncome": 33916,
+        "operatingCashFlow": 39895,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12500,
+        "marketShareMention": null,
+        "customerConcentration": 34,
+        "geographicBreakdown": {
+          "Americas": 42.2,
+          "Europe": 25.4,
+          "Greater_China": 17.4,
+          "Japan": 6.5,
+          "Rest_of_Asia_Pacific": 8.5
+        },
+        "capexAmount": 2392,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "DMA compliance in EU",
+          "App Store antitrust investigations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered strong Q1 2024 results with 2% revenue growth driven by iPhone and Services segments. Net income increased to $33.9 billion, with robust performance across most geographic regions except Greater China.",
+        "keyQuotes": []
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-23-000106",
+        "filingDate": "2023-11-03",
+        "reportDate": "2023-09-30",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 89498,
+        "netIncome": 22956,
+        "operatingCashFlow": 110543,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12100,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "Americas": 42.4,
+          "Europe": 24.6,
+          "Greater China": 18.9,
+          "Japan": 6.3,
+          "Rest of Asia Pacific": 7.8
+        },
+        "capexAmount": 10959,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "EU Digital Markets Act",
+          "Antitrust investigations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported a 3% decline in total net sales to $383.3 billion in fiscal year 2023, driven by weakness in foreign currencies and lower Mac and iPhone sales. Net income was $97.0 billion, and the company continued to generate strong operating cash flow of $110.5 billion.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-23-000077",
+        "filingDate": "2023-08-04",
+        "reportDate": "2023-07-01",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000077/aapl-20230701.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 81797,
+        "netIncome": 19881,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12200,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "Americas": 43.3,
+          "Europe": 24.7,
+          "Greater China": 19.3,
+          "Japan": 5.9,
+          "Rest of Asia Pacific": 6.9
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported a stable Q2 2023 with slight revenue decline of 1% compared to the same quarter last year. Services revenue grew 8%, offsetting declines in iPhone and Mac sales. The company continues to invest in new technologies like Apple Vision Pro and maintains a strong financial position.",
+        "keyQuotes": [
+          "Weakness in foreign currencies relative to the U.S. dollar had an unfavorable impact on the Company's total net sales",
+          "The Company announced Apple Vision Pro, its first spatial computer featuring new visionOS, expected to be available in early calendar year 2024"
+        ]
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-01"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-23-000064",
+        "filingDate": "2023-05-05",
+        "reportDate": "2023-04-01",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000064/aapl-20230401.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 94836,
+        "netIncome": 24160,
+        "operatingCashFlow": 62565,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12500,
+        "marketShareMention": null,
+        "customerConcentration": 10,
+        "geographicBreakdown": {
+          "Americas": 39.8,
+          "Europe": 25.3,
+          "Greater China": 18.8,
+          "Japan": 7.6,
+          "Rest of Asia Pacific": 8.6
+        },
+        "capexAmount": 6703,
+        "capexGrowth": 26,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "European Commission State Aid Decision"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported a modest quarterly performance with slight declines in net sales and net income compared to the same quarter last year. Services revenue grew, while Mac and iPad sales declined, reflecting ongoing macroeconomic challenges and currency headwinds.",
+        "keyQuotes": [
+          "Weakness in foreign currencies relative to the U.S. dollar had an unfavorable impact on the Company's total net sales",
+          "The year-over-year net sales decrease consisted primarily of lower net sales of Mac, partially offset by higher net sales of Services"
+        ]
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-01"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000320193-23-000006",
+        "filingDate": "2023-02-03",
+        "reportDate": "2022-12-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/aapl-20221231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 117154,
+        "netIncome": 29998,
+        "operatingCashFlow": 34005,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12600,
+        "marketShareMention": null,
+        "customerConcentration": 11,
+        "geographicBreakdown": {
+          "Americas": 42.1,
+          "Europe": 23.6,
+          "Greater China": 20.4,
+          "Japan": 5.8,
+          "Rest of Asia Pacific": 8.1
+        },
+        "capexAmount": 3787,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported a 5% year-over-year revenue decline in Q1 2023, primarily due to foreign currency weakness and lower iPhone and Mac sales. The company faced supply chain challenges, including COVID-related disruptions in China, but saw growth in Services and iPad segments.",
+        "keyQuotes": [
+          "COVID-related impacts temporarily affected the Company's primary iPhone 14 Pro and iPhone 14 Pro Max assembly facility located in Zhengzhou, China.",
+          "Macroeconomic conditions, including inflation, rising interest rates and currency fluctuations, have direct and indirect impacts on the Company's business."
+        ]
+      },
+      "quarter": "Q4 2022",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2022,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2022",
+        "reportDate": "2022-12-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 12,
+  "lastUpdated": "2025-11-13T21:31:20.021Z"
+}

@@ -1,0 +1,574 @@
+{
+  "company": {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "cik": "0001045810",
+    "fiscalYearEnd": "01-31"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000209",
+        "filingDate": "2025-08-27",
+        "reportDate": "2025-07-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 46743,
+        "netIncome": 26422,
+        "operatingCashFlow": 42779,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2035,
+        "marketShareMention": null,
+        "customerConcentration": 23,
+        "geographicBreakdown": null,
+        "capexAmount": 3122,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered another strong quarter with record revenue of $46.7 billion and net income of $26.4 billion, driven by continued AI and data center demand. The company continues to expand its market leadership in accelerated computing and AI solutions.",
+        "keyQuotes": [
+          "Our Compute & Networking segment, which includes our Data Center accelerated computing platforms and AI solutions, generated $41.3 billion in revenue",
+          "We repurchased 67 million shares for $9.7 billion in the quarter, demonstrating strong capital return to shareholders"
+        ]
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000116",
+        "filingDate": "2025-05-28",
+        "reportDate": "2025-04-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 44062,
+        "netIncome": 18775,
+        "operatingCashFlow": 27414,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2078,
+        "marketShareMention": null,
+        "customerConcentration": 27,
+        "geographicBreakdown": null,
+        "capexAmount": 1227,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q1 2025 results, with revenue of $44.1B and net income of $18.8B, driven by strong demand in data center and AI technologies. The company continues to expand its market leadership in AI accelerated computing and networking.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000023",
+        "filingDate": "2025-02-26",
+        "reportDate": "2025-01-26",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 39331,
+        "netIncome": 22091,
+        "operatingCashFlow": 64089,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Strong market positioning in AI and accelerated computing",
+        "customerConcentration": 33,
+        "geographicBreakdown": {
+          "US": 47,
+          "International": 53
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on AI chips",
+          "Potential restrictions on China market"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in fiscal 2025, driven by strong demand for AI and accelerated computing platforms, particularly in the Data Center segment. Revenue grew 114% to $130.5 billion, with Data Center revenue up 142%.",
+        "keyQuotes": [
+          "We specialize in markets where our computing platforms can provide tremendous acceleration for applications",
+          "Demand for our Hopper architecture drove our significant growth"
+        ]
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2024",
+        "reportDate": "2025-01-26"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000316",
+        "filingDate": "2024-11-20",
+        "reportDate": "2024-10-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 35082,
+        "netIncome": 19309,
+        "operatingCashFlow": 47460,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1585,
+        "marketShareMention": null,
+        "customerConcentration": 18,
+        "geographicBreakdown": null,
+        "capexAmount": 2159,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in Q3, with revenue of $35.1 billion and net income of $19.3 billion, driven by strong AI and compute demand. The company continues to expand its market leadership and invest heavily in research and development.",
+        "keyQuotes": [
+          "Strong commitments for Blackwell capacity and components",
+          "Continued investment in cloud service agreements to support R&D and DGX Cloud offerings"
+        ]
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000264",
+        "filingDate": "2024-08-28",
+        "reportDate": "2024-07-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/nvda-20240728.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 30040,
+        "netIncome": 16599,
+        "operatingCashFlow": 29833,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1721,
+        "marketShareMention": null,
+        "customerConcentration": 49,
+        "geographicBreakdown": null,
+        "capexAmount": 1346,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q2 performance with record quarterly revenue of $30.04 billion and net income of $16.6 billion, driven by strong AI chip demand. The company continues to invest heavily in AI technology and expand its market leadership in compute and networking.",
+        "keyQuotes": [
+          "We are committed to advancing AI technology across industries.",
+          "Our investments in Hopper and Blackwell capacity demonstrate our strategic focus on AI infrastructure."
+        ]
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000124",
+        "filingDate": "2024-05-29",
+        "reportDate": "2024-04-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 26044,
+        "netIncome": 14881,
+        "operatingCashFlow": 15345,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1549,
+        "marketShareMention": null,
+        "customerConcentration": 31,
+        "geographicBreakdown": {
+          "United States": 51.8,
+          "Taiwan": 16.8,
+          "Other": 31.4
+        },
+        "capexAmount": 369,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in Q1 2024, with revenue surging to $26 billion and net income reaching $14.9 billion, driven primarily by strong demand in the AI and data center segments. The company continues to demonstrate strong pricing power and strategic positioning in the AI technology market.",
+        "keyQuotes": [
+          "Revenue growth driven by accelerated computing platform and AI solutions",
+          "Continued strategic investments in AI and data center technologies",
+          "Strong financial performance reflects market leadership in AI computing"
+        ]
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000029",
+        "filingDate": "2024-02-21",
+        "reportDate": "2024-01-28",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 22103,
+        "netIncome": 12286,
+        "operatingCashFlow": 28090,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Strong demand across multiple industry verticals including automotive, financial services, and healthcare",
+        "customerConcentration": 19,
+        "geographicBreakdown": {
+          "outsideUS": 56
+        },
+        "capexAmount": 3500,
+        "capexGrowth": null,
+        "partnerships": [
+          "MediaTek for automotive systems",
+          "Foxconn for electric vehicles"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on AI chips to China",
+          "Emerging AI regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in fiscal year 2024, with revenue growing 126% to $60.9 billion, driven by massive AI-driven demand in Data Center and continued strength in Gaming. Export controls and geopolitical tensions present challenges.",
+        "keyQuotes": [
+          "Demand for our data center systems and products surged in fiscal year 2024",
+          "We estimate that approximately 40% of Data Center revenue was for AI inference"
+        ]
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000227",
+        "filingDate": "2023-11-21",
+        "reportDate": "2023-10-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 18120,
+        "netIncome": 9243,
+        "operatingCashFlow": 16591,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 938,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 815,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q3 performance with record quarterly revenue of $18.12 billion and net income of $9.24 billion, driven by strong AI and compute demand. The company continues to invest heavily in R&D and maintains a robust financial position with significant cash flow and share repurchase capabilities.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000175",
+        "filingDate": "2023-08-28",
+        "reportDate": "2023-07-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000175/nvda-20230730.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 13507,
+        "netIncome": 6188,
+        "operatingCashFlow": 9259,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 729,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q2 performance with record revenue of $13.5B and net income of $6.2B, driven by strong AI and data center demand. The company continues to expand its AI technology footprint and maintain robust financial health.",
+        "keyQuotes": []
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000093",
+        "filingDate": "2023-05-26",
+        "reportDate": "2023-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000093/nvda-20230430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 7192,
+        "netIncome": 2043,
+        "operatingCashFlow": 2911,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 597,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 33.2,
+          "Taiwan": 25,
+          "China": 22.1,
+          "Singapore": 10.6,
+          "Other Countries": 9.2
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered strong Q1 performance with robust Data Center revenue growth amid complex product transitions. The company remains focused on AI and accelerated computing platforms, with cautious optimism about supply chain and market dynamics.",
+        "keyQuotes": [
+          "NVIDIA pioneered accelerated computing to help solve the most challenging computational problems",
+          "We have procured substantially higher Data Center supply for the second half compared to the first half of fiscal year 2024"
+        ]
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-22-000166",
+        "filingDate": "2022-11-18",
+        "reportDate": "2022-10-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000166/nvda-20221030.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 5931,
+        "netIncome": 680,
+        "operatingCashFlow": 3393,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 551,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 1324,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Arm acquisition termination"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "NVIDIA experienced a significant decline in quarterly revenue and net income compared to the previous year, driven by challenges in the gaming and graphics segments. The company incurred a $1.35 billion acquisition termination cost for the Arm deal and continues to invest in AI technologies.",
+        "keyQuotes": [
+          "We recorded an acquisition termination cost of $1.35 billion in the first quarter of fiscal year 2023",
+          "Our Compute & Networking segment includes Data Center platforms and systems for artificial intelligence, AI high-performance computing, and accelerated computing"
+        ]
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-13T22:05:24.318Z"
+}
