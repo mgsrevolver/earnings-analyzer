@@ -33,35 +33,49 @@ export async function POST(
     const getQuarterInfo = (reportDate: string) => {
       const date = new Date(reportDate);
       const month = date.getMonth(); // 0-11
-      const year = date.getFullYear();
+      let year = date.getFullYear();
 
-      // Determine calendar quarter based on report end date month
+      // For quarterly reports, the reporting period is the 3 months ENDING on this date
+      // Map to the calendar quarter that contains the MIDDLE of that 3-month period (1.5 months back)
+      // This ensures we map based on where the majority of the period falls
+
+      // Go back 1.5 months (45 days) to find the middle of the reporting period
+      const middleDate = new Date(date);
+      middleDate.setDate(middleDate.getDate() - 45);
+
+      const middleMonth = middleDate.getMonth();
+      const middleYear = middleDate.getFullYear();
+
+      // Determine calendar quarter based on middle of reporting period
       let calendarQuarter;
-      if (month >= 0 && month <= 2) {
+      if (middleMonth >= 0 && middleMonth <= 2) {
         calendarQuarter = 1; // Jan-Mar
-      } else if (month >= 3 && month <= 5) {
+      } else if (middleMonth >= 3 && middleMonth <= 5) {
         calendarQuarter = 2; // Apr-Jun
-      } else if (month >= 6 && month <= 8) {
+      } else if (middleMonth >= 6 && middleMonth <= 8) {
         calendarQuarter = 3; // Jul-Sep
       } else {
         calendarQuarter = 4; // Oct-Dec
       }
 
-      // For fiscal year grouping (needed for Q4 calculation), determine fiscal year
-      let fiscalYear = year;
+      year = middleYear; // Use the year from the middle of the period
+
+      // For fiscal year grouping (needed for Q4 calculation), use the actual report end date
+      let fiscalYear = date.getFullYear();
       let fiscalQuarter = calendarQuarter;
 
       if (company.fiscalYearEnd) {
         const [fyEndMonth, fyEndDay] = company.fiscalYearEnd.split('-').map(Number);
         const fyEndMonthIndex = fyEndMonth - 1;
 
-        // Determine which fiscal year this belongs to
-        if (month > fyEndMonthIndex || (month === fyEndMonthIndex && date.getDate() > fyEndDay)) {
-          fiscalYear = year + 1;
+        // Determine which fiscal year this belongs to (use original date, not middle)
+        const endMonth = date.getMonth();
+        if (endMonth > fyEndMonthIndex || (endMonth === fyEndMonthIndex && date.getDate() > fyEndDay)) {
+          fiscalYear = date.getFullYear() + 1;
         }
 
         // Calculate fiscal quarter (for grouping purposes)
-        let monthsSinceFYEnd = month - fyEndMonthIndex;
+        let monthsSinceFYEnd = endMonth - fyEndMonthIndex;
         if (monthsSinceFYEnd <= 0) monthsSinceFYEnd += 12;
 
         if (monthsSinceFYEnd <= 3) {
