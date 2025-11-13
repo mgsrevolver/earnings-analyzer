@@ -9,12 +9,8 @@ const ANALYSIS_PROMPT = `You are an expert financial analyst specializing in ear
 
 IMPORTANT:
 1. You must respond with ONLY valid JSON. Do not include any text before or after the JSON object.
-2. If this is a 10-K (annual report), you MUST extract ONLY the Q4 quarterly data, NOT the full year consolidated data.
-   - Look for "Quarterly Financial Data" or "Selected Quarterly Financial Information" sections
-   - These are typically in the Notes to Financial Statements
-   - Extract revenue and net income for the FOURTH QUARTER only (Oct-Dec or Q4 column)
-   - DO NOT use the consolidated annual totals from the main financial statements
-3. For 10-Q reports, extract the quarterly data for that specific quarter.
+2. For 10-K (annual reports): Extract the FULL YEAR consolidated totals for revenue and net income
+3. For 10-Q (quarterly reports): Extract the quarterly data for that specific quarter (NOT year-to-date)
 
 Analyze the provided earnings report text and extract the following information in JSON format:
 
@@ -107,9 +103,9 @@ export async function analyzeEarningsReport(
 
     let formTypeNote = "";
     if (formType === "10-K") {
-      formTypeNote = `\n\n⚠️ CRITICAL: This is a 10-K ANNUAL REPORT. You MUST find the quarterly breakdown table (usually in Note 15 or similar) and extract ONLY Q4 quarterly numbers (Oct-Dec). DO NOT use the consolidated annual totals. If you cannot find quarterly breakdown, return null for revenue/netIncome.`;
+      formTypeNote = `\n\n⚠️ IMPORTANT: This is a 10-K ANNUAL REPORT. Extract the FULL YEAR consolidated revenue and net income totals from the Consolidated Statements of Operations.`;
     } else if (formType === "10-Q") {
-      formTypeNote = `\n\n⚠️ IMPORTANT: This is a 10-Q QUARTERLY REPORT. Extract the quarterly revenue and net income from the "Condensed Consolidated Statements of Income/Operations" (usually labeled for "Three Months Ended"). DO NOT use year-to-date or nine-month totals. Look for the most recent quarter's data only.`;
+      formTypeNote = `\n\n⚠️ IMPORTANT: This is a 10-Q QUARTERLY REPORT. Extract the quarterly revenue and net income from the "Condensed Consolidated Statements of Income/Operations" (usually labeled for "Three Months Ended"). DO NOT use year-to-date totals.`;
     }
 
     const message = await anthropic.messages.create({

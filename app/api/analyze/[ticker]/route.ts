@@ -17,8 +17,8 @@ export async function POST(
 
     console.log(`Fetching earnings filings for ${company.name} (${company.ticker})...`);
 
-    // Fetch last 5 quarters
-    const filings = await getRecentEarningsFilings(company.cik, 5);
+    // Fetch more filings to have enough data for Q4 calculation (need 3 years worth)
+    const filings = await getRecentEarningsFilings(company.cik, 12);
 
     if (filings.length === 0) {
       return NextResponse.json({
@@ -28,80 +28,140 @@ export async function POST(
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
 
+    // Helper function to determine quarter from report date
+    const getQuarterInfo = (reportDate: string) => {
+      const date = new Date(reportDate);
+      const month = date.getMonth(); // 0-11
+      let year = date.getFullYear();
+
+      let fiscalQuarter;
+      if (month >= 0 && month <= 2) {
+        fiscalQuarter = 1;
+      } else if (month >= 3 && month <= 5) {
+        fiscalQuarter = 2;
+      } else if (month >= 6 && month <= 8) {
+        fiscalQuarter = 3;
+      } else {
+        fiscalQuarter = 4;
+      }
+
+      return { fiscalQuarter, year, quarter: `Q${fiscalQuarter} ${year}` };
+    };
+
     // Analyze each filing sequentially to avoid rate limits
-    const reports = [];
+    const analyzedFilings = [];
     for (let index = 0; index < filings.length; index++) {
       const filing = filings[index];
-      console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate}`);
+      const { quarter } = getQuarterInfo(filing.reportDate);
 
-        try {
-          const { text } = await getFilingWithText(filing);
+      console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate} (${quarter})`);
 
-          // Determine quarter from report date
-          // The reportDate is the END of the fiscal period being reported
-          // For most calendar-year companies:
-          // - Report ending Dec 31 = Q4
-          // - Report ending Mar 31 = Q1
-          // - Report ending Jun 30 = Q2
-          // - Report ending Sep 30 = Q3
-          const reportDate = new Date(filing.reportDate);
-          const month = reportDate.getMonth(); // 0-11
-          let year = reportDate.getFullYear();
+      try {
+        const { text } = await getFilingWithText(filing);
 
-          // Map the ending month to the quarter that ended
-          let fiscalQuarter;
-          if (month >= 0 && month <= 2) {
-            // Jan-Mar = Q1
-            fiscalQuarter = 1;
-          } else if (month >= 3 && month <= 5) {
-            // Apr-Jun = Q2
-            fiscalQuarter = 2;
-          } else if (month >= 6 && month <= 8) {
-            // Jul-Sep = Q3
-            fiscalQuarter = 3;
-          } else {
-            // Oct-Dec = Q4
-            fiscalQuarter = 4;
-          }
+        const insights = await analyzeEarningsReport(
+          company.name,
+          text,
+          quarter,
+          filing.form
+        );
 
-          const quarter = `Q${fiscalQuarter} ${year}`;
+        analyzedFilings.push({
+          filing,
+          insights,
+          quarter,
+          quarterInfo: getQuarterInfo(filing.reportDate),
+          analyzedSuccessfully: true
+        });
+      } catch (error) {
+        console.error(`Error analyzing filing ${filing.accessionNumber}:`, error);
+      }
 
-          const insights = await analyzeEarningsReport(
-            company.name,
-            text,
-            quarter,
-            filing.form
-          );
-
-          reports.push({
-            filing,
-            insights,
-            quarter,
-            analyzedSuccessfully: true
-          });
-        } catch (error) {
-          console.error(`Error analyzing filing ${filing.accessionNumber}:`, error);
-          reports.push({
-            filing,
-            quarter: filing.reportDate,
-            analyzedSuccessfully: false,
-            error: error instanceof Error ? error.message : 'Unknown error'
-          });
-        }
-
-        // Add a small delay between requests to avoid rate limits
-        if (index < filings.length - 1) {
-          await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
-        }
+      // Add a small delay between requests to avoid rate limits
+      if (index < filings.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+      }
     }
+
+    // Group by fiscal year
+    const byFiscalYear = new Map<number, any>();
+    for (const report of analyzedFilings) {
+      const { year, fiscalQuarter } = report.quarterInfo;
+
+      if (!byFiscalYear.has(year)) {
+        byFiscalYear.set(year, {});
+      }
+
+      const yearData = byFiscalYear.get(year)!;
+
+      if (report.filing.form === '10-K') {
+        yearData.annual = report;
+      } else {
+        if (!yearData.quarters) yearData.quarters = {};
+        yearData.quarters[`Q${fiscalQuarter}`] = report;
+      }
+    }
+
+    // Calculate Q4 for years where we have annual + Q1/Q2/Q3
+    const finalReports = [];
+
+    for (const [year, data] of byFiscalYear) {
+      // Add Q1, Q2, Q3 if we have them
+      if (data.quarters) {
+        if (data.quarters.Q1) finalReports.push(data.quarters.Q1);
+        if (data.quarters.Q2) finalReports.push(data.quarters.Q2);
+        if (data.quarters.Q3) finalReports.push(data.quarters.Q3);
+      }
+
+      // Calculate Q4 if we have annual and all three quarters
+      if (data.annual && data.quarters?.Q1 && data.quarters?.Q2 && data.quarters?.Q3) {
+        const q1Revenue = data.quarters.Q1.insights.revenue;
+        const q2Revenue = data.quarters.Q2.insights.revenue;
+        const q3Revenue = data.quarters.Q3.insights.revenue;
+        const annualRevenue = data.annual.insights.revenue;
+
+        const q1NetIncome = data.quarters.Q1.insights.netIncome;
+        const q2NetIncome = data.quarters.Q2.insights.netIncome;
+        const q3NetIncome = data.quarters.Q3.insights.netIncome;
+        const annualNetIncome = data.annual.insights.netIncome;
+
+        // Calculate Q4 = Annual - (Q1 + Q2 + Q3)
+        const q4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
+          ? annualRevenue - (q1Revenue + q2Revenue + q3Revenue)
+          : null;
+
+        const q4NetIncome = annualNetIncome && q1NetIncome && q2NetIncome && q3NetIncome
+          ? annualNetIncome - (q1NetIncome + q2NetIncome + q3NetIncome)
+          : null;
+
+        console.log(`Calculated Q4 ${year}: Revenue ${q4Revenue}M, Net Income ${q4NetIncome}M`);
+
+        // Create Q4 report with calculated data + guidance from 10-K
+        finalReports.push({
+          filing: data.annual.filing,
+          insights: {
+            ...data.annual.insights,
+            revenue: q4Revenue,
+            netIncome: q4NetIncome
+          },
+          quarter: `Q4 ${year}`,
+          quarterInfo: { fiscalQuarter: 4, year, quarter: `Q4 ${year}` },
+          analyzedSuccessfully: true
+        });
+      }
+    }
+
+    // Sort by date descending and take the last 5 quarters
+    finalReports.sort((a, b) => b.filing.reportDate.localeCompare(a.filing.reportDate));
+    const last5Quarters = finalReports.slice(0, 5);
 
     console.log('Analysis complete!');
 
     return NextResponse.json({
       company,
-      reports: reports.filter(r => r.analyzedSuccessfully),
+      reports: last5Quarters,
       totalFetched: filings.length,
-      successfulAnalyses: reports.filter(r => r.analyzedSuccessfully).length
+      successfulAnalyses: last5Quarters.length
     });
   } catch (error) {
     console.error('Error in analyze API:', error);
