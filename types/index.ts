@@ -12,6 +12,7 @@ export interface Company {
   name: string;
   category: CompanyCategory[];
   cik: string; // SEC Central Index Key for EDGAR lookups
+  fiscalYearEnd?: string; // MM-DD format, e.g., "01-31" for Jan 31. Omit for calendar year (Dec 31)
 }
 
 // Earnings report filing info

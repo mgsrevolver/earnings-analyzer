@@ -7,12 +7,14 @@ export const COMPANIES: Company[] = [
     name: "Apple Inc.",
     category: ["Mag7", "Tech"],
     cik: "0000320193",
+    fiscalYearEnd: "09-30", // Fiscal year ends September
   },
   {
     ticker: "MSFT",
     name: "Microsoft Corporation",
     category: ["Mag7", "Tech"],
     cik: "0000789019",
+    fiscalYearEnd: "06-30", // Fiscal year ends June
   },
   {
     ticker: "GOOGL",
@@ -43,6 +45,7 @@ export const COMPANIES: Company[] = [
     name: "NVIDIA Corporation",
     category: ["Mag7", "Tech"],
     cik: "0001045810",
+    fiscalYearEnd: "01-31", // Fiscal year ends January
   },
 
   // High-growth Tech

@@ -28,12 +28,48 @@ export async function POST(
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
 
-    // Helper function to determine quarter from report date
+    // Helper function to determine quarter from report date, handling fiscal year
     const getQuarterInfo = (reportDate: string) => {
       const date = new Date(reportDate);
       const month = date.getMonth(); // 0-11
       let year = date.getFullYear();
 
+      // If company has custom fiscal year end, use that
+      if (company.fiscalYearEnd) {
+        const [fyEndMonth, fyEndDay] = company.fiscalYearEnd.split('-').map(Number);
+        const fyEndMonthIndex = fyEndMonth - 1; // Convert to 0-11
+
+        // Determine which fiscal year this date belongs to
+        // If we're past the fiscal year end month, we're in next fiscal year
+        if (month > fyEndMonthIndex || (month === fyEndMonthIndex && date.getDate() > fyEndDay)) {
+          year = year + 1; // This is next fiscal year
+        }
+
+        // Calculate fiscal quarter based on months from fiscal year end
+        // Q1 starts right after fiscal year end
+        let monthsSinceFYEnd = month - fyEndMonthIndex;
+        if (monthsSinceFYEnd <= 0) monthsSinceFYEnd += 12;
+
+        let fiscalQuarter;
+        if (monthsSinceFYEnd <= 3) {
+          fiscalQuarter = 1;
+        } else if (monthsSinceFYEnd <= 6) {
+          fiscalQuarter = 2;
+        } else if (monthsSinceFYEnd <= 9) {
+          fiscalQuarter = 3;
+        } else {
+          fiscalQuarter = 4;
+        }
+
+        return {
+          fiscalQuarter,
+          year,
+          quarter: `Q${fiscalQuarter} FY${year}`,
+          isFiscalYear: true
+        };
+      }
+
+      // Standard calendar year logic
       let fiscalQuarter;
       if (month >= 0 && month <= 2) {
         fiscalQuarter = 1;
@@ -45,7 +81,12 @@ export async function POST(
         fiscalQuarter = 4;
       }
 
-      return { fiscalQuarter, year, quarter: `Q${fiscalQuarter} ${year}` };
+      return {
+        fiscalQuarter,
+        year,
+        quarter: `Q${fiscalQuarter} ${year}`,
+        isFiscalYear: false
+      };
     };
 
     // Analyze each filing sequentially to avoid rate limits
