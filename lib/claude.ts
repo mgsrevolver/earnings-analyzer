@@ -75,12 +75,14 @@ export async function analyzeEarningsReport(
       let keywords: string[] = [];
 
       if (formType === "10-K") {
-        // For 10-K, look for quarterly breakdown tables
+        // For 10-K, look for quarterly breakdown tables - these are usually in the NOTES section near the END
         keywords = [
           "quarterly financial data",
           "selected quarterly financial information",
           "quarterly financial information",
-          "unaudited quarterly results"
+          "unaudited quarterly results",
+          "summarized quarterly data",
+          "quarterly results of operations"
         ];
       } else {
         // For 10-Q, look for financial statements
@@ -93,21 +95,39 @@ export async function analyzeEarningsReport(
         ];
       }
 
+      // Find ALL matches and take the last one (quarterly tables are often at the end)
       let bestMatch = -1;
       for (const keyword of keywords) {
-        const index = reportText.toLowerCase().indexOf(keyword);
-        if (index !== -1 && (bestMatch === -1 || index < bestMatch)) {
-          bestMatch = index;
+        let searchIndex = 0;
+        let lastFound = -1;
+
+        while (true) {
+          const index = reportText.toLowerCase().indexOf(keyword, searchIndex);
+          if (index === -1) break;
+          lastFound = index;
+          searchIndex = index + keyword.length;
+        }
+
+        if (lastFound !== -1 && (bestMatch === -1 || lastFound > bestMatch)) {
+          bestMatch = lastFound;
+          console.log(`Found "${keyword}" at position ${lastFound}`);
         }
       }
 
       if (bestMatch !== -1) {
         // Found financial section - extract from there
-        const startIndex = Math.max(0, bestMatch - 5000); // Include some context before
+        const startIndex = Math.max(0, bestMatch - 5000);
         truncatedText = reportText.substring(startIndex, startIndex + maxLength);
+        console.log(`Extracting 10-K from position ${startIndex} to ${startIndex + maxLength}`);
       } else {
-        // Fallback: take beginning of report
-        truncatedText = reportText.substring(0, maxLength) + "...";
+        // Fallback: for 10-K, try to take from the MIDDLE/END where notes usually are
+        if (formType === "10-K") {
+          const startIndex = Math.floor(reportText.length * 0.6); // Start at 60% through the document
+          truncatedText = reportText.substring(startIndex, startIndex + maxLength);
+          console.log(`No quarterly keywords found. Extracting from 60% mark (${startIndex})`);
+        } else {
+          truncatedText = reportText.substring(0, maxLength) + "...";
+        }
       }
     }
 
