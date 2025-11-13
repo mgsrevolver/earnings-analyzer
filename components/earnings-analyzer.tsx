@@ -185,22 +185,26 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                       <div>
                         <p className="text-xs text-muted-foreground">Revenue</p>
                         <p className="text-lg font-semibold">
-                          ${report.insights.revenue.toLocaleString()}M
+                          {report.insights.revenue != null
+                            ? `$${report.insights.revenue.toLocaleString()}M`
+                            : 'N/A'}
                         </p>
                       </div>
                       <div>
                         <p className="text-xs text-muted-foreground">Net Income</p>
                         <p className="text-lg font-semibold">
-                          ${report.insights.netIncome.toLocaleString()}M
+                          {report.insights.netIncome != null
+                            ? `$${report.insights.netIncome.toLocaleString()}M`
+                            : 'N/A'}
                         </p>
                       </div>
                       <div>
                         <p className="text-xs text-muted-foreground">Guidance</p>
-                        <Badge variant="outline">{report.insights.guidanceDirection}</Badge>
+                        <Badge variant="outline">{report.insights.guidanceDirection || 'unknown'}</Badge>
                       </div>
                       <div>
                         <p className="text-xs text-muted-foreground">Tone</p>
-                        <Badge variant="outline">{report.insights.guidanceTone}</Badge>
+                        <Badge variant="outline">{report.insights.guidanceTone || 'unknown'}</Badge>
                       </div>
                     </div>
 
@@ -219,7 +223,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                       </div>
                     )}
 
-                    {report.insights.partnerships.length > 0 && (
+                    {report.insights.partnerships && report.insights.partnerships.length > 0 && (
                       <div>
                         <p className="text-xs text-muted-foreground mb-1">Partnerships</p>
                         <div className="flex flex-wrap gap-1">
@@ -232,7 +236,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                       </div>
                     )}
 
-                    {report.insights.keyQuotes.length > 0 && (
+                    {report.insights.keyQuotes && report.insights.keyQuotes.length > 0 && (
                       <div>
                         <p className="text-xs text-muted-foreground mb-2">Key Quotes</p>
                         <div className="space-y-2">

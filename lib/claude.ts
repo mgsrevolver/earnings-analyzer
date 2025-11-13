@@ -63,7 +63,7 @@ export async function analyzeEarningsReport(
         : reportText;
 
     const message = await anthropic.messages.create({
-      model: "claude-haiku-3-5-20241022",
+      model: "claude-3-5-haiku-20241022",
       max_tokens: 2000,
       messages: [
         {
@@ -121,7 +121,7 @@ Format as a concise 5-7 bullet point summary.`;
 
   try {
     const message = await anthropic.messages.create({
-      model: "claude-haiku-3-5-20241022",
+      model: "claude-3-5-haiku-20241022",
       max_tokens: 1500,
       messages: [
         {
