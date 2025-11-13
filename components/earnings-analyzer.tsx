@@ -134,7 +134,125 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
             </div>
 
             {results.successfulAnalyses > 0 && (
-              <EarningsOverview results={results} />
+              <>
+                <EarningsOverview results={results} />
+
+                <Card>
+                  <CardHeader>
+                    <CardTitle>Detailed Quarterly Reports</CardTitle>
+                    <CardDescription>
+                      In-depth analysis of each quarter's earnings filing
+                    </CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-4">
+                      {results.reports.map((report, index) => (
+                        <Card key={index}>
+                          <CardHeader>
+                            <div className="flex items-start justify-between">
+                              <div>
+                                <CardTitle className="text-lg">{report.quarter}</CardTitle>
+                                <CardDescription>
+                                  {report.filing.form} • Filed {new Date(report.filing.filingDate).toLocaleDateString()}
+                                </CardDescription>
+                              </div>
+                              <div className="flex items-center gap-2">
+                                {getSentimentIcon(report.insights.overallSentiment)}
+                                <Badge className={getSentimentColor(report.insights.overallSentiment)}>
+                                  {report.insights.overallSentiment}
+                                </Badge>
+                              </div>
+                            </div>
+                          </CardHeader>
+                          <CardContent className="space-y-4">
+                            <div>
+                              <h4 className="font-semibold mb-2">Summary</h4>
+                              <p className="text-sm text-muted-foreground">{report.insights.summary}</p>
+                            </div>
+
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                              <div>
+                                <p className="text-xs text-muted-foreground">Revenue</p>
+                                <p className="text-lg font-semibold">
+                                  {formatCurrency(report.insights.revenue)}
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-xs text-muted-foreground">Net Income</p>
+                                <p className="text-lg font-semibold">
+                                  {formatCurrency(report.insights.netIncome)}
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-xs text-muted-foreground">Guidance</p>
+                                <Badge variant="outline">{report.insights.guidanceDirection || 'unknown'}</Badge>
+                              </div>
+                              <div>
+                                <p className="text-xs text-muted-foreground">Tone</p>
+                                <Badge variant="outline">{report.insights.guidanceTone || 'unknown'}</Badge>
+                              </div>
+                            </div>
+
+                            {report.insights.capexAmount && (
+                              <div>
+                                <p className="text-xs text-muted-foreground">Capex</p>
+                                <p className="text-sm font-medium">
+                                  {formatCurrency(report.insights.capexAmount)}
+                                  {report.insights.capexGrowth && (
+                                    <span className="text-xs text-muted-foreground ml-2">
+                                      ({report.insights.capexGrowth > 0 ? "+" : ""}
+                                      {report.insights.capexGrowth}% YoY)
+                                    </span>
+                                  )}
+                                </p>
+                              </div>
+                            )}
+
+                            {report.insights.partnerships && report.insights.partnerships.length > 0 && (
+                              <div>
+                                <p className="text-xs text-muted-foreground mb-1">Partnerships</p>
+                                <div className="flex flex-wrap gap-1">
+                                  {report.insights.partnerships.map((partner, i) => (
+                                    <Badge key={i} variant="secondary" className="text-xs">
+                                      {partner}
+                                    </Badge>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
+                            {report.insights.keyQuotes && report.insights.keyQuotes.length > 0 && (
+                              <div>
+                                <p className="text-xs text-muted-foreground mb-2">Key Quotes</p>
+                                <div className="space-y-2">
+                                  {report.insights.keyQuotes.map((quote, i) => (
+                                    <p key={i} className="text-sm italic border-l-2 border-primary pl-3">
+                                      "{quote}"
+                                    </p>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
+                            <div className="pt-2">
+                              <Button variant="ghost" size="sm" asChild>
+                                <a
+                                  href={report.filing.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  View Original Filing
+                                  <ExternalLink className="ml-2 h-3 w-3" />
+                                </a>
+                              </Button>
+                            </div>
+                          </CardContent>
+                        </Card>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              </>
             )}
 
             {results.successfulAnalyses === 0 && (
@@ -158,112 +276,6 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                 </div>
               </div>
             )}
-
-            <div className="space-y-4">
-              {results.reports.map((report, index) => (
-                <Card key={index}>
-                  <CardHeader>
-                    <div className="flex items-start justify-between">
-                      <div>
-                        <CardTitle className="text-lg">{report.quarter}</CardTitle>
-                        <CardDescription>
-                          {report.filing.form} • Filed {new Date(report.filing.filingDate).toLocaleDateString()}
-                        </CardDescription>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        {getSentimentIcon(report.insights.overallSentiment)}
-                        <Badge className={getSentimentColor(report.insights.overallSentiment)}>
-                          {report.insights.overallSentiment}
-                        </Badge>
-                      </div>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <div>
-                      <h4 className="font-semibold mb-2">Summary</h4>
-                      <p className="text-sm text-muted-foreground">{report.insights.summary}</p>
-                    </div>
-
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                      <div>
-                        <p className="text-xs text-muted-foreground">Revenue</p>
-                        <p className="text-lg font-semibold">
-                          {formatCurrency(report.insights.revenue)}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs text-muted-foreground">Net Income</p>
-                        <p className="text-lg font-semibold">
-                          {formatCurrency(report.insights.netIncome)}
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-xs text-muted-foreground">Guidance</p>
-                        <Badge variant="outline">{report.insights.guidanceDirection || 'unknown'}</Badge>
-                      </div>
-                      <div>
-                        <p className="text-xs text-muted-foreground">Tone</p>
-                        <Badge variant="outline">{report.insights.guidanceTone || 'unknown'}</Badge>
-                      </div>
-                    </div>
-
-                    {report.insights.capexAmount && (
-                      <div>
-                        <p className="text-xs text-muted-foreground">Capex</p>
-                        <p className="text-sm font-medium">
-                          {formatCurrency(report.insights.capexAmount)}
-                          {report.insights.capexGrowth && (
-                            <span className="text-xs text-muted-foreground ml-2">
-                              ({report.insights.capexGrowth > 0 ? "+" : ""}
-                              {report.insights.capexGrowth}% YoY)
-                            </span>
-                          )}
-                        </p>
-                      </div>
-                    )}
-
-                    {report.insights.partnerships && report.insights.partnerships.length > 0 && (
-                      <div>
-                        <p className="text-xs text-muted-foreground mb-1">Partnerships</p>
-                        <div className="flex flex-wrap gap-1">
-                          {report.insights.partnerships.map((partner, i) => (
-                            <Badge key={i} variant="secondary" className="text-xs">
-                              {partner}
-                            </Badge>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {report.insights.keyQuotes && report.insights.keyQuotes.length > 0 && (
-                      <div>
-                        <p className="text-xs text-muted-foreground mb-2">Key Quotes</p>
-                        <div className="space-y-2">
-                          {report.insights.keyQuotes.map((quote, i) => (
-                            <p key={i} className="text-sm italic border-l-2 border-primary pl-3">
-                              "{quote}"
-                            </p>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    <div className="pt-2">
-                      <Button variant="ghost" size="sm" asChild>
-                        <a
-                          href={report.filing.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          View Original Filing
-                          <ExternalLink className="ml-2 h-3 w-3" />
-                        </a>
-                      </Button>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
           </div>
         )}
       </CardContent>

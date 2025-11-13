@@ -97,16 +97,9 @@ export async function getRecentEarningsFilings(
   for (let i = 0; i < recent.form.length; i++) {
     const form = recent.form[i];
 
-    // Only include earnings-related forms
-    if (form === "8-K" || form === "10-Q" || form === "10-K") {
-      // For 8-K, check if it's earnings-related (Item 2.02)
-      if (form === "8-K") {
-        const items = recent.items[i];
-        if (!items || !items.includes("2.02")) {
-          continue; // Skip non-earnings 8-Ks
-        }
-      }
-
+    // Prefer 10-Q and 10-K (comprehensive quarterly/annual reports)
+    // 8-K earnings announcements are often too short for detailed analysis
+    if (form === "10-Q" || form === "10-K") {
       const reportDate = recent.reportDate[i] || recent.filingDate[i];
       const accessionNumber = recent.accessionNumber[i].replace(/-/g, "");
       const filingUrl = `https://www.sec.gov/Archives/edgar/data/${cik.replace(/^0+/, "")}/${accessionNumber}/${recent.primaryDocument[i]}`;
@@ -122,9 +115,8 @@ export async function getRecentEarningsFilings(
       // Use report date as quarter key (YYYY-MM format for grouping by quarter)
       const quarterKey = reportDate.substring(0, 7); // e.g., "2025-07"
 
-      // Prefer 10-Q/10-K over 8-K for the same quarter
-      const existing = filingsByQuarter.get(quarterKey);
-      if (!existing || (existing.form === "8-K" && form !== "8-K")) {
+      // Only add if we don't already have this quarter
+      if (!filingsByQuarter.has(quarterKey)) {
         filingsByQuarter.set(quarterKey, filing);
       }
     }

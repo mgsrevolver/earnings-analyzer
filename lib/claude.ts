@@ -7,6 +7,8 @@ const anthropic = new Anthropic({
 
 const ANALYSIS_PROMPT = `You are an expert financial analyst specializing in earnings report analysis. Your task is to extract key macro insights from earnings reports that would be valuable to retail investors looking for market trends.
 
+IMPORTANT: You must respond with ONLY valid JSON. Do not include any text before or after the JSON object.
+
 Analyze the provided earnings report text and extract the following information in JSON format:
 
 {
@@ -44,7 +46,9 @@ Focus on:
 4. Macro signals (capex, partnerships, supply chain, AI investment)
 5. Management credibility and tone
 
-If a field cannot be determined from the text, use null or "unknown" as appropriate. Be precise with numbers and extract actual dollar amounts when mentioned.`;
+If a field cannot be determined from the text, use null or "unknown" as appropriate. Be precise with numbers and extract actual dollar amounts when mentioned.
+
+Respond with ONLY the JSON object, nothing else.`;
 
 /**
  * Analyze an earnings report using Claude Haiku
@@ -87,11 +91,17 @@ ${truncatedText}`,
     // Try to find JSON in the response
     const jsonMatch = responseText.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
+      console.error("Claude response did not contain JSON. Response:", responseText.substring(0, 500));
       throw new Error("No JSON found in Claude response");
     }
 
-    const insights: EarningsInsights = JSON.parse(jsonMatch[0]);
-    return insights;
+    try {
+      const insights: EarningsInsights = JSON.parse(jsonMatch[0]);
+      return insights;
+    } catch (parseError) {
+      console.error("Failed to parse JSON from Claude response:", jsonMatch[0].substring(0, 500));
+      throw new Error(`Invalid JSON from Claude: ${parseError instanceof Error ? parseError.message : 'Unknown error'}`);
+    }
   } catch (error) {
     console.error("Error analyzing earnings report:", error);
     throw error;

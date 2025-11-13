@@ -37,8 +37,23 @@ export async function POST(
           const { text } = await getFilingWithText(filing);
 
           // Determine quarter from report date
+          // The reportDate is the END of the fiscal period being reported
           const reportDate = new Date(filing.reportDate);
-          const quarter = `Q${Math.floor(reportDate.getMonth() / 3) + 1} ${reportDate.getFullYear()}`;
+          const month = reportDate.getMonth(); // 0-11
+          const year = reportDate.getFullYear();
+
+          // Calculate fiscal quarter based on the END month of the period
+          // Q1: Jan-Mar (ends in Mar/month 2)
+          // Q2: Apr-Jun (ends in Jun/month 5)
+          // Q3: Jul-Sep (ends in Sep/month 8)
+          // Q4: Oct-Dec (ends in Dec/month 11)
+          let fiscalQuarter;
+          if (month <= 2) fiscalQuarter = 1;
+          else if (month <= 5) fiscalQuarter = 2;
+          else if (month <= 8) fiscalQuarter = 3;
+          else fiscalQuarter = 4;
+
+          const quarter = `Q${fiscalQuarter} ${year}`;
 
           const insights = await analyzeEarningsReport(
             company.name,

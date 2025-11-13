@@ -29,20 +29,29 @@ export default async function CompanyPage({
         </Link>
 
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-4">
-            <Badge variant="outline" className="text-lg px-3 py-1">
-              {company.ticker}
-            </Badge>
-            {company.category.map((cat) => (
-              <Badge key={cat} variant="secondary">
-                {cat}
-              </Badge>
-            ))}
+          <div className="flex items-start justify-between gap-6">
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-4">
+                <Badge variant="outline" className="text-lg px-3 py-1">
+                  {company.ticker}
+                </Badge>
+                {company.category.map((cat) => (
+                  <Badge key={cat} variant="secondary">
+                    {cat}
+                  </Badge>
+                ))}
+              </div>
+              <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
+              <p className="text-muted-foreground">
+                CIK: {company.cik}
+              </p>
+            </div>
+            <div className="flex-shrink-0">
+              <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-3xl font-bold shadow-lg">
+                {company.ticker.slice(0, 2)}
+              </div>
+            </div>
           </div>
-          <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
-          <p className="text-muted-foreground">
-            CIK: {company.cik}
-          </p>
         </div>
 
         <EarningsAnalyzer company={company} />
