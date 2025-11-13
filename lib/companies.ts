@@ -226,6 +226,10 @@ export const COMPANIES: Company[] = [
 ];
 
 // Helper functions
+export function getAllCompanies(): Company[] {
+  return COMPANIES;
+}
+
 export function getCompaniesByCategory(category: string): Company[] {
   return COMPANIES.filter((company) =>
     company.category.includes(category as any)

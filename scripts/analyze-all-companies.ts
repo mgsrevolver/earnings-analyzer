@@ -10,11 +10,15 @@
  * Estimated cost: $5-10 in Anthropic API credits
  */
 
+import { config } from 'dotenv';
 import { writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { getAllCompanies } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
 import { analyzeEarningsReport } from '../lib/claude';
+
+// Load environment variables from .env.local
+config({ path: join(process.cwd(), '.env.local') });
 
 const DATA_DIR = join(process.cwd(), 'data', 'earnings');
 const DELAY_BETWEEN_CALLS = 20000; // 20 seconds (safe for 50k tokens/min limit)
