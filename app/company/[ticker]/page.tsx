@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getCompanyByTicker } from "@/lib/companies";
 import { EarningsAnalyzer } from "@/components/earnings-analyzer";
+import { getCachedEarnings } from "@/lib/earnings-cache";
 import { ArrowLeft } from "lucide-react";
 
 export default async function CompanyPage({
@@ -17,6 +18,9 @@ export default async function CompanyPage({
   if (!company) {
     notFound();
   }
+
+  // Load cached earnings data
+  const cachedEarnings = getCachedEarnings(ticker);
 
   return (
     <main className="min-h-screen p-8 bg-background">
@@ -54,7 +58,7 @@ export default async function CompanyPage({
           </div>
         </div>
 
-        <EarningsAnalyzer company={company} />
+        <EarningsAnalyzer company={company} initialData={cachedEarnings} />
       </div>
     </main>
   );
