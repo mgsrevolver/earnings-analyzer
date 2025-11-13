@@ -119,3 +119,19 @@ export interface EarningsEvent {
   confirmed: boolean;
   fiscalQuarter: string;
 }
+
+// Analysis report from API
+export interface AnalysisReport {
+  filing: Filing;
+  insights: EarningsInsights;
+  quarter: string;
+  analyzedSuccessfully: boolean;
+}
+
+// Analysis response from API
+export interface AnalysisResponse {
+  company: Company;
+  reports: AnalysisReport[];
+  totalFetched: number;
+  successfulAnalyses: number;
+}

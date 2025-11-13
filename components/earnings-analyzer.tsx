@@ -5,24 +5,11 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Loader2, TrendingUp, TrendingDown, Minus, ExternalLink } from "lucide-react";
-import { Company, EarningsInsights, Filing } from "@/types";
+import { Company, AnalysisResponse } from "@/types";
+import { EarningsOverview } from "./earnings-overview";
 
 interface EarningsAnalyzerProps {
   company: Company;
-}
-
-interface AnalysisReport {
-  filing: Filing;
-  insights: EarningsInsights;
-  quarter: string;
-  analyzedSuccessfully: boolean;
-}
-
-interface AnalysisResponse {
-  company: Company;
-  reports: AnalysisReport[];
-  totalFetched: number;
-  successfulAnalyses: number;
 }
 
 export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
@@ -145,6 +132,10 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
                 Refresh Analysis
               </Button>
             </div>
+
+            {results.successfulAnalyses > 0 && (
+              <EarningsOverview results={results} />
+            )}
 
             {results.successfulAnalyses === 0 && (
               <div className="p-6 border-2 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950 rounded-lg">
