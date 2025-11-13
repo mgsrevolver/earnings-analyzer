@@ -206,17 +206,16 @@ export async function POST(
       }
     }
 
-    // Sort by date descending and take the last 5 quarters
+    // Sort by date descending - show all analyzed quarters
     finalReports.sort((a, b) => b.filing.reportDate.localeCompare(a.filing.reportDate));
-    const last5Quarters = finalReports.slice(0, 5);
 
     console.log('Analysis complete!');
 
     return NextResponse.json({
       company,
-      reports: last5Quarters,
+      reports: finalReports,
       totalFetched: filings.length,
-      successfulAnalyses: last5Quarters.length
+      successfulAnalyses: finalReports.length
     });
   } catch (error) {
     console.error('Error in analyze API:', error);

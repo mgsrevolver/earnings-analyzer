@@ -132,7 +132,7 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
       {/* Financial Metrics Chart */}
       <Card>
         <CardHeader>
-          <CardTitle>Financial Performance - Last 5 Quarters</CardTitle>
+          <CardTitle>Financial Performance Trend</CardTitle>
         </CardHeader>
         <CardContent>
           <ResponsiveContainer width="100%" height={300}>

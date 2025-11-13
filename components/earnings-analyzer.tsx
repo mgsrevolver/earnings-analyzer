@@ -80,7 +80,7 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
       <CardHeader>
         <CardTitle>Earnings Analysis</CardTitle>
         <CardDescription>
-          AI-powered analysis of the last 5 quarters using Claude Haiku
+          AI-powered analysis using Claude Haiku
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -92,10 +92,10 @@ export function EarningsAnalyzer({ company }: EarningsAnalyzerProps) {
               partnerships, and sentiment analysis.
             </p>
             <Button onClick={analyzeEarnings} size="lg">
-              Analyze Last 5 Quarters
+              Analyze Earnings History
             </Button>
             <p className="text-xs text-muted-foreground mt-4">
-              Cost: ~$0.05 (5 reports × $0.01 each)
+              Analyzes last ~3 years of quarterly reports
             </p>
           </div>
         )}
