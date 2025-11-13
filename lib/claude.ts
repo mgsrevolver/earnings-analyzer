@@ -95,22 +95,35 @@ export async function analyzeEarningsReport(
         ];
       }
 
-      // Find ALL matches and take the last one (quarterly tables are often at the end)
+      // For 10-K: find LAST occurrence (tables at end). For 10-Q: find FIRST occurrence (statements at beginning)
       let bestMatch = -1;
-      for (const keyword of keywords) {
-        let searchIndex = 0;
-        let lastFound = -1;
 
-        while (true) {
-          const index = reportText.toLowerCase().indexOf(keyword, searchIndex);
-          if (index === -1) break;
-          lastFound = index;
-          searchIndex = index + keyword.length;
+      if (formType === "10-K") {
+        // For 10-K, search for LAST occurrence
+        for (const keyword of keywords) {
+          let searchIndex = 0;
+          let lastFound = -1;
+
+          while (true) {
+            const index = reportText.toLowerCase().indexOf(keyword, searchIndex);
+            if (index === -1) break;
+            lastFound = index;
+            searchIndex = index + keyword.length;
+          }
+
+          if (lastFound !== -1 && (bestMatch === -1 || lastFound > bestMatch)) {
+            bestMatch = lastFound;
+            console.log(`Found "${keyword}" at position ${lastFound} (last occurrence)`);
+          }
         }
-
-        if (lastFound !== -1 && (bestMatch === -1 || lastFound > bestMatch)) {
-          bestMatch = lastFound;
-          console.log(`Found "${keyword}" at position ${lastFound}`);
+      } else {
+        // For 10-Q, search for FIRST occurrence
+        for (const keyword of keywords) {
+          const index = reportText.toLowerCase().indexOf(keyword);
+          if (index !== -1 && (bestMatch === -1 || index < bestMatch)) {
+            bestMatch = index;
+            console.log(`Found "${keyword}" at position ${index} (first occurrence)`);
+          }
         }
       }
 
@@ -118,7 +131,7 @@ export async function analyzeEarningsReport(
         // Found financial section - extract from there
         const startIndex = Math.max(0, bestMatch - 5000);
         truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-        console.log(`Extracting 10-K from position ${startIndex} to ${startIndex + maxLength}`);
+        console.log(`Extracting from position ${startIndex} to ${startIndex + maxLength}`);
       } else {
         // Fallback: for 10-K, try to take from the MIDDLE/END where notes usually are
         if (formType === "10-K") {
@@ -127,6 +140,7 @@ export async function analyzeEarningsReport(
           console.log(`No quarterly keywords found. Extracting from 60% mark (${startIndex})`);
         } else {
           truncatedText = reportText.substring(0, maxLength) + "...";
+          console.log(`No keywords found. Taking first ${maxLength} characters`);
         }
       }
     }
