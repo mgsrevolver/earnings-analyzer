@@ -40,29 +40,28 @@ export async function POST(
           // Determine quarter from report date
           // The reportDate is the END of the fiscal period being reported
           // For most calendar-year companies:
-          // - Report ending ~Jan 31 = Q4 of previous year
-          // - Report ending ~Apr 30 = Q1
-          // - Report ending ~Jul 31 = Q2
-          // - Report ending ~Oct 31 = Q3
+          // - Report ending Dec 31 = Q4
+          // - Report ending Mar 31 = Q1
+          // - Report ending Jun 30 = Q2
+          // - Report ending Sep 30 = Q3
           const reportDate = new Date(filing.reportDate);
           const month = reportDate.getMonth(); // 0-11
           let year = reportDate.getFullYear();
 
           // Map the ending month to the quarter that ended
           let fiscalQuarter;
-          if (month === 0 || month === 1) {
-            // Jan/Feb = Q4 of previous year
-            fiscalQuarter = 4;
-            year = year - 1;
-          } else if (month >= 2 && month <= 4) {
-            // Mar-May = Q1
+          if (month >= 0 && month <= 2) {
+            // Jan-Mar = Q1
             fiscalQuarter = 1;
-          } else if (month >= 5 && month <= 7) {
-            // Jun-Aug = Q2
+          } else if (month >= 3 && month <= 5) {
+            // Apr-Jun = Q2
             fiscalQuarter = 2;
-          } else {
-            // Sep-Dec = Q3
+          } else if (month >= 6 && month <= 8) {
+            // Jul-Sep = Q3
             fiscalQuarter = 3;
+          } else {
+            // Oct-Dec = Q4
+            fiscalQuarter = 4;
           }
 
           const quarter = `Q${fiscalQuarter} ${year}`;
