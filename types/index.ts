@@ -242,6 +242,14 @@ export interface AnalysisReport {
   filing: Filing;
   insights: EarningsInsights;
   quarter: string;
+  quarterInfo?: {
+    calendarQuarter: number;
+    calendarYear: number;
+    fiscalQuarter: number;
+    fiscalYear: number;
+    quarter: string;
+    reportDate: string;
+  };
   analyzedSuccessfully: boolean;
 }
 
