@@ -10,6 +10,7 @@ import { getSectorComparison } from "@/lib/macro";
 import { SectorComparison } from "@/components/sector-comparison";
 import { NextEarnings } from "@/components/next-earnings";
 import { getCompanyLogoUrl } from "@/lib/logos";
+import { PinnedHeader } from "@/components/pinned-header";
 import { ArrowLeft } from "lucide-react";
 import { join } from "path";
 
@@ -34,6 +35,7 @@ export default async function CompanyPage({
 
   return (
     <main className="min-h-screen p-8 bg-background">
+      <PinnedHeader company={company} results={cachedEarnings} />
       <div className="max-w-7xl mx-auto">
         <Link href="/">
           <Button variant="ghost" className="mb-6">
@@ -89,8 +91,6 @@ export default async function CompanyPage({
             ranking={sectorComparison.ranking}
           />
         )}
-
-        <EarningsAnalyzer company={company} initialData={cachedEarnings} />
       </div>
     </main>
   );
