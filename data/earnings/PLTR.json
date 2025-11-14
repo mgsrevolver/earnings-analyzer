@@ -5,6 +5,8 @@
     "category": [
       "Tech"
     ],
+    "sector": "Technology",
+    "subCategory": "AI/ML",
     "cik": "0001321655"
   },
   "reports": [
@@ -19,7 +21,7 @@
       "insights": {
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
-        "bookingsGrowth": null,
+        "bookingsGrowth": 63,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 1181.092,
@@ -27,21 +29,29 @@
         "operatingCashFlow": 1357.178,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 730.4,
-        "marketShareMention": null,
+        "deferredRevenue": 316.722,
+        "marketShareMention": "Expanding customer relationships with average top 20 customer revenue growing 38%",
         "customerConcentration": null,
-        "geographicBreakdown": null,
+        "geographicBreakdown": {
+          "United_States": 75,
+          "United_Kingdom": 10,
+          "Rest_of_World": 15
+        },
         "capexAmount": 20.61,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong quarterly performance with revenue of $1.18 billion and net income of $476.7 million, representing significant year-over-year growth. The company demonstrated robust financial health with positive cash flow and continued expansion.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q3 performance with 63% revenue growth, reaching $1.2 billion. The company continues to expand its AI platform and government/commercial customer base, demonstrating robust execution and market positioning.",
+        "keyQuotes": [
+          "We believe AIP uniquely allows users to connect LLMs and other AI with their data and operations",
+          "Every institution faces challenges that our platforms and products were designed to address"
+        ],
+        "marketData": {}
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -67,27 +77,35 @@
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 1003.697,
         "netIncome": 328.572,
         "operatingCashFlow": 849.514,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 685.9,
-        "marketShareMention": null,
-        "customerConcentration": 22,
-        "geographicBreakdown": null,
+        "deferredRevenue": 376.784,
+        "marketShareMention": "expanding reach among an increasingly broad set of customers in both commercial and government sectors",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 73,
+          "United Kingdom": 10,
+          "Rest of World": 17
+        },
         "capexAmount": 13.818,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": null,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong financial performance in Q2 2025, with quarterly revenue of $1.0 billion and net income of $328.6 million. The company demonstrated robust financial health with high operating cash flow and continued investment in growth.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q2 2025 results with 48% year-over-year revenue growth and continued expansion in government and commercial sectors. The company remains focused on AI platform development and maintaining its software platform leadership.",
+        "keyQuotes": [
+          "We believe AIP uniquely allows users to connect LLMs and other AI with their data and operations to facilitate decision-making within the legal, ethical, and security constraints that they require.",
+          "We anticipate that our reach among an increasingly broad set of customers, in both the commercial and government sectors, will accelerate moving forward."
+        ],
+        "marketData": {}
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -110,30 +128,38 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 883.855,
         "netIncome": 217.717,
         "operatingCashFlow": 310.263,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 587.5,
-        "marketShareMention": null,
-        "customerConcentration": 23,
-        "geographicBreakdown": null,
+        "deferredRevenue": 318.556,
+        "marketShareMention": "Expanding reach among increasingly broad customer set",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 71,
+          "United_Kingdom": 10,
+          "Rest_of_World": 19
+        },
         "capexAmount": 6.184,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": null,
-        "priorGuidanceHit": null,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong quarterly performance with robust revenue growth and profitability, driven by solid operational execution and continued operational efficiency. The company maintained a positive outlook with continued investment in growth and technology platforms.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q1 2025 performance with 39% revenue growth, expanding customer base, and robust profitability. The company continues to see significant traction in both government and commercial sectors, with AI platform deployment and strong U.S. market presence driving growth.",
+        "keyQuotes": [
+          "We believe that every institution faces challenges that our platforms and products were designed to address.",
+          "We anticipate that our reach among an increasingly broad set of customers, in both the commercial and government sectors, will accelerate moving forward."
+        ],
+        "marketData": {}
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -159,7 +185,7 @@
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "unknown",
-        "headcountTrend": "unknown",
+        "headcountTrend": "stable",
         "revenue": null,
         "netIncome": null,
         "operatingCashFlow": null,
@@ -174,19 +200,19 @@
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "AI regulation",
-          "Export control regulations",
-          "Data privacy laws"
+          "Emerging AI regulations in EU and US",
+          "Data privacy and export control regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "cautious",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Palantir faces complex regulatory environments, significant government contract dependencies, and emerging technological challenges, particularly around AI and data privacy regulations. The company maintains a strategic focus on government and public sector markets while navigating potential geopolitical and technological risks.",
+        "summary": "Palantir's 2024 annual report highlights complex regulatory challenges, particularly around AI, data privacy, and government contracting. The company remains cautious about potential legal and compliance risks while continuing to invest in AI technologies.",
         "keyQuotes": [
-          "We generally do not enter into business with customers or governments whose positions or actions we consider inconsistent with our mission to support Western liberal democracy and its strategic allies.",
-          "Our leadership believes that working with the Chinese communist party is inconsistent with our culture and mission."
-        ]
+          "We have intentionally made certain proprietary software available on an open source basis",
+          "Our platforms include data governance, machine learning modeling, as well as model testing and evaluation tools"
+        ],
+        "marketData": {}
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -213,26 +239,35 @@
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
-        "revenue": 725.516,
-        "netIncome": 149.341,
-        "operatingCashFlow": 693.538,
+        "revenue": 725.5,
+        "netIncome": 149.3,
+        "operatingCashFlow": 693.5,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 236.608,
-        "marketShareMention": null,
-        "customerConcentration": 21,
-        "geographicBreakdown": null,
-        "capexAmount": 9.528,
+        "deferredRevenue": 236.6,
+        "marketShareMention": "Expanding platforms across government and commercial sectors",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 69,
+          "United Kingdom": 10,
+          "Rest of World": 21
+        },
+        "capexAmount": 9.5,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q3 performance with quarterly revenue of $725.5 million and net income of $149.3 million. The company demonstrated robust financial health with significant cash flow generation and continued operational expansion.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q3 performance with 30% revenue growth and expanded profitability. The company continues to invest in AI capabilities and sees strong momentum across government and commercial segments.",
+        "keyQuotes": [
+          "We build software that empowers organizations to effectively integrate their data, decisions, and operations at scale.",
+          "AIP uniquely allows users to connect LLMs and other AI with their data and operations to facilitate decision-making",
+          "We believe that every institution faces challenges that our platforms and products were designed to address."
+        ],
+        "marketData": {}
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -254,7 +289,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000135/pltr-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
@@ -264,21 +299,29 @@
         "operatingCashFlow": 273.766,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 278.441,
+        "deferredRevenue": 294.09,
         "marketShareMention": null,
-        "customerConcentration": 32,
-        "geographicBreakdown": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 64,
+          "United Kingdom": 11,
+          "Rest of World": 25
+        },
         "capexAmount": 5.543,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong quarterly performance with robust revenue growth and profitability. The company maintained a positive outlook, demonstrated strong operational efficiency, and continued to generate significant cash flow from operations.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q2 performance with 27% year-over-year revenue growth to $678.1 million and net income of $135.6 million. The company continues to expand its AI platform and maintain robust gross margins around 81%. Government and commercial segments both showed solid growth.",
+        "keyQuotes": [
+          "We believe AIP uniquely allows users to connect LLMs and other AI with their data and operations to facilitate decision-making within the legal, ethical, and security constraints that they require.",
+          "Our approach with all our clients is to establish a partnership that transforms the way they use data in pursuit of their goals."
+        ],
+        "marketData": {}
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -304,27 +347,37 @@
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 634.338,
         "netIncome": 106.071,
         "operatingCashFlow": 129.579,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 477.2,
+        "deferredRevenue": 257.917,
         "marketShareMention": null,
-        "customerConcentration": 22,
-        "geographicBreakdown": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 64,
+          "Rest_of_World": 36
+        },
         "capexAmount": 2.664,
         "capexGrowth": null,
-        "partnerships": [],
+        "partnerships": [
+          "Ukraine defense and reconstruction",
+          "Israeli Defense Ministry strategic partnership"
+        ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q1 2024 performance with significant revenue growth and profitability. The company demonstrated robust financial health with increased net income and positive operating cash flow, indicating strong operational efficiency.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q1 2024 performance with 21% revenue growth and expanding customer base across government and commercial sectors. The company continues to invest in AI platforms and strategic international partnerships while maintaining a positive outlook.",
+        "keyQuotes": [
+          "We believe that every institution faces challenges that our platforms and products were designed to address.",
+          "We are working to identify additional component parts and products embedded within those platforms that have potential as commercial offerings on their own."
+        ],
+        "marketData": {}
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -339,6 +392,61 @@
     },
     {
       "filing": {
+        "accessionNumber": "0001321655-24-000022",
+        "filingDate": "2024-02-20",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000022/pltr-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "cautious",
+        "revenue": null,
+        "netIncome": null,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "AI regulation",
+          "export control restrictions",
+          "data privacy laws"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Palantir's 2023 annual report highlights regulatory challenges and strategic focus on AI and government contracts, while maintaining a cautious approach to expansion and headcount. The company faces complex legal, data privacy, and export control environments.",
+        "keyQuotes": [
+          "We do not work with the Chinese communist party and have chosen not to host our platforms in China",
+          "Our culture prioritizes customer outcomes over short-term financial results",
+          "We have established processes to help alleviate risks, including a review process for screening requests from our development organization"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001321655-23-000118",
         "filingDate": "2023-11-03",
         "reportDate": "2023-09-30",
@@ -348,7 +456,7 @@
       "insights": {
         "guidanceTone": "positive",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
+        "bookingsGrowth": 17,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 558.159,
@@ -356,21 +464,29 @@
         "operatingCashFlow": 411.011,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 258.387,
-        "marketShareMention": null,
-        "customerConcentration": 34,
-        "geographicBreakdown": null,
+        "deferredRevenue": 223.507,
+        "marketShareMention": "Expanding reach among increasingly broad set of customers in commercial and government sectors",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 62,
+          "United_Kingdom": 11,
+          "Rest_of_World": 27
+        },
         "capexAmount": 10.254,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q3 2023 results with quarterly revenue of $558.2M and net income of $73.4M, representing continued profitable growth. The company maintains a robust cash position and shows positive operational momentum.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q3 performance with 17% revenue growth to $558.2 million and return to profitability. The company continues to expand its AI platform and sees promising growth opportunities in both government and commercial sectors.",
+        "keyQuotes": [
+          "We believe that every institution faces challenges that our platforms and products were designed to address.",
+          "We anticipate that our reach among an increasingly broad set of customers, in both the commercial and government sectors, will accelerate moving forward."
+        ],
+        "marketData": {}
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -395,28 +511,36 @@
         "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 533.317,
         "netIncome": 27.872,
         "operatingCashFlow": 277.568,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 310.743,
-        "marketShareMention": null,
-        "customerConcentration": 10,
-        "geographicBreakdown": null,
+        "deferredRevenue": 260.335,
+        "marketShareMention": "expanding relationships with existing customers",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 62,
+          "United Kingdom": 12,
+          "Rest of World": 26
+        },
         "capexAmount": 8.689,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered a strong quarterly performance with positive net income, robust operating cash flow, and continued revenue growth. The company maintained a stable workforce and demonstrated financial discipline with controlled operating expenses.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q2 performance with 13% YoY revenue growth and return to profitability. The company continues to expand its government and commercial customer base, with robust gross margins and increasing investment in AI capabilities.",
+        "keyQuotes": [
+          "We build software that empowers organizations to effectively integrate their data, decisions, and operations at scale.",
+          "AIP is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence"
+        ],
+        "marketData": {}
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -448,24 +572,29 @@
         "operatingCashFlow": 187.376,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 427.9,
-        "marketShareMention": null,
-        "customerConcentration": 10,
+        "deferredRevenue": 283.951,
+        "marketShareMention": "Expanding relationships with existing customers",
+        "customerConcentration": null,
         "geographicBreakdown": {
-          "government": 55,
-          "commercial": 45
+          "United_States": 64,
+          "United_Kingdom": 9,
+          "Rest_of_World": 27
         },
         "capexAmount": 4.755,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q1 performance with revenue growth and positive net income, driven by continued strength in government and commercial segments. The company maintained a solid cash position and demonstrated operational efficiency.",
-        "keyQuotes": []
+        "summary": "Palantir delivered strong Q1 2023 performance with 18% revenue growth to $525.2M and a return to profitability with $19.2M net income. The company continues to see robust demand across government and commercial sectors, with 391 total customers and expanding relationships.",
+        "keyQuotes": [
+          "We believe that every institution faces challenges that our platforms and products were designed to address.",
+          "We are in the process of developing and releasing components of our newest offering, the Artificial Intelligence Platform (AIP)."
+        ],
+        "marketData": {}
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -480,6 +609,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 10,
-  "lastUpdated": "2025-11-14T00:40:36.301Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T02:39:28.448Z"
 }

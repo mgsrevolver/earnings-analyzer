@@ -1,0 +1,677 @@
+{
+  "company": {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0000875320"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000875320-25-000232",
+        "filingDate": "2025-11-04",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000232/vrtx-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 3076.4,
+        "netIncome": 1082.9,
+        "operatingCashFlow": 3133.4,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 182,
+        "marketShareMention": "Collectively, our five medicines are being used to treat more than three quarters of the approximately 94,000 people with CF in the U.S., Europe, Australia, and Canada",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 64.3,
+          "Europe": 27.2,
+          "Other": 8.5
+        },
+        "capexAmount": 288.2,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics AG gene-editing collaboration",
+          "Zai Lab povetacicept development in China",
+          "Ono Pharmaceuticals povetacicept development in Japan/Korea"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q3 results with product revenues of $3.1 billion, driven by continued TRIKAFTA/KAFTRIO demand and successful launches of ALYFTREK, CASGEVY, and JOURNAVX. The company continues to expand its CF and cell therapy franchises while maintaining robust financial performance.",
+        "keyQuotes": [
+          "We expect that the number of people with CF taking our medicines will continue to grow through new approvals and reimbursement agreements",
+          "Globally, since launch through September 30, 2025, approximately 165 people with SCD or TDT have had their first cell collection for CASGEVY"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-25-000216",
+        "filingDate": "2025-08-05",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000216/vrtx-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 2944,
+        "netIncome": 1032.9,
+        "operatingCashFlow": 1892,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 146.9,
+        "marketShareMention": "More than three quarters of ~94,000 CF patients in US, Europe, Australia, Canada now treated with Vertex medicines",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 62.1,
+          "Europe": 30.9,
+          "Other": 7
+        },
+        "capexAmount": 186.4,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics (gene editing)",
+          "Moderna (CF mRNA therapy)",
+          "Zai Lab (povetacicept licensing)",
+          "Ono Pharmaceuticals (povetacicept licensing)",
+          "CRISPR Therapeutics AG",
+          "Alphinе Immune Sciences Inc",
+          "Entrada Therapeutics",
+          "Zai Lab Limited",
+          "Ono Pharmaceuticals Co. Ltd."
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q2 2025 results with product revenues growing to $2.9B, driven by continued TRIKAFTA/KAFTRIO demand and early contributions from new product launches. The company maintains a robust pipeline across multiple therapeutic areas and continues to expand market access for its key medicines.",
+        "keyQuotes": [
+          "We expect that the number of people with CF taking our medicines will continue to grow through new approvals and reimbursement agreements.",
+          "We continue to advance a diversified pipeline of potentially transformative medicines for serious diseases utilizing a range of modalities."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-25-000192",
+        "filingDate": "2025-05-06",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000192/vrtx-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2770.2,
+        "netIncome": 646.3,
+        "operatingCashFlow": 818.9,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 228.4,
+        "marketShareMention": "Treating nearly three quarters of approximately 94,000 CF patients in U.S., Europe, Australia, and Canada",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "UnitedStates": 59.9,
+          "Europe": 29.9,
+          "Other": 10.2
+        },
+        "capexAmount": 40.7,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration",
+          "Moderna collaboration on VX-522",
+          "Zai Lab collaboration for povetacicept",
+          "CRISPR Therapeutics AG",
+          "Entrada Therapeutics",
+          "Zai Lab Limited"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q1 2025 results driven by continued cystic fibrosis franchise performance and initial contributions from new products like ALYFTREK and JOURNAVX. The company continues to invest in pipeline expansion across multiple therapeutic areas with a focus on rare diseases.",
+        "keyQuotes": [
+          "We expect to grow our CF business by increasing the number of people with CF who are eligible and able to receive our medicines.",
+          "We continue to advance a diversified pipeline of potentially transformative medicines for serious diseases utilizing a range of modalities."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-25-000053",
+        "filingDate": "2025-02-13",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532025000053/vrtx-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": null,
+        "netIncome": null,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Substantial revenues derived from CF medicines, with ongoing efforts to expand market through serial innovation and extending access",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR",
+          "Moderna",
+          "Entrada",
+          "Zai",
+          "CRISPR Therapeutics AG",
+          "Alphine Immune Sciences Inc",
+          "Septena Inc",
+          "Catalyst Biosciences",
+          "Entrada Therapeutics",
+          "Editas Medicine Inc",
+          "Zai Lab Limited"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Complex FDA approval processes for cell and gene therapies",
+          "Evolving data privacy regulations",
+          "Potential drug pricing reforms"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Vertex remains focused on cystic fibrosis market while diversifying into cell and gene therapies like CASGEVY. Facing regulatory complexity, pricing pressures, and competitive challenges across multiple therapeutic areas.",
+        "keyQuotes": [
+          "Our business depends upon the successful development and commercialization of product candidates",
+          "Substantially all of our net product revenues have been derived from the sale of our CF medicines"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-24-000223",
+        "filingDate": "2024-11-05",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000223/vrtx-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2771.9,
+        "netIncome": 1045.4,
+        "operatingCashFlow": -1077.2,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 220,
+        "marketShareMention": "Treating nearly three quarters of approximately 92,000 people with CF in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 61.8,
+          "Europe": 30.6,
+          "Other": 7.6
+        },
+        "capexAmount": 205.1,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration for CASGEVY",
+          "Moderna collaboration for VX-522 mRNA therapy"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong quarterly performance driven by TRIKAFTA/KAFTRIO revenues and continued expansion into new markets and patient populations. The company is preparing for multiple potential product launches in CF and pain therapeutics while maintaining a robust pipeline across several serious disease areas.",
+        "keyQuotes": [
+          "We expect to grow our CF business with (i) label expansions, including into younger patient groups and rare mutations, (ii) continued uptake in younger patient groups, and (iii) growth in the number of people living with CF.",
+          "We continue to advance a diversified pipeline of potentially transformative medicines for serious diseases utilizing a range of modalities."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-24-000198",
+        "filingDate": "2024-08-02",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000198/vrtx-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2645.6,
+        "netIncome": -3593.6,
+        "operatingCashFlow": -2447,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 128.3,
+        "marketShareMention": "leading CF treatment with nearly three quarters of CF patients in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 61,
+          "Europe": 30.5,
+          "Other": 8.5
+        },
+        "capexAmount": 137.4,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics for gene-editing therapies",
+          "Moderna for mRNA CF therapy",
+          "Entrada Therapeutics for myotonic dystrophy therapy",
+          "CRISPR Therapeutics",
+          "Alphine Immune Sciences"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Vertex reported strong CF product revenues and continued pipeline advancement across multiple therapeutic areas. The quarter was marked by the Alpine Immune Sciences acquisition and preparation for potential near-term product launches in CF and pain management.",
+        "keyQuotes": [
+          "We expect to grow our CF business with label expansions, continued uptake in younger patient groups, and growth in the number of people living with CF.",
+          "We continue to advance a diversified pipeline of potentially transformative medicines for serious diseases utilizing a range of modalities."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-24-000139",
+        "filingDate": "2024-05-07",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000139/vrtx-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2690.6,
+        "netIncome": 1099.6,
+        "operatingCashFlow": 1306.6,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 275.8,
+        "marketShareMention": "Nearly three quarters of approximately 92,000 people with CF in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 56.5,
+          "Europe": 36,
+          "Other": 7.5
+        },
+        "capexAmount": 68.4,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration for CASGEVY",
+          "Moderna collaboration for VX-522 mRNA CF therapy",
+          "Entrada Therapeutics licensing for DM1 therapy",
+          "CRISPR Therapeutics",
+          "Entrada Therapeutics"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q1 results with CF product revenues growing to $2.7 billion, driven by continued market penetration and label expansions. The company is preparing for potential near-term launches in CF and acute pain while maintaining a robust pipeline across multiple therapeutic areas.",
+        "keyQuotes": [
+          "We expect to grow our CF business with continued uptake by patients, label expansions, and growth in the number of people living with CF.",
+          "Our strategy is to combine transformative advances in the understanding of causal human biology and the science of therapeutics to discover and develop innovative medicines."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-24-000062",
+        "filingDate": "2024-02-15",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532024000062/vrtx-20231231.htm"
+      },
+      "insights": {
+        "revenue": 2748.5,
+        "netIncome": -250.80000000000018,
+        "overallSentiment": "neutral",
+        "managementTone": "confident",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "supplyChainStatus": "tight",
+        "capexAmount": null,
+        "capexGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "aiInvestmentMentioned": true,
+        "partnerships": [
+          "Lonza strategic agreement for T1D stem cell manufacturing",
+          "CRISPR collaboration",
+          "Moderna collaboration",
+          "Entrada collaboration"
+        ],
+        "marketShareMention": null,
+        "priorGuidanceHit": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "deferredRevenue": null,
+        "daysalesOutstanding": null,
+        "regulatoryHeadwinds": [
+          "Ongoing drug pricing negotiations",
+          "Cell and gene therapy regulatory complexity",
+          "Potential changes to healthcare laws"
+        ],
+        "summary": "Vertex remains focused on rare disease therapies, particularly cystic fibrosis and emerging cell/gene therapies. The company continues to invest in pipeline development across multiple therapeutic areas while managing complex regulatory and manufacturing challenges.",
+        "keyQuotes": [
+          "We are focused on identifying and ensuring efficient manufacturing and delivery processes for the cell and genetic therapies we are developing.",
+          "We continue to invest significant resources in expanding and strengthening our manufacturing supplies, infrastructure and capabilities.",
+          "We believe that a portion of the value attributed to our company by investors is based on our potential treatments for acute and neuropathic pain."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-23-000031",
+        "filingDate": "2023-11-07",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000031/vrtx-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2483.5,
+        "netIncome": 1035.3,
+        "operatingCashFlow": 3302.7,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 157.1,
+        "marketShareMention": "Collectively, our four medicines are being used to treat more than two-thirds of the approximately 88,000 people with CF in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 62.6,
+          "Europe": 30.9,
+          "Other": 6.5
+        },
+        "capexAmount": 142.3,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration for gene-editing therapies",
+          "Moderna collaboration for CFTR mRNA therapeutic",
+          "Entrada Therapeutics collaboration for myotonic dystrophy"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex continues to demonstrate strong performance in its cystic fibrosis franchise, with Q3 revenues growing to $2.5 billion. The company is advancing multiple pipeline programs across rare diseases and preparing for potential near-term product launches in sickle cell disease, beta thalassemia, and acute pain.",
+        "keyQuotes": [
+          "We are preparing for near-term launches of potential new products in sickle cell disease, beta thalassemia, CF and acute pain",
+          "Our strategy is to combine transformative advances in the understanding of causal human biology and the science of therapeutics to discover and develop innovative medicines"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-23-000021",
+        "filingDate": "2023-08-02",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000021/vrtx-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2493.2,
+        "netIncome": 915.7,
+        "operatingCashFlow": 2034.3,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 179.1,
+        "marketShareMention": "Collectively, our four medicines are being used to treat more than two-thirds of the approximately 88,000 people with CF in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 60.5,
+          "Europe": 32.1,
+          "Other": 7.4
+        },
+        "capexAmount": 101.7,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration for exa-cel",
+          "Moderna collaboration for VX-522 CFTR mRNA therapeutic",
+          "Lonza strategic manufacturing agreement for cell therapies"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q2 performance driven by continued uptake of TRIKAFTA/KAFTRIO and expansion into new patient populations. The company is preparing for multiple potential product launches in sickle cell disease, beta thalassemia, and acute pain while maintaining a robust pipeline across several therapeutic areas.",
+        "keyQuotes": [
+          "We are evaluating our medicines in additional patient populations, including younger children, with the goal of having small molecule treatments for all people who have at least one mutation in their cystic fibrosis transmembrane conductance regulator gene",
+          "We continue to advance a diversified pipeline of potentially transformative small molecule, mRNA, cell and genetic therapies aimed at treating serious diseases"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875320-23-000012",
+        "filingDate": "2023-05-02",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532023000012/vrtx-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 2374.8,
+        "netIncome": 699.8,
+        "operatingCashFlow": 899.9,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 236.4,
+        "marketShareMention": "Collectively, our four medicines are being used to treat more than two-thirds of the approximately 88,000 people with CF in North America, Europe, and Australia",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 59.1,
+          "Europe": 34,
+          "Other": 6.9
+        },
+        "capexAmount": 42.1,
+        "capexGrowth": null,
+        "partnerships": [
+          "CRISPR Therapeutics collaboration for exa-cel",
+          "Moderna collaboration on VX-522 CFTR mRNA therapeutic",
+          "Entrada Therapeutics collaboration for myotonic dystrophy type 1"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential impact from Inflation Reduction Act of 2022"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vertex delivered strong Q1 2023 financial performance with $2.4 billion in revenue and continued advancement of its cystic fibrosis and pipeline therapies. The company is preparing for near-term launches in sickle cell disease, beta thalassemia, and acute pain while maintaining a robust R&D investment strategy.",
+        "keyQuotes": [
+          "We are preparing for near-term launches of potential new products in sickle cell disease, beta thalassemia, CF and acute pain",
+          "We expect to grow our CF business with continued uptake by patients, label expansions, and development of mRNA therapies",
+          "We are advancing a pipeline of potentially transformative small molecule, mRNA, and cell and genetic therapies aimed at treating serious diseases"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T04:46:53.452Z"
+}

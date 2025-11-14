@@ -1,0 +1,714 @@
+{
+  "company": {
+    "ticker": "BIIB",
+    "name": "Biogen Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0000875045"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000875045-25-000049",
+        "filingDate": "2025-10-30",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000049/biib-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 1846.9,
+        "netIncome": 466.5,
+        "operatingCashFlow": 1692.7,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Competitive challenges from generics and biosimilars noted",
+        "customerConcentration": 43.8,
+        "geographicBreakdown": {
+          "US": 50.7,
+          "International": 49.3
+        },
+        "capexAmount": 109.9,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai (LEQEMBI collaboration)",
+          "Genentech (anti-CD20 therapeutic programs)",
+          "Supernus (ZURZUVAE)",
+          "HI-Bio acquisition",
+          "Samsung",
+          "Ionis Pharmaceuticals",
+          "Human Immunology Biosciences",
+          "Alcyone Therapeutics",
+          "Reata Pharmaceuticals"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "IRA Medicare Part D redesign",
+          "Healthcare cost reduction measures"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly performance with cautious outlook amid competitive biosimilar landscape and ongoing restructuring efforts. The company continues to invest in pipeline and strategic acquisitions while managing cost structure through its Fit for Growth program.",
+        "keyQuotes": [
+          "We believe our long-term competitive position depends upon our success in discovering and developing innovative, cost-effective products",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-25-000033",
+        "filingDate": "2025-07-31",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000033/biib-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 1878.7,
+        "netIncome": 634.8,
+        "operatingCashFlow": 420.2,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Ongoing competition from generics and biosimilars in multiple sclerosis and other product categories",
+        "customerConcentration": 43.9,
+        "geographicBreakdown": {
+          "US": 50.1,
+          "RestOfWorld": 49.9
+        },
+        "capexAmount": 63.7,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai for LEQEMBI",
+          "Genentech for anti-CD20 therapeutic programs",
+          "Sage for ZURZUVAE",
+          "HI-Bio acquisition to expand immunology pipeline",
+          "Samsung"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential impact of Inflation Reduction Act",
+          "Medicare Part D redesign",
+          "Healthcare cost reduction measures"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly performance with strategic focus on neurology and immunology pipelines. Ongoing cost reduction efforts through Fit for Growth program while investing in key therapeutic areas like Alzheimer's and rare diseases.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-25-000018",
+        "filingDate": "2025-05-01",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000018/biib-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2431,
+        "netIncome": 240.5,
+        "operatingCashFlow": 259.3,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 40,
+        "geographicBreakdown": {
+          "UnitedStates": 753.8,
+          "RestOfWorld": 972.7
+        },
+        "capexAmount": 37.1,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai (LEQEMBI)",
+          "Samsung Bioepis",
+          "Genentech",
+          "MorphoSys",
+          "Samsung",
+          "Roche Group Genentech"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential IRA Medicare Part D pricing impact",
+          "FDA approval complexities"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly performance with modest revenue growth driven by rare disease and anti-CD20 therapeutic programs. The company continues cost reduction initiatives through its Fit for Growth program while investing selectively in pipeline and emerging technologies.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-25-000009",
+        "filingDate": "2025-02-12",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000009/biib-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 11569993475.2,
+        "netIncome": 2979998634.5,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai - LEQEMBI collaboration",
+          "Sage Therapeutics - ZURZUVAE collaboration",
+          "Ionis - antisense therapeutics collaboration",
+          "Genentech - anti-CD20 therapies collaboration",
+          "UCB - dapirolizumab pegol collaboration",
+          "Denali - LRRK2 inhibitor collaboration",
+          "Samsung Bioepis - biosimilar commercialization",
+          "Samsung",
+          "Reata Pharmaceuticals",
+          "Ionis Pharmaceuticals"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Drug pricing pressures",
+          "Increased regulatory scrutiny",
+          "Healthcare reform challenges"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Biogen faces significant challenges including generic competition for key multiple sclerosis drugs, pricing pressures, and a complex regulatory environment. The company is maintaining a cautious outlook while focusing on pipeline development and strategic collaborations.",
+        "keyQuotes": [
+          "Multiple TECFIDERA generic entrants are now in North America, Brazil and certain European countries and have deeply discounted prices compared to TECFIDERA.",
+          "In the longer term, our revenue growth will depend upon the successful clinical development, regulatory approval and launch of new commercial products",
+          "Economic conditions remain vulnerable as markets continue to be impacted by elevated inflation, higher interest rates, adverse weather events, global supply chain uncertainties"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-24-000032",
+        "filingDate": "2024-10-30",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504524000032/biib-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 1769.4,
+        "netIncome": 388.5,
+        "operatingCashFlow": 2114.6,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 40.7,
+        "geographicBreakdown": {
+          "US": 46,
+          "RestOfWorld": 54
+        },
+        "capexAmount": 114.4,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai for LEQEMBI",
+          "Genentech for anti-CD20 therapies",
+          "Samsung Bioepis for biosimilars",
+          "Samsung",
+          "Reata Pharmaceuticals Inc",
+          "Ionis Pharmaceuticals Inc"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential pricing pressures from Inflation Reduction Act",
+          "Climate-related disclosure requirements"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly results with cautious outlook, focusing on cost reduction through Fit for Growth program and strategic acquisitions in rare diseases. Revenue and net income remained relatively consistent, with continued restructuring efforts.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-24-000025",
+        "filingDate": "2024-08-01",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504524000025/biib-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2464.9,
+        "netIncome": 583.6,
+        "operatingCashFlow": 1179,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 37.7,
+        "geographicBreakdown": {
+          "US": 34.4,
+          "RestOfWorld": 65.6
+        },
+        "capexAmount": 79.4,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai (LEQEMBI)",
+          "Sage (ZURZUVAE)",
+          "Genentech (anti-CD20 therapeutic programs)",
+          "Samsung",
+          "Ionis Pharmaceuticals"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential impact of IRA pricing actions",
+          "FDA regulatory approvals"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly performance with modest revenue and earnings. The company continues its strategic restructuring efforts through the Fit for Growth program while expanding its rare disease and neurology portfolio through acquisitions like Reata and HI-Bio.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
+          "The acquisition of HI-Bio is expected to augment our pipeline and build on our expertise in immunology."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-24-000016",
+        "filingDate": "2024-04-24",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504524000016/biib-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2290.5,
+        "netIncome": 393.4,
+        "operatingCashFlow": 553.2,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 37.3,
+        "geographicBreakdown": {
+          "US": 746.1,
+          "ROW": 965.8
+        },
+        "capexAmount": 45.9,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai (LEQEMBI)",
+          "Genentech (Anti-CD20 therapies)",
+          "Sage Therapeutics",
+          "Samsung",
+          "Roche Group Genentech"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "IRA pricing impact"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered stable quarterly performance with modest revenue decline and steady net income. The company continues cost reduction efforts through its Fit for Growth program and is focusing on neurological and rare disease therapeutics.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-24-000009",
+        "filingDate": "2024-02-14",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504524000009/biib-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 11241993275.8,
+        "netIncome": 2168999087.2,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Multiple generic entrants are now in North America, Brazil and certain E.U. countries which have significantly reduced TECFIDERA revenue",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": null,
+          "Europe": null,
+          "Asia": null,
+          "International": null
+        },
+        "capexAmount": 195000000,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai for LEQEMBI commercialization",
+          "Sage for ZURZUVAE commercialization",
+          "Genentech for anti-CD20 therapies",
+          "Samsung Bioepis for biosimilars",
+          "Samsung",
+          "Roche Group Genentech",
+          "Eisai",
+          "Reata Pharmaceuticals"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "IRA drug pricing provisions",
+          "Potential biosimilar competition",
+          "Complex regulatory approval processes"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Biogen faces significant revenue challenges from generic competition, particularly for TECFIDERA. The company is exploring strategic options for its biosimilars business and investing in manufacturing capacity while experiencing headwinds from pricing pressures and regulatory changes.",
+        "keyQuotes": [
+          "Generic competition for TECFIDERA has significantly reduced our TECFIDERA revenue and we expect that TECFIDERA revenue will continue to decline in the future.",
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-23-000038",
+        "filingDate": "2023-11-08",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000038/biib-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1805.2,
+        "netIncome": -68.1,
+        "operatingCashFlow": 1534.7,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 37.4,
+        "geographicBreakdown": {
+          "US": 43.8,
+          "ROW": 56.2
+        },
+        "capexAmount": 211.8,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai",
+          "Genentech",
+          "Sage",
+          "Samsung"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Inflation Reduction Act"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Biogen faced revenue declines in Q3 2023, with net loss of $68.1M driven by challenges in multiple sclerosis drug sales and ongoing restructuring. The company completed the Reata acquisition and continues cost-cutting measures under its 'Fit for Growth' program.",
+        "keyQuotes": [
+          "We initiated additional cost saving measures as part of our Fit for Growth program to reduce operating costs",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-23-000030",
+        "filingDate": "2023-07-25",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000030/biib-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2456,
+        "netIncome": 593.3,
+        "operatingCashFlow": 942.3,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 36.3,
+        "geographicBreakdown": {
+          "US": 0.61,
+          "RestOfWorld": 0.39
+        },
+        "capexAmount": 137.6,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai (LEQEMBI)",
+          "Genentech (Anti-CD20 therapies)",
+          "Samsung Bioepis (Biosimilars)",
+          "Samsung",
+          "Roche Group Genentech"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "IRA pricing pressures",
+          "Biosimilar competition"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Biogen reported stable Q2 revenues of $2.46B with net income of $593M, reflecting ongoing cost management through its Fit for Growth initiative. The company continues to focus on neurology and rare disease portfolios while managing competitive pressures.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, neuropsychiatry, specialized immunology and rare diseases.",
+          "We continue to develop potential biosimilar products including BIIB800, a proposed tocilizumab biosimilar"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-23-000016",
+        "filingDate": "2023-04-25",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000016/biib-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2463,
+        "netIncome": 387.6,
+        "operatingCashFlow": 455.3,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Continued focus on neurology and rare disease markets",
+        "customerConcentration": 34.7,
+        "geographicBreakdown": {
+          "US": 701.4,
+          "RestOfWorld": 1061.9
+        },
+        "capexAmount": 66.6,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai collaboration on LEQEMBI",
+          "Genentech collaboration on anti-CD20 therapies",
+          "Samsung",
+          "Roche Group Genentech",
+          "Eisai",
+          "Centers for Medicare and Medicaid Services"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "FDA approval processes",
+          "Potential healthcare reform impacts"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered solid Q1 2023 financial results with revenues of $2.46B and net income of $387.6M. The company continues to focus on neurology and rare disease markets while managing cost reduction initiatives.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, neuropsychiatry, specialized immunology and rare diseases.",
+          "We support our drug discovery and development efforts through internal research and development programs and external collaborations."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T05:06:53.922Z"
+}

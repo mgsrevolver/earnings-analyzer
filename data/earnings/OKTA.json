@@ -1,0 +1,482 @@
+{
+  "company": {
+    "ticker": "OKTA",
+    "name": "Okta Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cybersecurity",
+    "cik": "0001660134"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000157",
+        "filingDate": "2025-08-27",
+        "reportDate": "2025-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000157/okta-20250731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 728,
+        "netIncome": 67,
+        "operatingCashFlow": 408,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1550,
+        "marketShareMention": "Identity becoming most critical layer of enterprise security",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 8,
+        "capexGrowth": null,
+        "partnerships": [
+          "Over 7,000 integrations with cloud, mobile, web applications and IT infrastructure vendors"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered solid Q2 performance with 13% total revenue growth driven by new business and existing customer expansion. The company maintained profitability while carefully managing expenses and continuing strategic investments in identity platform capabilities.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "Given the growth trends in cloud adoption and the movement to remote and hybrid workforces, identity has become the most reliable way to manage user access and protect digital assets"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000093",
+        "filingDate": "2025-05-28",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000093/okta-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 688,
+        "netIncome": 62,
+        "operatingCashFlow": 241,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1582,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 3,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Okta delivered solid Q1 performance with 12% revenue growth, improving gross margins, and returning to profitability. The company demonstrated spend efficiency and continued focus on operational improvement while navigating macroeconomic challenges.",
+        "keyQuotes": [
+          "Our ability to generate revenue is dependent upon our ability to maintain relationships with customers and increase their utilization of our platforms.",
+          "We continue to monitor the impacts of the economic situation; however, there can be no assurances that conditions in the banking sector and global financial markets will not worsen."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000168",
+        "filingDate": "2024-12-04",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000168/okta-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautiously_positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 665,
+        "netIncome": 16,
+        "operatingCashFlow": 464,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1440,
+        "marketShareMention": "Over 19,450 customers across nearly every industry, with over 7,000 integrations as of October 31, 2024",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Okta delivered solid quarterly performance with 14% revenue growth driven by increased users and product sales. The company maintained profitability, reduced operating expenses, and showed improving operational efficiency despite macroeconomic challenges.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "We focus on acquiring and retaining customers and increasing the value we provide over time"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000138",
+        "filingDate": "2024-08-29",
+        "reportDate": "2024-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000138/okta-20240731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 646,
+        "netIncome": 29,
+        "operatingCashFlow": 305,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1415,
+        "marketShareMention": "Over 19,300 customers across nearly every industry, with 4,620 customers having annual contract value above $100,000",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 13,
+        "capexGrowth": null,
+        "partnerships": [
+          "Over 7,000 integrations with cloud, mobile, web applications, IT infrastructure and security vendors"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Okta demonstrated resilient performance in Q2, with 16% revenue growth and improved operational efficiency. The company continues to focus on cost management and maintaining customer retention, with a Dollar-Based Net Retention Rate of 110%.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "Future growth may be impacted by longer sales cycles",
+          "We expect sales and marketing expenses as a percentage of total revenue to decrease as our total revenue grows"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000088",
+        "filingDate": "2024-05-30",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000088/okta-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 617,
+        "netIncome": -40,
+        "operatingCashFlow": 219,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1410,
+        "marketShareMention": "Over 19,100 customers with 4,550 customers above $100,000 ACV",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 5,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta showed moderate improvement in Q1 2024, with 19% revenue growth and continued focus on operational efficiency. The company maintained a cautious outlook amid macroeconomic challenges, implementing workforce reductions and managing expenses carefully.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "We expect our research and development expenses will increase in absolute dollars as our business grows",
+          "Larger enterprises often implement a limited initial deployment of our platform before increasing their deployment on a broader scale"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000025",
+        "filingDate": "2024-03-01",
+        "reportDate": "2024-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000025/okta-20240131.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 335,
+        "netIncome": -360,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Leading independent identity partner",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 21
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Over 7,000 integrations with cloud, mobile, web applications"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Privacy laws",
+          "Data protection regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Okta continues to grow revenue but faces challenges from cybersecurity incidents, macroeconomic uncertainty, and ongoing net losses. The company is focusing on identity management solutions and expanding its AI capabilities.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "We have experienced rapid growth, but customer growth has slowed in recent periods"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-23-000068",
+        "filingDate": "2023-12-01",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013423000068/okta-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 584,
+        "netIncome": -81,
+        "operatingCashFlow": 338,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1274,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 15,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered 22% year-over-year subscription revenue growth, reaching $569 million in Q3. The company maintained cautious guidance amid macroeconomic challenges, reduced headcount through restructuring, and focused on improving operational efficiency.",
+        "keyQuotes": [
+          "Given the growth trends in the number of applications and cloud adoption, and the movement to remote workforces, identity is becoming the most critical layer of an organization's security.",
+          "Future growth may be impacted by longer sales cycles, which we have experienced, which in turn, could result in delays in deals closing."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-23-000045",
+        "filingDate": "2023-08-31",
+        "reportDate": "2023-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013423000045/okta-20230731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 556,
+        "netIncome": -111,
+        "operatingCashFlow": 182,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1225,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered 24% revenue growth driven by customer expansion, with 18,400 total customers and 4,205 customers with ACV over $100,000. The company is focused on cost efficiency and restructuring, with a cautious outlook amid macroeconomic uncertainty.",
+        "keyQuotes": [
+          "Future growth may be impacted by longer sales cycles, which we have experienced, which in turn, could result in delays in deals closing",
+          "We expect to continue to incur operating losses and cash flows from operations that may fluctuate between positive and negative amounts for the foreseeable future"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-22-000056",
+        "filingDate": "2022-12-01",
+        "reportDate": "2022-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013422000056/okta-20221031.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 481.042,
+        "netIncome": -208.897,
+        "operatingCashFlow": 9.762,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1044.622,
+        "marketShareMention": "Over 17,050 customers across nearly every industry as of October 31, 2022",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 9.377,
+        "capexGrowth": null,
+        "partnerships": [
+          "Over 7,000 integrations with cloud, mobile and web applications and IT infrastructure and security vendors"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bearish",
+        "summary": "Okta reported quarterly revenue of $481 million with a net loss of $208.9 million, continuing its growth trajectory in the identity management market while managing ongoing profitability challenges. The company maintains a cautious outlook amid macroeconomic uncertainties.",
+        "keyQuotes": [
+          "Identity is becoming the most critical layer of an organization's security",
+          "We continue to see new interest from organizations driven by rapidly changing work and business environments"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2022,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 9,
+  "lastUpdated": "2025-11-14T03:24:06.299Z"
+}

@@ -1,0 +1,634 @@
+{
+  "company": {
+    "ticker": "AMC",
+    "name": "AMC Entertainment Holdings Inc.",
+    "category": [
+      "WSB"
+    ],
+    "sector": "Consumer",
+    "subCategory": "Other",
+    "cik": "0001411579"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001411579-25-000073",
+        "filingDate": "2025-11-05",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000073/amc-20250930x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "freezing",
+        "revenue": 1300.2,
+        "netIncome": -298.2,
+        "operatingCashFlow": -246.5,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 411.5,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": null,
+          "International": null
+        },
+        "capexAmount": 162.7,
+        "capexGrowth": null,
+        "partnerships": [
+          "National CineMedia",
+          "Fathom Events"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC Entertainment reported a challenging quarter with continued net losses and reduced revenues, reflecting ongoing difficulties in the theater industry. The company continues to manage liquidity through complex debt refinancing transactions while experiencing pressure on top-line performance.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term",
+          "North American box office grosses were down approximately 22% compared to pre-COVID-19 levels"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-25-000062",
+        "filingDate": "2025-08-11",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000062/amc-20250630x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1397.9,
+        "netIncome": -4.7,
+        "operatingCashFlow": -231.6,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 423.1,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 79.7,
+          "International": 20.3
+        },
+        "capexAmount": 96.5,
+        "capexGrowth": 1.5,
+        "partnerships": [
+          "National CineMedia",
+          "Fathom Events",
+          "Digital Cinema Distribution Coalition"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "AMC reported quarterly revenue of $1.4B with continued sequential improvement in Adjusted EBITDA, driven primarily by U.S. market performance. The company maintains a cautious outlook, focusing on cost management and operational efficiency.",
+        "keyQuotes": [
+          "The Company believes its existing cash and cash equivalents, together with cash generated from operations, will be sufficient to fund its operations and satisfy its obligations currently and through the next twelve months.",
+          "Until such time as the Company is able to achieve sustainable net positive cash flows from operating activities, it is difficult to estimate the Company's future cash burn rates and liquidity requirements."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-25-000055",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000055/amc-20250331x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 862.5,
+        "netIncome": -202.1,
+        "operatingCashFlow": -370,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 405.5,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "USMarkets": 71.5,
+          "InternationalMarkets": 28.5
+        },
+        "capexAmount": 47,
+        "capexGrowth": -6.9,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC continues to face challenging market conditions with ongoing revenue decline and net losses. The company is maintaining a cautious outlook while managing costs and exploring liquidity strategies.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term.",
+          "Until such time as the Company is able to achieve sustainable net positive cash flows from operating activities, it is difficult to estimate the Company's future cash burn rates and liquidity requirements."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-25-000042",
+        "filingDate": "2025-02-26",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157925000042/amc-20241231x10k.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1306.3999999999996,
+        "netIncome": -135.60000000000002,
+        "operatingCashFlow": -50.8,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 432.4,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 76.4,
+          "International": 23.6
+        },
+        "capexAmount": 245.5,
+        "capexGrowth": 8.8,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Data privacy",
+          "Environmental reporting"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC continues to face challenges with declining movie attendance and box office revenues, though showing modest improvements from the prior year. The company is focusing on cost management, debt refinancing, and strategic initiatives to navigate ongoing industry uncertainties.",
+        "keyQuotes": [
+          "In order to achieve sustainable net positive cash flows provided by operating activities and long-term profitability, we believe that revenues will need to increase to levels in line with pre-COVID-19 revenues.",
+          "Our current cash burn rates are not sustainable long-term."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-24-000077",
+        "filingDate": "2024-11-06",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157924000077/amc-20240930x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 1348.8,
+        "netIncome": -20.7,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 385.1,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US Markets": null,
+          "International Markets": null
+        },
+        "capexAmount": 155.8,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC Entertainment reported a challenging quarter with a net loss of $20.7 million and total revenues of $1.35 billion. The company continues to face financial pressures, with reduced revenues compared to prior periods and ongoing cash flow challenges.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term",
+          "North American box office grosses were down approximately 25% for the nine months ended September 30, 2024, compared to the nine months ended September 30, 2019"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-24-000060",
+        "filingDate": "2024-08-02",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157924000060/amc-20240630x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 1030.6,
+        "netIncome": -32.8,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 399.1,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 79.2,
+          "International": 20.8
+        },
+        "capexAmount": 44.6,
+        "capexGrowth": -8.2,
+        "partnerships": [
+          "Digital Cinema Distribution Coalition",
+          "Fathom Events",
+          "Screenvision"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "OECD global tax reform"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC Entertainment experienced continued challenges in Q2 2024, with revenues declining 23.5% year-over-year and a net loss of $32.8 million. The company faces ongoing pressures from reduced box office attendance and difficult macroeconomic conditions.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term",
+          "North American box office grosses were down approximately 36% for the six months ended June 30, 2024, compared to the six months ended June 30, 2019"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-24-000034",
+        "filingDate": "2024-05-08",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157924000034/amc-20240331x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 951.4,
+        "netIncome": -163.5,
+        "operatingCashFlow": -188.3,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 394.2,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 72.4,
+          "International": 27.6
+        },
+        "capexAmount": 50.5,
+        "capexGrowth": 6.5,
+        "partnerships": [
+          "Digital Cinema Distribution Coalition",
+          "Fathom Events",
+          "Screenvision"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Labor stoppages impacting film releases"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC continues to face challenges with persistent net losses and negative cash flow, driven by ongoing industry headwinds like labor strikes and slow box office recovery. The company maintains a cautious outlook while managing expenses and exploring strategic partnerships.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term.",
+          "North American box office grosses were down approximately 32% for the three months ended March 31, 2024, compared to the three months ended March 31, 2019."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-24-000021",
+        "filingDate": "2024-02-28",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157924000021/amc-20231231x10k.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautiously optimistic",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1104.4,
+        "netIncome": -182.00000000000003,
+        "operatingCashFlow": -215.2,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 76.6,
+          "International": 23.4
+        },
+        "capexAmount": 225.6,
+        "capexGrowth": 11.7,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Potential labor union impacts on film production",
+          "Regulatory compliance requirements"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "AMC experienced revenue growth and improved attendance in 2023 driven by popular film releases, with total revenues increasing 23% to $4.8 billion. However, the company continues to face challenges with a net loss of $396.6 million and ongoing liquidity constraints.",
+        "keyQuotes": [
+          "We continue to see gradual improvement in our operating revenues approaching pre-COVID-19 levels",
+          "To remain viable beyond the next twelve months, the Company is expected to require additional sources of liquidity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-23-000087",
+        "filingDate": "2023-11-08",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157923000087/amc-20230930x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1405.9,
+        "netIncome": 12.3,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 411,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": null,
+          "International": null
+        },
+        "capexAmount": 153.5,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "AMC reported modest quarterly improvement with positive net income of $12.3 million, driven by higher revenues of $1.4 billion. The company remains cautious about long-term profitability and is focused on managing liquidity and expenses.",
+        "keyQuotes": [
+          "The Company's cash burn rates are not sustainable long-term",
+          "Operating revenues will need to increase to levels in line with pre-COVID operating revenues"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-23-000057",
+        "filingDate": "2023-08-08",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157923000057/amc-20230630x10q.htm"
+      },
+      "insights": {
+        "revenue": 1347.9,
+        "netIncome": 8.6,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "deferredRevenue": 385.3,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": null,
+          "International": null
+        },
+        "capexAmount": 96,
+        "capexGrowth": null,
+        "partnerships": [
+          "Saudi Cinema Company LLC",
+          "Hycroft Mining Holding Corporation",
+          "National Cinemedia Inc.",
+          "Antara Capital LP"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "AMC reported Q2 2023 revenue of $1.35 billion with a net income of $8.6 million, showing a modest improvement from the previous quarter. The company continues to face challenges in the post-pandemic theater market but demonstrated some resilience in operations.",
+        "keyQuotes": [
+          "The Company's current cash burn rates are not sustainable long-term",
+          "Operating revenues will need to increase to levels in line with pre-COVID operating revenues"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001411579-23-000049",
+        "filingDate": "2023-05-05",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1411579/000141157923000049/amc-20230331x10q.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 954.4,
+        "netIncome": -235.5,
+        "operatingCashFlow": -189.9,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 391.7,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 73.9,
+          "International": 26.1
+        },
+        "capexAmount": 47.4,
+        "capexGrowth": 36.2,
+        "partnerships": [
+          "Digital Cinema Distribution Coalition",
+          "AC JV (Fathom Events)",
+          "Screenvision",
+          "Digital Cinema Media Ltd."
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "AMC continues to face financial challenges with another quarterly loss, though revenues are improving compared to last year. The company is managing liquidity and reducing costs, but remains dependent on box office performance.",
+        "keyQuotes": [
+          "The Company's current cash burn rates are not sustainable long-term.",
+          "Until such time as the Company is able to achieve positive operating cash flow, it is difficult to estimate the Company's liquidity requirements."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T05:26:51.653Z"
+}
