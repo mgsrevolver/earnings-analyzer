@@ -1,0 +1,554 @@
+{
+  "company": {
+    "ticker": "CRWD",
+    "name": "CrowdStrike Holdings Inc.",
+    "category": [
+      "Tech"
+    ],
+    "cik": "0001535527"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001535527-25-000025",
+        "filingDate": "2025-08-28",
+        "reportDate": "2025-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000025/crwd-20250731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 1168.952,
+        "netIncome": -77.645,
+        "operatingCashFlow": 716.939,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3834.857,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 150.974,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "CrowdStrike reported a quarterly loss with declining net income, though maintaining strong operating cash flow. The company continues investing in technology, particularly AI, but faces challenges in maintaining profitability.",
+        "keyQuotes": [
+          "Purpose-built to stop breaches",
+          "Cybersecurity's AI-native platform for the XDR era"
+        ]
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-25-000019",
+        "filingDate": "2025-06-04",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000019/crwd-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 1103.434,
+        "netIncome": -110.207,
+        "operatingCashFlow": 384.107,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3771.395,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 103.188,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "CrowdStrike reported a challenging quarter with a net loss of $110.2 million despite strong revenue growth to $1.1 billion. The company continues investing in AI and infrastructure, maintaining stable headcount and substantial deferred revenue, but shows signs of cautious management approach.",
+        "keyQuotes": [
+          "We are a global cybersecurity leader that delivers cybersecurity's AI-native platform for the XDR era",
+          "The company has achieved profitability in certain periods, including fiscal 2024"
+        ]
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-24-000026",
+        "filingDate": "2024-11-27",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552724000026/crwd-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 1010.178,
+        "netIncome": -16.819,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3196.518,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 167.641,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike delivered strong quarterly revenue growth of $1.01 billion, demonstrating resilience in the cybersecurity market. Despite a quarterly net loss, the company continues to invest heavily in AI and infrastructure, with significant capital expenditures and continued headcount expansion.",
+        "keyQuotes": [
+          "Purpose-built to stop breaches with cybersecurity's AI-native platform",
+          "Delivering cloud-delivered protection of endpoints, cloud workloads, identity, and data"
+        ]
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-24-000020",
+        "filingDate": "2024-08-29",
+        "reportDate": "2024-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552724000020/crwd-20240731.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 963.872,
+        "netIncome": 46.69,
+        "operatingCashFlow": 709.869,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3093.197,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 88.937,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike delivered strong Q2 performance with robust revenue growth and profitability, driven by continued demand for its cybersecurity solutions. The company showed resilience in expanding its platform and maintaining a positive financial outlook.",
+        "keyQuotes": [
+          "CrowdStrike's AI-native platform for the XDR era, purpose-built to stop breaches",
+          "Provides cloud-delivered protection of endpoints, cloud workloads, identity, and data"
+        ]
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-24-000013",
+        "filingDate": "2024-06-05",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552724000013/crwd-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 921.036,
+        "netIncome": 46.264,
+        "operatingCashFlow": 383.228,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3069.379,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 49.683,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike delivered strong Q1 2024 performance with robust revenue growth and profitability, driven by continued cybersecurity demand and AI investments. The company demonstrated strong operational execution with positive net income and substantial operating cash flow.",
+        "keyQuotes": [
+          "Cybersecurity's AI-native platform for the XDR era, purpose-built to stop breaches",
+          "Unified platform providing cloud-delivered protection across multiple large security markets"
+        ]
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-24-000007",
+        "filingDate": "2024-03-07",
+        "reportDate": "2024-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552724000007/crwd-20240131.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": -121.38599999999997,
+        "netIncome": -272.735,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Competing in an intensely competitive market with multiple security vendors",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 32
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Evolving data privacy regulations",
+          "Potential AI-related regulations",
+          "Complex international tax laws"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "CrowdStrike reported full-year revenue of $2.77 billion with a net loss of $196.6 million. The company operates in a competitive cybersecurity market and faces ongoing regulatory and technological challenges.",
+        "keyQuotes": [
+          "Significant competition in the security and IT operations solutions market",
+          "Continuing to invest in research and development to enhance platform capabilities"
+        ]
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-23-000026",
+        "filingDate": "2023-11-29",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000026/crwd-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 786.014,
+        "netIncome": 26.669,
+        "operatingCashFlow": 819.191,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2543.116,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 123.945,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike demonstrated strong quarterly performance with robust revenue growth and positive net income, indicating resilient demand for cybersecurity solutions. The company continues to invest in infrastructure and maintain a positive financial outlook.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-23-000020",
+        "filingDate": "2023-08-31",
+        "reportDate": "2023-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000020/crwd-20230731.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 731.626,
+        "netIncome": 8.472,
+        "operatingCashFlow": 545.673,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2507.642,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 102.681,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike delivered strong Q2 2023 results with quarterly revenue of $731.6 million, representing significant year-over-year growth. The company maintained a positive outlook, demonstrated robust operational performance, and continued to invest in growth through strategic capex investments.",
+        "keyQuotes": []
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-23-000014",
+        "filingDate": "2023-06-01",
+        "reportDate": "2023-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000014/crwd-20230430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 692.58,
+        "netIncome": 0.491,
+        "operatingCashFlow": 300.892,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2403.791,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 62.264,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike delivered strong quarterly performance with revenue of $692.6 million, representing significant year-over-year growth. The company maintained profitability and generated robust operating cash flow of $300.9 million, demonstrating strong operational efficiency and market demand for its cybersecurity solutions.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-23-000008",
+        "filingDate": "2023-03-09",
+        "reportDate": "2023-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552723000008/crwd-20230131.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 2643997789.78,
+        "netIncome": -196000035.632,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "expanding in cybersecurity market",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 0.3,
+          "domestic": 0.7
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Complex data privacy regulations",
+          "International tax law changes"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "CrowdStrike maintains a cautious outlook amid complex macroeconomic conditions, with international expansion and cybersecurity market challenges. The company reported full-year revenue of $2.644 billion with a net loss of $196 million.",
+        "keyQuotes": [
+          "Volatile economic conditions may impact customer spending on security solutions",
+          "Intense competition in the cybersecurity market continues to challenge growth"
+        ]
+      },
+      "quarter": "Q4 2022",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2022,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2022",
+        "reportDate": "2023-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001535527-22-000025",
+        "filingDate": "2022-11-30",
+        "reportDate": "2022-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552722000025/crwd-20221031.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 580.882,
+        "netIncome": -54.631,
+        "operatingCashFlow": 667.714,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1483.223,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 179.609,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "CrowdStrike reported strong quarterly revenue growth of $580.9 million, driven by continued expansion in cloud cybersecurity services. Despite a net loss of $54.6 million, the company demonstrated robust operating cash flow of $667.7 million and maintained an optimistic outlook.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2022,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T00:52:31.555Z"
+}

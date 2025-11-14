@@ -15,18 +15,23 @@ import { writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { getAllCompanies } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
-import { analyzeEarningsReport } from '../lib/claude';
+import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
+import { computeMacroAnalysis } from '../lib/macro';
 
 // Load environment variables from .env.local
 config({ path: join(process.cwd(), '.env.local') });
 
 const DATA_DIR = join(process.cwd(), 'data', 'earnings');
+const MACRO_DIR = join(process.cwd(), 'data', 'macro');
 const DELAY_BETWEEN_CALLS = 20000; // 20 seconds (safe for 50k tokens/min limit)
 const DELAY_BETWEEN_COMPANIES = 5000; // 5 seconds between companies
 
-// Ensure data directory exists
+// Ensure data directories exist
 if (!existsSync(DATA_DIR)) {
   mkdirSync(DATA_DIR, { recursive: true });
+}
+if (!existsSync(MACRO_DIR)) {
+  mkdirSync(MACRO_DIR, { recursive: true });
 }
 
 interface QuarterInfo {
@@ -133,22 +138,31 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
 
       try {
         const { text } = await getFilingWithText(filing);
-        const insights = await analyzeEarningsReport(
-          company.name,
-          text,
-          quarter,
-          filing.form
-        );
+
+        // Run both analyses in parallel for efficiency
+        const [insights, detailedPartnerships] = await Promise.all([
+          analyzeEarningsReport(company.name, text, quarter, filing.form),
+          extractPartnerships(company.name, text, quarter)
+        ]);
+
+        // Merge detailed partnerships with basic partnerships from insights
+        const allPartnerships = Array.from(new Set([
+          ...insights.partnerships,
+          ...detailedPartnerships
+        ]));
 
         analyzedFilings.push({
           filing,
-          insights,
+          insights: {
+            ...insights,
+            partnerships: allPartnerships
+          },
           quarter,
           quarterInfo: getQuarterInfo(filing.reportDate, company),
           analyzedSuccessfully: true
         });
 
-        console.log(`  ✓ Success`);
+        console.log(`  ✓ Success (${allPartnerships.length} partnerships found)`);
       } catch (error) {
         console.error(`  ✗ Error: ${error instanceof Error ? error.message : 'Unknown error'}`);
       }
@@ -290,16 +304,42 @@ Press Ctrl+C to cancel within the next 5 seconds...
 
   console.log(`
 ╔════════════════════════════════════════════════════════════════════════════╗
+║                         GENERATING MACRO ANALYSIS                          ║
+╚════════════════════════════════════════════════════════════════════════════╝
+`);
+
+  try {
+    // Compute macro analysis
+    console.log('Computing macro analysis from all earnings data...');
+    const macroAnalysis = computeMacroAnalysis(DATA_DIR);
+
+    // Save macro analysis
+    const macroPath = join(MACRO_DIR, 'latest.json');
+    writeFileSync(macroPath, JSON.stringify(macroAnalysis, null, 2));
+
+    console.log(`✅ Macro analysis saved to ${macroPath}`);
+    console.log(`   - Period: ${macroAnalysis.period}`);
+    console.log(`   - Companies analyzed: ${macroAnalysis.companies.length}`);
+    console.log(`   - Sectors: ${macroAnalysis.sectorAnalyses.length}`);
+    console.log(`   - Top partnerships: ${macroAnalysis.aggregateInsights.partnershipNetwork.slice(0, 5).map(p => p.partner).join(', ')}`);
+  } catch (error) {
+    console.error('❌ Failed to generate macro analysis:', error);
+  }
+
+  console.log(`
+╔════════════════════════════════════════════════════════════════════════════╗
 ║                            BATCH PROCESSING COMPLETE                       ║
 ╚════════════════════════════════════════════════════════════════════════════╝
 
 ✅ Successfully processed all companies
 ⏱  Total time: ${durationMinutes} minutes
 📁 Data saved to: ${DATA_DIR}
+📊 Macro analysis saved to: ${MACRO_DIR}
 
 Next steps:
 1. Restart your Next.js dev server
 2. Visit /company/{TICKER} to see instant-loading earnings data
+3. Visit /macro to see cross-company macro trends
 `);
 }
 

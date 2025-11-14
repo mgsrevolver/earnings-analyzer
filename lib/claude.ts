@@ -164,6 +164,116 @@ ${truncatedText}`,
 }
 
 /**
+ * Extract detailed partnership information from earnings report
+ */
+export async function extractPartnerships(
+  companyName: string,
+  reportText: string,
+  quarter: string
+): Promise<string[]> {
+  const PARTNERSHIP_PROMPT = `You are analyzing an earnings report to identify partnerships, strategic deals, and business collaborations.
+
+Extract ALL mentions of:
+1. Strategic partnerships (e.g., "announced partnership with Microsoft")
+2. Technology integrations (e.g., "integrated with Salesforce platform")
+3. Customer wins (e.g., "signed deal with Fortune 500 company")
+4. Supplier relationships (e.g., "working with TSMC for chip manufacturing")
+5. Joint ventures or collaborations
+6. Platform/ecosystem relationships (e.g., "available on AWS marketplace")
+
+Rules:
+- Extract the EXACT company/partner name mentioned
+- Include both directions (e.g., if Meta mentions AWS, include "AWS")
+- Focus on named companies/organizations (not generic "cloud providers")
+- Do NOT include generic references like "customers" or "partners" without specific names
+- Include both new partnerships AND ongoing/renewed relationships
+
+Return ONLY a JSON array of company/partner names as strings. Example:
+["Microsoft", "TSMC", "AWS", "Salesforce"]
+
+If no partnerships are found, return an empty array: []`;
+
+  try {
+    // Extract relevant sections mentioning partnerships
+    const keywords = [
+      "partnership",
+      "collaborate",
+      "agreement",
+      "customer",
+      "integration",
+      "deal",
+      "contract",
+      "announce",
+    ];
+
+    let relevantSections: string[] = [];
+    const lines = reportText.split("\n");
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].toLowerCase();
+      if (keywords.some((kw) => line.includes(kw))) {
+        // Include context around the line
+        const start = Math.max(0, i - 2);
+        const end = Math.min(lines.length, i + 3);
+        relevantSections.push(lines.slice(start, end).join("\n"));
+      }
+    }
+
+    // Limit to ~30k characters for partnership extraction
+    const partnershipText = relevantSections.join("\n\n").substring(0, 30000);
+
+    if (!partnershipText.trim()) {
+      return [];
+    }
+
+    const client = getAnthropicClient();
+    const message = await client.messages.create({
+      model: "claude-3-5-haiku-20241022",
+      max_tokens: 500,
+      messages: [
+        {
+          role: "user",
+          content: `${PARTNERSHIP_PROMPT}
+
+Company: ${companyName}
+Quarter: ${quarter}
+
+Report Excerpt:
+${partnershipText}`,
+        },
+      ],
+    });
+
+    const responseText =
+      message.content[0].type === "text" ? message.content[0].text : "[]";
+
+    // Parse JSON array
+    const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+    if (!jsonMatch) {
+      console.warn(
+        `No partnership array found for ${companyName}. Response:`,
+        responseText.substring(0, 200)
+      );
+      return [];
+    }
+
+    try {
+      const partnerships: string[] = JSON.parse(jsonMatch[0]);
+      return partnerships.filter((p) => typeof p === "string" && p.trim().length > 0);
+    } catch (parseError) {
+      console.error(
+        `Failed to parse partnership JSON for ${companyName}:`,
+        jsonMatch[0]
+      );
+      return [];
+    }
+  } catch (error) {
+    console.error(`Error extracting partnerships for ${companyName}:`, error);
+    return [];
+  }
+}
+
+/**
  * Batch analyze multiple companies for cross-company insights
  */
 export async function generateMacroAnalysis(
