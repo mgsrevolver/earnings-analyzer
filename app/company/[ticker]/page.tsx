@@ -80,6 +80,8 @@ export default async function CompanyPage({
           <NextEarnings ticker={ticker.toUpperCase()} />
         </div>
 
+        <EarningsAnalyzer company={company} initialData={cachedEarnings} />
+
         {/* Sector Comparison */}
         {sectorComparison && (
           <SectorComparison
