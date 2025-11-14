@@ -91,6 +91,8 @@ export default async function CompanyPage({
             ranking={sectorComparison.ranking}
           />
         )}
+
+        <EarningsAnalyzer company={company} initialData={cachedEarnings} />
       </div>
     </main>
   );
