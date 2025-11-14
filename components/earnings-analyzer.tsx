@@ -142,9 +142,6 @@ export function EarningsAnalyzer({
                   {results.totalFetched} reports
                 </p>
               </div>
-              <Button onClick={analyzeEarnings} variant="outline" size="sm">
-                Force Re-Analyze
-              </Button>
             </div>
 
             {results.successfulAnalyses > 0 && (
