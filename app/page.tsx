@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Card,
   CardHeader,
@@ -9,6 +10,7 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { COMPANIES, getCompaniesByCategory } from '@/lib/companies';
 import { TrendingUp, Calendar, BarChart3 } from 'lucide-react';
+import { getCompanyLogoUrl } from '@/lib/logos';
 
 export default function Home() {
   const mag7 = getCompaniesByCategory('Mag7');
@@ -83,7 +85,14 @@ export default function Home() {
                       href={`/company/${company.ticker}`}
                     >
                       <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-3 mb-3">
+                          <Image
+                            src={getCompanyLogoUrl(company.ticker)}
+                            alt={`${company.ticker} logo`}
+                            width={40}
+                            height={40}
+                            className="rounded"
+                          />
                           <Badge variant="outline">{company.ticker}</Badge>
                         </div>
                         <p className="text-sm font-medium">{company.name}</p>
