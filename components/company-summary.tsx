@@ -53,9 +53,13 @@ export function CompanySummary({ results }: CompanySummaryProps) {
   };
 
   const getGrowthColor = (value: number | null) => {
-    if (value === null) return "text-gray-500";
-    return value >= 0 ? "text-green-600" : "text-red-600";
+    if (value === null) return "text-gray-500 dark:text-gray-400";
+    return value >= 0 ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400";
   };
+
+  // Use composite sentiment if available, otherwise use management tone
+  const displaySentiment = latestQuarter.insights.marketData?.compositeSentiment || latestQuarter.insights.overallSentiment;
+  const sentimentScore = latestQuarter.insights.marketData?.compositeSentimentScore;
 
   return (
     <Card className="mb-6">
@@ -64,13 +68,14 @@ export function CompanySummary({ results }: CompanySummaryProps) {
           <span>Performance Summary - {latestQuarter.quarter}</span>
           <div className="flex gap-2">
             <Badge className={
-              latestQuarter.insights.overallSentiment === "bullish"
+              displaySentiment === "bullish"
                 ? "bg-green-100 text-green-800 dark:bg-green-950 dark:text-green-400"
-                : latestQuarter.insights.overallSentiment === "bearish"
+                : displaySentiment === "bearish"
                 ? "bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-400"
                 : "bg-gray-100 text-gray-800 dark:bg-gray-950 dark:text-gray-400"
             }>
-              {latestQuarter.insights.overallSentiment}
+              {displaySentiment}
+              {sentimentScore !== undefined && ` (${sentimentScore})`}
             </Badge>
             {latestQuarter.insights.guidanceDirection && (
               <Badge variant="outline">

@@ -1,0 +1,324 @@
+{
+  "company": {
+    "ticker": "ZS",
+    "name": "Zscaler Inc.",
+    "category": [
+      "Tech"
+    ],
+    "cik": "0001713683"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001713683-25-000079",
+        "filingDate": "2025-05-29",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000079/zs-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 678.034,
+        "netIncome": -4.125,
+        "operatingCashFlow": 721.849,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1985,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 51,
+          "Europe, Middle East and Africa": 30,
+          "Asia Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 167.077,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong quarterly revenue growth of 22.6% to $678 million, driven by robust performance across geographies. While experiencing a net loss of $4.1 million, the company demonstrated strong operational efficiency with substantial operating cash flow of $721.8 million.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-24-000150",
+        "filingDate": "2024-12-05",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000150/zs-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 627.955,
+        "netIncome": -12.051,
+        "operatingCashFlow": 331.335,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1783.7,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 51,
+          "Europe_Middle_East_Africa": 30,
+          "Asia_Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 39.454,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong quarterly revenue growth of 26.4% year-over-year, driven by robust performance in cloud security solutions. Despite reporting a net loss, the company demonstrated strong operational efficiency with significant operating cash flow and continued strategic investments in technology and talent.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-24-000075",
+        "filingDate": "2024-06-07",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000075/zs-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 553.201,
+        "netIncome": 19.124,
+        "operatingCashFlow": 576.289,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1577,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 50,
+          "Europe_Middle_East_Africa": 31,
+          "Asia_Pacific": 15,
+          "Other": 4
+        },
+        "capexAmount": 127.657,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong Q1 2024 performance with 32% revenue growth and return to profitability. The company continues strategic acquisitions in cloud security, expanding its platform capabilities and investing in emerging technologies like AI.",
+        "keyQuotes": [
+          "We plan to integrate this company's technology into our cloud platform.",
+          "Goodwill represents the excess of the purchase price paid over the fair value of the net assets acquired and is primarily attributable to the acquired workforce and expected operating synergies."
+        ]
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-23-000171",
+        "filingDate": "2023-12-06",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368323000171/zs-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 496.703,
+        "netIncome": -33.483,
+        "operatingCashFlow": 260.806,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1399.544,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 50,
+          "Europe_Middle_East_Africa": 32,
+          "Asia_Pacific": 15,
+          "Other": 3
+        },
+        "capexAmount": 36.088,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong quarterly performance with 40% year-over-year revenue growth and robust operating cash flow. The company continues to expand its global footprint with balanced revenue across regions while maintaining a disciplined approach to expenses.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-23-000059",
+        "filingDate": "2023-06-07",
+        "reportDate": "2023-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368323000059/zs-20230430.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 418.8,
+        "netIncome": -46.046,
+        "operatingCashFlow": 326.407,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1175.4,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 51,
+          "Europe, Middle East and Africa": 31,
+          "Asia Pacific": 15,
+          "Other": 3
+        },
+        "capexAmount": 94.089,
+        "capexGrowth": null,
+        "partnerships": null,
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong Q1 2023 performance with robust revenue growth of $418.8 million and solid operational metrics. Despite ongoing net losses, the company maintains a positive outlook, with strong cash flow and continued investment in platform expansion.",
+        "keyQuotes": []
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-22-000123",
+        "filingDate": "2022-12-07",
+        "reportDate": "2022-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368322000123/zs-20221031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "expanding",
+        "revenue": 355.548,
+        "netIncome": -68.162,
+        "operatingCashFlow": 128.457,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1005.7,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe, Middle East and Africa": 33,
+          "Asia Pacific": 15,
+          "Other": 3
+        },
+        "capexAmount": 32.843,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered strong quarterly revenue growth of 54% year-over-year, driven by continued cloud security demand. Despite ongoing net losses, the company demonstrated robust operational cash flow and maintained a strong balance sheet with significant cash reserves.",
+        "keyQuotes": []
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2022,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 6,
+  "lastUpdated": "2025-11-14T01:04:18.080Z"
+}
