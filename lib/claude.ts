@@ -75,19 +75,24 @@ export async function analyzeEarningsReport(
   try {
     // Smart text extraction to find financial data sections
     let truncatedText = reportText;
-    // Increase limit for better 10-K parsing - Claude Haiku can handle 200k context
-    const maxLength = formType === "10-K" ? 150000 : 50000; // 150k for 10-K, 50k for 10-Q
+    // Claude Haiku supports 200k context - use most of it for comprehensive analysis
+    // Need more context now for: partnerships, capex, supply chain, regulatory mentions, etc.
+    const maxLength = formType === "10-K" ? 180000 : 80000; // 180k for 10-K, 80k for 10-Q
 
     if (reportText.length > maxLength) {
       if (formType === "10-K") {
-        // For 10-K: Take from 25% through the document to capture main consolidated statements
-        // (financial summaries are typically 25-40% through the document)
-        const startIndex = Math.floor(reportText.length * 0.25);
+        // For 10-K: Take from 20% through the document to capture:
+        // - Business overview (partnerships, market dynamics)
+        // - Risk factors (regulatory, supply chain)
+        // - MD&A (management discussion - capex, guidance)
+        // - Financial statements (revenue, cash flow)
+        const startIndex = Math.floor(reportText.length * 0.20);
         truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-        console.log(`10-K: Extracting ${maxLength} chars from 25% mark (position ${startIndex})`);
+        console.log(`10-K: Extracting ${maxLength} chars from 20% mark (position ${startIndex})`);
       } else {
-        // For 10-Q: Look for financial statements at the beginning
+        // For 10-Q: Capture broader context for partnerships, MD&A
         const keywords = [
+          "management's discussion and analysis",
           "condensed consolidated statements of income",
           "consolidated statements of operations",
           "consolidated statements of income",
@@ -102,10 +107,11 @@ export async function analyzeEarningsReport(
         }
 
         if (bestMatch !== -1) {
-          const startIndex = Math.max(0, bestMatch - 2000);
+          const startIndex = Math.max(0, bestMatch - 5000); // More context before
           truncatedText = reportText.substring(startIndex, startIndex + maxLength);
-          console.log(`10-Q: Found financial statements at position ${bestMatch}, extracting from ${startIndex}`);
+          console.log(`10-Q: Found key section at position ${bestMatch}, extracting from ${startIndex}`);
         } else {
+          // Take from beginning, which usually has MD&A and financial statements
           truncatedText = reportText.substring(0, maxLength);
           console.log(`10-Q: No keywords found, taking first ${maxLength} characters`);
         }
