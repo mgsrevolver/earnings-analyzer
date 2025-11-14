@@ -8,6 +8,7 @@ import { EarningsAnalyzer } from "@/components/earnings-analyzer";
 import { getCachedEarnings } from "@/lib/earnings-cache";
 import { getSectorComparison } from "@/lib/macro";
 import { SectorComparison } from "@/components/sector-comparison";
+import { NextEarnings } from "@/components/next-earnings";
 import { getCompanyLogoUrl } from "@/lib/logos";
 import { ArrowLeft } from "lucide-react";
 import { join } from "path";
@@ -70,6 +71,11 @@ export default async function CompanyPage({
               />
             </div>
           </div>
+        </div>
+
+        {/* Next Earnings */}
+        <div className="mb-6">
+          <NextEarnings ticker={ticker.toUpperCase()} />
         </div>
 
         {/* Sector Comparison */}
