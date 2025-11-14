@@ -1,14 +1,22 @@
-import Link from "next/link";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { COMPANIES, getCompaniesByCategory } from "@/lib/companies";
-import { TrendingUp, Calendar, BarChart3 } from "lucide-react";
+import Link from 'next/link';
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { COMPANIES, getCompaniesByCategory } from '@/lib/companies';
+import { TrendingUp, Calendar, BarChart3 } from 'lucide-react';
 
 export default function Home() {
-  const mag7 = getCompaniesByCategory("Mag7");
-  const tech = getCompaniesByCategory("Tech").filter(c => !c.category.includes("Mag7"));
-  const biotech = getCompaniesByCategory("Biotech");
-  const wsb = getCompaniesByCategory("WSB");
+  const mag7 = getCompaniesByCategory('Mag7');
+  const tech = getCompaniesByCategory('Tech').filter(
+    (c) => !c.category.includes('Mag7')
+  );
+  const biotech = getCompaniesByCategory('Biotech');
+  const wsb = getCompaniesByCategory('WSB');
 
   return (
     <main className="min-h-screen p-8 bg-background">
@@ -19,7 +27,7 @@ export default function Home() {
             Earnings Analyzer
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
-            Democratizing earnings analysis for retail investors. Spot macro trends, track sentiment, and discover insights across {COMPANIES.length} high-impact companies.
+            Democratizing earnings analysis for retail investors.
           </p>
         </div>
 
@@ -31,7 +39,7 @@ export default function Home() {
                 <Calendar className="w-8 h-8 mb-2 text-primary" />
                 <CardTitle>Earnings Calendar</CardTitle>
                 <CardDescription>
-                  View upcoming earnings reports for the next 3 months
+                  View upcoming earnings reports
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -43,7 +51,7 @@ export default function Home() {
                 <TrendingUp className="w-8 h-8 mb-2 text-primary" />
                 <CardTitle>Company Trends</CardTitle>
                 <CardDescription>
-                  Track sentiment and metrics over the last 4 quarters
+                  Track sentiment and metrics over the last 12 quarters
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -55,7 +63,7 @@ export default function Home() {
                 <BarChart3 className="w-8 h-8 mb-2 text-primary" />
                 <CardTitle>Macro Analysis</CardTitle>
                 <CardDescription>
-                  Cross-company insights on capex, deals, and guidance
+                  Cross-company insights on capex, deals, and more
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -70,7 +78,10 @@ export default function Home() {
               <CardContent className="pt-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {mag7.map((company) => (
-                    <Link key={company.ticker} href={`/company/${company.ticker}`}>
+                    <Link
+                      key={company.ticker}
+                      href={`/company/${company.ticker}`}
+                    >
                       <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
                         <div className="flex items-center justify-between mb-2">
                           <Badge variant="outline">{company.ticker}</Badge>
@@ -90,12 +101,17 @@ export default function Home() {
               <CardContent className="pt-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {tech.slice(0, 12).map((company) => (
-                    <Link key={company.ticker} href={`/company/${company.ticker}`}>
+                    <Link
+                      key={company.ticker}
+                      href={`/company/${company.ticker}`}
+                    >
                       <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
                         <div className="flex items-center justify-between mb-2">
                           <Badge variant="outline">{company.ticker}</Badge>
                         </div>
-                        <p className="text-sm font-medium truncate">{company.name}</p>
+                        <p className="text-sm font-medium truncate">
+                          {company.name}
+                        </p>
                       </div>
                     </Link>
                   ))}
@@ -111,12 +127,17 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="grid grid-cols-2 gap-4">
                     {biotech.map((company) => (
-                      <Link key={company.ticker} href={`/company/${company.ticker}`}>
+                      <Link
+                        key={company.ticker}
+                        href={`/company/${company.ticker}`}
+                      >
                         <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
                           <div className="flex items-center justify-between mb-2">
                             <Badge variant="outline">{company.ticker}</Badge>
                           </div>
-                          <p className="text-sm font-medium truncate">{company.name}</p>
+                          <p className="text-sm font-medium truncate">
+                            {company.name}
+                          </p>
                         </div>
                       </Link>
                     ))}
@@ -131,12 +152,17 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="grid grid-cols-2 gap-4">
                     {wsb.map((company) => (
-                      <Link key={company.ticker} href={`/company/${company.ticker}`}>
+                      <Link
+                        key={company.ticker}
+                        href={`/company/${company.ticker}`}
+                      >
                         <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
                           <div className="flex items-center justify-between mb-2">
                             <Badge variant="outline">{company.ticker}</Badge>
                           </div>
-                          <p className="text-sm font-medium truncate">{company.name}</p>
+                          <p className="text-sm font-medium truncate">
+                            {company.name}
+                          </p>
                         </div>
                       </Link>
                     ))}
@@ -150,7 +176,9 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-muted-foreground">
           <p>Data powered by SEC EDGAR API • Analysis by Claude Haiku</p>
-          <p className="mt-2">Free and open-source earnings intelligence for retail investors</p>
+          <p className="mt-2">
+            Free and open-source earnings intelligence for retail investors
+          </p>
         </div>
       </div>
     </main>

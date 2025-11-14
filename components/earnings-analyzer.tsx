@@ -1,23 +1,40 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Loader2, TrendingUp, TrendingDown, Minus, ExternalLink } from "lucide-react";
-import { Company, AnalysisResponse } from "@/types";
-import { EarningsOverview } from "./earnings-overview";
-import { CompanySummary } from "./company-summary";
+import { useState } from 'react';
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import {
+  Loader2,
+  TrendingUp,
+  TrendingDown,
+  Minus,
+  ExternalLink,
+} from 'lucide-react';
+import { Company, AnalysisResponse } from '@/types';
+import { EarningsOverview } from './earnings-overview';
+import { CompanySummary } from './company-summary';
 
 interface EarningsAnalyzerProps {
   company: Company;
   initialData?: AnalysisResponse | null;
 }
 
-export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps) {
+export function EarningsAnalyzer({
+  company,
+  initialData,
+}: EarningsAnalyzerProps) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [results, setResults] = useState<AnalysisResponse | null>(initialData || null);
+  const [results, setResults] = useState<AnalysisResponse | null>(
+    initialData || null
+  );
 
   const analyzeEarnings = async () => {
     setLoading(true);
@@ -25,18 +42,18 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
 
     try {
       const response = await fetch(`/api/analyze/${company.ticker}`, {
-        method: "POST",
+        method: 'POST',
       });
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.error || "Failed to analyze earnings");
+        throw new Error(errorData.error || 'Failed to analyze earnings');
       }
 
       const data: AnalysisResponse = await response.json();
       setResults(data);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "An error occurred");
+      setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
       setLoading(false);
     }
@@ -44,9 +61,9 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
 
   const getSentimentIcon = (sentiment: string) => {
     switch (sentiment) {
-      case "bullish":
+      case 'bullish':
         return <TrendingUp className="h-4 w-4 text-green-500" />;
-      case "bearish":
+      case 'bearish':
         return <TrendingDown className="h-4 w-4 text-red-500" />;
       default:
         return <Minus className="h-4 w-4 text-gray-500" />;
@@ -55,12 +72,12 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
 
   const getSentimentColor = (sentiment: string) => {
     switch (sentiment) {
-      case "bullish":
-        return "text-green-600 bg-green-50 dark:bg-green-950 dark:text-green-400";
-      case "bearish":
-        return "text-red-600 bg-red-50 dark:bg-red-950 dark:text-red-400";
+      case 'bullish':
+        return 'text-green-600 bg-green-50 dark:bg-green-950 dark:text-green-400';
+      case 'bearish':
+        return 'text-red-600 bg-red-50 dark:bg-red-950 dark:text-red-400';
       default:
-        return "text-gray-600 bg-gray-50 dark:bg-gray-950 dark:text-gray-400";
+        return 'text-gray-600 bg-gray-50 dark:bg-gray-950 dark:text-gray-400';
     }
   };
 
@@ -88,15 +105,9 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
         {!results && !loading && (
           <div className="text-center py-8">
             <p className="text-muted-foreground mb-6">
-              Fetch and analyze the latest earnings reports from SEC EDGAR.
-              This will extract key insights including guidance, capex trends,
-              partnerships, and sentiment analysis.
-            </p>
-            <Button onClick={analyzeEarnings} size="lg">
-              Analyze Earnings History
-            </Button>
-            <p className="text-xs text-muted-foreground mt-4">
-              Analyzes last ~3 years of quarterly reports
+              We do not have access to the latest earnings reports from SEC
+              EDGAR. Once complete, will extract key insights including
+              guidance, capex trends, partnerships, and sentiment analysis.
             </p>
           </div>
         )}
@@ -127,7 +138,8 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-muted-foreground">
-                  Analyzed {results.successfulAnalyses} of {results.totalFetched} reports
+                  Analyzed {results.successfulAnalyses} of{' '}
+                  {results.totalFetched} reports
                 </p>
               </div>
               <Button onClick={analyzeEarnings} variant="outline" size="sm">
@@ -154,14 +166,25 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
                           <CardHeader>
                             <div className="flex items-start justify-between">
                               <div>
-                                <CardTitle className="text-lg">{report.quarter}</CardTitle>
+                                <CardTitle className="text-lg">
+                                  {report.quarter}
+                                </CardTitle>
                                 <CardDescription>
-                                  {report.filing.form} • Filed {new Date(report.filing.filingDate).toLocaleDateString()}
+                                  {report.filing.form} • Filed{' '}
+                                  {new Date(
+                                    report.filing.filingDate
+                                  ).toLocaleDateString()}
                                 </CardDescription>
                               </div>
                               <div className="flex items-center gap-2">
-                                {getSentimentIcon(report.insights.overallSentiment)}
-                                <Badge className={getSentimentColor(report.insights.overallSentiment)}>
+                                {getSentimentIcon(
+                                  report.insights.overallSentiment
+                                )}
+                                <Badge
+                                  className={getSentimentColor(
+                                    report.insights.overallSentiment
+                                  )}
+                                >
                                   {report.insights.overallSentiment}
                                 </Badge>
                               </div>
@@ -170,40 +193,60 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
                           <CardContent className="space-y-4">
                             <div>
                               <h4 className="font-semibold mb-2">Summary</h4>
-                              <p className="text-sm text-muted-foreground">{report.insights.summary}</p>
+                              <p className="text-sm text-muted-foreground">
+                                {report.insights.summary}
+                              </p>
                             </div>
 
                             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                               <div>
-                                <p className="text-xs text-muted-foreground">Revenue</p>
+                                <p className="text-xs text-muted-foreground">
+                                  Revenue
+                                </p>
                                 <p className="text-lg font-semibold">
                                   {formatCurrency(report.insights.revenue)}
                                 </p>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">Net Income</p>
+                                <p className="text-xs text-muted-foreground">
+                                  Net Income
+                                </p>
                                 <p className="text-lg font-semibold">
                                   {formatCurrency(report.insights.netIncome)}
                                 </p>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">Guidance</p>
-                                <Badge variant="outline">{report.insights.guidanceDirection || 'unknown'}</Badge>
+                                <p className="text-xs text-muted-foreground">
+                                  Guidance
+                                </p>
+                                <Badge variant="outline">
+                                  {report.insights.guidanceDirection ||
+                                    'unknown'}
+                                </Badge>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">Tone</p>
-                                <Badge variant="outline">{report.insights.guidanceTone || 'unknown'}</Badge>
+                                <p className="text-xs text-muted-foreground">
+                                  Tone
+                                </p>
+                                <Badge variant="outline">
+                                  {report.insights.guidanceTone || 'unknown'}
+                                </Badge>
                               </div>
                             </div>
 
                             {report.insights.capexAmount && (
                               <div>
-                                <p className="text-xs text-muted-foreground">Capex</p>
+                                <p className="text-xs text-muted-foreground">
+                                  Capex
+                                </p>
                                 <p className="text-sm font-medium">
                                   {formatCurrency(report.insights.capexAmount)}
                                   {report.insights.capexGrowth && (
                                     <span className="text-xs text-muted-foreground ml-2">
-                                      ({report.insights.capexGrowth > 0 ? "+" : ""}
+                                      (
+                                      {report.insights.capexGrowth > 0
+                                        ? '+'
+                                        : ''}
                                       {report.insights.capexGrowth}% YoY)
                                     </span>
                                   )}
@@ -211,31 +254,48 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
                               </div>
                             )}
 
-                            {report.insights.partnerships && report.insights.partnerships.length > 0 && (
-                              <div>
-                                <p className="text-xs text-muted-foreground mb-1">Partnerships</p>
-                                <div className="flex flex-wrap gap-1">
-                                  {report.insights.partnerships.map((partner, i) => (
-                                    <Badge key={i} variant="secondary" className="text-xs">
-                                      {partner}
-                                    </Badge>
-                                  ))}
+                            {report.insights.partnerships &&
+                              report.insights.partnerships.length > 0 && (
+                                <div>
+                                  <p className="text-xs text-muted-foreground mb-1">
+                                    Partnerships
+                                  </p>
+                                  <div className="flex flex-wrap gap-1">
+                                    {report.insights.partnerships.map(
+                                      (partner, i) => (
+                                        <Badge
+                                          key={i}
+                                          variant="secondary"
+                                          className="text-xs"
+                                        >
+                                          {partner}
+                                        </Badge>
+                                      )
+                                    )}
+                                  </div>
                                 </div>
-                              </div>
-                            )}
+                              )}
 
-                            {report.insights.keyQuotes && report.insights.keyQuotes.length > 0 && (
-                              <div>
-                                <p className="text-xs text-muted-foreground mb-2">Key Quotes</p>
-                                <div className="space-y-2">
-                                  {report.insights.keyQuotes.map((quote, i) => (
-                                    <p key={i} className="text-sm italic border-l-2 border-primary pl-3">
-                                      "{quote}"
-                                    </p>
-                                  ))}
+                            {report.insights.keyQuotes &&
+                              report.insights.keyQuotes.length > 0 && (
+                                <div>
+                                  <p className="text-xs text-muted-foreground mb-2">
+                                    Key Quotes
+                                  </p>
+                                  <div className="space-y-2">
+                                    {report.insights.keyQuotes.map(
+                                      (quote, i) => (
+                                        <p
+                                          key={i}
+                                          className="text-sm italic border-l-2 border-primary pl-3"
+                                        >
+                                          "{quote}"
+                                        </p>
+                                      )
+                                    )}
+                                  </div>
                                 </div>
-                              </div>
-                            )}
+                              )}
 
                             <div className="pt-2">
                               <Button variant="ghost" size="sm" asChild>
@@ -264,12 +324,26 @@ export function EarningsAnalyzer({ company, initialData }: EarningsAnalyzerProps
                   API Credits Required
                 </h3>
                 <p className="text-sm text-amber-800 dark:text-amber-200 mb-4">
-                  Your Anthropic API key doesn't have enough credits. The earnings reports were fetched successfully, but the AI analysis requires credits.
+                  Your Anthropic API key doesn't have enough credits. The
+                  earnings reports were fetched successfully, but the AI
+                  analysis requires credits.
                 </p>
                 <div className="space-y-2 text-sm">
-                  <p className="font-medium text-amber-900 dark:text-amber-100">To fix this:</p>
+                  <p className="font-medium text-amber-900 dark:text-amber-100">
+                    To fix this:
+                  </p>
                   <ol className="list-decimal list-inside space-y-1 text-amber-800 dark:text-amber-200">
-                    <li>Go to <a href="https://console.anthropic.com/settings/plans" target="_blank" rel="noopener noreferrer" className="underline hover:text-amber-900 dark:hover:text-amber-100">console.anthropic.com/settings/plans</a></li>
+                    <li>
+                      Go to{' '}
+                      <a
+                        href="https://console.anthropic.com/settings/plans"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline hover:text-amber-900 dark:hover:text-amber-100"
+                      >
+                        console.anthropic.com/settings/plans
+                      </a>
+                    </li>
                     <li>Add credits to your account (minimum $5)</li>
                     <li>Come back and click "Refresh Analysis"</li>
                   </ol>
