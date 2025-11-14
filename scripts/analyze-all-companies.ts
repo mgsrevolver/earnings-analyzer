@@ -4,6 +4,16 @@
  * This script fetches and analyzes earnings data for all companies in the database.
  * It stores the results in /data/earnings/{TICKER}.json for fast loading.
  *
+ * For each company, it:
+ * 1. Fetches last 12 filings from SEC EDGAR
+ * 2. Runs Claude analysis on each filing (earnings metrics, sentiment, etc.)
+ * 3. Extracts detailed partnerships with separate Claude call
+ * 4. Fetches market data from Yahoo Finance (EPS beat/miss, price action)
+ * 5. Calculates composite sentiment scores (0-100 scale)
+ * 6. Saves all data to /data/earnings/{TICKER}.json
+ *
+ * After all companies, generates macro analysis at /data/macro/latest.json
+ *
  * Usage: npm run analyze-all
  *
  * Estimated runtime: 2-3 hours for ~40 companies
@@ -17,6 +27,8 @@ import { getAllCompanies } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
 import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
 import { computeMacroAnalysis } from '../lib/macro';
+import { fetchMarketData } from '../lib/market-data';
+import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 
 // Load environment variables from .env.local
 config({ path: join(process.cwd(), '.env.local') });
@@ -139,7 +151,7 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       try {
         const { text } = await getFilingWithText(filing);
 
-        // Run both analyses in parallel for efficiency
+        // Run Claude analyses in parallel for efficiency
         const [insights, detailedPartnerships] = await Promise.all([
           analyzeEarningsReport(company.name, text, quarter, filing.form),
           extractPartnerships(company.name, text, quarter)
@@ -151,18 +163,33 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
           ...detailedPartnerships
         ]));
 
+        // Fetch market data (EPS beat/miss, price action)
+        console.log(`  📊 Fetching market data for ${filing.reportDate}...`);
+        const marketData = await fetchMarketData(company.ticker, filing.reportDate);
+
+        // Calculate composite sentiment if we have market data
+        let sentimentData = {};
+        if (marketData.epsSurprisePercent !== undefined || marketData.priceChangePercent !== undefined) {
+          sentimentData = calculateCompositeSentiment(insights, marketData);
+          console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
+        }
+
         analyzedFilings.push({
           filing,
           insights: {
             ...insights,
-            partnerships: allPartnerships
+            partnerships: allPartnerships,
+            marketData: {
+              ...marketData,
+              ...sentimentData,
+            }
           },
           quarter,
           quarterInfo: getQuarterInfo(filing.reportDate, company),
           analyzedSuccessfully: true
         });
 
-        console.log(`  ✓ Success (${allPartnerships.length} partnerships found)`);
+        console.log(`  ✓ Success (${allPartnerships.length} partnerships, ${marketData.epsSurprisePercent !== undefined ? 'EPS data ✓' : 'EPS data ✗'}, ${marketData.priceChangePercent !== undefined ? 'Price data ✓' : 'Price data ✗'})`);
       } catch (error) {
         console.error(`  ✗ Error: ${error instanceof Error ? error.message : 'Unknown error'}`);
       }
