@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { getCompanyByTicker } from '@/lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '@/lib/edgar';
 import { analyzeEarningsReport } from '@/lib/claude';
+import { fetchMarketData } from '@/lib/market-data';
+import { calculateCompositeSentiment } from '@/lib/sentiment-calculator';
 
 export async function POST(
   _request: Request,
@@ -116,6 +118,30 @@ export async function POST(
           quarter,
           filing.form
         );
+
+        // Fetch market data to calculate reality-based sentiment
+        console.log(`Fetching market data for ${company.ticker} on ${filing.filingDate}...`);
+        try {
+          const marketDataResult = await fetchMarketData(company.ticker, filing.filingDate);
+
+          // Calculate composite sentiment if we have market data
+          if (marketDataResult && (marketDataResult.epsSurprisePercent !== undefined || marketDataResult.priceChangePercent !== undefined)) {
+            const sentimentScores = calculateCompositeSentiment(insights, marketDataResult);
+
+            // Add market data to insights
+            insights.marketData = {
+              ...marketDataResult,
+              ...sentimentScores,
+            };
+
+            console.log(`Composite sentiment for ${quarter}: ${sentimentScores.compositeSentiment} (score: ${sentimentScores.compositeSentimentScore})`);
+          } else {
+            console.log(`Limited market data available for ${quarter} - using management tone only`);
+          }
+        } catch (marketError) {
+          console.warn(`Could not fetch market data for ${quarter}:`, marketError);
+          // Continue without market data - we'll still have management tone
+        }
 
         analyzedFilings.push({
           filing,

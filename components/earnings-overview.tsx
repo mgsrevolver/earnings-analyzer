@@ -75,6 +75,13 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
     }
   };
 
+  // Get score color based on value (0-100 scale)
+  const getScoreColor = (score: number) => {
+    if (score >= 60) return "text-green-600 dark:text-green-400";
+    if (score <= 40) return "text-red-600 dark:text-red-400";
+    return "text-gray-600 dark:text-gray-400";
+  };
+
   const getGuidanceColor = (direction: string) => {
     switch (direction) {
       case "raised":
@@ -127,8 +134,78 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
     } tone from management.`;
   };
 
+  // Check if we have enhanced market data for the latest report
+  const hasMarketData = latestReport.insights.marketData?.compositeSentimentScore !== undefined;
+
   return (
     <div className="space-y-6">
+      {/* Composite Sentiment Breakdown */}
+      {hasMarketData && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center justify-between">
+              <span>Reality-Based Sentiment Analysis</span>
+              <div className="flex items-center gap-2">
+                {getSentimentIcon(latestReport.insights.marketData?.compositeSentiment || "neutral")}
+                <Badge className={getSentimentColor(latestReport.insights.marketData?.compositeSentiment || "neutral")}>
+                  {latestReport.insights.marketData?.compositeSentiment}
+                </Badge>
+                <span className={`text-2xl font-bold ${getScoreColor(latestReport.insights.marketData?.compositeSentimentScore || 50)}`}>
+                  {latestReport.insights.marketData?.compositeSentimentScore}/100
+                </span>
+              </div>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-muted-foreground mb-4">
+              Based on actual market data, not just management spin. Weighted score: 10% management tone + 40% earnings beat/miss + 30% price action + 20% guidance accuracy.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div className="p-4 border rounded-lg">
+                <div className="text-xs text-muted-foreground mb-1">Management Tone (10%)</div>
+                <div className={`text-2xl font-bold ${getScoreColor(latestReport.insights.marketData?.managementToneScore || 50)}`}>
+                  {latestReport.insights.marketData?.managementToneScore || 50}
+                </div>
+                <div className="text-xs text-muted-foreground mt-1">From earnings report</div>
+              </div>
+              <div className="p-4 border rounded-lg">
+                <div className="text-xs text-muted-foreground mb-1">Earnings Beat/Miss (40%)</div>
+                <div className={`text-2xl font-bold ${getScoreColor(latestReport.insights.marketData?.earningsBeatScore || 50)}`}>
+                  {latestReport.insights.marketData?.earningsBeatScore || 50}
+                </div>
+                {latestReport.insights.marketData?.epsSurprisePercent !== undefined && (
+                  <div className="text-xs text-muted-foreground mt-1">
+                    {latestReport.insights.marketData.epsSurprisePercent > 0 ? "+" : ""}
+                    {latestReport.insights.marketData.epsSurprisePercent.toFixed(1)}% vs estimates
+                  </div>
+                )}
+              </div>
+              <div className="p-4 border rounded-lg">
+                <div className="text-xs text-muted-foreground mb-1">7-Day Price Action (30%)</div>
+                <div className={`text-2xl font-bold ${getScoreColor(latestReport.insights.marketData?.priceActionScore || 50)}`}>
+                  {latestReport.insights.marketData?.priceActionScore || 50}
+                </div>
+                {latestReport.insights.marketData?.priceChangePercent !== undefined && (
+                  <div className="text-xs text-muted-foreground mt-1">
+                    {latestReport.insights.marketData.priceChangePercent > 0 ? "+" : ""}
+                    {latestReport.insights.marketData.priceChangePercent.toFixed(1)}% post-earnings
+                  </div>
+                )}
+              </div>
+              <div className="p-4 border rounded-lg">
+                <div className="text-xs text-muted-foreground mb-1">Guidance Accuracy (20%)</div>
+                <div className={`text-2xl font-bold ${getScoreColor(latestReport.insights.marketData?.guidanceAccuracyScoreWeighted || 50)}`}>
+                  {latestReport.insights.marketData?.guidanceAccuracyScoreWeighted || 50}
+                </div>
+                <div className="text-xs text-muted-foreground mt-1">
+                  {latestReport.insights.priorGuidanceHit === true ? "Hit targets" : latestReport.insights.priorGuidanceHit === false ? "Missed targets" : "Unknown"}
+                </div>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
       {/* Financial Metrics Chart */}
       <Card>
         <CardHeader>
@@ -177,18 +254,31 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
 
           {/* Sentiment and Guidance badges aligned with quarters */}
           <div className="mt-6 space-y-3">
-            {/* Sentiment row */}
+            {/* Sentiment row - use composite if available, otherwise management tone */}
             <div className="flex items-center gap-4">
-              <div className="text-sm font-semibold min-w-[100px]">Sentiment:</div>
+              <div className="text-sm font-semibold min-w-[100px]">
+                {guidanceData.some(r => r.insights.marketData?.compositeSentiment) ? "Market Sentiment:" : "Mgmt Sentiment:"}
+              </div>
               <div className="flex justify-between flex-1 px-8">
-                {guidanceData.map((report, index) => (
-                  <div key={index} className="flex items-center gap-1">
-                    {getSentimentIcon(report.insights.overallSentiment)}
-                    <Badge className={getSentimentColor(report.insights.overallSentiment) + " text-xs"}>
-                      {report.insights.overallSentiment}
-                    </Badge>
-                  </div>
-                ))}
+                {guidanceData.map((report, index) => {
+                  const sentiment = report.insights.marketData?.compositeSentiment || report.insights.overallSentiment;
+                  const score = report.insights.marketData?.compositeSentimentScore;
+                  return (
+                    <div key={index} className="flex flex-col items-center gap-1">
+                      <div className="flex items-center gap-1">
+                        {getSentimentIcon(sentiment)}
+                        <Badge className={getSentimentColor(sentiment) + " text-xs"}>
+                          {sentiment}
+                        </Badge>
+                      </div>
+                      {score !== undefined && (
+                        <div className={`text-xs font-semibold ${getScoreColor(score)}`}>
+                          {score}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
             </div>
 

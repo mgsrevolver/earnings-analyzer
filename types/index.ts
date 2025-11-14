@@ -64,6 +64,32 @@ export interface EarningsInsights {
   overallSentiment: "bullish" | "neutral" | "bearish";
   summary: string;
   keyQuotes: string[];
+
+  // Enhanced Market-Based Sentiment (optional - only available when market data is fetched)
+  marketData?: {
+    // Earnings beat/miss data
+    actualEPS?: number;
+    estimatedEPS?: number;
+    epsSurprisePercent?: number; // (actual - estimate) / estimate * 100
+
+    // Price action post-earnings
+    priceOnEarningsDate?: number;
+    priceAfter7Days?: number;
+    priceChangePercent?: number; // % change over 7 days post-earnings
+
+    // Guidance accuracy (comparing to previous quarter's guidance)
+    guidanceAccuracyScore?: number; // 0-100, how well they met their own guidance
+
+    // Composite sentiment scores (0-100)
+    managementToneScore?: number; // Derived from existing sentiment fields
+    earningsBeatScore?: number; // Based on EPS surprise
+    priceActionScore?: number; // Based on post-earnings price movement
+    guidanceAccuracyScoreWeighted?: number; // Based on hitting their own targets
+
+    // Weighted composite (10% mgmt + 40% beat + 30% price + 20% guidance)
+    compositeSentimentScore?: number; // 0-100
+    compositeSentiment?: "bullish" | "neutral" | "bearish"; // Derived from composite score
+  };
 }
 
 // Earnings report with analysis
