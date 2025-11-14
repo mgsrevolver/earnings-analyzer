@@ -129,10 +129,12 @@ export function PinnedHeader({ company, results }: PinnedHeaderProps) {
           {/* Latest Quarter Metrics */}
           <div className="flex items-center gap-8">
             {/* Revenue */}
-            <div>
-              <p className="text-xs text-muted-foreground mb-1">Revenue</p>
-              <p className="font-semibold text-lg mb-1">{formatCurrency(insights.revenue)}</p>
-              <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
+              <div>
+                <p className="text-xs text-muted-foreground mb-1">Revenue</p>
+                <p className="font-semibold text-2xl">{formatCurrency(insights.revenue)}</p>
+              </div>
+              <div className="flex flex-col gap-1">
                 {revenueChanges.qoq !== null && (
                   <div className="flex items-center gap-1">
                     {getChangeIcon(revenueChanges.qoq)}
@@ -153,10 +155,12 @@ export function PinnedHeader({ company, results }: PinnedHeaderProps) {
             </div>
 
             {/* Net Income */}
-            <div>
-              <p className="text-xs text-muted-foreground mb-1">Net Income</p>
-              <p className="font-semibold text-lg mb-1">{formatCurrency(insights.netIncome)}</p>
-              <div className="flex items-center gap-3">
+            <div className="flex items-center gap-4">
+              <div>
+                <p className="text-xs text-muted-foreground mb-1">Net Income</p>
+                <p className="font-semibold text-2xl">{formatCurrency(insights.netIncome)}</p>
+              </div>
+              <div className="flex flex-col gap-1">
                 {incomeChanges.qoq !== null && (
                   <div className="flex items-center gap-1">
                     {getChangeIcon(incomeChanges.qoq)}
