@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 import { getCompanyByTicker } from "@/lib/companies";
 import { EarningsAnalyzer } from "@/components/earnings-analyzer";
 import { getCachedEarnings } from "@/lib/earnings-cache";
+import { getSectorComparison } from "@/lib/macro";
+import { SectorComparison } from "@/components/sector-comparison";
 import { ArrowLeft } from "lucide-react";
+import { join } from "path";
 
 export default async function CompanyPage({
   params,
@@ -21,6 +24,10 @@ export default async function CompanyPage({
 
   // Load cached earnings data
   const cachedEarnings = getCachedEarnings(ticker);
+
+  // Load sector comparison
+  const dataDir = join(process.cwd(), "data", "earnings");
+  const sectorComparison = getSectorComparison(ticker.toUpperCase(), dataDir);
 
   return (
     <main className="min-h-screen p-8 bg-background">
@@ -39,11 +46,12 @@ export default async function CompanyPage({
                 <Badge variant="outline" className="text-lg px-3 py-1">
                   {company.ticker}
                 </Badge>
-                {company.category.map((cat) => (
-                  <Badge key={cat} variant="secondary">
-                    {cat}
-                  </Badge>
-                ))}
+                <Badge variant="secondary">
+                  {company.sector}
+                </Badge>
+                <Badge variant="outline">
+                  {company.subCategory}
+                </Badge>
               </div>
               <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
               <p className="text-muted-foreground">
@@ -57,6 +65,18 @@ export default async function CompanyPage({
             </div>
           </div>
         </div>
+
+        {/* Sector Comparison */}
+        {sectorComparison && (
+          <SectorComparison
+            ticker={ticker.toUpperCase()}
+            company={sectorComparison.company}
+            companyMetrics={sectorComparison.companyMetrics}
+            sectorAverages={sectorComparison.sectorAverages}
+            subCategoryAverages={sectorComparison.subCategoryAverages}
+            ranking={sectorComparison.ranking}
+          />
+        )}
 
         <EarningsAnalyzer company={company} initialData={cachedEarnings} />
       </div>
