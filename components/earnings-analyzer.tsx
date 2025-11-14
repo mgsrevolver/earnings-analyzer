@@ -97,9 +97,6 @@ export function EarningsAnalyzer({
     <Card>
       <CardHeader>
         <CardTitle>Earnings Analysis</CardTitle>
-        <CardDescription>
-          AI-powered analysis using Claude Haiku
-        </CardDescription>
       </CardHeader>
       <CardContent>
         {!results && !loading && (

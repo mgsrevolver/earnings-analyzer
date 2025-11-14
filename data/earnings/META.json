@@ -6,64 +6,11 @@
       "Mag7",
       "Tech"
     ],
+    "sector": "Technology",
+    "subCategory": "Social Media",
     "cik": "0001326801"
   },
   "reports": [
-    {
-      "filing": {
-        "accessionNumber": "0001628280-25-047240",
-        "filingDate": "2025-10-30",
-        "reportDate": "2025-09-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
-        "revenue": 51242,
-        "netIncome": 2709,
-        "operatingCashFlow": 79586,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 924,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "United States and Canada": 38.5,
-          "Europe": 22.6,
-          "Asia-Pacific": 27.9,
-          "Rest of World": 11
-        },
-        "capexAmount": 48308,
-        "capexGrowth": 111.6,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Privacy litigation",
-          "FTC settlements",
-          "Attorney General inquiries"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Meta reported quarterly revenue of $51.2 billion with net income of $2.7 billion, reflecting significant infrastructure investments and ongoing regulatory challenges. The company continues to expand infrastructure spending while managing legal and privacy-related risks.",
-        "keyQuotes": []
-      },
-      "quarter": "Q3 2025",
-      "quarterInfo": {
-        "calendarQuarter": 3,
-        "calendarYear": 2025,
-        "fiscalQuarter": 3,
-        "fiscalYear": 2025,
-        "quarter": "Q3 2025",
-        "reportDate": "2025-09-30"
-      },
-      "analyzedSuccessfully": true
-    },
     {
       "filing": {
         "accessionNumber": "0001628280-25-036791",
@@ -77,7 +24,7 @@
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 47516,
         "netIncome": 18337,
         "operatingCashFlow": 49587,
@@ -87,25 +34,30 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 38.8,
-          "Europe": 23.4,
-          "Asia_Pacific": 27.1,
-          "Rest_of_World": 10.7
+          "United States and Canada": 38.84,
+          "Europe": 23.42,
+          "Asia-Pacific": 27.06,
+          "Rest of World": 10.68
         },
         "capexAmount": 29479,
-        "capexGrowth": 102.2,
+        "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC consent order modifications",
-          "Privacy litigation"
+          "FTC investigations",
+          "European Commission digital market compliance",
+          "Privacy and data protection challenges"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong quarterly performance with robust revenue growth and substantial net income. The company continues to invest heavily in infrastructure while maintaining stable operations amid ongoing regulatory challenges.",
-        "keyQuotes": []
+        "summary": "Meta delivered strong quarterly performance with revenue of $47.5 billion and net income of $18.3 billion, driven by robust advertising revenue across global markets. The company continues to invest heavily in infrastructure and AI technologies while navigating complex regulatory landscapes.",
+        "keyQuotes": [
+          "We extended the estimated useful lives of most servers and network assets to 5.5 years",
+          "Our Family metrics represent our estimates of unique people using our products"
+        ],
+        "marketData": {}
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -127,12 +79,13 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm"
       },
       "insights": {
-        "revenue": 42314,
-        "netIncome": 16644,
         "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
+        "revenue": 42314,
+        "netIncome": 16644,
         "operatingCashFlow": 24026,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -140,29 +93,27 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "unitedStatesAndCanada": 39.9,
-          "europe": 22.7,
-          "asiaPacific": 26.6,
-          "restOfWorld": 10.8
+          "United States and Canada": 39.9,
+          "Europe": 22.7,
+          "Asia-Pacific": 26.6,
+          "Rest of World": 10.8
         },
         "capexAmount": 12941,
-        "capexGrowth": 102.2,
+        "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC consent order modifications",
-          "GDPR compliance investigations",
-          "Privacy lawsuits"
+          "European Commission Digital Markets Act investigations",
+          "FTC antitrust proceedings",
+          "Privacy regulation challenges"
         ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q1 performance with robust revenue and net income growth, driven by advertising resilience. The company continues to invest heavily in infrastructure and data centers while navigating complex regulatory challenges.",
-        "keyQuotes": [
-          "We extended the estimated useful lives of most servers and network assets to 5.5 years",
-          "Our servers and network infrastructure investments remain a key strategic priority"
-        ]
+        "summary": "Meta delivered strong Q1 2025 results with robust revenue growth and continued operational efficiency. The company saw significant improvements in advertising revenue and maintained disciplined cost management while investing heavily in AI and infrastructure.",
+        "keyQuotes": [],
+        "marketData": {}
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -189,13 +140,13 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
-        "revenue": 20290,
+        "revenue": 19853,
         "netIncome": -2395,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "facing significant competition across all aspects of business",
+        "marketShareMention": "Facing significant competition across all business segments",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": null,
@@ -206,18 +157,20 @@
           "Digital Services Act",
           "Digital Markets Act",
           "EU AI Act",
-          "GDPR",
-          "Privacy regulations"
+          "GDPR compliance challenges",
+          "Privacy regulation changes"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Meta faces significant regulatory challenges, competitive pressures, and ongoing litigation risks. The company is investing heavily in AI while reducing headcount and managing complex global operational challenges.",
+        "summary": "Meta faces significant regulatory and competitive challenges, with ongoing privacy concerns and substantial investments in AI and metaverse technologies impacting financial performance. The company is experiencing headcount reductions and cautious guidance amid complex global regulatory environment.",
         "keyQuotes": [
-          "We face significant competition in every aspect of our business",
-          "Our financial results in any given quarter can be influenced by numerous factors, many of which we are unable to predict or are outside of our control"
-        ]
+          "We are making significant investments in AI initiatives across our business",
+          "Our Reality Labs efforts may divert resources and management attention from other areas of our business",
+          "We face significant competition in every aspect of our business"
+        ],
+        "marketData": {}
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -253,22 +206,27 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 38.5,
+          "United States and Canada": 38.5,
           "Europe": 22.7,
-          "Asia_Pacific": 27.7,
-          "Rest_of_World": 11.1
+          "Asia-Pacific": 27.7,
+          "Rest of World": 11.1
         },
         "capexAmount": 22831,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
+        "regulatoryHeadwinds": [
+          "European Commission Digital Services Act investigation",
+          "FTC consent order modification proceedings",
+          "Data privacy regulations"
+        ],
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q3 2024 financial performance with robust revenue growth and continued operational efficiency. The company maintained a confident stance, with solid revenue of $40.6B and net income of $15.7B, indicating strong market positioning and financial health.",
-        "keyQuotes": []
+        "summary": "Meta delivered strong Q3 2024 financial performance with quarterly revenue of $40.6 billion and net income of $15.7 billion, demonstrating robust advertising revenue and operational efficiency. The company continues to invest heavily in infrastructure and AI while navigating complex regulatory challenges.",
+        "keyQuotes": [],
+        "marketData": {}
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -291,7 +249,7 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
@@ -304,25 +262,30 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States and Canada": 37.5,
+          "US_Canada": 37.5,
           "Europe": 23.4,
-          "Asia-Pacific": 28.1,
-          "Rest of World": 11
+          "Asia_Pacific": 28.1,
+          "Rest_of_World": 11
         },
         "capexAmount": 14573,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Privacy investigations",
-          "FTC consent order"
+          "FTC investigations",
+          "European privacy regulations",
+          "Digital Markets Act compliance"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q2 2024 financial performance with robust revenue growth and continued efficiency. The company maintained solid profitability and geographic diversification while managing operational expenses effectively.",
-        "keyQuotes": []
+        "summary": "Meta delivered strong Q2 2024 results with revenue of $39.1 billion and net income of $13.5 billion, representing significant year-over-year growth. The company continues to invest heavily in infrastructure and AI while navigating complex regulatory environments.",
+        "keyQuotes": [
+          "Through the quarter, we've seen strong results and revenue growth across our family of apps",
+          "Our AI investments continue to drive innovation and performance"
+        ],
+        "marketData": {}
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -358,25 +321,30 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States and Canada": 37.4,
+          "United_States_and_Canada": 37.4,
           "Europe": 23,
           "Asia-Pacific": 28.3,
-          "Rest of World": 11.3
+          "Rest_of_World": 11.3
         },
         "capexAmount": 6400,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "FTC consent order modifications",
-          "Privacy investigations"
+          "FTC consent order modification",
+          "European privacy regulations",
+          "Antitrust investigations"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q1 2024 results with revenue of $36.5B and net income of $12.4B, driven by continued ad platform strength and operational efficiency. The company remains focused on AI investments and managing regulatory challenges.",
-        "keyQuotes": []
+        "summary": "Meta delivered strong Q1 2024 performance with robust revenue growth and significant profitability, driven by continued advertising strength and operational efficiency. The company remains focused on AI investments and maintaining cost discipline while navigating complex regulatory environments.",
+        "keyQuotes": [
+          "We are vigorously defending our regulatory compliance",
+          "We intend to continue to pay a quarterly cash dividend"
+        ],
+        "marketData": {}
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -391,6 +359,6 @@
     }
   ],
   "totalFetched": 8,
-  "successfulAnalyses": 7,
-  "lastUpdated": "2025-11-13T21:53:26.624Z"
+  "successfulAnalyses": 6,
+  "lastUpdated": "2025-11-14T02:04:54.298Z"
 }
