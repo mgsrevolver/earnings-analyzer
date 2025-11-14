@@ -53,8 +53,8 @@ export function CompanySummary({ results }: CompanySummaryProps) {
   };
 
   const getGrowthColor = (value: number | null) => {
-    if (value === null) return "text-gray-500";
-    return value >= 0 ? "text-green-600" : "text-red-600";
+    if (value === null) return "text-gray-500 dark:text-gray-400";
+    return value >= 0 ? "text-green-600 dark:text-green-400" : "text-red-600 dark:text-red-400";
   };
 
   return (

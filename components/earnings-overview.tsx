@@ -137,16 +137,18 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
         <CardContent>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={financialData}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="quarter" />
+              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" opacity={0.3} />
+              <XAxis dataKey="quarter" stroke="hsl(var(--muted-foreground))" />
               <YAxis
                 yAxisId="left"
                 tickFormatter={(value) => formatCurrency(value)}
+                stroke="hsl(var(--muted-foreground))"
               />
               <YAxis
                 yAxisId="right"
                 orientation="right"
                 tickFormatter={(value) => formatCurrency(value)}
+                stroke="hsl(var(--muted-foreground))"
               />
               <Tooltip
                 formatter={(value: number) => formatCurrency(value)}
@@ -156,19 +158,19 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
                 yAxisId="left"
                 type="monotone"
                 dataKey="revenue"
-                stroke="#3b82f6"
-                strokeWidth={3}
+                stroke="#60a5fa"
+                strokeWidth={2.5}
                 name="Revenue"
-                dot={{ r: 5 }}
+                dot={{ r: 5, fill: "#60a5fa" }}
               />
               <Line
                 yAxisId="right"
                 type="monotone"
                 dataKey="netIncome"
-                stroke="#10b981"
-                strokeWidth={3}
+                stroke="#34d399"
+                strokeWidth={2.5}
                 name="Net Income"
-                dot={{ r: 5 }}
+                dot={{ r: 5, fill: "#34d399" }}
               />
             </LineChart>
           </ResponsiveContainer>
