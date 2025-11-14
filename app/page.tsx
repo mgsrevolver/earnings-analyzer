@@ -3,6 +3,8 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { COMPANIES, getCompaniesByCategory } from "@/lib/companies";
 import { TrendingUp, Calendar, BarChart3 } from "lucide-react";
+import { getCompanyLogoUrl } from "@/lib/logos";
+import Image from "next/image";
 
 export default function Home() {
   const mag7 = getCompaniesByCategory("Mag7");
@@ -72,7 +74,15 @@ export default function Home() {
                   {mag7.map((company) => (
                     <Link key={company.ticker} href={`/company/${company.ticker}`}>
                       <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-3 mb-3">
+                          <Image
+                            src={getCompanyLogoUrl(company.ticker)}
+                            alt={`${company.ticker} logo`}
+                            width={40}
+                            height={40}
+                            className="rounded"
+                            unoptimized
+                          />
                           <Badge variant="outline">{company.ticker}</Badge>
                         </div>
                         <p className="text-sm font-medium">{company.name}</p>
@@ -92,7 +102,15 @@ export default function Home() {
                   {tech.slice(0, 12).map((company) => (
                     <Link key={company.ticker} href={`/company/${company.ticker}`}>
                       <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-3 mb-3">
+                          <Image
+                            src={getCompanyLogoUrl(company.ticker)}
+                            alt={`${company.ticker} logo`}
+                            width={40}
+                            height={40}
+                            className="rounded"
+                            unoptimized
+                          />
                           <Badge variant="outline">{company.ticker}</Badge>
                         </div>
                         <p className="text-sm font-medium truncate">{company.name}</p>
@@ -113,7 +131,15 @@ export default function Home() {
                     {biotech.map((company) => (
                       <Link key={company.ticker} href={`/company/${company.ticker}`}>
                         <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
-                          <div className="flex items-center justify-between mb-2">
+                          <div className="flex items-center gap-3 mb-3">
+                            <Image
+                              src={getCompanyLogoUrl(company.ticker)}
+                              alt={`${company.ticker} logo`}
+                              width={40}
+                              height={40}
+                              className="rounded"
+                              unoptimized
+                            />
                             <Badge variant="outline">{company.ticker}</Badge>
                           </div>
                           <p className="text-sm font-medium truncate">{company.name}</p>
@@ -133,7 +159,15 @@ export default function Home() {
                     {wsb.map((company) => (
                       <Link key={company.ticker} href={`/company/${company.ticker}`}>
                         <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
-                          <div className="flex items-center justify-between mb-2">
+                          <div className="flex items-center gap-3 mb-3">
+                            <Image
+                              src={getCompanyLogoUrl(company.ticker)}
+                              alt={`${company.ticker} logo`}
+                              width={40}
+                              height={40}
+                              className="rounded"
+                              unoptimized
+                            />
                             <Badge variant="outline">{company.ticker}</Badge>
                           </div>
                           <p className="text-sm font-medium truncate">{company.name}</p>
@@ -150,7 +184,18 @@ export default function Home() {
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-muted-foreground">
           <p>Data powered by SEC EDGAR API • Analysis by Claude Haiku</p>
-          <p className="mt-2">Free and open-source earnings intelligence for retail investors</p>
+          <p className="mt-2">
+            Logos by{" "}
+            <a
+              href="https://www.parqet.com/api/logos"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-foreground"
+            >
+              Parqet
+            </a>
+            {" • "}Free and open-source earnings intelligence for retail investors
+          </p>
         </div>
       </div>
     </main>

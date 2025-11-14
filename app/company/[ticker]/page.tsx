@@ -6,6 +6,8 @@ import { getCompanyByTicker } from "@/lib/companies";
 import { EarningsAnalyzer } from "@/components/earnings-analyzer";
 import { getCachedEarnings } from "@/lib/earnings-cache";
 import { ArrowLeft } from "lucide-react";
+import { getCompanyLogoUrl } from "@/lib/logos";
+import Image from "next/image";
 
 export default async function CompanyPage({
   params,
@@ -51,8 +53,15 @@ export default async function CompanyPage({
               </p>
             </div>
             <div className="flex-shrink-0">
-              <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white text-3xl font-bold shadow-lg">
-                {company.ticker.slice(0, 2)}
+              <div className="w-24 h-24 bg-card border rounded-lg flex items-center justify-center p-3 shadow-lg">
+                <Image
+                  src={getCompanyLogoUrl(company.ticker)}
+                  alt={`${company.name} logo`}
+                  width={96}
+                  height={96}
+                  className="rounded"
+                  unoptimized
+                />
               </div>
             </div>
           </div>
