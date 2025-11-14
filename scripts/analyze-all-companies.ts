@@ -168,7 +168,7 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
         const marketData = await fetchMarketData(company.ticker, filing.reportDate);
 
         // Calculate composite sentiment if we have market data
-        let sentimentData = {};
+        let sentimentData: any = {};
         if (marketData.epsSurprisePercent !== undefined || marketData.priceChangePercent !== undefined) {
           sentimentData = calculateCompositeSentiment(insights, marketData);
           console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
