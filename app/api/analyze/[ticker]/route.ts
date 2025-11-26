@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import { getCompanyByTicker } from '@/lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '@/lib/edgar';
 import { analyzeEarningsReport } from '@/lib/claude';
+import { fetchMarketData } from '@/lib/market-data';
+import { calculateCompositeSentiment } from '@/lib/sentiment-calculator';
 
 export async function POST(
   _request: Request,
@@ -17,8 +19,8 @@ export async function POST(
 
     console.log(`Fetching earnings filings for ${company.name} (${company.ticker})...`);
 
-    // Fetch last 4 quarters
-    const filings = await getRecentEarningsFilings(company.cik, 4);
+    // Fetch more filings to have enough data for Q4 calculation (need 3 years worth)
+    const filings = await getRecentEarningsFilings(company.cik, 12);
 
     if (filings.length === 0) {
       return NextResponse.json({
@@ -28,49 +30,218 @@ export async function POST(
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
 
-    // Analyze each filing
-    const reports = await Promise.all(
-      filings.map(async (filing, index) => {
-        console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate}`);
+    // Helper function to map report date to calendar quarter (industry standard)
+    // This normalizes all companies to calendar quarters for meaningful peer comparison
+    const getQuarterInfo = (reportDate: string) => {
+      const date = new Date(reportDate);
+      const month = date.getMonth(); // 0-11
+      let year = date.getFullYear();
 
-        try {
-          const { text } = await getFilingWithText(filing);
+      // For quarterly reports, the reporting period is the 3 months ENDING on this date
+      // Map to the calendar quarter that contains the MIDDLE of that 3-month period (1.5 months back)
+      // This ensures we map based on where the majority of the period falls
 
-          // Determine quarter from report date
-          const reportDate = new Date(filing.reportDate);
-          const quarter = `Q${Math.floor(reportDate.getMonth() / 3) + 1} ${reportDate.getFullYear()}`;
+      // Go back 1.5 months (45 days) to find the middle of the reporting period
+      const middleDate = new Date(date);
+      middleDate.setDate(middleDate.getDate() - 45);
 
-          const insights = await analyzeEarningsReport(
-            company.name,
-            text,
-            quarter
-          );
+      const middleMonth = middleDate.getMonth();
+      const middleYear = middleDate.getFullYear();
 
-          return {
-            filing,
-            insights,
-            quarter,
-            analyzedSuccessfully: true
-          };
-        } catch (error) {
-          console.error(`Error analyzing filing ${filing.accessionNumber}:`, error);
-          return {
-            filing,
-            quarter: filing.reportDate,
-            analyzedSuccessfully: false,
-            error: error instanceof Error ? error.message : 'Unknown error'
-          };
+      // Determine calendar quarter based on middle of reporting period
+      let calendarQuarter;
+      if (middleMonth >= 0 && middleMonth <= 2) {
+        calendarQuarter = 1; // Jan-Mar
+      } else if (middleMonth >= 3 && middleMonth <= 5) {
+        calendarQuarter = 2; // Apr-Jun
+      } else if (middleMonth >= 6 && middleMonth <= 8) {
+        calendarQuarter = 3; // Jul-Sep
+      } else {
+        calendarQuarter = 4; // Oct-Dec
+      }
+
+      year = middleYear; // Use the year from the middle of the period
+
+      // For fiscal year grouping (needed for Q4 calculation), use the actual report end date
+      let fiscalYear = date.getFullYear();
+      let fiscalQuarter = calendarQuarter;
+
+      if (company.fiscalYearEnd) {
+        const [fyEndMonth, fyEndDay] = company.fiscalYearEnd.split('-').map(Number);
+        const fyEndMonthIndex = fyEndMonth - 1;
+
+        // Determine which fiscal year this belongs to (use original date, not middle)
+        const endMonth = date.getMonth();
+        if (endMonth > fyEndMonthIndex || (endMonth === fyEndMonthIndex && date.getDate() > fyEndDay)) {
+          fiscalYear = date.getFullYear() + 1;
         }
-      })
-    );
+
+        // Calculate fiscal quarter (for grouping purposes)
+        let monthsSinceFYEnd = endMonth - fyEndMonthIndex;
+        if (monthsSinceFYEnd <= 0) monthsSinceFYEnd += 12;
+
+        if (monthsSinceFYEnd <= 3) {
+          fiscalQuarter = 1;
+        } else if (monthsSinceFYEnd <= 6) {
+          fiscalQuarter = 2;
+        } else if (monthsSinceFYEnd <= 9) {
+          fiscalQuarter = 3;
+        } else {
+          fiscalQuarter = 4;
+        }
+      }
+
+      return {
+        calendarQuarter,
+        calendarYear: year,
+        fiscalQuarter, // Used for grouping and Q4 calculation
+        fiscalYear,    // Used for grouping and Q4 calculation
+        quarter: `Q${calendarQuarter} ${year}`, // Display as calendar quarter
+        reportDate
+      };
+    };
+
+    // Analyze each filing sequentially to avoid rate limits
+    const analyzedFilings = [];
+    for (let index = 0; index < filings.length; index++) {
+      const filing = filings[index];
+      const { quarter } = getQuarterInfo(filing.reportDate);
+
+      console.log(`Analyzing filing ${index + 1}/${filings.length}: ${filing.form} from ${filing.reportDate} (${quarter})`);
+
+      try {
+        const { text } = await getFilingWithText(filing);
+
+        const insights = await analyzeEarningsReport(
+          company.name,
+          text,
+          quarter,
+          filing.form
+        );
+
+        // Fetch market data to calculate reality-based sentiment
+        console.log(`Fetching market data for ${company.ticker} on ${filing.filingDate}...`);
+        try {
+          const marketDataResult = await fetchMarketData(company.ticker, filing.filingDate);
+
+          // Calculate composite sentiment if we have market data
+          if (marketDataResult && (marketDataResult.epsSurprisePercent !== undefined || marketDataResult.priceChangePercent !== undefined)) {
+            const sentimentScores = calculateCompositeSentiment(insights, marketDataResult);
+
+            // Add market data to insights
+            insights.marketData = {
+              ...marketDataResult,
+              ...sentimentScores,
+            };
+
+            console.log(`Composite sentiment for ${quarter}: ${sentimentScores.compositeSentiment} (score: ${sentimentScores.compositeSentimentScore})`);
+          } else {
+            console.log(`Limited market data available for ${quarter} - using management tone only`);
+          }
+        } catch (marketError) {
+          console.warn(`Could not fetch market data for ${quarter}:`, marketError);
+          // Continue without market data - we'll still have management tone
+        }
+
+        analyzedFilings.push({
+          filing,
+          insights,
+          quarter,
+          quarterInfo: getQuarterInfo(filing.reportDate),
+          analyzedSuccessfully: true
+        });
+      } catch (error) {
+        console.error(`Error analyzing filing ${filing.accessionNumber}:`, error);
+      }
+
+      // Add a small delay between requests to avoid rate limits
+      if (index < filings.length - 1) {
+        await new Promise(resolve => setTimeout(resolve, 2000)); // 2 second delay
+      }
+    }
+
+    // Group by fiscal year (for Q4 calculation)
+    const byFiscalYear = new Map<number, any>();
+    for (const report of analyzedFilings) {
+      const { fiscalYear, fiscalQuarter } = report.quarterInfo;
+
+      if (!byFiscalYear.has(fiscalYear)) {
+        byFiscalYear.set(fiscalYear, {});
+      }
+
+      const yearData = byFiscalYear.get(fiscalYear)!;
+
+      if (report.filing.form === '10-K') {
+        yearData.annual = report;
+      } else {
+        if (!yearData.quarters) yearData.quarters = {};
+        yearData.quarters[`Q${fiscalQuarter}`] = report;
+      }
+    }
+
+    // Calculate Q4 for years where we have annual + Q1/Q2/Q3
+    const finalReports = [];
+
+    for (const [year, data] of byFiscalYear) {
+      // Add Q1, Q2, Q3 if we have them
+      if (data.quarters) {
+        if (data.quarters.Q1) finalReports.push(data.quarters.Q1);
+        if (data.quarters.Q2) finalReports.push(data.quarters.Q2);
+        if (data.quarters.Q3) finalReports.push(data.quarters.Q3);
+      }
+
+      // Calculate Q4 if we have annual and all three quarters
+      if (data.annual && data.quarters?.Q1 && data.quarters?.Q2 && data.quarters?.Q3) {
+        const q1Revenue = data.quarters.Q1.insights.revenue;
+        const q2Revenue = data.quarters.Q2.insights.revenue;
+        const q3Revenue = data.quarters.Q3.insights.revenue;
+        const annualRevenue = data.annual.insights.revenue;
+
+        const q1NetIncome = data.quarters.Q1.insights.netIncome;
+        const q2NetIncome = data.quarters.Q2.insights.netIncome;
+        const q3NetIncome = data.quarters.Q3.insights.netIncome;
+        const annualNetIncome = data.annual.insights.netIncome;
+
+        // Calculate Q4 = Annual - (Q1 + Q2 + Q3)
+        const q4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
+          ? annualRevenue - (q1Revenue + q2Revenue + q3Revenue)
+          : null;
+
+        const q4NetIncome = annualNetIncome && q1NetIncome && q2NetIncome && q3NetIncome
+          ? annualNetIncome - (q1NetIncome + q2NetIncome + q3NetIncome)
+          : null;
+
+        console.log(`Calculated Q4 FY${year}: Revenue ${q4Revenue}M, Net Income ${q4NetIncome}M`);
+
+        // Determine calendar quarter for the calculated Q4
+        // The 10-K filing date tells us which calendar quarter this Q4 falls in
+        const q4QuarterInfo = getQuarterInfo(data.annual.filing.reportDate);
+
+        // Create Q4 report with calculated data + guidance from 10-K
+        finalReports.push({
+          filing: data.annual.filing,
+          insights: {
+            ...data.annual.insights,
+            revenue: q4Revenue,
+            netIncome: q4NetIncome
+          },
+          quarter: q4QuarterInfo.quarter, // Use calendar quarter label
+          quarterInfo: q4QuarterInfo,
+          analyzedSuccessfully: true
+        });
+      }
+    }
+
+    // Sort by date descending - show all analyzed quarters
+    finalReports.sort((a, b) => b.filing.reportDate.localeCompare(a.filing.reportDate));
 
     console.log('Analysis complete!');
 
     return NextResponse.json({
       company,
-      reports: reports.filter(r => r.analyzedSuccessfully),
+      reports: finalReports,
       totalFetched: filings.length,
-      successfulAnalyses: reports.filter(r => r.analyzedSuccessfully).length
+      successfulAnalyses: finalReports.length
     });
   } catch (error) {
     console.error('Error in analyze API:', error);
