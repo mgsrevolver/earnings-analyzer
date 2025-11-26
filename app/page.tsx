@@ -205,7 +205,7 @@ export default function Home() {
 
         {/* Footer */}
         <div className="mt-16 text-center text-sm text-muted-foreground">
-          <p>Data powered by SEC EDGAR API • Analysis by Claude Haiku</p>
+          <p>Data powered by SEC EDGAR API • <a href="https://www.clayreimus.com" target="_blank">Created by Clay Reimus</a></p>
           <p className="mt-2">
             Free and open-source earnings intelligence for retail investors
           </p>
