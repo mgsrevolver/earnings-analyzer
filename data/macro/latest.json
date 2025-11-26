@@ -1,18 +1,21 @@
 {
   "period": "Q4 2024",
-  "generatedAt": "2025-11-26T15:34:02.652Z",
+  "generatedAt": "2025-11-26T16:23:59.002Z",
   "companies": [
     "AAPL",
     "AMC",
     "AMD",
     "AMZN",
     "BIIB",
+    "CEG",
     "COIN",
     "DDOG",
+    "DOCN",
     "GILD",
     "GOOGL",
     "HOOD",
     "INTC",
+    "IONQ",
     "META",
     "MRNA",
     "MSFT",
@@ -22,13 +25,14 @@
     "RBLX",
     "REGN",
     "TSLA",
-    "VRTX"
+    "VRTX",
+    "VST"
   ],
   "aggregateInsights": {
     "averageCapexGrowth": 64.76666666666667,
-    "companiesRaisingGuidance": 4,
-    "companiesLoweringGuidance": 1,
-    "aiInvestmentCount": 16,
+    "companiesRaisingGuidance": 5,
+    "companiesLoweringGuidance": 2,
+    "aiInvestmentCount": 19,
     "overallMarketSentiment": "neutral",
     "partnershipNetwork": [
       {
@@ -95,6 +99,13 @@
         ]
       },
       {
+        "partner": "Hugging Face",
+        "mentions": 1,
+        "connectedCompanies": [
+          "DOCN"
+        ]
+      },
+      {
         "partner": "LEO Pharma A/S",
         "mentions": 1,
         "connectedCompanies": [
@@ -128,30 +139,23 @@
         "connectedCompanies": [
           "MRNA"
         ]
-      },
-      {
-        "partner": "Merck",
-        "mentions": 1,
-        "connectedCompanies": [
-          "MRNA"
-        ]
       }
     ],
     "supplyChainSentiment": {
-      "tight": 11,
+      "tight": 14,
       "easing": 0,
-      "normal": 6,
+      "normal": 7,
       "unknown": 3
     },
     "headcountTrends": {
-      "expanding": 7,
-      "stable": 7,
+      "expanding": 8,
+      "stable": 9,
       "freezing": 0,
-      "reducing": 7
+      "reducing": 8
     },
     "pricingPowerDistribution": {
-      "strong": 5,
-      "moderate": 7,
+      "strong": 6,
+      "moderate": 10,
       "weak": 8,
       "unknown": 1
     }
@@ -324,6 +328,36 @@
       ]
     },
     {
+      "sector": "Energy",
+      "subCategory": "Utilities",
+      "companies": [
+        "CEG",
+        "VST"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 0,
+      "guidanceSentiment": {
+        "raised": 1,
+        "maintained": 1,
+        "lowered": 0,
+        "notProvided": 0
+      },
+      "supplyChainStatus": {
+        "tight": 2,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 0
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": 0.5,
+      "topPartners": [
+        {
+          "partner": "Energy Harbor",
+          "mentions": 1
+        }
+      ]
+    },
+    {
       "sector": "Technology",
       "subCategory": "FinTech",
       "companies": [
@@ -358,6 +392,7 @@
       "subCategory": "Cloud Infrastructure",
       "companies": [
         "DDOG",
+        "DOCN",
         "GOOGL",
         "MSFT",
         "NET"
@@ -366,24 +401,48 @@
       "averageCapexGrowth": 63,
       "guidanceSentiment": {
         "raised": 2,
-        "maintained": 2,
+        "maintained": 3,
         "lowered": 0,
         "notProvided": 0
       },
       "supplyChainStatus": {
         "tight": 2,
         "easing": 0,
-        "normal": 2,
+        "normal": 3,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.75,
+      "averageSentiment": 0.6,
       "topPartners": [
         {
           "partner": "OpenAI",
           "mentions": 2
         }
       ]
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "Quantum Computing",
+      "companies": [
+        "IONQ"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 0,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 0,
+        "lowered": 1,
+        "notProvided": 0
+      },
+      "supplyChainStatus": {
+        "tight": 1,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 0
+      },
+      "aiInvestmentPercentage": 0,
+      "averageSentiment": -1,
+      "topPartners": []
     },
     {
       "sector": "Technology",
@@ -469,14 +528,16 @@
       "theme": "Guidance Direction",
       "winners": [
         "AMD",
+        "CEG",
         "GOOGL",
         "MSFT",
         "NVDA"
       ],
       "losers": [
-        "INTC"
+        "INTC",
+        "IONQ"
       ],
-      "details": "4 companies raised guidance vs 1 lowered"
+      "details": "5 companies raised guidance vs 2 lowered"
     },
     {
       "theme": "Capital Expenditure",

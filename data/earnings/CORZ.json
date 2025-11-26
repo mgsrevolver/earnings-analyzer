@@ -1,0 +1,619 @@
+{
+  "company": {
+    "ticker": "CORZ",
+    "name": "Core Scientific Inc.",
+    "category": [
+      "Infrastructure",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Data Centers",
+    "cik": "0001839341"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-046272",
+        "filingDate": "2025-10-24",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025046272/core-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 81.103,
+        "netIncome": -146.66,
+        "operatingCashFlow": 125.182,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 83.739,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 454.194,
+        "capexGrowth": null,
+        "partnerships": [
+          "CoreWeave"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific continues its transition from crypto mining to high-density colocation services, with ongoing financial challenges and a significant net loss. The company is investing heavily in infrastructure conversion and has a pending acquisition by CoreWeave.",
+        "keyQuotes": [
+          "We currently intend to repurpose our remaining facilities currently used in our digital asset mining businesses to support our high-density colocation computing services business",
+          "Beginning on March 6, 2024, we announced a series of new contractual agreements with CoreWeave, Inc."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 17.940000534057617,
+          "priceAfter7Days": 17.100000381469727,
+          "priceChangePercent": -4.682274958650193,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 41,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-039284",
+        "filingDate": "2025-08-08",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025039284/core-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 78.628,
+        "netIncome": -936.799,
+        "operatingCashFlow": -6.599,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 150.127,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 209.701,
+        "capexGrowth": null,
+        "partnerships": [
+          "CoreWeave"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "potential AI and crypto industry regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific reported a challenging quarter with significant net loss, driven by volatile digital asset markets and ongoing strategic transformation. The company is pivoting towards high-density colocation services and AI infrastructure, with substantial capital commitments to infrastructure modifications.",
+        "keyQuotes": [
+          "We are in the process of converting most of our existing facilities to support artificial intelligence workloads and next generation colocation services.",
+          "Significant risks involve facility construction, supply chain, and the risk of nonperformance by our single customer."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 17.06999969482422,
+          "priceAfter7Days": 14.829999923706055,
+          "priceChangePercent": -13.122435917777741,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 5,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 32,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-023242",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828025023242/core-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 79.525,
+        "netIncome": 580.693,
+        "operatingCashFlow": -40.599,
+        "freeCashFlow": -133.887,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 60.872,
+        "marketShareMention": "Premier provider of digital infrastructure moving into AI colocation services",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 100
+        },
+        "capexAmount": 88.422,
+        "capexGrowth": null,
+        "partnerships": [
+          "CoreWeave AI partnership",
+          "Data center conversion for AI workloads"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Core Scientific is pivoting from pure bitcoin mining to AI infrastructure, with strong financial performance driven by digital asset gains and new colocation services. The company is investing heavily in data center conversions for high-performance computing.",
+        "keyQuotes": [
+          "We are in the process of allocating and converting a significant portion of our ten data centers to support artificial intelligence-related workloads",
+          "These new agreements leverage the Company's existing digital infrastructure and expertise in third-party hosting solutions"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 7.239999771118164,
+          "priceAfter7Days": 7.019999980926514,
+          "priceChangePercent": -3.0386712313068633,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-045811",
+        "filingDate": "2024-11-06",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828024045811/core-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 95.354,
+        "netIncome": -455.259,
+        "operatingCashFlow": 29.091,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 9.944,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 66.203,
+        "capexGrowth": null,
+        "partnerships": [
+          "Aubix, LLC"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific reported Q3 revenue of $95.4 million and a net loss of $455.3 million, driven by significant non-cash charges related to warrant and contingent value rights valuations. The company is diversifying into AI hosting and emerged from bankruptcy in January 2024.",
+        "keyQuotes": [
+          "We are in the process of allocating and converting a significant portion of our nine operational data centers... to support artificial intelligence-related workloads",
+          "Beginning on March 6, 2024, we announced a series of new contractual agreements with a third-party provider of HPC operations"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 11.859999656677246,
+          "priceAfter7Days": 12.369999885559082,
+          "priceChangePercent": 4.300170688408941,
+          "managementToneScore": 30,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-035714",
+        "filingDate": "2024-08-07",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828024035714/core-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 141102000,
+        "netIncome": -804896000,
+        "operatingCashFlow": 23378000,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 7912000,
+        "marketShareMention": "Expanding HPC hosting segment to provide more consistent revenue",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 35029000,
+        "capexGrowth": null,
+        "partnerships": [
+          "HPC hosting with third-party cloud GPU providers"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Core Scientific reported quarterly revenue of $141.1M with a significant net loss of $804.9M, driven by non-cash warrant liability valuation changes. The company is pivoting towards HPC hosting to diversify revenue and reduce bitcoin mining volatility.",
+        "keyQuotes": [
+          "We believe that using our existing infrastructure for HPC customers provides more consistent dollar-based revenue and substantially less risk than our traditional bitcoin mining customers",
+          "Going forward we intend to focus our efforts on expanding our HPC customer base while maintaining our bitcoin self-mining operations"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 9.850000381469727,
+          "priceAfter7Days": 10.359999656677246,
+          "priceChangePercent": 5.177657415800243,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-021848",
+        "filingDate": "2024-05-09",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828024021848/core-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 179.291,
+        "netIncome": 210.691,
+        "operatingCashFlow": 22.174,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 9.25,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 31.894,
+        "capexGrowth": null,
+        "partnerships": [
+          "Bitmain"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Core Scientific emerged from bankruptcy with a strong Q1 2024, generating significant net income of $210.7 million. The company restructured its debt, raised new capital, and maintained operational stability in its digital asset mining and hosting segments.",
+        "keyQuotes": [
+          "We derive the majority of our revenue from earning bitcoin for our own account",
+          "We intend to look for opportunities to expand our business into cloud computing, machine learning and artificial intelligence"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 3.5299999713897705,
+          "priceAfter7Days": 3.380000114440918,
+          "priceChangePercent": -4.249287766702083,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-010682",
+        "filingDate": "2024-03-13",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828024010682/core-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 141.92899999999997,
+        "netIncome": -184.409,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "competitive hash rate capacity among public and private bitcoin miners",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "USA": 100
+        },
+        "capexAmount": 16.2,
+        "capexGrowth": -95.8,
+        "partnerships": [
+          "Bitmain (mining equipment supplier)",
+          "CoreWeave (new data center infrastructure contract)"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Evolving digital asset regulations",
+          "Potential SEC classification of digital assets"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Core Scientific emerged from bankruptcy, maintains a competitive bitcoin mining position with 16.9 EH/s hash rate, and focuses on operational efficiency amid volatile digital asset markets.",
+        "keyQuotes": [
+          "We believe that we are well positioned to serve customers in a rapidly expanding market for digital asset mining and blockchain solutions.",
+          "Our goal is to deploy a powerful fleet of self- and hosted-miners, while operating as energy-efficiently as possible."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-036849",
+        "filingDate": "2023-11-06",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828023036849/core-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 112.904,
+        "netIncome": -41.146,
+        "operatingCashFlow": 43.411,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 63.17,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 4.516,
+        "capexGrowth": null,
+        "partnerships": [
+          "Celsius"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Chapter 11 bankruptcy proceedings"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific reported a challenging Q3 2023, with continued financial distress evidenced by ongoing Chapter 11 bankruptcy proceedings. Despite modest revenue of $112.9 million, the company experienced a net loss of $41.1 million and is focused on restructuring and emerging from bankruptcy.",
+        "keyQuotes": [
+          "We are one of the largest blockchain infrastructure, digital asset mining and colocation hosting provider companies in North America.",
+          "Our business strategy is to grow our revenue and profitability by increasing the capacity and efficiency of our self-mining fleet and entering into strategic, revenue-enhancing colocation opportunities with third parties."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-027559",
+        "filingDate": "2023-08-04",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828023027559/core-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 126.912,
+        "netIncome": -9.26,
+        "operatingCashFlow": 37.977,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 66.2,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "unitedStates": 100
+        },
+        "capexAmount": 1.774,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Chapter 11 bankruptcy proceedings"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific continues to navigate challenging market conditions, with ongoing bankruptcy proceedings and reduced digital asset mining revenues. The company maintains a cautious stance, focusing on operational cost reduction and emerging from Chapter 11 restructuring.",
+        "keyQuotes": [
+          "We operate in two segments: 'Mining' consisting of digital asset mining for our own account, and 'Hosting' consisting of our blockchain infrastructure and third-party hosting business.",
+          "Our ability to continue as a going concern is contingent upon, among other things, our ability to implement a Chapter 11 plan of reorganization and generate sufficient liquidity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-017974",
+        "filingDate": "2023-05-15",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828023017974/core-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 120.655,
+        "netIncome": -11.685,
+        "operatingCashFlow": 19.942,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 71.8,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "unitedStates": 100
+        },
+        "capexAmount": 1.539,
+        "capexGrowth": null,
+        "partnerships": [
+          "Greenidge Generation Holdings",
+          "Ault Alliance",
+          "LM Funding"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Chapter 11 bankruptcy proceedings"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Core Scientific reported a challenging quarter with continued financial strain, reflecting ongoing difficulties in the cryptocurrency mining sector. The company remains in Chapter 11 bankruptcy proceedings and is focused on restructuring while maintaining operational capabilities.",
+        "keyQuotes": [
+          "We derive the majority of our revenue from self-mining bitcoin",
+          "Our business strategy is to grow our revenue and profitability by increasing the capacity and efficiency of our self-mining fleet"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 10,
+  "lastUpdated": "2025-11-26T16:11:03.962Z"
+}

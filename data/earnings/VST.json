@@ -1,0 +1,729 @@
+{
+  "company": {
+    "ticker": "VST",
+    "name": "Vistra Corp.",
+    "category": [
+      "Energy"
+    ],
+    "sector": "Energy",
+    "subCategory": "Utilities",
+    "cik": "0001692819"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001692819-25-000094",
+        "filingDate": "2025-11-07",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000094/vistra-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 4971,
+        "netIncome": 652,
+        "operatingCashFlow": 2638,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 54.3,
+          "Northeast/Midwest": 21.2,
+          "Other": 24.5
+        },
+        "capexAmount": 1916,
+        "capexGrowth": 16.3,
+        "partnerships": [
+          "Lotus Infrastructure Partners acquisition",
+          "Energy Harbor business combination"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Moss Landing battery facility EPA settlement",
+          "Nuclear PTC interpretation uncertainty"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Vistra reported stable Q3 performance with modest revenue of $4.971 billion and net income of $652 million. The company continues to navigate facility challenges while pursuing strategic acquisitions and maintaining operational efficiency.",
+        "keyQuotes": [
+          "We will know more after the investigation of the cause of the Moss Landing Incident is complete.",
+          "We expect to receive additional property damage and business interruption insurance proceeds"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 195.9199981689453,
+          "priceAfter7Days": 199.6199951171875,
+          "priceChangePercent": 1.8885243889455399,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 51,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-25-000085",
+        "filingDate": "2025-08-08",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000085/vistra-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 4250,
+        "netIncome": 327,
+        "operatingCashFlow": 1171,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 52,
+          "Northeast/Midwest": 19,
+          "Other": 29
+        },
+        "capexAmount": 1458,
+        "capexGrowth": null,
+        "partnerships": [
+          "Purchase agreement with Lotus Infrastructure Partners for 7 natural gas facilities",
+          "Lotus Infrastructure Partners"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Vistra reported solid Q2 2025 earnings with $4.25B in revenue and $327M net income. The company continues to diversify its generation portfolio through strategic acquisitions and maintains a stable operational outlook.",
+        "keyQuotes": [
+          "The [Lotus Infrastructure Partners] expansion is expected to further geographically diversify Vistra's natural gas fleet.",
+          "We are currently evaluating the feasibility of converting coal-fueled facilities to gas-fueled facilities."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 193.80999755859375,
+          "priceAfter7Days": 193.6999969482422,
+          "priceChangePercent": -0.05675693294320717,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 51,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-25-000035",
+        "filingDate": "2025-05-08",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000035/vistra-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 3933,
+        "netIncome": -268,
+        "operatingCashFlow": 599,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 50.5,
+          "Northeast/Midwest": 26.4,
+          "Other": 23.1
+        },
+        "capexAmount": 768,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Inflation Reduction Act tax credit implications"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Vistra reported a challenging Q1 2025 with a net loss of $268 million, driven by operational challenges including a fire at the Moss Landing energy storage facility. Despite stable operations, the company faces significant financial headwinds and unrealized commodity trading losses.",
+        "keyQuotes": [
+          "We detected a fire at our Moss Landing 300 MW energy storage facility that resulted in ceasing operations at all facilities at the Moss Landing complex",
+          "As of March 31, 2025, we wrote-off the net book value of Moss Landing 300 of approximately $400 million to depreciation expense"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 117.44000244140625,
+          "priceAfter7Days": 102.69000244140625,
+          "priceChangePercent": -12.559604643536296,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 5,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 32,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-25-000013",
+        "filingDate": "2025-02-28",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000013/vistra-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": -13187,
+        "netIncome": -2373,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Energy Harbor acquisition"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "EPA greenhouse gas emissions regulations",
+          "Clean Air Act compliance",
+          "Coal Combustion Residuals regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Vistra is transitioning its generation portfolio towards lower-carbon assets, focusing on maintaining reliability while reducing emissions intensity. The company acquired nuclear generation facilities and is developing renewable and battery storage projects.",
+        "keyQuotes": [
+          "We believe integrating retail with power generation stands as a fundamental competitive advantage that mitigates the impact of commodity price fluctuations",
+          "We are targeting to achieve a 60% reduction in Scope 1 and Scope 2 CO2 equivalent emissions by 2030"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 137.8699951171875,
+          "priceAfter7Days": 163.3699951171875,
+          "priceChangePercent": 18.495684995364922,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 100,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 67,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-24-000069",
+        "filingDate": "2024-11-08",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281924000069/vistra-20240930.htm"
+      },
+      "insights": {
+        "revenue": 6288,
+        "netIncome": 1888,
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "operatingCashFlow": 3210,
+        "freeCashFlow": null,
+        "overallSentiment": "bullish",
+        "managementTone": "confident",
+        "capexAmount": 1648,
+        "capexGrowth": null,
+        "supplyChainStatus": "normal",
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "bookingsGrowth": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "partnerships": [],
+        "regulatoryHeadwinds": [],
+        "summary": "Vistra delivered strong Q3 performance with revenues of $6.288 billion and net income of $1.888 billion. The company maintained a confident tone, demonstrating robust pricing power and stable operations across its retail and generation segments.",
+        "keyQuotes": [
+          "Increased nuclear production and retail customer base growth contributed to strong quarterly results",
+          "Energy Harbor merger provides diversification and scale across carbon-free technologies"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 118.54000091552734,
+          "priceAfter7Days": 131.27000427246094,
+          "priceChangePercent": 10.738993806829061,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 90,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 72,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-24-000061",
+        "filingDate": "2024-08-09",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281924000061/vistra-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 3845,
+        "netIncome": 467,
+        "operatingCashFlow": 1508,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 53,
+          "Northeast/Midwest": 26,
+          "Other": 21
+        },
+        "capexAmount": 963,
+        "capexGrowth": null,
+        "partnerships": [
+          "Energy Harbor Merger"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vistra delivered solid Q2 2024 results with strong retail electricity revenues and continued operational stability. The Energy Harbor merger adds nuclear generation capabilities and enhances carbon-free generation portfolio.",
+        "keyQuotes": [
+          "The Energy Harbor Merger combines Energy Harbor's and Vistra's nuclear and retail businesses and certain Vistra Zero renewables and energy storage facilities",
+          "We do not expect Vistra to be subject to the CAMT in the 2024 tax year"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 87.33999633789062,
+          "priceAfter7Days": 92.87999725341797,
+          "priceChangePercent": 6.343028564021052,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 60,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-24-000033",
+        "filingDate": "2024-05-10",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281924000033/vistra-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 3054,
+        "netIncome": 18,
+        "operatingCashFlow": 312,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 465,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Vistra reported a Q1 2024 revenue of $3.054 billion and net income of $18 million, reflecting a challenging quarter compared to the previous year. The company completed the Energy Harbor merger and maintained stable operations across its segments.",
+        "keyQuotes": [
+          "The Energy Harbor Merger combines Energy Harbor's and Vistra's nuclear and retail businesses and certain Vistra Zero renewables and energy storage facilities to provide diversification and scale across multiple carbon-free technologies",
+          "None specifically highlighted from the document"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 71.52999877929688,
+          "priceAfter7Days": 74.41999816894531,
+          "priceChangePercent": 4.040262042454974,
+          "managementToneScore": 50,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001692819-24-000012",
+        "filingDate": "2024-02-29",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281924000012/vistra-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "revenue": 14399988300,
+        "netIncome": -1676,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "aiInvestmentMentioned": true,
+        "supplyChainStatus": "tight",
+        "geographicBreakdown": {
+          "Texas": 50,
+          "Illinois": 20,
+          "Ohio": 15,
+          "Other": 15
+        },
+        "capexAmount": 245000000,
+        "capexGrowth": null,
+        "partnerships": [
+          "Energy Harbor nuclear acquisition",
+          "Solar generation projects",
+          "Battery energy storage systems"
+        ],
+        "regulatoryHeadwinds": [
+          "EPA emissions regulations",
+          "Climate change reporting requirements",
+          "Potential carbon emissions restrictions"
+        ],
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Vistra is strategically transitioning towards cleaner energy generation, investing in renewables and nuclear while managing complex regulatory environments and market volatility.",
+        "keyQuotes": [
+          "We are targeting to achieve a 60% reduction in Scope 1 and Scope 2 CO2 equivalent emissions by 2030",
+          "Our most valuable asset is our talented, dedicated and diverse group of employees"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 38.06999969482422,
+          "priceAfter7Days": 39.13999938964844,
+          "priceChangePercent": 2.810611251383041,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 25,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-037205",
+        "filingDate": "2023-11-07",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000162828023037205/vistra-20230930.htm"
+      },
+      "insights": {
+        "revenue": 4086,
+        "netIncome": 502,
+        "operatingCashFlow": 4572,
+        "freeCashFlow": null,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 65.3,
+          "Northeast/Midwest": 11.4,
+          "Other": 23.3
+        },
+        "capexAmount": 1262,
+        "capexGrowth": null,
+        "partnerships": [
+          "Energy Harbor merger transaction announced",
+          "PG&E resource adequacy contracts for energy storage"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Coal plant retirement requirements",
+          "Environmental compliance regulations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vistra delivered strong Q3 2023 financial results with robust operating cash flow of $4.572 billion and continued progress on clean energy transition through renewable and energy storage investments. The company remains focused on strategic growth and asset optimization.",
+        "keyQuotes": [
+          "We are pursuing the remaining regulatory approvals and continue to target closing of the Transactions in the fourth quarter of 2023.",
+          "This combination is expected to create a leading integrated retail electricity and zero-carbon generation company."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 32.529998779296875,
+          "priceAfter7Days": 31.850000381469727,
+          "priceChangePercent": -2.090373265737474,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-028436",
+        "filingDate": "2023-08-09",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000162828023028436/vistra-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 3189,
+        "netIncome": 476,
+        "operatingCashFlow": 3012,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 57.8,
+          "Northeast/Midwest": 11,
+          "Other": 31.2
+        },
+        "capexAmount": 926,
+        "capexGrowth": null,
+        "partnerships": [
+          "Energy Harbor acquisition"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Inflation Reduction Act tax credits"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vistra delivered strong Q2 2023 performance with $3.2B in revenue and $476M in net income, driven by resilient retail electricity sales and effective commodity hedging strategies. The company continues to invest in renewable energy development and is pursuing the Energy Harbor acquisition.",
+        "keyQuotes": [
+          "We will only invest in growth projects if we are confident that the expected returns will meet or exceed internal targets",
+          "This transaction is expected to accelerate Vistra's path to a clean energy transition"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 26.25,
+          "priceAfter7Days": 26.700000762939453,
+          "priceChangePercent": 1.714288620721726,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 62,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-016662",
+        "filingDate": "2023-05-09",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000162828023016662/vistra-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 4425,
+        "netIncome": 698,
+        "operatingCashFlow": 1435,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "ERCOT": 31.4,
+          "Northeast/Midwest": 16.3,
+          "Other": 52.3
+        },
+        "capexAmount": 484,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Vistra delivered strong Q1 2023 financial performance with robust revenue and net income, driven by effective commodity risk management and operational efficiency. The company continues to focus on strategic growth in renewable energy and nuclear generation.",
+        "keyQuotes": [
+          "Realized significant unrealized net gains from mark-to-market valuations of commodity positions",
+          "Continued progress on clean energy transition strategy with renewable and nuclear generation investments"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-26T16:04:38.780Z"
+}
