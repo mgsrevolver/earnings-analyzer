@@ -19,18 +19,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000047/gild-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
+        "pricingPower": "strong",
+        "headcountTrend": "freezing",
         "revenue": 7769,
         "netIncome": 3052,
         "operatingCashFlow": 6692,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 56,
-        "marketShareMention": "Successfully negotiated patent settlements with generic manufacturers for Biktarvy, extending exclusivity to 2035-2036",
+        "deferredRevenue": null,
+        "marketShareMention": "Negotiated settlement agreements with generic manufacturers that prevent generic entry of Biktarvy until 2035-2036",
         "customerConcentration": 60,
         "geographicBreakdown": {
           "US": 68,
@@ -40,24 +40,35 @@
         "capexAmount": 358,
         "capexGrowth": null,
         "partnerships": [
-          "LEO Pharma - STAT6 oral programs",
-          "Galapagos - ongoing collaboration with potential entity separation"
+          "LEO Pharma - STAT6 program partnership",
+          "Galapagos - amended collaboration agreement",
+          "Arcus - continued collaboration"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Patent litigation with generic manufacturers",
-          "Product liability lawsuits for HIV medications"
+          "Product liability lawsuits"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered strong Q3 performance with $7.8B revenue and $3.1B net income. Key highlights include successful patent defense for Biktarvy, strategic partnerships, and continued focus on innovative medicine development.",
+        "summary": "Gilead delivered strong Q3 2025 results with robust revenue of $7.8 billion and net income of $3.1 billion, driven by continued strength in HIV and oncology portfolios. The company successfully defended key patents and maintained a positive outlook through strategic partnerships and settlements.",
         "keyQuotes": [
-          "Successfully negotiated patent settlements extending Biktarvy exclusivity",
-          "Continuing to invest in strategic collaborations like LEO Pharma partnership"
+          "Settlement agreements with generic manufacturers prevent generic entry of Biktarvy until 2035-2036",
+          "Strategic partnership with LEO Pharma to develop STAT6 programs for inflammatory diseases"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 111,
+          "priceAfter7Days": 116.77999877929688,
+          "priceChangePercent": 5.207206107474662,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -79,18 +90,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000032/gild-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "reducing",
+        "headcountTrend": "freezing",
         "revenue": 7054,
         "netIncome": 1960,
         "operatingCashFlow": 2584,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Continue to lead in HIV market with Biktarvy",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": 71.4,
@@ -100,9 +111,8 @@
         "capexAmount": 211,
         "capexGrowth": null,
         "partnerships": [
-          "LEO Pharma strategic partnership for STAT6 program",
-          "Ongoing collaboration with Galapagos",
-          "Arcus Biosciences collaboration"
+          "LEO Pharma - STAT6 oral programs",
+          "Galapagos potential company separation"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
@@ -110,15 +120,25 @@
           "Ongoing patent litigation with generic manufacturers"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered strong Q2 2025 performance with robust HIV product sales, particularly Biktarvy. The company continues to invest in oncology and virology research while maintaining a disciplined approach to expenses and strategic partnerships.",
+        "summary": "Gilead delivered solid Q2 2025 financial performance with product sales of $7.054 billion and net income of $1.96 billion. The company continues to focus on innovative medicines in virology, oncology, and strategic partnerships while managing ongoing legal challenges.",
         "keyQuotes": [
-          "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
+          "Committed to advancing innovative medicines to prevent and treat life-threatening diseases",
           "Received FDA approval for Yeztugo, the first and only twice-yearly HIV PrEP option"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 110.87000274658203,
+          "priceAfter7Days": 111.77999877929688,
+          "priceChangePercent": 0.8207774963213822,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -161,26 +181,39 @@
         "capexAmount": 104,
         "capexGrowth": null,
         "partnerships": [
-          "LEO Pharma collaboration for STAT6 programs",
-          "Galapagos partnership amendment",
-          "Arcus Biosciences collaboration"
+          "LEO Pharma collaboration on STAT6 programs",
+          "Ongoing Galapagos collaboration",
+          "Galapagos NV",
+          "LEO Pharma A/S",
+          "Arcus Biosciences Inc",
+          "CymaBay",
+          "Immunomedics Inc",
+          "Arcellx Inc"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Medicare Part D program redesign impact",
-          "Generic manufacturer patent challenges for Biktarvy"
+          "Medicare Part D redesign impact"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered steady Q1 performance with flat revenues of $6.7B and a return to profitability at $1.3B net income. HIV and Liver Disease product sales showed growth, offsetting declines in COVID-related Veklury sales. The company continues strategic partnerships and maintains a confident outlook.",
+        "summary": "Gilead delivered stable Q1 2025 performance with HIV product sales growing 6% driven by Biktarvy demand and higher pricing. Net income rebounded to $1.3B compared to prior year loss, aided by reduced one-time charges. Research expenses declined and the company continues strategic collaborations.",
         "keyQuotes": [
           "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
-          "Biktarvy sales increased primarily due to higher demand, including patients switching from Genvoya and other Gilead HIV products",
-          "We regularly review our R&D activities based on unmet medical need"
+          "HIV product sales increased 6% primarily due to higher demand and higher average realized price"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 112.05000305175781,
+          "priceAfter7Days": 105.5199966430664,
+          "priceChangePercent": -5.827761027079209,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -190,6 +223,81 @@
         "fiscalYear": 2025,
         "quarter": "Q1 2025",
         "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-25-000006",
+        "filingDate": "2025-02-28",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000006/gild-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 6,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 7611,
+        "netIncome": 1783,
+        "operatingCashFlow": 10828,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "8% HIV product sales growth, primarily due to higher demand and higher average realized price",
+        "customerConcentration": 90,
+        "geographicBreakdown": {
+          "US": 71.4,
+          "Europe": 16.1,
+          "RestOfWorld": 12.5
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "LEO Pharma A/S collaboration",
+          "Arcus Biosciences collaboration",
+          "Janssen Pharmaceutica NV royalty buyout",
+          "Cardinal Health",
+          "Cencora",
+          "McKesson Corp"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Inflation Reduction Act impacts",
+          "Potential Medicare price negotiations",
+          "State prescription drug affordability reviews"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered 6% revenue growth in 2024, driven by HIV, Oncology and Liver Disease product sales. The company faced challenges with Trodelvy impairment charges and continued COVID-19 sales decline, but maintains a strong pipeline of over 100 pre-clinical and clinical-stage programs.",
+        "keyQuotes": [
+          "We expect to see continued increases in demand for our products overall, bolstered by the growth of our HIV business",
+          "Our R&D portfolio includes over 100 pre-clinical and clinical-stage programs across our core therapeutic areas"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 92.37000274658203,
+          "priceAfter7Days": 90.62999725341797,
+          "priceChangePercent": -1.8837343741753303,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
       },
       "analyzedSuccessfully": true
     },
@@ -213,35 +321,46 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Defending patents for key HIV products like Biktarvy against generic challenges",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": 72.2,
+          "US": 72.3,
           "Europe": 15.5,
           "RestOfWorld": 12.3
         },
         "capexAmount": 376,
         "capexGrowth": null,
         "partnerships": [
-          "Arcellx collaboration for CART-ddBCMA",
+          "Arcellx collaboration for multiple myeloma therapy",
           "Arcus collaboration",
           "CymaBay acquisition"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Trodelvy withdrawal for metastatic NSCLC",
-          "Ongoing patent litigation with generic manufacturers"
+          "Patent litigation for HIV drugs",
+          "Product liability lawsuits",
+          "Potential FDA challenges"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Gilead reported quarterly revenue of $7.5B and net income of $1.25B, showing resilience despite challenges in its oncology pipeline. The company is restructuring its workforce and facing regulatory setbacks in the NSCLC indication, but maintains strong cash flow and continues strategic collaborations.",
+        "summary": "Gilead reported quarterly revenue of $7.5B and net income of $1.25B, with strong performance in HIV products. The company is facing patent challenges and restructuring its workforce while pursuing strategic collaborations and acquisitions.",
         "keyQuotes": [
-          "We recorded a partial impairment charge of $1.8 billion related to the NSCLC IPR&D intangible asset",
-          "We incurred restructuring charges of $112 million primarily related to reductions in commercial and R&D workforce"
+          "We intend to vigorously defend ourselves in these actions",
+          "Gilead reached an agreement to make a one-time payment of up to $40 million to a group of eligible plaintiffs"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 83.83999633789062,
+          "priceAfter7Days": 84.43000030517578,
+          "priceChangePercent": 0.703726136756175,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 49,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -284,25 +403,32 @@
         "capexAmount": 235,
         "capexGrowth": null,
         "partnerships": [
-          "Merus N.V. research collaboration",
-          "Xilio Therapeutics license agreement",
-          "Janssen Pharmaceutica seladelpar royalty buy-out"
+          "Merus N.V. collaboration for oncology trispecific T-cell engagers",
+          "Xilio Therapeutics license for tumor-activated IL-12 program",
+          "Janssen Pharmaceutica royalty buy-out for seladelpar"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "FDA label expansions",
-          "Ongoing patent litigation"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Gilead delivered solid Q2 results with 5% revenue growth driven by HIV, Oncology, and Liver Disease segments. The company continues to focus on strategic acquisitions like CymaBay while managing operating expenses and restructuring workforce.",
+        "summary": "Gilead reported steady quarterly performance with 5% revenue growth, driven by HIV, Oncology, and Liver Disease product sales. The company is focused on strategic acquisitions like CymaBay and managing operational expenses through workforce reductions.",
         "keyQuotes": [
           "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
-          "Completed the acquisition of CymaBay Therapeutics for $4.3 billion in total equity value"
+          "We received approval from FDA to expand Biktarvy's label to include treatment of people with HIV who have suppressed viral loads"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 68.63999938964844,
+          "priceAfter7Days": 67.55000305175781,
+          "priceChangePercent": -1.5879900168749226,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 48,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -325,7 +451,7 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
@@ -335,7 +461,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Higher HIV, Oncology and Liver Disease sales",
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": 69.3,
@@ -347,23 +473,33 @@
         "partnerships": [
           "Research collaboration with Merus N.V.",
           "License agreement with Xilio Therapeutics",
-          "Acquisition of CymaBay Therapeutics"
+          "Acquired CymaBay Therapeutics"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Patent litigation with generic manufacturers",
-          "FDA approvals and label expansions"
+          "FDA approval processes"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Gilead faced significant financial challenges in Q1 2024, with a substantial net loss driven by large R&D charges related to CymaBay acquisition and Trodelvy impairment. HIV and Oncology segments showed modest growth, but the company is taking a cautious approach with workforce reductions.",
+        "summary": "Gilead reported a challenging Q1 2024 with a significant net loss driven by R&D charges from CymaBay acquisition and an impairment. While product sales grew 5%, substantial one-time expenses impacted financial performance.",
         "keyQuotes": [
           "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
           "The decrease was primarily driven by an acquired in-process research and development charge of $3.9 billion related to the acquisition of CymaBay"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 72.87999725341797,
+          "priceAfter7Days": 69.41999816894531,
+          "priceChangePercent": -4.747529109313169,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 41,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -390,44 +526,52 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 7149,
-        "netIncome": 1463,
+        "revenue": 7114,
+        "netIncome": 1444,
         "operatingCashFlow": 8006,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
+        "marketShareMention": "We continue to see strong demand across HIV treatment and prevention",
+        "customerConcentration": 91,
         "geographicBreakdown": {
-          "US": 71.6,
+          "US": 71.7,
           "Europe": 15.9,
           "OtherInternational": 12.4
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Assembly Biosciences",
-          "Arcellx",
-          "Compugen",
-          "Tentarix",
-          "Nurix Therapeutics"
+          "Assembly Biosciences collaboration for antiviral therapies",
+          "Arcellx collaboration for cell therapy",
+          "Arcus collaboration expanded to inflammatory diseases",
+          "Compugen licensing agreement"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Drug pricing pressures",
-          "Medicare pricing negotiations",
-          "State-level drug pricing reviews"
+          "Medicare price negotiation provisions",
+          "State-level drug pricing regulations"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered solid financial performance in 2023, with total revenues of $27.1 billion and net income of $5.7 billion. Strong HIV and oncology product sales offset declining COVID-19 treatment revenues.",
+        "summary": "Gilead delivered strong financial performance in 2023, with 6% growth in HIV product sales and continued oncology expansion. The company remains focused on innovative therapeutics while managing pricing pressures and regulatory challenges.",
         "keyQuotes": [
-          "We continued to invest in our business and research and development pipeline through acquisitions and collaborations.",
-          "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases."
+          "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
+          "Our strategic business development activity reflects our commitment to focus on transformative science"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 83.23999786376953,
+          "priceAfter7Days": 83.98999786376953,
+          "priceChangePercent": 0.9010091533489093,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -476,19 +620,29 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Generic manufacturer patent challenges",
-          "HIV antitrust litigation"
+          "HIV antitrust litigation",
+          "Patent challenges for generic manufacturers"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered solid Q3 2023 financial results with steady revenues of $7.05 billion and net income of $2.17 billion. The company continues to focus on strategic acquisitions and collaborations in oncology and cell therapy while defending its patent portfolio.",
+        "summary": "Gilead delivered strong Q3 performance with stable revenues of $7.05 billion and net income of $2.17 billion. The company continues to focus on oncology and HIV product lines while defending intellectual property and managing legal challenges.",
         "keyQuotes": [
-          "We, along with Janssen and Janssen Products, L.P., filed a patent infringement lawsuit against Lupin and Apotex",
-          "We intend to enforce and defend our intellectual property"
+          "We believe these cases are without merit, and intend to vigorously defend ourselves",
+          "We are cooperating with this inquiry"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 74.0999984741211,
+          "priceAfter7Days": 75.05999755859375,
+          "priceChangePercent": 1.2955453498530491,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -515,18 +669,18 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 6564,
-        "netIncome": 1045,
+        "revenue": 6599,
+        "netIncome": 1039,
         "operatingCashFlow": 4082,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 103,
+        "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 66,
         "geographicBreakdown": {
-          "US": 72.7,
-          "Europe": 15.1,
-          "OtherInternational": 12.2
+          "US": 72.5,
+          "Europe": 15.6,
+          "OtherInternational": 11.9
         },
         "capexAmount": 248,
         "capexGrowth": null,
@@ -537,19 +691,30 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
+          "Patent oppositions in Europe",
           "HIV antitrust litigation",
-          "Patent challenges for sofosbuvir"
+          "Product liability lawsuits"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Gilead delivered steady Q2 2023 performance with $6.6B in revenue and $1.045B in net income. The company continues to focus on oncology and HIV product lines while managing ongoing patent and litigation challenges.",
+        "summary": "Gilead delivered stable Q2 2023 financial performance with solid revenue of $6.6B and net income of $1.04B. The company continues to focus on strategic acquisitions in oncology and cell therapy while defending its patent portfolio and managing ongoing litigation.",
         "keyQuotes": [
-          "We continue to defend the strength of our intellectual property",
-          "We are confident in our product portfolio and pipeline"
+          "We continue to invest in innovative technologies and strategic collaborations",
+          "Our HIV and oncology portfolios remain strong and competitive"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 77.06999969482422,
+          "priceAfter7Days": 74.41999816894531,
+          "priceChangePercent": -3.438434587222234,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 48,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -575,14 +740,14 @@
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 6352,
-        "netIncome": 985,
+        "netIncome": 1010,
         "operatingCashFlow": 1744,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Strong performance in HIV and Oncology product sales",
+        "marketShareMention": "Continued strong performance in HIV and Oncology segments",
         "customerConcentration": 64,
         "geographicBreakdown": {
           "US": 70.1,
@@ -595,23 +760,23 @@
           "Arcellx collaboration for CART-ddBCMA",
           "Tmunity acquisition",
           "Nurix license for NX-0479",
-          "AmerisourceBergen Corp",
-          "Cardinal Health Inc",
-          "McKesson Corp"
+          "AmerisourceBergen",
+          "Cardinal Health",
+          "McKesson"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Various patent litigation proceedings",
-          "Ongoing antitrust investigations"
+          "Ongoing patent litigation for sofosbuvir",
+          "Pre-exposure prophylaxis patent disputes"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Gilead delivered strong Q1 2023 results with 13% HIV sales growth and 59% Oncology sales growth. The company continues to invest in R&D and strategic acquisitions while maintaining a solid financial position.",
+        "summary": "Gilead delivered strong Q1 2023 results with robust HIV and Oncology segment growth, significant net income improvement, and continued strategic investments in cell therapy and innovative therapeutics.",
         "keyQuotes": [
           "We are committed to advancing innovative medicines to prevent and treat life-threatening diseases",
-          "We pursue and achieve breakthroughs in medicine for more than three decades"
+          "Completed strategic acquisition of Tmunity, providing preclinical and clinical programs"
         ],
         "marketData": {}
       },
@@ -628,6 +793,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 10,
-  "lastUpdated": "2025-11-14T04:38:05.074Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-26T05:57:41.759Z"
 }

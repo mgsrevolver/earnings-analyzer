@@ -12,63 +12,6 @@
   "reports": [
     {
       "filing": {
-        "accessionNumber": "0001326380-25-000075",
-        "filingDate": "2025-09-09",
-        "reportDate": "2025-08-02",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000132638025000075/gme-20250802.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautiously optimistic",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 972.2,
-        "netIncome": 168.6,
-        "operatingCashFlow": 309.9,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 203.3,
-        "marketShareMention": "exploring ways to increase addressable market through new product offerings",
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "United_States": 74.5,
-          "Australia": 14.5,
-          "Europe": 11
-        },
-        "capexAmount": 7,
-        "capexGrowth": null,
-        "partnerships": [
-          "Collectors Holdings, Inc. (PSA) - trading card authentication",
-          "Power Packs digital trading card platform"
-        ],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "GameStop reported strong Q2 2025 performance with 21.8% revenue growth driven by hardware and collectibles. The company continues strategic optimization, divesting international operations and focusing on core markets while exploring new revenue streams.",
-        "keyQuotes": [
-          "We aim to be the leading destination for games and entertainment products through our stores and ecommerce platforms",
-          "We continue to explore ways to increase the size of our addressable market through new product and service offerings"
-        ],
-        "marketData": {}
-      },
-      "quarter": "Q2 2025",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2025,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2025,
-        "quarter": "Q2 2025",
-        "reportDate": "2025-08-02"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001326380-25-000035",
         "filingDate": "2025-06-10",
         "reportDate": "2025-05-03",
@@ -87,10 +30,10 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 237,
-        "marketShareMention": null,
+        "marketShareMention": "Exploring ways to increase addressable market through new product categories like graded collectibles",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 73.4,
+          "United States": 73.4,
           "Canada": 5.2,
           "Australia": 11.2,
           "Europe": 10.2
@@ -98,20 +41,30 @@
         "capexAmount": 2.9,
         "capexGrowth": null,
         "partnerships": [
-          "PSA (Professional Sports Authenticator) trading card authentication collaboration"
+          "Collaboration with Collectors Holdings, Inc./PSA for trading card authentication"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "GameStop showed improved profitability with net income of $44.8M, driven by cost containment efforts and a shift to higher margin collectibles. The company continues to optimize its retail business and pursue international divestitures.",
+        "summary": "GameStop reported improved quarterly performance with net income of $44.8 million, driven by higher margin collectibles and cost reduction efforts. The company continues to optimize its retail business and international operations through strategic divestitures.",
         "keyQuotes": [
           "We aim to be the leading destination for games and entertainment products through our stores and ecommerce platforms",
           "We continue to explore ways to increase the size of our addressable market through new product and service offerings"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 26.600000381469727,
+          "priceAfter7Days": 28.049999237060547,
+          "priceChangePercent": 5.45112343908434,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -134,7 +87,7 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
@@ -144,31 +97,42 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 243.3,
-        "marketShareMention": null,
+        "marketShareMention": "Continuing to evaluate international assets and operations",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 64.1,
-          "Europe": 20.1,
+          "United_States": 64.1,
+          "Canada": 5.4,
           "Australia": 10.4,
-          "Canada": 5.4
+          "Europe": 20.1
         },
         "capexAmount": 12.6,
         "capexGrowth": null,
         "partnerships": [
-          "Collectors Holdings (PSA) - autograph authentication"
+          "PSA (Professional Sports Authenticator) for collectibles authentication"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "GameStop continues strategic optimization, focusing on cost reduction and international asset rationalization. Net sales declined 20% YoY but gross margin improved due to higher-margin product mix. The company raised significant capital through ATM offerings.",
+        "summary": "GameStop reported a challenging quarter with continued sales declines, but showed improved gross margins through inventory management and higher margin product mix. The company is focused on cost reduction and strategic international asset optimization.",
         "keyQuotes": [
           "We aim to be the leading destination for games and entertainment products",
-          "We continue to evaluate our international assets and operations"
+          "We will continue to focus on cost containment, including closing underperforming stores",
+          "We continue to explore ways to increase the size of our addressable market through new product and service offerings"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 22.329999923706055,
+          "priceAfter7Days": 27.260000228881836,
+          "priceChangePercent": 22.077923520017467,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 100,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 63,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -190,7 +154,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326380/000132638024000109/gme-20240803.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "weak",
@@ -204,7 +168,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 68.3,
+          "United_States": 68.3,
           "Canada": 4.7,
           "Australia": 11,
           "Europe": 15.9
@@ -212,18 +176,28 @@
         "capexAmount": 8,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "GameStop reported a slight improvement in quarterly performance, with net income of $14.8 million compared to a loss in the prior year. The company continues to focus on cost reduction and store optimization, but faces ongoing challenges in declining sales across all segments.",
+        "summary": "GameStop continues to face challenging market conditions with declining sales across all segments, but has improved gross margins through better inventory management and reduced operating expenses. The company raised significant capital through an at-the-market offering, providing financial flexibility.",
         "keyQuotes": [
-          "We aim to be the leading destination for games and entertainment products through our stores and ecommerce platforms.",
-          "We will continue to focus on cost containment, including closing underperforming stores, as we look to operate with increased efficiency."
+          "GameStop is following a strategic plan to fully leverage its unique position and brand recognition in gaming through a new phase of transformation.",
+          "We are taking steps to ensure we are a fast and convenient solution for our customers."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 20.649999618530273,
+          "priceAfter7Days": 21.8799991607666,
+          "priceChangePercent": 5.956414358151311,
+          "managementToneScore": 30,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -245,8 +219,8 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326380/000132638024000030/gme-20240504.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
@@ -259,7 +233,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 70,
+          "United States": 70,
           "Canada": 4.8,
           "Australia": 9,
           "Europe": 16.1
@@ -267,18 +241,28 @@
         "capexAmount": 4.9,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "GameStop reported a continued decline in quarterly revenue and net loss, with sales dropping 28.7% year-over-year. The company is focusing on cost containment and operational efficiency while maintaining a cautious outlook on future performance.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "GameStop reported a continued decline in revenues and net loss for Q1 2024, with sales down 28.7% year-over-year. The company is focusing on cost containment and optimization strategies, with reduced selling, general and administrative expenses compared to the prior year.",
         "keyQuotes": [
-          "GameStop is following a strategic plan to fully leverage its unique position and brand recognition in gaming through a new phase of transformation.",
-          "We aim to be the leading destination for games and entertainment products through our stores and ecommerce platforms."
+          "Our strategic plan is designed to optimize our core business and achieve profitability.",
+          "We will continue to focus on cost containment as we look to operate with increased efficiency."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 16.309999465942383,
+          "priceAfter7Days": 30.450000762939453,
+          "priceChangePercent": 86.69528976088209,
+          "managementToneScore": 50,
+          "earningsBeatScore": 50,
+          "priceActionScore": 100,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 65,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -288,63 +272,6 @@
         "fiscalYear": 2024,
         "quarter": "Q1 2024",
         "reportDate": "2024-05-04"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001326380-24-000012",
-        "filingDate": "2024-03-26",
-        "reportDate": "2024-02-03",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326380/000132638024000012/gme-20240203.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 2732.4000000000005,
-        "netIncome": 6.799999999999998,
-        "operatingCashFlow": -203.7,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 274.1,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "UnitedStates": 65.1,
-          "Canada": 5.5,
-          "Australia": 9.9,
-          "Europe": 19.5
-        },
-        "capexAmount": 34.9,
-        "capexGrowth": -37.6,
-        "partnerships": [],
-        "supplyChainStatus": "easing",
-        "regulatoryHeadwinds": [
-          "potential workforce legislative changes"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "GameStop continues strategic cost reduction while managing challenging retail environment. The company achieved a small net income of $6.7 million with decreased revenues across most segments, focusing on profitability and operational efficiency.",
-        "keyQuotes": [
-          "We are taking steps to ensure we are a fast and convenient solution for our customers",
-          "We will continue to focus on cost containment as we look to operate with increased efficiency"
-        ],
-        "marketData": {}
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2024,
-        "quarter": "Q4 2023",
-        "reportDate": "2024-02-03"
       },
       "analyzedSuccessfully": true
     },
@@ -371,7 +298,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 64.3,
+          "United States": 64.3,
           "Canada": 5.7,
           "Australia": 9.5,
           "Europe": 20.5
@@ -384,13 +311,23 @@
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "GameStop continues cost containment efforts and transformation strategy, focusing on operational efficiency and margin improvement. Net sales declined 9.1% in Q3, but gross profit margins improved slightly due to reduced freight expenses.",
+        "overallSentiment": "neutral",
+        "summary": "GameStop continues its transformation strategy focused on cost containment, margin improvement, and expanding product catalog. The company showed modest improvement in gross margins and SG&A expenses while experiencing continued sales declines across most segments.",
         "keyQuotes": [
           "We are taking steps to optimize our workforce to operate efficiently and nimbly",
-          "Our focus is on achieving profitability and leveraging brand equity to support growth"
+          "GameStop is focused on three overarching goals: establishing an omnichannel retail experience, achieving profitability, and leveraging brand equity to support growth"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 12.800000190734863,
+          "priceAfter7Days": 13.529999732971191,
+          "priceChangePercent": 5.703121338738184,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -413,9 +350,9 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "weak",
         "headcountTrend": "reducing",
         "revenue": 1163.8,
         "netIncome": -2.8,
@@ -440,12 +377,22 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "GameStop continues its transformation strategy, focusing on cost containment, operational efficiency, and expanding product catalog. The company saw modest quarterly revenue growth with continued net losses, reflecting ongoing restructuring efforts.",
+        "summary": "GameStop reported modest quarterly revenue growth with continued cost containment efforts. The company remains focused on operational efficiency, reducing expenses, and improving margins across product categories.",
         "keyQuotes": [
-          "We are taking steps to optimize our workforce to operate efficiently and nimbly",
-          "Our focus is on establishing omnichannel retail experience, achieving profitability, and leveraging brand equity to support growth"
+          "We are taking steps to ensure our cost structure is sustainable relative to revenue",
+          "Improving margins through operational discipline and increased emphasis on higher margin collectibles and pre-owned product categories"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 22.200000762939453,
+          "priceAfter7Days": 21.06999969482422,
+          "priceChangePercent": -5.090094726490511,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 40,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -467,10 +414,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326380/000132638023000028/gme-20230429.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 1237.1,
         "netIncome": -50.5,
@@ -481,10 +428,10 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 67.3,
-          "Canada": 5.1,
+          "United_States": 67.3,
+          "Europe": 18.3,
           "Australia": 9.3,
-          "Europe": 18.3
+          "Canada": 5.1
         },
         "capexAmount": 9.1,
         "capexGrowth": null,
@@ -494,13 +441,23 @@
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "GameStop continues to face challenges in its transformation, with declining revenues and persistent operating losses. The company is focused on cost containment, optimizing workforce, and exploring strategic options to achieve profitability.",
+        "overallSentiment": "neutral",
+        "summary": "GameStop continues its transformation focused on cost optimization, profitability, and strategic repositioning. The company reduced operating expenses, saw modest improvement in gross margins, and maintains a strong cash position while managing ongoing business restructuring.",
         "keyQuotes": [
-          "We are taking steps to optimize our workforce to operate efficiently and nimbly",
+          "We are taking the following steps, with a significant emphasis on cost containment",
           "We continue to explore strategic options, which may include further store closings and exiting unprofitable businesses"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 18.549999237060547,
+          "priceAfter7Days": 20.510000228881836,
+          "priceChangePercent": 10.566043517163362,
+          "managementToneScore": 30,
+          "earningsBeatScore": 50,
+          "priceActionScore": 90,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 60,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -523,7 +480,7 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
@@ -536,7 +493,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 69.1,
+          "United States": 69.1,
           "Canada": 5.8,
           "Australia": 9.9,
           "Europe": 15.2
@@ -552,15 +509,25 @@
           "Digital asset regulatory uncertainty"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "GameStop continues to focus on cost reduction and operational efficiency while exploring new revenue streams like digital assets. The company experienced revenue decline and ongoing net losses, signaling challenges in its transformation strategy.",
+        "summary": "GameStop continues to focus on cost reduction and operational efficiency while exploring new digital asset and NFT initiatives. The company experienced a net loss and decreased revenues, with ongoing challenges in the retail gaming market.",
         "keyQuotes": [
           "We are taking steps to optimize our workforce to operate efficiently and nimbly",
-          "Our intense focus on expense reductions will yield decreases in SG&A expenses"
+          "Our digital asset initiatives subjects us to risks similar to those associated with any new product offerings"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 21.25,
+          "priceAfter7Days": 23.860000610351562,
+          "priceChangePercent": 12.282355813419118,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 90,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2022",
       "quarterInfo": {
@@ -604,20 +571,33 @@
         "capexAmount": 44.3,
         "capexGrowth": null,
         "partnerships": [
-          "Immutable X"
+          "Immutable X",
+          "Digital Worlds NFTs"
         ],
         "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": null,
+        "regulatoryHeadwinds": [
+          "Digital asset regulatory uncertainty"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": false,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "GameStop continues to face revenue declines and operating losses while pursuing digital transformation. The company is focused on cost containment and exploring new revenue streams like NFTs and blockchain technology.",
+        "summary": "GameStop continues to face revenue decline and operational challenges, focusing on cost containment and transformation. The company is investing in digital asset and NFT initiatives while reducing workforce and managing tight supply chain conditions.",
         "keyQuotes": [
-          "We are taking steps to ensure the Company's cost structure is sustainable relative to revenue",
-          "Ensuring operational discipline and improving margins through focus on higher margin categories"
+          "We are taking steps to optimize our workforce to operate efficiently and nimbly",
+          "GameStop is focused on two overarching goals: attaining profitability in the near-future and generating sustainable growth over the long-term"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 28.309999465942383,
+          "priceAfter7Days": 25.760000228881836,
+          "priceChangePercent": -9.007415348517608,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 15,
+          "guidanceAccuracyScoreWeighted": 25,
+          "compositeSentimentScore": 30,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2022",
       "quarterInfo": {
@@ -632,6 +612,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-14T05:15:33.625Z"
+  "successfulAnalyses": 9,
+  "lastUpdated": "2025-11-26T06:35:14.989Z"
 }

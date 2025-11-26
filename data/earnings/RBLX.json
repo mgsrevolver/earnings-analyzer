@@ -39,23 +39,33 @@
           "Rest of World": 9
         },
         "capexAmount": 142.6,
-        "capexGrowth": 23.2,
+        "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Age verification requirements",
-          "Platform safety regulations"
+          "Online safety regulations",
+          "Potential securities regulation of Robux"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Roblox delivered strong bookings growth of 48% YoY, with robust revenue of $1.36B, though still operating at a net loss. The company continues investing in infrastructure and platform expansion while maintaining a cautious but confident outlook.",
+        "summary": "Roblox delivered strong bookings growth of 48% year-over-year, with revenue reaching $1.36 billion. The company remains cautious, continuing to invest in infrastructure and developer experiences while managing ongoing net losses.",
         "keyQuotes": [
-          "We continue to develop, implement, and test systems to obtain additional user demographic data",
-          "We strive to detect and minimize fraud and unauthorized access to our platform"
+          "We continue to expand our platform's global engagement and monetization capabilities",
+          "Our focus remains on creating safe, immersive experiences for our growing user base"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 138.52000427246094,
+          "priceAfter7Days": 124.98999786376953,
+          "priceChangePercent": -9.76754691840657,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 15,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 39,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -77,18 +87,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000262/rblx-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": 20.9,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 1080.7,
-        "netIncome": -278.4,
+        "netIncome": -279.8,
         "operatingCashFlow": 643.2,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 3365.5,
-        "marketShareMention": "goal to capture greater percentage of global gaming revenue",
+        "deferredRevenue": 5114.9,
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "US_Canada": 62,
@@ -96,24 +106,34 @@
           "Asia_Pacific": 11,
           "Rest_of_World": 8
         },
-        "capexAmount": 39.975,
+        "capexAmount": 40,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "online safety regulations",
-          "potential Robux security classification"
+          "Ongoing legal proceedings related to user safety",
+          "Potential regulatory scrutiny of virtual currency"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Roblox delivered solid quarterly revenue growth of 20.9% while maintaining cautious guidance. The company continues to focus on platform expansion and creator monetization despite ongoing net losses.",
+        "summary": "Roblox delivered solid Q2 2025 performance with 20.9% bookings growth and continued platform expansion. While still unprofitable, the company maintains strong user engagement and continues investing in platform development and creator ecosystem.",
         "keyQuotes": [
-          "Our goal is to scale and grow our advertising business and capture a greater percentage of global gaming revenue",
-          "We continue to invest in creating a safe and civil online environment for users"
+          "Our platform continues to provide connection and communication opportunities for our global community of creators",
+          "We are focused on scaling our platform and capturing a greater percentage of global gaming revenue"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 105.19999694824219,
+          "priceAfter7Days": 107.76000213623047,
+          "priceChangePercent": 2.4334650781860665,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -140,35 +160,45 @@
         "bookingsGrowth": 29.2,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 1035.2,
-        "netIncome": -215.1,
-        "operatingCashFlow": 443.9,
+        "revenue": 1035.207,
+        "netIncome": -215.056,
+        "operatingCashFlow": 443.914,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 4749.9,
-        "marketShareMention": "exploring potential to scale and grow advertising business and capture greater percentage of global gaming revenue",
+        "deferredRevenue": 4749.872,
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "US_Canada": 62,
           "Europe": 19,
           "Asia_Pacific": 11,
-          "Rest_of_World": 8
+          "RestOfWorld": 8
         },
-        "capexAmount": 17.4,
+        "capexAmount": 17.365,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Roblox delivered solid Q1 2025 performance with 29.2% revenue growth to $1.04B, continuing to expand user engagement while maintaining a cautious financial approach. The company remains focused on platform development and creator ecosystem despite ongoing net losses.",
+        "summary": "Roblox reported quarterly revenue of $1.035 billion, a 29.2% year-over-year increase, while maintaining a cautious outlook. The company continues to invest in platform development with stable headcount and normal supply chain operations.",
         "keyQuotes": [
-          "Our goal is to scale and grow our advertising business and capture a greater percentage of global gaming revenue",
-          "We continue to invest in platform enhancements and creator tools to drive global engagement"
+          "We continue to review our user session calculation methodologies",
+          "Our metrics may differ from estimates published by third parties"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 58.290000915527344,
+          "priceAfter7Days": 52.529998779296875,
+          "priceChangePercent": -9.881629860630374,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 15,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 39,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -193,10 +223,10 @@
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": 24,
-        "pricingPower": "unknown",
-        "headcountTrend": "expanding",
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
         "revenue": null,
-        "netIncome": -219.5759999999999,
+        "netIncome": -218.25599999999997,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -212,25 +242,36 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Tencent Holdings"
+          "Tencent (China Joint Venture)"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Online Safety Act",
-          "Digital Services Act",
-          "Children's Online Privacy Protection Act",
-          "AI regulations"
+          "Online safety regulations",
+          "Children's privacy laws",
+          "Digital content moderation requirements",
+          "AI regulation"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "Roblox continues to navigate complex regulatory environments while investing in AI and platform expansion. The company experienced moderate bookings growth of 24% but remains unprofitable with a net loss of $935.4 million.",
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Roblox faces significant regulatory challenges and continued net losses, with cautious expansion into international markets and emerging technologies like AI. The company is navigating complex privacy, content moderation, and child safety regulations while managing slowing user growth.",
         "keyQuotes": [
-          "We believe we take reasonable efforts to comply with all applicable laws, regulations, and other legal obligations",
-          "We expect our costs and investments to continue to increase in future periods as we intend to continue to make investments to grow our business"
+          "We have incurred net losses attributable to common stockholders of $935.4 million",
+          "We expect our operating expenses to continue to increase",
+          "Our business is affected by seasonal demands"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 57.86000061035156,
+          "priceAfter7Days": 61.29999923706055,
+          "priceChangePercent": 5.9453829768773705,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -252,40 +293,47 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509824000250/rblx-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": 28.8,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
         "revenue": 918.953,
         "netIncome": -239.324,
         "operatingCashFlow": 637.825,
         "freeCashFlow": null,
-        "daysalesOutstanding": null,
+        "bookingsGrowth": null,
+        "revenue_usd_percentage": 64,
+        "revenue_europe_percentage": 18,
+        "revenue_asiapacific_percentage": 10,
+        "revenue_restofworld_percentage": 8,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "deferredRevenue": 4190.199,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "US_Canada": 64,
-          "Europe": 18,
-          "Asia_Pacific": 10,
-          "Rest_of_World": 8
-        },
         "capexAmount": 115.786,
         "capexGrowth": null,
-        "partnerships": [],
+        "aiInvestmentMentioned": false,
+        "customerConcentration": null,
+        "marketShareMention": null,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Roblox reported Q3 2024 revenue of $918.9M, representing 28.8% year-over-year growth. The company continues to invest in infrastructure and development while maintaining a cautious outlook. Net loss improved slightly compared to previous quarters.",
+        "partnerships": [],
+        "summary": "Roblox reported Q3 2024 revenue of $918.953 million with a net loss of $239.324 million. The company maintains a stable financial outlook with consistent geographic revenue distribution and moderate pricing power.",
         "keyQuotes": [
-          "Our Platform provides a free to use immersive experience where people come to create, play, work, learn, and connect",
-          "We believe bookings provide a timelier indication of trends in our operating results"
+          "The Company continues to track hours engaged as an indicator of user engagement on the platform",
+          "We strive to detect and minimize fraud and unauthorized access to our platform"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 44.2599983215332,
+          "priceAfter7Days": 41.38999938964844,
+          "priceChangePercent": -6.484408135389523,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 42,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -307,18 +355,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509824000166/rblx-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": 31.3,
-        "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "bookingsGrowth": 31.2,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
         "revenue": 893.5,
         "netIncome": -205.9,
         "operatingCashFlow": 390.4,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 3973.9,
-        "marketShareMention": "platform engagement continues to grow globally",
+        "marketShareMention": "Growing global platform engagement",
         "customerConcentration": null,
         "geographicBreakdown": {
           "US_Canada": 63,
@@ -331,19 +379,29 @@
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "online safety regulations",
-          "potential Robux securities classification"
+          "Online safety regulations",
+          "Potential gambling-related litigation"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Roblox continues to show strong top-line growth with a 31.3% increase in bookings, driven by global user engagement. The company remains unprofitable but demonstrates robust operational cash flow and strategic investment in platform development.",
+        "summary": "Roblox continues to grow revenue and user engagement, with strong bookings growth of 31.2%. Despite ongoing net losses, the company maintains a cautious but optimistic outlook, focusing on platform expansion and creator ecosystem.",
         "keyQuotes": [
-          "Users are free to immerse themselves in experiences on the Roblox Platform",
-          "We believe bookings provide a timelier indication of trends in our operating results"
+          "We continue to see strong global engagement on our platform",
+          "Our platform provides opportunities for creators to build, launch, and monetize experiences"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 37.060001373291016,
+          "priceAfter7Days": 39.81999969482422,
+          "priceChangePercent": 7.447377817752382,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 80,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -371,38 +429,44 @@
         "pricingPower": "unknown",
         "headcountTrend": "expanding",
         "revenue": 801.3,
-        "netIncome": -270.6,
-        "operatingCashFlow": 238.9,
+        "netIncome": -271.92,
+        "operatingCashFlow": 238.95,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 2513.3,
+        "deferredRevenue": 3907.15,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States and Canada": 64,
+          "UnitedStatesAndCanada": 64,
           "Europe": 18,
-          "Asia-Pacific": 11,
-          "Rest of World": 7
+          "AsiaPacific": 11,
+          "RestOfWorld": 7
         },
-        "capexAmount": 46.7,
+        "capexAmount": 46.68,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Online safety regulations",
-          "Potential Robux security regulation"
-        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Roblox continues to invest heavily in growth with expanding R&D headcount and infrastructure, maintaining consistent revenue trends across global markets. The company remains unprofitable but shows strong operational cash flow and substantial cash reserves.",
+        "summary": "Roblox reported Q1 2024 revenue of $801.3 million with a net loss of $271.92 million, continuing its growth trajectory while managing operational expenses. The company remains focused on platform development and user engagement across global markets.",
         "keyQuotes": [
-          "We believe that metrics provide useful information to investors",
-          "We strive to detect and minimize fraud and unauthorized access to our platform",
-          "We track hours engaged as an indicator of user engagement"
+          "We believe bookings provide a timelier indication of trends in our operating results",
+          "The estimated average lifetime of a paying user was 28 months during the three months ended March 31, 2024"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 37.84000015258789,
+          "priceAfter7Days": 38.220001220703125,
+          "priceChangePercent": 1.0042311484748923,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 51,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -428,43 +492,55 @@
         "guidanceDirection": "maintained",
         "bookingsGrowth": 23,
         "pricingPower": "moderate",
-        "headcountTrend": "expanding",
-        "revenue": null,
-        "netIncome": -322.0100000000002,
+        "headcountTrend": "stable",
+        "revenue": -23.63499999999999,
+        "netIncome": -323.65200000000016,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "48% of engagement hours spent in top 50 experiences",
+        "marketShareMention": "48% of engagement hours were spent in top 50 experiences",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "outsideUSCanada": {
-            "dailyActiveUsers": 78,
-            "revenue": 36
-          }
+          "outsideUSCanada": 36,
+          "usCanada": 64
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Tencent (China Joint Venture)"
+          "Tencent (China Joint Venture)",
+          "Speechly Inc",
+          "Byfron Technologies LLC",
+          "Hamul Inc",
+          "Guilded Inc"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Privacy regulations",
-          "Children's online protection laws",
-          "Digital content moderation requirements",
-          "AI regulatory uncertainty"
+          "Child online protection laws",
+          "Digital Services Act compliance",
+          "AI regulation potential"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "bearish",
-        "summary": "Roblox continues to face challenges with profitability, regulatory compliance, and maintaining user engagement. The company reported a net loss of $1.15B in 2023 and is navigating complex privacy and content moderation regulations globally.",
+        "summary": "Roblox faces challenges with continued net losses, complex regulatory environment, and need to maintain user engagement. The company is investing in AI and expanding internationally while managing significant regulatory and compliance risks.",
         "keyQuotes": [
-          "We expect to continue to incur net losses in the foreseeable future",
-          "Our business strategy focuses on long-term growth and developer, creator, and user experience over short-term financial results"
+          "We have incurred net losses since our inception, and we expect to continue to incur net losses in the foreseeable future.",
+          "Our business depends on effectively operating with mobile operating systems, hardware, and networks that we do not control"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 42.9900016784668,
+          "priceAfter7Days": 42.220001220703125,
+          "priceChangePercent": -1.7911152074910393,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 46,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -486,42 +562,53 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509823000174/rblx-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": 37.8,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 713.2,
-        "netIncome": -278.8,
-        "operatingCashFlow": 314.9,
+        "revenue": 713.225,
+        "netIncome": -277.158,
+        "operatingCashFlow": 314.875,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 2208.5,
-        "marketShareMention": "Platform expanding global user base",
+        "deferredRevenue": 3397.346,
+        "marketShareMention": "Growing global user base across regions",
         "customerConcentration": null,
         "geographicBreakdown": {
           "US_Canada": 65,
           "Europe": 18,
           "Asia_Pacific": 10,
-          "Rest_of_World": 7
+          "RestOfWorld": 7
         },
-        "capexAmount": 255.5,
+        "capexAmount": 255.47,
         "capexGrowth": null,
         "partnerships": [
-          "Hosting services agreement with data center vendor"
+          "Speechly voice recognition acquisition",
+          "Data center infrastructure agreements"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "expanding",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Roblox continues growing revenue and user base globally, with strong bookings growth of 37.8% year-over-year. However, the company remains unprofitable with significant operating losses, indicating ongoing investment in platform development and expansion.",
+        "summary": "Roblox delivered strong booking growth of 37.8% year-over-year, driven by continued global user engagement. While still operating at a net loss, the company is investing heavily in infrastructure, data centers, and strategic acquisitions to support long-term platform growth.",
         "keyQuotes": [
-          "We believe bookings provide a timelier indication of trends in our operating results",
-          "Our platform tracks user account and session activity"
+          "We are continuing to invest to scale our platform capabilities",
+          "Our global user engagement remains strong across all demographics"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 28.68000030517578,
+          "priceAfter7Days": 30.209999084472656,
+          "priceChangePercent": 5.334723720420468,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -543,24 +630,24 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509823000125/rblx-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 680.766,
         "netIncome": -282.777,
         "operatingCashFlow": 202.171,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 3266.389,
+        "deferredRevenue": 2117.043,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 65,
+          "United States and Canada": 65,
           "Europe": 18,
-          "Asia_Pacific": 10,
-          "Rest_of_World": 7
+          "Asia-Pacific": 10,
+          "Rest of World": 7
         },
         "capexAmount": 202.274,
         "capexGrowth": null,
@@ -569,14 +656,21 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Roblox reported Q2 2023 revenue of $680.8 million, continuing its steady growth trajectory. The company maintains a neutral stance with significant investments in infrastructure and R&D while still experiencing net losses. Geographic diversification remains consistent with US/Canada representing 65% of revenue.",
-        "keyQuotes": [
-          "We believe bookings provide a timelier indication of trends in our operating results",
-          "The Company expects to take possession of the lease space during the first quarter of 2024"
-        ],
-        "marketData": {}
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Roblox continues to invest heavily in infrastructure and technology while experiencing net losses. The company maintains strong revenue growth but faces challenges in profitability and operating expenses.",
+        "keyQuotes": [],
+        "marketData": {
+          "priceOnEarningsDate": 40.29999923706055,
+          "priceAfter7Days": 41.150001525878906,
+          "priceChangePercent": 2.1091868608193005,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -601,21 +695,21 @@
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "unknown",
         "headcountTrend": "expanding",
         "revenue": 655.344,
         "netIncome": -268.313,
         "operatingCashFlow": 173.781,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 3160.987,
+        "deferredRevenue": 3160.017,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States and Canada": 0.65,
+          "US_Canada": 0.65,
           "Europe": 0.18,
-          "Asia-Pacific": 0.1,
-          "Rest of World": 0.07
+          "Asia_Pacific": 0.1,
+          "Rest_of_World": 0.07
         },
         "capexAmount": 91.359,
         "capexGrowth": null,
@@ -626,10 +720,10 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Roblox reported Q1 2023 revenue of $655.3M with a net loss of $268.3M, reflecting ongoing investments in platform development and user engagement. The company maintains a cautious outlook with expanding headcount and continued platform enhancements.",
+        "summary": "Roblox experienced continued revenue growth but significant net losses in Q1 2023, driven by high operating expenses particularly in research and development. The company maintains a strong cash position and continues to invest in platform expansion despite challenging financial performance.",
         "keyQuotes": [
-          "We are focused on delivering high-quality technology experiences and investing in our platform's future growth",
-          "Our user engagement remains strong across multiple demographics and geographies"
+          "We believe bookings provide a timelier indication of trends in our operating results",
+          "The Company is in the process of reviewing all issued, but not yet effective, accounting pronouncements"
         ],
         "marketData": {}
       },
@@ -647,5 +741,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-14T03:45:50.329Z"
+  "lastUpdated": "2025-11-26T05:04:42.758Z"
 }

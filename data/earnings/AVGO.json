@@ -19,23 +19,23 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": 22,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "reducing",
         "revenue": 15952,
         "netIncome": 4140,
         "operatingCashFlow": 7166,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 14336,
-        "marketShareMention": "Strong demand for networking products, particularly custom AI accelerators and AI networking solutions",
+        "marketShareMention": "strong demand for AI accelerators and networking solutions",
         "customerConcentration": 40,
         "geographicBreakdown": {
-          "Americas": 30,
-          "AsiaPacific": 56,
-          "EuropeMEA": 14
+          "Americas": 29.6,
+          "AsiaPacific": 56.2,
+          "EuropeMiddleEastAfrica": 14.2
         },
         "capexAmount": 386,
         "capexGrowth": null,
@@ -43,15 +43,25 @@
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q2 performance with 22% revenue growth driven by AI semiconductor solutions and infrastructure software. The company saw robust demand in networking products and VMware Cloud Foundation, maintaining a confident outlook.",
+        "summary": "Broadcom delivered strong Q2 performance with 22% revenue growth, driven by robust demand for AI-related semiconductor solutions and infrastructure software. The company demonstrated strong pricing power and continued to focus on operational efficiency.",
         "keyQuotes": [
           "Strong demand for our networking products, primarily custom AI accelerators and AI networking solutions",
-          "Strong demand for our VMware Cloud Foundation product"
+          "Transition to subscription licenses driving infrastructure software revenue growth"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 297.7200012207031,
+          "priceAfter7Days": 303.8999938964844,
+          "priceChangePercent": 2.0757734282017397,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -74,7 +84,7 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "reducing",
@@ -84,28 +94,38 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 14457,
-        "marketShareMention": "strong demand for AI networking solutions",
+        "marketShareMention": "Strong demand for AI networking solutions",
         "customerConcentration": 40,
         "geographicBreakdown": {
           "Americas": 31,
           "AsiaPacific": 54,
-          "EuropeMiddleEastAfrica": 15
+          "EuropeMideastAfrica": 15
         },
         "capexAmount": 244,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong quarterly performance driven by robust AI networking semiconductor solutions and infrastructure software, with 20% revenue growth and 97% increase in operating income. The company continues to benefit from AI-driven demand and successful VMware integration.",
+        "summary": "Broadcom delivered strong Q1 results with 20% revenue growth, driven by AI networking solutions and VMware Cloud Foundation. The company continues to benefit from robust demand in semiconductor and infrastructure software segments while maintaining disciplined cost management.",
         "keyQuotes": [
           "Strong demand for our networking products, primarily AI networking solutions",
           "Strong demand for our VMware Cloud Foundation product"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 200.72000122070312,
+          "priceAfter7Days": 221.5800018310547,
+          "priceChangePercent": 10.392586928800782,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 90,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 67,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -127,14 +147,14 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000099/avgo-20240804.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
-        "guidanceDirection": "not_provided",
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 13072,
         "netIncome": -1875,
-        "operatingCashFlow": 14358,
+        "operatingCashFlow": 4963,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 15548,
@@ -142,24 +162,34 @@
         "customerConcentration": null,
         "geographicBreakdown": {
           "Americas": 30.5,
-          "Asia Pacific": 53.8,
-          "Europe/Middle East/Africa": 15.6
+          "AsiaPacific": 53.8,
+          "EuropeMiddleEastAfrica": 15.7
         },
         "capexAmount": 426,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Broadcom reported mixed Q2 2024 results with revenue of $13.1B but a net loss of $1.9B, primarily due to significant tax provisions from an IP transfer. The company sold its end-user computing business and continues restructuring efforts post-VMware merger.",
+        "summary": "Broadcom reported a challenging quarter with negative net income driven by significant tax provisions related to an intra-group IP transfer. The company continues to integrate VMware while reducing headcount and maintaining a cautious outlook.",
         "keyQuotes": [
-          "We recognized a discrete tax provision of $4,522 million during the fiscal quarter ended August 4, 2024 from the establishment of a deferred tax liability",
+          "We recognized a discrete tax provision of $4,522 million during the fiscal quarter ended August 4, 2024",
           "We expect these restructuring activities to be substantially completed by the end of fiscal year 2025"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 142.0800018310547,
+          "priceAfter7Days": 148.6199951171875,
+          "priceChangePercent": 4.6030357558056805,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -181,7 +211,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
@@ -197,12 +227,12 @@
         "geographicBreakdown": {
           "Americas": 31,
           "AsiaPacific": 54,
-          "EuropeMiddleEastAfrica": 15
+          "EMEA": 15
         },
         "capexAmount": 254,
         "capexGrowth": null,
         "partnerships": [
-          "Seagate - SoC operations acquisition"
+          "Seagate SoC acquisition"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
@@ -210,12 +240,22 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q1 2024 results with $12.5B in revenue and $2.1B in net income, driven by semiconductor solutions and infrastructure software segments. The VMware acquisition and Seagate SoC operations purchase demonstrate strategic expansion.",
+        "summary": "Broadcom delivered strong quarterly results driven by VMware integration and semiconductor solutions segment performance. The company continues to focus on operational efficiency and strategic acquisitions while maintaining robust financial performance.",
         "keyQuotes": [
-          "We are a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions.",
-          "We acquired VMware to enhance our infrastructure software capabilities."
+          "We acquired VMware to enhance our infrastructure software capabilities",
+          "We acquired Seagate's SoC operations to strengthen our portfolio of SoC products"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 131.031005859375,
+          "priceAfter7Days": 133.75100708007812,
+          "priceChangePercent": 2.075845486237267,
+          "managementToneScore": 85,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -248,12 +288,12 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 3256,
-        "marketShareMention": null,
+        "marketShareMention": "Strong product demand, particularly in networking, server storage, and broadband products",
         "customerConcentration": 35,
         "geographicBreakdown": {
           "Americas": 24,
           "AsiaPacific": 67,
-          "EMEA": 9
+          "EuropeMiddleEastAfrica": 9
         },
         "capexAmount": 347,
         "capexGrowth": null,
@@ -261,16 +301,25 @@
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q2 results with 5% revenue growth driven by semiconductor solutions, particularly networking products. The company maintained solid operating margins and generated significant operating cash flow while continuing its share repurchase program.",
+        "summary": "Broadcom delivered strong quarterly performance with 5% revenue growth driven by robust semiconductor solutions segment, particularly networking products. The company maintained solid operating margins and continues to generate significant cash flow.",
         "keyQuotes": [
-          "We generated $4,719 million of cash from operations.",
-          "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking products.",
-          "We believe aggregate sales to our top five end customers accounted for approximately 35% of our net revenue"
+          "Strong product demand, primarily for networking products",
+          "We generated $4,719 million of cash from operations"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 89.86499786376953,
+          "priceAfter7Days": 89.70600128173828,
+          "priceChangePercent": -0.17692826552144386,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -292,18 +341,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000064/avgo-20230430.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 8733,
         "netIncome": 3481,
         "operatingCashFlow": 4502,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 3427,
-        "marketShareMention": null,
+        "deferredRevenue": 3793,
+        "marketShareMention": "Strong product demand, primarily for networking, server storage and broadband products",
         "customerConcentration": 35,
         "geographicBreakdown": {
           "Americas": 26,
@@ -319,12 +368,22 @@
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q1 2023 results with 8% quarterly revenue growth and 18% operating income growth, driven by robust demand in networking, server storage, and broadband products. The company continues to generate significant cash flow and return capital to shareholders through dividends and stock repurchases.",
+        "summary": "Broadcom delivered strong quarterly performance with 8% revenue growth and 18% operating income growth, driven by strength in networking, server storage, and broadband products. The company maintains a confident outlook with robust semiconductor solutions segment.",
         "keyQuotes": [
           "We generated $4,502 million of cash from operations.",
-          "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking, server storage and broadband products."
+          "Net revenue from our semiconductor solutions segment increased due to strong product demand"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 63.79499816894531,
+          "priceAfter7Days": 62.90599822998047,
+          "priceChangePercent": -1.3935260827354312,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -340,5 +399,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 6,
-  "lastUpdated": "2025-11-14T04:20:39.521Z"
+  "lastUpdated": "2025-11-26T05:39:10.648Z"
 }

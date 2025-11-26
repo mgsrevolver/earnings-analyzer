@@ -19,20 +19,22 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258925000028/regn-20250930.htm"
       },
       "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
         "revenue": 1587.7,
         "netIncome": 1460,
         "operatingCashFlow": 3808.2,
         "freeCashFlow": null,
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
-        "bookingsGrowth": null,
-        "marketShareMention": "Multiple patent litigation cases protecting EYLEA market position",
-        "customerConcentration": 51,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 764.8,
+        "marketShareMention": "Defending EYLEA patent through multiple legal proceedings",
+        "customerConcentration": 79,
         "geographicBreakdown": {
-          "US": null,
-          "ROW": null
+          "US": 90,
+          "RestOfWorld": 10
         },
         "capexAmount": 649.7,
         "capexGrowth": null,
@@ -47,19 +49,29 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple ongoing patent litigation cases",
+          "Multiple patent litigation proceedings",
           "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q3 2025 financial results with robust net income of $1.46B, driven by continued collaboration revenues and strategic partnerships. The company maintains a confident outlook despite ongoing legal challenges.",
+        "summary": "Regeneron delivered strong quarterly results with robust revenue and net income, driven by key product sales and collaborative partnerships. The company continues to defend its intellectual property through extensive patent litigation while maintaining a positive financial outlook.",
         "keyQuotes": [
-          "Continued strong performance in EYLEA and collaboration revenues",
-          "Successfully navigating patent litigation to protect market position"
+          "Continued strong performance across our product portfolio",
+          "Successfully defending our intellectual property through strategic legal proceedings"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 562.27001953125,
+          "priceAfter7Days": 583.239990234375,
+          "priceChangePercent": 3.729519621303502,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 65,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -81,50 +93,58 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258925000019/regn-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 3675.6,
+        "revenue": 1631,
         "netIncome": 1391.6,
         "operatingCashFlow": 2189.5,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 688.2,
-        "marketShareMention": null,
+        "deferredRevenue": 481.9,
+        "marketShareMention": "Multiple patent litigation cases to protect EYLEA market share",
         "customerConcentration": 76,
         "geographicBreakdown": {
-          "US": null,
-          "ROW": null
+          "US": 75,
+          "RestOfWorld": 25
         },
         "capexAmount": 448.3,
         "capexGrowth": null,
         "partnerships": [
           "Sanofi collaboration",
           "Bayer collaboration",
-          "Hansoh Pharmaceuticals license agreement",
+          "Hansoh Pharmaceuticals licensing agreement",
           "Sanofi",
           "Bayer",
-          "Hanosh Pharmaceutical Group Company Limited",
-          "Amgen"
+          "Hanosh Pharmaceutical Group Company Limited"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple patent litigation proceedings",
-          "DOJ investigations",
-          "False Claims Act investigations"
+          "Ongoing Department of Justice investigations",
+          "Patent litigation challenges"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "Regeneron delivered solid quarterly results with revenues of $3.68B and net income of $1.39B. The company continues to navigate complex legal and regulatory challenges while maintaining stable financial performance through key collaborations.",
+        "overallSentiment": "bullish",
+        "summary": "Regeneron delivered strong Q2 2025 financial performance with robust revenue and net income. The company continues to defend its key drug EYLEA through multiple patent litigation cases and maintains strategic collaborations with Sanofi and Bayer.",
         "keyQuotes": [
-          "The Company is party to a global, strategic collaboration with Sanofi to research, develop, and commercialize fully human monoclonal antibodies",
+          "The company is party to a global, strategic collaboration with Sanofi to research, develop, and commercialize fully human monoclonal antibodies",
           "Sanofi is generally responsible for funding 80% to 100% of agreed-upon development costs"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 525,
+          "priceAfter7Days": 538.1099853515625,
+          "priceChangePercent": 2.4971400669642856,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 62,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -149,7 +169,7 @@
         "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 3028.7,
         "netIncome": 808.7,
@@ -157,34 +177,45 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 831.3,
-        "marketShareMention": null,
+        "marketShareMention": "Regeneron continues to maintain strong market positioning in ophthalmology and immunology markets",
         "customerConcentration": 76,
         "geographicBreakdown": {
-          "US": null,
-          "ROW": null
+          "US": 60,
+          "ROW": 40
         },
         "capexAmount": 229.3,
         "capexGrowth": null,
         "partnerships": [
+          "Sanofi collaboration",
+          "Bayer collaboration",
           "Sanofi",
-          "Bayer",
-          "Ultragenyx"
+          "Bayer"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Patent litigation",
-          "DOJ investigations"
+          "Ongoing patent litigation for EYLEA",
+          "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q1 2025 results with robust net income and solid operating cash flow. Key products like Dupixent showed continued growth, while the company maintains a confident stance amid ongoing patent litigation.",
+        "summary": "Regeneron delivered strong Q1 2025 financial results with robust revenue growth driven by Dupixent and continued profitability. The company maintains a positive outlook despite ongoing patent litigation challenges.",
         "keyQuotes": [
           "Our core business strategy is to maintain a strong foundation in scientific research and drug development using our proprietary technologies",
-          "We do not undertake any obligation to update (publicly or otherwise) any forward-looking statement"
+          "We continue to advance as an integrated, multi-product biotechnology company"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 634.22998046875,
+          "priceAfter7Days": 572.780029296875,
+          "priceChangePercent": -9.688906715897954,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 15,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -207,27 +238,25 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 5716,
-        "netIncome": -869.9000000000001,
+        "revenue": 3990,
+        "netIncome": null,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Faces significant competition in ophthalmology and immunology markets",
+        "marketShareMention": null,
         "customerConcentration": 74,
         "geographicBreakdown": {
-          "US": null,
-          "International": null
+          "US": 76,
+          "International": 24
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Bayer collaboration for EYLEA/EYLEA HD",
-          "Sanofi Antibody Collaboration for Dupixent",
           "Sanofi",
           "Bayer",
           "Roche",
@@ -241,19 +270,29 @@
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Medicare Drug Price Negotiation Program",
-          "Inflation Reduction Act drug pricing provisions",
-          "Increased biosimilar competition"
+          "Medicare Inflation Based Rebates",
+          "Medicare Part D Program Redesign"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "cautious",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Regeneron delivered full year revenues of $12.7 billion with net income of $2.6 billion, facing significant pricing pressures and biosimilar competition for key products like EYLEA. The company continues to expand headcount and invest in R&D while navigating complex regulatory and market dynamics.",
+        "summary": "Regeneron faces increasing competition and regulatory challenges, particularly for its key products EYLEA and Dupixent. The company continues to expand its workforce and relies heavily on collaborations with Sanofi and Bayer.",
         "keyQuotes": [
           "We are substantially dependent on the success of EYLEA, EYLEA HD, and Dupixent.",
-          "Sales of our marketed products are dependent on the availability and extent of coverage and reimbursement from third-party payors."
+          "Attracting, developing, and retaining skilled and experienced employees is crucial to our ability to compete effectively."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 712.3300170898438,
+          "priceAfter7Days": 730.2999877929688,
+          "priceChangePercent": 2.522702998890823,
+          "managementToneScore": 50,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -275,7 +314,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422024000040/regn-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
@@ -286,35 +325,48 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 627.2,
-        "marketShareMention": null,
+        "marketShareMention": "Patents and litigation suggest strong market position in ophthalmology and biologics",
         "customerConcentration": 75,
-        "geographicBreakdown": null,
+        "geographicBreakdown": {
+          "US": 80,
+          "RestOfWorld": 20
+        },
         "capexAmount": 556.3,
         "capexGrowth": null,
         "partnerships": [
           "Sanofi",
           "Bayer",
           "Roche",
-          "Sonoma Biotherapeutics",
-          "Alnylam Pharmaceuticals",
           "McKesson Corporation",
-          "Besse Medical"
+          "Besse Medical",
+          "Sonoma Biotherapeutics",
+          "Alnylam Pharmaceuticals"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Ongoing patent litigation for EYLEA and REGEN-COV",
-          "Department of Justice investigations"
+          "Multiple patent litigation proceedings",
+          "DOJ investigations regarding marketing practices"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q3 2024 financial results with quarterly revenue of $1.95B and net income of $1.34B, driven by continued performance of key products like EYLEA and collaborations with partners like Sanofi. The company maintains a robust financial position with significant operating cash flow.",
+        "summary": "Regeneron delivered strong quarterly performance with robust revenue and net income growth. The company continues to defend its key drug patents and maintain strategic collaborations while facing some regulatory scrutiny.",
         "keyQuotes": [
-          "EYLEA HD U.S. sales of $392.3M in Q3 2024",
-          "Continued strong collaboration revenue from Sanofi partnership"
+          "Continued strength in EYLEA and collaboration revenues",
+          "Successful patent defense strategies across multiple geographies"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 1051.239990234375,
+          "priceAfter7Days": 996.0499877929688,
+          "priceChangePercent": -5.249990768435434,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -346,40 +398,47 @@
         "operatingCashFlow": 1866.5,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 791.6,
-        "marketShareMention": "Defending key patent positions across EYLEA, REGEN-COV portfolios",
+        "deferredRevenue": 586,
+        "marketShareMention": null,
         "customerConcentration": 75,
         "geographicBreakdown": {
-          "US": 90,
-          "ROW": 10
+          "US": 80,
+          "ROW": 20
         },
         "capexAmount": 314.4,
         "capexGrowth": null,
         "partnerships": [
-          "Sanofi collaboration",
-          "Bayer EYLEA partnership",
-          "Roche REGEN-COV collaboration",
           "Sanofi",
           "Bayer",
           "Roche",
-          "McKesson",
-          "Sonoma Biotherapeutics"
+          "McKessoner Corporation",
+          "Sonoma Biotherapeutics Inc"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple patent challenges for EYLEA",
+          "Patent litigation for EYLEA and other products",
           "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q2 performance with robust net income and operating cash flow, driven by continued strength in core product portfolio like EYLEA. The company is actively defending its intellectual property and maintaining collaborative partnerships.",
+        "summary": "Regeneron delivered strong quarterly performance with revenue of $1.92B and net income of $1.43B, driven by continued growth in key products like EYLEA. The company maintains a robust pipeline and strategic collaborations while navigating ongoing patent litigation.",
         "keyQuotes": [
           "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
           "We continue to advance as an integrated, multi-product biotechnology company"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 1057.02001953125,
+          "priceAfter7Days": 1052.25,
+          "priceChangePercent": -0.4512705003794848,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -412,16 +471,18 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 532.2,
-        "marketShareMention": "Ongoing patent litigation to defend EYLEA market position",
+        "marketShareMention": "Continued strong performance across key product lines like EYLEA, Dupixent, and Libtayo",
         "customerConcentration": 75,
-        "geographicBreakdown": null,
+        "geographicBreakdown": {
+          "US": null,
+          "ROW": null
+        },
         "capexAmount": 133.9,
         "capexGrowth": null,
         "partnerships": [
           "Sanofi collaboration for antibody development",
-          "Bayer collaboration for EYLEA development",
+          "Bayer partnership for EYLEA commercialization",
           "Alnylam collaboration for RNA therapeutics",
-          "Roche collaboration for COVID-19 antibody cocktail",
           "Sanofi",
           "Bayer",
           "Alnylam Pharmaceuticals",
@@ -430,20 +491,29 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple ongoing patent litigation cases",
-          "Department of Justice investigations",
-          "Patient assistance program scrutiny"
+          "Ongoing patent litigation for EYLEA and other products",
+          "Department of Justice investigations into patient assistance programs"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Regeneron delivered stable quarterly performance with robust cash flow and continued focus on defending key product franchises through extensive patent litigation. The company maintains a diverse portfolio of collaborative partnerships across multiple therapeutic areas.",
+        "summary": "Regeneron delivered stable financial performance in Q1 2024, with consistent revenues and solid net income. The company continues to leverage its diverse product portfolio and strategic collaborations while managing ongoing legal and regulatory challenges.",
         "keyQuotes": [
           "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "We continue to advance as an integrated, multi-product biotechnology company"
+          "Regeneron is a fully integrated biotechnology company that invents, develops, manufactures, and commercializes medicines for people with serious diseases"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 969.3099975585938,
+          "priceAfter7Days": 938.47998046875,
+          "priceChangePercent": -3.180614784485405,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 48,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -465,18 +535,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422024000009/regn-20231231.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
-        "revenue": 12248993279.7,
-        "netIncome": 2665997206,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": null,
+        "netIncome": null,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "EYLEA and EYLEA HD represented 45% of total revenues in 2023, decreased 6% compared to 2022",
+        "marketShareMention": null,
         "customerConcentration": 76,
         "geographicBreakdown": null,
         "capexAmount": null,
@@ -500,14 +570,24 @@
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Regeneron reported full year 2023 revenues of $12.25 billion and net income of $2.67 billion. The company faces potential headwinds from drug pricing regulations and biosimilar competition for EYLEA, but maintains a strong product portfolio and continued investment in R&D.",
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Regeneron faces significant headwinds from potential Medicare drug pricing reforms, biosimilar competition for EYLEA, and increasing regulatory complexity. The company remains substantially dependent on EYLEA and Dupixent, with concentrated customer base and weak pricing power.",
         "keyQuotes": [
-          "We compete in the highly competitive biotechnology and pharmaceuticals industries",
-          "Attracting, developing, and retaining skilled employees is crucial to our ability to compete effectively"
+          "Our commercial success depends significantly on our ability to operate without infringing the patents and other proprietary rights of others",
+          "We are substantially dependent on the success of EYLEA, EYLEA HD, and Dupixent"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 905,
+          "priceAfter7Days": 902.8800048828125,
+          "priceChangePercent": -0.234253604109116,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -530,11 +610,11 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
-        "revenue": 1786.1,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 3362.7,
         "netIncome": 1007.8,
         "operatingCashFlow": 3504.3,
         "freeCashFlow": null,
@@ -542,45 +622,49 @@
         "deferredRevenue": 417.3,
         "marketShareMention": null,
         "customerConcentration": 77,
-        "geographicBreakdown": {
-          "US": null,
-          "ROW": null
-        },
+        "geographicBreakdown": null,
         "capexAmount": 467.2,
         "capexGrowth": null,
         "partnerships": [
-          "Sanofi Antibody Collaboration",
-          "Bayer EYLEA Collaboration",
-          "Roche REGEN-COV Collaboration",
-          "Alnylam RNAi Therapeutics Collaboration",
-          "Sonoma Biotherapeutics T reg Therapies Collaboration",
           "Sanofi",
           "Bayer",
           "Roche",
+          "Alnylam",
+          "Sonoma",
+          "Decibel",
           "Alnylam Pharmaceuticals",
           "Sonoma Biotherapeutics",
           "BARDA",
           "US Government",
           "Decibel Therapeutics",
           "Checkmate Pharmaceuticals",
-          "McKesson Corporation",
-          "Besse Medical"
+          "McKesson Corporation"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Ongoing patent litigation for Praluent and EYLEA",
+          "Patent infringement proceedings",
           "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong quarterly results with $1.786 billion in revenue and $1.008 billion in net income, driven by robust product sales and collaborative revenues. The company continues to invest in R&D and pursue strategic partnerships across multiple therapeutic areas.",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron delivered solid quarterly performance with $3.36B in revenue and $1.01B in net income. The company continues to manage multiple strategic collaborations across pharmaceuticals while navigating complex legal and regulatory challenges.",
         "keyQuotes": [
-          "The Company continues to expand its portfolio through strategic collaborations",
-          "Ongoing investments in research and development across multiple therapeutic platforms"
+          "Continuing to expand collaboration partnerships across multiple therapeutic areas",
+          "Maintaining strong financial performance despite ongoing patent and regulatory proceedings"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 818.030029296875,
+          "priceAfter7Days": 831.8200073242188,
+          "priceChangePercent": 1.685754499647979,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -602,20 +686,23 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422023000023/regn-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 1772.1,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 3158.1,
         "netIncome": 968.4,
         "operatingCashFlow": 2390,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 381.1,
+        "deferredRevenue": 497.3,
         "marketShareMention": null,
         "customerConcentration": 76,
-        "geographicBreakdown": null,
+        "geographicBreakdown": {
+          "US": null,
+          "ROW": null
+        },
         "capexAmount": 291.2,
         "capexGrowth": null,
         "partnerships": [
@@ -631,19 +718,29 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Patent litigation",
-          "DOJ investigations"
+          "Patent litigation for EYLEA and Praluent",
+          "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong quarterly results with revenue of $1.77B and net income of $968.4M, driven by key products like EYLEA and continued collaboration revenues. The company maintains a robust pipeline and strategic partnerships across multiple therapeutic areas.",
+        "summary": "Regeneron delivered strong Q2 2023 financial results with revenues of $3.16 billion and net income of $968.4 million. The company maintains a robust pipeline and continues to invest in R&D while facing some patent and regulatory challenges.",
         "keyQuotes": [
-          "Our objective is to continue to advance as an integrated, multi-product biotechnology company",
-          "Our core business strategy is to maintain a strong foundation in basic scientific research"
+          "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
+          "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 718.5399780273438,
+          "priceAfter7Days": 692.4500122070312,
+          "priceChangePercent": -3.6309692735453694,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -665,14 +762,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422023000016/regn-20230331.htm"
       },
       "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
         "revenue": 3162.1,
         "netIncome": 817.8,
-        "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
         "operatingCashFlow": 1367.6,
         "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 512.8,
         "marketShareMention": null,
         "customerConcentration": 77,
         "geographicBreakdown": {
@@ -682,29 +782,28 @@
         "capexAmount": 178.2,
         "capexGrowth": null,
         "partnerships": [
-          "Sanofi collaboration",
-          "Bayer collaboration",
-          "Roche collaboration",
-          "Sonoma Biotherapeutics collaboration",
+          "Sonoma Biotherapeutics collaboration for T reg therapies",
+          "Ongoing collaborations with Sanofi, Bayer, Roche",
           "Sanofi",
           "Bayer",
           "Roche",
-          "Sonoma Biotherapeutics"
+          "Sonoma Biotherapeutics",
+          "Celltrion Inc",
+          "Apotex Inc"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Patent challenges for EYLEA",
-          "DOJ investigations",
-          "Patient assistance program lawsuits"
+          "Patent challenges for EYLEA and other products",
+          "Department of Justice investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Regeneron delivered solid Q1 2023 financial results with strong revenue of $3.16 billion and net income of $817.8 million. The company continues to benefit from its diverse product portfolio, particularly strong performance from Dupixent and EYLEA. Despite ongoing legal and regulatory challenges, management maintains a confident outlook.",
+        "summary": "Regeneron delivered strong Q1 2023 financial results with robust revenue of $3.16 billion and net income of $817.8 million. Key products like Dupixent and Libtayo continue to show growth, while the company maintains a diversified portfolio and strategic collaborations.",
         "keyQuotes": [
           "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "We continue to advance as an integrated, multi-product biotechnology company"
+          "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
         ],
         "marketData": {}
       },
@@ -722,5 +821,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-14T04:56:50.927Z"
+  "lastUpdated": "2025-11-26T06:17:07.221Z"
 }

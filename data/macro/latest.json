@@ -1,6 +1,6 @@
 {
   "period": "Q4 2024",
-  "generatedAt": "2025-11-14T06:52:20.573Z",
+  "generatedAt": "2025-11-26T07:12:48.760Z",
   "companies": [
     "AAPL",
     "AMC",
@@ -9,7 +9,9 @@
     "BIIB",
     "COIN",
     "DDOG",
+    "GILD",
     "GOOGL",
+    "HOOD",
     "INTC",
     "META",
     "MRNA",
@@ -23,91 +25,70 @@
     "VRTX"
   ],
   "aggregateInsights": {
-    "averageCapexGrowth": 64.73333333333333,
+    "averageCapexGrowth": 64.76666666666667,
     "companiesRaisingGuidance": 4,
     "companiesLoweringGuidance": 1,
     "aiInvestmentCount": 16,
     "overallMarketSentiment": "neutral",
     "partnershipNetwork": [
       {
-        "partner": "Google search distribution",
+        "partner": "Google search licensing",
         "mentions": 1,
         "connectedCompanies": [
           "AAPL"
         ]
       },
       {
-        "partner": "Sony PlayStation 5 Pro partnership",
+        "partner": "Sony PlayStation",
         "mentions": 1,
         "connectedCompanies": [
           "AMD"
         ]
       },
       {
-        "partner": "ZT Systems acquisition agreement",
+        "partner": "ZT Systems acquisition",
         "mentions": 1,
         "connectedCompanies": [
           "AMD"
         ]
       },
       {
-        "partner": "Anthropic",
+        "partner": "Anthropic convertible notes investment",
         "mentions": 1,
         "connectedCompanies": [
           "AMZN"
         ]
       },
       {
-        "partner": "Rivian",
+        "partner": "Rivian electric vehicle collaboration",
         "mentions": 1,
         "connectedCompanies": [
           "AMZN"
         ]
       },
       {
-        "partner": "Eisai - LEQEMBI collaboration",
+        "partner": "Eisai (LEQEMBI)",
         "mentions": 1,
         "connectedCompanies": [
           "BIIB"
         ]
       },
       {
-        "partner": "Sage Therapeutics - ZURZUVAE collaboration",
+        "partner": "Sage (ZURZUVAE)",
         "mentions": 1,
         "connectedCompanies": [
           "BIIB"
         ]
       },
       {
-        "partner": "Ionis - antisense therapeutics collaboration",
+        "partner": "Genentech (anti-CD20 therapies)",
         "mentions": 1,
         "connectedCompanies": [
           "BIIB"
         ]
       },
       {
-        "partner": "Genentech - anti-CD20 therapies collaboration",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
-        "partner": "UCB - dapirolizumab pegol collaboration",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
-        "partner": "Denali - LRRK2 inhibitor collaboration",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
-        "partner": "Samsung Bioepis - biosimilar commercialization",
+        "partner": "Samsung Bioepis (biosimilars)",
         "mentions": 1,
         "connectedCompanies": [
           "BIIB"
@@ -135,17 +116,80 @@
         ]
       },
       {
-        "partner": "AI infrastructure partnerships",
+        "partner": "LEO Pharma A/S collaboration",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Arcus Biosciences collaboration",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Janssen Pharmaceutica NV royalty buyout",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Cardinal Health",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Cencora",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "McKesson Corp",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Continued AI model collaborations",
         "mentions": 1,
         "connectedCompanies": [
           "GOOGL"
         ]
       },
       {
-        "partner": "Cloud services",
+        "partner": "Enhanced cloud service partnerships",
         "mentions": 1,
         "connectedCompanies": [
           "GOOGL"
+        ]
+      },
+      {
+        "partner": "Expanded content licensing agreements",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GOOGL"
+        ]
+      },
+      {
+        "partner": "Bitstamp (pending acquisition)",
+        "mentions": 1,
+        "connectedCompanies": [
+          "HOOD"
+        ]
+      },
+      {
+        "partner": "Morningstar (stock research reports)",
+        "mentions": 1,
+        "connectedCompanies": [
+          "HOOD"
         ]
       },
       {
@@ -156,35 +200,49 @@
         ]
       },
       {
-        "partner": "Government CHIPS Act partnerships",
+        "partner": "SCIP transaction with Brookfield",
         "mentions": 1,
         "connectedCompanies": [
           "INTC"
         ]
       },
       {
-        "partner": "Merck for individualized neoantigen therapies",
+        "partner": "SCIP transaction with Apollo",
+        "mentions": 1,
+        "connectedCompanies": [
+          "INTC"
+        ]
+      },
+      {
+        "partner": "Vertex (Cystic Fibrosis program)",
         "mentions": 1,
         "connectedCompanies": [
           "MRNA"
         ]
       },
       {
-        "partner": "Vertex for cystic fibrosis program",
+        "partner": "Merck (Individualized Neoantigen Therapies)",
         "mentions": 1,
         "connectedCompanies": [
           "MRNA"
         ]
       },
       {
-        "partner": "BARDA for pandemic influenza vaccine development",
+        "partner": "Institute for Life Changing Medicines",
         "mentions": 1,
         "connectedCompanies": [
           "MRNA"
         ]
       },
       {
-        "partner": "OpenAI for AI collaboration",
+        "partner": "DARPA",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
+        ]
+      },
+      {
+        "partner": "BARDA",
         "mentions": 1,
         "connectedCompanies": [
           "MRNA"
@@ -233,6 +291,13 @@
         ]
       },
       {
+        "partner": "FFF Enterprises",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
+        ]
+      },
+      {
         "partner": "Taiwan Food and Drug Administration",
         "mentions": 1,
         "connectedCompanies": [
@@ -275,14 +340,7 @@
         ]
       },
       {
-        "partner": "OpenAI strategic partnership",
-        "mentions": 1,
-        "connectedCompanies": [
-          "MSFT"
-        ]
-      },
-      {
-        "partner": "Activision Blizzard acquisition",
+        "partner": "OpenAI",
         "mentions": 1,
         "connectedCompanies": [
           "MSFT"
@@ -303,14 +361,14 @@
         ]
       },
       {
-        "partner": "Greylock Ventures",
+        "partner": "Inflection AI Inc",
         "mentions": 1,
         "connectedCompanies": [
           "MSFT"
         ]
       },
       {
-        "partner": "Inflection AI Inc",
+        "partner": "Graylock Ventures",
         "mentions": 1,
         "connectedCompanies": [
           "MSFT"
@@ -324,10 +382,24 @@
         ]
       },
       {
-        "partner": "JD Cloud",
+        "partner": "JD Cloud in China",
         "mentions": 1,
         "connectedCompanies": [
           "NET"
+        ]
+      },
+      {
+        "partner": "Global telecommunications service provider partners",
+        "mentions": 1,
+        "connectedCompanies": [
+          "NET"
+        ]
+      },
+      {
+        "partner": "Microsoft",
+        "mentions": 1,
+        "connectedCompanies": [
+          "NVDA"
         ]
       },
       {
@@ -338,24 +410,10 @@
         ]
       },
       {
-        "partner": "Tencent Holdings",
+        "partner": "Tencent (China Joint Venture)",
         "mentions": 1,
         "connectedCompanies": [
           "RBLX"
-        ]
-      },
-      {
-        "partner": "Bayer collaboration for EYLEA/EYLEA HD",
-        "mentions": 1,
-        "connectedCompanies": [
-          "REGN"
-        ]
-      },
-      {
-        "partner": "Sanofi Antibody Collaboration for Dupixent",
-        "mentions": 1,
-        "connectedCompanies": [
-          "REGN"
         ]
       },
       {
@@ -422,6 +480,13 @@
         ]
       },
       {
+        "partner": "North American Charging Standard (NACS) adoption",
+        "mentions": 1,
+        "connectedCompanies": [
+          "TSLA"
+        ]
+      },
+      {
         "partner": "CRISPR",
         "mentions": 1,
         "connectedCompanies": [
@@ -457,21 +522,14 @@
         ]
       },
       {
-        "partner": "Alphine Immune Sciences Inc",
+        "partner": "Zai Lab Limited",
         "mentions": 1,
         "connectedCompanies": [
           "VRTX"
         ]
       },
       {
-        "partner": "Septena Inc",
-        "mentions": 1,
-        "connectedCompanies": [
-          "VRTX"
-        ]
-      },
-      {
-        "partner": "Catalyst Biosciences",
+        "partner": "Alpinine Immune Sciences Inc",
         "mentions": 1,
         "connectedCompanies": [
           "VRTX"
@@ -492,7 +550,14 @@
         ]
       },
       {
-        "partner": "Zai Lab Limited",
+        "partner": "Septerna Inc",
+        "mentions": 1,
+        "connectedCompanies": [
+          "VRTX"
+        ]
+      },
+      {
+        "partner": "Catalyst Biosciences",
         "mentions": 1,
         "connectedCompanies": [
           "VRTX"
@@ -500,22 +565,22 @@
       }
     ],
     "supplyChainSentiment": {
-      "tight": 10,
+      "tight": 11,
       "easing": 0,
       "normal": 6,
       "unknown": 3
     },
     "headcountTrends": {
-      "expanding": 8,
-      "stable": 5,
-      "freezing": 1,
-      "reducing": 5
+      "expanding": 7,
+      "stable": 7,
+      "freezing": 0,
+      "reducing": 7
     },
     "pricingPowerDistribution": {
       "strong": 5,
-      "moderate": 6,
-      "weak": 6,
-      "unknown": 2
+      "moderate": 7,
+      "weak": 8,
+      "unknown": 1
     }
   },
   "sectorAnalyses": [
@@ -539,11 +604,11 @@
         "normal": 1,
         "unknown": 0
       },
-      "aiInvestmentPercentage": 100,
+      "aiInvestmentPercentage": 0,
       "averageSentiment": 1,
       "topPartners": [
         {
-          "partner": "Google search distribution",
+          "partner": "Google search licensing",
           "mentions": 1
         }
       ]
@@ -569,7 +634,7 @@
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": -1,
+      "averageSentiment": 0,
       "topPartners": []
     },
     {
@@ -591,18 +656,18 @@
       "supplyChainStatus": {
         "tight": 2,
         "easing": 0,
-        "normal": 1,
+        "normal": 0,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0.3333333333333333,
       "topPartners": [
         {
-          "partner": "Sony PlayStation 5 Pro partnership",
+          "partner": "Sony PlayStation",
           "mentions": 1
         },
         {
-          "partner": "ZT Systems acquisition agreement",
+          "partner": "ZT Systems acquisition",
           "mentions": 1
         },
         {
@@ -610,11 +675,11 @@
           "mentions": 1
         },
         {
-          "partner": "Government CHIPS Act partnerships",
+          "partner": "SCIP transaction with Brookfield",
           "mentions": 1
         },
         {
-          "partner": "Cloud Service Providers",
+          "partner": "SCIP transaction with Apollo",
           "mentions": 1
         }
       ]
@@ -643,11 +708,11 @@
       "averageSentiment": 1,
       "topPartners": [
         {
-          "partner": "Anthropic",
+          "partner": "Anthropic convertible notes investment",
           "mentions": 1
         },
         {
-          "partner": "Rivian",
+          "partner": "Rivian electric vehicle collaboration",
           "mentions": 1
         }
       ]
@@ -657,6 +722,7 @@
       "subCategory": "Biotech",
       "companies": [
         "BIIB",
+        "GILD",
         "MRNA",
         "REGN",
         "VRTX"
@@ -667,35 +733,35 @@
         "raised": 0,
         "maintained": 4,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 1
       },
       "supplyChainStatus": {
         "tight": 4,
         "easing": 0,
-        "normal": 0,
+        "normal": 1,
         "unknown": 0
       },
-      "aiInvestmentPercentage": 25,
-      "averageSentiment": -0.5,
+      "aiInvestmentPercentage": 40,
+      "averageSentiment": -0.2,
       "topPartners": [
         {
-          "partner": "Eisai - LEQEMBI collaboration",
+          "partner": "Eisai (LEQEMBI)",
           "mentions": 1
         },
         {
-          "partner": "Sage Therapeutics - ZURZUVAE collaboration",
+          "partner": "Sage (ZURZUVAE)",
           "mentions": 1
         },
         {
-          "partner": "Ionis - antisense therapeutics collaboration",
+          "partner": "Genentech (anti-CD20 therapies)",
           "mentions": 1
         },
         {
-          "partner": "Genentech - anti-CD20 therapies collaboration",
+          "partner": "Samsung Bioepis (biosimilars)",
           "mentions": 1
         },
         {
-          "partner": "UCB - dapirolizumab pegol collaboration",
+          "partner": "Samsung",
           "mentions": 1
         }
       ]
@@ -704,13 +770,14 @@
       "sector": "Technology",
       "subCategory": "FinTech",
       "companies": [
-        "COIN"
+        "COIN",
+        "HOOD"
       ],
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 2,
         "lowered": 0,
         "notProvided": 0
       },
@@ -718,11 +785,20 @@
         "tight": 0,
         "easing": 0,
         "normal": 0,
-        "unknown": 1
+        "unknown": 2
       },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 0,
-      "topPartners": []
+      "aiInvestmentPercentage": 50,
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "Bitstamp (pending acquisition)",
+          "mentions": 1
+        },
+        {
+          "partner": "Morningstar (stock research reports)",
+          "mentions": 1
+        }
+      ]
     },
     {
       "sector": "Technology",
@@ -742,28 +818,28 @@
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 1,
+        "tight": 2,
         "easing": 0,
-        "normal": 3,
+        "normal": 2,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.5,
+      "averageSentiment": 0.75,
       "topPartners": [
         {
-          "partner": "AI infrastructure partnerships",
+          "partner": "Continued AI model collaborations",
           "mentions": 1
         },
         {
-          "partner": "Cloud services",
+          "partner": "Enhanced cloud service partnerships",
           "mentions": 1
         },
         {
-          "partner": "OpenAI strategic partnership",
+          "partner": "Expanded content licensing agreements",
           "mentions": 1
         },
         {
-          "partner": "Activision Blizzard acquisition",
+          "partner": "OpenAI",
           "mentions": 1
         },
         {
@@ -787,9 +863,9 @@
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 1,
+        "tight": 0,
         "easing": 0,
-        "normal": 0,
+        "normal": 1,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
@@ -804,7 +880,7 @@
         "TSLA"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 27.4,
+      "averageCapexGrowth": 27.6,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 1,
@@ -819,7 +895,12 @@
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0,
-      "topPartners": []
+      "topPartners": [
+        {
+          "partner": "North American Charging Standard (NACS) adoption",
+          "mentions": 1
+        }
+      ]
     },
     {
       "sector": "Technology",
@@ -836,16 +917,16 @@
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 0,
+        "tight": 1,
         "easing": 0,
         "normal": 0,
-        "unknown": 1
+        "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0,
+      "averageSentiment": -1,
       "topPartners": [
         {
-          "partner": "Tencent Holdings",
+          "partner": "Tencent (China Joint Venture)",
           "mentions": 1
         }
       ]

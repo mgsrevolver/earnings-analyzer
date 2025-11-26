@@ -21,7 +21,7 @@
       "insights": {
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": 21.5,
+        "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 1432.553,
@@ -38,22 +38,30 @@
           "AsiaPacific": 11.2
         },
         "capexAmount": 14.112,
-        "capexGrowth": 129.4,
+        "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "End-of-life of Data Center offering"
-        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Atlassian delivered solid quarterly performance with revenue growth of 21% driven by cloud subscription strength. The company is cautiously managing expenses through restructuring while continuing to invest in AI-powered product enhancements.",
+        "summary": "Atlassian reported quarterly revenue of $1.43B, with a net loss of $51.9M. The company is focusing on cloud offerings, ending Data Center product line, and implementing restructuring efforts to optimize resources and reduce costs.",
         "keyQuotes": [
           "We've put AI at the center of our portfolio to enhance teamwork for users across our apps and Collections",
-          "These actions were part of our initiatives to reduce additional capacity no longer necessary due to the increased ability, accessibility, performance, stability, and supportability of our products"
+          "Beginning in March 2026, we will no longer sell term licenses to new customers"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 159.6999969482422,
+          "priceAfter7Days": 150.1199951171875,
+          "priceChangePercent": -5.998748913038181,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 40,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -75,39 +83,49 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000022/team-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 1356.716,
         "netIncome": -70.807,
         "operatingCashFlow": 652.681,
         "freeCashFlow": 638.315,
         "daysalesOutstanding": null,
         "deferredRevenue": 2368.203,
-        "marketShareMention": "Over 80% of Fortune 500 customers use multiple products",
+        "marketShareMention": "Over 80% of Fortune 500 use Atlassian products",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Americas": 47,
+          "Americas": 46.9,
           "EMEA": 42.1,
-          "AsiaPacific": 10.9
+          "AsiaPacific": 11
         },
         "capexAmount": 14.366,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Atlassian delivered solid Q1 performance with strong cloud subscription revenue growth and robust free cash flow generation. The company continues to invest heavily in R&D and product innovation while maintaining a disciplined approach to expenses and cash management.",
+        "summary": "Atlassian delivered solid quarterly performance with strong subscription revenue growth and robust operating cash flow. Despite reporting a net loss, the company maintains a confident outlook, driven by cloud product adoption and continued investment in product development.",
         "keyQuotes": [
-          "Our mission is to unleash the potential of every team.",
-          "We prioritize product quality, automated distribution, transparent pricing, and customer service to land new customers and expand to new teams."
+          "We aim to grow our customer base, targeting organizations of all sizes, in every industry, and in most geographies",
+          "Our mission is to unleash the potential of every team"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 212.2100067138672,
+          "priceAfter7Days": 186.61000061035156,
+          "priceChangePercent": -12.063524477445272,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 5,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 38,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -129,7 +147,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037224000056/team-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "strong",
@@ -156,13 +174,22 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Atlassian delivered solid quarterly performance with strong cloud subscription revenue growth and continued investment in product development. The company maintains a product-led growth strategy focused on expanding within existing customer base.",
+        "summary": "Atlassian delivered strong quarterly revenue growth, expanding to over 300,000 customers while maintaining a product-led strategy focused on cloud offerings. The company continues investing heavily in R&D and AI capabilities across its collaborative work platform.",
         "keyQuotes": [
           "Our mission is to unleash the potential of every team.",
-          "We generate demand through word-of-mouth and viral expansion within organizations",
-          "We invest significantly more in research and development activities than in traditional sales activities"
+          "We aim to grow our customer base, targeting organizations of all sizes, in every industry, and in most geographies."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 158.80999755859375,
+          "priceAfter7Days": 167.52999877929688,
+          "priceChangePercent": 5.490838961499157,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -178,5 +205,5 @@
   ],
   "totalFetched": 6,
   "successfulAnalyses": 3,
-  "lastUpdated": "2025-11-14T03:28:11.703Z"
+  "lastUpdated": "2025-11-26T04:46:54.749Z"
 }

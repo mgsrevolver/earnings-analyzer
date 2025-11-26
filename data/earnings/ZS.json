@@ -12,11 +12,11 @@
   "reports": [
     {
       "filing": {
-        "accessionNumber": "0001713683-25-000079",
-        "filingDate": "2025-05-29",
-        "reportDate": "2025-04-30",
+        "accessionNumber": "0001713683-25-000205",
+        "filingDate": "2025-11-25",
+        "reportDate": "2025-10-31",
         "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000079/zs-20250430.htm"
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000205/zs-20251031.htm"
       },
       "insights": {
         "guidanceTone": "cautious",
@@ -24,21 +24,86 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
+        "revenue": 788.112,
+        "netIncome": -11.615,
+        "operatingCashFlow": 448.28,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2351.3,
+        "marketShareMention": "Approximately 40% of Forbes Global 2000 as customers",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 54,
+          "Europe_Middle_East_Africa": 27,
+          "Asia_Pacific": 15,
+          "Other": 4
+        },
+        "capexAmount": 34.984,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler reported Q3 revenue of $788.1 million, up 25% year-over-year, with a continued focus on cloud security and AI-driven solutions. The company maintains a cautious outlook amid macroeconomic uncertainties, with elongated sales cycles and careful customer purchasing decisions.",
+        "keyQuotes": [
+          "We believe that most organizations have yet to fully make these investments.",
+          "We expect customer cautiousness to continue in the near term, elongating our sales cycles and the timing of large deals."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 331.1400146484375,
+          "priceAfter7Days": 320.010009765625,
+          "priceChangePercent": -3.361117470091595,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 43,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-25-000079",
+        "filingDate": "2025-05-29",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000079/zs-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautiously optimistic",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
         "revenue": 678.034,
         "netIncome": -4.125,
         "operatingCashFlow": 721.849,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 1985,
-        "marketShareMention": "Approximately 35% of Forbes Global 2000 customers",
+        "marketShareMention": "Approximately 35% of Forbes Global 2000 as customers",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": 51,
-          "EMEA": 30,
-          "APAC": 16,
+          "United_States": 51,
+          "Europe_Middle_East_Africa": 30,
+          "Asia_Pacific": 16,
           "Other": 3
         },
-        "capexAmount": 104.206,
+        "capexAmount": 167.077,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "unknown",
@@ -47,12 +112,22 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Zscaler delivered robust quarterly revenue growth to $678 million, though net income was slightly negative. The company continues to see strong market penetration with 35% of Forbes Global 2000 as customers, indicating continued enterprise cloud security adoption.",
+        "summary": "Zscaler reported quarterly revenue of $678 million, with continued investment in cloud security platform. Despite a net loss of $4.1 million, strong operating cash flow of $721.8 million indicates robust business fundamentals and ongoing digital transformation momentum.",
         "keyQuotes": [
-          "We predicted that with rapid cloud adoption and increasing workforce mobility, traditional perimeter security approaches would provide inadequate protection for users and data",
-          "We believe that most organizations have yet to fully make these investments"
+          "We believe that most organizations have yet to fully make these investments.",
+          "We predicted that with rapid cloud adoption and increasing workforce mobility, traditional perimeter security approaches would provide inadequate protection"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 226.1699981689453,
+          "priceAfter7Days": 233.5399932861328,
+          "priceChangePercent": 3.2586086469710422,
+          "managementToneScore": 70,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -67,6 +142,72 @@
     },
     {
       "filing": {
+        "accessionNumber": "0001713683-24-000150",
+        "filingDate": "2024-12-05",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000150/zs-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 13,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 627.955,
+        "netIncome": -12.051,
+        "operatingCashFlow": 331.335,
+        "freeCashFlow": 291.881,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1783.72,
+        "marketShareMention": "Approximately 35% of Forbes Global 2000 as customers",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 51,
+          "Europe_Middle_East_Africa": 30,
+          "Asia_Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 39.454,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered solid quarterly performance with 26% revenue growth and continued expansion in enterprise customer base. The company maintains a cautious outlook due to macroeconomic uncertainty, with elongated sales cycles and careful customer purchasing decisions.",
+        "keyQuotes": [
+          "We continue to see customer scrutiny of and elongated approval processes for transactions",
+          "We believe that we have significant room to capture additional market share",
+          "We expect customer cautiousness to continue in the near term"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 180.7899932861328,
+          "priceAfter7Days": 196.7100067138672,
+          "priceChangePercent": 8.805804535065212,
+          "managementToneScore": 50,
+          "earningsBeatScore": 50,
+          "priceActionScore": 80,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001713683-24-000075",
         "filingDate": "2024-06-07",
         "reportDate": "2024-04-30",
@@ -74,40 +215,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000075/zs-20240430.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
         "revenue": 553.201,
         "netIncome": 19.124,
         "operatingCashFlow": 576.289,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 1577,
-        "marketShareMention": "More than 640 of the Forbes Global 2000 rely on Zscaler as of July 31, 2023",
+        "deferredRevenue": 1376.676,
+        "marketShareMention": "More than 640 of the Forbes Global 2000 are customers as of July 31, 2023",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 50,
-          "EMEA": 31,
-          "Asia_Pacific": 15,
+          "United States": 50,
+          "Europe/Middle East/Africa": 31,
+          "Asia Pacific": 15,
           "Other": 4
         },
-        "capexAmount": 95.204,
+        "capexAmount": 127.657,
         "capexGrowth": null,
-        "partnerships": [],
+        "partnerships": [
+          "Airgap Networks",
+          "Avalor Technologies",
+          "Securelysare Software Private",
+          "Canonic Security Technologies"
+        ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Zscaler delivered strong Q1 2024 performance with revenue of $553.2 million and net income of $19.1 million, demonstrating continued growth and profitability in the cloud security market. The company continues to expand its enterprise customer base and invest in strategic technology development.",
+        "summary": "Zscaler delivered strong quarterly performance with revenue of $553.2 million and net income of $19.1 million, marking continued growth and improving financial metrics. The company remains focused on cloud security and zero trust platform expansion.",
         "keyQuotes": [
-          "We predicted that with rapid cloud adoption and increasing workforce mobility, traditional perimeter security approaches would provide inadequate protection for users and data",
+          "We pioneered a cloud platform, the Zscaler Zero Trust Exchange, that represents a fundamental shift in the architectural design and approach to networking and security.",
           "Government agencies and some of the largest enterprises in the world rely on us to support their digital transformation"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 172.94000244140625,
+          "priceAfter7Days": 176.88999938964844,
+          "priceChangePercent": 2.2840273461777505,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -117,6 +273,73 @@
         "fiscalYear": 2024,
         "quarter": "Q1 2024",
         "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-23-000171",
+        "filingDate": "2023-12-06",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368323000171/zs-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 34,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 496.7,
+        "netIncome": -33.5,
+        "operatingCashFlow": 260.8,
+        "freeCashFlow": 224.7,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1399.5,
+        "marketShareMention": "over 640 of the Forbes Global 2000 as customers, significant room to capture additional market share",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe, Middle East and Africa": 32,
+          "Asia Pacific": 15,
+          "Other": 3
+        },
+        "capexAmount": 36.1,
+        "capexGrowth": null,
+        "partnerships": [
+          "channel partners"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered solid quarterly performance with 34% billings growth and cautious outlook amid macroeconomic uncertainty. The company continues investing in growth while managing expenses and maintaining a strong balance sheet.",
+        "keyQuotes": [
+          "We continue to see customer scrutiny of and elongated approval processes for transactions",
+          "We believe that most organizations have yet to fully make investments in cloud security"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 158.69000244140625,
+          "priceAfter7Days": 171.38999938964844,
+          "priceChangePercent": 8.00302271904713,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 80,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
       },
       "analyzedSuccessfully": true
     },
@@ -132,21 +355,21 @@
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 418.8,
         "netIncome": -46.046,
         "operatingCashFlow": 326.407,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 1058.901,
+        "deferredRevenue": 1175.4,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "unitedStates": 51,
-          "emea": 31,
-          "apac": 15,
-          "other": 3
+          "United States": 51,
+          "Europe/Middle East/Africa": 31,
+          "Asia Pacific": 15,
+          "Other": 3
         },
         "capexAmount": 94.089,
         "capexGrowth": null,
@@ -157,12 +380,22 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Zscaler continues to grow revenue while managing costs through selective headcount reductions. The company maintained a cautious outlook with strong performance in the cloud security market, though still operating at a net loss.",
+        "summary": "Zscaler delivered solid quarterly revenue growth of 46% to $418.8M while maintaining a cautious approach amid macroeconomic uncertainty. The company reduced headcount by 3% to streamline operations and align with strategic priorities, reflecting a prudent cost management strategy.",
         "keyQuotes": [
-          "We expect to incur aggregate non-recurring restructuring charges of approximately $7.0 million",
-          "These actions included the reduction of our worldwide headcount by approximately 3%"
+          "These actions included the reduction of our worldwide headcount by approximately 3%",
+          "We expect to incur aggregate non-recurring restructuring charges of approximately $7.0 million"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 88.73999786376953,
+          "priceAfter7Days": 107.91999816894531,
+          "priceChangePercent": 21.613703816648982,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 100,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 63,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -174,64 +407,9 @@
         "reportDate": "2023-04-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001713683-22-000123",
-        "filingDate": "2022-12-07",
-        "reportDate": "2022-10-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368322000123/zs-20221031.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
-        "revenue": 355.548,
-        "netIncome": -68.162,
-        "operatingCashFlow": 128.457,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 1005.7,
-        "marketShareMention": "Expanded to over 6,700 customers across major industries, with over 600 Forbes Global 2000 customers",
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "United States": 49,
-          "Europe, Middle East and Africa": 33,
-          "Asia Pacific": 15,
-          "Other": 3
-        },
-        "capexAmount": 32.843,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "Zscaler reported strong revenue growth of 54% year-over-year, reaching $355.5 million in Q3 2022. While continuing to invest in growth and experiencing net losses, the company showed resilience amid macroeconomic uncertainty and maintained a solid customer base of over 6,700 customers.",
-        "keyQuotes": [
-          "We predicted that with rapid cloud adoption and increasing workforce mobility, traditional perimeter security approaches would provide inadequate protection for users and data",
-          "We believe that most enterprises are in the early stages of a broad transformation to the cloud"
-        ],
-        "marketData": {}
-      },
-      "quarter": "Q3 2022",
-      "quarterInfo": {
-        "calendarQuarter": 3,
-        "calendarYear": 2022,
-        "fiscalQuarter": 3,
-        "fiscalYear": 2022,
-        "quarter": "Q3 2022",
-        "reportDate": "2022-10-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 4,
-  "lastUpdated": "2025-11-14T03:15:18.230Z"
+  "successfulAnalyses": 6,
+  "lastUpdated": "2025-11-26T04:34:04.261Z"
 }

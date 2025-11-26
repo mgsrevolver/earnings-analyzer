@@ -21,7 +21,7 @@
       "insights": {
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
-        "bookingsGrowth": 36,
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 9246,
@@ -30,34 +30,43 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Strong demand for AMD Ryzen processors, semi-custom game console SoCs and Radeon gaming GPUs",
+        "marketShareMention": "Strong demand for AMD Ryzen processors, semi-custom game console SoCs, and Radeon gaming GPUs",
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 64,
           "domestic": 36
         },
         "capexAmount": 752,
-        "capexGrowth": null,
+        "capexGrowth": 76,
         "partnerships": [
-          "OpenAI warrant agreement for 160 million shares",
-          "ZT Systems acquisition",
-          "Sanmina divestiture of ZT Manufacturing Business"
+          "OpenAI warrant agreement",
+          "Sanmina divestiture agreement"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export restrictions on semiconductors to China",
-          "Export control on AMD Instinct MI308 Data Center GPU products"
+          "U.S. export restrictions on semiconductors to China",
+          "Export control on AMD Instinct MI308 GPU products"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong Q3 performance with 36% revenue growth driven by robust demand in Client, Gaming, and Data Center segments. The company continues to invest aggressively in AI technologies and navigate complex geopolitical challenges.",
+        "summary": "AMD delivered strong Q3 performance with 36% revenue growth driven by robust demand in Client, Gaming, and Data Center segments. The company continues to invest heavily in AI technologies and navigate export restrictions while maintaining a positive outlook.",
         "keyQuotes": [
-          "We completed the acquisition of ZT Systems, which is expected to enable AMD to deliver end-to-end AI solutions",
+          "We expect the acquisition of ZT Systems to enable AMD to deliver end-to-end AI solutions",
           "Strong demand for our 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 161.36000061035156,
+          "priceAfter7Days": 203.7100067138672,
+          "priceChangePercent": 26.2456655573406,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 100,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 74,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -90,31 +99,41 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Strong demand for latest 'Zen 5' AMD Ryzen processors and higher semi-custom sales",
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 71,
           "domestic": 29
         },
         "capexAmount": 494,
-        "capexGrowth": null,
+        "capexGrowth": 67,
         "partnerships": [
-          "ZT Systems"
+          "ZT Systems acquisition"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US government export controls on Instinct MI308 GPU"
+          "U.S. government export control on AMD Instinct MI308 GPU products"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong Q2 2025 results with 32% revenue growth driven by Client & Gaming and Data Center segments, despite export control challenges on AI GPU products. Net income was significantly boosted by a tax benefit from resolving uncertain tax positions.",
+        "summary": "AMD delivered strong quarterly performance with 32% revenue growth driven by robust Client and Gaming segment and EPYC CPU sales. Despite export control challenges, the company showed resilience with significant net income boosted by tax benefits.",
         "keyQuotes": [
-          "We expect the ZT Systems acquisition will enable AMD to deliver end-to-end AI solutions",
-          "Our net revenue has been generally higher in the second half of the year"
+          "We expect that international sales will continue to be a significant portion of total sales in the foreseeable future",
+          "The acquisition of ZT Systems is expected to enable AMD to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure at scale"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 141.89999389648438,
+          "priceAfter7Days": 134.8000030517578,
+          "priceChangePercent": -5.003517371470774,
+          "managementToneScore": 85,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 46,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -147,7 +166,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Revenue grew 36% driven by growth in EPYC CPU and Instinct GPU sales",
+        "marketShareMention": "Strong demand for AMD EPYC CPUs and Instinct GPUs, 68% increase in Ryzen processor sales",
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 66,
@@ -156,24 +175,32 @@
         "capexAmount": 212,
         "capexGrowth": null,
         "partnerships": [
-          "Seeking strategic partner for ZT Systems manufacturing business",
-          "ATMP Joint Ventures with Tongfu Microelectronics"
+          "ZT Systems acquisition"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "New export restrictions on semiconductor products to China",
-          "Potential license requirements for MI308 products"
+          "Export restrictions on semiconductor products to China"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong Q1 2025 performance with 36% revenue growth, driven by Data Center and Client segments. The company is focusing on AI strategy, completed ZT Systems acquisition, and remains optimistic about market opportunities.",
+        "summary": "AMD delivered strong Q1 performance with 36% revenue growth driven by Data Center and Client segments. AI investments and Ryzen processor sales powered impressive results, with operating income increasing significantly from the prior year.",
         "keyQuotes": [
           "We see significant opportunity in AI",
-          "Growth driven by AMD EPYC™ CPU and AMD Instinct™ GPU sales"
+          "Higher Data Center segment revenue and a richer mix of Ryzen processor sales drove our performance"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 102.73999786376953,
+          "priceAfter7Days": 83.63999938964844,
+          "priceChangePercent": -18.590615993049926,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 5,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -195,7 +222,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000012/amd-20241228.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
@@ -206,7 +233,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Strong demand for AI accelerators and EPYC CPUs",
+        "marketShareMention": "Gained market share in Data Center and Client segments",
         "customerConcentration": null,
         "geographicBreakdown": {
           "International": 66
@@ -214,10 +241,10 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Sony PlayStation 5 Pro partnership",
-          "ZT Systems acquisition agreement"
+          "Sony PlayStation",
+          "ZT Systems acquisition"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "normalizing",
         "regulatoryHeadwinds": [
           "AI export controls",
           "Global minimum tax regulations"
@@ -226,12 +253,22 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong annual revenue growth of 14% to $25.8B, driven by Data Center and Client segments, with significant AI product launches and strategic investments.",
+        "summary": "AMD delivered strong annual revenue growth of 14% to $25.8 billion, driven by Data Center and Client segments, with significant AI product launches and strategic acquisitions.",
         "keyQuotes": [
           "Demand for our Data Center AI accelerator products was very strong",
-          "We accelerated growth in our Data Center segment"
+          "We successfully launched multiple leadership products and made significant progress executing our AI strategy"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 122.44000244140625,
+          "priceAfter7Days": 129.5500030517578,
+          "priceChangePercent": 5.806926223930826,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 70,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 65,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -260,34 +297,43 @@
         "headcountTrend": "expanding",
         "revenue": 6819,
         "netIncome": 771,
-        "operatingCashFlow": 628,
+        "operatingCashFlow": 1742,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Strong growth in Data Center segment driven by AMD Instinct GPU shipments and EPYC CPU sales",
+        "deferredRevenue": 86,
+        "marketShareMention": "Strong ramp of AMD Instinct GPU shipments and growth in AMD EPYC CPU sales",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "International": 72,
-          "Domestic": 28
+          "international": 72
         },
         "capexAmount": 428,
         "capexGrowth": null,
         "partnerships": [
-          "ZT Systems acquisition pending",
-          "Silo AI acquisition completed"
+          "Silo AI acquisition",
+          "Pending ZT Systems acquisition"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "normalizing",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong quarterly performance with 18% revenue growth, driven by Data Center and Client segments. AI investments and strategic acquisitions are positioning the company for future growth.",
+        "summary": "AMD delivered strong Q3 performance with 18% revenue growth driven by data center and client segments. AI strategy continues to be a key focus, with acquisitions of Silo AI and pending ZT Systems deal highlighting semiconductor leadership.",
         "keyQuotes": [
-          "The increase in net revenue was driven by an increase in Data Center segment revenue primarily driven by the strong ramp of AMD Instinct™ GPU shipments",
-          "We completed the acquisition of Silo AI, which expands our ability to accelerate development and deployment of AI models on AMD hardware"
+          "Strong ramp of AMD Instinct™ GPU shipments and growth in AMD EPYC™ CPU sales",
+          "We are accelerating our AI strategy through strategic acquisitions"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 164.0800018310547,
+          "priceAfter7Days": 170.97000122070312,
+          "priceChangePercent": 4.199170717186327,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -309,18 +355,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000123/amd-20240629.htm"
       },
       "insights": {
-        "guidanceTone": "cautiously optimistic",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 5835,
         "netIncome": 265,
         "operatingCashFlow": 1114,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 76,
-        "marketShareMention": "Recovery from weak PC market conditions and inventory corrections",
+        "deferredRevenue": null,
+        "marketShareMention": "Facing competitive pressures from Intel and Nvidia in x86 and GPU markets",
         "customerConcentration": null,
         "geographicBreakdown": {
           "domestic": 40,
@@ -329,24 +375,34 @@
         "capexAmount": 296,
         "capexGrowth": null,
         "partnerships": [
-          "ATMP Joint Venture",
-          "THATIC Joint Venture"
+          "ATMP Joint Ventures with Tongfu Microelectronics",
+          "THATIC Joint Ventures with Higon Information Technology"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Export restrictions",
-          "Entity List designations"
+          "Entity List restrictions on Chinese entities",
+          "Export control regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "AMD delivered strong Q2 2024 performance, driven by steep ramp of AI GPU shipments and strong growth in EPYC CPU sales. Data Center segment revenue grew 115% year-over-year, with improving gross margins and a focus on AI strategy.",
+        "summary": "AMD delivered strong Q2 performance with 9% revenue growth driven by Data Center and Client segments. AI-focused strategy and Instinct GPU ramp are key growth drivers, with operating income rebounding significantly from last year.",
         "keyQuotes": [
-          "The steep ramp of AMD Instinct GPU shipments and strong growth in 4th Gen AMD EPYC CPU sales",
+          "Steep ramp of AMD Instinct GPU shipments and strong growth in 4th Gen AMD EPYC CPU sales",
           "Recovery from weak PC market conditions and inventory corrections"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 157.69000244140625,
+          "priceAfter7Days": 178.69000244140625,
+          "priceChangePercent": 13.317267851399194,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 90,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -368,7 +424,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000056/amd-20240330.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -379,7 +435,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Competitive challenges from Intel in CPU, GPU, and FPGA markets",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "domestic": 40,
@@ -388,21 +444,28 @@
         "capexAmount": 142,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Export restrictions",
-          "AI technology regulations"
-        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "AMD delivered a solid Q1 2024 with strong performance in Data Center and Client segments, driven by AI GPU and Ryzen processor sales. The company continues to invest in AI technologies while managing through semiconductor industry cyclicality.",
+        "overallSentiment": "bullish",
+        "summary": "AMD demonstrated strong performance in Q1 2024, with 2% revenue growth driven by significant gains in Data Center and Client segments. The company saw improved gross margins, positive net income, and continued investment in AI technologies.",
         "keyQuotes": [
-          "We experienced significant demand for our AI accelerators in the fourth quarter of 2023",
-          "We believe our cash, cash equivalents, short-term investments and cash flows from operations will be sufficient to fund operations over the next 12 months and beyond"
+          "We are a global semiconductor company primarily offering server microprocessors, graphics processing units, and AI accelerators",
+          "We experienced significant demand for our AI accelerators in the fourth quarter of 2023"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 183.33999633789062,
+          "priceAfter7Days": 169.89999389648438,
+          "priceChangePercent": -7.330644000143149,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 15,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 45,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -435,7 +498,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Higher Ryzen mobile processor sales as PC market conditions improved",
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 68,
@@ -447,16 +510,25 @@
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "AMD's Q3 2023 performance showed modest growth with a 4% revenue increase driven by improved PC market conditions and Ryzen mobile processor sales. The company continues to invest heavily in AI and maintained a cautiously optimistic outlook.",
+        "summary": "AMD's Q3 2023 results showed modest growth with revenue of $5.8B and net income of $299M. The company saw improved PC market conditions, higher Ryzen mobile processor sales, and continued investment in AI technologies.",
         "keyQuotes": [
           "Higher sales of EPYC processors was offset by lower sales of adaptive SoC data center products",
-          "We introduced a number of new products during the third quarter of 2023",
-          "The increase in operating income was primarily driven by higher Client segment revenue and lower operating expenses"
+          "Increase in employee-related costs due to an increase in headcount to support increased investment in AI"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 103.2699966430664,
+          "priceAfter7Days": 106.97000122070312,
+          "priceChangePercent": 3.582845645308868,
+          "managementToneScore": 65,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -489,32 +561,36 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Facing competitive pressures, particularly in PC market with significant inventory correction",
+        "marketShareMention": "Facing challenges from inventory correction and PC market weakness",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "international": 66,
-          "domestic": 34
+          "international": 66
         },
         "capexAmount": 283,
         "capexGrowth": null,
-        "partnerships": [
-          "Joint venture with Tongfu Microelectronics for assembly and testing services",
-          "Joint venture with Higon Information Technology for IP licensing"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Entity List restrictions on certain Chinese technology entities"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "AMD experienced a challenging quarter with a significant 18% revenue decline, primarily driven by a 54% drop in Client segment revenue due to weak PC market conditions. Despite product launches across multiple segments, the company is navigating a difficult semiconductor market environment.",
+        "summary": "AMD experienced a challenging quarter with a significant 18% revenue decline, primarily driven by a 54% drop in Client segment revenue due to weak PC market conditions. Despite the downturn, the company continues to invest in R&D and expand its product portfolio.",
         "keyQuotes": [
-          "The decrease in net revenue was driven mainly by a 54% decrease in Client segment revenue primarily due to lower processor shipments resulting from a weaker PC market and a significant inventory correction across the PC supply chain",
-          "We believe our cash, cash equivalents, short-term investments and cash flows from operations along with our Revolving Credit Agreement and commercial paper program will be sufficient to fund operations"
+          "The decrease in net revenue was driven mainly by a 54% decrease in Client segment revenue primarily due to lower processor shipments resulting from a weaker PC market",
+          "We introduced a number of new products during the second quarter of 2023"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 115.81999969482422,
+          "priceAfter7Days": 113.58000183105469,
+          "priceChangePercent": -1.934033733095954,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -550,8 +626,8 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "international": 68,
-          "domestic": 32
+          "domestic": 32,
+          "international": 68
         },
         "capexAmount": 158,
         "capexGrowth": null,
@@ -562,12 +638,23 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "AMD experienced a challenging Q1 2023 with revenue declining 9% and net loss of $139M driven by weak Client segment performance and inventory corrections. Data Center and Embedded segments showed resilience, while overall market conditions remain difficult.",
+        "summary": "AMD experienced a challenging Q1 2023 with declining revenues, particularly in the Client segment. The company saw a net loss of $139 million, driven by lower processor sales, soft consumer demand, and higher acquisition-related expenses.",
         "keyQuotes": [
-          "Shipping below consumption to reduce downstream inventory",
-          "Soft consumer demand impacting gaming graphics revenue"
+          "The decrease in net revenue was driven mainly by a 65% decrease in Client segment revenue",
+          "We shipped below consumption to reduce downstream inventory",
+          "The decrease in operating income was primarily due to Client segment performance"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 96.55999755859375,
+          "priceAfter7Days": 95.4800033569336,
+          "priceChangePercent": -1.118469582608267,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -583,5 +670,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 10,
-  "lastUpdated": "2025-11-14T03:55:03.790Z"
+  "lastUpdated": "2025-11-26T05:13:50.695Z"
 }

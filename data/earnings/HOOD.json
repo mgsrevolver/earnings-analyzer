@@ -30,40 +30,42 @@
         "operatingCashFlow": 2575,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 57,
+        "deferredRevenue": 37,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 41,
         "capexGrowth": null,
         "partnerships": [
-          "Coastal Bank credit card program",
-          "TradePMR acquisition",
-          "Bitstamp acquisition",
-          "Citadel Securities LLC",
+          "TradePMR",
           "Bitstamp",
-          "WonderFi",
-          "Barclays",
-          "SVB",
-          "Wells Fargo Bank"
+          "WonderFi"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
           "Digital Asset Market Clarity Act of 2025",
-          "GENIUS Act",
-          "Digital Financial Assets Law"
+          "Guiding and Establishing National Innovation for U.S. Stablecoins Act"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered strong quarterly performance with revenues of $1.274 billion and net income of $556 million, representing significant year-over-year growth. The company continues expanding through strategic acquisitions like TradePMR and Bitstamp while maintaining a positive outlook on regulatory developments.",
+        "summary": "Robinhood delivered strong Q3 2025 performance with quarterly revenue of $1.274B and net income of $556M, driven by strategic acquisitions in trading platforms and cryptocurrency exchanges. The company continues to expand product offerings and geographic reach while maintaining a positive outlook.",
         "keyQuotes": [
           "We are continuously introducing new products and diversifying our services that further expand access to the financial system.",
-          "The acquisition of TradePMR allows us to deliver investment advisory capabilities to customers.",
-          "This acquisition of Bitstamp accelerates our expansion worldwide."
+          "The acquisition of TradePMR allows us to deliver investment advisory capabilities to customers by bringing in a scaled RIA custodial and portfolio management platform."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 143.17999267578125,
+          "priceAfter7Days": 145,
+          "priceChangePercent": 1.271132432825304,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -88,7 +90,7 @@
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
         "revenue": 989,
         "netIncome": 386,
@@ -97,11 +99,8 @@
         "daysalesOutstanding": null,
         "deferredRevenue": 28,
         "marketShareMention": null,
-        "customerConcentration": 52,
-        "geographicBreakdown": {
-          "US": null,
-          "International": null
-        },
+        "customerConcentration": null,
+        "geographicBreakdown": null,
         "capexAmount": 29,
         "capexGrowth": null,
         "partnerships": [
@@ -110,25 +109,33 @@
           "Pending WonderFi acquisition",
           "Citadel Securities LLC",
           "Bitstamp",
-          "WonderFi",
-          "Barclays",
-          "SVB"
+          "WonderFi"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Potential changes to Payment for Order Flow regulations",
-          "Digital asset market regulatory uncertainty"
+          "Potential changes from OBBBA, CLARITY Act, GENIUS Act",
+          "Cryptocurrency regulatory landscape"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered strong Q2 2025 financial results with revenue growth and continued strategic expansion through acquisitions. The company showed robust transaction-based revenues and net income while investing in new platforms and geographic markets.",
+        "summary": "Robinhood delivered strong Q2 2025 performance with revenue of $989M and net income of $386M, driven by continued product diversification and strategic acquisitions in investment advisory and cryptocurrency spaces. The company is expanding geographically and enhancing its platform capabilities.",
         "keyQuotes": [
           "We are continuously introducing new products and diversifying our services",
-          "The acquisition of TradePMR allows us to deliver investment advisory capabilities to customers"
+          "This acquisition of Bitstamp accelerates our expansion worldwide"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 93.62999725341797,
+          "priceAfter7Days": 93.45999908447266,
+          "priceChangePercent": -0.1815637871751691,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -160,31 +167,41 @@
         "operatingCashFlow": 642,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 43,
+        "deferredRevenue": 23,
         "marketShareMention": null,
         "customerConcentration": 63,
         "geographicBreakdown": null,
         "capexAmount": 11,
         "capexGrowth": null,
         "partnerships": [
-          "TradePMR",
-          "Coastal Bank"
+          "TradePMR acquisition",
+          "Pending Bitstamp acquisition"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Potential PFOF regulation",
-          "SEC climate disclosure rules"
+          "potential cryptocurrency regulation",
+          "SEC climate disclosure uncertainty"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered strong Q1 performance with revenue growing 50% YoY to $927M and net income more than doubling to $336M. The company continues to diversify revenue streams through strategic acquisitions like TradePMR and expanding financial services offerings.",
+        "summary": "Robinhood delivered strong Q1 2025 financial performance with revenue growth and improved profitability. The company continues expanding through strategic acquisitions like TradePMR and maintains a positive outlook on diversifying its financial services platform.",
         "keyQuotes": [
           "We are continuously introducing new products and diversifying our services",
           "Our mission is to democratize finance for all"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 41.619998931884766,
+          "priceAfter7Days": 35.40999984741211,
+          "priceChangePercent": -14.920709379728558,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 5,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -194,6 +211,74 @@
         "fiscalYear": 2025,
         "quarter": "Q1 2025",
         "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001783879-25-000049",
+        "filingDate": "2025-02-18",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387925000049/hood-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": null,
+        "netIncome": null,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Bitstamp (pending acquisition)",
+          "Morningstar (stock research reports)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Potential cryptocurrency securities regulation",
+          "Payment for order flow scrutiny",
+          "SEC market structure rule changes",
+          "AI technology regulation"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Robinhood faces significant regulatory challenges across cryptocurrency, market structure, and AI technologies. The company has reduced headcount, generated its first positive net income in 2024, but remains cautious about future growth amid complex regulatory environments.",
+        "keyQuotes": [
+          "In most full year periods since our inception, we have incurred operating losses and might not be profitable in the future.",
+          "We have expanded and continue to expand our operations rapidly, which subjects us to a number of uncertainties, risks, and difficulties that could adversely affect our business."
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 37.2599983215332,
+          "priceAfter7Days": 40.560001373291016,
+          "priceChangePercent": 8.856691359136972,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 80,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
       },
       "analyzedSuccessfully": true
     },
@@ -223,22 +308,33 @@
         "capexAmount": 35,
         "capexGrowth": null,
         "partnerships": [
-          "Bitstamp (pending acquisition)"
+          "Bitstamp acquisition pending"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "California tax legislation SB 167 and SB 175"
+          "Payment for Order Flow (PFOF) potential regulation",
+          "Cryptocurrency regulatory environment"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered a strong Q3 2024 with robust revenue growth to $637 million and a net income of $150 million. The company continues to demonstrate operational improvements, with positive operating cash flow and a share repurchase program indicating financial strength.",
+        "summary": "Robinhood delivered strong Q3 2024 results with revenue of $637M and net income of $150M, driven by growth in transaction-based revenues and net interest income. The company continues to expand its cryptocurrency and credit offerings while maintaining a disciplined approach to expenses.",
         "keyQuotes": [
-          "If the improvements in our U.S. operating results continue, our belief that a reasonable probability exists that, within the next 24 months, sufficient positive evidence may become available to reach a conclusion that a significant portion of the U.S. valuation allowance would no longer be required.",
-          "We continue to expect to complete [share repurchase program] over a period of two to three years."
+          "We believe a reasonable probability exists that, within the next 24 months, sufficient positive evidence may become available to reach a conclusion that a significant portion of the U.S. valuation allowance would no longer be required.",
+          "Our intent is to continue expanding our operations outside of the United States"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 23.420000076293945,
+          "priceAfter7Days": 23.31999969482422,
+          "priceChangePercent": -0.42698710992297717,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 45,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 62,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -263,7 +359,7 @@
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 682,
         "netIncome": 188,
@@ -272,26 +368,35 @@
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
-        "customerConcentration": null,
+        "customerConcentration": 48,
         "geographicBreakdown": null,
         "capexAmount": 16,
         "capexGrowth": null,
         "partnerships": [
-          "Coastal Bank",
-          "Bitstamp"
+          "Bitstamp (pending acquisition)"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered strong Q2 2024 performance with revenues of $682M and net income of $188M, representing significant improvement over previous quarters. The company continues to diversify revenue streams and maintain financial discipline.",
+        "summary": "Robinhood delivered strong Q2 2024 performance with revenue of $682 million and net income of $188 million, driven by growth in transaction-based and interest revenues. The company remains financially healthy and continues to expand its product offerings.",
         "keyQuotes": [
-          "We are seeing continued improvements in our U.S. operating results",
-          "We expect to close the Bitstamp acquisition in the first half of 2025"
+          "We are confident in our continued strategic direction and product innovation",
+          "Our financial performance demonstrates the strength of our platform and customer engagement"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 22.790000915527344,
+          "priceAfter7Days": 22.09000015258789,
+          "priceChangePercent": -3.0715258219341566,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -324,32 +429,37 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "none",
         "customerConcentration": 52,
         "geographicBreakdown": null,
         "capexAmount": 9,
         "capexGrowth": null,
-        "partnerships": [
-          "Citadel Securities LLC",
-          "Wintermute Trading Ltd",
-          "Coastal Bank"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Payment for Order Flow investigations",
-          "State regulatory matters",
-          "SEC cryptocurrency investigations"
+          "Potential SEC enforcement action for Robinhood Crypto",
+          "Ongoing regulatory investigations from FINRA and state regulators"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Robinhood delivered a strong Q1 2024, with revenues of $618 million and net income of $157 million, marking a significant turnaround from the previous year's loss. Transaction-based revenues grew substantially, driven by increases in options, cryptocurrency, and equity trading.",
+        "summary": "Robinhood delivered a strong Q1 2024, with revenues increasing to $618 million and net income of $157 million, marking a significant turnaround from the previous year's loss. Transaction-based revenues grew substantially, driven by cryptocurrency and options trading, while maintaining stable operating expenses.",
         "keyQuotes": [
-          "We believe, based on current knowledge, that any losses will not, in the aggregate, have a material adverse effect on our business",
-          "We intend to continue to defend these matters vigorously"
+          "We are cooperating with these investigations.",
+          "We have been named as a defendant in lawsuits and from time to time we have been threatened with, or named as a defendant in arbitrations and administrative proceedings."
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 19.40999984741211,
+          "priceAfter7Days": 18.559999465942383,
+          "priceChangePercent": -4.379187986356708,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -376,8 +486,8 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
-        "revenue": 790.4000000000001,
-        "netIncome": 325.5,
+        "revenue": null,
+        "netIncome": null,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -388,22 +498,33 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "PFOF scrutiny",
+          "Potential Payment for Order Flow (PFOF) regulation",
           "Cryptocurrency regulatory uncertainty",
-          "Potential changes to market structure rules"
+          "Potential SEC rulemaking on market structure"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Robinhood experienced a challenging year with continued regulatory pressures, cryptocurrency market volatility, and net losses. Despite generating higher revenues, the company faces significant headwinds in its business model and ongoing regulatory scrutiny.",
+        "summary": "Robinhood faces significant regulatory and market challenges, with ongoing scrutiny around PFOF practices, cryptocurrency trading, and potential new SEC rules. The company has reduced headcount, maintained a cautious tone, and is navigating complex regulatory landscapes while investing in AI technologies.",
         "keyQuotes": [
-          "Although we have had two quarters of positive GAAP net income in 2023 and we generated higher net revenues for 2023 compared to each of 2019 through 2022, we reported a GAAP net loss for full year 2023",
-          "Factors that affect transaction-based revenue — such as reduced spreads in securities pricing, reduced levels of trading activity generally, changes in our business relationships with market makers, and any new regulation of, or any bans on, PFOF and similar practices — might result in reduced profitability"
+          "Everything other than Bitcoin [could be a security]",
+          "We have made significant investments designed to correct software errors and design defects",
+          "We believe a vast majority of the nearly 10,000 tokens in the crypto market are securities"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 12.369999885559082,
+          "priceAfter7Days": 12.420000076293945,
+          "priceChangePercent": 0.4042052643285327,
+          "managementToneScore": 5,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -425,7 +546,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387923000268/hood-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -443,20 +564,27 @@
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Potential new regulation on payment for order flow (PFOF)",
-          "Complex regulatory environment"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Robinhood reported Q3 revenue of $467 million with a net loss of $85 million, showing stabilization after previous restructuring efforts. The company continues to focus on cost management and regulatory compliance.",
+        "summary": "Robinhood reported Q3 revenue of $467M, narrowing net losses to $85M. The company continues cost-cutting efforts through headcount reductions and maintained a neutral stance on future guidance. Net interest revenues grew significantly to $251M, driven by higher interest rates.",
         "keyQuotes": [
-          "We believe, based on our current level of operations, our primary sources of liquidity will be adequate to meet our current liquidity needs for the next 12 months.",
-          "We took steps to help ensure that the loss of all or a significant portion of any uninsured amount would not have had an adverse effect on our ability to pay our operational expenses or make other payments."
+          "We continued to execute the August 2022 Restructuring, which involved reducing headcount and reorganizing into a general manager structure",
+          "As of September 30, 2023, an aggregate of 405 million shares had been authorized for issuance under our equity plans"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 9.729999542236328,
+          "priceAfter7Days": 9.869999885559082,
+          "priceChangePercent": 1.4388525170534228,
+          "managementToneScore": 30,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -478,7 +606,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1783879/000178387923000175/hood-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -490,30 +618,39 @@
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
-        "customerConcentration": 38,
+        "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "X1 credit card acquisition"
+          "X1 Inc. acquisition"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Payment for order flow investigations",
-          "State regulatory settlements",
-          "FINRA enforcement investigations",
-          "SEC cryptocurrency investigations"
+          "Multi-state regulatory settlements",
+          "FINRA investigations",
+          "SEC enforcement inquiries"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Robinhood showed modest improvement in Q2 2023, with positive net income and strong operating cash flow, driven by higher net interest revenues. The company continues to navigate regulatory challenges and focus on operational efficiency.",
+        "summary": "Robinhood showed sequential quarterly improvement, posting a modest net income of $25M after previous quarters of losses. Net revenues increased to $486M, driven by higher net interest revenues, while operating expenses were tightly managed. The company continues to navigate regulatory challenges and optimize its cost structure.",
         "keyQuotes": [
-          "We continue to defend these matters vigorously.",
-          "We are cooperating with these investigations."
+          "We took steps to help ensure that the loss of all or a significant portion of any uninsured amount would not have had an adverse effect on our ability to pay our operational expenses",
+          "We are cooperating with these investigations"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 9.979999542236328,
+          "priceAfter7Days": 10.789999961853027,
+          "priceChangePercent": 8.116237041782403,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 80,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -536,7 +673,7 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
@@ -549,23 +686,24 @@
         "marketShareMention": null,
         "customerConcentration": 45,
         "geographicBreakdown": null,
-        "capexAmount": 5,
+        "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple state regulatory investigations",
-          "FINRA and SEC enforcement actions",
-          "Potential licensing restrictions"
+          "Payment for order flow investigations",
+          "State regulatory settlements",
+          "FINRA and SEC enforcement investigations",
+          "Cryptocurrency regulatory scrutiny"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Robinhood reported quarterly revenue of $441 million with a net loss of $511 million, reflecting ongoing challenges from regulatory scrutiny and declining trading volumes. The company continues to face significant legal and compliance risks across multiple jurisdictions.",
+        "summary": "Robinhood reported a challenging Q1 2023 with declining transaction revenues and continued net losses. The company faces significant regulatory and legal challenges across multiple fronts, including investigations into trading practices, options trading, and cryptocurrency operations.",
         "keyQuotes": [
           "We are cooperating with these investigations",
-          "Any judgment entered against us... could materially and adversely impact our business"
+          "The outcomes of these matters are inherently uncertain"
         ],
         "marketData": {}
       },
@@ -582,6 +720,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 10,
-  "lastUpdated": "2025-11-14T06:52:20.382Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-26T07:12:48.749Z"
 }
