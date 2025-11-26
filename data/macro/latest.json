@@ -1,6 +1,6 @@
 {
   "period": "Q4 2024",
-  "generatedAt": "2025-11-26T16:29:58.112Z",
+  "generatedAt": "2025-11-26T18:16:32.833Z",
   "companies": [
     "AAPL",
     "AMC",
@@ -8,7 +8,7 @@
     "AMZN",
     "BIIB",
     "CEG",
-    "COIN",
+    "CORZ",
     "DDOG",
     "DOCN",
     "GILD",
@@ -25,18 +25,19 @@
     "RBLX",
     "REGN",
     "TSLA",
+    "U",
     "VRTX",
     "VST"
   ],
   "aggregateInsights": {
-    "averageCapexGrowth": 64.76666666666667,
-    "companiesRaisingGuidance": 5,
-    "companiesLoweringGuidance": 2,
-    "aiInvestmentCount": 19,
+    "averageCapexGrowth": 141.96666666666667,
+    "companiesRaisingGuidance": 7,
+    "companiesLoweringGuidance": 3,
+    "aiInvestmentCount": 20,
     "overallMarketSentiment": "neutral",
     "partnershipNetwork": [
       {
-        "partner": "Google",
+        "partner": "Google search services",
         "mentions": 1,
         "connectedCompanies": [
           "AAPL"
@@ -47,6 +48,13 @@
         "mentions": 1,
         "connectedCompanies": [
           "AMD"
+        ]
+      },
+      {
+        "partner": "Anthropic",
+        "mentions": 1,
+        "connectedCompanies": [
+          "AMZN"
         ]
       },
       {
@@ -99,6 +107,13 @@
         ]
       },
       {
+        "partner": "CoreWeave",
+        "mentions": 1,
+        "connectedCompanies": [
+          "CORZ"
+        ]
+      },
+      {
         "partner": "Hugging Face",
         "mentions": 1,
         "connectedCompanies": [
@@ -125,37 +140,23 @@
         "connectedCompanies": [
           "HOOD"
         ]
-      },
-      {
-        "partner": "UMC",
-        "mentions": 1,
-        "connectedCompanies": [
-          "INTC"
-        ]
-      },
-      {
-        "partner": "Vertex",
-        "mentions": 1,
-        "connectedCompanies": [
-          "MRNA"
-        ]
       }
     ],
     "supplyChainSentiment": {
-      "tight": 14,
+      "tight": 12,
       "easing": 0,
-      "normal": 7,
+      "normal": 10,
       "unknown": 3
     },
     "headcountTrends": {
       "expanding": 8,
-      "stable": 9,
+      "stable": 11,
       "freezing": 0,
-      "reducing": 8
+      "reducing": 7
     },
     "pricingPowerDistribution": {
       "strong": 6,
-      "moderate": 10,
+      "moderate": 11,
       "weak": 8,
       "unknown": 1
     }
@@ -168,7 +169,7 @@
         "AAPL"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 22.9,
+      "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 1,
@@ -185,7 +186,7 @@
       "averageSentiment": 1,
       "topPartners": [
         {
-          "partner": "Google",
+          "partner": "Google search services",
           "mentions": 1
         }
       ]
@@ -262,20 +263,24 @@
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 57.3,
       "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
+        "raised": 1,
+        "maintained": 0,
         "lowered": 0,
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 1,
+        "tight": 0,
         "easing": 0,
-        "normal": 0,
+        "normal": 1,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 1,
       "topPartners": [
+        {
+          "partner": "Anthropic",
+          "mentions": 1
+        },
         {
           "partner": "Rivian",
           "mentions": 1
@@ -320,10 +325,6 @@
         {
           "partner": "Merck",
           "mentions": 2
-        },
-        {
-          "partner": "CRISPR Therapeutics",
-          "mentions": 2
         }
       ]
     },
@@ -337,52 +338,46 @@
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
-        "raised": 1,
+        "raised": 2,
+        "maintained": 0,
+        "lowered": 0,
+        "notProvided": 0
+      },
+      "supplyChainStatus": {
+        "tight": 1,
+        "easing": 0,
+        "normal": 1,
+        "unknown": 0
+      },
+      "aiInvestmentPercentage": 50,
+      "averageSentiment": 1,
+      "topPartners": []
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "Data Centers",
+      "companies": [
+        "CORZ"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 486.4,
+      "guidanceSentiment": {
+        "raised": 0,
         "maintained": 1,
         "lowered": 0,
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 2,
+        "tight": 1,
         "easing": 0,
         "normal": 0,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.5,
+      "averageSentiment": 0,
       "topPartners": [
         {
-          "partner": "Energy Harbor",
-          "mentions": 1
-        }
-      ]
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "FinTech",
-      "companies": [
-        "COIN",
-        "HOOD"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 2,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 2
-      },
-      "aiInvestmentPercentage": 50,
-      "averageSentiment": -1,
-      "topPartners": [
-        {
-          "partner": "Morningstar",
+          "partner": "CoreWeave",
           "mentions": 1
         }
       ]
@@ -398,7 +393,7 @@
         "NET"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 63,
+      "averageCapexGrowth": 62.7,
       "guidanceSentiment": {
         "raised": 2,
         "maintained": 3,
@@ -406,17 +401,54 @@
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 2,
+        "tight": 1,
         "easing": 0,
-        "normal": 3,
+        "normal": 4,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0.6,
       "topPartners": [
         {
+          "partner": "Hugging Face",
+          "mentions": 1
+        },
+        {
           "partner": "OpenAI",
-          "mentions": 2
+          "mentions": 1
+        },
+        {
+          "partner": "Activision Blizzard",
+          "mentions": 1
+        }
+      ]
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "FinTech",
+      "companies": [
+        "HOOD"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 0,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 1,
+        "lowered": 0,
+        "notProvided": 0
+      },
+      "supplyChainStatus": {
+        "tight": 0,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 1
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "Morningstar",
+          "mentions": 1
         }
       ]
     },
@@ -497,21 +529,22 @@
       "sector": "Technology",
       "subCategory": "Gaming",
       "companies": [
-        "RBLX"
+        "RBLX",
+        "U"
       ],
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 1,
-        "lowered": 0,
+        "lowered": 1,
         "notProvided": 0
       },
       "supplyChainStatus": {
         "tight": 1,
         "easing": 0,
         "normal": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": -1,
@@ -528,22 +561,25 @@
       "theme": "Guidance Direction",
       "winners": [
         "AMD",
+        "AMZN",
         "CEG",
         "GOOGL",
         "MSFT",
-        "NVDA"
+        "NVDA",
+        "VST"
       ],
       "losers": [
         "INTC",
-        "IONQ"
+        "IONQ",
+        "U"
       ],
-      "details": "5 companies raised guidance vs 2 lowered"
+      "details": "7 companies raised guidance vs 3 lowered"
     },
     {
       "theme": "Capital Expenditure",
       "winners": [
-        "AAPL",
         "AMZN",
+        "CORZ",
         "GOOGL",
         "NVDA",
         "TSLA"

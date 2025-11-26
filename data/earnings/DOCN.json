@@ -22,16 +22,16 @@
       "insights": {
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
-        "bookingsGrowth": null,
+        "bookingsGrowth": 15.5,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 229.634,
         "netIncome": 158.371,
         "operatingCashFlow": 252.324,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 8.587,
-        "marketShareMention": "Growing Higher Spend Customers, increased from ~163,000 to ~177,000",
+        "marketShareMention": "Gained market share in cloud computing platform",
         "customerConcentration": 11,
         "geographicBreakdown": {
           "North America": 40,
@@ -40,19 +40,18 @@
           "Rest of World": 10
         },
         "capexAmount": 102.931,
-        "capexGrowth": null,
+        "capexGrowth": -22.6,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q3 performance with robust revenue growth and significant profitability. The company is seeing increasing traction in higher-spend customer segments and continues to invest in AI infrastructure and platform capabilities.",
+        "summary": "DigitalOcean delivered strong Q3 performance with robust revenue growth, significant net income improvement, and continued expansion of higher-spend customers. The company is strategically investing in AI capabilities and maintaining an efficient go-to-market model.",
         "keyQuotes": [
-          "We believe that being simple, scalable and approachable are our key differentiators",
-          "Growing our Higher Spend Customers is a critical focus for us",
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and productivity"
+          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and productivity.",
+          "Growing our Higher Spend Customers is a critical focus for us, and we have successfully increased the number of these customers and their percentage of our total revenue."
         ],
         "marketData": {
           "priceOnEarningsDate": 34.15999984741211,
@@ -61,8 +60,8 @@
           "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 71,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -87,9 +86,9 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
         "revenue": 218.7,
         "netIncome": 37.027,
@@ -97,18 +96,18 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 11.264,
-        "marketShareMention": "Growing Higher Spend Customers, now approximately 174,000 customers as of Q2 2025",
+        "marketShareMention": null,
         "customerConcentration": 9,
         "geographicBreakdown": {
-          "NorthAmerica": 37,
+          "North America": 37,
           "Europe": 27,
           "Asia": 23,
-          "RestOfWorld": 13
+          "Rest of World": 13
         },
         "capexAmount": 95.16,
         "capexGrowth": null,
         "partnerships": [
-          "Hugging Face partnership for GPU Droplet model deployment"
+          "Hugging Face"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
@@ -116,9 +115,9 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q2 2025 performance with revenue growth and expanding Higher Spend Customer base. The company continues to invest strategically in AI/ML platform and cloud services, maintaining a global customer presence across multiple industry verticals.",
+        "summary": "DigitalOcean delivered strong quarterly performance with 13% revenue growth and 93% increase in net income. The company continues to invest in AI infrastructure and expand its higher spend customer base, with net dollar retention improving to 99%.",
         "keyQuotes": [
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and productivity.",
+          "We believe that being simple, scalable and approachable are our key differentiators",
           "We are investing in strategies that we believe will drive adoption by new Higher Spend Customers"
         ],
         "marketData": {
@@ -128,9 +127,9 @@
           "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 61,
-          "compositeSentiment": "bullish"
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2025",
@@ -154,17 +153,17 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 210.703,
         "netIncome": 38.204,
         "operatingCashFlow": 64.09,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.642,
-        "marketShareMention": "Expanding globally with customers across ~190 countries",
+        "marketShareMention": "Higher Spend Customers increased from 87% to 88% of total revenue",
         "customerConcentration": 9,
         "geographicBreakdown": {
           "northAmerica": 37,
@@ -183,10 +182,11 @@
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q1 performance with robust revenue growth, expanded Higher Spend Customer base, and continued investment in AI/ML platform. The company demonstrated improving net dollar retention and increased average revenue per customer.",
+        "summary": "DigitalOcean delivered strong Q1 2025 results with robust revenue growth and expanding higher-spend customer base. The company continues to invest in AI capabilities and platform innovations while maintaining operational efficiency.",
         "keyQuotes": [
-          "We continue to invest in our platform to further penetrate the growing markets in which we operate.",
-          "Our product strategy is anchored in addressing the needs of our Higher Spend Customers and other digital native enterprises."
+          "We continue to invest in our platform to further penetrate the growing markets in which we operate",
+          "We are investing in strategies that we believe will drive adoption by new Higher Spend Customers",
+          "Our product strategy is anchored in addressing the needs of our Higher Spend Customers"
         ],
         "marketData": {
           "priceOnEarningsDate": 33.38999938964844,
@@ -195,8 +195,8 @@
           "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 47,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 50,
           "compositeSentiment": "neutral"
         }
       },
@@ -225,19 +225,19 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 45.00999999999999,
-        "netIncome": -79.426,
-        "operatingCashFlow": 143.5,
-        "freeCashFlow": 112.4,
+        "revenue": -134.69000000000005,
+        "netIncome": -88.226,
+        "operatingCashFlow": 102,
+        "freeCashFlow": 81,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "We continue to invest in our platform to further penetrate the growing markets in which we operate.",
+        "marketShareMention": null,
         "customerConcentration": 8,
         "geographicBreakdown": {
-          "northAmerica": 38,
-          "europe": 28,
-          "asia": 23,
-          "restOfWorld": 11
+          "North America": 38,
+          "Europe": 28,
+          "Asia": 23,
+          "Rest of World": 11
         },
         "capexAmount": null,
         "capexGrowth": null,
@@ -246,18 +246,17 @@
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "AI/ML regulatory uncertainty",
-          "Data privacy regulations"
+          "AI regulatory uncertainty"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "DigitalOcean continues to focus on growing higher-spend customers and expanding its cloud computing platform, with a cautious approach to macroeconomic challenges. The company is investing heavily in AI/ML offerings and strategic partnerships.",
+        "summary": "DigitalOcean reported annual revenue of $441 million with a net loss of $22 million, focusing on growing higher spend customers and investing in AI/ML offerings. The company maintains a cautious outlook while continuing to expand its cloud computing platform globally.",
         "keyQuotes": [
-          "We believe that being simple, scalable and approachable are our key differentiators",
+          "Being simple, scalable and approachable are our key differentiators",
           "Growing our Higher Spend Customers is a critical focus for us",
-          "We are investing in strategies that we believe will drive adoption by new Higher Spend Customers"
+          "We continue to invest in our platform to further penetrate the growing markets in which we operate"
         ],
         "marketData": {
           "priceOnEarningsDate": 34.06999969482422,
@@ -291,7 +290,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000155/docn-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -302,7 +301,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.575,
-        "marketShareMention": "Expanding cloud platform for startups and digital-native businesses",
+        "marketShareMention": "Leading cloud computing platform for startups and digital-native businesses",
         "customerConcentration": 9,
         "geographicBreakdown": {
           "northAmerica": 39,
@@ -319,20 +318,21 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q3 performance with robust revenue growth and continued expansion of cloud platform. The company is seeing increasing adoption from Builders and Scalers, with a focus on AI/ML offerings and platform simplicity.",
+        "summary": "DigitalOcean delivered strong quarterly performance with solid revenue growth and continued expansion of higher-spend Builders and Scalers customers. The company remains focused on simplifying cloud computing for startups and digital-native businesses, with increasing investments in AI/ML offerings.",
         "keyQuotes": [
           "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and increase their productivity and agility.",
-          "We believe that our focus on simplicity, community, open source and customer support are the four key differentiators of our business."
+          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population.",
+          "We had approximately 18,000 Scalers as of September 30, 2024, up from approximately 16,000 as of September 30, 2023."
         ],
         "marketData": {
           "priceOnEarningsDate": 40.38999938964844,
           "priceAfter7Days": 41.720001220703125,
           "priceChangePercent": 3.29289886395877,
-          "managementToneScore": 90,
+          "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 65,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 59,
+          "compositeSentimentScore": 60,
           "compositeSentiment": "neutral"
         }
       },
@@ -384,10 +384,11 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q2 performance with revenue growth and continued expansion of Builders and Scalers customer segments. The company maintains a positive outlook on cloud computing and developer platform opportunities, with strategic investments in AI/ML and platform capabilities.",
+        "summary": "DigitalOcean delivered strong Q2 results with revenue growth and continued expansion of its Builders and Scalers customer segments. The company remains focused on cloud computing for startups and growing technology businesses, with investments in AI/ML and platform capabilities.",
         "keyQuotes": [
-          "Our cloud platform was designed with simplicity in mind to ensure that startups and growing technology businesses can spend less time managing their infrastructure and more time building innovative applications",
-          "We believe that our focus on simplicity, community, open source and customer support are the four key differentiators of our business"
+          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population",
+          "We generate revenue from the usage of our cloud computing platform by our customers",
+          "Our cloud platform was designed with simplicity in mind to ensure that startups and growing technology businesses can spend less time managing their infrastructure"
         ],
         "marketData": {
           "priceOnEarningsDate": 34.66999816894531,
@@ -421,7 +422,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000068/docn-20240331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -432,10 +433,10 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.477,
-        "marketShareMention": "No direct market share statements",
+        "marketShareMention": null,
         "customerConcentration": 7,
         "geographicBreakdown": {
-          "North America": 37,
+          "NorthAmerica": 37,
           "Europe": 29,
           "Asia": 24,
           "Other": 10
@@ -449,20 +450,20 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered a strong Q1 2024 with revenue growth and positive net income, driven by continued expansion of Builders and Scalers customer segments. The company remains focused on cloud computing platform innovation, particularly in AI/ML offerings.",
+        "summary": "DigitalOcean delivered solid Q1 2024 results with revenue growth and return to profitability, driven by continued expansion of their cloud platform targeting startups and growing technology businesses. The company is strategically investing in AI/ML and platform offerings while maintaining operational efficiency.",
         "keyQuotes": [
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and increase their productivity and agility.",
-          "We believe our market opportunity is large and that these factors will continue to drive our growth."
+          "We offer mission-critical solutions across Infrastructure-as-a-Service, Platform-as-a-Service, Software-as-a-Service, and AI/ML offerings.",
+          "Our cloud platform was designed with simplicity in mind to ensure that startups and growing technology businesses can spend less time managing their infrastructure and more time building innovative applications."
         ],
         "marketData": {
           "priceOnEarningsDate": 38.16999816894531,
           "priceAfter7Days": 37.47999954223633,
           "priceChangePercent": -1.8076988729602812,
-          "managementToneScore": 100,
+          "managementToneScore": 85,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 52,
           "compositeSentiment": "neutral"
         }
       },
@@ -487,36 +488,37 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
-        "revenue": 487.129843804,
-        "netIncome": -54300.649238,
+        "revenue": -35.30000000000001,
+        "netIncome": 35.92699999999999,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Positioned as a leading cloud computing platform for startups and growing digital businesses",
+        "marketShareMention": "Expanding cloud infrastructure offerings, particularly in AI/ML with Paperspace acquisition",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": null,
         "capexGrowth": null,
-        "partnerships": [],
+        "partnerships": [
+          "Paperspace acquisition for AI/ML infrastructure"
+        ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Evolving AI/ML regulations",
-          "Data privacy laws",
-          "Export control restrictions"
+          "Evolving AI regulations",
+          "Data privacy laws"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "DigitalOcean is navigating a challenging market with cautious expansion in cloud computing, particularly focusing on AI/ML infrastructure. The company experienced a net loss and is managing headcount and regulatory complexities while targeting startups and growing digital businesses.",
+        "summary": "DigitalOcean reported a full year revenue of $476.71 million with net income of $20.83 million, highlighting cautious growth and strategic focus on AI/ML through the Paperspace acquisition. The company is navigating challenging market conditions and regulatory complexities.",
         "keyQuotes": [
-          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population",
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation"
+          "Our business will suffer if the market for our solutions proves less lucrative than projected",
+          "We continue to make investments in areas of strategic focus as we seek to develop new, innovative offerings"
         ],
         "marketData": {
           "priceOnEarningsDate": 36.2400016784668,
@@ -550,7 +552,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296123000068/docn-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -569,32 +571,32 @@
           "asia": 24,
           "other": 10
         },
-        "capexAmount": 71.152,
+        "capexAmount": 67.077,
         "capexGrowth": null,
         "partnerships": [
-          "Cloudways",
-          "Paperspace"
+          "Paperspace acquisition for AI/ML capabilities",
+          "Cloudways integration"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q3 results with revenue growth and positive net income, driven by strategic acquisitions in cloud infrastructure. The company is focused on cost management through restructuring while investing in AI capabilities.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean delivered solid Q3 2023 performance with revenue growth and positive net income. The company continues to focus on cloud infrastructure for SMBs, recently acquiring Paperspace to enhance AI/ML capabilities. A restructuring plan is underway to optimize cost structure.",
         "keyQuotes": [
-          "The acquisition and integration of Paperspace's advanced technology will extend the Company's offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning applications",
-          "We initiated a restructuring plan to adjust our cost structure and accelerate our timeline to achieve greater than 20% adjusted free cash flow margins"
+          "The acquisition and integration of Paperspace's advanced technology into the Company's platform will extend the Company's offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning applications",
+          "In February 2023, the Company initiated a restructuring plan to adjust its cost structure and accelerate its timeline to achieve greater than 20% adjusted free cash flow margins"
         ],
         "marketData": {
           "priceOnEarningsDate": 23.920000076293945,
           "priceAfter7Days": 23.299999237060547,
           "priceChangePercent": -2.591976744380757,
-          "managementToneScore": 90,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 58,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 48,
           "compositeSentiment": "neutral"
         }
       },
@@ -618,17 +620,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296123000042/docn-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 169.814,
-        "netIncome": 665,
+        "netIncome": 0.665,
         "operatingCashFlow": 100.376,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 4985,
+        "deferredRevenue": 4.985,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
@@ -637,32 +639,33 @@
           "asia": 23,
           "other": 10
         },
-        "capexAmount": 49743,
+        "capexAmount": 46.848,
         "capexGrowth": null,
         "partnerships": [
-          "Paperspace acquisition"
+          "Cloudways",
+          "Paperspace"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "DigitalOcean reported quarterly revenue growth with a cautious outlook, implementing a restructuring plan to improve cost structure and drive towards 20% adjusted free cash flow margins. The company completed a strategic AI-focused acquisition of Paperspace.",
+        "summary": "DigitalOcean delivered Q2 revenues of $169.8M with a small net income of $0.665M. The company is undergoing a restructuring plan to reduce costs and improve margins, while making strategic AI-related acquisitions like Paperspace.",
         "keyQuotes": [
-          "Accelerate our timeline to achieve greater than 20% adjusted free cash flow margins",
-          "The acquisition and integration of Paperspace's advanced technology will extend our offerings for AI/ML applications"
+          "We initiated the Restructuring Plan to adjust our cost structure and accelerate our timeline to achieve greater than 20% adjusted free cash flow margins",
+          "The acquisition and integration of Paperspace's advanced technology will extend our offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning applications"
         ],
         "marketData": {
           "priceOnEarningsDate": 40.13999938964844,
           "priceAfter7Days": 46.130001068115234,
           "priceChangePercent": 14.922774712377143,
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 60,
-          "compositeSentiment": "neutral"
+          "compositeSentimentScore": 62,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2023",
@@ -696,13 +699,13 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.015,
-        "marketShareMention": "Growing Scalers from 11,000 to 15,000 and Builders from 91,000 to 131,000",
+        "marketShareMention": null,
         "customerConcentration": 7,
         "geographicBreakdown": {
-          "northAmerica": 38,
-          "europe": 29,
-          "asia": 23,
-          "other": 10
+          "North America": 38,
+          "Europe": 29,
+          "Asia": 23,
+          "Other": 10
         },
         "capexAmount": 25.108,
         "capexGrowth": null,
@@ -712,11 +715,11 @@
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "DigitalOcean reported Q1 2023 revenue of $165.1M with a net loss of $34.9M, initiating a restructuring plan to reduce costs and accelerate path to profitability. The company continues to focus on SMB cloud computing market with growing higher-spend customer segments.",
+        "overallSentiment": "bearish",
+        "summary": "DigitalOcean reported quarterly revenue of $165.1 million with a net loss of $34.9 million, reflecting ongoing challenges in cost management. The company initiated a restructuring plan to achieve better cash flow margins and reduce headcount across geographic footprints.",
         "keyQuotes": [
           "We initiated a restructuring plan to adjust our cost structure and accelerate our timeline to achieve greater than 20% adjusted free cash flow margins",
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and increase their productivity and agility"
+          "Macroeconomic conditions could cause a decrease in business investments on information technology"
         ],
         "marketData": {}
       },
@@ -734,5 +737,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T16:17:26.842Z"
+  "lastUpdated": "2025-11-26T17:27:10.848Z"
 }

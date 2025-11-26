@@ -19,53 +19,50 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": 30.7,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
         "revenue": 562.027,
         "netIncome": -1.29,
         "operatingCashFlow": 412.703,
         "freeCashFlow": null,
-        "daysalesOutstanding": null,
         "deferredRevenue": 644.878,
-        "marketShareMention": "continued strong global network presence across regions",
-        "customerConcentration": 27,
+        "marketShareMention": "expanding global network presence",
+        "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 50,
-          "EMEA": 27,
+          "Europe_Middle_East_Africa": 27,
           "Asia_Pacific": 15,
           "Other": 8
         },
-        "capexAmount": 230.427,
-        "capexGrowth": 106,
-        "partnerships": [
-          "JD Cloud for China network presence"
-        ],
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "capexAmount": 251.585,
+        "capexGrowth": null,
+        "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "export control and sanctions law compliance"
+          "export control compliance"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Cloudflare delivered robust Q3 performance with 30.7% revenue growth, expanding global footprint, and strong operational cash flow. Despite net loss, the company continues to invest aggressively in infrastructure and network expansion.",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered solid Q3 performance with 31% year-over-year revenue growth, maintaining cautious but confident outlook. The company continues to invest in network infrastructure and global expansion while managing operational expenses.",
         "keyQuotes": [
-          "Our global network serves businesses of all sizes and geographies",
-          "We continue to expand our network presence and product capabilities"
+          "Our global network serves businesses of all sizes and in all geographies",
+          "We continue to innovate and develop new products"
         ],
         "marketData": {
           "priceOnEarningsDate": 214.58999633789062,
           "priceAfter7Days": 217.38999938964844,
           "priceChangePercent": 1.3048152754282936,
-          "managementToneScore": 90,
+          "managementToneScore": 65,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 61,
-          "compositeSentiment": "bullish"
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2025",
@@ -88,18 +85,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000137/cloud-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": 28,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": 27.8,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
         "revenue": 512.316,
         "netIncome": -50.446,
         "operatingCashFlow": 245.58,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 546.698,
-        "marketShareMention": null,
+        "marketShareMention": "Continued strong global network presence",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 49,
@@ -114,19 +111,19 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Cloudflare delivered solid revenue growth of 28% year-over-year to $512.3M, while maintaining cautious spending and continuing to invest in infrastructure. Despite net losses, the company generated strong operating cash flow and maintained a robust balance sheet.",
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong Q2 2025 performance with 27.8% revenue growth, demonstrating resilient demand across global markets. While still operating at a net loss, the company continues to invest aggressively in infrastructure and expansion, maintaining a positive outlook.",
         "keyQuotes": [],
         "marketData": {
           "priceOnEarningsDate": 195.8300018310547,
           "priceAfter7Days": 192.85000610351562,
           "priceChangePercent": -1.5217258334654702,
-          "managementToneScore": 25,
+          "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 46,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 58,
           "compositeSentiment": "neutral"
         }
       },
@@ -152,46 +149,51 @@
       "insights": {
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
+        "bookingsGrowth": 26.5,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "expanding",
         "revenue": 479.087,
         "netIncome": -38.454,
         "operatingCashFlow": 145.784,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 535.649,
-        "marketShareMention": null,
+        "marketShareMention": "global cloud services provider expanding network presence",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 49,
-          "Europe_Middle_East_Africa": 28,
-          "Asia_Pacific": 15,
+          "US": 49,
+          "EMEA": 28,
+          "APAC": 15,
           "Other": 8
         },
         "capexAmount": 85.889,
         "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
+        "partnerships": [
+          "JD Cloud for China network presence"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Export control and sanctions compliance",
+          "Potential international trade regulations"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "Cloudflare delivered stable Q1 performance with revenue of $479 million, reflecting continued growth despite challenging macroeconomic conditions. The company remains in a loss position but generated strong operating cash flow of $145.8 million, indicating operational efficiency.",
+        "summary": "Cloudflare delivered solid Q1 performance with 26.5% revenue growth, maintaining cautious outlook amid geopolitical uncertainties. Company continues network expansion and infrastructure investments while managing expenses and regulatory complexities.",
         "keyQuotes": [
-          "We continue to see steady demand for our global network and security solutions",
-          "Our focus remains on disciplined growth and operational excellence"
+          "Our global network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability",
+          "We continue to see challenging macroeconomic conditions globally"
         ],
         "marketData": {
           "priceOnEarningsDate": 112.69000244140625,
           "priceAfter7Days": 98.36000061035156,
           "priceChangePercent": -12.716302707070795,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 5,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 34,
+          "compositeSentimentScore": 36,
           "compositeSentiment": "bearish"
         }
       },
@@ -220,38 +222,39 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": -274.0799999999998,
-        "netIncome": -137.448,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
+        "revenue": -293.3799999999999,
+        "netIncome": -136.748,
+        "operatingCashFlow": 298.4,
+        "freeCashFlow": 151.2,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "expanding global network presence across 335 cities in 125+ countries",
+        "deferredRevenue": 483.1,
+        "marketShareMention": "expanding global network presence in over 335 cities across 125 countries",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "international": 49,
-          "domestic": 51
+          "International": 49,
+          "United_States": 51
         },
-        "capexAmount": null,
+        "capexAmount": 178.9,
         "capexGrowth": null,
         "partnerships": [
-          "JD Cloud in China",
-          "Global telecommunications service provider partners"
+          "JD Cloud (China network presence)",
+          "Various ISP and co-location partners globally"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Data privacy regulations",
           "Cross-border data transfer restrictions",
-          "Emerging AI technology regulations"
+          "Cybersecurity compliance requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Cloudflare continues expanding globally with cautious growth strategy, navigating complex regulatory environments and international market challenges. Company maintains focus on network infrastructure and security products while managing regulatory and geopolitical risks.",
+        "summary": "Cloudflare demonstrated continued global expansion with international revenues representing 49% of total revenues while maintaining a cautious stance amid complex regulatory and geopolitical environments. The company continues to invest in network infrastructure and AI capabilities while managing challenges in international markets.",
         "keyQuotes": [
-          "We believe that being rigorously and promptly transparent is an essential part of maintaining trust with our customers.",
-          "Our growth strategy includes expansion into geographies around the world, but there is no guarantee that such efforts will be successful."
+          "We believe that maintaining and enhancing our reputation as a provider of products with the highest levels of security, performance, and reliability is critical to our relationship with our existing customers",
+          "Our growth strategy includes expansion into geographies around the world",
+          "We anticipate needing to identify different transfer mechanisms and/or change our use of certain standard contractual clauses in order to lawfully transfer certain personal data"
         ],
         "marketData": {
           "priceOnEarningsDate": 107.68000030517578,
@@ -285,48 +288,45 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000085/cloud-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": 28,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
         "revenue": 430.082,
         "netIncome": -15.331,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
         "operatingCashFlow": 253.121,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 389.795,
+        "deferredRevenue": 411.785,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 50,
-          "Europe_Middle_East_Africa": 28,
-          "Asia_Pacific": 14,
+          "US": 50,
+          "EMEA": 28,
+          "AsiaPacific": 14,
           "Other": 8
         },
         "capexAmount": 111.884,
-        "capexGrowth": 33.8,
+        "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Cloudflare delivered strong Q3 performance with 28% revenue growth, demonstrating continued market resilience and robust customer demand. The company maintained positive momentum with expanding operations and strong cash flow generation, despite ongoing net losses.",
-        "keyQuotes": [
-          "Our network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability across on-premises, hybrid, cloud, and software-as-a-service applications.",
-          "We have experienced rapid revenue growth, which may not be indicative of our future performance."
-        ],
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered solid Q3 2024 performance with revenue of $430 million, representing continued growth. Despite a net loss of $15.3 million, the company maintains a cautious but confident outlook, with strong operating cash flow and continued investment in network infrastructure.",
+        "keyQuotes": [],
         "marketData": {
           "priceOnEarningsDate": 80.88999938964844,
           "priceAfter7Days": 80.48999786376953,
           "priceChangePercent": -0.49450059203498375,
-          "managementToneScore": 100,
+          "managementToneScore": 65,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 50,
           "compositeSentiment": "neutral"
         }
       },
@@ -350,13 +350,13 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000070/cloud-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
         "revenue": 400.996,
         "netIncome": -15.078,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "operatingCashFlow": 148.394,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -376,20 +376,23 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Cloudflare delivered strong Q2 2024 performance, with revenue growing 30% year-over-year to $401 million. While still posting a net loss, the company showed robust operational efficiency with $148.4 million in operating cash flow and continued investment in infrastructure and product development.",
-        "keyQuotes": [],
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported strong quarterly revenue growth to $401 million, driven by continued demand for network security and performance solutions. Despite net loss, the company maintained stable operations with healthy operating cash flow and continued investment in infrastructure.",
+        "keyQuotes": [
+          "Our network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability",
+          "We experienced rapid revenue growth, which may not be indicative of our future performance"
+        ],
         "marketData": {
           "priceOnEarningsDate": 83.94999694824219,
           "priceAfter7Days": 84.87999725341797,
           "priceChangePercent": 1.107802667043759,
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 61,
-          "compositeSentiment": "bullish"
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2024",
@@ -412,23 +415,23 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000050/cloud-20240331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
         "revenue": 378.602,
         "netIncome": -35.543,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
         "operatingCashFlow": 73.579,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 373.888,
+        "deferredRevenue": 356.243,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 52,
-          "Europe_Middle_East_Africa": 28,
-          "Asia_Pacific": 12,
+          "United States": 52,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 12,
           "Other": 8
         },
         "capexAmount": 37.972,
@@ -440,20 +443,20 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Cloudflare delivered strong Q1 2024 performance with 30% year-over-year revenue growth, demonstrating continued momentum in enterprise customer adoption. While still operating at a net loss, the company maintained positive operating cash flow and continued strategic investments in product development and sales capabilities.",
+        "summary": "Cloudflare delivered strong Q1 2024 performance with revenue of $378.6 million, representing year-over-year growth. The company continues to invest in expansion, with robust stock-based compensation and ongoing product development, while maintaining a neutral guidance stance.",
         "keyQuotes": [
-          "Our business model benefits from our ability to serve the needs of all customers ranging from individual developers to the largest enterprises, in a cost-effective manner.",
-          "Given the large customer base we have and the immense amount of Internet traffic that we manage, we are able to negotiate mutually beneficial agreements with Internet service providers."
+          "Our mission is to help build a better Internet.",
+          "We have built a global network that delivers a broad range of services to businesses of all sizes and in all geographies"
         ],
         "marketData": {
           "priceOnEarningsDate": 95.66000366210938,
           "priceAfter7Days": 95.33000183105469,
           "priceChangePercent": -0.34497367595794914,
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 53,
           "compositeSentiment": "neutral"
         }
       },
@@ -482,48 +485,47 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 1236.8990657309998,
-        "netIncome": -183.899843951,
+        "revenue": 301.12799999999993,
+        "netIncome": -27.816000000000003,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "competitive market with intense rivalry",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "international": 0.48,
-          "domestic": 0.52
+          "international": 48,
+          "domestic": 52
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "JD Cloud partnership in China",
-          "Strategic relationships with ISP partners globally"
+          "JD Cloud"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Evolving privacy regulations",
-          "Data transfer restrictions",
-          "Export control compliance"
+          "Data privacy regulations",
+          "Export control compliance",
+          "International trade sanctions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "Cloudflare demonstrated cautious growth in 2023, with continued international expansion and challenges in talent acquisition and regulatory compliance. The company remains focused on long-term strategic investments despite ongoing net losses.",
+        "summary": "Cloudflare experienced cautious growth in 2023, with revenue of $1.235 billion and a net loss of $183.9 million. The company continues to invest in international expansion, AI technologies, and navigating complex regulatory environments.",
         "keyQuotes": [
-          "We believe our long-term value as a company will be greater if we focus on growth and reinvest our cash flow from operations into our business",
-          "Our success depends on our ability to anticipate and respond effectively to rapid technological changes"
+          "We believe our long-term value as a company will be greater if we focus on growth and reinvest our cash flow",
+          "Our global network now includes facilities in more than 310 cities across over 120 countries"
         ],
         "marketData": {
           "priceOnEarningsDate": 79.3499984741211,
           "priceAfter7Days": 79.63999938964844,
           "priceChangePercent": 0.36547060000501896,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 49,
+          "compositeSentimentScore": 51,
           "compositeSentiment": "neutral"
         }
       },
@@ -552,8 +554,8 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 335.6,
-        "netIncome": -23.5,
+        "revenue": 335.603,
+        "netIncome": -23.535,
         "operatingCashFlow": 168.965,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -574,21 +576,21 @@
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "Cloudflare delivered solid Q3 2023 performance with revenue of $335.6 million, representing continued growth despite challenging macro environment. The company maintained an expanding workforce and showed confidence in its strategic direction, though still operating at a net loss.",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong Q3 2023 results with revenue of $335.6 million, representing 32% year-over-year growth. While still reporting a net loss, the company showed robust operational efficiency with significant operating cash flow of $169 million.",
         "keyQuotes": [
-          "Our business depends on our ability to retain and upgrade paying customers",
-          "We have experienced rapid revenue growth, which may not be indicative of our future performance"
+          "Our global network continues to deliver security, performance, and reliability for businesses of all sizes",
+          "We remain focused on expanding our product portfolio and serving enterprise customers"
         ],
         "marketData": {
           "priceOnEarningsDate": 62.5099983215332,
           "priceAfter7Days": 63.689998626708984,
           "priceChangePercent": 1.8876985072151238,
-          "managementToneScore": 80,
+          "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
+          "compositeSentimentScore": 57,
           "compositeSentiment": "neutral"
         }
       },
@@ -612,13 +614,12 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000056/cloud-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
         "revenue": 308.494,
         "netIncome": -94.467,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "operatingCashFlow": 100.865,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
@@ -626,36 +627,34 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 53,
-          "Europe_Middle_East_Africa": 27,
-          "Asia_Pacific": 13,
+          "United States": 53,
+          "Europe, Middle East, and Africa": 27,
+          "Asia Pacific": 13,
           "Other": 7
         },
         "capexAmount": 56.289,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Export control and sanctions regulations"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Cloudflare delivered solid quarterly revenue growth of 31.5% to $308.5M while continuing to manage expenses carefully. The company remains unprofitable but generated positive operating cash flow of $100.9M, indicating underlying business strength.",
+        "summary": "Cloudflare continues to show solid revenue growth, reporting $308.5 million in quarterly revenue, though still operating at a net loss. The company maintains a cautious but stable outlook, with strong operating cash flow and continued investment in infrastructure.",
         "keyQuotes": [
-          "Our global network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability",
-          "Adverse economic conditions may impact customers' spending ability and overall demand for our products"
+          "Our global network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability across on-premises, hybrid, cloud, and software-as-a-service applications.",
+          "We have experienced rapid revenue growth, which may not be indicative of our future performance."
         ],
         "marketData": {
           "priceOnEarningsDate": 65.37000274658203,
           "priceAfter7Days": 62.36000061035156,
           "priceChangePercent": -4.6045617404962575,
-          "managementToneScore": 25,
+          "managementToneScore": 65,
           "earningsBeatScore": 50,
           "priceActionScore": 35,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 43,
+          "compositeSentimentScore": 47,
           "compositeSentiment": "neutral"
         }
       },
@@ -693,27 +692,24 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 53,
-          "Europe_Middle_East_Africa": 27,
-          "Asia_Pacific": 13,
+          "United States": 53,
+          "Europe, Middle East, and Africa": 27,
+          "Asia Pacific": 13,
           "Other": 7
         },
         "capexAmount": 22.511,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Export control compliance",
-          "US sanctions regulations"
-        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Cloudflare delivered solid Q1 revenue growth of 37% year-over-year, demonstrating continued momentum in cloud security and network services. Despite ongoing net losses, the company is expanding headcount and investing in infrastructure, signaling confidence in long-term growth strategy.",
+        "summary": "Cloudflare reported Q1 2023 revenue of $290.2 million, representing significant year-over-year growth, but continued to operate at a net loss of $38.1 million. The company demonstrated resilient operating cash flow and maintained a cautious outlook amid challenging macroeconomic conditions.",
         "keyQuotes": [
-          "Our network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability",
-          "We continue to innovate and develop new products to meet evolving customer needs"
+          "Adverse economic conditions may impact our customers' spending ability and overall demand for our products",
+          "We have a history of net losses and may not be able to achieve or sustain profitability in the future"
         ],
         "marketData": {}
       },
@@ -731,5 +727,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T03:43:22.035Z"
+  "lastUpdated": "2025-11-26T17:57:03.015Z"
 }

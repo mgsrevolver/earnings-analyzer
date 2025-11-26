@@ -34,21 +34,23 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 97.6,
+          "United States": 97.6,
           "Italy": 2.4
         },
         "capexAmount": 9.953,
         "capexGrowth": null,
         "partnerships": [
-          "Cataclean Global Limited"
+          "Cataclean Global Limited license agreement"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "Tariff complexities"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley delivered stable quarterly performance with modest revenue growth and strategic license agreement with Cataclean. While net income was slightly negative, operating cash flow remains strong, indicating underlying business resilience.",
+        "summary": "Holley reported steady quarterly performance with slight revenue growth and continued focus on managing macroeconomic challenges like tariffs. The company maintains strategic investments and a stable operational approach.",
         "keyQuotes": [
           "The Company continues to monitor international trade developments, including potential changes in tariff rates",
           "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
@@ -85,7 +87,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000162828025038097/hlly-20250629.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -99,37 +101,37 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 97.5,
+          "United States": 97.5,
           "Italy": 2.5
         },
         "capexAmount": 7.808,
         "capexGrowth": null,
         "partnerships": [
-          "Cataclean Global Limited"
+          "Cataclean Global Limited license agreement"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Tariff complexities",
-          "Trade policy uncertainty"
+          "Trade policy actions and tariffs",
+          "Potential changes in tax regulations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported stable quarterly performance with modest revenue decline and continued focus on managing economic challenges like tariffs and supply chain disruptions. The company made a strategic perpetual license acquisition from Cataclean Global Limited.",
+        "summary": "Holley reported steady quarterly performance with Q2 revenue of $166.7 million and net income of $10.9 million. The company continues to navigate supply chain challenges and trade policy uncertainties while maintaining operational stability.",
         "keyQuotes": [
-          "In response to inflationary impacts and supply chain disruptions, the Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels in the distribution channel.",
-          "The Company continues to monitor international trade developments, including potential changes in tariff rates and the possibility of new exemptions or retaliatory actions, in order to analyze their impact on the business."
+          "The Company continues to monitor international trade developments, including potential changes in tariff rates",
+          "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
         ],
         "marketData": {
           "priceOnEarningsDate": 42.970001220703125,
           "priceAfter7Days": 45.20000076293945,
           "priceChangePercent": 5.18966599694185,
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "earningsBeatScore": 50,
           "priceActionScore": 70,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 56,
           "compositeSentiment": "neutral"
         }
       },
@@ -159,18 +161,18 @@
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 153.044,
-        "netIncome": 2817,
-        "operatingCashFlow": -7850,
+        "netIncome": 2.817,
+        "operatingCashFlow": -7.85,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 96.4,
+          "US": 96.4,
           "Italy": 3.6
         },
-        "capexAmount": 2980,
+        "capexAmount": 2.98,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
@@ -179,10 +181,10 @@
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported modest Q1 performance with $153 million in revenue and $2.8 million in net income. Operating cash flow was negative, reflecting working capital dynamics. The company maintained a stable business outlook across its automotive performance product segments.",
+        "summary": "Holley reported stable Q1 2025 performance with revenues of $153 million and net income of $2.8 million. The company continues to navigate macro challenges while maintaining cost discipline and operational efficiency.",
         "keyQuotes": [
-          "The Company is impacted by various economic factors that affect both consumers and the automotive aftermarket industry",
-          "In response to inflationary impacts and supply chain disruptions, the Company has attempted to minimize potential adverse impacts on its business"
+          "The Company is an emerging growth company with locations in the United States, Canada, Italy and China.",
+          "Profitability has been, and may continue to be, adversely affected by constrained consumer demand and a shift in sales to lower-margin products"
         ],
         "marketData": {
           "priceOnEarningsDate": 22.06999969482422,
@@ -221,31 +223,30 @@
         "bookingsGrowth": -8.7,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
-        "revenue": -133763.932,
-        "netIncome": 6243.965,
-        "operatingCashFlow": 46.9,
-        "freeCashFlow": 41.8,
-        "daysalesOutstanding": null,
+        "revenue": 140.05400000000003,
+        "netIncome": -37.782,
+        "operatingCashFlow": 46.899,
+        "freeCashFlow": 41.821,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Strategic product rationalization project aimed at eliminating unprofitable SKUs",
         "customerConcentration": null,
         "geographicBreakdown": null,
-        "capexAmount": 6.8,
+        "capexAmount": 6.804,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Climate change reporting requirements",
-          "Potential cybersecurity regulations"
+          "ESG disclosure expectations"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": false,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Holley experienced a challenging year with an 8.7% revenue decline and a net loss of $23.2 million, driven by supply chain constraints, inventory challenges, and $48.6 million in impairment charges. The company is focusing on cost-cutting, strategic product rationalization, and operational efficiency to navigate macroeconomic headwinds.",
+        "summary": "Holley experienced a challenging year with declining revenues, a net loss, and significant goodwill impairment charges. The company is focused on cost-cutting, product rationalization, and navigating macroeconomic headwinds.",
         "keyQuotes": [
-          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales mix to lower-margin products, which is offset by our cost cutting and operating efficiency gains.",
-          "Should the ongoing macroeconomic conditions not improve, or worsen, or if our attempts to mitigate the impact on our supply chain, operations and costs is not successful, our business, results of operations and financial condition may be adversely affected."
+          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand",
+          "We have taken steps to minimize the adverse impacts of supply chain volatility and rising inflation"
         ],
         "marketData": {
           "priceOnEarningsDate": 41.77000045776367,
@@ -254,8 +255,8 @@
           "managementToneScore": 5,
           "earningsBeatScore": 50,
           "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 30,
-          "compositeSentimentScore": 57,
+          "guidanceAccuracyScoreWeighted": 35,
+          "compositeSentimentScore": 58,
           "compositeSentiment": "neutral"
         }
       },
@@ -280,23 +281,23 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 134038,
-        "netIncome": -6288,
-        "operatingCashFlow": 42773,
+        "revenue": 134.038,
+        "netIncome": -6.288,
+        "operatingCashFlow": 42.773,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": 97.3,
-          "Italy": 2.7
+          "United States": 97.33,
+          "Italy": 2.67
         },
-        "capexAmount": 4372,
+        "capexAmount": 4.372,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "unknown",
@@ -305,10 +306,10 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Holley experienced a challenging quarter with declining revenues and a net loss, driven by macroeconomic pressures and potential product rationalization. Despite operational challenges, the company maintains stable operating cash flow and continues strategic asset management.",
+        "summary": "Holley reported a challenging quarter with quarterly revenue of $134 million and a net loss of $6.3 million. The company continues to face margin pressures and macroeconomic headwinds, though maintaining stable operations and generating positive operating cash flow.",
         "keyQuotes": [
           "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products",
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels"
+          "Should the ongoing macroeconomic conditions not improve, or worsen, the Company's business, results of operations and financial condition may be adversely affected"
         ],
         "marketData": {
           "priceOnEarningsDate": 8.739999771118164,
@@ -342,7 +343,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774924025177/hlly20240630_10q.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -362,22 +363,22 @@
         "capexAmount": 2.645,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported stable Q2 performance with modest revenue decline but improved profitability. The company maintained cautious guidance amid ongoing market challenges, focusing on inventory management and cost control.",
+        "summary": "Holley reported stable Q2 2024 performance with quarterly revenue of $169.5M and net income of $17.1M. The company continues to manage inventory and maintain a balanced operational approach across its automotive aftermarket product lines.",
         "keyQuotes": [
-          "Attempting to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels",
-          "Profitability has been, and may continue to be, adversely affected by constrained consumer demand"
+          "Attempted to minimize potential adverse impacts with cost savings initiatives, price increases, and inventory management",
+          "Ongoing macroeconomic conditions continue to impact business performance"
         ],
         "marketData": {
           "priceOnEarningsDate": 6.840000152587891,
           "priceAfter7Days": 7.670000076293945,
           "priceChangePercent": 12.134501537869514,
-          "managementToneScore": 45,
+          "managementToneScore": 50,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
           "guidanceAccuracyScoreWeighted": 50,
@@ -419,7 +420,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 96.6,
+          "United States": 96.6,
           "Italy": 3.4
         },
         "capexAmount": 1.265,
@@ -431,9 +432,9 @@
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Holley reported a challenging quarter with declining revenues and compressed margins. While maintaining profitability, the company faces ongoing supply chain constraints and product mix challenges in the automotive aftermarket segment.",
+        "summary": "Holley experienced a slight decline in quarterly revenue and net income, with cautious management commentary reflecting ongoing challenges in the automotive aftermarket. The company is managing through supply chain constraints and product rationalization efforts.",
         "keyQuotes": [
-          "Attempting to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels",
+          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels",
           "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand"
         ],
         "marketData": {
@@ -468,9 +469,9 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774924007848/hlly20231231_10k.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
+        "bookingsGrowth": -4.2,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 155.7030000000001,
@@ -483,27 +484,28 @@
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 5.9,
-        "capexGrowth": null,
+        "capexGrowth": -61,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Holley experienced a 4.2% revenue decline in 2023 due to supply chain constraints and returning to pre-pandemic sales trends. The company maintained profitability through cost-saving initiatives and improved gross margins.",
+        "summary": "Holley experienced a 4.2% revenue decline in 2023 due to supply chain constraints and normalizing demand. The company focused on cost-saving initiatives, improving gross margins, and managing operational efficiency.",
         "keyQuotes": [
-          "We have taken steps to minimize the adverse impacts of supply chain volatility and rising inflation by implementing cost savings initiatives, increasing prices to customers, increasing inventory levels of certain products, and working closely with our suppliers and customers to minimize disruptions in delivering products to customers."
+          "We have attempted to minimize potential adverse impacts on our business with cost savings initiatives, price increases to customers, and by increasing inventory levels",
+          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand"
         ],
         "marketData": {
           "priceOnEarningsDate": 12.15999984741211,
           "priceAfter7Days": 12.640000343322754,
           "priceChangePercent": 3.947372548798166,
-          "managementToneScore": 50,
+          "managementToneScore": 25,
           "earningsBeatScore": 50,
           "priceActionScore": 65,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
+          "compositeSentimentScore": 52,
           "compositeSentiment": "neutral"
         }
       },
@@ -542,10 +544,7 @@
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": null,
-          "Canada": null,
-          "Europe": null,
-          "Italy": null,
-          "China": null
+          "International": null
         },
         "capexAmount": 4.417,
         "capexGrowth": null,
@@ -554,22 +553,22 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "Holley reported modest quarterly revenue growth with compressed margins, facing ongoing challenges from supply chain disruptions and inflationary pressures. The company remains cautious about near-term economic conditions while maintaining operational stability.",
+        "summary": "Holley reported steady quarterly revenue of $156.53 million with modest net income of $0.752 million, reflecting ongoing challenges in the automotive aftermarket. The company is managing supply chain constraints and inflationary pressures while maintaining a cautious outlook.",
         "keyQuotes": [
-          "Sales growth in certain products has been constrained by supply chain challenges and automotive electronic component shortages.",
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels of certain products."
+          "Sales growth in certain products has been constrained by supply chain challenges and automotive electronic component shortages",
+          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers"
         ],
         "marketData": {
           "priceOnEarningsDate": 14.8100004196167,
           "priceAfter7Days": 14.640000343322754,
           "priceChangePercent": -1.1478735413725607,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 46,
+          "compositeSentimentScore": 48,
           "compositeSentiment": "neutral"
         }
       },
@@ -607,7 +606,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 97.5,
+          "US": 97.5,
           "Italy": 2.5
         },
         "capexAmount": 2.738,
@@ -617,22 +616,22 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "Holley reported stable quarterly performance with revenues of $175.3M and net income of $13M, facing ongoing supply chain challenges and inflationary pressures. The company maintains a cautious outlook while managing costs and inventory levels.",
+        "summary": "Holley reported a moderate quarter with slightly lower revenues and net income compared to the same period last year, reflecting ongoing supply chain challenges and inflationary pressures. The company maintains a cautious outlook while managing costs and inventory levels.",
         "keyQuotes": [
-          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels of certain products."
+          "Sales growth in certain products has been constrained by continuing supply chain challenges and automotive electronic component shortages",
+          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels"
         ],
         "marketData": {
           "priceOnEarningsDate": 13.5,
           "priceAfter7Days": 14.029999732971191,
           "priceChangePercent": 3.9259239479347516,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 65,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
+          "compositeSentimentScore": 54,
           "compositeSentiment": "neutral"
         }
       },
@@ -659,7 +658,7 @@
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 172.205,
         "netIncome": 4.247,
@@ -670,7 +669,7 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "UnitedStates": 96.6,
+          "United States": 96.6,
           "Italy": 3.4
         },
         "capexAmount": 1.001,
@@ -680,9 +679,9 @@
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Holley experienced a significant revenue decline in Q1 2023, with net income dropping substantially from the same quarter last year. Supply chain challenges and constrained consumer demand continue to impact performance, with management taking a cautious approach to navigating macroeconomic headwinds.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Holley reported a Q1 2023 revenue of $172.2 million and net income of $4.2 million, representing a decline from the same quarter last year. The company continues to face supply chain challenges and inflationary pressures, which are impacting its performance.",
         "keyQuotes": [
           "Sales growth in certain products has been constrained by continuing supply chain challenges and automotive electronic component shortages.",
           "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increased our costs."
@@ -691,12 +690,12 @@
           "priceOnEarningsDate": 6.150000095367432,
           "priceAfter7Days": 6.849999904632568,
           "priceChangePercent": 11.382110543257076,
-          "managementToneScore": 5,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "compositeSentimentScore": 62,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2023",
@@ -713,5 +712,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T16:23:58.975Z"
+  "lastUpdated": "2025-11-26T17:43:32.279Z"
 }
