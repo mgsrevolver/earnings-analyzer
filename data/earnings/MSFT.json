@@ -32,7 +32,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 61533,
-        "marketShareMention": "Strong cloud and AI growth across multiple segments",
+        "marketShareMention": "Microsoft Cloud revenue increased 26% to $49.1 billion",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 51.6,
@@ -41,7 +41,7 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "OpenAI strategic partnership extended"
+          "OpenAI"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
@@ -49,12 +49,22 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q1 performance with 18% revenue growth driven by cloud and AI services. Microsoft Cloud revenue increased 26% to $49.1B, with Azure growing 40% and continued strategic investment in AI technologies.",
+        "summary": "Microsoft delivered strong Q3 performance with 18% revenue growth, driven by cloud and AI services. Microsoft Cloud revenue increased 26% to $49.1 billion, highlighting the company's strategic focus on AI and cloud technologies.",
         "keyQuotes": [
-          "We are incurring significant costs to build and maintain infrastructure to support cloud-based and AI services",
-          "Microsoft is a technology company committed to making digital technology and artificial intelligence available broadly and responsibly"
+          "We are committed to making digital technology and artificial intelligence available broadly and doing so responsibly",
+          "Microsoft Cloud revenue increased 26% to $49.1 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 517.9500122070312,
+          "priceAfter7Days": 523.97998046875,
+          "priceChangePercent": 1.1641988839858342,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -87,11 +97,11 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 67265,
-        "marketShareMention": "Growing Microsoft Cloud market share through AI and cloud services investments",
+        "marketShareMention": "Continuing to gain market share in cloud and AI services",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": null,
-          "International": null
+          "US": 69.2,
+          "International": 30.8
         },
         "capexAmount": 64551,
         "capexGrowth": 45,
@@ -99,25 +109,35 @@
           "OpenAI",
           "Activision Blizzard",
           "Inflection AI",
+          "Graylock Ventures",
           "LinkedIn",
-          "Greylock Ventures",
           "Reprogrammed Interchange LLC"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act",
-          "AI regulatory landscape"
+          "EU AI Act",
+          "Digital Markets Act"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong 15% revenue growth driven by cloud and AI investments, with Microsoft Cloud revenue increasing 23% to $168.9 billion. The company continues to aggressively invest in AI infrastructure and strategic partnerships.",
+        "summary": "Microsoft delivered strong financial performance with 15% revenue growth driven by cloud and AI services. Azure and Microsoft 365 Commercial cloud showed robust growth, while strategic investments in AI infrastructure continue to position the company for future expansion.",
         "keyQuotes": [
           "We are building AI into many of our offerings, including our productivity services",
           "Microsoft Cloud revenue increased 23% to $168.9 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 497.4100036621094,
+          "priceAfter7Days": 497.7200012207031,
+          "priceChangePercent": 0.06232234098860854,
+          "managementToneScore": 90,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -142,7 +162,7 @@
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
         "revenue": 70066,
         "netIncome": 25824,
@@ -150,7 +170,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 47476,
-        "marketShareMention": "Competitive platform expansion in cloud and AI services",
+        "marketShareMention": "Facing intense competition across platforms, but continuing to invest in cloud and AI services",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 51.5,
@@ -160,25 +180,33 @@
         "capexGrowth": null,
         "partnerships": [
           "OpenAI",
-          "Activision Blizzard",
-          "Inflection AI",
-          "Greylock Ventures",
-          "Reprogrammed Interchange LLC"
+          "Activision Blizzard"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "FTC challenging Activision Blizzard acquisition"
+          "Ongoing FTC challenge of Activision Blizzard acquisition",
+          "Potential global minimum corporate tax rate implementations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q1 2025 performance with 13% revenue growth driven by cloud and AI services. Microsoft Cloud revenue increased 20% to $42.4 billion, highlighting the company's successful strategic pivot towards AI and cloud technologies.",
+        "summary": "Microsoft delivered strong quarterly results with 13% revenue growth and 20% Microsoft Cloud revenue increase. The company continues to invest aggressively in AI and cloud infrastructure, positioning itself competitively despite market challenges.",
         "keyQuotes": [
-          "Microsoft is a technology company committed to making digital technology and artificial intelligence available broadly",
-          "We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses"
+          "We are a technology company committed to making digital technology and artificial intelligence available broadly and doing so responsibly",
+          "We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 375.3900146484375,
+          "priceAfter7Days": 357.8599853515625,
+          "priceChangePercent": -4.6698176863581,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -211,7 +239,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 48045,
-        "marketShareMention": "Continuing to compete across platform ecosystems",
+        "marketShareMention": "Significant cloud and AI service investments driving market positioning",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 51,
@@ -220,29 +248,37 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "OpenAI strategic partnership",
-          "Activision Blizzard acquisition",
+          "OpenAI",
           "Activision Blizzard",
           "OpenAI Global LLC",
-          "Greylock Ventures",
           "Inflection AI Inc",
+          "Graylock Ventures",
           "Reprogrammed Interchange LLC"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Potential FTC challenge to Activision Blizzard acquisition",
-          "OECD global minimum corporate tax implementation"
+          "FTC challenge of Activision Blizzard acquisition"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q4 2024 results with 12% revenue growth driven by cloud and AI services. Microsoft Cloud revenue increased 21% to $40.9 billion, highlighting the company's successful strategic pivot towards cloud and AI technologies.",
+        "summary": "Microsoft delivered strong Q4 performance with 12% revenue growth driven by cloud and AI services. Microsoft Cloud revenue increased 21% to $40.9 billion, highlighting the company's strategic focus on AI and cloud technologies.",
         "keyQuotes": [
-          "We are investing in artificial intelligence across the entire company and infusing generative AI capabilities into our consumer and commercial offerings.",
-          "Microsoft is a technology company committed to making digital technology and artificial intelligence available broadly and doing so responsibly."
+          "We are committed to making digital technology and artificial intelligence available broadly and responsibly",
+          "Microsoft Cloud revenue increased 21% to $40.9 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 421.5,
+          "priceAfter7Days": 422.3699951171875,
+          "priceChangePercent": 0.20640453551304863,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -275,38 +311,42 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 55689,
-        "marketShareMention": "Microsoft Cloud revenue increased 22% to $38.9 billion",
+        "marketShareMention": "Growing cloud and AI market share",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 51.67,
-          "Other_Countries": 48.33
+          "United_States": 51.69,
+          "Other_Countries": 48.31
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
           "OpenAI",
-          "Activision Blizzard",
-          "OpenAI Global LLC",
-          "Activision Blizzard Inc",
-          "Inflection AI Inc",
-          "LinkedIn Corporation",
-          "Greylock Ventures",
-          "Reprogrammed Interchange LLC"
+          "Activision Blizzard"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "FTC challenge to Activision Blizzard acquisition"
+          "FTC challenge of Activision Blizzard acquisition"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q1 FY2025 results, with 16% revenue growth driven by cloud and AI investments. Microsoft Cloud revenue grew 22% to $38.9 billion, highlighting the company's successful strategy in cloud and AI services.",
+        "summary": "Microsoft delivered strong Q1 FY2025 results, with 16% revenue growth driven by cloud and AI investments. Microsoft Cloud revenue increased 22% to $38.9 billion, highlighting continued strategic focus on cloud and AI services.",
         "keyQuotes": [
-          "We are committed to making digital technology and artificial intelligence available broadly",
+          "We are committed to making digital technology and artificial intelligence available broadly and doing so responsibly",
           "Microsoft Cloud revenue increased 22% to $38.9 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 430.29998779296875,
+          "priceAfter7Days": 409.5400085449219,
+          "priceChangePercent": -4.8245363320891315,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 35,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -328,18 +368,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 64727,
         "netIncome": 22036,
         "operatingCashFlow": 118548,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 60184,
-        "marketShareMention": "Competing effectively in major technology markets including cloud, productivity software, operating systems, and gaming platforms",
+        "marketShareMention": "Continued growth in cloud and AI services, strengthening market position",
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": null,
@@ -348,26 +388,35 @@
         "capexAmount": 44477,
         "capexGrowth": 58,
         "partnerships": [
-          "OpenAI strategic partnership",
-          "Various OEM and cloud solution provider partnerships"
+          "OpenAI",
+          "Activision Blizzard"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act compliance",
-          "Emerging AI regulatory frameworks",
-          "Data privacy regulations"
+          "EU Digital Markets Act",
+          "AI regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong fiscal year 2024 performance with 16% revenue growth to $245.1 billion and 22% net income growth to $88.1 billion, driven by cloud and AI investments across Azure, Microsoft 365, and gaming segments. The company continues to strategically expand AI capabilities and infrastructure.",
+        "summary": "Microsoft delivered strong financial performance in fiscal year 2024, with significant growth in cloud and AI services. Revenue increased 16% to $245.1 billion, driven by Azure, Office 365, and gaming segments.",
         "keyQuotes": [
-          "We are building AI into many of our offerings, including our productivity services",
-          "We generate revenue by offering a wide range of cloud-based solutions, content, and other services powered by AI",
-          "Our success is based on our ability to create new and compelling products, services, and experiences for our users"
+          "We are building AI into many of our offerings",
+          "Microsoft Cloud revenue increased 23% to $137.4 billion",
+          "We continue to invest in sales, marketing, product support infrastructure, and advanced areas of technology"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 456.7300109863281,
+          "priceAfter7Days": 466.239990234375,
+          "priceChangePercent": 2.0821883868567483,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 90,
+          "compositeSentimentScore": 65,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -396,31 +445,44 @@
         "headcountTrend": "stable",
         "revenue": 61858,
         "netIncome": 21939,
-        "operatingCashFlow": 81400,
+        "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 44833,
-        "marketShareMention": "Growing market share in cloud services, particularly Azure",
+        "deferredRevenue": null,
+        "marketShareMention": "Competing across multiple technology platforms and ecosystems",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 51,
-          "Other_Countries": 49
+          "United_States": 50.8,
+          "Other_Countries": 49.2
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "AI regulatory developments",
+          "Open source competition"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q1 2024 results with 17% revenue growth driven by cloud services, AI investments, and the Activision Blizzard acquisition. Microsoft Cloud revenue increased 23% to $35.1 billion, highlighting continued momentum in cloud and AI strategies.",
+        "summary": "Microsoft delivered strong Q1 2024 results, with 17% revenue growth driven by cloud services and AI investments. Microsoft Cloud revenue increased 23% to $35.1 billion, demonstrating continued momentum in cloud and AI transformation.",
         "keyQuotes": [
-          "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
-          "Microsoft Cloud revenue increased 23% to $35.1 billion"
+          "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions.",
+          "Our strategic vision is to compete and grow by building best-in-class platforms and productivity services"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 424.57000732421875,
+          "priceAfter7Days": 424.5899963378906,
+          "priceChangePercent": 0.00470806070307519,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -444,20 +506,20 @@
       "insights": {
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
-        "bookingsGrowth": null,
+        "bookingsGrowth": 18,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 62020,
         "netIncome": 21870,
-        "operatingCashFlow": 49400,
+        "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 46034,
-        "marketShareMention": "Growing market share in cloud, AI, and enterprise services",
+        "deferredRevenue": null,
+        "marketShareMention": "Continued growth across cloud services and AI offerings",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 52,
-          "Other Countries": 48
+          "United_States": 52,
+          "Other_Countries": 48
         },
         "capexAmount": null,
         "capexGrowth": null,
@@ -467,15 +529,25 @@
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q4 2023 performance, with 18% revenue growth driven by cloud, AI, and enterprise services. Microsoft Cloud revenue increased 24% to $33.7 billion, with Azure growing 30%, demonstrating strong execution in key strategic areas.",
+        "summary": "Microsoft delivered strong Q4 performance with 18% revenue growth, driven by cloud services and AI investments. Azure and Microsoft Cloud revenue expanded significantly, signaling robust demand for enterprise cloud and AI solutions.",
         "keyQuotes": [
           "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
           "Microsoft Cloud revenue increased 24% to $33.7 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 370.8699951171875,
+          "priceAfter7Days": 374.69000244140625,
+          "priceChangePercent": 1.0300125042500956,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -497,18 +569,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023054855/msft-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
+        "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 56517,
         "netIncome": 22291,
         "operatingCashFlow": 30600,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 49188,
-        "marketShareMention": "Continuing to create platform-based ecosystems with beneficial network effects",
+        "marketShareMention": "Growing cloud market share with Microsoft Cloud revenue increasing 24% to $31.8 billion",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 51,
@@ -517,23 +589,34 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "OpenAI",
-          "Activision Blizzard"
+          "OpenAI strategic partnership",
+          "Activision Blizzard acquisition"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC challenging Activision Blizzard acquisition"
+          "FTC challenge to Activision Blizzard acquisition",
+          "Ongoing cybersecurity regulatory scrutiny"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Microsoft delivered strong Q3 performance with 13% revenue growth driven by cloud and AI investments. Microsoft Cloud revenue increased 24% to $31.8 billion, highlighting the company's successful pivot to cloud and AI-powered services.",
+        "summary": "Microsoft delivered strong Q3 2023 performance with 13% revenue growth driven by cloud and AI investments. Microsoft Cloud revenue grew 24% to $31.8 billion, demonstrating continued momentum in cloud and enterprise services.",
         "keyQuotes": [
           "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
-          "We generate revenue by offering a wide range of cloud-based solutions, content, and other services"
+          "Microsoft Cloud revenue increased 24% to $31.8 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 321.79998779296875,
+          "priceAfter7Days": 329.82000732421875,
+          "priceChangePercent": 2.492237363417711,
+          "managementToneScore": 100,
+          "earningsBeatScore": 50,
+          "priceActionScore": 55,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -562,11 +645,11 @@
         "headcountTrend": "reducing",
         "revenue": 52857,
         "netIncome": 18299,
-        "operatingCashFlow": null,
+        "operatingCashFlow": 58800,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Continue competing with vertically-integrated platforms and competing business models",
+        "deferredRevenue": 39601,
+        "marketShareMention": "Continuing to grow Microsoft Cloud revenue and commercial offerings",
         "customerConcentration": null,
         "geographicBreakdown": {
           "United_States": 49.2,
@@ -585,12 +668,12 @@
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Microsoft delivered steady Q1 performance with cloud revenue growth and strategic cost alignments, while navigating macroeconomic challenges and competitive technology landscape. The company is focusing investments on strategic areas like cloud and AI while reducing workforce.",
+        "summary": "Microsoft delivered solid Q1 results with 7% revenue growth driven by Microsoft Cloud and productivity services. The company is carefully managing costs through workforce reductions while continuing to invest in strategic areas like cloud and AI.",
         "keyQuotes": [
           "We are allocating both our capital and talent to areas of secular growth and long-term competitiveness",
-          "Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models"
+          "Microsoft Cloud revenue increased 22% to $28.5 billion"
         ],
         "marketData": {}
       },
@@ -615,7 +698,7 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
@@ -625,29 +708,40 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 39626,
-        "marketShareMention": "Continuing to maintain strong position in cloud services, with Azure and Microsoft Cloud revenue growing 31% and 22% respectively",
+        "marketShareMention": "Faces intense competition across markets",
         "customerConcentration": null,
         "geographicBreakdown": {
-          "unitedStates": 51.2,
-          "otherCountries": 48.8
+          "United_States": 51.2,
+          "Other_Countries": 48.8
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Potential regulatory challenges to Activision Blizzard acquisition"
+          "Antitrust review for Activision Blizzard acquisition",
+          "Tax law changes affecting R&D expenditures"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Microsoft experienced mixed quarterly results with cloud services showing strong growth, but facing challenges in PC and gaming markets. The company is reducing workforce by approximately 10,000 jobs and consolidating office spaces to align cost structure with revenue and customer demand.",
+        "summary": "Microsoft delivered stable Q4 2022 performance with continued cloud growth, offset by PC market weakness. Reduced workforce and cautious approach to strategic investments indicate management preparing for potential economic challenges.",
         "keyQuotes": [
-          "We are allocating both our capital and talent to areas of secular growth and long-term competitiveness, while divesting in other areas.",
-          "We compete for talented individuals globally by offering an exceptional working environment, broad customer reach, scale in resources, the ability to grow one's career across many different products and businesses, and competitive compensation and benefits."
+          "We are reducing our overall workforce by approximately 10,000 jobs through the third quarter of fiscal year 2023",
+          "We are allocating both our capital and talent to areas of secular growth and long-term competitiveness"
         ],
-        "marketData": {}
+        "marketData": {
+          "priceOnEarningsDate": 239.5800018310547,
+          "priceAfter7Days": 227.1199951171875,
+          "priceChangePercent": -5.200770773285846,
+          "managementToneScore": 25,
+          "earningsBeatScore": 50,
+          "priceActionScore": 25,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 40,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q4 2022",
       "quarterInfo": {
@@ -663,5 +757,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-14T01:41:27.999Z"
+  "lastUpdated": "2025-11-26T02:34:43.832Z"
 }
