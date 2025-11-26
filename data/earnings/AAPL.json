@@ -21,28 +21,28 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 102466,
-        "netIncome": 27466,
-        "operatingCashFlow": 111482,
+        "revenue": 102.46600000000001,
+        "netIncome": 27.466000000000008,
+        "operatingCashFlow": 111.482,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 13700,
-        "marketShareMention": "The Company has a minority market share in smartphone, personal computer, tablet and wearables markets",
-        "customerConcentration": 12,
+        "marketShareMention": "The Company has a minority market share in global smartphone, personal computer, tablet and wearables markets",
+        "customerConcentration": 34,
         "geographicBreakdown": {
-          "Americas": 42.9,
+          "Americas": 42.8,
           "Europe": 26.7,
           "Greater China": 15.5,
           "Japan": 6.9,
           "Rest of Asia Pacific": 8.1
         },
         "capexAmount": 12715,
-        "capexGrowth": 34.7,
+        "capexGrowth": 34.6,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
@@ -53,21 +53,21 @@
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "Apple delivered solid financial performance with 6% revenue growth and 14% services revenue increase, navigating complex regulatory and geopolitical challenges while maintaining profitability and investing in R&D.",
+        "overallSentiment": "bullish",
+        "summary": "Apple delivered strong financial performance with 6% revenue growth and 19% net income growth, driven by Services and iPhone Pro models. The company continues to navigate complex regulatory environments and global supply chain challenges.",
         "keyQuotes": [
-          "The Company continues to invest in emerging technologies like machine learning and artificial intelligence",
-          "Global markets for the Company's products are highly competitive and subject to rapid technological change"
+          "The Company believes its future success depends on continuing to develop innovative new products and services",
+          "Gross margins will be subject to volatility and downward pressure"
         ],
         "marketData": {
           "priceOnEarningsDate": 254.42999267578125,
           "priceAfter7Days": 256.69000244140625,
           "priceChangePercent": 0.8882638960356053,
-          "managementToneScore": 65,
+          "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 53,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 60,
           "compositeSentiment": "neutral"
         }
       },
@@ -91,43 +91,43 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 94036,
-        "netIncome": 23434,
-        "operatingCashFlow": 81754,
+        "headcountTrend": "expanding",
+        "revenue": 94.036,
+        "netIncome": 23.434,
+        "operatingCashFlow": 81.754,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 8979,
+        "deferredRevenue": 8.979,
         "marketShareMention": null,
         "customerConcentration": 48,
         "geographicBreakdown": {
           "Americas": 43.8,
           "Europe": 25.5,
           "GreaterChina": 16.3,
-          "Japan": 6.2,
-          "RestOfAsiaPacific": 8.2
+          "Japan": 6.1,
+          "RestOfAsiaPacific": 8.3
         },
-        "capexAmount": 9473,
-        "capexGrowth": 44.9,
+        "capexAmount": 9.473,
+        "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Digital Markets Act Investigations",
           "Department of Justice Antitrust Lawsuit",
-          "Epic Games App Store Lawsuit"
+          "Epic Games Legal Dispute"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Apple delivered strong quarterly performance with 10% year-over-year revenue growth driven by iPhone and Services. The company maintained solid profitability with $23.4 billion in net income, demonstrating resilience amid regulatory challenges and macroeconomic uncertainties.",
+        "summary": "Apple delivered strong quarterly results with 10% revenue growth and solid performance across most product categories, particularly iPhone and Services. The company maintained its confident outlook despite ongoing regulatory challenges and global macroeconomic complexities.",
         "keyQuotes": [
-          "We continue to see strong demand for our products and services across all geographic segments.",
-          "Our ability to innovate and deliver high-quality products remains our key competitive advantage."
+          "The Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
+          "The Company believes that it complies with the DMA and has continued to make changes to its compliance plan in response to feedback and engagement with the Commission."
         ],
         "marketData": {
           "priceOnEarningsDate": 205.1699981689453,
@@ -136,9 +136,9 @@
           "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 56,
-          "compositeSentiment": "neutral"
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2025",
@@ -164,14 +164,14 @@
         "guidanceTone": "positive",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
-        "revenue": 95359,
-        "netIncome": 24780,
-        "operatingCashFlow": 53887,
+        "revenue": 95.359,
+        "netIncome": 24.78,
+        "operatingCashFlow": 53.887,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 13600,
+        "deferredRevenue": 13.6,
         "marketShareMention": null,
         "customerConcentration": 37,
         "geographicBreakdown": {
@@ -181,23 +181,23 @@
           "Japan": 7.7,
           "Rest of Asia Pacific": 7.6
         },
-        "capexAmount": 6011,
-        "capexGrowth": 37,
+        "capexAmount": 6.011,
+        "capexGrowth": 36.9,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Digital Markets Act investigations",
-          "DOJ antitrust lawsuit",
-          "Epic Games App Store litigation"
+          "Department of Justice antitrust lawsuit",
+          "Epic Games legal dispute"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Apple delivered solid quarterly results with 5% year-over-year revenue growth, driven by strong iPhone and Services performance. The company continues to navigate complex regulatory environments while maintaining robust financial performance and shareholder returns.",
+        "summary": "Apple delivered solid Q2 2025 results with 5% year-over-year revenue growth, driven by strong iPhone and Services performance. The company maintained robust margins and continued its share repurchase and dividend programs despite global macroeconomic challenges.",
         "keyQuotes": [
-          "Our global business continues to demonstrate resilience across diverse market conditions",
-          "We remain committed to delivering innovative products and services that enrich our customers' lives"
+          "The Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
+          "The Company continues to make changes to its compliance plan in response to feedback and engagement with the Commission."
         ],
         "marketData": {
           "priceOnEarningsDate": 222.1300048828125,
@@ -231,55 +231,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 124300,
-        "netIncome": 36330,
-        "operatingCashFlow": 29935,
+        "revenue": 124.3,
+        "netIncome": 36.33,
+        "operatingCashFlow": 29.935,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 13200,
+        "deferredRevenue": 8.461,
         "marketShareMention": null,
-        "customerConcentration": 18,
+        "customerConcentration": 44,
         "geographicBreakdown": {
           "Americas": 42.3,
           "Europe": 27.2,
-          "GreaterChina": 14.9,
+          "Greater China": 14.9,
           "Japan": 7.2,
-          "RestOfAsiaPacific": 8.3
+          "Rest of Asia Pacific": 8.3
         },
-        "capexAmount": 2940,
-        "capexGrowth": 22.9,
+        "capexAmount": 2.94,
+        "capexGrowth": null,
         "partnerships": [
-          "Google search licensing"
+          "Google search services"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "EU Digital Markets Act investigations",
-          "US Department of Justice antitrust lawsuit",
-          "Epic Games App Store litigation"
+          "DOJ antitrust lawsuit",
+          "App Store regulatory challenges"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Apple delivered a strong Q1 2025 with 4% revenue growth driven by Services and iPhone. The company maintained robust profitability with net income of $36.3 billion and continued to generate significant operating cash flow. Geographic and product diversification remains a key strength.",
+        "summary": "Apple delivered strong quarterly results with 4% revenue growth, driven by services and iPhone sales. The company maintained profitability and continued its capital return program despite regulatory challenges and macroeconomic uncertainties.",
         "keyQuotes": [
-          "We continue to make changes to our compliance plan in response to feedback and engagement with regulators.",
-          "Our Services segment continues to demonstrate strong performance, with 14% year-over-year growth."
+          "The Company believes its balances of unrestricted cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
+          "The Company continues to make changes to its compliance plan in response to feedback and engagement with the Commission."
         ],
         "marketData": {
           "priceOnEarningsDate": 252.1999969482422,
           "priceAfter7Days": 245,
           "priceChangePercent": -2.85487590617212,
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 59,
+          "compositeSentimentScore": 58,
           "compositeSentiment": "neutral"
         }
       },
@@ -308,46 +308,49 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 94930,
-        "netIncome": 14736,
-        "operatingCashFlow": 118254,
+        "revenue": 94.93,
+        "netIncome": 14.736000000000004,
+        "operatingCashFlow": 118.254,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 12800,
-        "marketShareMention": "The Company has a minority market share in smartphone, personal computer and tablet markets",
-        "customerConcentration": null,
+        "deferredRevenue": 12.8,
+        "marketShareMention": "The Company has a minority market share in global smartphone, personal computer and tablet markets",
+        "customerConcentration": 38,
         "geographicBreakdown": {
-          "US": 36.4,
-          "China": 17.1,
-          "Other": 46.5
+          "Americas": 42.7,
+          "Europe": 25.9,
+          "Greater China": 17.1,
+          "Japan": 6.4,
+          "Rest of Asia Pacific": 7.8
         },
-        "capexAmount": 9447,
+        "capexAmount": 9.447,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Digital Markets Act investigations",
-          "US Department of Justice antitrust lawsuit",
-          "Complex international tax regulations"
+          "Department of Justice antitrust lawsuit",
+          "Changing international trade restrictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "cautious",
         "overallSentiment": "neutral",
-        "summary": "Apple navigated a challenging macro environment with modest 2% revenue growth, maintained profitability, and continues to invest in AI and new technologies while facing significant regulatory scrutiny.",
+        "summary": "Apple reported full-year revenue of $391 billion and net income of $93.7 billion, with Services revenue growing 13%. The company faces regulatory challenges and tight supply chain conditions while continuing to invest in AI and new technologies.",
         "keyQuotes": [
-          "The Company's future performance depends on continual innovation and product development",
-          "Changing business and supply chain restrictions can be expensive and disruptive"
+          "The Company's products and services are offered in highly competitive global markets characterized by aggressive price competition",
+          "Global markets for the Company's products and services are subject to rapid technological change",
+          "Expectations relating to environmental, social and governance considerations expose the Company to potential liabilities"
         ],
         "marketData": {
           "priceOnEarningsDate": 233,
           "priceAfter7Days": 221.69000244140625,
           "priceChangePercent": -4.854076205405043,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 35,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 43,
+          "compositeSentimentScore": 45,
           "compositeSentiment": "neutral"
         }
       },
@@ -371,27 +374,27 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
-        "revenue": 85777,
-        "netIncome": 21448,
-        "operatingCashFlow": 91443,
+        "revenue": 85.777,
+        "netIncome": 21.448,
+        "operatingCashFlow": 91.443,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 12500,
+        "deferredRevenue": 8.053,
         "marketShareMention": null,
         "customerConcentration": 32,
         "geographicBreakdown": {
           "Americas": 44,
           "Europe": 26,
-          "GreaterChina": 17,
+          "Greater China": 17,
           "Japan": 6,
-          "RestOfAsiaPacific": 7
+          "Rest of Asia Pacific": 7
         },
-        "capexAmount": 6539,
+        "capexAmount": 6.539,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
@@ -403,7 +406,7 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Apple delivered strong quarterly performance with 5% revenue growth driven by Services and iPad. The company continues to invest in R&D and AI capabilities while navigating regulatory challenges in Europe and the US.",
+        "summary": "Apple delivered strong quarterly results with 5% revenue growth driven by Services and iPad. The company continues to invest in R&D, including the launch of Apple Intelligence, while navigating regulatory challenges in the EU and US.",
         "keyQuotes": [
           "Apple Intelligence is deeply integrated into iOS 18, macOS Sequoia and iPadOS 18",
           "The Company believes it complies with the DMA and has continued to make changes to its compliance plan"
@@ -412,11 +415,11 @@
           "priceOnEarningsDate": 216.75,
           "priceAfter7Days": 227.82000732421875,
           "priceChangePercent": 5.107269815095155,
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 70,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 61,
+          "compositeSentimentScore": 60,
           "compositeSentiment": "bullish"
         }
       },
@@ -440,17 +443,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 90753,
-        "netIncome": 23636,
-        "operatingCashFlow": 62585,
+        "revenue": 90.753,
+        "netIncome": 23.636,
+        "operatingCashFlow": 62.585,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 8012,
+        "deferredRevenue": 12.6,
         "marketShareMention": null,
         "customerConcentration": 34,
         "geographicBreakdown": {
@@ -460,33 +463,34 @@
           "Japan": 7,
           "RestOfAsiaPacific": 7
         },
-        "capexAmount": 4388,
+        "capexAmount": 4.388,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Digital Markets Act investigations",
           "DOJ antitrust lawsuit",
-          "App Store regulatory challenges"
+          "Epic Games litigation"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "neutral",
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered stable financial performance in Q2 2024, with services growth offsetting declines in hardware sales. The company faces ongoing regulatory scrutiny but maintains a strong cash position and continued share buyback program.",
+        "summary": "Apple reported a solid Q1 2024 with stable revenues and profitability. Services continued to be a growth driver, while iPhone and iPad sales softened. The company is navigating complex regulatory challenges in the EU and US while maintaining a strong financial position.",
         "keyQuotes": [
-          "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
-          "The Company expects to make further business changes in the future."
+          "Services net sales increased... due primarily to higher net sales from advertising, the App Store and cloud services",
+          "The Company believes it complies with the DMA and will continue to engage with the Commission",
+          "The Company believes it has substantial defenses and intends to vigorously defend itself"
         ],
         "marketData": {
           "priceOnEarningsDate": 170.02999877929688,
           "priceAfter7Days": 168.4499969482422,
           "priceChangePercent": -0.9292488633759086,
-          "managementToneScore": 45,
+          "managementToneScore": 70,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 53,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 51,
           "compositeSentiment": "neutral"
         }
       },
@@ -515,13 +519,13 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 119575,
-        "netIncome": 33916,
-        "operatingCashFlow": 39895,
+        "revenue": 119.575,
+        "netIncome": 33.916,
+        "operatingCashFlow": 39.895,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 12500,
-        "marketShareMention": "No direct market share comments",
+        "deferredRevenue": 12.5,
+        "marketShareMention": null,
         "customerConcentration": 34,
         "geographicBreakdown": {
           "Americas": 42.2,
@@ -530,22 +534,22 @@
           "Japan": 6.5,
           "Rest of Asia Pacific": 8.5
         },
-        "capexAmount": 2392,
+        "capexAmount": 2.392,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "Digital Markets Act compliance in EU",
-          "Ongoing antitrust investigations"
+          "App Store antitrust investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Apple delivered solid Q1 2024 performance with 2% revenue growth driven by iPhone and Services, despite challenging macroeconomic conditions. Strong performance in Europe and Japan offset weakness in Greater China, demonstrating resilient global demand.",
+        "summary": "Apple delivered solid Q1 2024 results with 2% revenue growth driven by iPhone and Services. Strong performance in Europe and Japan offset weakness in Greater China. The company continues to generate robust operating cash flow and return capital to shareholders through dividends and share repurchases.",
         "keyQuotes": [
           "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
-          "During the first quarter of 2024, the Company repurchased $20.5 billion of its common stock and paid dividends and dividend equivalents of $3.8 billion"
+          "The Company's future gross margins can be impacted by a variety of factors... the Company believes, in general, gross margins will be subject to volatility and downward pressure."
         ],
         "marketData": {
           "priceOnEarningsDate": 185.63999938964844,
@@ -572,6 +576,76 @@
     },
     {
       "filing": {
+        "accessionNumber": "0000320193-23-000106",
+        "filingDate": "2023-11-03",
+        "reportDate": "2023-09-30",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 89.49799999999999,
+        "netIncome": 96920.961,
+        "operatingCashFlow": 110.543,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 12100,
+        "marketShareMention": "The Company has a minority market share in global smartphone, personal computer and tablet markets",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "Americas": 42.4,
+          "Europe": 24.6,
+          "Greater China": 18.9,
+          "Japan": 6.3,
+          "Rest of Asia Pacific": 7.7
+        },
+        "capexAmount": 10959,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "EU Digital Markets Act compliance",
+          "Antitrust investigations",
+          "Data privacy regulations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Apple reported full-year revenue of $383.3 billion and net income of $97.0 billion, representing a 3% decline in revenue compared to the previous year. The company faced challenges from currency fluctuations and decreased sales in Mac and iPhone segments, partially offset by growth in Services.",
+        "keyQuotes": [
+          "The Company expects its quarterly net sales and results of operations to fluctuate",
+          "Macroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted the Company's results"
+        ],
+        "marketData": {
+          "priceOnEarningsDate": 173.75,
+          "priceAfter7Days": 178.99000549316406,
+          "priceChangePercent": 3.0158304996627696,
+          "managementToneScore": 45,
+          "earningsBeatScore": 50,
+          "priceActionScore": 65,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0000320193-23-000077",
         "filingDate": "2023-08-04",
         "reportDate": "2023-07-01",
@@ -584,46 +658,46 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 81797,
-        "netIncome": 19881,
-        "operatingCashFlow": 88945,
+        "revenue": 81.797,
+        "netIncome": 19.881,
+        "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 8158,
+        "deferredRevenue": 8.158,
         "marketShareMention": null,
         "customerConcentration": 10,
         "geographicBreakdown": {
-          "Americas": 43.3,
+          "Americas": 43.2,
           "Europe": 24.7,
           "Greater China": 19.3,
           "Japan": 5.9,
           "Rest of Asia Pacific": 6.9
         },
-        "capexAmount": 8796,
+        "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "App Store antitrust litigation with Epic Games"
+          "App Store external link requirements"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported stable quarterly performance with modest revenue decline of 1% driven by foreign currency headwinds. Services segment continues to grow, offsetting product segment softness. The company remains financially strong with robust cash generation.",
+        "summary": "Apple reported steady quarterly performance with slight revenue decline, driven by macroeconomic challenges and foreign currency headwinds. Services segment showed resilience with 8% year-over-year growth, while product segments like iPhone and Mac experienced modest declines.",
         "keyQuotes": [
-          "Weakness in foreign currencies relative to the U.S. dollar had an unfavorable impact on the Company's total net sales",
-          "The Company repurchased $18.0 billion of its common stock and paid dividends and dividend equivalents of $3.8 billion during the third quarter of 2023"
+          "Macroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.",
+          "The weakness in foreign currencies relative to the U.S. dollar had an unfavorable impact on the Company's total net sales"
         ],
         "marketData": {
           "priceOnEarningsDate": 192.4600067138672,
           "priceAfter7Days": 188.61000061035156,
           "priceChangePercent": -2.0004187723216074,
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "earningsBeatScore": 50,
           "priceActionScore": 45,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 51,
+          "compositeSentimentScore": 49,
           "compositeSentiment": "neutral"
         }
       },
@@ -648,40 +722,40 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "not_provided",
+        "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 94836,
-        "netIncome": 24160,
-        "operatingCashFlow": 62565,
+        "headcountTrend": "expanding",
+        "revenue": 94.836,
+        "netIncome": 24.16,
+        "operatingCashFlow": 62.565,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 12500,
+        "deferredRevenue": 12.5,
         "marketShareMention": null,
         "customerConcentration": 10,
         "geographicBreakdown": {
           "Americas": 39.8,
-          "Europe": 25.3,
+          "Europe": 25.2,
           "Greater China": 18.8,
           "Japan": 7.6,
           "Rest of Asia Pacific": 8.6
         },
-        "capexAmount": 6703,
+        "capexAmount": 6.703,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Epic Games App Store lawsuit"
+          "Epic Games App Store antitrust lawsuit"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported quarterly revenue of $94.8 billion, down 3% year-over-year, with weakness in Mac sales partially offset by growth in Services. Macroeconomic conditions and foreign currency fluctuations continue to impact performance.",
+        "summary": "Apple reported a slight decline in quarterly revenue and net income, primarily driven by lower Mac sales and foreign currency headwinds. Services revenue continued to grow, while the company remains focused on maintaining profitability and returning capital to shareholders.",
         "keyQuotes": [
           "Macroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.",
-          "The Company believes, in general, gross margins will be subject to volatility and downward pressure."
+          "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond."
         ],
         "marketData": {
           "priceOnEarningsDate": 166.1699981689453,
@@ -720,46 +794,46 @@
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 117154,
-        "netIncome": 29998,
-        "operatingCashFlow": 34005,
+        "revenue": 117.154,
+        "netIncome": 29.998,
+        "operatingCashFlow": 34.005,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 12600,
+        "deferredRevenue": 12.6,
         "marketShareMention": null,
         "customerConcentration": 11,
         "geographicBreakdown": {
-          "Americas": 42.1,
+          "Americas": 42,
           "Europe": 23.6,
-          "Greater China": 20.4,
+          "GreaterChina": 20.4,
           "Japan": 5.8,
-          "Rest of Asia Pacific": 8.1
+          "RestOfAsiaPacific": 8.2
         },
-        "capexAmount": 3787,
+        "capexAmount": 3.787,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "App Store legal challenges"
+          "App Store regulation"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported a 5% year-over-year revenue decline in Q1 2023, primarily due to foreign currency weakness. iPhone and Mac sales were lower, while Services and iPad saw growth. The company remains cautious about macroeconomic conditions and supply chain challenges.",
+        "summary": "Apple reported a challenging quarter with 5% revenue decline due to foreign currency weakness and macroeconomic headwinds. iPhone and Mac sales were down, partially offset by strong iPad and Services performance.",
         "keyQuotes": [
-          "The COVID-19 pandemic and the measures taken by many countries in response have affected and could in the future materially impact the Company's business, results of operations and financial condition.",
-          "Macroeconomic conditions, including inflation, rising interest rates and currency fluctuations, have direct and indirect impacts on the Company's business."
+          "The COVID-19 pandemic and the measures taken by many countries in response have affected and could in the future materially impact the Company's business",
+          "Macroeconomic conditions, including inflation, rising interest rates and currency fluctuations, have direct and indirect impacts on the Company's business"
         ],
         "marketData": {
           "priceOnEarningsDate": 125.06999969482422,
           "priceAfter7Days": 130.14999389648438,
           "priceChangePercent": 4.0617208075921845,
-          "managementToneScore": 25,
+          "managementToneScore": 45,
           "earningsBeatScore": 50,
           "priceActionScore": 65,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
+          "compositeSentimentScore": 54,
           "compositeSentiment": "neutral"
         }
       },
@@ -776,6 +850,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T02:25:52.270Z"
+  "successfulAnalyses": 12,
+  "lastUpdated": "2025-11-26T17:01:49.028Z"
 }

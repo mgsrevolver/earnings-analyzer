@@ -476,7 +476,7 @@
       "insights": {
         "guidanceTone": "cautious",
         "guidanceDirection": "maintained",
-        "revenue": 14399988300,
+        "revenue": 14399.9883,
         "netIncome": -1676,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
@@ -488,7 +488,7 @@
           "Ohio": 15,
           "Other": 15
         },
-        "capexAmount": 245000000,
+        "capexAmount": 245000,
         "capexGrowth": null,
         "partnerships": [
           "Energy Harbor nuclear acquisition",

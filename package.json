@@ -9,7 +9,8 @@
     "lint": "next lint",
     "analyze-all": "tsx scripts/analyze-all-companies.ts",
     "analyze": "tsx scripts/analyze-tickers.ts",
-    "macro": "tsx scripts/regenerate-macro.ts"
+    "macro": "tsx scripts/regenerate-macro.ts",
+    "audit": "tsx scripts/audit-financial-data.ts"
   },
   "repository": {
     "type": "git",

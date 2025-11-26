@@ -19,6 +19,7 @@ import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
 import { computeMacroAnalysis } from '../lib/macro';
 import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
+import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
 
 // Load environment variables from .env.local
 config({ path: join(process.cwd(), '.env.local') });
@@ -130,10 +131,13 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       try {
         const { text } = await getFilingWithText(filing);
 
-        const [insights, detailedPartnerships] = await Promise.all([
+        const [rawInsights, detailedPartnerships] = await Promise.all([
           analyzeEarningsReport(company.name, text, quarter, filing.form),
           extractPartnerships(company.name, text, quarter)
         ]);
+
+        // Validate and normalize financial units
+        const insights = validateAndNormalizeFinancialUnits(rawInsights, company.name, quarter);
 
         const allPartnerships = Array.from(new Set([
           ...insights.partnerships,

@@ -280,14 +280,14 @@
         "headcountTrend": "stable",
         "revenue": 141.102,
         "netIncome": -804.896,
-        "operatingCashFlow": 23378000,
+        "operatingCashFlow": 23378,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 7912000,
+        "deferredRevenue": 7912,
         "marketShareMention": "Expanding HPC hosting segment to provide more consistent revenue",
         "customerConcentration": null,
         "geographicBreakdown": null,
-        "capexAmount": 35029000,
+        "capexAmount": 35029,
         "capexGrowth": null,
         "partnerships": [
           "HPC hosting with third-party cloud GPU providers"

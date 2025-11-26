@@ -38,9 +38,9 @@ export default function Home() {
         {/* Quick Actions */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Link href="/calendar">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="interactive-card group cursor-pointer">
               <CardHeader>
-                <Calendar className="w-8 h-8 mb-2 text-primary" />
+                <Calendar className="w-8 h-8 mb-2 text-primary group-hover:text-yellow-500 transition-colors" />
                 <CardTitle>Earnings Calendar</CardTitle>
                 <CardDescription>
                   View upcoming earnings reports
@@ -50,9 +50,9 @@ export default function Home() {
           </Link>
 
           <Link href="/trends">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="interactive-card group cursor-pointer">
               <CardHeader>
-                <TrendingUp className="w-8 h-8 mb-2 text-primary" />
+                <TrendingUp className="w-8 h-8 mb-2 text-primary group-hover:text-yellow-500 transition-colors" />
                 <CardTitle>Company Trends</CardTitle>
                 <CardDescription>
                   Track sentiment and metrics over the last 12 quarters
@@ -62,9 +62,9 @@ export default function Home() {
           </Link>
 
           <Link href="/macro">
-            <Card className="hover:shadow-lg transition-shadow cursor-pointer">
+            <Card className="interactive-card group cursor-pointer">
               <CardHeader>
-                <BarChart3 className="w-8 h-8 mb-2 text-primary" />
+                <BarChart3 className="w-8 h-8 mb-2 text-primary group-hover:text-yellow-500 transition-colors" />
                 <CardTitle>Macro Analysis</CardTitle>
                 <CardDescription>
                   Cross-company insights on capex, deals, and more
@@ -86,7 +86,7 @@ export default function Home() {
                       key={company.ticker}
                       href={`/company/${company.ticker}`}
                     >
-                      <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                      <div className="interactive-ticker-card">
                         <div className="flex items-center gap-3 mb-3">
                           <Image
                             src={getCompanyLogoUrl(company.ticker)}
@@ -116,7 +116,7 @@ export default function Home() {
                       key={company.ticker}
                       href={`/company/${company.ticker}`}
                     >
-                      <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                      <div className="interactive-ticker-card">
                         <div className="flex items-center gap-3 mb-3">
                           <Image
                             src={getCompanyLogoUrl(company.ticker)}
@@ -149,7 +149,7 @@ export default function Home() {
                         key={company.ticker}
                         href={`/company/${company.ticker}`}
                       >
-                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                        <div className="interactive-ticker-card">
                           <div className="flex items-center gap-3 mb-3">
                             <Image
                               src={getCompanyLogoUrl(company.ticker)}
@@ -181,7 +181,7 @@ export default function Home() {
                         key={company.ticker}
                         href={`/company/${company.ticker}`}
                       >
-                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                        <div className="interactive-ticker-card">
                           <div className="flex items-center gap-3 mb-3">
                             <Image
                               src={getCompanyLogoUrl(company.ticker)}
@@ -215,7 +215,7 @@ export default function Home() {
                         key={company.ticker}
                         href={`/company/${company.ticker}`}
                       >
-                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                        <div className="interactive-ticker-card">
                           <div className="flex items-center gap-3 mb-3">
                             <Image
                               src={getCompanyLogoUrl(company.ticker)}
@@ -247,7 +247,7 @@ export default function Home() {
                         key={company.ticker}
                         href={`/company/${company.ticker}`}
                       >
-                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                        <div className="interactive-ticker-card">
                           <div className="flex items-center gap-3 mb-3">
                             <Image
                               src={getCompanyLogoUrl(company.ticker)}
