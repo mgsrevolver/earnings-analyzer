@@ -263,39 +263,52 @@ export default function MacroPage() {
           <CardHeader>
             <CardTitle>Partnership Network</CardTitle>
             <CardDescription>
-              Most mentioned partners across earnings reports
+              {insights.partnershipNetwork.some(p => p.mentions >= 2)
+                ? "Partners mentioned by multiple companies in their earnings reports"
+                : "Key partners mentioned in earnings reports (filtered for relevance)"}
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="space-y-4">
-              {insights.partnershipNetwork.slice(0, 10).map((p) => (
-                <div key={p.partner} className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <Users className="h-5 w-5 text-muted-foreground" />
-                    <span className="font-medium">{p.partner}</span>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <span className="text-sm text-muted-foreground">
-                      {p.mentions} mentions
-                    </span>
-                    <div className="flex gap-1">
-                      {p.connectedCompanies.slice(0, 5).map((ticker) => (
-                        <Link key={ticker} href={`/company/${ticker}`}>
-                          <Badge variant="outline" className="text-xs">
-                            {ticker}
-                          </Badge>
-                        </Link>
-                      ))}
-                      {p.connectedCompanies.length > 5 && (
-                        <Badge variant="outline" className="text-xs">
-                          +{p.connectedCompanies.length - 5}
+            {insights.partnershipNetwork.length === 0 ? (
+              <p className="text-muted-foreground text-sm">
+                No partnerships found in earnings reports for this period.
+              </p>
+            ) : (
+              <div className="space-y-4">
+                {insights.partnershipNetwork.slice(0, 10).map((p) => (
+                  <div key={p.partner} className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <Users className={`h-5 w-5 ${p.mentions >= 2 ? "text-primary" : "text-muted-foreground"}`} />
+                      <span className="font-medium">{p.partner}</span>
+                      {p.mentions >= 2 && (
+                        <Badge variant="secondary" className="text-xs">
+                          Cross-company
                         </Badge>
                       )}
                     </div>
+                    <div className="flex items-center gap-4">
+                      <span className="text-sm text-muted-foreground">
+                        {p.mentions} {p.mentions === 1 ? "company" : "companies"}
+                      </span>
+                      <div className="flex gap-1">
+                        {p.connectedCompanies.slice(0, 5).map((ticker) => (
+                          <Link key={ticker} href={`/company/${ticker}`}>
+                            <Badge variant="outline" className="text-xs">
+                              {ticker}
+                            </Badge>
+                          </Link>
+                        ))}
+                        {p.connectedCompanies.length > 5 && (
+                          <Badge variant="outline" className="text-xs">
+                            +{p.connectedCompanies.length - 5}
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </CardContent>
         </Card>
 

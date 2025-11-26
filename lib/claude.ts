@@ -177,27 +177,35 @@ export async function extractPartnerships(
   reportText: string,
   quarter: string
 ): Promise<string[]> {
-  const PARTNERSHIP_PROMPT = `You are analyzing an earnings report to identify partnerships, strategic deals, and business collaborations.
+  const PARTNERSHIP_PROMPT = `You are analyzing an earnings report to identify ONLY significant business partnerships with other companies.
 
-Extract ALL mentions of:
-1. Strategic partnerships (e.g., "announced partnership with Microsoft")
-2. Technology integrations (e.g., "integrated with Salesforce platform")
-3. Customer wins (e.g., "signed deal with Fortune 500 company")
-4. Supplier relationships (e.g., "working with TSMC for chip manufacturing")
-5. Joint ventures or collaborations
-6. Platform/ecosystem relationships (e.g., "available on AWS marketplace")
+Extract partnerships that are:
+1. Strategic partnerships with named companies (e.g., "partnership with Microsoft", "collaboration with TSMC")
+2. Major supplier/manufacturing relationships (e.g., "TSMC manufactures our chips", "partnership with Samsung for displays")
+3. Technology platform partnerships (e.g., "integrated with Salesforce", "built on AWS")
+4. Joint ventures with named companies
+5. Distribution/licensing partnerships (e.g., "Sanofi distributes our drug")
+
+DO NOT include:
+- Government agencies (FDA, DARPA, BARDA, SEC, EU Commission, etc.)
+- Generic phrases ("cloud providers", "AI collaborations", "strategic partners")
+- Internal initiatives ("domestic manufacturing investment", "AI infrastructure buildout")
+- Acquisitions or M&A deals (these are not partnerships)
+- Customer wins without ongoing partnership (one-time sales)
+- Regulatory bodies or standards organizations
+- Research institutions or universities (unless major commercial partnership)
+- Distributors like McKesson, Cardinal Health unless specifically a strategic partnership
 
 Rules:
-- Extract the EXACT company/partner name mentioned
-- Include both directions (e.g., if Meta mentions AWS, include "AWS")
-- Focus on named companies/organizations (not generic "cloud providers")
-- Do NOT include generic references like "customers" or "partners" without specific names
-- Include both new partnerships AND ongoing/renewed relationships
+- Return ONLY the company name, not descriptions (e.g., "TSMC" not "TSMC for chip manufacturing")
+- Use canonical company names (e.g., "Microsoft" not "MSFT", "Amazon" not "AWS" unless specifically AWS)
+- Must be a real, named company - no generic references
+- Focus on partnerships that show business ecosystem connections
 
-Return ONLY a JSON array of company/partner names as strings. Example:
-["Microsoft", "TSMC", "AWS", "Salesforce"]
+Return ONLY a JSON array of company names. Example:
+["Microsoft", "TSMC", "Salesforce", "OpenAI"]
 
-If no partnerships are found, return an empty array: []`;
+If no qualifying partnerships are found, return an empty array: []`;
 
   try {
     // Extract relevant sections mentioning partnerships

@@ -3,6 +3,203 @@ import { readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import { getAllCompanies, getCompanyByTicker } from "./companies";
 
+/**
+ * Canonical partner name mappings for normalization
+ * Maps variations to a single canonical name
+ */
+const PARTNER_NAME_MAP: Record<string, string> = {
+  // Tech giants
+  "microsoft corporation": "Microsoft",
+  "msft": "Microsoft",
+  "microsoft corp": "Microsoft",
+  "google": "Google",
+  "alphabet": "Google",
+  "googl": "Google",
+  "google search licensing": "Google",
+  "amazon": "Amazon",
+  "amazon.com": "Amazon",
+  "amzn": "Amazon",
+  "aws": "AWS",
+  "amazon web services": "AWS",
+  "meta": "Meta",
+  "meta platforms": "Meta",
+  "facebook": "Meta",
+  "apple": "Apple",
+  "apple inc": "Apple",
+  "aapl": "Apple",
+  "nvidia": "NVIDIA",
+  "nvidia corporation": "NVIDIA",
+  "nvda": "NVIDIA",
+  "rivian": "Rivian",
+  "rivian electric vehicle": "Rivian",
+  "rivian electric vehicle collaboration": "Rivian",
+
+  // Cloud/AI
+  "openai": "OpenAI",
+  "open ai": "OpenAI",
+  "openai global llc": "OpenAI",
+  "anthropic": "Anthropic",
+  "salesforce": "Salesforce",
+  "salesforce.com": "Salesforce",
+  "oracle": "Oracle",
+  "oracle corporation": "Oracle",
+  "ibm": "IBM",
+  "snowflake": "Snowflake",
+  "databricks": "Databricks",
+
+  // Semiconductors
+  "tsmc": "TSMC",
+  "taiwan semiconductor": "TSMC",
+  "taiwan semiconductor manufacturing": "TSMC",
+  "samsung": "Samsung",
+  "samsung electronics": "Samsung",
+  "samsung bioepis": "Samsung",
+  "samsung bioepis (biosimilars)": "Samsung",
+  "umc": "UMC",
+  "umc collaboration on 12nm foundry process": "UMC",
+  "intel": "Intel",
+  "intel corporation": "Intel",
+  "amd": "AMD",
+  "advanced micro devices": "AMD",
+  "qualcomm": "Qualcomm",
+  "broadcom": "Broadcom",
+  "arm": "ARM",
+  "arm holdings": "ARM",
+
+  // Pharma/Biotech
+  "pfizer": "Pfizer",
+  "pfizer inc": "Pfizer",
+  "merck": "Merck",
+  "merck & co": "Merck",
+  "johnson & johnson": "J&J",
+  "j&j": "J&J",
+  "roche": "Roche",
+  "roche holding": "Roche",
+  "novartis": "Novartis",
+  "sanofi": "Sanofi",
+  "astrazeneca": "AstraZeneca",
+  "gsk": "GSK",
+  "glaxosmithkline": "GSK",
+  "eli lilly": "Eli Lilly",
+  "lilly": "Eli Lilly",
+  "abbvie": "AbbVie",
+  "regeneron": "Regeneron",
+  "moderna": "Moderna",
+  "biontech": "BioNTech",
+  "vertex": "Vertex",
+  "vertex pharmaceuticals": "Vertex",
+  "gilead": "Gilead",
+  "gilead sciences": "Gilead",
+  "biogen": "Biogen",
+  "amgen": "Amgen",
+  "crispr therapeutics": "CRISPR Therapeutics",
+  "crispr therapeutics ag": "CRISPR Therapeutics",
+  "crispr": "CRISPR Therapeutics",
+  "eisai": "Eisai",
+  "takeda": "Takeda",
+  "takeda pharmaceutical": "Takeda",
+  "takeda pharmaceutical company": "Takeda",
+
+  // Other tech
+  "sony": "Sony",
+  "sony playstation": "Sony",
+  "sony corporation": "Sony",
+  "tencent": "Tencent",
+  "alibaba": "Alibaba",
+  "jd.com": "JD.com",
+  "jd cloud": "JD.com",
+  "activision": "Activision Blizzard",
+  "activision blizzard": "Activision Blizzard",
+};
+
+/**
+ * Entities to filter out (not real partnerships)
+ */
+const EXCLUDED_PARTNERS = new Set([
+  // Government/regulatory
+  "fda", "sec", "ftc", "doj", "irs", "fcc", "epa",
+  "darpa", "barda", "nih", "cdc", "cms",
+  "european commission", "eu commission", "european union",
+  "us government", "u.s. government", "federal government",
+  "ministry of health", "ministry of health labor and welfare",
+  "uk health security agency", "taiwan food and drug administration",
+  "national institutes", "national institutes of health",
+  "national institutes of allergy and infectious diseases",
+
+  // Generic phrases
+  "cloud service providers", "cloud providers",
+  "ai model collaborations", "continued ai model collaborations",
+  "enhanced cloud service partnerships", "strategic partners",
+  "global telecommunications service provider partners",
+  "expanded content licensing agreements",
+  "manufacturing investments", "domestic production",
+  "ai infrastructure buildout",
+
+  // Standards/organizations (not companies)
+  "north american charging standard", "nacs", "nacs adoption",
+  "institute for life changing medicines",
+
+  // Distributors (unless strategic)
+  "mckesson", "mckesson corp", "mckesson corporation",
+  "cardinal health", "cencora", "amerisourcebergen",
+  "besse medical", "fff enterprises",
+
+  // Investment/finance (not partnerships)
+  "brookfield", "apollo", "blackstone", "blackstone life sciences",
+  "scip transaction", "convertible notes",
+
+  // Acquisitions (not partnerships)
+  "bitstamp", "bitstamp (pending acquisition)",
+  "zt systems", "zt systems acquisition",
+  "inflection ai", "inflection ai inc",
+]);
+
+/**
+ * Normalize a partner name to its canonical form
+ */
+function normalizePartnerName(name: string): string | null {
+  const lower = name.toLowerCase().trim();
+
+  // Check if it should be excluded
+  if (EXCLUDED_PARTNERS.has(lower)) {
+    return null;
+  }
+
+  // Check for partial matches in exclusions
+  for (const excluded of EXCLUDED_PARTNERS) {
+    if (lower.includes(excluded) || excluded.includes(lower)) {
+      // Be careful not to exclude legitimate companies
+      if (lower.length < 20) continue; // Short names are likely real companies
+      return null;
+    }
+  }
+
+  // Look up canonical name
+  if (PARTNER_NAME_MAP[lower]) {
+    return PARTNER_NAME_MAP[lower];
+  }
+
+  // Clean up common suffixes and return
+  let cleaned = name
+    .replace(/\s+(inc\.?|corp\.?|corporation|llc|ltd\.?|plc|ag|nv|sa|limited)$/i, "")
+    .replace(/\s+(collaboration|partnership|deal|agreement|acquisition|transaction)$/i, "")
+    .replace(/\s*\([^)]*\)\s*/g, "") // Remove parentheticals
+    .trim();
+
+  // Skip if it looks like a description rather than a company name
+  if (cleaned.split(" ").length > 4) {
+    return null;
+  }
+
+  // Skip if it contains action words (likely a description)
+  const descriptionWords = ["pending", "continued", "enhanced", "expanded", "new", "ongoing"];
+  if (descriptionWords.some(word => lower.startsWith(word))) {
+    return null;
+  }
+
+  return cleaned || null;
+}
+
 interface CompanyEarningsData {
   company: any;
   reports: any[];
@@ -115,13 +312,16 @@ export function computeMacroAnalysis(dataDir: string, targetQuarter?: string): M
       aiInvestmentCount++;
     }
 
-    // Partnerships
+    // Partnerships - normalize and filter
     if (insights.partnerships && Array.isArray(insights.partnerships)) {
       for (const partner of insights.partnerships) {
-        if (!partnershipMap.has(partner)) {
-          partnershipMap.set(partner, new Set());
+        const normalizedPartner = normalizePartnerName(partner);
+        if (normalizedPartner) {
+          if (!partnershipMap.has(normalizedPartner)) {
+            partnershipMap.set(normalizedPartner, new Set());
+          }
+          partnershipMap.get(normalizedPartner)!.add(ticker);
         }
-        partnershipMap.get(partner)!.add(ticker);
       }
     }
 
@@ -167,13 +367,21 @@ export function computeMacroAnalysis(dataDir: string, targetQuarter?: string): M
     avgSentiment > 0.3 ? "bullish" : avgSentiment < -0.3 ? "bearish" : "neutral";
 
   // Build partnership network
-  const partnershipNetwork = Array.from(partnershipMap.entries())
+  // First, get all normalized partnerships sorted by mention count
+  const allPartnerships = Array.from(partnershipMap.entries())
     .map(([partner, connectedCompanies]) => ({
       partner,
       mentions: connectedCompanies.size,
       connectedCompanies: Array.from(connectedCompanies),
     }))
     .sort((a, b) => b.mentions - a.mentions);
+
+  // Prefer partnerships mentioned by 2+ companies (true cross-company relationships)
+  // If none exist, show top normalized partners to provide some value
+  const crossCompanyPartnerships = allPartnerships.filter((p) => p.mentions >= 2);
+  const partnershipNetwork = crossCompanyPartnerships.length > 0
+    ? crossCompanyPartnerships
+    : allPartnerships.slice(0, 15); // Show top 15 if no cross-company partnerships
 
   // Sector analyses
   const sectorMap = new Map<string, any[]>();
@@ -241,19 +449,25 @@ export function computeMacroAnalysis(dataDir: string, targetQuarter?: string): M
       const score = insights.overallSentiment === "bullish" ? 1 : insights.overallSentiment === "bearish" ? -1 : 0;
       sectorSentiments.push(score);
 
-      // Partnerships
+      // Partnerships - normalize
       if (insights.partnerships) {
         for (const partner of insights.partnerships) {
-          sectorPartnershipMap.set(partner, (sectorPartnershipMap.get(partner) || 0) + 1);
+          const normalizedPartner = normalizePartnerName(partner);
+          if (normalizedPartner) {
+            sectorPartnershipMap.set(normalizedPartner, (sectorPartnershipMap.get(normalizedPartner) || 0) + 1);
+          }
         }
       }
     }
 
     const avgSectorSentiment = sectorSentiments.reduce((a, b) => a + b, 0) / sectorSentiments.length;
-    const topPartners = Array.from(sectorPartnershipMap.entries())
+    // Only show partners with 2+ mentions at sector level, or top 3 if none qualify
+    const allPartners = Array.from(sectorPartnershipMap.entries())
       .map(([partner, mentions]) => ({ partner, mentions }))
-      .sort((a, b) => b.mentions - a.mentions)
-      .slice(0, 5);
+      .sort((a, b) => b.mentions - a.mentions);
+    const topPartners = allPartners.filter(p => p.mentions >= 2).length > 0
+      ? allPartners.filter(p => p.mentions >= 2).slice(0, 5)
+      : allPartners.slice(0, 3);
 
     sectorAnalyses.push({
       sector: sector as BroadSector,
