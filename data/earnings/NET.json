@@ -1,0 +1,624 @@
+{
+  "company": {
+    "ticker": "NET",
+    "name": "Cloudflare Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cloud Infrastructure",
+    "cik": "0001477333"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000141",
+        "filingDate": "2025-10-30",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 30.7,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 562.027,
+        "netIncome": -1.29,
+        "operatingCashFlow": 412.703,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 644.878,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 50,
+          "Europe_Middle_East_Africa": 27,
+          "Asia_Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 251.585,
+        "capexGrowth": 124.5,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered solid quarterly revenue growth of 30.7% to $562 million, though remaining net income negative at -$1.3 million. The company continues to invest heavily in infrastructure and R&D, with capex growing 124.5% year-over-year.",
+        "keyQuotes": [],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000137",
+        "filingDate": "2025-07-31",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000137/cloud-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": 28,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 512.316,
+        "netIncome": -50.446,
+        "operatingCashFlow": 245.58,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 546.698,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe/Middle East/Africa": 28,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 145.786,
+        "capexGrowth": 136,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong quarterly results with 28% revenue growth, continued network infrastructure investment, and robust geographic diversification. Despite ongoing net losses, the company demonstrated strong operational cash flow and maintained an optimistic outlook.",
+        "keyQuotes": [],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000082",
+        "filingDate": "2025-05-08",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000082/cloud-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 479.087,
+        "netIncome": -38.454,
+        "operatingCashFlow": 145.784,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 535.649,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 92.917,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q1 2025 revenue of $479.1 million, representing continued growth with a cautious outlook. The company remains unprofitable, posting a net loss of $38.5 million, but maintained strong operating cash flow of $145.8 million.",
+        "keyQuotes": [],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000043",
+        "filingDate": "2025-02-20",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000043/cloud-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": -400995873.082,
+        "netIncome": 15077848.531,
+        "operatingCashFlow": 330.5,
+        "freeCashFlow": 226.8,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 49,
+          "domestic": 51
+        },
+        "capexAmount": 211.1,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "GDPR",
+          "Digital Services Act",
+          "NIS2 Directive",
+          "International data transfer restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare continues global expansion with cautious approach, navigating complex regulatory environment while investing in AI and global network infrastructure. Company maintains international growth strategy despite geopolitical and regulatory challenges.",
+        "keyQuotes": [
+          "We believe our offering of an integrated global network that includes facilities in China is important to our existing and potential future customers.",
+          "Our success will depend in part on our ability to manage this growth effectively",
+          "We are continuing to adapt to and develop strategies to address international markets"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000085",
+        "filingDate": "2024-11-07",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000085/cloud-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 28.1,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 430.082,
+        "netIncome": -15.331,
+        "operatingCashFlow": 253.121,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 389.795,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 14,
+          "Other": 8
+        },
+        "capexAmount": 111.884,
+        "capexGrowth": 33.8,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong Q3 performance with 28% revenue growth and robust cash flow generation. The company continues to expand globally, with particular strength in the US market, while maintaining a disciplined approach to expenses and investments.",
+        "keyQuotes": [],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000070",
+        "filingDate": "2024-08-01",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000070/cloud-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 400996000,
+        "netIncome": -15078000,
+        "operatingCashFlow": 148394000,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 370968000,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 51,
+          "Europe_Middle_East_Africa": 28,
+          "Asia_Pacific": 13,
+          "Other": 8
+        },
+        "capexAmount": 61681000,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Export control and sanctions laws potential review"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong quarterly revenue growth of 30% year-over-year to $401 million, continuing its robust expansion trajectory. Despite a net loss, the company demonstrated solid operational performance with strong cash flow generation and continued investment in network infrastructure and talent.",
+        "keyQuotes": [
+          "We have a history of net losses and may not be able to achieve or sustain profitability in the future.",
+          "Our business depends on our ability to retain and upgrade paying customers."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000050",
+        "filingDate": "2024-05-02",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000050/cloud-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 378.6,
+        "netIncome": -35.5,
+        "operatingCashFlow": 73.6,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 356.2,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 52,
+          "EMEA": 28,
+          "APAC": 12,
+          "Other": 8
+        },
+        "capexAmount": 37.97,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong Q1 2024 performance with 30% revenue growth to $378.6 million, continuing its expansion strategy. The company maintained profitability focus with positive operating cash flow of $73.6 million, while investing in growth through stock-based compensation and expanding global network infrastructure.",
+        "keyQuotes": [
+          "Our mission is to help build a better Internet",
+          "Our business model benefits from our ability to serve the needs of all customers ranging from individual developers to the largest enterprises"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000013",
+        "filingDate": "2024-02-21",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000013/cloud-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 41.02799999999979,
+        "netIncome": -27.816000000000003,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Facing intense competition from large companies with substantial infrastructure",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 48,
+          "domestic": 52
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud (China network presence)",
+          "Strategic partnerships with ISPs and telecommunications providers"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Increasing privacy and data protection regulations",
+          "Export control and trade sanctions compliance",
+          "Cross-border data transfer restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare continues to expand globally with a cautious approach, facing regulatory challenges and intense competition. The company is investing in growth, maintaining a focus on network expansion and product development, while managing operational risks.",
+        "keyQuotes": [
+          "We believe our long-term value as a company will be greater if we focus on growth and reinvest our cash flow from operations into our business",
+          "Our success depends on our ability to anticipate and respond effectively to rapid technological changes"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-23-000064",
+        "filingDate": "2023-11-02",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000064/cloud-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 335.603,
+        "netIncome": -23.535,
+        "operatingCashFlow": 168.965,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 294.1,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 52,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 13,
+          "Other": 7
+        },
+        "capexAmount": 83.58,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported solid quarterly revenue growth of 32% year-over-year, reaching $335.6 million. While still operating at a net loss, the company continues to invest in infrastructure and expand its global network, with strong cash flow from operations.",
+        "keyQuotes": [
+          "Our global network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability",
+          "We continue to see strong demand for our products across various customer segments"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-23-000056",
+        "filingDate": "2023-08-03",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000056/cloud-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 308.494,
+        "netIncome": -94.467,
+        "operatingCashFlow": 100.865,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 286.839,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 53,
+          "Europe_Middle_East_Africa": 27,
+          "Asia_Pacific": 13,
+          "Other": 7
+        },
+        "capexAmount": 56.289,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Cloudflare delivered strong Q2 2023 results with robust revenue growth of 31.5% year-over-year to $308.5 million. While maintaining net losses, the company demonstrated solid operational execution with positive operating cash flow of $100.9 million and continued investment in growth.",
+        "keyQuotes": [
+          "We have a history of rapidly growing revenue while managing costs",
+          "Our global network continues to expand and deliver value to customers"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-23-000043",
+        "filingDate": "2023-04-27",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000043/cloud-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 290.175,
+        "netIncome": -38.082,
+        "operatingCashFlow": 36.414,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 252.26,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 53,
+          "Europe_Middle_East_Africa": 27,
+          "Asia_Pacific": 13,
+          "Other": 7
+        },
+        "capexAmount": 22.511,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "export control compliance"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered solid Q1 2023 performance with 37% year-over-year revenue growth to $290.2 million. The company continues to invest in R&D and sales while maintaining a disciplined approach to expenses, resulting in a net loss of $38.1 million.",
+        "keyQuotes": [
+          "Our network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability across on-premises, hybrid, cloud, and software-as-a-service (SaaS) applications."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T02:49:16.217Z"
+}

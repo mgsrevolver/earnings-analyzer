@@ -1,0 +1,713 @@
+{
+  "company": {
+    "ticker": "MRNA",
+    "name": "Moderna Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0001682852"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001682852-25-000075",
+        "filingDate": "2025-11-06",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000075/mrna-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "freezing",
+        "revenue": 973,
+        "netIncome": -200,
+        "operatingCashFlow": -2803,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 320,
+        "marketShareMention": "Approved in 40 countries for Spikevax, first mRNA vaccines manufactured in Canada",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 80.4,
+          "Europe": 1.6,
+          "Rest_of_World": 18
+        },
+        "capexAmount": 153,
+        "capexGrowth": null,
+        "partnerships": [
+          "Australian government mRNA manufacturing facility",
+          "UK government mRNA manufacturing facility",
+          "Canadian government mRNA manufacturing collaboration",
+          "Merck oncology collaboration",
+          "Merck",
+          "Blackstone Life Sciences",
+          "GlaxoSmithKline Biologicals",
+          "National Institute of Allergy and Infectious Diseases"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a challenging quarter with declining COVID vaccine sales and a significant net loss. The company continues to invest in its diversified pipeline across vaccines and therapeutics while managing cost pressures and exploring new market opportunities.",
+        "keyQuotes": [
+          "We currently have three commercial products—Spikevax®, our original COVID vaccine, mRESVIA®, our vaccine against respiratory syncytial virus (RSV), and mNEXSPIKE®, our new COVID vaccine.",
+          "Net loss per share was $(0.51) for the third quarter of 2025, compared to net income per share of $0.03 for the third quarter of 2024."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-25-000044",
+        "filingDate": "2025-08-01",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000044/mrna-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 114,
+        "netIncome": -825,
+        "operatingCashFlow": -1956,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 221,
+        "marketShareMention": "Next-generation COVID vaccine mNEXSPIKE demonstrated non-inferior and slightly higher vaccine efficacy compared to original Spikevax",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 88,
+          "RestOfWorld": 26
+        },
+        "capexAmount": 120,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck collaboration on personalized cancer vaccines",
+          "Blackstone funding for influenza vaccine development",
+          "Merck",
+          "Blackstone Life Sciences",
+          "GlaxoSmithKline Biologicals",
+          "National Institutes of Allergy and Infectious Diseases"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Terminated pandemic influenza vaccine development funding from HHS"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Moderna continues to expand its vaccine portfolio with next-generation COVID and RSV vaccines, while maintaining a diverse clinical pipeline. The company is experiencing reduced product sales but remains focused on R&D across multiple therapeutic areas.",
+        "keyQuotes": [
+          "We expect to make mNEXSPIKE available in the U.S. for the 2025-2026 respiratory virus season",
+          "We have a diverse and extensive development pipeline of 30 development candidates across our 39 development programs, of which 35 are in clinical studies currently"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-25-000034",
+        "filingDate": "2025-05-01",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000034/mrna-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 108,
+        "netIncome": -971,
+        "operatingCashFlow": -1037,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 154,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 31,
+          "RestOfWorld": 55
+        },
+        "capexAmount": 117,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck (Individualized Neoantigen Therapy)",
+          "BARDA (Pandemic Influenza Vaccine)",
+          "NIH (RSV Patent License)",
+          "Merck",
+          "Blackstone Life Sciences",
+          "Biomedical Advanced Research and Development Authority",
+          "National Institute of Allergy and Infectious Diseases"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a significant decline in COVID vaccine sales, with reduced net product sales and continued operational losses. The company is focusing on strategic cost management, pipeline prioritization, and advancing late-stage programs like individualized neoantigen therapy.",
+        "keyQuotes": [
+          "We anticipate a decline in net product sales for the full year 2025 compared to 2024, primarily due to lower expected vaccination rates and increased competition.",
+          "We are maintaining investments in late-stage programs, including our INT, norovirus, CMV, and combination vaccine programs."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-25-000022",
+        "filingDate": "2025-02-21",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285225000022/mrna-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 872,
+        "netIncome": null,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "experienced difficulties maintaining COVID vaccine market share and gaining RSV vaccine market share",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck for individualized neoantigen therapies",
+          "Vertex for cystic fibrosis program",
+          "BARDA for pandemic influenza vaccine development",
+          "OpenAI for AI collaboration",
+          "Vertex",
+          "Merck",
+          "AstraZeneca",
+          "Blackstone Life Sciences",
+          "Immatics",
+          "UK Health Security Agency",
+          "Taiwan Food and Drug Administration",
+          "European Commission",
+          "US Government",
+          "Takeda Pharmaceutical Company",
+          "Ministry of Health Labor and Welfare of Japan",
+          "National Institutes of Allergy and Infectious Diseases"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Complex EUA and post-marketing study requirements",
+          "Potential classification of mRNA therapies as gene therapies",
+          "Increased regulatory scrutiny on vaccine safety"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna faced significant commercial challenges in 2024, with declining COVID vaccine sales and limited market penetration for its RSV vaccine. The company is focusing on cost efficiency, portfolio prioritization, and expanding its respiratory vaccine franchise while investing in AI and digital technologies.",
+        "keyQuotes": [
+          "We continue to build our differentiated commercial model, with active commercial subsidiaries in key markets",
+          "We are encouraged to see the emergence of a sizable and durable long-term COVID vaccine market",
+          "We believe that the integrated AI ecosystem we are building will accelerate our mission to deliver the greatest possible impact to people through mRNA medicines"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-24-000060",
+        "filingDate": "2024-11-07",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000060/mrna-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1820,
+        "netIncome": 13,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 443,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "unitedStates": 66.7,
+          "europe": 15.4,
+          "restOfWorld": 17.9
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck (individualized neoantigen therapy)",
+          "Blackstone Life Sciences (influenza vaccine funding)",
+          "Merck",
+          "Blackstone LifeSciences"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Moderna delivered modest quarterly results with stable revenue from COVID-19 vaccines and the launch of its new RSV vaccine. The company continues to advance its diversified pipeline across multiple therapeutic areas while maintaining financial discipline.",
+        "keyQuotes": [
+          "We are developing therapeutics and vaccines for infectious diseases, immuno-oncology, rare diseases and autoimmune diseases.",
+          "In May 2024, the U.S. Food and Drug Administration (FDA) granted approval for mRESVIA, our second approved mRNA product.",
+          "We have a diverse and extensive development pipeline of 36 development candidates across our 45 development programs"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-24-000046",
+        "filingDate": "2024-08-01",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000046/mrna-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 241,
+        "netIncome": -1279,
+        "operatingCashFlow": -2263,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 797,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 67.2,
+          "Europe": 0,
+          "RestOfWorld": 9.1
+        },
+        "capexAmount": 378,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck (individualized neoantigen therapy)",
+          "Mitsubishi Tanabe Pharma Corporation (Japan respiratory vaccine portfolio)",
+          "Biomedical Advanced Research and Development Authority (BARDA) pandemic influenza program)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Moderna is transitioning to a seasonal commercial market for COVID-19 vaccines, with reduced sales in the first half of 2024. The company received FDA approval for its RSV vaccine and continues to advance its pipeline across multiple therapeutic areas.",
+        "keyQuotes": [
+          "We anticipate that the demand for our COVID-19 vaccine will be higher in the fall and winter seasons across both hemispheres",
+          "For the full year of 2024, we expect the progression toward a seasonal commercial market to persist"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-24-000027",
+        "filingDate": "2024-05-02",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000027/mrna-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 167,
+        "netIncome": -1175,
+        "operatingCashFlow": -989,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 580,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 59.88,
+          "Europe": 0,
+          "Rest_of_World": 40.12
+        },
+        "capexAmount": 196,
+        "capexGrowth": null,
+        "partnerships": [
+          "Blackstone Life Sciences - Flu vaccine funding",
+          "Merck - Individualized neoantigen therapy",
+          "Merck",
+          "Blackstone Life Sciences"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a significant decline in COVID-19 vaccine sales as the market transitions to a seasonal commercial pattern. The company is focusing on advancing its diverse pipeline of mRNA therapies and vaccines while managing costs and exploring strategic funding options.",
+        "keyQuotes": [
+          "We anticipate that the demand for our COVID-19 vaccine will be higher in the fall and winter seasons across both hemispheres, as countries prepare for seasonal vaccination campaigns.",
+          "Research and development continues to be our top capital allocation priority."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-24-000015",
+        "filingDate": "2024-02-23",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285224000015/mrna-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 2771,
+        "netIncome": null,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "COVID-19 vaccine market transitioning from pandemic to endemic market",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck (Individualized Neoantigen Therapies)",
+          "Chiesi (Pulmonary Arterial Hypertension)",
+          "Carisma Therapeutics (CAR-M therapeutics)",
+          "CytomX Therapeutics (mRNA-based conditionally activated therapies)",
+          "Vertex",
+          "Merck",
+          "AstraZeneca",
+          "National Institute of Allergy and Infectious Diseases"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Complex mRNA regulatory classification",
+          "Post-marketing safety study requirements",
+          "Potential gene therapy regulatory burdens"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Moderna is transitioning from pandemic response to an endemic COVID-19 market, focusing on expanding its mRNA platform across respiratory, rare disease, and oncology franchises while managing manufacturing infrastructure and regulatory complexities.",
+        "keyQuotes": [
+          "We are building a differentiated commercial model, with active commercial subsidiaries in key markets across North America, Europe and the Asia-Pacific region.",
+          "Our digital and AI infrastructure allows our scientists to design novel mRNA constructs, use AI algorithms to optimize them and order them from our high throughput preclinical scale production line."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-23-000042",
+        "filingDate": "2023-11-03",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000042/mrna-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1757,
+        "netIncome": -3630,
+        "operatingCashFlow": -3740,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1372,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 52,
+          "Europe": 6,
+          "Rest of World": 42
+        },
+        "capexAmount": 487,
+        "capexGrowth": null,
+        "partnerships": [
+          "Immatics collaboration agreement",
+          "Generation Bio strategic collaboration",
+          "Existing collaborations with Merck, Vertex, AstraZeneca",
+          "Vertex",
+          "Merck",
+          "AstraZeneca",
+          "Generation Bio",
+          "OriCiro Genomics",
+          "Immatics",
+          "The Bill and Melinda Gates Foundation",
+          "Biomedical Advanced Research and Development Authority",
+          "Defense Advanced Research Projects Agency"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a challenging quarter with significant revenue decline, inventory write-downs, and a substantial net loss. The company is strategically resizing its manufacturing footprint and transitioning to a seasonal COVID-19 vaccine market, resulting in cautious financial guidance.",
+        "keyQuotes": [
+          "We completed our long-range financial planning process, incorporating revised forecasts of vaccination rates",
+          "Strategic initiative to resize our manufacturing cost structure"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-23-000027",
+        "filingDate": "2023-08-03",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000027/mrna-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 344,
+        "netIncome": -1380,
+        "operatingCashFlow": -2140,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1040,
+        "marketShareMention": "Continuing to adapt COVID-19 vaccine to emerging strains",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 2,
+          "Europe": 60,
+          "RestOfWorld": 231
+        },
+        "capexAmount": 347,
+        "capexGrowth": null,
+        "partnerships": [
+          "Merck (cancer immunotherapy)",
+          "Generation Bio (nucleic acid therapeutics)",
+          "Vertex Pharmaceuticals (collaboration)",
+          "AstraZeneca",
+          "Vertex",
+          "Merck",
+          "The Bill and Melinda Gates Foundation",
+          "Defense Advanced Research Projects Agency",
+          "Biomedical Advanced Research and Development Authority",
+          "OriCiro Genomics KK",
+          "Generation Bio"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": null,
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a significant decline in COVID-19 vaccine sales and reported a quarterly net loss of $1.38 billion, reflecting the market's transition to an endemic seasonal model. The company continues to diversify its pipeline with promising candidates in RSV, cancer immunotherapy, and emerging infectious disease vaccines.",
+        "keyQuotes": [
+          "We are developing therapeutics and vaccines for infectious diseases, immuno-oncology, rare diseases, autoimmune diseases and cardiovascular diseases",
+          "The timing of product delivery, manufacturing, and receipt of marketing approval will determine the period in which product sales are recognized"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001682852-23-000021",
+        "filingDate": "2023-05-04",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000021/mrna-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 1828,
+        "netIncome": 79,
+        "operatingCashFlow": -1225,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1816,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 1,
+          "Europe": 31.5,
+          "Rest of World": 68.5
+        },
+        "capexAmount": 113,
+        "capexGrowth": null,
+        "partnerships": [
+          "Life Edit Therapeutics",
+          "Generation Bio Co.",
+          "Government of Kenya",
+          "Merck",
+          "Vertex",
+          "Generation Bio",
+          "OriCiro Genomics",
+          "The Bill and Melinda Gates Foundation",
+          "Defense Advanced Research Projects Agency",
+          "Biomedical Advanced Research and Development Authority"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": null,
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Moderna experienced a significant decline in COVID-19 vaccine sales from $5.9B in Q1 2022 to $1.8B in Q1 2023, reflecting the shift to an endemic market. Net income dropped dramatically from $3.7B to $79M, with negative operating cash flow indicating ongoing challenges.",
+        "keyQuotes": [
+          "We expect to continue to meet the evolving needs of the endemic COVID-19 market",
+          "We perform continuous epidemiological monitoring and risk assessment of SARS-CoV-2 variants"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T04:29:44.243Z"
+}

@@ -1,0 +1,716 @@
+{
+  "company": {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Semiconductors",
+    "cik": "0001045810",
+    "fiscalYearEnd": "01-31"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000209",
+        "filingDate": "2025-08-27",
+        "reportDate": "2025-07-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": 56,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 46743,
+        "netIncome": 26422,
+        "operatingCashFlow": 42779,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2035,
+        "marketShareMention": "Recognized Blackwell revenue across 25 customer categories, led by large cloud service providers representing ~50% of Data Center revenue",
+        "customerConcentration": 39,
+        "geographicBreakdown": {
+          "United_States": 50,
+          "International": 50
+        },
+        "capexAmount": 3122,
+        "capexGrowth": null,
+        "partnerships": [
+          "U.S. government licensing for H20 products",
+          "Expanding domestic manufacturing capabilities"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Export controls on AI products",
+          "Potential new AI export regulations",
+          "Geopolitical trade complexities"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered strong Q2 performance driven by AI datacenter demand, with revenue up 56% YoY and net income up 59%. Blackwell architecture continues to ramp across multiple customer segments, demonstrating leadership in AI computing infrastructure.",
+        "keyQuotes": [
+          "We continue to ramp our Blackwell architecture, which grew 17% sequentially",
+          "Strong year-on-year growth was driven by demand for our accelerated computing platform used for large language models",
+          "Future demand for our platform will depend on our ability to support, scale, and optimize the next generation of AI models"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000116",
+        "filingDate": "2025-05-28",
+        "reportDate": "2025-04-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 44062,
+        "netIncome": 18775,
+        "operatingCashFlow": 27414,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2078,
+        "marketShareMention": "Blackwell architecture ramp expanded to all customer categories",
+        "customerConcentration": 30,
+        "geographicBreakdown": {
+          "US": 47,
+          "Singapore": 20,
+          "Taiwan": 16,
+          "China": 13,
+          "Other": 4
+        },
+        "capexAmount": 1227,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on H20 chips to China",
+          "Potential new AI export restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "NVIDIA reported strong revenue growth driven by AI data center demand, but faced significant challenges from US export controls on H20 chips to China. The company took a $4.5 billion charge for excess inventory and anticipates potential revenue impact from export restrictions.",
+        "keyQuotes": [
+          "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue.",
+          "We believe the China AI market to be a significant opportunity and the existing and new export controls will greatly hinder our ability to address this opportunity."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-25-000023",
+        "filingDate": "2025-02-26",
+        "reportDate": "2025-01-26",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": 114,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 39331,
+        "netIncome": 22091,
+        "operatingCashFlow": 64089,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "strong presence on Green500 list",
+        "customerConcentration": 34,
+        "geographicBreakdown": {
+          "UnitedStates": 47,
+          "International": 53
+        },
+        "capexAmount": 3400,
+        "capexGrowth": 209,
+        "partnerships": [
+          "Cloud Service Providers"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US Export Controls",
+          "AI Regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in fiscal 2025, driven by strong demand for AI and accelerated computing platforms, particularly in the Data Center segment. Revenue grew 114% to $130.5 billion, with net income rising 145% to $72.9 billion.",
+        "keyQuotes": [
+          "Demand for our Hopper architecture drove our significant growth for the full year",
+          "We began shipping production systems of the Blackwell architecture in the fourth quarter of fiscal year 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2024",
+        "reportDate": "2025-01-26"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000316",
+        "filingDate": "2024-11-20",
+        "reportDate": "2024-10-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 35082,
+        "netIncome": 19309,
+        "operatingCashFlow": 47460,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1585,
+        "marketShareMention": "competitive position strengthened in AI and data center markets",
+        "customerConcentration": 36,
+        "geographicBreakdown": {
+          "United_States": 42.2,
+          "Singapore": 21.9,
+          "China": 15.8,
+          "Taiwan": 16.5,
+          "Other": 3.6
+        },
+        "capexAmount": 2159,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on AI chips to China",
+          "Potential licensing restrictions on semiconductor exports"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q3 performance driven by AI and data center demand, with revenue up 94% year-over-year. The company continues to benefit from accelerated computing and generative AI trends, maintaining strong market positioning despite global trade challenges.",
+        "keyQuotes": [
+          "Advancements in accelerated computing and generative AI models have driven increased demand for our Data Center systems",
+          "Demand for the Hopper architecture is strong and our H200 offering grew significantly in the quarter"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000264",
+        "filingDate": "2024-08-28",
+        "reportDate": "2024-07-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/nvda-20240728.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 30040,
+        "netIncome": 16599,
+        "operatingCashFlow": 29833,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1721,
+        "marketShareMention": "Strong AI compute market positioning with Hopper and upcoming Blackwell architectures",
+        "customerConcentration": 45,
+        "geographicBreakdown": {
+          "United_States": 43.4,
+          "Taiwan": 19.1,
+          "Singapore": 18.7,
+          "China": 12.2,
+          "Other_Countries": 6.6
+        },
+        "capexAmount": 1346,
+        "capexGrowth": null,
+        "partnerships": [
+          "Cloud service providers",
+          "Consumer internet companies",
+          "Enterprise customers"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls to China",
+          "Licensing requirements for advanced AI chips"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q2 performance driven by strong AI and Data Center demand, with revenue growing 122% year-over-year to $30 billion. The company is positioning itself at the forefront of AI computing with Hopper and upcoming Blackwell architectures.",
+        "keyQuotes": [
+          "Hopper demand is strong, and shipments are expected to increase in the second half of fiscal 2025",
+          "We expect to ship several billion dollars in Blackwell revenue in the fourth quarter",
+          "Over the trailing four quarters, we estimate that inference drove over 40% of our Data Center revenue"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000124",
+        "filingDate": "2024-05-29",
+        "reportDate": "2024-04-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 26044,
+        "netIncome": 14881,
+        "operatingCashFlow": 15345,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1549,
+        "marketShareMention": "Continued strong growth in AI data center market",
+        "customerConcentration": 24,
+        "geographicBreakdown": {
+          "United_States": 51.8,
+          "Taiwan": 16.8,
+          "Singapore": 15.5,
+          "China": 9.6,
+          "Other_Countries": 6.3
+        },
+        "capexAmount": 369,
+        "capexGrowth": null,
+        "partnerships": [
+          "BYD",
+          "XPENG",
+          "Lucid",
+          "IM Motors",
+          "GAC's AION Hyper",
+          "Nuro"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on China shipments",
+          "Licensing requirements for advanced AI chips"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q1 performance driven by massive AI demand, with Data Center revenue up 427% year-over-year. The company continues to lead in AI computing platforms and expects strong growth from Blackwell architecture.",
+        "keyQuotes": [
+          "We expect the initial demand for Blackwell is well ahead of the projected supply for this fiscal year.",
+          "Large cloud providers continued to drive strong growth as they deploy and ramp NVIDIA AI infrastructure at scale",
+          "We have begun a broader and faster Data Center product launch cadence to meet a growing and diverse set of AI opportunities"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-24-000029",
+        "filingDate": "2024-02-21",
+        "reportDate": "2024-01-28",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 22103,
+        "netIncome": 12286,
+        "operatingCashFlow": 28090,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Strong demand across enterprise software, consumer internet, automotive, financial services, and healthcare",
+        "customerConcentration": 19,
+        "geographicBreakdown": {
+          "US": 44,
+          "International": 56
+        },
+        "capexAmount": 3500,
+        "capexGrowth": null,
+        "partnerships": [
+          "MediaTek for automotive systems",
+          "Foxconn for electric vehicles"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on AI chips to China",
+          "Potential AI regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional financial performance in fiscal 2024, with Data Center revenue growing 217% driven by AI and generative AI demand. Strong execution across computing platforms and strategic positioning in AI technology.",
+        "keyQuotes": [
+          "Demand for our data center systems and products surged in fiscal year 2024",
+          "We estimate that in fiscal year 2024, approximately 40% of Data Center revenue was for AI inference"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000227",
+        "filingDate": "2023-11-21",
+        "reportDate": "2023-10-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 18120,
+        "netIncome": 9243,
+        "operatingCashFlow": 16591,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 938,
+        "marketShareMention": "Strong ramp of Hopper GPU architecture-based HGX platform from cloud service providers",
+        "customerConcentration": 50,
+        "geographicBreakdown": {
+          "United_States": 34.8,
+          "Taiwan": 24,
+          "China": 22.2,
+          "Singapore": 14.9,
+          "Other_Countries": 4.1
+        },
+        "capexAmount": 815,
+        "capexGrowth": null,
+        "partnerships": [
+          "Microsoft Azure",
+          "Dell Technologies",
+          "HPE",
+          "Lenovo",
+          "Amdocs",
+          "Dropbox",
+          "Foxconn",
+          "Genentech",
+          "Infosys",
+          "Reliance Industries",
+          "Scaleway",
+          "Tata Group"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on AI chip sales to China",
+          "Licensing requirements for A100 and H100 products"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q3 results driven by surging AI demand, with Data Center revenue growing 279% year-over-year. The company is benefiting from massive investments in generative AI infrastructure and leading GPU technologies.",
+        "keyQuotes": [
+          "Demand for our data center systems and products has surged over the last three quarters and our demand visibility extends into next year.",
+          "Strong sales of the NVIDIA HGX platform were driven by global demand for the training and inferencing of large language models, recommendation engines, and generative AI applications."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000175",
+        "filingDate": "2023-08-28",
+        "reportDate": "2023-07-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000175/nvda-20230730.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 13507,
+        "netIncome": 6188,
+        "operatingCashFlow": 9259,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 729,
+        "marketShareMention": "Strong AI and generative AI market positioning",
+        "customerConcentration": 22,
+        "geographicBreakdown": {
+          "United_States": 44.7,
+          "Taiwan": 21,
+          "China": 20.3,
+          "Other_Countries": 14
+        },
+        "capexAmount": 537,
+        "capexGrowth": null,
+        "partnerships": [
+          "ServiceNow",
+          "Accenture",
+          "VMware",
+          "Snowflake",
+          "WPP",
+          "SoftBank",
+          "Hugging Face",
+          "MediaTek"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on China",
+          "Additional licensing requirements for A100/H100 products"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q2 performance driven by surging AI and data center demand, with revenue up 101% year-over-year. The company is at the forefront of generative AI technologies, with strong growth in compute and networking segments.",
+        "keyQuotes": [
+          "Demand for our data center systems and products has surged over the last two quarters and our demand visibility extends into next year.",
+          "Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-23-000093",
+        "filingDate": "2023-05-26",
+        "reportDate": "2023-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000093/nvda-20230430.htm"
+      },
+      "insights": {
+        "guidanceTone": "confident",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 7192,
+        "netIncome": 2043,
+        "operatingCashFlow": 2911,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 597,
+        "marketShareMention": "Strong demand from large consumer internet companies and cloud service providers",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "UnitedStates": 33.2,
+          "Taiwan": 25,
+          "China": 22.1,
+          "Singapore": 10.6,
+          "OtherCountries": 9.1
+        },
+        "capexAmount": 248,
+        "capexGrowth": null,
+        "partnerships": [
+          "Google Cloud offering NVIDIA L4 GPU",
+          "ServiceNow partnership for generative AI",
+          "Dell Technologies Project Helix for enterprise AI solutions",
+          "Medtronic AI platform collaboration",
+          "Microsoft Azure Omniverse Cloud integration"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls impacting China sales",
+          "License requirements for A100 and H100 chips"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered strong Q1 results driven by Data Center growth and generative AI demand. Revenue of $7.19B was down 13% year-over-year but up 19% sequentially, with particularly strong performance in AI and cloud computing platforms.",
+        "keyQuotes": [
+          "Growing demand for generative AI and large language models using GPUs",
+          "We launched NVIDIA AI Foundations to help businesses create and operate custom large language models",
+          "Enterprise demand for GPU platforms was strong"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-22-000166",
+        "filingDate": "2022-11-18",
+        "reportDate": "2022-10-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581022000166/nvda-20221030.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 5931,
+        "netIncome": 680,
+        "operatingCashFlow": 3393,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 551,
+        "marketShareMention": null,
+        "customerConcentration": 10,
+        "geographicBreakdown": {
+          "UnitedStates": 36.2,
+          "Taiwan": 19.4,
+          "China": 19.4,
+          "OtherCountries": 25
+        },
+        "capexAmount": 1324,
+        "capexGrowth": null,
+        "partnerships": [
+          "Microsoft cloud-based AI supercomputer",
+          "Oracle Cloud Infrastructure",
+          "Rescale HPC-as-service",
+          "Hozon Auto DRIVE platform",
+          "Polestar automotive"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export restrictions on A100 and H100 products to China",
+          "Potential China licensing complications"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "NVIDIA experienced a challenging quarter with revenue declining 17% YoY, driven by weakening gaming and professional visualization segments. Data center remains a bright spot with 31% YoY growth, but US export restrictions to China and macroeconomic headwinds are creating significant near-term uncertainty.",
+        "keyQuotes": [
+          "We believe the recent transition in verifying Ethereum cryptocurrency transactions from proof-of-work to proof-of-stake has reduced the utility of GPUs for cryptocurrency mining.",
+          "The U.S. government announced new restrictions on exports of our A100 and H100-based products to China, and any product destined for certain systems or entities in China.",
+          "These restrictions impacted third-quarter revenue, with the decline largely offset by sales of alternative products into China."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2025-11-14T02:22:26.039Z"
+}

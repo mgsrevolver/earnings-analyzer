@@ -1,0 +1,513 @@
+{
+  "company": {
+    "ticker": "SNOW",
+    "name": "Snowflake Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cloud Infrastructure",
+    "cik": "0001640147"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000187",
+        "filingDate": "2025-09-05",
+        "reportDate": "2025-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000187/snow-20250731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 1144.969,
+        "netIncome": -297.93,
+        "operatingCashFlow": 303.269,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2268.387,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 75.2,
+          "OtherAmericas": 2.7,
+          "EMEA": 16.2,
+          "AsiaPacific": 5.9
+        },
+        "capexAmount": 61.654,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Snowflake delivered solid top-line growth with Q2 revenue of $1.14B, but continues to face profitability challenges with a net loss of $297.9M. The company remains focused on AI investments and platform expansion while managing operating expenses.",
+        "keyQuotes": [
+          "We continue to invest in our AI Data Cloud platform",
+          "Our consumption-based model provides flexibility for customers"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000110",
+        "filingDate": "2025-05-30",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000110/snow-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "freezing",
+        "revenue": 1042.074,
+        "netIncome": -429.952,
+        "operatingCashFlow": 228.373,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2323.527,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 75.3,
+          "OtherAmericas": 2.8,
+          "EMEA": 16.2,
+          "AsiaPacificAndJapan": 5.7
+        },
+        "capexAmount": 44.989,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Securities class action lawsuit",
+          "Consumer data breach litigation"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Snowflake reported a challenging Q1 2025, with revenue growth but continued net losses. The company is maintaining a cautious stance, freezing headcount, and facing potential legal challenges from data breaches and securities litigation. AI investments remain a strategic focus.",
+        "keyQuotes": [
+          "We are a cloud-based data platform that enables customers to consolidate data into a single source of truth and drive meaningful insights",
+          "Our platform delivers the AI Data Cloud, a network where customers, partners, and developers can break down data silos"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000207",
+        "filingDate": "2024-08-29",
+        "reportDate": "2024-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000207/snow-20240731.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 868.823,
+        "netIncome": -317.77,
+        "operatingCashFlow": 425.333,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1848.376,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 76.4,
+          "OtherAmericas": 2.6,
+          "EMEA": 15.9,
+          "AsiaPacific": 5.1
+        },
+        "capexAmount": 35,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bearish",
+        "summary": "Snowflake delivered Q2 revenue of $868.8M, showing continued growth but with persistent net losses. The company is investing heavily in AI capabilities and expanding headcount while maintaining a cautious financial outlook.",
+        "keyQuotes": [
+          "We continue to develop and make new features generally available to customers, including our development and use of artificial intelligence and machine learning",
+          "Our platform enables customers to consolidate data into a single source of truth to drive meaningful insights and apply AI to solve business problems"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000135",
+        "filingDate": "2024-05-31",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000135/snow-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 828.709,
+        "netIncome": -316.988,
+        "operatingCashFlow": 355.468,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1950.334,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 76.26,
+          "Other Americas": 2.87,
+          "EMEA": 15.88,
+          "Asia-Pacific and Japan": 4.98
+        },
+        "capexAmount": 16.519,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Snowflake reported quarterly revenue of $828.7 million with a net loss of $317 million, reflecting continued investment in growth and AI capabilities. The company maintains a cautious outlook with expanding headcount and significant stock-based compensation.",
+        "keyQuotes": [
+          "We provide our platform through a customer-centric, consumption-based business model",
+          "Delivering the AI Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000260",
+        "filingDate": "2023-12-01",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000260/snow-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 734.173,
+        "netIncome": -214.251,
+        "operatingCashFlow": 503.542,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1605.587,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "Americas_US": 77.6,
+          "Americas_Other": 2.5,
+          "EMEA": 15,
+          "Asia-Pacific_Japan": 4.9
+        },
+        "capexAmount": 22.014,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered quarterly revenue of $734.2 million, maintaining steady growth while continuing to invest in AI technologies and expand its global footprint. The company remains unprofitable but shows strong cash flow generation and continued market expansion.",
+        "keyQuotes": [
+          "We provide our platform through a customer-centric, consumption-based business model, only charging customers for the resources they use.",
+          "We believe the goodwill balance associated with our business combinations represents the synergies expected from expanded market opportunities when integrating acquired developed technologies"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000199",
+        "filingDate": "2023-08-31",
+        "reportDate": "2023-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000199/snow-20230731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 674.018,
+        "netIncome": -227.32,
+        "operatingCashFlow": 382.635,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1523.085,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 76.6,
+          "Other_Americas": 2.6,
+          "EMEA": 15.8,
+          "Asia_Pacific_Japan": 5
+        },
+        "capexAmount": 30.483,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake reported Q2 revenue of $674 million, continuing its growth trajectory while maintaining a neutral outlook. The company continues to expand headcount and invest in AI technologies, with strong operating cash flow despite ongoing net losses.",
+        "keyQuotes": [
+          "We provide a platform which enables customers to consolidate data into a single source of truth",
+          "Through its platform, the Company delivers the Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000102",
+        "filingDate": "2023-06-02",
+        "reportDate": "2023-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000102/snow-20230430.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 623.599,
+        "netIncome": -226.064,
+        "operatingCashFlow": 299.444,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1574.597,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 77.4,
+          "OtherAmericas": 2.7,
+          "EMEA": 15.2,
+          "AsiaPacific": 4.6
+        },
+        "capexAmount": 16.311,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered solid revenue growth of 47.7% YoY to $623.6M while maintaining a cautious financial approach. The company continues investing in R&D and AI technologies, with strategic acquisitions like Mountain US Corporation and LeapYear Technologies, but remains unprofitable with a net loss of $226.1M.",
+        "keyQuotes": [
+          "We are a Delaware corporation with a globally distributed workforce and no corporate headquarters.",
+          "We provide a cloud-based data platform, which enables customers to consolidate data into a single source of truth to drive meaningful business insights."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000030",
+        "filingDate": "2023-03-29",
+        "reportDate": "2023-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000030/snow-20230131.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 33.90999999999963,
+        "netIncome": -129.865,
+        "operatingCashFlow": 545.6,
+        "freeCashFlow": 496.5,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "domestic": 79,
+          "international": 21
+        },
+        "capexAmount": 49.1,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Snowflake continues to grow revenue rapidly but remains unprofitable, with cautious guidance amid macroeconomic uncertainty. The company is investing heavily in sales, marketing, and R&D while focusing on large enterprise customers.",
+        "keyQuotes": [
+          "We have a history of operating losses and may not achieve or sustain profitability in the future.",
+          "We expect our costs and expenses to increase in future periods."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2022",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2022,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2022",
+        "reportDate": "2023-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-22-000100",
+        "filingDate": "2022-12-02",
+        "reportDate": "2022-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014722000100/snow-20221031.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 557.028,
+        "netIncome": -201.442,
+        "operatingCashFlow": 328.323,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1207.034,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 79.2,
+          "Other Americas": 2.1,
+          "EMEA": 14.2,
+          "Asia-Pacific and Japan": 4.4
+        },
+        "capexAmount": 19.766,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered solid quarterly revenue growth of $557 million, but continues to post significant net losses as it invests heavily in product development and market expansion. The company showed strong operating cash flow and made strategic AI-related acquisitions, suggesting a focus on long-term growth.",
+        "keyQuotes": [
+          "We are a globally distributed workforce with no corporate headquarters",
+          "Our platform delivers the Data Cloud, a network where customers, partners, and data providers can break down data silos"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2022,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-10-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 9,
+  "lastUpdated": "2025-11-14T02:31:12.424Z"
+}

@@ -1,0 +1,580 @@
+{
+  "company": {
+    "ticker": "TSLA",
+    "name": "Tesla Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "AI/ML",
+    "cik": "0001318605"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-035806",
+        "filingDate": "2025-07-24",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 22496,
+        "netIncome": 1190,
+        "operatingCashFlow": 4696,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3237,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 52.5,
+          "China": 19.1,
+          "Other International": 28.4
+        },
+        "capexAmount": 3886,
+        "capexGrowth": -23,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Automotive regulatory credit program changes"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Tesla experienced a decline in quarterly revenue and net income compared to the previous year, driven by challenges in automotive sales and regulatory credit markets. The company remains focused on cost reduction, AI investments, and launching new services like Robotaxi.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products and services",
+          "In June 2025, we launched our Robotaxi service in Austin, capitalizing on our AI investments and scalable mobility infrastructure",
+          "We continue to ramp production and build and optimize our manufacturing capacity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-018911",
+        "filingDate": "2025-04-23",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 19335,
+        "netIncome": 420,
+        "operatingCashFlow": 2156,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3243,
+        "marketShareMention": "Maintaining momentum as competitors enter EV market",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 0.53,
+          "China": 0.22,
+          "Other": 0.25
+        },
+        "capexAmount": 1492,
+        "capexGrowth": -46.3,
+        "partnerships": [
+          "North American Charging Standard (NACS) adoption"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Import tariffs",
+          "Trade policy uncertainties",
+          "Battery cell import restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Tesla faced challenges in Q1 2025 with declining revenues and net income, driven by production line changeovers and macro headwinds. The company remains focused on cost reduction, production efficiency, and expanding AI and autonomous vehicle capabilities.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
+          "Changes in government and economic incentives or tariffs may impact our production, cost structure and the competitive landscape"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-25-003063",
+        "filingDate": "2025-01-30",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 25707,
+        "netIncome": 2270,
+        "operatingCashFlow": 14923,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3599,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 11340,
+        "capexGrowth": 27.4,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Changes in government EV incentives",
+          "Charging infrastructure regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Tesla experienced revenue growth of 1% to $97.69 billion in 2024, with net income declining to $7.09 billion due to price reductions and increased operational costs. The company continues to focus on cost reduction, production efficiency, and AI investments.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
+          "Our cost reduction efforts, cost innovation strategies, and additional localized procurement and manufacturing are key to our vehicles' affordability"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-043486",
+        "filingDate": "2024-10-24",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024043486/tsla-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 25182,
+        "netIncome": 2183,
+        "operatingCashFlow": 10109,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3031,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "China": 22.5,
+          "Other International": 27.5
+        },
+        "capexAmount": 8556,
+        "capexGrowth": 29.8,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "automotive regulatory credits",
+          "environmental regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Tesla delivered steady quarterly performance with modest revenue growth and maintained a cautious outlook amid production challenges and supply chain constraints. The company continues to focus on cost reduction, AI investments, and expanding manufacturing capacity.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
+          "We continue to ramp production and build and optimize our manufacturing capacity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-032662",
+        "filingDate": "2024-07-24",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024032662/tsla-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 25500,
+        "netIncome": 1494,
+        "operatingCashFlow": 3854,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 6249,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 52,
+          "China": 18,
+          "OtherInternational": 30
+        },
+        "capexAmount": 5043,
+        "capexGrowth": 22,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Tesla experienced a decline in quarterly net income and revenues, with challenging macroeconomic conditions and production ramp challenges. The company initiated significant workforce reductions and remains focused on cost control and operational efficiency.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
+          "We continue to ramp production and build and optimize our manufacturing capacity, expand our operations while focusing on further cost reductions and operational efficiencies"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-017503",
+        "filingDate": "2024-04-24",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024017503/tsla-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 21301,
+        "netIncome": 1144,
+        "operatingCashFlow": 242,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3214,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 45.8,
+          "China": 21.6,
+          "Other_International": 32.6
+        },
+        "capexAmount": 2773,
+        "capexGrowth": 33.8,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Tesla experienced a challenging Q1 2024 with declining revenues and profitability, facing production disruptions, price reductions, and macroeconomic headwinds. The company is focusing on cost reduction, efficiency improvements, and AI-driven innovations to navigate the challenging automotive market.",
+        "keyQuotes": [
+          "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
+          "Changes in government and economic incentives in relation to electric vehicles may also impact our sales"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-24-002390",
+        "filingDate": "2024-01-29",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "expanding",
+        "revenue": 25167,
+        "netIncome": 7966,
+        "operatingCashFlow": 13256,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3536,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 8900,
+        "capexGrowth": 24.3,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "government incentive changes"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Tesla generated record revenues of $96.8 billion in 2023, with net income of $15.0 billion. The company continues to focus on cost reduction, production expansion, and technological innovation across automotive and energy segments.",
+        "keyQuotes": [
+          "We are focused on growing our manufacturing capacity, which includes capacity for manufacturing new vehicle models such as our Cybertruck and next generation platform",
+          "Our business has been consistently generating cash flow from operations in excess of our level of capital spend"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-23-034847",
+        "filingDate": "2023-10-23",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828023034847/tsla-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "freezing",
+        "revenue": 23350,
+        "netIncome": 1878,
+        "operatingCashFlow": 8886,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3059,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 46.6,
+          "China": 21.5,
+          "Other_International": 32
+        },
+        "capexAmount": 6592,
+        "capexGrowth": 24.4,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "NHTSA investigations",
+          "DOJ document requests"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Tesla delivered strong revenue growth of $23.35 billion in Q3, but experienced a decline in net income to $1.878 billion. The company continues to focus on cost reduction, operational efficiency, and expanding production capacity while managing regulatory scrutiny.",
+        "keyQuotes": [
+          "We continue to focus on further cost reductions and operational efficiencies while maximizing delivery volumes",
+          "We are currently focused on increasing vehicle production, capacity and delivery capabilities"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000950170-23-033872",
+        "filingDate": "2023-07-24",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023033872/tsla-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 24927,
+        "netIncome": 2614,
+        "operatingCashFlow": 5578,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3021,
+        "marketShareMention": "increasing market share of retrofit solar energy systems",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 45.4,
+          "China": 23,
+          "Other_International": 31.6
+        },
+        "capexAmount": 4132,
+        "capexGrowth": 18.1,
+        "partnerships": [
+          "North American Charging Standard (NACS) adoption by other automotive manufacturers"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Environmental regulations",
+          "Trade uncertainties"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Tesla delivered strong Q2 2023 performance with $24.9B in revenue and $2.6B in net income, driven by continued production ramp-up and cost reduction efforts. The company remains focused on expanding manufacturing capacity, improving vehicle affordability, and investing in AI and robotics technologies.",
+        "keyQuotes": [
+          "We are focused on growing our manufacturing capacity",
+          "Our goals are to improve vehicle performance, decrease production costs and increase affordability",
+          "We continue to focus on improving our profitability through production and operational efficiencies"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000950170-23-013890",
+        "filingDate": "2023-04-24",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017023013890/tsla-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 23329,
+        "netIncome": 2539,
+        "operatingCashFlow": 2513,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3040,
+        "marketShareMention": "We expect to continue to benefit from ongoing electrification of the automotive sector",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 48.2,
+          "China": 21,
+          "Other_International": 30.8
+        },
+        "capexAmount": 2072,
+        "capexGrowth": 17.2,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Inflationary pressures",
+          "Interest rate increases"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Tesla delivered strong revenue growth of 24% to $23.3 billion, driven by increased Model 3 and Model Y deliveries across global factories. However, net income declined due to price reductions and macroeconomic challenges.",
+        "keyQuotes": [
+          "We are focused on growing our manufacturing capacity",
+          "Our goals are to improve vehicle performance, decrease production costs and increase affordability",
+          "We continue to focus on improving our profitability through production and operational efficiencies"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 10,
+  "lastUpdated": "2025-11-14T02:13:05.459Z"
+}

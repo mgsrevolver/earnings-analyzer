@@ -1,0 +1,329 @@
+{
+  "company": {
+    "ticker": "BBBY",
+    "name": "Bed Bath & Beyond Inc.",
+    "category": [
+      "WSB"
+    ],
+    "sector": "Consumer",
+    "subCategory": "Other",
+    "cik": "0000886158"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000886158-22-000150",
+        "filingDate": "2022-09-30",
+        "reportDate": "2022-08-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615822000150/bbby-20220827.htm"
+      },
+      "insights": {
+        "guidanceTone": "negative",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1437.018,
+        "netIncome": -366.159,
+        "operatingCashFlow": -582.425,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Ongoing store fleet optimization, closing approximately 150 lower-producing stores",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 226.5,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Bed Bath & Beyond continues to face significant financial challenges, with steep revenue decline and substantial net losses. The company is undertaking aggressive cost-cutting measures, including workforce reductions and store closures, to stabilize its financial position.",
+        "keyQuotes": [
+          "On August 31, 2022, the Company announced the planned closure of approximately 150 lower-producing Bed Bath & Beyond banner stores",
+          "The Company recorded $54.2 million and $77.3 million in restructuring and transformation initiative expenses"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2022",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2022,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2022,
+        "quarter": "Q3 2022",
+        "reportDate": "2022-08-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000886158-22-000081",
+        "filingDate": "2022-06-29",
+        "reportDate": "2022-05-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615822000081/bbby-20220528.htm"
+      },
+      "insights": {
+        "guidanceTone": "negative",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1463.418,
+        "netIncome": -357.666,
+        "operatingCashFlow": -383.551,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Not explicitly mentioned",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 100,
+          "International": 0
+        },
+        "capexAmount": 104.852,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Bed Bath & Beyond experienced significant financial challenges in Q2 2022, with steep revenue decline and substantial net loss. The company continues its business transformation amid challenging retail conditions, focusing on digital strategy and cost control.",
+        "keyQuotes": [
+          "We are driving a digital-first, omni-always growth strategy",
+          "We have created a more focused portfolio through the divestiture of non-core assets"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2022",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2022,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2022,
+        "quarter": "Q2 2022",
+        "reportDate": "2022-05-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000886158-21-000040",
+        "filingDate": "2021-09-30",
+        "reportDate": "2021-08-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615821000040/bbby-20210828.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1984.696,
+        "netIncome": -73.215,
+        "operatingCashFlow": 46.038,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "domestic": 100,
+          "international": 0
+        },
+        "capexAmount": 149.475,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Bed Bath & Beyond experienced a challenging quarter with significant revenue decline and net loss, driven by ongoing store transformation initiatives and inventory rationalization. The company continues to restructure operations and close stores while facing challenging retail market conditions.",
+        "keyQuotes": [
+          "We recorded $98.2 million in restructuring and transformation initiative expenses for the quarter",
+          "The company is planning to close approximately 200 mostly Bed Bath & Beyond stores by the end of fiscal 2021"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2021",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2021,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2021,
+        "quarter": "Q3 2021",
+        "reportDate": "2021-08-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000886158-21-000030",
+        "filingDate": "2021-06-30",
+        "reportDate": "2021-05-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615821000030/bbby-20210529.htm"
+      },
+      "insights": {
+        "guidanceTone": "negative",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1953.812,
+        "netIncome": -50.874,
+        "operatingCashFlow": -28.741,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 73.521,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Bed Bath & Beyond continues to struggle with significant financial challenges, reporting a net loss and negative operating cash flow. The company is undergoing extensive restructuring, including store closures and transformation initiatives, indicating ongoing operational difficulties.",
+        "keyQuotes": [
+          "During the first quarter of fiscal 2021, the Company had store closing activities for 16 Bed Bath & Beyond stores as part of its store network optimization program",
+          "The Company expects to close an additional 40 stores by the end of fiscal 2021"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2021",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2021,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2021,
+        "quarter": "Q2 2021",
+        "reportDate": "2021-05-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000886158-20-000026",
+        "filingDate": "2020-10-01",
+        "reportDate": "2020-08-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615820000026/bbby10q-2020q2.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "reducing",
+        "revenue": 2687.968,
+        "netIncome": 217.9,
+        "operatingCashFlow": 148.858,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 79.321,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Bed Bath & Beyond reported a quarterly turnaround with positive net income of $217.9 million, driven by cost management and restructuring efforts during COVID-19. The company implemented significant workforce reductions and store closures while expanding digital capabilities.",
+        "keyQuotes": [
+          "In May 2020, the Company announced a phased approach to re-open its stores across North America, subject to state and local regulations",
+          "The Company has proactively taken steps to strengthen its financial position and liquidity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2020",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2020,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2020,
+        "quarter": "Q3 2020",
+        "reportDate": "2020-08-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000886158-20-000018",
+        "filingDate": "2020-07-08",
+        "reportDate": "2020-05-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/886158/000088615820000018/bbby10q-2020q1.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 1307.447,
+        "netIncome": -302.291,
+        "operatingCashFlow": -394.624,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 42.351,
+        "capexGrowth": null,
+        "partnerships": [
+          "1-800-FLOWERS.COM (attempted PMall sale)",
+          "Decorist (online interior design platform)"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "COVID-19 pandemic store closures",
+          "California waste disposal investigation"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Bed Bath & Beyond experienced significant financial challenges in Q2 2020, with COVID-19 pandemic causing massive store closures and a net loss of $302 million. The company is undertaking aggressive cost-cutting and transformation strategies while navigating unprecedented retail disruption.",
+        "keyQuotes": [
+          "COVID-19 pandemic served as a catalyst to accelerate the pace of change and innovation across the Company",
+          "The Company has been further evaluating its product assortment and taking aggressive steps to rationalize the assortment"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2020",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2020,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2020,
+        "quarter": "Q2 2020",
+        "reportDate": "2020-05-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 6,
+  "lastUpdated": "2025-11-14T05:36:37.380Z"
+}
