@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "analyze-all": "tsx scripts/analyze-all-companies.ts"
+    "analyze-all": "tsx scripts/analyze-all-companies.ts",
+    "analyze": "tsx scripts/analyze-tickers.ts",
+    "macro": "tsx scripts/regenerate-macro.ts"
   },
   "repository": {
     "type": "git",
