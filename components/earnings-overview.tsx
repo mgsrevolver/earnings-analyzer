@@ -95,6 +95,26 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
     }
   };
 
+  // Custom tooltip component for dark mode support
+  const CustomTooltip = ({ active, payload, label }: any) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="bg-background border border-border rounded-lg shadow-lg p-3">
+          <p className="text-sm font-semibold text-foreground mb-2">{label}</p>
+          {payload.map((entry: any, index: number) => (
+            <div key={index} className="flex items-center justify-between gap-4">
+              <span className="text-xs text-muted-foreground">{entry.name}:</span>
+              <span className="text-sm font-medium text-foreground">
+                {formatCurrency(entry.value)}
+              </span>
+            </div>
+          ))}
+        </div>
+      );
+    }
+    return null;
+  };
+
   // Generate overall analysis summary
   const generateSummary = () => {
     const sentiments = results.reports.map((r) => r.insights.overallSentiment);
@@ -227,10 +247,11 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
                 tickFormatter={(value) => formatCurrency(value)}
                 stroke="hsl(var(--muted-foreground))"
               />
-              <Tooltip
-                formatter={(value: number) => formatCurrency(value)}
+              <Tooltip content={<CustomTooltip />} />
+              <Legend
+                wrapperStyle={{ color: 'hsl(var(--foreground))' }}
+                iconType="line"
               />
-              <Legend />
               <Line
                 yAxisId="left"
                 type="monotone"
