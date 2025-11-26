@@ -158,12 +158,12 @@ export function EarningsAnalyzer({
                       {results.reports.map((report, index) => (
                         <Card key={index}>
                           <CardHeader>
-                            <div className="flex items-start justify-between">
+                            <div className="flex flex-col sm:flex-row items-start sm:justify-between gap-2 sm:gap-0">
                               <div>
-                                <CardTitle className="text-lg">
+                                <CardTitle className="text-base sm:text-lg">
                                   {report.quarter}
                                 </CardTitle>
-                                <CardDescription>
+                                <CardDescription className="text-xs sm:text-sm">
                                   {report.filing.form} • Filed{' '}
                                   {new Date(
                                     report.filing.filingDate
@@ -177,7 +177,7 @@ export function EarningsAnalyzer({
                                 <Badge
                                   className={getSentimentColor(
                                     report.insights.overallSentiment
-                                  )}
+                                  ) + " text-xs"}
                                 >
                                   {report.insights.overallSentiment}
                                 </Badge>
@@ -192,37 +192,37 @@ export function EarningsAnalyzer({
                               </p>
                             </div>
 
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
                               <div>
-                                <p className="text-xs text-muted-foreground">
+                                <p className="text-[10px] sm:text-xs text-muted-foreground mb-1">
                                   Revenue
                                 </p>
-                                <p className="text-lg font-semibold">
+                                <p className="text-sm sm:text-lg font-semibold">
                                   {formatCurrency(report.insights.revenue)}
                                 </p>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">
+                                <p className="text-[10px] sm:text-xs text-muted-foreground mb-1">
                                   Net Income
                                 </p>
-                                <p className="text-lg font-semibold">
+                                <p className="text-sm sm:text-lg font-semibold">
                                   {formatCurrency(report.insights.netIncome)}
                                 </p>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">
+                                <p className="text-[10px] sm:text-xs text-muted-foreground mb-1">
                                   Guidance
                                 </p>
-                                <Badge variant="outline">
+                                <Badge variant="outline" className="text-[10px] sm:text-xs px-1 sm:px-2">
                                   {report.insights.guidanceDirection ||
                                     'unknown'}
                                 </Badge>
                               </div>
                               <div>
-                                <p className="text-xs text-muted-foreground">
+                                <p className="text-[10px] sm:text-xs text-muted-foreground mb-1">
                                   Tone
                                 </p>
-                                <Badge variant="outline">
+                                <Badge variant="outline" className="text-[10px] sm:text-xs px-1 sm:px-2">
                                   {report.insights.guidanceTone || 'unknown'}
                                 </Badge>
                               </div>

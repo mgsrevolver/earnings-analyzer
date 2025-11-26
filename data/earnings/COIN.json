@@ -21,7 +21,7 @@
       },
       "insights": {
         "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
@@ -31,7 +31,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Premier global platform for crypto derivatives after Deribit acquisition",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": 81.3,
@@ -40,21 +40,18 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Deribit acquisition",
-          "Circle USDC stablecoin partnership"
+          "Deribit (derivatives exchange acquisition)"
         ],
         "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Evolving crypto regulatory landscape"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Coinbase delivered strong quarterly performance with $1.8B revenue and $432.6M net income, driven by strategic acquisition of Deribit derivatives exchange and continued market leadership in crypto trading and custody services.",
+        "summary": "Coinbase delivered strong Q3 2025 performance with revenues of $1.8B and net income of $432.6M, driven by transaction and subscription revenue. The company completed a strategic acquisition of Deribit and continues to expand its crypto platform capabilities.",
         "keyQuotes": [
           "We provide a trusted platform that serves as a compliant on-ramp to the onchain economy",
-          "The acquisition of Deribit will play a key role in our goal to be the premier global platform for crypto derivatives"
+          "We believe this strategic acquisition will play a key role in our goal to be the premier global platform for crypto derivatives"
         ],
         "marketData": {
           "priceOnEarningsDate": 337.489990234375,
@@ -63,8 +60,8 @@
           "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 72,
+          "guidanceAccuracyScoreWeighted": 70,
+          "compositeSentimentScore": 71,
           "compositeSentiment": "bullish"
         }
       },
@@ -88,10 +85,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000154/coin-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
+        "guidanceTone": "confident",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 1420.096,
         "netIncome": 1428.9,
@@ -99,27 +96,28 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "Expanding derivatives platform through Deribit acquisition",
         "customerConcentration": null,
         "geographicBreakdown": {
           "US": 86.3,
           "International": 13.7
         },
-        "capexAmount": null,
+        "capexAmount": 67.234,
         "capexGrowth": null,
         "partnerships": [
-          "Sentillia B.V."
+          "Deribit acquisition",
+          "Multi-year technology services agreement"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "SEC lawsuit resolution",
-          "State securities regulators investigations"
+          "SEC lawsuit resolved",
+          "State securities regulators investigations ongoing"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": true,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Coinbase delivered strong quarterly performance with robust revenue of $1.42B and net income of $1.43B, demonstrating resilience amid regulatory challenges. The company maintained a positive outlook with stable operations and continued strategic focus.",
+        "summary": "Coinbase delivered strong quarterly performance with robust revenue and net income, driven by crypto market recovery and strategic positioning. The company successfully navigated regulatory challenges and continues to expand its global crypto platform.",
         "keyQuotes": [
           "We provide a trusted platform that serves as a compliant on-ramp to the onchain economy",
           "Deribit acquisition will play a key role in our goal to be the premier global platform for crypto derivatives"
@@ -128,12 +126,12 @@
           "priceOnEarningsDate": 350.489990234375,
           "priceAfter7Days": 357.1000061035156,
           "priceChangePercent": 1.8859357052452377,
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 57,
-          "compositeSentiment": "neutral"
+          "guidanceAccuracyScoreWeighted": 75,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2025",
@@ -156,7 +154,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000089/coin-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "maintained",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -176,18 +174,18 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Sentillia B.V. (Deribit) acquisition planned"
+          "Deribit acquisition"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple state securities regulator actions",
-          "Ongoing SEC regulatory scrutiny"
+          "State securities regulator actions",
+          "SEC lawsuit"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "confident",
         "overallSentiment": "neutral",
-        "summary": "Coinbase reported modest Q1 2025 financial performance with revenue of $1.96B and net income of $65.6M, reflecting a cautious market environment. The company continues to navigate complex regulatory landscapes while expanding institutional crypto services.",
+        "summary": "Coinbase delivered $1.96B in Q1 2025 revenue with $65.6M net income, showing resilience amid regulatory challenges. The company continues to focus on expanding crypto derivatives and global presence, highlighted by the planned Deribit acquisition.",
         "keyQuotes": [
           "We continued to make progress against our mission by launching advanced trading tools, scaling derivatives globally, and growing our institutional and consumer user base.",
           "We plan to dynamically adjust our expense base in order to be responsive to market conditions and revenue opportunities"
@@ -196,12 +194,12 @@
           "priceOnEarningsDate": 172.22999572753906,
           "priceAfter7Days": 157.27999877929688,
           "priceChangePercent": -8.680251593277912,
-          "managementToneScore": 25,
+          "managementToneScore": 70,
           "earningsBeatScore": 50,
           "priceActionScore": 15,
           "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 37,
-          "compositeSentiment": "bearish"
+          "compositeSentimentScore": 42,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2025",
@@ -217,70 +215,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001679788-25-000022",
-        "filingDate": "2025-02-13",
-        "reportDate": "2024-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000022/coin-20241231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 6299.995903781,
-        "netIncome": null,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "SEC lawsuit",
-          "State securities regulators investigations",
-          "Evolving crypto asset regulations"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Coinbase faces significant regulatory challenges in 2024, with ongoing SEC litigation and state-level investigations creating substantial uncertainty. Despite revenue growth to $6.3 billion, the company continues to navigate a complex and restrictive regulatory environment.",
-        "keyQuotes": [
-          "We face significant intervention by regulatory authorities, including extensive examination and surveillance activities",
-          "Adverse changes to, or our failure to comply with, any laws and regulations have had, and may continue to have, an adverse effect on our reputation and brand and our business, operating results, and financial condition"
-        ],
-        "marketData": {
-          "priceOnEarningsDate": 248.3000030517578,
-          "priceAfter7Days": 264.3299865722656,
-          "priceChangePercent": 6.45589340454675,
-          "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
-        }
-      },
-      "quarter": "Q4 2024",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2024,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2024,
-        "quarter": "Q4 2024",
-        "reportDate": "2024-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001679788-24-000187",
         "filingDate": "2024-10-30",
         "reportDate": "2024-09-30",
@@ -288,14 +222,14 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000187/coin-20240930.htm"
       },
       "insights": {
+        "revenue": 1128.597,
+        "netIncome": 75.495,
         "guidanceTone": "positive",
         "guidanceDirection": "raised",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
-        "revenue": 1128.6,
-        "netIncome": 75.5,
-        "operatingCashFlow": 1592.2,
+        "operatingCashFlow": 1592.226,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
@@ -314,10 +248,10 @@
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Coinbase delivered strong Q3 performance with quarterly revenue of $1.13 billion and net income of $75.5 million, driven by robust transaction and subscription revenues. The company continues to demonstrate financial resilience in the crypto market with positive momentum.",
+        "summary": "Coinbase delivered strong quarterly performance with revenue of $1.13 billion and net income of $75.5 million, driven by growth in transaction and subscription revenues. The company continues to benefit from the recovery in cryptocurrency markets and maintains a robust financial position.",
         "keyQuotes": [
-          "Our total revenue continues to show strong growth driven by both transaction and subscription services",
-          "We remain focused on managing operating expenses while investing strategically in our platform"
+          "We continue to provide a trusted platform that serves as a compliant gateway to the onchain economy",
+          "Our business strategy remains focused on expanding institutional and retail crypto engagement"
         ],
         "marketData": {
           "priceOnEarningsDate": 178.1699981689453,
@@ -351,34 +285,36 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978824000149/coin-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
         "revenue": 1379.942,
         "netIncome": 36.15,
         "operatingCashFlow": 895.682,
         "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "marketShareMention": null,
         "customerConcentration": null,
+        "aiInvestmentMentioned": false,
+        "supplyChainStatus": "normal",
+        "overallSentiment": "bullish",
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "deferredRevenue": null,
+        "capexAmount": null,
+        "capexGrowth": null,
         "geographicBreakdown": {
           "US": 85,
           "International": 15
         },
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
+        "bookingsGrowth": null,
         "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Coinbase delivered strong Q2 2024 performance with revenue of $1.38B and net income of $36.2M, driven by continued crypto market recovery and platform expansion. Operating cash flow remains robust at $895.7M, indicating solid financial health.",
-        "keyQuotes": [],
+        "partnerships": [],
+        "summary": "Coinbase delivered strong Q2 2024 performance with revenue of $1.38 billion and net income of $36.15 million, showing resilience in the crypto market. The company maintained a confident tone and demonstrated positive operational cash flow.",
+        "keyQuotes": [
+          "The Company provides a trusted platform that serves as a compliant gateway to the onchain economy",
+          "We are remote-first and do not maintain a headquarters"
+        ],
         "marketData": {
           "priceOnEarningsDate": 233.3699951171875,
           "priceAfter7Days": 220.55999755859375,
@@ -386,8 +322,8 @@
           "managementToneScore": 100,
           "earningsBeatScore": 50,
           "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 52,
+          "guidanceAccuracyScoreWeighted": 50,
+          "compositeSentimentScore": 48,
           "compositeSentiment": "neutral"
         }
       },
@@ -425,22 +361,22 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 82.6,
-          "International": 17.4
+          "United States": 82.66,
+          "International": 17.34
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Coinbase delivered a strong Q1 2024 with significant revenue and net income growth, driven by continued recovery in crypto markets and diversified revenue streams. The company demonstrated robust financial performance with increased transaction volumes and strategic investment in crypto assets.",
+        "summary": "Coinbase delivered a strong Q1 2024 with significant revenue and net income growth, driven by robust transaction and subscription revenues. The company demonstrated operational efficiency and continued to benefit from the crypto market recovery.",
         "keyQuotes": [
-          "Our total revenue reflects the ongoing recovery and growth in the cryptoeconomy",
-          "We continue to expand our institutional and consumer crypto offerings"
+          "Providing a trusted platform that serves as a compliant gateway to the onchain economy",
+          "Enables customers to engage in a wide variety of activities in the cryptoeconomy"
         ],
         "marketData": {
           "priceOnEarningsDate": 252.11000061035156,
@@ -475,17 +411,17 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "lowered",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
-        "revenue": 2899.997978096,
-        "netIncome": null,
+        "revenue": 878.098,
+        "netIncome": 178.56099999999998,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "facing intense competition from regulated and unregulated crypto platforms",
+        "marketShareMention": "competing against unregulated or less regulated companies",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": null,
@@ -493,18 +429,19 @@
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "SEC lawsuit alleging unregistered securities exchange",
-          "State-level investigations into staking services",
-          "Evolving global regulatory landscape for crypto assets"
+          "SEC lawsuit",
+          "State securities regulators investigations",
+          "Evolving crypto asset regulations",
+          "Potential securities classification challenges"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": false,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Coinbase faces significant regulatory challenges and market uncertainties in 2023, with revenue declining to $2.9 billion amid crypto market volatility and increased regulatory scrutiny. The company is navigating complex legal and compliance landscapes while managing operational costs.",
+        "summary": "Coinbase faces significant regulatory challenges and market headwinds, with declining revenues, ongoing legal battles with SEC, and a cautious outlook for the crypto industry. The company is reducing headcount and navigating complex regulatory environments.",
         "keyQuotes": [
-          "We have expended significant managerial, operational, and compliance costs to meet the legal and regulatory requirements applicable to us",
-          "The cryptoeconomy is highly innovative, rapidly evolving, and characterized by healthy competition"
+          "We generated $7.4 billion in total net revenue for the year ended December 31, 2021, [but] our total net revenue for the years ended December 31, 2023 and 2022 declined to $2.9 billion and $3.1 billion, respectively",
+          "The 2022 Events resulted in a loss of confidence in the broader cryptoeconomy"
         ],
         "marketData": {
           "priceOnEarningsDate": 156.8800048828125,
@@ -513,8 +450,8 @@
           "managementToneScore": 5,
           "earningsBeatScore": 50,
           "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 47,
+          "guidanceAccuracyScoreWeighted": 35,
+          "compositeSentimentScore": 44,
           "compositeSentiment": "neutral"
         }
       },
@@ -538,46 +475,48 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978823000113/coin-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
-        "guidanceDirection": "not_provided",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
         "revenue": 623.004,
         "netIncome": -2.265,
         "operatingCashFlow": 928.137,
         "freeCashFlow": null,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 89.5,
-          "Rest of World": 10.5
+          "United_States": 89.5,
+          "Rest_of_World": 10.5
         },
-        "capexAmount": 0.533,
+        "capexAmount": null,
         "capexGrowth": null,
-        "partnerships": [],
+        "partnerships": [
+          "USDC"
+        ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": false,
         "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Coinbase reported quarterly revenue of $623 million with a net loss of $2.3 million. The company continues to navigate a challenging crypto market through cost-cutting measures, including a 21% workforce reduction in January 2023. Transaction and subscription revenues remained volatile.",
+        "overallSentiment": "bearish",
+        "summary": "Coinbase experienced a challenging quarter with reduced revenues and continued net losses, reflecting ongoing crypto market volatility. The company continues cost-cutting measures through restructuring while maintaining a cautious outlook.",
         "keyQuotes": [
-          "Our restructuring was intended to manage the Company's operating expenses in response to the ongoing market conditions impacting the cryptoeconomy",
-          "The future development and growth of crypto is subject to a variety of factors that are difficult to predict and evaluate"
+          "We stopped issuing new consumer loans as of May 10, 2023",
+          "Our total revenue is substantially dependent on the prices of crypto assets"
         ],
         "marketData": {
           "priceOnEarningsDate": 75.30999755859375,
           "priceAfter7Days": 79.0999984741211,
           "priceChangePercent": 5.032533579062452,
-          "managementToneScore": 30,
+          "managementToneScore": 5,
           "earningsBeatScore": 50,
           "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
+          "guidanceAccuracyScoreWeighted": 25,
+          "compositeSentimentScore": 47,
           "compositeSentiment": "neutral"
         }
       },
@@ -615,24 +554,22 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 90.1,
-          "Rest_of_World": 9.9
+          "United States": 90.1,
+          "Rest of World": 9.9
         },
-        "capexAmount": 0.379,
+        "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Extensive and evolving regulatory landscape"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
+        "priorGuidanceHit": false,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Coinbase continues to navigate a challenging crypto market with significant revenue decline and ongoing cost reduction efforts. The company executed another restructuring, reducing headcount by 21%, while maintaining a cautious outlook on the cryptocurrency ecosystem.",
+        "summary": "Coinbase continues to face challenging market conditions with reduced revenues and ongoing restructuring efforts. The company has significantly cut expenses through workforce reductions while maintaining a cautious outlook on the crypto market.",
         "keyQuotes": [
-          "The Company was impacted by market conditions impacting the cryptoeconomy",
-          "Strategic reduction of existing global workforce was intended to manage operating expenses"
+          "We stopped issuing new loans to consumers as of May 10, 2023",
+          "The 2023 Restructuring was intended to manage the Company's operating expenses in response to the ongoing market conditions"
         ],
         "marketData": {
           "priceOnEarningsDate": 71.55000305175781,
@@ -641,8 +578,8 @@
           "managementToneScore": 5,
           "earningsBeatScore": 50,
           "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 58,
+          "guidanceAccuracyScoreWeighted": 25,
+          "compositeSentimentScore": 53,
           "compositeSentiment": "neutral"
         }
       },
@@ -671,9 +608,9 @@
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
-        "revenue": 736.4,
-        "netIncome": -78.9,
-        "operatingCashFlow": 463.1,
+        "revenue": 736.398,
+        "netIncome": -78.896,
+        "operatingCashFlow": 463.078,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
@@ -683,24 +620,22 @@
           "United_States": 88.9,
           "Rest_of_World": 11.1
         },
-        "capexAmount": null,
+        "capexAmount": 15.231,
         "capexGrowth": null,
-        "partnerships": [
-          "One River Digital Asset Management acquisition"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Highly evolving and uncertain regulatory landscape",
+          "Evolving and uncertain regulatory landscape",
           "Potential sanctions and export control challenges"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Coinbase experienced significant revenue decline in Q1 2023, with transaction revenue dropping substantially. The company underwent a 21% workforce reduction and is cautiously managing expenses amid challenging crypto market conditions.",
+        "summary": "Coinbase experienced a significant revenue decline in Q1 2023, with transaction revenue dropping substantially. The company has implemented cost-cutting measures, including a 21% workforce reduction, to manage expenses in a challenging crypto market environment.",
         "keyQuotes": [
-          "Our total revenue is substantially dependent on the prices of crypto assets and volume of transactions conducted on our platform",
-          "We announced and completed a restructuring impacting approximately 21% of the Company's headcount"
+          "Our business is subject to risks and uncertainties related to the highly volatile nature of crypto",
+          "Total revenue is substantially dependent on the prices of crypto assets and volume of transactions"
         ],
         "marketData": {}
       },
@@ -717,6 +652,6 @@
     }
   ],
   "totalFetched": 12,
-  "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T07:03:54.710Z"
+  "successfulAnalyses": 10,
+  "lastUpdated": "2025-11-26T17:14:28.023Z"
 }

@@ -64,21 +64,21 @@ export function CompanySummary({ results }: CompanySummaryProps) {
   return (
     <Card className="mb-6">
       <CardHeader>
-        <CardTitle className="flex items-center justify-between">
-          <span>Performance Summary - {latestQuarter.quarter}</span>
+        <CardTitle className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0">
+          <span className="text-base sm:text-xl">Performance Summary - {latestQuarter.quarter}</span>
           <div className="flex gap-2">
             <Badge className={
               displaySentiment === "bullish"
                 ? "bg-green-100 text-green-800 dark:bg-green-950 dark:text-green-400"
                 : displaySentiment === "bearish"
                 ? "bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-400"
-                : "bg-gray-100 text-gray-800 dark:bg-gray-950 dark:text-gray-400"
+                : "bg-gray-100 text-gray-800 dark:bg-gray-950 dark:text-gray-400" + " text-xs sm:text-sm"
             }>
               {displaySentiment}
               {sentimentScore !== undefined && ` (${sentimentScore})`}
             </Badge>
             {latestQuarter.insights.guidanceDirection && (
-              <Badge variant="outline">
+              <Badge variant="outline" className="text-xs sm:text-sm">
                 {latestQuarter.insights.guidanceDirection}
               </Badge>
             )}
@@ -89,22 +89,22 @@ export function CompanySummary({ results }: CompanySummaryProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Revenue Section */}
           <div className="space-y-3">
-            <div className="text-sm font-semibold text-muted-foreground">Revenue</div>
-            <div className="text-3xl font-bold">
+            <div className="text-xs sm:text-sm font-semibold text-muted-foreground">Revenue</div>
+            <div className="text-2xl sm:text-3xl font-bold">
               {formatCurrency(latestQuarter.insights.revenue)}
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-3 sm:gap-4">
               <div className="flex items-center gap-1">
-                <span className="text-sm text-muted-foreground">QoQ:</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">QoQ:</span>
                 {getGrowthIcon(revenueQoQ)}
-                <span className={`font-semibold ${getGrowthColor(revenueQoQ)}`}>
+                <span className={`text-sm sm:text-base font-semibold ${getGrowthColor(revenueQoQ)}`}>
                   {formatGrowth(revenueQoQ)}
                 </span>
               </div>
               <div className="flex items-center gap-1">
-                <span className="text-sm text-muted-foreground">YoY:</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">YoY:</span>
                 {getGrowthIcon(revenueYoY)}
-                <span className={`font-semibold ${getGrowthColor(revenueYoY)}`}>
+                <span className={`text-sm sm:text-base font-semibold ${getGrowthColor(revenueYoY)}`}>
                   {formatGrowth(revenueYoY)}
                 </span>
               </div>
@@ -113,22 +113,22 @@ export function CompanySummary({ results }: CompanySummaryProps) {
 
           {/* Net Income Section */}
           <div className="space-y-3">
-            <div className="text-sm font-semibold text-muted-foreground">Net Income</div>
-            <div className="text-3xl font-bold">
+            <div className="text-xs sm:text-sm font-semibold text-muted-foreground">Net Income</div>
+            <div className="text-2xl sm:text-3xl font-bold">
               {formatCurrency(latestQuarter.insights.netIncome)}
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-3 sm:gap-4">
               <div className="flex items-center gap-1">
-                <span className="text-sm text-muted-foreground">QoQ:</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">QoQ:</span>
                 {getGrowthIcon(netIncomeQoQ)}
-                <span className={`font-semibold ${getGrowthColor(netIncomeQoQ)}`}>
+                <span className={`text-sm sm:text-base font-semibold ${getGrowthColor(netIncomeQoQ)}`}>
                   {formatGrowth(netIncomeQoQ)}
                 </span>
               </div>
               <div className="flex items-center gap-1">
-                <span className="text-sm text-muted-foreground">YoY:</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">YoY:</span>
                 {getGrowthIcon(netIncomeYoY)}
-                <span className={`font-semibold ${getGrowthColor(netIncomeYoY)}`}>
+                <span className={`text-sm sm:text-base font-semibold ${getGrowthColor(netIncomeYoY)}`}>
                   {formatGrowth(netIncomeYoY)}
                 </span>
               </div>

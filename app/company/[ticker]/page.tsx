@@ -34,42 +34,43 @@ export default async function CompanyPage({
   const sectorComparison = getSectorComparison(ticker.toUpperCase(), dataDir);
 
   return (
-    <main className="min-h-screen p-8 bg-background">
+    <main className="min-h-screen p-4 sm:p-8 bg-background">
       <PinnedHeader company={company} results={cachedEarnings} />
       <div className="max-w-7xl mx-auto">
         <Link href="/">
-          <Button variant="ghost" className="mb-6">
+          <Button variant="ghost" className="mb-4 sm:mb-6">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Back to Dashboard
+            <span className="hidden sm:inline">Back to Dashboard</span>
+            <span className="sm:hidden">Back</span>
           </Button>
         </Link>
 
-        <div className="mb-8">
-          <div className="flex items-start justify-between gap-6">
-            <div className="flex-1">
-              <div className="flex items-center gap-3 mb-4">
-                <Badge variant="outline" className="text-lg px-3 py-1">
+        <div className="mb-6 sm:mb-8">
+          <div className="flex flex-col sm:flex-row items-start justify-between gap-4 sm:gap-6">
+            <div className="flex-1 w-full">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+                <Badge variant="outline" className="text-base sm:text-lg px-2 sm:px-3 py-0.5 sm:py-1">
                   {company.ticker}
                 </Badge>
-                <Badge variant="secondary">
+                <Badge variant="secondary" className="text-xs sm:text-sm">
                   {company.sector}
                 </Badge>
-                <Badge variant="outline">
+                <Badge variant="outline" className="text-xs sm:text-sm">
                   {company.subCategory}
                 </Badge>
               </div>
-              <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
-              <p className="text-muted-foreground">
+              <h1 className="text-2xl sm:text-4xl font-bold mb-2">{company.name}</h1>
+              <p className="text-sm sm:text-base text-muted-foreground">
                 CIK: {company.cik}
               </p>
             </div>
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 self-center sm:self-start">
               <Image
                 src={getCompanyLogoUrl(company.ticker)}
                 alt={`${company.name} logo`}
-                width={96}
-                height={96}
-                className="rounded-lg shadow-lg"
+                width={64}
+                height={64}
+                className="rounded-lg shadow-lg sm:w-24 sm:h-24"
               />
             </div>
           </div>

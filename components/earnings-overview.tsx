@@ -229,71 +229,86 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
       {/* Financial Metrics Chart */}
       <Card>
         <CardHeader>
-          <CardTitle>Financial Performance Trend</CardTitle>
+          <CardTitle className="text-lg sm:text-xl">Financial Performance Trend</CardTitle>
         </CardHeader>
-        <CardContent>
-          <ResponsiveContainer width="100%" height={300}>
-            <LineChart data={financialData}>
+        <CardContent className="px-2 sm:px-6">
+          <ResponsiveContainer width="100%" height={250} className="sm:h-[300px]">
+            <LineChart data={financialData} margin={{ top: 5, right: 10, left: 0, bottom: 5 }}>
               <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" opacity={0.3} />
-              <XAxis dataKey="quarter" stroke="hsl(var(--muted-foreground))" />
+              <XAxis
+                dataKey="quarter"
+                stroke="hsl(var(--muted-foreground))"
+                tick={{ fontSize: 11 }}
+                className="sm:text-sm"
+              />
               <YAxis
                 yAxisId="left"
                 tickFormatter={(value) => formatCurrency(value)}
                 stroke="hsl(var(--muted-foreground))"
+                tick={{ fontSize: 11 }}
+                width={45}
+                className="sm:text-sm"
               />
               <YAxis
                 yAxisId="right"
                 orientation="right"
                 tickFormatter={(value) => formatCurrency(value)}
                 stroke="hsl(var(--muted-foreground))"
+                tick={{ fontSize: 11 }}
+                width={45}
+                className="sm:text-sm"
               />
               <Tooltip content={<CustomTooltip />} />
               <Legend
                 wrapperStyle={{ color: 'hsl(var(--foreground))' }}
                 iconType="line"
+                iconSize={10}
+                fontSize={12}
               />
               <Line
                 yAxisId="left"
                 type="monotone"
                 dataKey="revenue"
                 stroke="#60a5fa"
-                strokeWidth={2.5}
+                strokeWidth={2}
                 name="Revenue"
-                dot={{ r: 5, fill: "#60a5fa" }}
+                dot={{ r: 4, fill: "#60a5fa" }}
+                className="sm:stroke-[2.5]"
               />
               <Line
                 yAxisId="right"
                 type="monotone"
                 dataKey="netIncome"
                 stroke="#34d399"
-                strokeWidth={2.5}
+                strokeWidth={2}
                 name="Net Income"
-                dot={{ r: 5, fill: "#34d399" }}
+                dot={{ r: 4, fill: "#34d399" }}
+                className="sm:stroke-[2.5]"
               />
             </LineChart>
           </ResponsiveContainer>
 
           {/* Sentiment and Guidance badges aligned with quarters */}
-          <div className="mt-6 space-y-3">
+          <div className="mt-6 space-y-3 overflow-x-auto">
             {/* Sentiment row - use composite if available, otherwise management tone */}
-            <div className="flex items-center gap-4">
-              <div className="text-sm font-semibold min-w-[100px]">
-                {guidanceData.some(r => r.insights.marketData?.compositeSentiment) ? "Market Sentiment:" : "Mgmt Sentiment:"}
+            <div className="flex items-start gap-2 sm:gap-4 min-w-[500px] sm:min-w-0">
+              <div className="text-xs sm:text-sm font-semibold min-w-[80px] sm:min-w-[100px] pt-1">
+                {guidanceData.some(r => r.insights.marketData?.compositeSentiment) ? "Market:" : "Sentiment:"}
               </div>
-              <div className="flex justify-between flex-1 px-8">
+              <div className="flex justify-between flex-1 gap-1 sm:gap-2 px-2 sm:px-8">
                 {guidanceData.map((report, index) => {
                   const sentiment = report.insights.marketData?.compositeSentiment || report.insights.overallSentiment;
                   const score = report.insights.marketData?.compositeSentimentScore;
                   return (
-                    <div key={index} className="flex flex-col items-center gap-1">
-                      <div className="flex items-center gap-1">
+                    <div key={index} className="flex flex-col items-center gap-0.5 sm:gap-1">
+                      <div className="flex items-center gap-0.5 sm:gap-1">
                         {getSentimentIcon(sentiment)}
-                        <Badge className={getSentimentColor(sentiment) + " text-xs"}>
-                          {sentiment}
+                        <Badge className={getSentimentColor(sentiment) + " text-[10px] sm:text-xs px-1 sm:px-2 py-0 sm:py-0.5"}>
+                          {sentiment.slice(0, 4)}
                         </Badge>
                       </div>
                       {score !== undefined && (
-                        <div className={`text-xs font-semibold ${getScoreColor(score)}`}>
+                        <div className={`text-[10px] sm:text-xs font-semibold ${getScoreColor(score)}`}>
                           {score}
                         </div>
                       )}
@@ -304,12 +319,12 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
             </div>
 
             {/* Guidance row */}
-            <div className="flex items-center gap-4">
-              <div className="text-sm font-semibold min-w-[100px]">Guidance:</div>
-              <div className="flex justify-between flex-1 px-8">
+            <div className="flex items-start gap-2 sm:gap-4 min-w-[500px] sm:min-w-0">
+              <div className="text-xs sm:text-sm font-semibold min-w-[80px] sm:min-w-[100px] pt-1">Guidance:</div>
+              <div className="flex justify-between flex-1 gap-1 sm:gap-2 px-2 sm:px-8">
                 {guidanceData.map((report, index) => (
-                  <Badge key={index} className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-xs"}>
-                    {report.insights.guidanceDirection || "unknown"}
+                  <Badge key={index} className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-[10px] sm:text-xs px-1 sm:px-2 py-0 sm:py-0.5"}>
+                    {(report.insights.guidanceDirection || "unknown").slice(0, 8)}
                   </Badge>
                 ))}
               </div>

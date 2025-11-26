@@ -81,24 +81,24 @@ export function SectorComparison({
         <div className="space-y-6">
           {/* Ranking */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="p-4 border rounded-lg">
-              <p className="text-sm text-muted-foreground mb-2">
+            <div className="p-3 sm:p-4 border rounded-lg">
+              <p className="text-xs sm:text-sm text-muted-foreground mb-2">
                 Sector Ranking ({company.sector})
               </p>
               <div className="flex items-baseline gap-2">
-                <span className="text-3xl font-bold">#{ranking.inSector}</span>
-                <span className="text-sm text-muted-foreground">
+                <span className="text-2xl sm:text-3xl font-bold">#{ranking.inSector}</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">
                   of {ranking.totalInSector}
                 </span>
               </div>
             </div>
-            <div className="p-4 border rounded-lg">
-              <p className="text-sm text-muted-foreground mb-2">
+            <div className="p-3 sm:p-4 border rounded-lg">
+              <p className="text-xs sm:text-sm text-muted-foreground mb-2">
                 Category Ranking ({company.subCategory})
               </p>
               <div className="flex items-baseline gap-2">
-                <span className="text-3xl font-bold">#{ranking.inSubCategory}</span>
-                <span className="text-sm text-muted-foreground">
+                <span className="text-2xl sm:text-3xl font-bold">#{ranking.inSubCategory}</span>
+                <span className="text-xs sm:text-sm text-muted-foreground">
                   of {ranking.totalInSubCategory}
                 </span>
               </div>
@@ -110,12 +110,12 @@ export function SectorComparison({
             <h3 className="font-semibold">Key Metrics vs Averages</h3>
 
             {/* Revenue */}
-            <div className="border rounded-lg p-4">
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-medium">Revenue (Quarterly)</span>
+            <div className="border rounded-lg p-3 sm:p-4">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <span className="text-sm sm:text-base font-medium">Revenue (Quarterly)</span>
                 {getComparisonBadge(companyMetrics.revenue, subCategoryAverages.revenue)}
               </div>
-              <div className="grid grid-cols-3 gap-4 text-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-xs sm:text-sm">
                 <div>
                   <p className="text-muted-foreground">{ticker}</p>
                   <p className="font-semibold">
@@ -139,15 +139,15 @@ export function SectorComparison({
 
             {/* Capex Growth */}
             {companyMetrics.capexGrowth != null && (
-              <div className="border rounded-lg p-4">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="font-medium">Capex Growth (YoY)</span>
+              <div className="border rounded-lg p-3 sm:p-4">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                  <span className="text-sm sm:text-base font-medium">Capex Growth (YoY)</span>
                   {getComparisonBadge(
                     companyMetrics.capexGrowth,
                     subCategoryAverages.capexGrowth
                   )}
                 </div>
-                <div className="grid grid-cols-3 gap-4 text-sm">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-xs sm:text-sm">
                   <div>
                     <p className="text-muted-foreground">{ticker}</p>
                     <p className="font-semibold">
@@ -171,9 +171,9 @@ export function SectorComparison({
             )}
 
             {/* Sentiment */}
-            <div className="border rounded-lg p-4">
-              <div className="flex items-center justify-between mb-2">
-                <span className="font-medium">Overall Sentiment</span>
+            <div className="border rounded-lg p-3 sm:p-4">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <span className="text-sm sm:text-base font-medium">Overall Sentiment</span>
                 <Badge
                   variant={
                     companyMetrics.overallSentiment === "bullish"
@@ -183,15 +183,15 @@ export function SectorComparison({
                       : "secondary"
                   }
                   className={
-                    companyMetrics.overallSentiment === "bullish"
+                    (companyMetrics.overallSentiment === "bullish"
                       ? "bg-green-600"
-                      : ""
+                      : "") + " text-xs sm:text-sm"
                   }
                 >
                   {companyMetrics.overallSentiment}
                 </Badge>
               </div>
-              <p className="text-sm text-muted-foreground">
+              <p className="text-xs sm:text-sm text-muted-foreground">
                 Guidance: {companyMetrics.guidanceDirection}
                 {companyMetrics.guidanceTone && ` • Tone: ${companyMetrics.guidanceTone}`}
               </p>

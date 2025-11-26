@@ -102,8 +102,59 @@ export function PinnedHeader({ company, results }: PinnedHeaderProps) {
         isVisible ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-8 py-3">
-        <div className="flex items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-2 sm:py-3">
+        {/* Mobile Layout */}
+        <div className="sm:hidden">
+          <div className="flex items-center gap-3 mb-2">
+            <Image
+              src={getCompanyLogoUrl(company.ticker)}
+              alt={`${company.name} logo`}
+              width={32}
+              height={32}
+              className="rounded"
+            />
+            <div className="flex-1 min-w-0">
+              <h2 className="font-bold text-sm truncate">{company.name}</h2>
+              <div className="flex items-center gap-2">
+                <Badge variant="outline" className="text-xs py-0">
+                  {company.ticker}
+                </Badge>
+                <span className="text-xs text-muted-foreground">
+                  {latestReport.quarter}
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-3">
+            <div className="min-w-0">
+              <p className="text-xs text-muted-foreground mb-0.5">Revenue</p>
+              <p className="font-semibold text-base truncate">{formatCurrency(insights.revenue)}</p>
+              {revenueChanges.qoq !== null && (
+                <div className="flex items-center gap-1">
+                  {getChangeIcon(revenueChanges.qoq)}
+                  <span className={`text-xs font-medium ${getChangeColor(revenueChanges.qoq)}`}>
+                    {formatChange(revenueChanges.qoq)}
+                  </span>
+                </div>
+              )}
+            </div>
+            <div className="min-w-0">
+              <p className="text-xs text-muted-foreground mb-0.5">Net Income</p>
+              <p className="font-semibold text-base truncate">{formatCurrency(insights.netIncome)}</p>
+              {incomeChanges.qoq !== null && (
+                <div className="flex items-center gap-1">
+                  {getChangeIcon(incomeChanges.qoq)}
+                  <span className={`text-xs font-medium ${getChangeColor(incomeChanges.qoq)}`}>
+                    {formatChange(incomeChanges.qoq)}
+                  </span>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop Layout */}
+        <div className="hidden sm:flex items-center justify-between gap-6">
           {/* Company Info */}
           <div className="flex items-center gap-4">
             <Image
