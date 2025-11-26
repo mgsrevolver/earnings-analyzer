@@ -5,6 +5,7 @@ export type BroadSector =
   | "Consumer"
   | "Financial"
   | "Industrial"
+  | "Energy"
   | "Other";
 
 export type TechSubCategory =
@@ -17,7 +18,9 @@ export type TechSubCategory =
   | "Social Media"
   | "FinTech"
   | "Gaming"
-  | "Enterprise Software";
+  | "Enterprise Software"
+  | "Quantum Computing"
+  | "Data Centers";
 
 export type HealthcareSubCategory =
   | "Biotech"
@@ -25,7 +28,12 @@ export type HealthcareSubCategory =
   | "Medical Devices"
   | "Healthcare IT";
 
-export type SubCategory = TechSubCategory | HealthcareSubCategory | "Other";
+export type EnergySubCategory =
+  | "Utilities"
+  | "Renewable Energy"
+  | "Oil & Gas";
+
+export type SubCategory = TechSubCategory | HealthcareSubCategory | EnergySubCategory | "Other";
 
 // Legacy category for backward compatibility
 export type CompanyCategory =
@@ -33,6 +41,8 @@ export type CompanyCategory =
   | "Tech"
   | "Biotech"
   | "WSB"
+  | "Energy"
+  | "Infrastructure"
   | "Other";
 
 // Basic company information

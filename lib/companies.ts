@@ -293,6 +293,52 @@ export const COMPANIES: Company[] = [
     subCategory: "FinTech",
     cik: "0001783879",
   },
+
+  // Energy & Utilities
+  {
+    ticker: "CEG",
+    name: "Constellation Energy Corporation",
+    category: ["Energy"],
+    sector: "Energy",
+    subCategory: "Utilities",
+    cik: "0001868275",
+  },
+  {
+    ticker: "VST",
+    name: "Vistra Corp.",
+    category: ["Energy"],
+    sector: "Energy",
+    subCategory: "Utilities",
+    cik: "0001692819",
+  },
+
+  // Infrastructure / Data Centers
+  {
+    ticker: "CORZ",
+    name: "Core Scientific Inc.",
+    category: ["Infrastructure", "Tech"],
+    sector: "Technology",
+    subCategory: "Data Centers",
+    cik: "0001839341",
+  },
+  {
+    ticker: "DOCN",
+    name: "DigitalOcean Holdings Inc.",
+    category: ["Infrastructure", "Tech"],
+    sector: "Technology",
+    subCategory: "Cloud Infrastructure",
+    cik: "0001582961",
+  },
+
+  // Quantum Computing
+  {
+    ticker: "IONQ",
+    name: "IonQ Inc.",
+    category: ["Infrastructure", "Tech"],
+    sector: "Technology",
+    subCategory: "Quantum Computing",
+    cik: "0001822928",
+  },
 ];
 
 // Helper functions

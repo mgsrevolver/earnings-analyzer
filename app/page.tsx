@@ -15,10 +15,12 @@ import { getCompanyLogoUrl } from '@/lib/logos';
 export default function Home() {
   const mag7 = getCompaniesByCategory('Mag7');
   const tech = getCompaniesByCategory('Tech').filter(
-    (c) => !c.category.includes('Mag7')
+    (c) => !c.category.includes('Mag7') && !c.category.includes('Infrastructure') && !c.category.includes('Energy')
   );
   const biotech = getCompaniesByCategory('Biotech');
   const wsb = getCompaniesByCategory('WSB');
+  const energy = getCompaniesByCategory('Energy');
+  const infrastructure = getCompaniesByCategory('Infrastructure');
 
   return (
     <main className="min-h-screen p-8 bg-background">
@@ -175,6 +177,72 @@ export default function Home() {
                 <CardContent className="pt-6">
                   <div className="grid grid-cols-2 gap-4">
                     {wsb.map((company) => (
+                      <Link
+                        key={company.ticker}
+                        href={`/company/${company.ticker}`}
+                      >
+                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                          <div className="flex items-center gap-3 mb-3">
+                            <Image
+                              src={getCompanyLogoUrl(company.ticker)}
+                              alt={`${company.ticker} logo`}
+                              width={40}
+                              height={40}
+                              className="rounded"
+                            />
+                            <Badge variant="outline">{company.ticker}</Badge>
+                          </div>
+                          <p className="text-sm font-medium truncate">
+                            {company.name}
+                          </p>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h2 className="text-3xl font-bold mb-4">Energy</h2>
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="grid grid-cols-2 gap-4">
+                    {energy.map((company) => (
+                      <Link
+                        key={company.ticker}
+                        href={`/company/${company.ticker}`}
+                      >
+                        <div className="p-4 border rounded-lg hover:bg-accent transition-colors cursor-pointer">
+                          <div className="flex items-center gap-3 mb-3">
+                            <Image
+                              src={getCompanyLogoUrl(company.ticker)}
+                              alt={`${company.ticker} logo`}
+                              width={40}
+                              height={40}
+                              className="rounded"
+                            />
+                            <Badge variant="outline">{company.ticker}</Badge>
+                          </div>
+                          <p className="text-sm font-medium truncate">
+                            {company.name}
+                          </p>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div>
+              <h2 className="text-3xl font-bold mb-4">Infrastructure</h2>
+              <Card>
+                <CardContent className="pt-6">
+                  <div className="grid grid-cols-2 gap-4">
+                    {infrastructure.map((company) => (
                       <Link
                         key={company.ticker}
                         href={`/company/${company.ticker}`}
