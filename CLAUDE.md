@@ -139,6 +139,61 @@ npm run audit
 - **Yahoo Finance API** (via yahoo-finance2): Free
 - **Vercel hosting**: Free tier sufficient
 
+## Common Issues & Solutions
+
+This section documents recurring challenges and their solutions. Add new issues here as they're discovered.
+
+### Issue 1: 10-K Financial Data Extraction (Annual vs Quarterly)
+
+**Problem**: Claude may extract incorrect financial figures from 10-K annual reports.
+
+**Symptoms**:
+- Revenue/netIncome values are 3-4x larger than expected for Q4
+- Q4 values match the full year totals instead of just the fourth quarter
+- Inconsistent quarter-over-quarter growth rates (huge spike in Q4)
+
+**Root Cause**:
+- 10-K reports contain BOTH full-year consolidated numbers AND quarterly breakdowns
+- Claude may extract the prominent annual totals instead of Q4-specific data
+- Year-to-date (YTD) figures can be mistaken for quarterly figures
+- Different companies format their financial statements differently (some show quarterly breakdowns, some don't)
+
+**Solution**:
+1. **Prompt Engineering** (`lib/claude.ts:18-64`): Explicitly instruct Claude to extract "FULL YEAR consolidated totals" for 10-K and "quarterly data for that specific quarter (NOT year-to-date)" for 10-Q
+2. **Q4 Calculation Logic** (`app/api/analyze/[ticker]/route.ts:194-233`): For companies that file 10-K + three 10-Qs, calculate Q4 as: `Annual - (Q1 + Q2 + Q3)`. This ensures accuracy even if Claude extraction is imperfect.
+3. **Validation** (`lib/validate-financial-units.ts`): Check for unrealistic quarter-over-quarter changes (e.g., >300% growth)
+4. **Context Targeting** (`lib/claude.ts:76-100`): For 10-Ks, extract text starting at 20% through the document to capture MD&A and financial statements sections where quarterly breakdowns appear
+
+**Prevention**:
+- Always run `npm run audit` after analyzing companies to catch extraction errors
+- Manually verify Q4 numbers for new companies (check against investor relations sites)
+- Consider the Q4 calculation method as the source of truth, not direct 10-K extraction
+
+### Issue 2: [Template for Future Issues]
+
+**Problem**: Brief description of the issue
+
+**Symptoms**:
+- Observable behavior that indicates this problem
+- Error messages or unexpected output
+- Where in the app/data you notice it
+
+**Root Cause**:
+- Technical explanation of why this happens
+- Relevant code locations or architectural decisions
+
+**Solution**:
+- Step-by-step fix or workaround
+- Code changes made
+- Configuration updates
+
+**Prevention**:
+- How to avoid this issue in the future
+- Validation steps to add
+- Tests or checks to implement
+
+---
+
 ## Development Notes
 
 - Use **calendar quarters** (Q1-Q4) for display/comparison, not fiscal quarters
