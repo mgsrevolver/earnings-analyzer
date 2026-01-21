@@ -32,12 +32,16 @@ import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
 
+// Force unbuffered output for GitHub Actions real-time logging
+process.stdout.write('🚀 Script starting... (unbuffered output)\n');
+
 // Load environment variables from .env.local (local dev) or use process.env (GitHub Actions)
 config({ path: join(process.cwd(), '.env.local') });
 
-console.log('🚀 Earnings Analyzer starting...');
-console.log(`Environment: ${process.env.GITHUB_ACTIONS ? 'GitHub Actions' : 'Local'}`);
-console.log(`API Key present: ${process.env.ANTHROPIC_API_KEY ? 'Yes' : 'No'}`);
+process.stdout.write('🔧 Checking environment...\n');
+process.stdout.write(`   Environment: ${process.env.GITHUB_ACTIONS ? 'GitHub Actions' : 'Local'}\n`);
+process.stdout.write(`   API Key: ${process.env.ANTHROPIC_API_KEY ? '✓ Present' : '✗ MISSING!'}\n`);
+process.stdout.write(`   Working directory: ${process.cwd()}\n`);
 
 const DATA_DIR = join(process.cwd(), 'data', 'earnings');
 const MACRO_DIR = join(process.cwd(), 'data', 'macro');
@@ -47,14 +51,14 @@ const DELAY_BETWEEN_COMPANIES = 5000; // 5 seconds between companies
 // Ensure data directories exist
 if (!existsSync(DATA_DIR)) {
   mkdirSync(DATA_DIR, { recursive: true });
-  console.log('✓ Created data/earnings directory');
+  process.stdout.write('✓ Created data/earnings directory\n');
 }
 if (!existsSync(MACRO_DIR)) {
   mkdirSync(MACRO_DIR, { recursive: true });
-  console.log('✓ Created data/macro directory');
+  process.stdout.write('✓ Created data/macro directory\n');
 }
 
-console.log('✓ Initialization complete\n');
+process.stdout.write('✅ Initialization complete\n\n');
 
 interface QuarterInfo {
   calendarQuarter: number;
