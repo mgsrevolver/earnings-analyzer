@@ -11,7 +11,7 @@ on:
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 180 # 3 hours max
+    timeout-minutes: 360 # 6 hours max (with retries and backoff)
 
     steps:
       - name: Checkout code
@@ -26,17 +26,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run analysis script
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: npm run analyze-all
-
-      - name: Commit and push results
+      - name: Configure Git for incremental commits
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
-          git diff --staged --quiet || git commit -m "Update earnings data [skip ci]"
-          git push
+
+      - name: Run analysis script
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run analyze-all

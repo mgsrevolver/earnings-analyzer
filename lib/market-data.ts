@@ -8,6 +8,61 @@ const yahooFinance = new YahooFinance();
  * Used to calculate reality-based sentiment vs just CFO spin
  */
 
+/**
+ * Retry wrapper with exponential backoff for rate-limited APIs
+ * @param fn Function to retry
+ * @param maxRetries Maximum number of retry attempts
+ * @param baseDelay Base delay in milliseconds (doubles each retry)
+ * @returns Result of the function or empty object if all retries fail
+ */
+async function retryWithBackoff<T>(
+  fn: () => Promise<T>,
+  maxRetries = 5,
+  baseDelay = 5000
+): Promise<T | {}> {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error: any) {
+      const isRateLimited =
+        error?.code === 429 ||
+        error?.message?.includes('429') ||
+        error?.message?.includes('Too Many Requests');
+
+      if (!isRateLimited) {
+        // Not a rate limit error, fail immediately
+        console.error('Non-rate-limit error:', error.message);
+        return {};
+      }
+
+      if (attempt === maxRetries) {
+        console.error(`Max retries (${maxRetries}) exceeded. Giving up.`);
+        return {};
+      }
+
+      // Exponential backoff: 5s, 10s, 20s, 40s, 80s
+      const delay = baseDelay * Math.pow(2, attempt);
+      console.log(`Rate limited (attempt ${attempt + 1}/${maxRetries + 1}). Retrying in ${delay / 1000}s...`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+  return {};
+}
+
+// Global delay between Yahoo Finance calls to avoid rate limiting
+const YAHOO_FINANCE_DELAY = 3000; // 3 seconds between calls
+let lastYahooFinanceCall = 0;
+
+async function throttleYahooFinance() {
+  const now = Date.now();
+  const timeSinceLastCall = now - lastYahooFinanceCall;
+  if (timeSinceLastCall < YAHOO_FINANCE_DELAY) {
+    const waitTime = YAHOO_FINANCE_DELAY - timeSinceLastCall;
+    await new Promise(resolve => setTimeout(resolve, waitTime));
+  }
+  lastYahooFinanceCall = Date.now();
+}
+
 export interface MarketDataResult {
   // Earnings beat/miss data
   actualEPS?: number;
@@ -30,7 +85,9 @@ export async function fetchPriceAction(
   ticker: string,
   earningsDate: string
 ): Promise<{ priceOnEarningsDate?: number; priceAfter7Days?: number; priceChangePercent?: number }> {
-  try {
+  await throttleYahooFinance();
+
+  return retryWithBackoff(async () => {
     const earningsDateObj = new Date(earningsDate);
 
     // Calculate date 7 days after earnings
@@ -82,10 +139,7 @@ export async function fetchPriceAction(
       priceAfter7Days,
       priceChangePercent,
     };
-  } catch (error) {
-    console.error(`Error fetching price action for ${ticker}:`, error);
-    return {};
-  }
+  }) as Promise<{ priceOnEarningsDate?: number; priceAfter7Days?: number; priceChangePercent?: number }>;
 }
 
 /**
@@ -98,7 +152,9 @@ export async function fetchEarningsData(
   ticker: string,
   earningsDate: string
 ): Promise<{ actualEPS?: number; estimatedEPS?: number; epsSurprisePercent?: number }> {
-  try {
+  await throttleYahooFinance();
+
+  return retryWithBackoff(async () => {
     // Fetch earnings calendar data
     const earningsCalendar = await yahooFinance.quoteSummary(ticker, {
       modules: ['earningsHistory'],
@@ -138,10 +194,7 @@ export async function fetchEarningsData(
       estimatedEPS,
       epsSurprisePercent,
     };
-  } catch (error) {
-    console.error(`Error fetching earnings data for ${ticker}:`, error);
-    return {};
-  }
+  }) as Promise<{ actualEPS?: number; estimatedEPS?: number; epsSurprisePercent?: number }>;
 }
 
 /**
@@ -155,11 +208,9 @@ export async function fetchMarketData(
   earningsDate: string
 ): Promise<MarketDataResult> {
   try {
-    // Fetch both price action and earnings data in parallel
-    const [priceData, earningsData] = await Promise.all([
-      fetchPriceAction(ticker, earningsDate),
-      fetchEarningsData(ticker, earningsDate),
-    ]);
+    // Fetch sequentially to avoid rate limiting (each function has its own throttle)
+    const priceData = await fetchPriceAction(ticker, earningsDate);
+    const earningsData = await fetchEarningsData(ticker, earningsDate);
 
     return {
       ...priceData,

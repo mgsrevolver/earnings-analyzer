@@ -21,8 +21,9 @@
  */
 
 import { config } from 'dotenv';
-import { writeFileSync, existsSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { execSync } from 'child_process';
 import { getAllCompanies } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
 import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
@@ -125,10 +126,58 @@ async function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * Check if a company already has complete analysis data
+ */
+function hasCompleteData(ticker: string): boolean {
+  const outputPath = join(DATA_DIR, `${ticker}.json`);
+  if (!existsSync(outputPath)) return false;
+
+  try {
+    const data = JSON.parse(readFileSync(outputPath, 'utf-8'));
+    // Consider complete if it has at least 3 successful analyses
+    return data.successfulAnalyses >= 3;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Commit and push data for a single company (incremental backup)
+ * This ensures we don't lose work if the workflow times out
+ */
+async function commitAndPushData(ticker: string) {
+  try {
+    const filePath = `data/earnings/${ticker}.json`;
+
+    // Check if there are changes to commit
+    try {
+      execSync('git diff --quiet HEAD ' + filePath, { stdio: 'pipe' });
+      // No changes
+      return;
+    } catch {
+      // Has changes, continue with commit
+    }
+
+    execSync(`git add ${filePath}`, { stdio: 'inherit' });
+    execSync(`git commit -m "Update earnings data for ${ticker} [skip ci]"`, { stdio: 'inherit' });
+    execSync('git push', { stdio: 'inherit' });
+    console.log(`✓ Pushed ${ticker} data to GitHub\n`);
+  } catch (error) {
+    console.warn(`⚠️  Could not push ${ticker} data (continuing anyway):`, error instanceof Error ? error.message : error);
+  }
+}
+
 async function analyzeCompany(company: any, companyIndex: number, totalCompanies: number) {
   console.log(`\n${'='.repeat(80)}`);
   console.log(`[${companyIndex}/${totalCompanies}] Processing ${company.name} (${company.ticker})`);
   console.log(`${'='.repeat(80)}\n`);
+
+  // Skip if already has complete data
+  if (hasCompleteData(company.ticker)) {
+    console.log(`✓ ${company.ticker} already has complete data, skipping...`);
+    return;
+  }
 
   try {
     // Fetch filings
@@ -290,6 +339,11 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
 
     writeFileSync(outputPath, JSON.stringify(data, null, 2));
     console.log(`\n✅ Saved ${finalReports.length} quarters to ${outputPath}`);
+
+    // Commit and push data incrementally (GitHub Actions only)
+    if (process.env.GITHUB_ACTIONS) {
+      await commitAndPushData(company.ticker);
+    }
 
   } catch (error) {
     console.error(`\n❌ Failed to process ${company.ticker}:`, error);
