@@ -32,8 +32,12 @@ import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
 
-// Load environment variables from .env.local
+// Load environment variables from .env.local (local dev) or use process.env (GitHub Actions)
 config({ path: join(process.cwd(), '.env.local') });
+
+console.log('🚀 Earnings Analyzer starting...');
+console.log(`Environment: ${process.env.GITHUB_ACTIONS ? 'GitHub Actions' : 'Local'}`);
+console.log(`API Key present: ${process.env.ANTHROPIC_API_KEY ? 'Yes' : 'No'}`);
 
 const DATA_DIR = join(process.cwd(), 'data', 'earnings');
 const MACRO_DIR = join(process.cwd(), 'data', 'macro');
@@ -43,10 +47,14 @@ const DELAY_BETWEEN_COMPANIES = 5000; // 5 seconds between companies
 // Ensure data directories exist
 if (!existsSync(DATA_DIR)) {
   mkdirSync(DATA_DIR, { recursive: true });
+  console.log('✓ Created data/earnings directory');
 }
 if (!existsSync(MACRO_DIR)) {
   mkdirSync(MACRO_DIR, { recursive: true });
+  console.log('✓ Created data/macro directory');
 }
+
+console.log('✓ Initialization complete\n');
 
 interface QuarterInfo {
   calendarQuarter: number;
@@ -428,4 +436,18 @@ Next steps:
 `);
 }
 
-main().catch(console.error);
+// Handle uncaught errors
+process.on('uncaughtException', (error) => {
+  console.error('💥 Uncaught Exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('💥 Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
+
+main().catch((error) => {
+  console.error('💥 Fatal error in main():', error);
+  process.exit(1);
+});
