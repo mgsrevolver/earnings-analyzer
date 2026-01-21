@@ -9,8 +9,545 @@
     "subCategory": "Cloud Infrastructure",
     "cik": "0001561550"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001561550-25-000313",
+        "filingDate": "2025-11-07",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000313/ddog-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 28,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 885.651,
+        "netIncome": 33.885,
+        "operatingCashFlow": 723.066,
+        "freeCashFlow": 623.7,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1003.292,
+        "marketShareMention": "Substantial opportunity to continue to grow customer base",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 71.5,
+          "International": 28.5
+        },
+        "capexAmount": 40.686,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Datadog delivered steady Q3 performance with 28% YoY revenue growth and continued customer expansion, reaching approximately 32,000 customers. While maintaining profitability, the company shows a cautious outlook amid economic uncertainties.",
+        "keyQuotes": [
+          "We generate revenue from the sale of subscriptions to customers using our cloud-based platform.",
+          "We employ a land-and-expand business model centered around offering products that are easy to adopt and have a very short time to value.",
+          "Historically, during periods of economic uncertainty and downturns, businesses may slow spending on information technology"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-25-000220",
+        "filingDate": "2025-08-08",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000220/ddog-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 826.76,
+        "netIncome": 2.647,
+        "operatingCashFlow": 471.596,
+        "freeCashFlow": 409.7,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 996.308,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 70.9,
+          "international": 29.1
+        },
+        "capexAmount": 23.9,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Datadog delivered solid Q2 2025 results with 28% year-over-year revenue growth, reaching $826.8 million. However, net income declined significantly from $43.8 million in Q2 2024 to $2.6 million in Q2 2025, reflecting increased investment and operational expenses.",
+        "keyQuotes": [
+          "We generate revenue from the sale of subscriptions to customers using our cloud-based platform",
+          "We employ a land-and-expand business model centered around offering products that are easy to adopt and have a very short time to value",
+          "As of June 30, 2025, we had approximately 31,400 customers spanning organizations of a broad range of sizes and industries"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-25-000123",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000123/ddog-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 761.553,
+        "netIncome": 24.642,
+        "operatingCashFlow": 271.541,
+        "freeCashFlow": 244.4,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 970.695,
+        "marketShareMention": "Continued growth in customers using multiple products",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 70,
+          "International": 30
+        },
+        "capexAmount": 8.748,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Datadog delivered solid Q1 performance with 25% year-over-year revenue growth and continued expansion of multi-product usage among customers. The company maintained a cautious outlook amid macroeconomic uncertainty while demonstrating strong operational cash flow.",
+        "keyQuotes": [
+          "Approximately 83% of our customers were using more than one product as of March 31, 2025, up from approximately 82% a year earlier",
+          "We believe there is substantial opportunity to continue to grow our customer base"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-25-000025",
+        "filingDate": "2025-02-20",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000025/ddog-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 737.752,
+        "netIncome": 45.548,
+        "operatingCashFlow": 870.6,
+        "freeCashFlow": 775.1,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "We believe there is substantial opportunity to continue to grow our customer base",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 0.7,
+          "international": 0.3
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "EU AI Act",
+          "Data privacy regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Datadog delivered strong financial performance with 26% revenue growth and positive net income. The company continues to expand its cloud observability platform, focusing on customer acquisition and product innovation.",
+        "keyQuotes": [
+          "We believe that we have built a highly differentiated platform that will position us to further extend the adoption of our platform and products",
+          "As of December 31, 2024, approximately 50% of our customers were using more than four products"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-24-000175",
+        "filingDate": "2024-11-08",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155024000175/ddog-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 690.016,
+        "netIncome": 51.697,
+        "operatingCashFlow": 605.375,
+        "freeCashFlow": 534.1,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 795.824,
+        "marketShareMention": "Substantial opportunity to continue to grow customer base",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 70.2,
+          "International": 29.8
+        },
+        "capexAmount": 26.958,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Datadog delivered strong Q3 2024 results with 26% year-over-year revenue growth and continued expansion of multi-product usage among customers. The company maintains a solid financial position with $337.4 million in cash and $2.9 billion in marketable securities.",
+        "keyQuotes": [
+          "As of September 30, 2024, approximately 83% of our customers were using more than one product",
+          "We believe there is substantial opportunity to continue to grow our customer base"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-24-000112",
+        "filingDate": "2024-08-09",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155024000112/ddog-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 645.279,
+        "netIncome": 43.824,
+        "operatingCashFlow": 376.694,
+        "freeCashFlow": 330.5,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 815.611,
+        "marketShareMention": "Approximately 83% of customers using more than one product, up from 82% a year earlier",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "NorthAmerica": 69.4,
+          "International": 30.6
+        },
+        "capexAmount": 46.167,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Datadog delivered strong Q2 results with 27% year-over-year revenue growth, reaching $645.3 million. The company continues to expand its product portfolio, with increasing multi-product adoption among customers and maintained profitability.",
+        "keyQuotes": [
+          "Our SaaS platform integrates and automates infrastructure monitoring, application performance monitoring, log management, user experience monitoring, cloud security, and many other capabilities",
+          "Approximately 49% of our customers were using more than four products, up from approximately 45% a year earlier"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-24-000051",
+        "filingDate": "2024-05-08",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155024000051/ddog-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 611.253,
+        "netIncome": 42.631,
+        "operatingCashFlow": 212.27,
+        "freeCashFlow": 186.7,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 793.665,
+        "marketShareMention": "significant opportunity to continue growing customer base",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "NorthAmerica": 69.6,
+          "International": 30.4
+        },
+        "capexAmount": 14.158,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Datadog delivered strong Q1 performance with 27% year-over-year revenue growth and a return to profitability. The company continues to expand its customer base and product portfolio, with 82% of customers using multiple products and a focus on international market expansion.",
+        "keyQuotes": [
+          "We employ a land-and-expand business model centered around offering products that are easy to adopt and have a very short time to value.",
+          "As of March 31, 2024, we had approximately 28,000 customers spanning organizations of a broad range of sizes and industries."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-23-000055",
+        "filingDate": "2023-11-07",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155023000055/ddog-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 547.536,
+        "netIncome": 22.63,
+        "operatingCashFlow": 439.728,
+        "freeCashFlow": 396.258,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 654.005,
+        "marketShareMention": "Approximately 26,800 customers spanning organizations of a broad range of sizes and industries",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North_America": 70,
+          "International": 30
+        },
+        "capexAmount": 17.191,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Datadog delivered solid Q3 2023 results with 25% YoY revenue growth and positive net income. The company continues to expand its customer base while navigating a challenging macroeconomic environment, maintaining a stable operational strategy.",
+        "keyQuotes": [
+          "As of September 30, 2023, we had approximately 26,800 customers spanning organizations of a broad range of sizes and industries",
+          "Our trailing 12-month dollar-based net retention rate was slightly below 120%",
+          "We have continued to make significant expenditures and investments"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-23-000039",
+        "filingDate": "2023-08-09",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155023000039/ddog-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 509.46,
+        "netIncome": -3.969,
+        "operatingCashFlow": 286.945,
+        "freeCashFlow": 258.069,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 567.47,
+        "marketShareMention": "Approximately 26,100 customers spanning organizations of a broad range of sizes and industries",
+        "customerConcentration": 85,
+        "geographicBreakdown": {
+          "North America": 69.9,
+          "International": 30.1
+        },
+        "capexAmount": 11.078,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Datadog reported 25% year-over-year revenue growth with cautious outlook amid macroeconomic uncertainty. Net income remains negative, but operating cash flow remains strong at $286.9 million for the first six months of 2023.",
+        "keyQuotes": [
+          "In recent quarters, we have seen slower usage growth from existing customers, which may be related to the uncertain macroeconomic environment.",
+          "Due to our subscription model, the effect of macroeconomic conditions may not be fully reflected in our results of operations until future periods."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001561550-23-000023",
+        "filingDate": "2023-05-05",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155023000023/ddog-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 481.714,
+        "netIncome": -24.086,
+        "operatingCashFlow": 133.787,
+        "freeCashFlow": 116.3,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 584.935,
+        "marketShareMention": "Expanding platform adoption across customers",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 70.8,
+          "International": 29.2
+        },
+        "capexAmount": 8.739,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Datadog delivered 33% revenue growth to $481.7M, but faced margin pressure with a net loss of $24.1M. The company continues to invest heavily in sales and marketing while navigating a challenging macroeconomic environment.",
+        "keyQuotes": [
+          "We have continued to make significant expenditures and investments",
+          "In recent quarters, we have seen slower usage growth from some existing customers, which may be related to the uncertain macroeconomic environment"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-01-05T00:46:50.779Z"
+  "successfulAnalyses": 10,
+  "lastUpdated": "2026-01-21T18:37:13.340Z"
 }
