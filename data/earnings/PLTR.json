@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "AI/ML",
+    "cik": "0001321655"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:00:56.830Z"
+}

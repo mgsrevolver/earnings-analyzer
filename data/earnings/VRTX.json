@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0000875320"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:56:05.577Z"
+}

@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Semiconductors",
+    "cik": "0000002488"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:33:13.485Z"
+}

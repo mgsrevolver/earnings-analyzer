@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "U",
+    "name": "Unity Software Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Gaming",
+    "cik": "0001810806"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:25:37.807Z"
+}

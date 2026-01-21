@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "GILD",
+    "name": "Gilead Sciences Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0000882095"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:52:17.814Z"
+}

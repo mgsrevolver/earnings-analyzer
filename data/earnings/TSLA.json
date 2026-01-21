@@ -1,0 +1,17 @@
+{
+  "company": {
+    "ticker": "TSLA",
+    "name": "Tesla Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "AI/ML",
+    "cik": "0001318605"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T22:49:33.335Z"
+}

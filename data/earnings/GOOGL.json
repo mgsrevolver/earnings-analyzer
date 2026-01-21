@@ -1,0 +1,17 @@
+{
+  "company": {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cloud Infrastructure",
+    "cik": "0001652044"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T22:39:50.846Z"
+}

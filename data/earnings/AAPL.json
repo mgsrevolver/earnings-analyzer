@@ -1,0 +1,18 @@
+{
+  "company": {
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Enterprise Software",
+    "cik": "0000320193",
+    "fiscalYearEnd": "09-30"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T22:32:13.621Z"
+}

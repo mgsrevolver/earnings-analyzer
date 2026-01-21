@@ -1,65 +1,24 @@
 {
   "period": "Q4 2024",
-  "generatedAt": "2026-01-21T19:51:40.095Z",
+  "generatedAt": "2026-01-21T23:57:16.036Z",
   "companies": [
-    "AAPL",
     "AMC",
-    "AMD",
-    "AMZN",
     "BIIB",
     "CEG",
     "CORZ",
-    "CRWD",
-    "DDOG",
     "DOCN",
-    "GILD",
-    "GOOGL",
     "HOOD",
-    "INTC",
     "IONQ",
-    "META",
-    "MRNA",
-    "MSFT",
-    "NET",
-    "NVDA",
-    "OKTA",
-    "PLTR",
-    "RBLX",
     "REGN",
-    "SNOW",
-    "TSLA",
-    "U",
-    "VRTX",
     "VST"
   ],
   "aggregateInsights": {
-    "averageCapexGrowth": 141.98333333333332,
-    "companiesRaisingGuidance": 6,
-    "companiesLoweringGuidance": 3,
-    "aiInvestmentCount": 23,
+    "averageCapexGrowth": 247.6,
+    "companiesRaisingGuidance": 2,
+    "companiesLoweringGuidance": 1,
+    "aiInvestmentCount": 6,
     "overallMarketSentiment": "neutral",
     "partnershipNetwork": [
-      {
-        "partner": "Sony PlayStation 5 Pro",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AMD"
-        ]
-      },
-      {
-        "partner": "Anthropic AI investment",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AMZN"
-        ]
-      },
-      {
-        "partner": "AWS cloud services partnerships",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AMZN"
-        ]
-      },
       {
         "partner": "Eisai",
         "mentions": 1,
@@ -124,71 +83,68 @@
         ]
       },
       {
-        "partner": "UMC",
+        "partner": "Sanofi",
         "mentions": 1,
         "connectedCompanies": [
-          "INTC"
+          "REGN"
         ]
       },
       {
-        "partner": "Vertex",
+        "partner": "Bayer",
         "mentions": 1,
         "connectedCompanies": [
-          "MRNA"
+          "REGN"
         ]
       },
       {
-        "partner": "Merck",
+        "partner": "Roche",
         "mentions": 1,
         "connectedCompanies": [
-          "MRNA"
+          "REGN"
+        ]
+      },
+      {
+        "partner": "Sonoma Biotherapeutics",
+        "mentions": 1,
+        "connectedCompanies": [
+          "REGN"
+        ]
+      },
+      {
+        "partner": "Alnylam Pharmaceuticals",
+        "mentions": 1,
+        "connectedCompanies": [
+          "REGN"
+        ]
+      },
+      {
+        "partner": "Intellia Therapeutics",
+        "mentions": 1,
+        "connectedCompanies": [
+          "REGN"
         ]
       }
     ],
     "supplyChainSentiment": {
-      "tight": 11,
+      "tight": 5,
       "easing": 0,
-      "normal": 10,
-      "unknown": 8
+      "normal": 3,
+      "unknown": 1
     },
     "headcountTrends": {
-      "expanding": 10,
-      "stable": 10,
+      "expanding": 2,
+      "stable": 4,
       "freezing": 0,
-      "reducing": 9
+      "reducing": 3
     },
     "pricingPowerDistribution": {
-      "strong": 7,
-      "moderate": 16,
-      "weak": 6,
+      "strong": 2,
+      "moderate": 5,
+      "weak": 2,
       "unknown": 0
     }
   },
   "sectorAnalyses": [
-    {
-      "sector": "Technology",
-      "subCategory": "Enterprise Software",
-      "companies": [
-        "AAPL"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 1,
-        "unknown": 0
-      },
-      "aiInvestmentPercentage": 0,
-      "averageSentiment": 1,
-      "topPartners": []
-    },
     {
       "sector": "Consumer",
       "subCategory": "Other",
@@ -214,106 +170,31 @@
       "topPartners": []
     },
     {
-      "sector": "Technology",
-      "subCategory": "Semiconductors",
-      "companies": [
-        "AMD",
-        "INTC",
-        "NVDA"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 209,
-      "guidanceSentiment": {
-        "raised": 2,
-        "maintained": 0,
-        "lowered": 1,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 2,
-        "easing": 0,
-        "normal": 1,
-        "unknown": 0
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.3333333333333333,
-      "topPartners": [
-        {
-          "partner": "Sony PlayStation 5 Pro",
-          "mentions": 1
-        },
-        {
-          "partner": "UMC",
-          "mentions": 1
-        }
-      ]
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "E-commerce",
-      "companies": [
-        "AMZN"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 57.3,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 1,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 0
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 1,
-      "topPartners": [
-        {
-          "partner": "Anthropic AI investment",
-          "mentions": 1
-        },
-        {
-          "partner": "AWS cloud services partnerships",
-          "mentions": 1
-        }
-      ]
-    },
-    {
       "sector": "Healthcare",
       "subCategory": "Biotech",
       "companies": [
         "BIIB",
-        "GILD",
-        "MRNA",
-        "REGN",
-        "VRTX"
+        "REGN"
       ],
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 4,
+        "maintained": 1,
         "lowered": 0,
         "notProvided": 1
       },
       "supplyChainStatus": {
-        "tight": 4,
+        "tight": 2,
         "easing": 0,
-        "normal": 1,
+        "normal": 0,
         "unknown": 0
       },
-      "aiInvestmentPercentage": 40,
-      "averageSentiment": -0.4,
+      "aiInvestmentPercentage": 50,
+      "averageSentiment": -0.5,
       "topPartners": [
         {
           "partner": "Samsung",
-          "mentions": 2
-        },
-        {
-          "partner": "CRISPR Therapeutics",
           "mentions": 2
         }
       ]
@@ -374,16 +255,15 @@
     },
     {
       "sector": "Technology",
-      "subCategory": "Cybersecurity",
+      "subCategory": "Cloud Infrastructure",
       "companies": [
-        "CRWD",
-        "OKTA"
+        "DOCN"
       ],
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 2,
+        "maintained": 1,
         "lowered": 0,
         "notProvided": 0
       },
@@ -391,50 +271,13 @@
         "tight": 0,
         "easing": 0,
         "normal": 1,
-        "unknown": 1
+        "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0,
-      "topPartners": []
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "Cloud Infrastructure",
-      "companies": [
-        "DDOG",
-        "DOCN",
-        "GOOGL",
-        "MSFT",
-        "NET",
-        "SNOW"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 63,
-      "guidanceSentiment": {
-        "raised": 2,
-        "maintained": 4,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 4,
-        "unknown": 2
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.5,
       "topPartners": [
         {
           "partner": "Hugging Face",
-          "mentions": 1
-        },
-        {
-          "partner": "OpenAI",
-          "mentions": 1
-        },
-        {
-          "partner": "Activision Blizzard",
           "mentions": 1
         }
       ]
@@ -491,125 +334,32 @@
       "aiInvestmentPercentage": 0,
       "averageSentiment": -1,
       "topPartners": []
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "Social Media",
-      "companies": [
-        "META"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 1
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": -1,
-      "topPartners": []
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "AI/ML",
-      "companies": [
-        "PLTR",
-        "TSLA"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 27.4,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 1
-      },
-      "supplyChainStatus": {
-        "tight": 1,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 1
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 0,
-      "topPartners": [
-        {
-          "partner": "Various global system integrators",
-          "mentions": 1
-        }
-      ]
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "Gaming",
-      "companies": [
-        "RBLX",
-        "U"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 1,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 2
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": -0.5,
-      "topPartners": [
-        {
-          "partner": "Tencent",
-          "mentions": 1
-        }
-      ]
     }
   ],
   "divergences": [
     {
       "theme": "Guidance Direction",
       "winners": [
-        "AMD",
         "CEG",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
         "VST"
       ],
       "losers": [
-        "INTC",
-        "IONQ",
-        "U"
+        "IONQ"
       ],
-      "details": "6 companies raised guidance vs 3 lowered"
+      "details": "2 companies raised guidance vs 1 lowered"
     },
     {
       "theme": "Capital Expenditure",
       "winners": [
-        "AMZN",
-        "CORZ",
-        "GOOGL",
-        "NVDA",
-        "TSLA"
+        "CORZ"
       ],
       "losers": [],
-      "details": "5 companies increasing capex >20% vs 0 decreasing >10%"
+      "details": "1 companies increasing capex >20% vs 0 decreasing >10%"
     }
   ],
   "topThemes": [
     "AI Infrastructure Investment",
-    "Supply Chain Constraints"
+    "Supply Chain Constraints",
+    "Cost Cutting Measures"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "RBLX",
+    "name": "Roblox Corporation",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Gaming",
+    "cik": "0001315098"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:29:26.018Z"
+}

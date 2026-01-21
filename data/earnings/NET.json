@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "NET",
+    "name": "Cloudflare Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cloud Infrastructure",
+    "cik": "0001477333"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:04:44.938Z"
+}

@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "TEAM",
+    "name": "Atlassian Corporation",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "SaaS",
+    "cik": "0001650372"
+  },
+  "reports": [],
+  "totalFetched": 6,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:21:49.487Z"
+}

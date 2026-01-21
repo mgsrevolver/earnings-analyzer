@@ -1,0 +1,17 @@
+{
+  "company": {
+    "ticker": "AMZN",
+    "name": "Amazon.com Inc.",
+    "category": [
+      "Mag7",
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "E-commerce",
+    "cik": "0001018724"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T22:43:38.751Z"
+}

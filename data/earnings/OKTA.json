@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "OKTA",
+    "name": "Okta Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cybersecurity",
+    "cik": "0001660134"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:19:57.596Z"
+}

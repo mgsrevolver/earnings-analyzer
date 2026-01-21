@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "DDOG",
+    "name": "Datadog Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Cloud Infrastructure",
+    "cik": "0001561550"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:12:21.026Z"
+}

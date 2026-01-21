@@ -1,0 +1,16 @@
+{
+  "company": {
+    "ticker": "QCOM",
+    "name": "QUALCOMM Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Semiconductors",
+    "cik": "0000804328"
+  },
+  "reports": [],
+  "totalFetched": 12,
+  "successfulAnalyses": 0,
+  "lastUpdated": "2026-01-21T23:40:48.742Z"
+}
