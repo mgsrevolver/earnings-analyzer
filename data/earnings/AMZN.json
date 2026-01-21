@@ -10,8 +10,641 @@
     "subCategory": "E-commerce",
     "cik": "0001018724"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001018724-25-000123",
+        "filingDate": "2025-10-31",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 180.169,
+        "netIncome": 21.187,
+        "operatingCashFlow": 35.525,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 21.113,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 59,
+          "international": 22.7,
+          "aws": 18.3
+        },
+        "capexAmount": 35.095,
+        "capexGrowth": null,
+        "partnerships": [
+          "Anthropic"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "FTC lawsuit settlement",
+          "Antitrust investigations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q3 results with record quarterly revenue of $180.2 billion and net income of $21.2 billion. AWS continues to drive growth, while the company maintains cost discipline through strategic headcount reductions.",
+        "keyQuotes": [
+          "Technology infrastructure assets continue to expand, particularly in AI and machine learning",
+          "We continue to invest strategically in high-growth areas like cloud services and AI"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-25-000086",
+        "filingDate": "2025-08-01",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 167.702,
+        "netIncome": 18.164,
+        "operatingCashFlow": 32.515,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 21.662,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 59.7,
+          "international": 22,
+          "aws": 18.3
+        },
+        "capexAmount": 32.183,
+        "capexGrowth": 82.4,
+        "partnerships": [
+          "Anthropic"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q2 2025 results, with robust revenue growth and significant net income expansion. AWS continues to be a key growth driver, and the company is making strategic investments in technology infrastructure and AI capabilities.",
+        "keyQuotes": [
+          "We are seeing continued strong growth in our AWS segment, driven by customer demand for advanced cloud and AI services",
+          "Our investments in technology infrastructure and AI are positioning us for long-term growth and innovation"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-25-000036",
+        "filingDate": "2025-05-02",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 155.667,
+        "netIncome": 17.127,
+        "operatingCashFlow": 17.015,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 20.599,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 60,
+          "international": 21,
+          "aws": 19
+        },
+        "capexAmount": 27.449,
+        "capexGrowth": 88.5,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q1 2025 results with 9% revenue growth and 64% net income growth. AWS continued its robust performance with 17% sales growth, while North America and International segments showed steady expansion. The company continues to invest heavily in technology infrastructure, particularly in AI-related capabilities.",
+        "keyQuotes": [
+          "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure",
+          "The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-25-000004",
+        "filingDate": "2025-02-07",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
+      },
+      "insights": {
+        "revenue": 187.79199999999997,
+        "netIncome": 59208.756,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "operatingCashFlow": 115.877,
+        "freeCashFlow": 38219,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 18103,
+        "marketShareMention": "growing presence in cloud computing and AI infrastructure",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 61,
+          "international": 22,
+          "aws": 17
+        },
+        "capexAmount": 82999,
+        "capexGrowth": 57.3,
+        "partnerships": [
+          "Anthropic AI investment",
+          "Rivian strategic partnership",
+          "AWS cloud services partnerships"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "increasing global tax regulations",
+          "data privacy and cybersecurity compliance",
+          "potential antitrust investigations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong financial performance in 2024, with 11% revenue growth and record net income of $59.2 billion. The company continues to invest heavily in technology infrastructure, AI, and cloud services while maintaining operational efficiency.",
+        "keyQuotes": [
+          "We seek to increase unit sales across our stores, through increased product selection, across numerous product categories.",
+          "We believe that advances in technology, specifically artificial intelligence and machine learning, will continue to improve users' experience",
+          "Our financial focus is on long-term, sustainable growth in free cash flows"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-24-000161",
+        "filingDate": "2024-11-01",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 158.877,
+        "netIncome": 15.328,
+        "operatingCashFlow": 25.971,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 16.305,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 95.537,
+          "International": 35.888,
+          "AWS": 27.452
+        },
+        "capexAmount": 22.62,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Ongoing antitrust lawsuits",
+          "Patent infringement litigation"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q3 2024 results with total net sales of $158.9 billion and net income of $15.3 billion. AWS continued to be a key growth driver, while North America and International segments showed solid performance. Operating cash flow remained robust at $26 billion.",
+        "keyQuotes": [
+          "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "Operating results for the periods presented are not necessarily indicative of the results that may be expected for 2024 due to seasonal and other factors."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-24-000130",
+        "filingDate": "2024-08-02",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "raised",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 147.977,
+        "netIncome": 13.485,
+        "operatingCashFlow": 25.281,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 16.004,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 90.033,
+          "international": 31.663,
+          "aws": 26.281
+        },
+        "capexAmount": 17.62,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Antitrust investigations",
+          "Price fixing allegations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q2 2024 results with robust revenue growth across all segments. Net income of $13.485 billion and operating cash flow of $25.281 billion reflect the company's continued operational efficiency and market strength.",
+        "keyQuotes": [
+          "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "Cash flows generated from operations and our cash balances will be sufficient to meet our anticipated operating cash needs for at least the next twelve months."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-24-000083",
+        "filingDate": "2024-05-01",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 143.313,
+        "netIncome": 10.431,
+        "operatingCashFlow": 18.989,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 15.927,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "NorthAmerica": 60,
+          "International": 22,
+          "AWS": 18
+        },
+        "capexAmount": 14.925,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q1 2024 performance with 13% revenue growth and a significant increase in operating income. AWS continued to show robust growth, and the company maintained a positive outlook despite macroeconomic challenges.",
+        "keyQuotes": [
+          "Our sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services",
+          "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-24-000008",
+        "filingDate": "2024-02-02",
+        "reportDate": "2023-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "freezing",
+        "revenue": 169.961,
+        "netIncome": 13792.828000000001,
+        "operatingCashFlow": 84946,
+        "freeCashFlow": 36813,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 20600,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 61,
+          "international": 23,
+          "aws": 16
+        },
+        "capexAmount": 48133,
+        "capexGrowth": null,
+        "partnerships": [
+          "Anthropic",
+          "One Medical"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Antitrust investigations",
+          "Data privacy regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong financial performance in 2023, with total revenue of $574.8 billion and net income of $30.4 billion. The company continues to invest strategically in AWS, AI technologies, and expand its diverse business portfolio while maintaining operational efficiency.",
+        "keyQuotes": [
+          "We seek to be Earth's most customer-centric company.",
+          "We believe that advances in technology, specifically the speed and reduced cost of processing power, data storage and analytics, improved wireless connectivity, and the practical applications of artificial intelligence and machine learning, will continue to improve users' experience on the internet."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2023,
+        "quarter": "Q4 2023",
+        "reportDate": "2023-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-23-000018",
+        "filingDate": "2023-10-27",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 143.083,
+        "netIncome": 9879,
+        "operatingCashFlow": 21217,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 14398,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 61.4,
+          "international": 22.5,
+          "aws": 16.1
+        },
+        "capexAmount": 12479,
+        "capexGrowth": -23.8,
+        "partnerships": [
+          "Anthropic",
+          "One Medical",
+          "Rivian"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "FTC antitrust lawsuit",
+          "Biometric privacy litigation"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q3 2023 results with robust revenue growth across all segments, particularly AWS and advertising. The company continues to focus on cost optimization while investing strategically in emerging technologies like AI.",
+        "keyQuotes": [
+          "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
+          "We invested $1.25 billion in a note from Anthropic, PBC, which is convertible into equity"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-23-000012",
+        "filingDate": "2023-08-04",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000012/amzn-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 134.383,
+        "netIncome": 6750,
+        "operatingCashFlow": 16476,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 14522,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 61.5,
+          "international": 22.1,
+          "aws": 16.4
+        },
+        "capexAmount": 11455,
+        "capexGrowth": -27.1,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Tax disputes in multiple jurisdictions",
+          "Potential patent litigation"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q2 2023 performance with robust revenue growth and return to profitability. AWS continues to be a key profit driver, while the company is managing costs through headcount reductions and careful capex spending.",
+        "keyQuotes": [
+          "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
+          "Operating cash flows result primarily from cash received from our consumer, seller, developer, enterprise, and content creator customers"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-23-000008",
+        "filingDate": "2023-04-28",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 127.358,
+        "netIncome": 3.172,
+        "operatingCashFlow": 4.788,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 14.281,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "northAmerica": 60,
+          "international": 23,
+          "aws": 17
+        },
+        "capexAmount": 14.207,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "cautious",
+        "overallSentiment": "neutral",
+        "summary": "Amazon delivered modest Q1 2023 growth with 9% revenue increase and return to profitability. AWS growth slowed to 16%, reflecting enterprise cost optimization efforts, while North America segment showed resilience with 11% growth.",
+        "keyQuotes": [
+          "We expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates.",
+          "We expect some or all of these factors to continue to impact our operations into Q2 2023."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-01-05T00:17:38.127Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-01-21T17:49:28.812Z"
 }
