@@ -1,6 +1,6 @@
 {
   "period": "Q4 2024",
-  "generatedAt": "2025-11-26T18:16:32.833Z",
+  "generatedAt": "2026-01-21T19:51:40.095Z",
   "companies": [
     "AAPL",
     "AMC",
@@ -9,6 +9,7 @@
     "BIIB",
     "CEG",
     "CORZ",
+    "CRWD",
     "DDOG",
     "DOCN",
     "GILD",
@@ -21,44 +22,39 @@
     "MSFT",
     "NET",
     "NVDA",
+    "OKTA",
     "PLTR",
     "RBLX",
     "REGN",
+    "SNOW",
     "TSLA",
     "U",
     "VRTX",
     "VST"
   ],
   "aggregateInsights": {
-    "averageCapexGrowth": 141.96666666666667,
-    "companiesRaisingGuidance": 7,
+    "averageCapexGrowth": 141.98333333333332,
+    "companiesRaisingGuidance": 6,
     "companiesLoweringGuidance": 3,
-    "aiInvestmentCount": 20,
+    "aiInvestmentCount": 23,
     "overallMarketSentiment": "neutral",
     "partnershipNetwork": [
       {
-        "partner": "Google search services",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AAPL"
-        ]
-      },
-      {
-        "partner": "Sony",
+        "partner": "Sony PlayStation 5 Pro",
         "mentions": 1,
         "connectedCompanies": [
           "AMD"
         ]
       },
       {
-        "partner": "Anthropic",
+        "partner": "Anthropic AI investment",
         "mentions": 1,
         "connectedCompanies": [
           "AMZN"
         ]
       },
       {
-        "partner": "Rivian",
+        "partner": "AWS cloud services partnerships",
         "mentions": 1,
         "connectedCompanies": [
           "AMZN"
@@ -121,44 +117,51 @@
         ]
       },
       {
-        "partner": "LEO Pharma A/S",
-        "mentions": 1,
-        "connectedCompanies": [
-          "GILD"
-        ]
-      },
-      {
-        "partner": "Arcus Biosciences",
-        "mentions": 1,
-        "connectedCompanies": [
-          "GILD"
-        ]
-      },
-      {
         "partner": "Morningstar",
         "mentions": 1,
         "connectedCompanies": [
           "HOOD"
         ]
+      },
+      {
+        "partner": "UMC",
+        "mentions": 1,
+        "connectedCompanies": [
+          "INTC"
+        ]
+      },
+      {
+        "partner": "Vertex",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
+        ]
+      },
+      {
+        "partner": "Merck",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
+        ]
       }
     ],
     "supplyChainSentiment": {
-      "tight": 12,
+      "tight": 11,
       "easing": 0,
       "normal": 10,
-      "unknown": 3
+      "unknown": 8
     },
     "headcountTrends": {
-      "expanding": 8,
-      "stable": 11,
+      "expanding": 10,
+      "stable": 10,
       "freezing": 0,
-      "reducing": 7
+      "reducing": 9
     },
     "pricingPowerDistribution": {
-      "strong": 6,
-      "moderate": 11,
-      "weak": 8,
-      "unknown": 1
+      "strong": 7,
+      "moderate": 16,
+      "weak": 6,
+      "unknown": 0
     }
   },
   "sectorAnalyses": [
@@ -184,12 +187,7 @@
       },
       "aiInvestmentPercentage": 0,
       "averageSentiment": 1,
-      "topPartners": [
-        {
-          "partner": "Google search services",
-          "mentions": 1
-        }
-      ]
+      "topPartners": []
     },
     {
       "sector": "Consumer",
@@ -234,22 +232,18 @@
       "supplyChainStatus": {
         "tight": 2,
         "easing": 0,
-        "normal": 0,
+        "normal": 1,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0.3333333333333333,
       "topPartners": [
         {
-          "partner": "Sony",
+          "partner": "Sony PlayStation 5 Pro",
           "mentions": 1
         },
         {
           "partner": "UMC",
-          "mentions": 1
-        },
-        {
-          "partner": "Microsoft",
           "mentions": 1
         }
       ]
@@ -263,26 +257,26 @@
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 57.3,
       "guidanceSentiment": {
-        "raised": 1,
-        "maintained": 0,
+        "raised": 0,
+        "maintained": 1,
         "lowered": 0,
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 0,
+        "tight": 1,
         "easing": 0,
-        "normal": 1,
+        "normal": 0,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 1,
       "topPartners": [
         {
-          "partner": "Anthropic",
+          "partner": "Anthropic AI investment",
           "mentions": 1
         },
         {
-          "partner": "Rivian",
+          "partner": "AWS cloud services partnerships",
           "mentions": 1
         }
       ]
@@ -312,18 +306,14 @@
         "unknown": 0
       },
       "aiInvestmentPercentage": 40,
-      "averageSentiment": -0.2,
+      "averageSentiment": -0.4,
       "topPartners": [
         {
           "partner": "Samsung",
           "mentions": 2
         },
         {
-          "partner": "Vertex",
-          "mentions": 2
-        },
-        {
-          "partner": "Merck",
+          "partner": "CRISPR Therapeutics",
           "mentions": 2
         }
       ]
@@ -384,30 +374,56 @@
     },
     {
       "sector": "Technology",
+      "subCategory": "Cybersecurity",
+      "companies": [
+        "CRWD",
+        "OKTA"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 0,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 2,
+        "lowered": 0,
+        "notProvided": 0
+      },
+      "supplyChainStatus": {
+        "tight": 0,
+        "easing": 0,
+        "normal": 1,
+        "unknown": 1
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": 0,
+      "topPartners": []
+    },
+    {
+      "sector": "Technology",
       "subCategory": "Cloud Infrastructure",
       "companies": [
         "DDOG",
         "DOCN",
         "GOOGL",
         "MSFT",
-        "NET"
+        "NET",
+        "SNOW"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 62.7,
+      "averageCapexGrowth": 63,
       "guidanceSentiment": {
         "raised": 2,
-        "maintained": 3,
+        "maintained": 4,
         "lowered": 0,
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 1,
+        "tight": 0,
         "easing": 0,
         "normal": 4,
-        "unknown": 0
+        "unknown": 2
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.6,
+      "averageSentiment": 0.5,
       "topPartners": [
         {
           "partner": "Hugging Face",
@@ -493,8 +509,8 @@
       "supplyChainStatus": {
         "tight": 0,
         "easing": 0,
-        "normal": 1,
-        "unknown": 0
+        "normal": 0,
+        "unknown": 1
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": -1,
@@ -508,7 +524,7 @@
         "TSLA"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 27.6,
+      "averageCapexGrowth": 27.4,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 1,
@@ -523,7 +539,12 @@
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0,
-      "topPartners": []
+      "topPartners": [
+        {
+          "partner": "Various global system integrators",
+          "mentions": 1
+        }
+      ]
     },
     {
       "sector": "Technology",
@@ -541,13 +562,13 @@
         "notProvided": 0
       },
       "supplyChainStatus": {
-        "tight": 1,
+        "tight": 0,
         "easing": 0,
         "normal": 0,
-        "unknown": 1
+        "unknown": 2
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": -1,
+      "averageSentiment": -0.5,
       "topPartners": [
         {
           "partner": "Tencent",
@@ -561,7 +582,6 @@
       "theme": "Guidance Direction",
       "winners": [
         "AMD",
-        "AMZN",
         "CEG",
         "GOOGL",
         "MSFT",
@@ -573,7 +593,7 @@
         "IONQ",
         "U"
       ],
-      "details": "7 companies raised guidance vs 3 lowered"
+      "details": "6 companies raised guidance vs 3 lowered"
     },
     {
       "theme": "Capital Expenditure",
@@ -590,7 +610,6 @@
   ],
   "topThemes": [
     "AI Infrastructure Investment",
-    "Supply Chain Constraints",
-    "Optimistic Outlook"
+    "Supply Chain Constraints"
   ]
 }
