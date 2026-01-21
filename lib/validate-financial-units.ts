@@ -19,25 +19,23 @@ const RANGES = {
 
 /**
  * Normalize a value to millions if it's in thousands or dollars
+ * Note: Claude is explicitly instructed to output in millions, so we should trust it.
+ * Only convert if values are clearly in the wrong unit (billions of dollars range)
  */
 function normalizeToMillions(value: number | null | undefined, fieldName: string): number | null {
   if (value == null) return null;
 
   const absValue = Math.abs(value);
 
-  // If value is in billions+ range (> 1M million), it's probably in dollars
-  if (absValue > 1000000) {
+  // Only convert if in billions of dollars range (extremely large numbers)
+  // Example: 123456789000 (hundreds of billions in dollars) → 123456.789 millions
+  if (absValue > 10000000) { // > 10 million "millions" = probably in dollars
     console.log(`  ⚠️  ${fieldName}: ${value.toLocaleString()} looks like dollars, converting to millions`);
     return value / 1000000;
   }
 
-  // If value is > 100K but < 1M, it's probably in thousands
-  if (absValue > 100000 && absValue < 1000000) {
-    console.log(`  ⚠️  ${fieldName}: ${value.toLocaleString()} looks like thousands, converting to millions`);
-    return value / 1000;
-  }
-
-  // Otherwise assume it's already in millions
+  // Trust Claude's output - it's instructed to always output in millions
+  // Values between 0.001 and 10M millions are reasonable for companies
   return value;
 }
 
