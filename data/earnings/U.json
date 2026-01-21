@@ -9,8 +9,571 @@
     "subCategory": "Gaming",
     "cik": "0001810806"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000169",
+        "filingDate": "2025-11-05",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000169/unity-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 470.615,
+        "netIncome": -126.362,
+        "operatingCashFlow": 301.52,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 225.645,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "US": 27.8,
+          "GreaterChina": 19.2,
+          "EMEA": 31.4,
+          "APAC": 19,
+          "OtherAmericas": 2.6
+        },
+        "capexAmount": 16.271,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Unity Software reported a cautious Q3 2025, with revenue growth driven by advertising network migration and AI platform enhancements. The company continues workforce and cost reductions while maintaining a defensive posture amid ongoing portfolio reset efforts.",
+        "keyQuotes": [
+          "We began to reset our product and service offerings to focus on our core businesses",
+          "We will continue to evaluate our facility needs",
+          "Migration to Unity Vector drove advertising network performance"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000151",
+        "filingDate": "2025-08-06",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000151/unity-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 440.944,
+        "netIncome": -107.365,
+        "operatingCashFlow": 146.122,
+        "freeCashFlow": 133.958,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 235.928,
+        "marketShareMention": "Unity Ad Network growing 15% quarter-over-quarter",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 27.8,
+          "Greater China": 18.9,
+          "EMEA": 31.9,
+          "APAC": 18.9,
+          "Other Americas": 2.5
+        },
+        "capexAmount": 12.164,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Unity continues strategic reset focusing on core businesses, with modest revenue decline offset by cost reduction efforts. Ad network shows signs of stabilization with 15% growth, while management maintains a cautious outlook on future performance.",
+        "keyQuotes": [
+          "To improve the performance of Grow Solutions, in the first and second quarter of 2025, we migrated one of our ad networks (the 'Unity Ad Network') to our new AI Platform, which we call 'Unity Vector'",
+          "We expect our gross profit to increase in absolute dollars in the long term but fluctuate in the short term as we stabilize our business following our reset efforts"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000095",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000095/unity-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 435,
+        "netIncome": -77.907,
+        "operatingCashFlow": 13.026,
+        "freeCashFlow": 7.308,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 203.2,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "UnitedStates": 29,
+          "GreaterChina": 15,
+          "EMEA": 35,
+          "APAC": 18,
+          "OtherAmericas": 2.5
+        },
+        "capexAmount": 5.718,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software continues to navigate a challenging market environment, implementing workforce reductions and focusing on core strategic portfolio. Revenue declined year-over-year, with particular weakness in Grow Solutions, while the company is investing in AI platform migration.",
+        "keyQuotes": [
+          "To improve the performance of Grow Solutions, in the first quarter of 2025, we started migrating a portion of our traffic to our new AI Platform, which we call 'Unity Vector'",
+          "We expect that these amounts will decline further through the remainder of 2025"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000026",
+        "filingDate": "2025-02-21",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000026/unity-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 457.09900000000016,
+        "netIncome": -122.52300000000002,
+        "operatingCashFlow": 315.553,
+        "freeCashFlow": 286.004,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 203.15,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 29.549,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "AI regulation",
+          "data privacy"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software reset its strategic portfolio, reduced workforce by 25%, and experienced revenue decline driven by challenges in Grow Solutions and pricing model changes. The company is focusing on core businesses while managing cost reduction.",
+        "keyQuotes": [
+          "We are continuing to evaluate our facility needs, and expect more changes in 2025.",
+          "We experienced a high volume of negative customer feedback including a boycott and a slow down of signing new contracts and renewals"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000227",
+        "filingDate": "2024-11-07",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000227/unity-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 446.517,
+        "netIncome": -124.548,
+        "operatingCashFlow": 203.361,
+        "freeCashFlow": 180.254,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 189.81,
+        "marketShareMention": "Experiencing challenges in advertising market with competitive pressures",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 28.7,
+          "Greater China": 14.7,
+          "EMEA": 35.3,
+          "APAC": 18.3,
+          "Other Americas": 3
+        },
+        "capexAmount": 23.107,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity is navigating a challenging period with workforce reductions, portfolio reset, and competitive pressures in the advertising market. Revenue and net income continue to decline, though the company maintains a strong cash position and is focusing on core strategic solutions.",
+        "keyQuotes": [
+          "To be more competitive we are focused on enhancing our machine learning stack and data infrastructure capabilities",
+          "We expect our gross profit to increase in absolute dollars in the long term but decrease in the short term"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000189",
+        "filingDate": "2024-08-08",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000189/unity-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 449.259,
+        "netIncome": -125.738,
+        "operatingCashFlow": 81.003,
+        "freeCashFlow": 65.047,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 186.3,
+        "marketShareMention": "increased competition in advertising market impacting growth",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 29.1,
+          "Greater_China": 13.8,
+          "EMEA": 36.5,
+          "APAC": 18,
+          "Other_Americas": 2.5
+        },
+        "capexAmount": 15.956,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity continues to restructure, reducing workforce by 25% and resetting portfolio to focus on core engine, cloud, and monetization solutions. Facing revenue challenges from advertising market competition and strategic realignment.",
+        "keyQuotes": [
+          "We are focused on enhancing our machine learning stack and data infrastructure capabilities",
+          "We began to reset our product and service offerings to focus on our core businesses"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000098",
+        "filingDate": "2024-05-09",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000098/unity-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 460.38,
+        "netIncome": -291.478,
+        "operatingCashFlow": -7.373,
+        "freeCashFlow": -14.563,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 179.515,
+        "marketShareMention": "Increased competition in advertising market impacting growth",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 30.2,
+          "Greater_China": 13,
+          "EMEA": 36.2,
+          "APAC": 18.3,
+          "Other_Americas": 2.3
+        },
+        "capexAmount": 7.19,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Gaming industry restrictions in China",
+          "Geopolitical instability in Israel"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity is undergoing significant restructuring, reducing workforce by 25% and resetting its product portfolio to focus on core Unity Engine, Cloud, and Monetization solutions. Revenue and profitability remain challenged by increased advertising market competition and macroeconomic headwinds.",
+        "keyQuotes": [
+          "We have a history of losses and may not achieve or sustain profitability on a GAAP basis in the future.",
+          "If we fail to successfully execute our plans to reset our portfolio to focus on our Strategic Portfolio and to right-size our investments, our business will be harmed."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-23-000181",
+        "filingDate": "2023-11-09",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080623000181/unity-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 544.21,
+        "netIncome": -125.31,
+        "operatingCashFlow": 162.6,
+        "freeCashFlow": 118.04,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 280.11,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 26.2,
+          "Greater China": 12,
+          "EMEA": 36.9,
+          "APAC": 22.4,
+          "Other Americas": 2.5
+        },
+        "capexAmount": 44.56,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software experienced revenue growth driven by the ironSource merger but continues to face challenges with net losses and pricing model changes. The company is undergoing strategic restructuring, including workforce reductions and potential product portfolio adjustments.",
+        "keyQuotes": [
+          "We experienced a high volume of negative customer feedback including a boycott and a slow down of signing new contracts and renewals as a result of these changes.",
+          "In the fourth quarter of 2023, we underwent a CEO change and began a comprehensive assessment of our product portfolio to focus on those offerings that are most valuable to our customers"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-23-000128",
+        "filingDate": "2023-08-02",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080623000128/unity-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 533.478,
+        "netIncome": -193.324,
+        "operatingCashFlow": 42.544,
+        "freeCashFlow": 14.076,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 215.012,
+        "marketShareMention": "Leading platform for creating and growing interactive, real-time 3D content and experiences",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 26,
+          "Greater_China": 13.1,
+          "EMEA": 35.3,
+          "APAC": 22.3,
+          "Other_Americas": 3.3
+        },
+        "capexAmount": 28.468,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Unity Software experienced revenue growth primarily driven by the ironSource merger, but continues to face challenges with macroeconomic conditions and advertising market softness. The company implemented a workforce reduction of 8% and remains cautious about near-term growth prospects.",
+        "keyQuotes": [
+          "We are building artificial intelligence ('AI') into many of our offerings",
+          "We expect to continue to incur operating losses on a GAAP basis for the foreseeable future",
+          "We believe our existing sources of liquidity will be sufficient to meet our working capital and capital expenditures for at least the next 12 months"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-23-000059",
+        "filingDate": "2023-05-10",
+        "reportDate": "2023-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080623000059/unity-20230331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 500.361,
+        "netIncome": -253.703,
+        "operatingCashFlow": -5.099,
+        "freeCashFlow": -19.449,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 303.332,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 26.2,
+          "Greater_China": 9.5,
+          "EMEA": 37.3,
+          "APAC": 23.9,
+          "Other_Americas": 3.1
+        },
+        "capexAmount": 14.35,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software experienced a challenging Q1 2023, with continued net losses and macroeconomic headwinds impacting revenue growth. The company is focusing on cost containment through headcount reductions and slowing hiring efforts while maintaining investment in core product innovation.",
+        "keyQuotes": [
+          "We have been evaluating our headcount needs, slowing down our hiring efforts, reducing the number of managerial layers, and focusing on containing the growth rate of other expenses.",
+          "Recent negative macroeconomic factors, such as inflation, corresponding heightened interest rates and limited credit availability, the strengthening of the U.S. dollar, and continued softness of the advertising market have negatively impacted our business and may continue to do so."
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-01-05T01:00:23.896Z"
+  "successfulAnalyses": 10,
+  "lastUpdated": "2026-01-21T18:59:12.619Z"
 }
