@@ -110,13 +110,27 @@ export function estimateNextEarningsDate(ticker: string): EarningsDate | null {
 
   // Estimate next date
   const lastDate = new Date(mostRecent.date);
-  const nextDate = new Date(lastDate.getTime() + avgDays * 24 * 60 * 60 * 1000);
+  let nextDate = new Date(lastDate.getTime() + avgDays * 24 * 60 * 60 * 1000);
+
+  // If estimated date is in the past, keep adding quarters until we get a future date
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // Reset time to start of day
+  while (nextDate < today) {
+    nextDate = new Date(nextDate.getTime() + avgDays * 24 * 60 * 60 * 1000);
+  }
 
   // Determine if it should be 10-Q or 10-K based on fiscal quarter
+  // Calculate quarters elapsed from most recent
+  const quartersElapsed = Math.round((nextDate.getTime() - lastDate.getTime()) / (avgDays * 24 * 60 * 60 * 1000));
   const nextFiscalQuarter = mostRecent.fiscalQuarter
-    ? (mostRecent.fiscalQuarter % 4) + 1
+    ? ((mostRecent.fiscalQuarter + quartersElapsed - 1) % 4) + 1
     : 1;
   const reportType = nextFiscalQuarter === 4 ? '10-K' : '10-Q';
+
+  // Calculate fiscal year based on quarters elapsed
+  const yearsElapsed = mostRecent.fiscalQuarter
+    ? Math.floor((mostRecent.fiscalQuarter + quartersElapsed - 1) / 4)
+    : 0;
 
   return {
     ticker: company.ticker,
@@ -128,7 +142,7 @@ export function estimateNextEarningsDate(ticker: string): EarningsDate | null {
     estimatedDate: nextDate.toISOString().split('T')[0],
     isEstimated: true,
     fiscalQuarter: nextFiscalQuarter,
-    fiscalYear: mostRecent.fiscalYear ? mostRecent.fiscalYear + (nextFiscalQuarter === 1 ? 1 : 0) : undefined,
+    fiscalYear: mostRecent.fiscalYear ? mostRecent.fiscalYear + yearsElapsed : undefined,
     reportType,
   };
 }
