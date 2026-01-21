@@ -12,10 +12,14 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     timeout-minutes: 360 # 6 hours max (with retries and backoff)
+    permissions:
+      contents: write # Allow pushing commits
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
