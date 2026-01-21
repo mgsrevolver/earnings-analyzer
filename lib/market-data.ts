@@ -17,8 +17,8 @@ const yahooFinance = new YahooFinance();
  */
 async function retryWithBackoff<T>(
   fn: () => Promise<T>,
-  maxRetries = 5,
-  baseDelay = 5000
+  maxRetries = 1, // Reduced from 5 to 1 - fail fast on rate limits
+  baseDelay = 3000 // Reduced from 5000 to 3000
 ): Promise<T | {}> {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
@@ -36,13 +36,14 @@ async function retryWithBackoff<T>(
       }
 
       if (attempt === maxRetries) {
-        console.error(`Max retries (${maxRetries}) exceeded. Giving up.`);
+        console.log(`⚠️  Yahoo Finance rate limit - disabling for remaining requests (earnings analysis will continue without market data)`);
+        yahooFinanceDisabled = true; // Disable for all future calls
         return {};
       }
 
-      // Exponential backoff: 5s, 10s, 20s, 40s, 80s
-      const delay = baseDelay * Math.pow(2, attempt);
-      console.log(`Rate limited (attempt ${attempt + 1}/${maxRetries + 1}). Retrying in ${delay / 1000}s...`);
+      // One retry with 3s delay
+      const delay = baseDelay;
+      console.log(`Rate limited, retrying once in ${delay / 1000}s...`);
       await new Promise(resolve => setTimeout(resolve, delay));
     }
   }
@@ -50,10 +51,16 @@ async function retryWithBackoff<T>(
 }
 
 // Global delay between Yahoo Finance calls to avoid rate limiting
-const YAHOO_FINANCE_DELAY = 3000; // 3 seconds between calls
+const YAHOO_FINANCE_DELAY = 1000; // 1 second (reduced from 3s)
 let lastYahooFinanceCall = 0;
+let yahooFinanceDisabled = false; // Disable after first rate limit
 
 async function throttleYahooFinance() {
+  // If Yahoo Finance is rate limiting everyone, just skip it
+  if (yahooFinanceDisabled) {
+    throw new Error('Yahoo Finance disabled due to rate limits');
+  }
+
   const now = Date.now();
   const timeSinceLastCall = now - lastYahooFinanceCall;
   if (timeSinceLastCall < YAHOO_FINANCE_DELAY) {
