@@ -37,3 +37,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# beads (bd) issue tracker
+.bd/
+.beads/
+
+# Gas Town
+.gastown/

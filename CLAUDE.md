@@ -65,7 +65,8 @@ Companies have different fiscal year ends (e.g., Apple ends Sept, Microsoft ends
 - **Q4 Calculation**: For companies that only file 10-K (annual) + three 10-Qs, Q4 is calculated as: Annual - (Q1 + Q2 + Q3)
 - Company fiscal year ends stored in `lib/companies.ts` as `fiscalYearEnd: "MM-DD"` (omit for calendar year companies)
 
-### Financial Data Units
+### Financial Data Units  
+'u .'';.k               
 
 **CRITICAL**: All financial metrics (revenue, netIncome, capex, etc.) must be stored in **millions of dollars**. The Claude analysis prompt enforces this, but validate with `lib/validate-financial-units.ts` and `npm run audit`.
 
