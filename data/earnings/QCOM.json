@@ -1,0 +1,345 @@
+{
+  "company": {
+    "ticker": "QCOM",
+    "name": "QUALCOMM Inc.",
+    "category": [
+      "Tech"
+    ],
+    "sector": "Technology",
+    "subCategory": "Semiconductors",
+    "cik": "0000804328"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000804328-25-000045",
+        "filingDate": "2025-07-30",
+        "reportDate": "2025-06-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000045/qcom-20250629.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 11,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 10365,
+        "netIncome": 2666,
+        "operatingCashFlow": 10016,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 378,
+        "marketShareMention": "Continued leadership in 5G technology development",
+        "customerConcentration": 52,
+        "geographicBreakdown": null,
+        "capexAmount": 785,
+        "capexGrowth": 0,
+        "partnerships": [
+          "New long-term licenses with two Chinese OEMs",
+          "Comprehensive 4G and 5G license agreement with Transsion"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "U.S./China trade tensions",
+          "Potential tax law changes with One Big Beautiful Bill Act"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Qualcomm delivered strong Q2 2025 performance with 10% revenue growth and 25% net income increase, driven by strength in handsets, IoT, and automotive segments. The company remains focused on 5G leadership and technology diversification.",
+        "keyQuotes": [
+          "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption of technologies beyond mobile handsets",
+          "We continue to monitor recent changes in global trade policy"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-25-000031",
+        "filingDate": "2025-04-30",
+        "reportDate": "2025-03-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000031/qcom-20250330.htm"
+      },
+      "insights": {
+        "guidanceTone": "positive",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": 17,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 10979,
+        "netIncome": 2812,
+        "operatingCashFlow": 7141,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 314,
+        "marketShareMention": "5G leadership position maintained",
+        "customerConcentration": 55,
+        "geographicBreakdown": {
+          "China": 45,
+          "Other": 55
+        },
+        "capexAmount": 491,
+        "capexGrowth": 23.4,
+        "partnerships": [
+          "Transsion licensing agreement",
+          "New Chinese OEM license agreements"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "Potential OECD global minimum tax implementation",
+          "U.S./China trade tensions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": true,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Qualcomm delivered strong Q1 2025 results with 17% revenue growth and 21% net income increase, driven by strong performance in handsets, automotive, and IoT segments. The company maintains a positive outlook on 5G and AI technologies.",
+        "keyQuotes": [
+          "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption",
+          "We continue to monitor the recent changes in global trade policy"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-24-000056",
+        "filingDate": "2024-07-31",
+        "reportDate": "2024-06-23",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000056/qcom-20240623.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 9393,
+        "netIncome": 2129,
+        "operatingCashFlow": 9555,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 371,
+        "marketShareMention": null,
+        "customerConcentration": 45,
+        "geographicBreakdown": null,
+        "capexAmount": 785,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "U.S./China trade tensions",
+          "Ongoing patent licensing disputes"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "neutral",
+        "summary": "Qualcomm delivered strong Q2 2024 results with 11% revenue growth and 18% net income increase. The company continues to face challenges from IoT inventory drawdown and intense competition, but remains optimistic about 5G technology opportunities beyond mobile handsets.",
+        "keyQuotes": [
+          "We believe that 5G combined with high-performance, low-power processing and on-device intelligence will continue to drive adoption of certain technologies",
+          "We expect certain IoT customers will continue to draw down on their inventory, which will continue to have a negative impact on our revenues"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-23"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-24-000039",
+        "filingDate": "2024-05-01",
+        "reportDate": "2024-03-24",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000039/qcom-20240324.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 9389,
+        "netIncome": 2326,
+        "operatingCashFlow": 6503,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 388,
+        "marketShareMention": null,
+        "customerConcentration": 57,
+        "geographicBreakdown": null,
+        "capexAmount": 398,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "U.S./China trade tensions",
+          "Ongoing patent licensing negotiations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": true,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Qualcomm delivered stable quarterly results with modest revenue growth and strong net income driven by semiconductor and licensing segments. The company faces ongoing challenges from IoT inventory drawdown, intense competition, and geopolitical tensions.",
+        "keyQuotes": [
+          "We expect certain IoT customers will continue to draw down on their inventory, which will continue to have a negative impact on our revenues",
+          "We expect continued intense competition, including from vertical integration by certain of our customers",
+          "Current U.S./China trade relations and/or national security protection policies may negatively impact our business"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-24"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-23-000043",
+        "filingDate": "2023-08-02",
+        "reportDate": "2023-06-25",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432823000043/qcom-20230625.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 8451,
+        "netIncome": 1803,
+        "operatingCashFlow": 7209,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 341,
+        "marketShareMention": null,
+        "customerConcentration": 47,
+        "geographicBreakdown": null,
+        "capexAmount": 1157,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Antitrust investigations in Korea",
+          "European Commission legal challenges"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Qualcomm experienced significant revenue and earnings decline in Q2 2023, driven by macroeconomic weakness, reduced consumer demand for smartphones, and elevated customer inventory levels. The company is implementing cost reduction initiatives and restructuring efforts to manage the challenging environment.",
+        "keyQuotes": [
+          "Revenues were negatively impacted by the weakness in the macroeconomic environment",
+          "We expect to take additional restructuring actions to enable continued investments in key growth and diversification opportunities"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-25"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-23-000023",
+        "filingDate": "2023-05-03",
+        "reportDate": "2023-03-26",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432823000023/qcom-20230326.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "lowered",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 9275,
+        "netIncome": 1704,
+        "operatingCashFlow": 4552,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 381,
+        "marketShareMention": null,
+        "customerConcentration": 52,
+        "geographicBreakdown": null,
+        "capexAmount": 851,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Ongoing antitrust investigations",
+          "Patent licensing challenges"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": false,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Qualcomm experienced a significant 17% revenue decline in Q1 2023, driven by macroeconomic weakness and customer inventory drawdowns. The company is facing challenges in smartphone and IoT markets while maintaining moderate pricing power.",
+        "keyQuotes": [
+          "We expect the current macroeconomic environment challenges to continue",
+          "Macroeconomic environment weakness negatively impacted consumer demand for smartphones and other devices"
+        ],
+        "marketData": {}
+      },
+      "quarter": "Q1 2023",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2023,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2023,
+        "quarter": "Q1 2023",
+        "reportDate": "2023-03-26"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 6,
+  "lastUpdated": "2026-01-22T21:26:48.468Z"
+}
