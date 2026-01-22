@@ -349,6 +349,13 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       lastUpdated: new Date().toISOString()
     };
 
+    // Don't overwrite existing good data with empty results
+    if (finalReports.length === 0 && existsSync(outputPath)) {
+      console.log(`\n⚠️  Skipping save - 0 successful analyses and existing data found`);
+      console.log(`   Keeping cached data to preserve user experience`);
+      return;
+    }
+
     writeFileSync(outputPath, JSON.stringify(data, null, 2));
     console.log(`\n✅ Saved ${finalReports.length} quarters to ${outputPath}`);
 
