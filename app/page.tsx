@@ -14,8 +14,9 @@ import { getCompanyLogoUrl } from '@/lib/logos';
 
 export default function Home() {
   const mag7 = getCompaniesByCategory('Mag7');
+  const semiconductors = COMPANIES.filter((c) => c.subCategory === 'Semiconductors');
   const tech = getCompaniesByCategory('Tech').filter(
-    (c) => !c.category.includes('Mag7') && !c.category.includes('Infrastructure') && !c.category.includes('Energy')
+    (c) => !c.category.includes('Mag7') && !c.category.includes('Infrastructure') && !c.category.includes('Energy') && c.subCategory !== 'Semiconductors'
   );
   const biotech = getCompaniesByCategory('Biotech');
   const wsb = getCompaniesByCategory('WSB');
@@ -111,7 +112,39 @@ export default function Home() {
             <Card>
               <CardContent className="pt-6">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  {tech.slice(0, 12).map((company) => (
+                  {tech.map((company) => (
+                    <Link
+                      key={company.ticker}
+                      href={`/company/${company.ticker}`}
+                    >
+                      <div className="interactive-ticker-card">
+                        <div className="flex items-center gap-3 mb-3">
+                          <Image
+                            src={getCompanyLogoUrl(company.ticker)}
+                            alt={`${company.ticker} logo`}
+                            width={40}
+                            height={40}
+                            className="rounded"
+                          />
+                          <Badge variant="outline">{company.ticker}</Badge>
+                        </div>
+                        <p className="text-sm font-medium truncate">
+                          {company.name}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Semiconductors</h2>
+            <Card>
+              <CardContent className="pt-6">
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                  {semiconductors.map((company) => (
                     <Link
                       key={company.ticker}
                       href={`/company/${company.ticker}`}
