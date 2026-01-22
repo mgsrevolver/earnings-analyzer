@@ -65,8 +65,7 @@ Companies have different fiscal year ends (e.g., Apple ends Sept, Microsoft ends
 - **Q4 Calculation**: For companies that only file 10-K (annual) + three 10-Qs, Q4 is calculated as: Annual - (Q1 + Q2 + Q3)
 - Company fiscal year ends stored in `lib/companies.ts` as `fiscalYearEnd: "MM-DD"` (omit for calendar year companies)
 
-### Financial Data Units  
-'u .'';.k               
+### Financial Data Units
 
 **CRITICAL**: All financial metrics (revenue, netIncome, capex, etc.) must be stored in **millions of dollars**. The Claude analysis prompt enforces this, but validate with `lib/validate-financial-units.ts` and `npm run audit`.
 
@@ -126,9 +125,9 @@ npm run audit
 
 - `app/page.tsx`: Dashboard with company grid (filterable by category)
 - `app/company/[ticker]/page.tsx`: Individual company earnings history
-- `app/macro/page.tsx`: Cross-company macro analysis (in progress)
-- `app/trends/page.tsx`: Trend visualizations (in progress)
-- `app/calendar/page.tsx`: Earnings calendar (in progress)
+- `app/macro/page.tsx`: Cross-company macro analysis (partnership networks, capex trends, divergences)
+- `app/trends/page.tsx`: Trend visualizations (stub - not yet implemented)
+- `app/calendar/page.tsx`: Earnings calendar (6-month forward outlook)
 - `components/ui/`: shadcn/ui components (button, card, badge, etc.)
 
 ## Cost Structure
@@ -194,6 +193,36 @@ This section documents recurring challenges and their solutions. Add new issues 
 - Tests or checks to implement
 
 ---
+
+## GitHub Actions
+
+The project uses GitHub Actions to automate earnings analysis. See `.github/workflows/analyze-earnings.yml`.
+
+### Workflow: Analyze All Companies
+
+- **Trigger**: Manual dispatch via GitHub Actions tab, or scheduled (if enabled)
+- **Runtime**: ~6-12 hours, 3-hour timeout
+- **Cost**: ~$20-40 per full run
+- **Output**: Commits updated JSON files to `data/earnings/` and `data/macro/`
+
+### Enabling Scheduled Runs
+
+To run weekly, uncomment the schedule in the workflow file:
+
+```yaml
+schedule:
+  - cron: '0 2 * * 0' # Every Sunday at 2 AM UTC
+```
+
+### Required Secrets
+
+- `ANTHROPIC_API_KEY`: Set in repository Settings → Secrets and variables → Actions
+
+### Manual Trigger
+
+1. Go to Actions tab in GitHub
+2. Select "Analyze All Companies" workflow
+3. Click "Run workflow"
 
 ## Development Notes
 

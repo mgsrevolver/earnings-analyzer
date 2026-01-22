@@ -4,9 +4,9 @@ on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
-  # Optionally: run on a schedule (commented out by default)
-  # schedule:
-  #   - cron: '0 2 * * 0' # Every Sunday at 2 AM UTC
+  # Run weekly on Sunday at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
 
 permissions:
   contents: write

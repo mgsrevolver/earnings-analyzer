@@ -119,14 +119,38 @@ earnings-analyzer/
 
 ## Roadmap
 
-- [ ] Earnings calendar with upcoming report dates
+### Completed
+- [x] Earnings calendar with upcoming report dates
+- [x] Historical analysis (last 4 quarters per company)
+- [x] Macro cross-company analysis page
+- [x] Comparative analysis (peer benchmarking)
+- [x] Automated analysis via GitHub Actions
+
+### In Progress
 - [ ] Interactive trend visualizations (charts)
-- [ ] Historical analysis (last 4 quarters per company)
-- [ ] Macro cross-company analysis page
+
+### Planned
 - [ ] Export insights to CSV/PDF
 - [ ] Email alerts for key companies
-- [ ] Comparative analysis (peer benchmarking)
 - [ ] Dark mode toggle
+
+## Automated Analysis
+
+The project includes a GitHub Actions workflow that automatically analyzes all companies and commits updated data.
+
+### Manual Trigger
+Run the workflow manually from the GitHub Actions tab.
+
+### Scheduled Runs
+The workflow can be configured to run weekly (e.g., every Sunday at 2 AM UTC). Edit `.github/workflows/analyze-earnings.yml` and uncomment the schedule section:
+
+```yaml
+schedule:
+  - cron: '0 2 * * 0' # Every Sunday at 2 AM UTC
+```
+
+### Requirements
+- `ANTHROPIC_API_KEY` must be set in repository secrets
 
 ## Contributing
 
