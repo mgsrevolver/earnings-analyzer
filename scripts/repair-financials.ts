@@ -40,14 +40,26 @@ interface Fact {
   val: number;
 }
 
-function collectFacts(companyFacts: CompanyFacts, tags: string[]): Fact[] {
+/**
+ * Compute Q4 trying each tag until one yields a value. Companies report under
+ * different tags over time (e.g. NVDA has stale facts under
+ * RevenueFromContractWithCustomer... but current data under Revenues), so
+ * committing to the first non-empty tag silently misses.
+ */
+function computeQ4AcrossTags(
+  companyFacts: CompanyFacts,
+  tags: string[],
+  fyEnd: string
+): number | null {
   const gaap = (companyFacts as any)?.facts?.['us-gaap'];
-  if (!gaap) return [];
+  if (!gaap) return null;
   for (const tag of tags) {
     const usd: Fact[] | undefined = gaap[tag]?.units?.USD;
-    if (usd?.length) return usd;
+    if (!usd?.length) continue;
+    const val = computeQ4(usd, fyEnd);
+    if (val != null) return val;
   }
-  return [];
+  return null;
 }
 
 function days(f: Fact): number | null {
@@ -110,9 +122,6 @@ async function repairTicker(file: string): Promise<{ fixed: number; missed: numb
     return { fixed: 0, missed: 0 };
   }
 
-  const revenueFacts = collectFacts(companyFacts, REVENUE_TAGS);
-  const netIncomeFacts = collectFacts(companyFacts, NET_INCOME_TAGS);
-
   let fixed = 0;
   let missed = 0;
 
@@ -126,8 +135,8 @@ async function repairTicker(file: string): Promise<{ fixed: number; missed: numb
 
     if (form === '10-K') {
       // Stored 10-K rows are computed fiscal-Q4 rows
-      revenue = computeQ4(revenueFacts, reportDate);
-      netIncome = computeQ4(netIncomeFacts, reportDate);
+      revenue = computeQ4AcrossTags(companyFacts, REVENUE_TAGS, reportDate);
+      netIncome = computeQ4AcrossTags(companyFacts, NET_INCOME_TAGS, reportDate);
       if (revenue != null && revenue <= 0) {
         // Even exact data can't produce a sensible Q4 (e.g. tag mismatch) — drop it
         revenue = null;

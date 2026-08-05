@@ -26,8 +26,9 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
     .reverse() // Show oldest to newest
     .map((report) => ({
       quarter: report.quarter,
-      revenue: report.insights.revenue || 0,
-      netIncome: report.insights.netIncome || 0,
+      // Keep missing values as null so the chart shows a gap instead of a fake $0
+      revenue: report.insights.revenue ?? null,
+      netIncome: report.insights.netIncome ?? null,
     }));
 
   // Prepare data for guidance evolution
