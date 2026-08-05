@@ -51,15 +51,12 @@
           "We are in the process of converting most of our existing facilities to support artificial intelligence-related workloads"
         ],
         "marketData": {
-          "priceOnEarningsDate": 17.940000534057617,
-          "priceAfter7Days": 17.100000381469727,
-          "priceChangePercent": -4.682274958650193,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 41,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 21,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2025",
@@ -113,14 +110,11 @@
           "We derive the majority of our revenue from earning bitcoin for our own account"
         ],
         "marketData": {
-          "priceOnEarningsDate": 17.06999969482422,
-          "priceAfter7Days": 14.829999923706055,
-          "priceChangePercent": -13.122435917777741,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 32,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 9,
           "compositeSentiment": "bearish"
         }
       },
@@ -177,14 +171,11 @@
           "We are in the process of converting a significant portion of our ten data centers to support artificial intelligence-related workloads"
         ],
         "marketData": {
-          "priceOnEarningsDate": 7.239999771118164,
-          "priceAfter7Days": 7.019999980926514,
-          "priceChangePercent": -3.0386712313068633,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 55,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 57,
           "compositeSentiment": "neutral"
         }
       },
@@ -242,15 +233,12 @@
           "We believe that using our existing infrastructure for HPC hosting operations will provide more consistent dollar-based revenue and represents substantially less risk than our traditional hosted bitcoin mining or our bitcoin self-mining operations."
         ],
         "marketData": {
-          "priceOnEarningsDate": 14.050000190734863,
-          "priceAfter7Days": 14.119999885559082,
-          "priceChangePercent": 0.4982184617362452,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 51,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 35,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2024",
@@ -304,15 +292,12 @@
           "Beginning on March 6, 2024, we announced a series of new contractual agreements with a third-party provider of HPC operations"
         ],
         "marketData": {
-          "priceOnEarningsDate": 11.859999656677246,
-          "priceAfter7Days": 12.369999885559082,
-          "priceChangePercent": 4.300170688408941,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 22,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2024",
@@ -366,15 +351,12 @@
           "Going forward we intend to focus our efforts on expanding our HPC customer base while maintaining our bitcoin self-mining operations"
         ],
         "marketData": {
-          "priceOnEarningsDate": 9.850000381469727,
-          "priceAfter7Days": 10.359999656677246,
-          "priceChangePercent": 5.177657415800243,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 38,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2024",
@@ -429,15 +411,12 @@
           "When combined with the additional liquidity of the available delayed-draw term loan and the expected cash flows from operations, management has concluded that as of March 31, 2024, the Company's capital, liquidity and cash flow from operations is sufficient to fund its operations and debt service obligations for at least the next 12 months."
         ],
         "marketData": {
-          "priceOnEarningsDate": 3.5299999713897705,
-          "priceAfter7Days": 3.380000114440918,
-          "priceChangePercent": -4.249287766702083,
           "managementToneScore": 90,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 50,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 88,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2024",
@@ -495,7 +474,14 @@
           "We believe that we are well positioned to serve customers in a rapidly expanding market for digital asset mining and blockchain solutions.",
           "Our business is heavily dependent on the spot price of bitcoin, as well as other digital assets."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 17,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -547,7 +533,14 @@
           "We are one of the largest blockchain infrastructure, digital asset mining and colocation hosting provider companies in North America.",
           "Our business strategy is to grow our revenue and profitability by increasing the capacity and efficiency of our self-mining fleet and entering into strategic, revenue-enhancing colocation opportunities with third parties."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 17,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -599,7 +592,14 @@
           "Our ability to continue as a going concern is contingent upon, among other things, our ability to implement a Chapter 11 plan of reorganization",
           "Substantial doubt exists regarding our ability to continue as a going concern"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 17,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -657,7 +657,14 @@
           "We are one of the largest blockchain infrastructure, digital asset mining and colocation hosting provider companies in North America",
           "Our business strategy is to grow our revenue and profitability by increasing the capacity and efficiency of our self-mining fleet"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 17,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

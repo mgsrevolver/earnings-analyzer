@@ -47,7 +47,14 @@
           "On August 31, 2022, the Company announced the planned closure of approximately 150 lower-producing Bed Bath & Beyond banner stores",
           "The Company is implementing various strategic actions including permanently closing stores, reducing workforce, deferring capital expenditures and reducing operating expenses"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 0,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 8,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2022",
       "quarterInfo": {
@@ -98,15 +105,12 @@
           "We have created a more focused portfolio through the divestiture of non-core assets and further strengthened our financial flexibility"
         ],
         "marketData": {
-          "priceOnEarningsDate": 30.989999771118164,
-          "priceAfter7Days": 31.459999084472656,
-          "priceChangePercent": 1.5166160594570857,
           "managementToneScore": 0,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 44,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 8,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2022",
@@ -157,7 +161,14 @@
           "The Company recorded $98.2 million in costs associated with restructuring and other transformation initiatives",
           "As of August 28, 2021, the Company had closed a total of 165 stores under this program"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 0,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 9,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2021",
       "quarterInfo": {
@@ -208,14 +219,11 @@
           "Expects to close an additional 40 stores by the end of fiscal 2021"
         ],
         "marketData": {
-          "priceOnEarningsDate": 85.66000366210938,
-          "priceAfter7Days": 93.75,
-          "priceChangePercent": 9.444310053735304,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 80,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
           "compositeSentiment": "neutral"
         }
       },
@@ -269,7 +277,14 @@
           "As part of the Company's ongoing business transformation, on July 6, 2020, the Board of Directors of the Company approved the planned closure of approximately 200 mostly Bed Bath & Beyond stores over the next two years",
           "During the second quarter of fiscal 2020, the Company announced a major realignment of its organizational structure as part of its transformation initiative"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2020",
       "quarterInfo": {
@@ -325,15 +340,12 @@
           "The Company is re-engineering its supply chain and vendor relationships, as well as further strengthening its owned-brand strategy"
         ],
         "marketData": {
-          "priceOnEarningsDate": 19.329999923706055,
-          "priceAfter7Days": 21.690000534057617,
-          "priceChangePercent": 12.20900475771492,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": null,
+          "priceActionScore": null,
+          "compositeSentimentScore": 7,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2020",

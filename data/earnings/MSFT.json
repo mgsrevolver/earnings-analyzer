@@ -55,7 +55,14 @@
           "Microsoft Cloud revenue increased 26% to $49.1 billion",
           "Commercial remaining performance obligation increased 51% to $392 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -116,7 +123,14 @@
           "Microsoft Cloud revenue increased 23% to $168.9 billion",
           "Azure and other cloud services revenue grew 34% driven by demand for our portfolio of services"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -173,7 +187,14 @@
           "We are incurring significant costs to build and maintain infrastructure to support cloud-based and AI services",
           "Microsoft is a technology company committed to making digital technology and artificial intelligence broadly available"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -231,7 +252,14 @@
           "We are investing in artificial intelligence across the entire company and infusing generative AI capabilities into our consumer and commercial offerings.",
           "Microsoft is a technology company committed to making digital technology and artificial intelligence available broadly and doing so responsibly."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 79,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -288,7 +316,14 @@
           "We are committed to making digital technology and artificial intelligence available broadly and doing so responsibly",
           "Microsoft Cloud revenue increased 22% to $38.9 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -341,7 +376,14 @@
           "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
           "Microsoft Cloud revenue increased 23% to $35.1 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -396,7 +438,14 @@
           "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
           "Microsoft Cloud revenue increased 24% to $33.7 billion"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -455,7 +504,14 @@
           "We are creating the platforms and tools, powered by artificial intelligence, that deliver better, faster, and more effective solutions",
           "Our strategic vision is to compete and grow by building best-in-class platforms and productivity services"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -510,7 +566,14 @@
           "Microsoft Cloud revenue increased 22% to $28.5 billion",
           "We are continuing to engage with regulators reviewing the Activision Blizzard transaction"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 74,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
@@ -565,7 +628,14 @@
           "We are allocating both our capital and talent to areas of secular growth and long-term competitiveness, while divesting in other areas.",
           "To compete, we must successfully enlist developers to write applications for our platform and ensure that these applications have high quality, security, customer appeal, and value."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 42,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2022",
       "quarterInfo": {

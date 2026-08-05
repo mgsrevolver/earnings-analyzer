@@ -54,15 +54,12 @@
           "Revenues will need to increase to levels at least in line with pre-COVID-19 revenues"
         ],
         "marketData": {
-          "priceOnEarningsDate": 2.9000000953674316,
-          "priceAfter7Days": 2.8399999141693115,
-          "priceChangePercent": -2.0689716974136187,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 44,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 22,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2025",
@@ -120,15 +117,12 @@
           "Revenues will need to increase to levels at least in line with pre-COVID-19 revenues"
         ],
         "marketData": {
-          "priceOnEarningsDate": 3.0999999046325684,
-          "priceAfter7Days": 2.8499999046325684,
-          "priceChangePercent": -8.064516377126521,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 15,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 37,
-          "compositeSentiment": "bearish"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2025",
@@ -183,14 +177,11 @@
           "North American box office grosses were down approximately 40% for the three months ended March 31, 2025, compared to the three months ended March 31, 2019."
         ],
         "marketData": {
-          "priceOnEarningsDate": 2.869999885559082,
-          "priceAfter7Days": 2.75,
-          "priceChangePercent": -4.181180848225219,
           "managementToneScore": 10,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 39,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 18,
           "compositeSentiment": "bearish"
         }
       },
@@ -249,15 +240,12 @@
           "In order to achieve sustainable net positive cash flows, revenues will need to increase to levels in line with pre-COVID-19 revenues."
         ],
         "marketData": {
-          "priceOnEarningsDate": 3.9800000190734863,
-          "priceAfter7Days": 4.070000171661377,
-          "priceChangePercent": 2.261310355692962,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 49,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 34,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2024",
@@ -317,14 +305,11 @@
           "The Company's cash burn rates are not sustainable long-term."
         ],
         "marketData": {
-          "priceOnEarningsDate": 4.550000190734863,
-          "priceAfter7Days": 4.179999828338623,
-          "priceChangePercent": -8.131875755734464,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 15,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 35,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 23,
           "compositeSentiment": "bearish"
         }
       },
@@ -384,15 +369,12 @@
           "North American box office grosses were down approximately 36% for the six months ended June 30, 2024, compared to the six months ended June 30, 2019."
         ],
         "marketData": {
-          "priceOnEarningsDate": 5.039999961853027,
-          "priceAfter7Days": 5.46999979019165,
-          "priceChangePercent": 8.531742690341758,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 80,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 10,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2024",
@@ -454,14 +436,11 @@
           "Until such time as the Company is able to achieve sustainable net positive operating cash flow, it is difficult to estimate the Company's future cash burn rates and liquidity requirements."
         ],
         "marketData": {
-          "priceOnEarningsDate": 3.140000104904175,
-          "priceAfter7Days": 2.950000047683716,
-          "priceChangePercent": -6.050957034164091,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 38,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 34,
           "compositeSentiment": "bearish"
         }
       },
@@ -535,15 +514,12 @@
           "We expect these issues to continue for the foreseeable future and plan to minimize the impact by focusing on the supply of those items with the greatest impact on our sales and operations."
         ],
         "marketData": {
-          "priceOnEarningsDate": 6.110000133514404,
-          "priceAfter7Days": 5.289999961853027,
-          "priceChangePercent": -13.420624447510804,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 34,
-          "compositeSentiment": "bearish"
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q4 2023",
@@ -598,14 +574,11 @@
           "Operating revenues will need to increase to levels in line with pre-COVID operating revenues."
         ],
         "marketData": {
-          "priceOnEarningsDate": 8.149999618530273,
-          "priceAfter7Days": 9.819999694824219,
-          "priceChangePercent": 20.490799441228734,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 63,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 74,
           "compositeSentiment": "bullish"
         }
       },
@@ -663,15 +636,12 @@
           "Operating revenues will need to increase to levels in line with pre-COVID operating revenues."
         ],
         "marketData": {
-          "priceOnEarningsDate": 44,
-          "priceAfter7Days": 42,
-          "priceChangePercent": -4.545454545454546,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 43,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2023",
@@ -728,7 +698,14 @@
           "The Company's current cash burn rates are not sustainable long-term",
           "Until such time as the Company is able to achieve positive operating cash flow, it is difficult to estimate the Company's liquidity requirements"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

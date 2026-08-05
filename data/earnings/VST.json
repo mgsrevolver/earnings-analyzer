@@ -58,13 +58,10 @@
           "We continue to evaluate the feasibility of converting coal-fueled facilities to gas-fueled facilities"
         ],
         "marketData": {
-          "priceOnEarningsDate": 195.9199981689453,
-          "priceAfter7Days": 199.6199951171875,
-          "priceChangePercent": 1.8885243889455399,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
           "compositeSentimentScore": 49,
           "compositeSentiment": "neutral"
         }
@@ -124,13 +121,10 @@
           "We are pursuing all Specified Regulatory Approvals and anticipate the Transactions will close in late 2025 or early 2026"
         ],
         "marketData": {
-          "priceOnEarningsDate": 193.80999755859375,
-          "priceAfter7Days": 193.6999969482422,
-          "priceChangePercent": -0.05675693294320717,
           "managementToneScore": 70,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 75,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
           "compositeSentimentScore": 56,
           "compositeSentiment": "neutral"
         }
@@ -193,15 +187,12 @@
           "We will know more after the investigation of the cause of the Moss Landing Incident is complete"
         ],
         "marketData": {
-          "priceOnEarningsDate": 117.44000244140625,
-          "priceAfter7Days": 102.69000244140625,
-          "priceChangePercent": -12.559604643536296,
           "managementToneScore": 0,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 29,
-          "compositeSentiment": "bearish"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 45,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2025",
@@ -257,14 +248,11 @@
           "We are committed to sustainability, setting aggressive targets, and transitioning our fleet to low-to-no carbon resources"
         ],
         "marketData": {
-          "priceOnEarningsDate": 137.8699951171875,
-          "priceAfter7Days": 163.3699951171875,
-          "priceChangePercent": 18.495684995364922,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 74,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 82,
           "compositeSentiment": "bullish"
         }
       },
@@ -325,14 +313,11 @@
           "The Energy Harbor merger combines our nuclear and retail businesses to provide diversification and scale"
         ],
         "marketData": {
-          "priceOnEarningsDate": 118.54000091552734,
-          "priceAfter7Days": 131.27000427246094,
-          "priceChangePercent": 10.738993806829061,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 72,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
           "compositeSentiment": "bullish"
         }
       },
@@ -393,15 +378,12 @@
           "We have been approved for license renewal at our Comanche Peak Nuclear Plant, extending licenses into 2050 and 2053"
         ],
         "marketData": {
-          "priceOnEarningsDate": 87.33999633789062,
-          "priceAfter7Days": 92.87999725341797,
-          "priceChangePercent": 6.343028564021052,
           "managementToneScore": 65,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 63,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2024",
@@ -454,15 +436,12 @@
           "Energy market dynamics"
         ],
         "marketData": {
-          "priceOnEarningsDate": 71.52999877929688,
-          "priceAfter7Days": 74.41999816894531,
-          "priceChangePercent": 4.040262042454974,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 37,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q1 2024",
@@ -520,14 +499,11 @@
           "We compete to win. We will create the leading integrated energy company"
         ],
         "marketData": {
-          "priceOnEarningsDate": 38.06999969482422,
-          "priceAfter7Days": 39.13999938964844,
-          "priceChangePercent": 2.810611251383041,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 46,
           "compositeSentiment": "neutral"
         }
       },
@@ -586,14 +562,11 @@
           "We will only invest in growth projects if we are confident that the expected returns will meet or exceed internal targets"
         ],
         "marketData": {
-          "priceOnEarningsDate": 32.529998779296875,
-          "priceAfter7Days": 31.850000381469727,
-          "priceChangePercent": -2.090373265737474,
           "managementToneScore": 85,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
           "compositeSentiment": "neutral"
         }
       },
@@ -654,15 +627,12 @@
           "This transaction is expected to accelerate Vistra's path to a clean energy transition by more than doubling the amount of zero-carbon generation it has online at the time of the Transactions' closing."
         ],
         "marketData": {
-          "priceOnEarningsDate": 26.25,
-          "priceAfter7Days": 26.700000762939453,
-          "priceChangePercent": 1.714288620721726,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 57,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2023",
@@ -722,7 +692,14 @@
           "We continue to execute our strategy of transitioning towards a clean energy portfolio",
           "Our comprehensive hedging strategy has enabled us to effectively manage commodity price volatility"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

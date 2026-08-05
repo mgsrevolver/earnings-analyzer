@@ -53,7 +53,14 @@
           "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption of technologies beyond mobile handsets",
           "We continue to monitor recent changes in global trade policy"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -112,7 +119,14 @@
           "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption",
           "We continue to monitor the recent changes in global trade policy"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 81,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -165,7 +179,14 @@
           "We believe that 5G combined with high-performance, low-power processing and on-device intelligence will continue to drive adoption of certain technologies",
           "We expect certain IoT customers will continue to draw down on their inventory, which will continue to have a negative impact on our revenues"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 65,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 73,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -219,7 +240,14 @@
           "We expect continued intense competition, including from vertical integration by certain of our customers",
           "Current U.S./China trade relations and/or national security protection policies may negatively impact our business"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -272,7 +300,14 @@
           "Revenues were negatively impacted by the weakness in the macroeconomic environment",
           "We expect to take additional restructuring actions to enable continued investments in key growth and diversification opportunities"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 16,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -325,7 +360,14 @@
           "We expect the current macroeconomic environment challenges to continue",
           "Macroeconomic environment weakness negatively impacted consumer demand for smartphones and other devices"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 20,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

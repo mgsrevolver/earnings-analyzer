@@ -55,14 +55,11 @@
           "We continue to explore ways to increase the size of our addressable market through new product and service offerings"
         ],
         "marketData": {
-          "priceOnEarningsDate": 26.600000381469727,
-          "priceAfter7Days": 28.049999237060547,
-          "priceChangePercent": 5.45112343908434,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 56,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 45,
           "compositeSentiment": "neutral"
         }
       },
@@ -123,15 +120,12 @@
           "We continue to explore ways to increase the size of our addressable market through new product and service offerings"
         ],
         "marketData": {
-          "priceOnEarningsDate": 22.329999923706055,
-          "priceAfter7Days": 27.260000228881836,
-          "priceChangePercent": 22.077923520017467,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 63,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 37,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2024",
@@ -188,15 +182,12 @@
           "We are taking steps to ensure we are a fast and convenient solution for our customers."
         ],
         "marketData": {
-          "priceOnEarningsDate": 20.649999618530273,
-          "priceAfter7Days": 21.8799991607666,
-          "priceChangePercent": 5.956414358151311,
           "managementToneScore": 30,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 38,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2024",
@@ -253,15 +244,12 @@
           "We will continue to focus on cost containment as we look to operate with increased efficiency."
         ],
         "marketData": {
-          "priceOnEarningsDate": 16.309999465942383,
-          "priceAfter7Days": 30.450000762939453,
-          "priceChangePercent": 86.69528976088209,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 65,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 27,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q1 2024",
@@ -318,15 +306,12 @@
           "GameStop is focused on three overarching goals: establishing an omnichannel retail experience, achieving profitability, and leveraging brand equity to support growth"
         ],
         "marketData": {
-          "priceOnEarningsDate": 12.800000190734863,
-          "priceAfter7Days": 13.529999732971191,
-          "priceChangePercent": 5.703121338738184,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 30,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2023",
@@ -383,15 +368,12 @@
           "Improving margins through operational discipline and increased emphasis on higher margin collectibles and pre-owned product categories"
         ],
         "marketData": {
-          "priceOnEarningsDate": 22.200000762939453,
-          "priceAfter7Days": 21.06999969482422,
-          "priceChangePercent": -5.090094726490511,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 40,
-          "compositeSentiment": "bearish"
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 43,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2023",
@@ -448,15 +430,12 @@
           "We continue to explore strategic options, which may include further store closings and exiting unprofitable businesses"
         ],
         "marketData": {
-          "priceOnEarningsDate": 18.549999237060547,
-          "priceAfter7Days": 20.510000228881836,
-          "priceChangePercent": 10.566043517163362,
           "managementToneScore": 30,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 60,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 27,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q1 2023",
@@ -518,15 +497,12 @@
           "Our digital asset initiatives subjects us to risks similar to those associated with any new product offerings"
         ],
         "marketData": {
-          "priceOnEarningsDate": 21.25,
-          "priceAfter7Days": 23.860000610351562,
-          "priceChangePercent": 12.282355813419118,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 34,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2022",
@@ -588,14 +564,11 @@
           "GameStop is focused on two overarching goals: attaining profitability in the near-future and generating sustainable growth over the long-term"
         ],
         "marketData": {
-          "priceOnEarningsDate": 28.309999465942383,
-          "priceAfter7Days": 25.760000228881836,
-          "priceChangePercent": -9.007415348517608,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 15,
-          "guidanceAccuracyScoreWeighted": 25,
-          "compositeSentimentScore": 30,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 26,
           "compositeSentiment": "bearish"
         }
       },

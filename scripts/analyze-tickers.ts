@@ -17,10 +17,9 @@ import { getCompanyByTicker } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
 import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
 import { computeMacroAnalysis } from '../lib/macro';
-import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
-import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4 } from '../lib/xbrl';
+import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4, getYoYComparison } from '../lib/xbrl';
 
 // Load environment variables from .env.local
 config({ path: join(process.cwd(), '.env.local') });
@@ -161,14 +160,10 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
           ...detailedPartnerships
         ]));
 
-        console.log(`  📊 Fetching market data for ${filing.reportDate}...`);
-        const marketData = await fetchMarketData(company.ticker, filing.reportDate);
-
-        let sentimentData: any = {};
-        if (marketData.epsSurprisePercent !== undefined || marketData.priceChangePercent !== undefined) {
-          sentimentData = calculateCompositeSentiment(insights, marketData);
-          console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
-        }
+        // Sentiment grounded in exact YoY fundamentals from XBRL
+        const yoy = getYoYComparison(companyFacts, filing.reportDate, filing.form);
+        const sentimentData = calculateCompositeSentiment(insights, {}, yoy);
+        console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
 
         analyzedFilings.push({
           filing,
@@ -176,7 +171,6 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
             ...insights,
             partnerships: allPartnerships,
             marketData: {
-              ...marketData,
               ...sentimentData,
             }
           },

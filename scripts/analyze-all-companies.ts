@@ -28,10 +28,9 @@ import { getAllCompanies } from '../lib/companies';
 import { getRecentEarningsFilings, getFilingWithText } from '../lib/edgar';
 import { analyzeEarningsReport, extractPartnerships } from '../lib/claude';
 import { computeMacroAnalysis } from '../lib/macro';
-import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
-import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4 } from '../lib/xbrl';
+import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4, getYoYComparison } from '../lib/xbrl';
 
 // Force unbuffered output for GitHub Actions real-time logging
 process.stdout.write('🚀 Script starting... (unbuffered output)\n');
@@ -254,16 +253,11 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
           ...detailedPartnerships
         ]));
 
-        // Fetch market data (EPS beat/miss, price action)
-        console.log(`  📊 Fetching market data for ${filing.reportDate}...`);
-        const marketData = await fetchMarketData(company.ticker, filing.reportDate);
-
-        // Calculate composite sentiment if we have market data
-        let sentimentData: any = {};
-        if (marketData.epsSurprisePercent !== undefined || marketData.priceChangePercent !== undefined) {
-          sentimentData = calculateCompositeSentiment(insights, marketData);
-          console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
-        }
+        // Sentiment grounded in exact YoY fundamentals from XBRL
+        // (Yahoo Finance EPS/price data is no longer freely accessible)
+        const yoy = getYoYComparison(companyFacts, filing.reportDate, filing.form);
+        const sentimentData = calculateCompositeSentiment(insights, {}, yoy);
+        console.log(`  🎯 Composite sentiment: ${sentimentData.compositeSentimentScore}/100 (${sentimentData.compositeSentiment})`);
 
         analyzedFilings.push({
           filing,
@@ -271,7 +265,6 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
             ...insights,
             partnerships: allPartnerships,
             marketData: {
-              ...marketData,
               ...sentimentData,
             }
           },
@@ -280,7 +273,7 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
           analyzedSuccessfully: true
         });
 
-        console.log(`  ✓ Success (${allPartnerships.length} partnerships, ${marketData.epsSurprisePercent !== undefined ? 'EPS data ✓' : 'EPS data ✗'}, ${marketData.priceChangePercent !== undefined ? 'Price data ✓' : 'Price data ✗'})`);
+        console.log(`  ✓ Success (${allPartnerships.length} partnerships, YoY rev ${yoy.revenue ? '✓' : '✗'}, YoY NI ${yoy.netIncome ? '✓' : '✗'})`);
       } catch (error) {
         console.error(`  ✗ Error: ${error instanceof Error ? error.message : 'Unknown error'}`);
       }

@@ -54,7 +54,14 @@
           "We expect that international sales will continue to be a significant portion of total sales",
           "The acquisition of ZT Systems is expected to enable AMD to deliver end-to-end AI solutions"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -110,7 +117,14 @@
           "We expect that international sales will continue to be a significant portion of total sales",
           "The acquisition of ZT Systems is expected to enable AMD to deliver end-to-end AI solutions"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 45,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 83,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -167,7 +181,14 @@
           "The increase in net revenue was driven by an increase in Data Center segment revenue primarily driven by growth in AMD EPYC CPU and AMD Instinct GPU sales",
           "We completed the acquisition of ZT Systems to help accelerate the end-to-end design and deployment of AMD-powered AI infrastructure at scale for the cloud"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -225,7 +246,14 @@
           "The increase in net revenue was driven by an increase in Data Center segment revenue primarily driven by the steep ramp of AMD Instinct™ GPU shipments and strong growth in 4th Gen AMD EPYC™ CPU sales",
           "We believe our cash, cash equivalents, short-term investments and cash flows from operations along with our revolving credit facility and commercial paper program will be sufficient to fund operations"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 82,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -278,7 +306,14 @@
           "We experienced significant demand for our AI accelerators",
           "Higher Data Center and Client segments revenue drove increased operating and net income"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 74,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -324,7 +359,14 @@
           "Our AI strategy is focused on delivering a broad portfolio of leadership CPUs, GPUs and adaptive computing solutions for AI",
           "We expanded our AI software capabilities with strategic acquisitions during the year"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 85,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 46,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -377,7 +419,14 @@
           "Higher sales of EPYC processors was offset by lower sales of adaptive SoC data center products.",
           "Increase in operating income was primarily driven by higher revenue and lower operating expenses."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 70,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 72,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -430,7 +479,14 @@
           "The decrease in net revenue was driven mainly by a 54% decrease in Client segment revenue primarily due to lower processor shipments resulting from a weaker PC market",
           "We expect that international sales will continue to be a significant portion of total sales in the foreseeable future"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 20,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -483,7 +539,14 @@
           "We expect that international sales will continue to be a significant portion of total sales in the foreseeable future.",
           "Our revenue from our semi-custom System-on-Chip (SoC) products is dependent upon our semi-custom SoC products being incorporated into customers' products and the success of those products."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 18,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

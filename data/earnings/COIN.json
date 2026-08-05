@@ -54,14 +54,11 @@
           "We believe this strategic acquisition will play a key role in our goal to be the premier global platform for crypto derivatives"
         ],
         "marketData": {
-          "priceOnEarningsDate": 337.489990234375,
-          "priceAfter7Days": 375.7799987792969,
-          "priceChangePercent": 11.345524208978999,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 71,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
           "compositeSentiment": "bullish"
         }
       },
@@ -123,14 +120,11 @@
           "Deribit acquisition will play a key role in our goal to be the premier global platform for crypto derivatives"
         ],
         "marketData": {
-          "priceOnEarningsDate": 350.489990234375,
-          "priceAfter7Days": 357.1000061035156,
-          "priceChangePercent": 1.8859357052452377,
           "managementToneScore": 90,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 61,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 76,
           "compositeSentiment": "bullish"
         }
       },
@@ -191,15 +185,12 @@
           "We plan to dynamically adjust our expense base in order to be responsive to market conditions and revenue opportunities"
         ],
         "marketData": {
-          "priceOnEarningsDate": 172.22999572753906,
-          "priceAfter7Days": 157.27999877929688,
-          "priceChangePercent": -8.680251593277912,
           "managementToneScore": 70,
-          "earningsBeatScore": 50,
-          "priceActionScore": 15,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 42,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2025",
@@ -254,15 +245,12 @@
           "Our business strategy remains focused on expanding institutional and retail crypto engagement"
         ],
         "marketData": {
-          "priceOnEarningsDate": 178.1699981689453,
-          "priceAfter7Days": 168.9199981689453,
-          "priceChangePercent": -5.1916709294843875,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 90,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q3 2024",
@@ -316,15 +304,12 @@
           "We are remote-first and do not maintain a headquarters"
         ],
         "marketData": {
-          "priceOnEarningsDate": 233.3699951171875,
-          "priceAfter7Days": 220.55999755859375,
-          "priceChangePercent": -5.489136489959289,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 48,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 90,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2024",
@@ -379,14 +364,11 @@
           "Enables customers to engage in a wide variety of activities in the cryptoeconomy"
         ],
         "marketData": {
-          "priceOnEarningsDate": 252.11000061035156,
-          "priceAfter7Days": 256.989990234375,
-          "priceChangePercent": 1.9356588839034998,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 61,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 90,
           "compositeSentiment": "bullish"
         }
       },
@@ -444,14 +426,11 @@
           "The 2022 Events resulted in a loss of confidence in the broader cryptoeconomy"
         ],
         "marketData": {
-          "priceOnEarningsDate": 156.8800048828125,
-          "priceAfter7Days": 159.4199981689453,
-          "priceChangePercent": 1.6190675720785177,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 44,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 45,
           "compositeSentiment": "neutral"
         }
       },
@@ -509,14 +488,11 @@
           "Our total revenue is substantially dependent on the prices of crypto assets"
         ],
         "marketData": {
-          "priceOnEarningsDate": 75.30999755859375,
-          "priceAfter7Days": 79.0999984741211,
-          "priceChangePercent": 5.032533579062452,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 25,
-          "compositeSentimentScore": 47,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 46,
           "compositeSentiment": "neutral"
         }
       },
@@ -572,15 +548,12 @@
           "The 2023 Restructuring was intended to manage the Company's operating expenses in response to the ongoing market conditions"
         ],
         "marketData": {
-          "priceOnEarningsDate": 71.55000305175781,
-          "priceAfter7Days": 78.72000122070312,
-          "priceChangePercent": 10.020961374045898,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 25,
-          "compositeSentimentScore": 53,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 21,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2023",
@@ -637,7 +610,14 @@
           "Our business is subject to risks and uncertainties related to the highly volatile nature of crypto",
           "Total revenue is substantially dependent on the prices of crypto assets and volume of transactions"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 17,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

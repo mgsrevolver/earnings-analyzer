@@ -54,7 +54,14 @@
           "Changes in government and economic incentives or tariffs may impact the transaction price or our ability to execute existing contracts",
           "We continue to monitor the realizability of our deferred tax assets taking into account all relevant factors"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -111,7 +118,14 @@
           "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products and services",
           "In June 2025, we launched our Robotaxi service in Austin, capitalizing on our AI investments and scalable mobility infrastructure"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 29,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -168,7 +182,14 @@
           "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
           "Changes in government and economic incentives or tariffs may also impact our sales, cost structure and the competitive landscape"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 29,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -225,7 +246,14 @@
           "Our cost reduction efforts, cost innovation strategies are key to our vehicles' affordability",
           "We continue to ramp production and build and optimize our manufacturing capacity"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 37,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -282,7 +310,14 @@
           "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
           "We continue to ramp production and build and optimize our manufacturing capacity"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 65,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 69,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -339,7 +374,14 @@
           "We are focused on profitable growth, including by leveraging existing factories and production lines to introduce new and more affordable products",
           "We continue to ramp production and build and optimize our manufacturing capacity, expand our operations while focusing on further cost reductions and operational efficiencies"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 37,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -399,7 +441,14 @@
           "We operate in a cyclical industry that is sensitive to political and regulatory uncertainty",
           "We have set ambitious technological targets with our plans for battery cells as well as for iterative manufacturing and design improvements"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 25,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -453,7 +502,14 @@
           "We are currently focused on increasing vehicle production, capacity and delivery capabilities, reducing costs, improving and developing our vehicles and battery technologies",
           "Sustained growth has allowed our business to generally fund itself"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -514,7 +570,14 @@
           "Our goals are to improve vehicle performance, decrease production costs and increase affordability",
           "We continue to ramp production, build new manufacturing capacity, invest in research and development"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 87,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -572,7 +635,14 @@
           "Our cost reduction efforts and cost innovation strategies are key to our vehicles' affordability",
           "We remain committed to vertical integration and expanding our product roadmap"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 65,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

@@ -59,7 +59,14 @@
           "We expect to continue to invest in new businesses, products, services and technologies",
           "We continue to see strong performance in developing digital economy markets"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -118,7 +125,14 @@
           "We expect our capital expenditures will increase, including our expected spend and the expected increase in our technical infrastructure investment to support the growth of our business and our long-term initiatives, in particular in support of artificial intelligence (AI) products and services",
           "We continue to cooperate with federal and state regulators in the U.S., the EC, and other regulators around the world"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 79,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -177,7 +191,14 @@
           "We continue to invest in new businesses, products, services and technologies",
           "We expect the continuing shift to an online world as the digital economy evolves will continue to benefit our business"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -236,7 +257,14 @@
           "We continue to invest heavily in technical infrastructure, including servers, network equipment, and data centers, to support the growth of our business and our long-term initiatives, in particular in support of AI products and services.",
           "Our ongoing investment in new businesses, products, services, and technologies is inherently risky, and could divert management attention and harm our business, financial condition, and operating results."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -297,7 +325,14 @@
           "We expect to continue investing in new businesses, products, services and technologies",
           "Our technical infrastructure investment will support the growth of our business and long-term AI initiatives"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -355,7 +390,14 @@
           "We generate revenues by delivering relevant, cost-effective online advertising",
           "We continue to invest in new businesses, products, services and technologies"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -413,7 +455,14 @@
           "We continue to invest in new businesses, products, services and technologies, and systems",
           "We have strong arguments against these claims and will defend ourselves vigorously"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -472,7 +521,14 @@
           "We continue to make significant research and development investments in areas of strategic focus as we seek to develop new, innovative offerings, improve our existing offerings, and rapidly and responsibly deploy AI across our businesses.",
           "We expect to increase, relative to 2023, our investment in our technical infrastructure, including servers, network equipment, and data centers, to support the growth of our business and our long-term initiatives, in particular in support of AI products and services."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 74,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -531,7 +587,14 @@
           "We continue to invest in our technical infrastructure and future opportunities",
           "We believe these complaints are without merit and will defend ourselves vigorously"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 85,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 83,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -590,7 +653,14 @@
           "We have a company-wide effort underway to re-engineer our cost base",
           "We continue to cooperate with federal and state regulators in the U.S., the EC, and other regulators around the world"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -649,7 +719,14 @@
           "We have a company-wide effort underway to re-engineer our cost base",
           "We continue to cooperate with federal and state regulators in the U.S., the EC, and other regulators around the world"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 46,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

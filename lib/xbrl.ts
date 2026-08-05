@@ -170,6 +170,56 @@ export function applyXbrlFinancials<
   return insights;
 }
 
+export interface YoYComparison {
+  revenue: { current: number; prior: number } | null; // millions
+  netIncome: { current: number; prior: number } | null; // millions
+}
+
+/**
+ * Year-over-year comparison for a filing period, from exact XBRL facts.
+ * For 10-Qs compares the quarter to the same quarter a year earlier;
+ * for 10-Ks compares fiscal year to prior fiscal year.
+ * Used to ground sentiment in actual fundamentals.
+ */
+export function getYoYComparison(
+  companyFacts: CompanyFacts,
+  reportDate: string,
+  form: string
+): YoYComparison {
+  const gaap = companyFacts?.facts?.["us-gaap"];
+  if (!gaap) return { revenue: null, netIncome: null };
+
+  const isAnnual = form === "10-K";
+  const currentEnd = Date.parse(reportDate);
+  const YEAR_MS = 365.25 * 86_400_000;
+  const TOLERANCE_MS = 21 * 86_400_000; // fiscal calendars drift by up to ~2 weeks
+
+  const lookup = (tags: string[]): { current: number; prior: number } | null => {
+    for (const tag of tags) {
+      const usd = gaap[tag]?.units?.USD;
+      if (!usd?.length) continue;
+
+      let current: number | null = null;
+      let prior: number | null = null;
+      for (const fact of usd) {
+        if (!hasExpectedDuration(fact, isAnnual)) continue;
+        const end = Date.parse(fact.end);
+        if (fact.end === reportDate) current = fact.val;
+        else if (Math.abs(currentEnd - YEAR_MS - end) < TOLERANCE_MS) prior = fact.val;
+      }
+      if (current != null && prior != null) {
+        return { current: current / 1_000_000, prior: prior / 1_000_000 };
+      }
+    }
+    return null;
+  };
+
+  return {
+    revenue: lookup(REVENUE_TAGS),
+    netIncome: lookup(NET_INCOME_TAGS),
+  };
+}
+
 /**
  * Sanity-guard for the derived Q4 = Annual − (Q1+Q2+Q3) calculation.
  * When units were mixed upstream, the subtraction produces negative or absurd

@@ -1,13 +1,22 @@
 import { EarningsInsights } from "@/types";
 import { MarketDataResult } from "./market-data";
+import { YoYComparison } from "./xbrl";
 
 /**
  * Composite Sentiment Calculator
- * Calculates reality-based sentiment scores using:
- * - 10% Management tone (from earnings report analysis)
- * - 40% Earnings beat/miss (actual vs estimates)
- * - 30% Post-earnings price action (7-day movement)
- * - 20% Guidance accuracy (hitting their own targets)
+ *
+ * Calculates reality-based sentiment scores from components we can actually
+ * trust, weighted by availability:
+ * - Revenue YoY growth (exact, from SEC XBRL)        weight 30
+ * - Net income level & YoY trajectory (exact, XBRL)  weight 25
+ * - Post-earnings price action (when available)      weight 30
+ * - Management tone (LLM-extracted, soft signal)     weight 15
+ *
+ * Components without data are dropped and the remaining weights renormalized —
+ * a missing feed can never push a score toward fake-neutral or fake-bearish.
+ * (Earlier versions leaned on EPS-estimate surprises from Yahoo Finance and
+ * LLM-guessed guidance direction; the former is no longer freely available and
+ * the latter was noise, which made everything read bearish.)
  */
 
 /**
@@ -119,30 +128,84 @@ function calculateGuidanceAccuracyScore(
 }
 
 /**
- * Calculate composite sentiment score (0-100) using weighted components
+ * Score revenue YoY growth (0-100)
+ */
+function calculateRevenueGrowthScore(yoyRevenue: { current: number; prior: number }): number | null {
+  if (!(yoyRevenue.prior > 0)) return null; // growth % meaningless off a non-positive base
+
+  const growthPercent = ((yoyRevenue.current - yoyRevenue.prior) / yoyRevenue.prior) * 100;
+
+  if (growthPercent > 30) return 95;
+  if (growthPercent > 20) return 88;
+  if (growthPercent > 10) return 76;
+  if (growthPercent > 5) return 66;
+  if (growthPercent > 2) return 58;
+  if (growthPercent > -2) return 48;  // flat
+  if (growthPercent > -5) return 38;
+  if (growthPercent > -10) return 28;
+  if (growthPercent > -20) return 18;
+  return 8;
+}
+
+/**
+ * Score net income level + YoY trajectory (0-100).
+ * Sign matters more than percentage change (which is meaningless across sign flips).
+ */
+function calculateNetIncomeScore(yoyNetIncome: { current: number; prior: number }): number {
+  const { current, prior } = yoyNetIncome;
+
+  if (current > 0 && prior > 0) {
+    const change = (current - prior) / prior;
+    if (change > 0.25) return 90;  // profitable and growing fast
+    if (change > 0.05) return 75;  // profitable and growing
+    if (change > -0.05) return 60; // profitable, flat
+    if (change > -0.25) return 45; // profitable but shrinking
+    return 32;                     // profitable, shrinking hard
+  }
+  if (current > 0 && prior <= 0) return 78; // swung to profit
+  if (current <= 0 && prior > 0) return 15; // swung to loss
+  // Both negative: improving or worsening?
+  return current > prior ? 35 : 12;
+}
+
+interface SentimentComponent {
+  score: number | null;
+  weight: number;
+}
+
+/**
+ * Calculate composite sentiment score (0-100) using weighted components.
+ * Components without data are excluded and the rest renormalized.
+ *
  * @param insights Earnings insights from Claude analysis
- * @param marketData Market data (prices, estimates)
- * @returns Weighted composite score
+ * @param marketData Market data (post-earnings price action, if available)
+ * @param yoy Exact YoY fundamentals from SEC XBRL (revenue, net income)
  */
 export function calculateCompositeSentiment(
   insights: EarningsInsights,
-  marketData: MarketDataResult
+  marketData: MarketDataResult = {},
+  yoy?: YoYComparison
 ) {
-  // Calculate individual component scores
   const managementToneScore = calculateManagementToneScore(insights);
-  const earningsBeatScore = calculateEarningsBeatScore(marketData.epsSurprisePercent);
-  const priceActionScore = calculatePriceActionScore(marketData.priceChangePercent);
-  const guidanceAccuracyScore = calculateGuidanceAccuracyScore(
-    insights.priorGuidanceHit,
-    insights.guidanceDirection
-  );
+  const priceActionScore =
+    marketData.priceChangePercent !== undefined
+      ? calculatePriceActionScore(marketData.priceChangePercent)
+      : null;
+  const revenueGrowthScore = yoy?.revenue ? calculateRevenueGrowthScore(yoy.revenue) : null;
+  const netIncomeScore = yoy?.netIncome ? calculateNetIncomeScore(yoy.netIncome) : null;
 
-  // Apply weights: 10% mgmt + 40% beat + 30% price + 20% guidance
-  const compositeSentimentScore =
-    managementToneScore * 0.10 +
-    earningsBeatScore * 0.40 +
-    priceActionScore * 0.30 +
-    guidanceAccuracyScore * 0.20;
+  const components: SentimentComponent[] = [
+    { score: revenueGrowthScore, weight: 30 },
+    { score: netIncomeScore, weight: 25 },
+    { score: priceActionScore, weight: 30 },
+    { score: managementToneScore, weight: 15 },
+  ];
+
+  const available = components.filter((c) => c.score !== null);
+  const totalWeight = available.reduce((sum, c) => sum + c.weight, 0);
+  const compositeSentimentScore = totalWeight
+    ? available.reduce((sum, c) => sum + (c.score as number) * c.weight, 0) / totalWeight
+    : 50;
 
   // Determine categorical sentiment
   let compositeSentiment: "bullish" | "neutral" | "bearish";
@@ -155,11 +218,11 @@ export function calculateCompositeSentiment(
   }
 
   return {
-    // Component scores
+    // Component scores (null = no data, excluded from composite)
     managementToneScore: Math.round(managementToneScore),
-    earningsBeatScore: Math.round(earningsBeatScore),
-    priceActionScore: Math.round(priceActionScore),
-    guidanceAccuracyScoreWeighted: Math.round(guidanceAccuracyScore),
+    revenueGrowthScore: revenueGrowthScore === null ? null : Math.round(revenueGrowthScore),
+    netIncomeScore: netIncomeScore === null ? null : Math.round(netIncomeScore),
+    priceActionScore: priceActionScore === null ? null : Math.round(priceActionScore),
 
     // Composite
     compositeSentimentScore: Math.round(compositeSentimentScore),

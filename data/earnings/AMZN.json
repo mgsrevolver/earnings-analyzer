@@ -57,7 +57,14 @@
           "Technology infrastructure assets continue to expand, particularly in AI and machine learning",
           "We continue to invest strategically in high-growth areas like cloud services and AI"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -113,7 +120,14 @@
           "We are seeing continued strong growth in our AWS segment, driven by customer demand for advanced cloud and AI services",
           "Our investments in technology infrastructure and AI are positioning us for long-term growth and innovation"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -167,7 +181,14 @@
           "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure",
           "The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 82,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -230,7 +251,14 @@
           "We believe that advances in technology, specifically artificial intelligence and machine learning, will continue to improve users' experience",
           "Our financial focus is on long-term, sustainable growth in free cash flows"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 85,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 83,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -287,7 +315,14 @@
           "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
           "Operating results for the periods presented are not necessarily indicative of the results that may be expected for 2024 due to seasonal and other factors."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -344,7 +379,14 @@
           "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
           "Cash flows generated from operations and our cash balances will be sufficient to meet our anticipated operating cash needs for at least the next twelve months."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -398,7 +440,14 @@
           "Our sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services",
           "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -458,7 +507,14 @@
           "We seek to be Earth's most customer-centric company.",
           "We believe that advances in technology, specifically the speed and reduced cost of processing power, data storage and analytics, improved wireless connectivity, and the practical applications of artificial intelligence and machine learning, will continue to improve users' experience on the internet."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 85,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 79,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -519,7 +575,14 @@
           "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
           "We invested $1.25 billion in a note from Anthropic, PBC, which is convertible into equity"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -576,7 +639,14 @@
           "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
           "Operating cash flows result primarily from cash received from our consumer, seller, developer, enterprise, and content creator customers"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 82,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -630,7 +700,14 @@
           "We expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates.",
           "We expect some or all of these factors to continue to impact our operations into Q2 2023."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 45,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

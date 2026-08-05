@@ -62,14 +62,11 @@
           "Successfully defending our intellectual property through strategic legal proceedings"
         ],
         "marketData": {
-          "priceOnEarningsDate": 562.27001953125,
-          "priceAfter7Days": 583.239990234375,
-          "priceChangePercent": 3.729519621303502,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 65,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 69,
           "compositeSentiment": "bullish"
         }
       },
@@ -135,14 +132,11 @@
           "Sanofi is generally responsible for funding 80% to 100% of agreed-upon development costs"
         ],
         "marketData": {
-          "priceOnEarningsDate": 525,
-          "priceAfter7Days": 538.1099853515625,
-          "priceChangePercent": 2.4971400669642856,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 62,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
           "compositeSentiment": "bullish"
         }
       },
@@ -206,15 +200,12 @@
           "We continue to advance as an integrated, multi-product biotechnology company"
         ],
         "marketData": {
-          "priceOnEarningsDate": 634.22998046875,
-          "priceAfter7Days": 572.780029296875,
-          "priceChangePercent": -9.688906715897954,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 15,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 50,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 65,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2025",
@@ -283,15 +274,12 @@
           "Attracting, developing, and retaining skilled and experienced employees is crucial to our ability to compete effectively."
         ],
         "marketData": {
-          "priceOnEarningsDate": 712.3300170898438,
-          "priceAfter7Days": 730.2999877929688,
-          "priceChangePercent": 2.522702998890823,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q4 2024",
@@ -357,15 +345,12 @@
           "Successful patent defense strategies across multiple geographies"
         ],
         "marketData": {
-          "priceOnEarningsDate": 1051.239990234375,
-          "priceAfter7Days": 996.0499877929688,
-          "priceChangePercent": -5.249990768435434,
           "managementToneScore": 90,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 84,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q3 2024",
@@ -429,15 +414,12 @@
           "We continue to advance as an integrated, multi-product biotechnology company"
         ],
         "marketData": {
-          "priceOnEarningsDate": 1057.02001953125,
-          "priceAfter7Days": 1052.25,
-          "priceChangePercent": -0.4512705003794848,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 59,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2024",
@@ -504,14 +486,11 @@
           "Regeneron is a fully integrated biotechnology company that invents, develops, manufactures, and commercializes medicines for people with serious diseases"
         ],
         "marketData": {
-          "priceOnEarningsDate": 969.3099975585938,
-          "priceAfter7Days": 938.47998046875,
-          "priceChangePercent": -3.180614784485405,
           "managementToneScore": 70,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 48,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 52,
           "compositeSentiment": "neutral"
         }
       },
@@ -578,14 +557,11 @@
           "We are substantially dependent on the success of EYLEA, EYLEA HD, and Dupixent"
         ],
         "marketData": {
-          "priceOnEarningsDate": 905,
-          "priceAfter7Days": 902.8800048828125,
-          "priceChangePercent": -0.234253604109116,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 44,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 45,
           "compositeSentiment": "neutral"
         }
       },
@@ -655,15 +631,12 @@
           "Maintaining strong financial performance despite ongoing patent and regulatory proceedings"
         ],
         "marketData": {
-          "priceOnEarningsDate": 818.030029296875,
-          "priceAfter7Days": 831.8200073242188,
-          "priceChangePercent": 1.685754499647979,
           "managementToneScore": 70,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q3 2023",
@@ -731,15 +704,12 @@
           "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
         ],
         "marketData": {
-          "priceOnEarningsDate": 718.5399780273438,
-          "priceAfter7Days": 692.4500122070312,
-          "priceChangePercent": -3.6309692735453694,
           "managementToneScore": 90,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 55,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 79,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2023",
@@ -805,7 +775,14 @@
           "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
           "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 66,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

@@ -51,7 +51,14 @@
           "Strong demand for our networking products, primarily custom AI accelerators and AI networking solutions",
           "Strong demand for our VMware Cloud Foundation product"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 87,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -105,7 +112,14 @@
           "Strong demand for our networking products, primarily AI networking solutions",
           "We generated $6,555 million of cash from operations"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 91,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -159,7 +173,14 @@
           "We acquired VMware to enhance our infrastructure software capabilities.",
           "We are integrating the acquired business, aligning our workforce and improving efficiencies in our operations."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 51,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -215,7 +236,14 @@
           "We are a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions",
           "Our portfolio of infrastructure and security software is designed to modernize, optimize, and secure the most complex private and hybrid cloud environments"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -269,7 +297,14 @@
           "We generated $4,719 million of cash from operations.",
           "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking products."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -323,7 +358,14 @@
           "We generated $4,502 million of cash from operations.",
           "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking, server storage and broadband products."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 82,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

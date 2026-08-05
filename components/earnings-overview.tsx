@@ -322,11 +322,18 @@ export function EarningsOverview({ results }: EarningsOverviewProps) {
             <div className="flex items-start gap-2 sm:gap-4 min-w-[500px] sm:min-w-0">
               <div className="text-xs sm:text-sm font-semibold min-w-[80px] sm:min-w-[100px] pt-1">Guidance:</div>
               <div className="flex justify-between flex-1 gap-1 sm:gap-2 px-2 sm:px-8">
-                {guidanceData.map((report, index) => (
-                  <Badge key={index} className={getGuidanceColor(report.insights.guidanceDirection || "unknown") + " text-[10px] sm:text-xs px-1 sm:px-2 py-0 sm:py-0.5"}>
-                    {(report.insights.guidanceDirection || "unknown").slice(0, 8)}
-                  </Badge>
-                ))}
+                {guidanceData.map((report, index) => {
+                  const direction: string = report.insights.guidanceDirection || "not_provided";
+                  const label =
+                    direction === "raised" || direction === "lowered" || direction === "maintained"
+                      ? direction.slice(0, 8)
+                      : "—";
+                  return (
+                    <Badge key={index} className={getGuidanceColor(direction) + " text-[10px] sm:text-xs px-1 sm:px-2 py-0 sm:py-0.5"}>
+                      {label}
+                    </Badge>
+                  );
+                })}
               </div>
             </div>
           </div>

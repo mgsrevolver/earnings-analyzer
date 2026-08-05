@@ -54,7 +54,14 @@
         "overallSentiment": "neutral",
         "summary": "Meta delivered mixed quarterly results with revenue growth offset by significant legal and regulatory challenges. While core advertising business remains stable, increasing regulatory pressures and potential fines pose medium-term risks to the company's financial performance.",
         "keyQuotes": [],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -110,7 +117,14 @@
         "overallSentiment": "bullish",
         "summary": "Meta delivered strong Q2 2025 results with robust revenue growth and impressive profitability. The company continues to invest heavily in infrastructure and AI technologies while navigating complex regulatory environments across global markets.",
         "keyQuotes": [],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 91,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -168,7 +182,14 @@
           "Our Family of Apps continues to drive significant value and engagement globally",
           "We remain committed to long-term investments in AI and emerging technologies"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -226,7 +247,14 @@
           "We expect our AI initiatives will require increased investment in infrastructure and headcount",
           "There are significant risks involved in developing and deploying AI"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -282,7 +310,14 @@
         "overallSentiment": "bullish",
         "summary": "Meta delivered strong Q3 2024 results with revenue of $40.6B and net income of $15.7B, representing significant year-over-year growth. The company continues to generate robust operating cash flow and remains focused on efficiency while investing heavily in infrastructure and technology.",
         "keyQuotes": [],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 86,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -338,7 +373,14 @@
         "overallSentiment": "bullish",
         "summary": "Meta delivered strong Q2 2024 financial performance with robust revenue growth and solid profitability. The company continues investing heavily in infrastructure and AI while navigating complex regulatory environments across multiple jurisdictions.",
         "keyQuotes": [],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 91,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -397,7 +439,14 @@
           "We are vigorously defending our regulatory compliance",
           "We believe there are multiple legal grounds to satisfy regulatory requests"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 91,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {

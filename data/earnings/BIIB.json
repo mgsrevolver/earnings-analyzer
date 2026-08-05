@@ -62,15 +62,12 @@
           "Our Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025."
         ],
         "marketData": {
-          "priceOnEarningsDate": 140.0800018310547,
-          "priceAfter7Days": 152.2100067138672,
-          "priceChangePercent": 8.65934089395719,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 80,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 59,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q3 2025",
@@ -134,15 +131,12 @@
           "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
         ],
         "marketData": {
-          "priceOnEarningsDate": 125.58999633789062,
-          "priceAfter7Days": 130.1300048828125,
-          "priceChangePercent": 3.614944404255986,
           "managementToneScore": 70,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 57,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 70,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2025",
@@ -207,15 +201,12 @@
           "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
         ],
         "marketData": {
-          "priceOnEarningsDate": 136.83999633789062,
-          "priceAfter7Days": 119.19000244140625,
-          "priceChangePercent": -12.898271242935675,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 34,
-          "compositeSentiment": "bearish"
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 45,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2025",
@@ -284,14 +275,11 @@
           "Multiple TECFIDERA generic entrants are now in North America, Brazil and certain European countries and have deeply discounted prices"
         ],
         "marketData": {
-          "priceOnEarningsDate": 152.9199981689453,
-          "priceAfter7Days": 153.14999389648438,
-          "priceChangePercent": 0.15040264863524538,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 47,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
           "compositeSentiment": "neutral"
         }
       },
@@ -354,14 +342,11 @@
           "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
         ],
         "marketData": {
-          "priceOnEarningsDate": 193.83999633789062,
-          "priceAfter7Days": 183.33999633789062,
-          "priceChangePercent": -5.416838732135039,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 25,
-          "guidanceAccuracyScoreWeighted": 75,
-          "compositeSentimentScore": 48,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
           "compositeSentiment": "neutral"
         }
       },
@@ -425,14 +410,11 @@
           "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
         ],
         "marketData": {
-          "priceOnEarningsDate": 231.77000427246094,
-          "priceAfter7Days": 228.07000732421875,
-          "priceChangePercent": -1.5964088881374818,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 49,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
           "compositeSentiment": "neutral"
         }
       },
@@ -495,14 +477,11 @@
           "We initiated additional cost saving measures as part of our Fit for Growth program to reduce operating costs"
         ],
         "marketData": {
-          "priceOnEarningsDate": 214.8300018310547,
-          "priceAfter7Days": 204.9499969482422,
-          "priceChangePercent": -4.598987477820846,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 46,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 44,
           "compositeSentiment": "neutral"
         }
       },
@@ -566,15 +545,12 @@
           "The generic competition for TECFIDERA has significantly reduced our TECFIDERA revenue and we expect that TECFIDERA revenue will continue to decline in the future."
         ],
         "marketData": {
-          "priceOnEarningsDate": 267.7099914550781,
-          "priceAfter7Days": 257.9800109863281,
-          "priceChangePercent": -3.634522722093731,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 41,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 29,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2023",
@@ -637,15 +613,12 @@
           "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by 2025"
         ],
         "marketData": {
-          "priceOnEarningsDate": 252.86000061035156,
-          "priceAfter7Days": 264.2099914550781,
-          "priceChangePercent": 4.488646214241098,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 31,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2023",
@@ -708,15 +681,12 @@
           "We initiated additional cost saving measures as part of our Fit for Growth initiative"
         ],
         "marketData": {
-          "priceOnEarningsDate": 284.8500061035156,
-          "priceAfter7Days": 275.07000732421875,
-          "priceChangePercent": -3.4333854905176953,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 43,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 29,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2023",
@@ -779,7 +749,14 @@
           "We are focused on advancing our pipeline in neurology, neuropsychiatry, specialized immunology and rare diseases.",
           "We collaborate with Eisai on the commercialization of LEQEMBI for the treatment of Alzheimer's disease"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

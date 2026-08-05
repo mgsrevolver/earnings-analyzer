@@ -3,6 +3,11 @@ name: Analyze All Companies
 on:
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Re-analyze all companies even if their data is fresh'
+        type: boolean
+        default: false
 
   # Run weekly on Sunday at 2 AM UTC
   schedule:
@@ -42,6 +47,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_REFRESH: ${{ inputs.force_refresh == true && '1' || '' }}
         run: npm run analyze-all
 
       - name: Final commit (fallback if incremental pushes failed)

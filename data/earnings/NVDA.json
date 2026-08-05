@@ -62,7 +62,14 @@
           "We are increasing our U.S.-based manufacturing and investing in specialized equipment",
           "The recent rise in high-quality open-source foundation models is making advanced AI capabilities broadly accessible"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -120,7 +127,14 @@
           "We continue to ramp our Blackwell architecture, which grew 17% sequentially, including our newest architecture, Blackwell Ultra.",
           "We plan to increase our U.S.-based manufacturing and invest in specialized equipment and processes to support domestic production."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -179,7 +193,14 @@
           "We are still evaluating our limited options to supply Data Center compute products compliant with the USG's export control rules.",
           "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 45,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 83,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -238,7 +259,14 @@
           "Advancements in accelerated computing and generative AI models have driven increased demand for our Data Center systems",
           "We continue to increase our supply and capacity purchases to support demand projections"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -297,7 +325,14 @@
           "Advancements in accelerated computing and generative AI models, along with the growth in model complexity and scale, have driven increased demand for our Data Center systems",
           "We have introduced a new architecture cadence of our Data Center solutions where we seek to complete a new computing architecture each year"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -360,7 +395,14 @@
           "Demand estimates for our new products, applications, and services can be incorrect and create volatility in our revenue or supply levels.",
           "We expect to ship several billion dollars in Blackwell revenue in the fourth quarter of fiscal year 2025."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -426,7 +468,14 @@
           "We believe the initial demand for Blackwell is well ahead of the projected supply for this fiscal year",
           "Large cloud providers continued to drive strong growth as they deploy and ramp NVIDIA AI infrastructure at scale"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -486,7 +535,14 @@
           "Demand for our data center systems and products surged in fiscal year 2024",
           "We launched AI inference platforms that combine our full-stack inference software with NVIDIA processors optimized for generative AI"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -558,7 +614,14 @@
           "Demand for our data center systems and products has surged over the last three quarters and our demand visibility extends into next year.",
           "Strong sales of the NVIDIA HGX platform were driven by global demand for the training and inferencing of large language models, recommendation engines, and generative AI applications."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -624,7 +687,14 @@
           "Demand for our data center systems and products has surged over the last two quarters and our demand visibility extends into next year",
           "Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 100,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -689,7 +759,14 @@
           "Growing demand for generative AI and large language models using GPUs based on our NVIDIA Hopper and Ampere architectures",
           "We launched NVIDIA AI Foundations to help businesses create and operate custom large language models and generative AI models"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

@@ -54,7 +54,14 @@
           "We continue to evaluate the impact of the Act's provisions that take effect in future years",
           "This initiative is intended to lower expenses, streamline our organizational structure and reduce management layers"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 65,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 67,
+          "compositeSentiment": "bullish"
+        }
       },
       "quarter": "Q3 2025",
       "quarterInfo": {
@@ -111,7 +118,14 @@
           "We are investing in and deploying manufacturing assets in response to manufacturing capacity requirements",
           "We anticipate certain construction delays in the near term"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 26,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2025",
       "quarterInfo": {
@@ -168,7 +182,14 @@
           "Cost reduction and capital efficiency remain our primary focus",
           "We continue to invest in next-generation products and AI technologies"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 26,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2025",
       "quarterInfo": {
@@ -228,7 +249,14 @@
           "We expect to continue to benefit from government incentives, though recent US government actions create uncertainty",
           "To the extent we are unable to compete effectively, or if our foundry strategy is unsuccessful, our financial results will be adversely affected"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 0,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 22,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q4 2024",
       "quarterInfo": {
@@ -286,7 +314,14 @@
           "We announced our intention to establish Intel Foundry as an independent subsidiary",
           "We launched our latest family of x86 processors, the Intel Core Ultra 200V series processors"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 18,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2024",
       "quarterInfo": {
@@ -342,7 +377,14 @@
           "We announced the planned implementation of cost-reduction measures, including reductions in headcount, other operating expenditures, capital expenditures, and cost of sales.",
           "These initiatives are designed to accelerate profitable growth, enable further operational efficiency and agility, and create capacity for sustained investment in technology and manufacturing leadership."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 27,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q2 2024",
       "quarterInfo": {
@@ -398,7 +440,14 @@
           "We launched Intel Foundry as a more sustainable systems foundry business designed for the AI era",
           "Higher CCG revenue. Higher GAAP gross margin from higher revenue and lower period charges"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2024",
       "quarterInfo": {
@@ -461,7 +510,14 @@
           "AI PC represents a critical inflection point for the PC market",
           "We expect to deliver more than 230 Intel Core Ultra designs to market"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 20,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q4 2023",
       "quarterInfo": {
@@ -517,7 +573,14 @@
           "Our Ireland fab began high-volume production of Intel 4 technology.",
           "We announced our upcoming Intel® Core™ Ultra processors, featuring our first integrated neural processing unit."
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 25,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q3 2023",
       "quarterInfo": {
@@ -573,7 +636,14 @@
           "An important part of our AI strategy is to democratize AI – scaling it and making it ubiquitous across the full continuum of workloads and usage models.",
           "We announced plans to expand our manufacturing capacity... These investments further our IDM 2.0 strategy"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 41,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q2 2023",
       "quarterInfo": {
@@ -625,7 +695,14 @@
           "Q1 2023 results were impacted by an uncertain macroeconomic environment, with slowing consumer and enterprise demand, persistent inflation, and higher interest rates",
           "We believe CCG, DCAI, and NEX customers, among others, tempered purchases to reduce their existing inventories and adjust to the macroeconomic uncertainty"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 8,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 10,
+          "compositeSentiment": "bearish"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {

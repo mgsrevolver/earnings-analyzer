@@ -56,15 +56,12 @@
           "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
         ],
         "marketData": {
-          "priceOnEarningsDate": 64.26000213623047,
-          "priceAfter7Days": 78.98999786376953,
-          "priceChangePercent": 22.92249492353212,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 65,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 48,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2025",
@@ -124,14 +121,11 @@
           "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
         ],
         "marketData": {
-          "priceOnEarningsDate": 42.970001220703125,
-          "priceAfter7Days": 45.20000076293945,
-          "priceChangePercent": 5.18966599694185,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 70,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 56,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 43,
           "compositeSentiment": "neutral"
         }
       },
@@ -187,14 +181,11 @@
           "Profitability has been, and may continue to be, adversely affected by constrained consumer demand and a shift in sales to lower-margin products"
         ],
         "marketData": {
-          "priceOnEarningsDate": 22.06999969482422,
-          "priceAfter7Days": 22.75,
-          "priceChangePercent": 3.081106998543605,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 43,
           "compositeSentiment": "neutral"
         }
       },
@@ -249,15 +240,12 @@
           "We have taken steps to minimize the adverse impacts of supply chain volatility and rising inflation"
         ],
         "marketData": {
-          "priceOnEarningsDate": 41.77000045776367,
-          "priceAfter7Days": 49.59000015258789,
-          "priceChangePercent": 18.721569569364792,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 100,
-          "guidanceAccuracyScoreWeighted": 35,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 18,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2024",
@@ -312,15 +300,12 @@
           "Should the ongoing macroeconomic conditions not improve, or worsen, the Company's business, results of operations and financial condition may be adversely affected"
         ],
         "marketData": {
-          "priceOnEarningsDate": 8.739999771118164,
-          "priceAfter7Days": 9.069999694824219,
-          "priceChangePercent": 3.7757429330439867,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 50,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 14,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2024",
@@ -375,15 +360,12 @@
           "Ongoing macroeconomic conditions continue to impact business performance"
         ],
         "marketData": {
-          "priceOnEarningsDate": 6.840000152587891,
-          "priceAfter7Days": 7.670000076293945,
-          "priceChangePercent": 12.134501537869514,
           "managementToneScore": 50,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 62,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2024",
@@ -438,14 +420,11 @@
           "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand"
         ],
         "marketData": {
-          "priceOnEarningsDate": 9.989999771118164,
-          "priceAfter7Days": 8.369999885559082,
-          "priceChangePercent": -16.21621544219273,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 34,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 33,
           "compositeSentiment": "bearish"
         }
       },
@@ -498,15 +477,12 @@
           "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand"
         ],
         "marketData": {
-          "priceOnEarningsDate": 12.15999984741211,
-          "priceAfter7Days": 12.640000343322754,
-          "priceChangePercent": 3.947372548798166,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 52,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 33,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q4 2023",
@@ -561,14 +537,11 @@
           "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers"
         ],
         "marketData": {
-          "priceOnEarningsDate": 14.8100004196167,
-          "priceAfter7Days": 14.640000343322754,
-          "priceChangePercent": -1.1478735413725607,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 48,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 42,
           "compositeSentiment": "neutral"
         }
       },
@@ -624,15 +597,12 @@
           "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels"
         ],
         "marketData": {
-          "priceOnEarningsDate": 13.5,
-          "priceAfter7Days": 14.029999732971191,
-          "priceChangePercent": 3.9259239479347516,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 65,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 54,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 37,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q2 2023",
@@ -687,15 +657,12 @@
           "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increased our costs."
         ],
         "marketData": {
-          "priceOnEarningsDate": 6.150000095367432,
-          "priceAfter7Days": 6.849999904632568,
-          "priceChangePercent": 11.382110543257076,
           "managementToneScore": 45,
-          "earningsBeatScore": 50,
-          "priceActionScore": 90,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 62,
-          "compositeSentiment": "bullish"
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 29,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q1 2023",

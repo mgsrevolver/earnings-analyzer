@@ -21,6 +21,7 @@ IMPORTANT:
 1. You must respond with ONLY valid JSON. Do not include any text before or after the JSON object.
 2. For 10-K (annual reports): Extract the FULL YEAR consolidated totals for revenue and net income
 3. For 10-Q (quarterly reports): Extract the quarterly data for that specific quarter (NOT year-to-date)
+4. GUIDANCE: 10-Q and 10-K filings usually do NOT contain forward guidance (that lives in earnings press releases). Only report guidanceDirection "raised"/"lowered"/"maintained" if the text EXPLICITLY states that management issued, updated, or reaffirmed a specific financial outlook or guidance range. Boilerplate risk factors, forward-looking-statement disclaimers, and generally cautious legal language are NOT guidance — in those cases use guidanceDirection "not_provided" and guidanceTone "neutral". Do not infer sentiment from risk-factor sections.
 
 Analyze the provided earnings report text and extract the following information in JSON format:
 

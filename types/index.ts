@@ -121,13 +121,15 @@ export interface EarningsInsights {
     // Guidance accuracy (comparing to previous quarter's guidance)
     guidanceAccuracyScore?: number; // 0-100, how well they met their own guidance
 
-    // Composite sentiment scores (0-100)
-    managementToneScore?: number; // Derived from existing sentiment fields
-    earningsBeatScore?: number; // Based on EPS surprise
-    priceActionScore?: number; // Based on post-earnings price movement
-    guidanceAccuracyScoreWeighted?: number; // Based on hitting their own targets
+    // Composite sentiment component scores (0-100; null = no data, excluded from composite)
+    managementToneScore?: number | null; // Derived from existing sentiment fields
+    earningsBeatScore?: number | null; // Legacy: based on EPS surprise (no longer computed)
+    priceActionScore?: number | null; // Based on post-earnings price movement, when available
+    guidanceAccuracyScoreWeighted?: number | null; // Legacy (no longer computed)
+    revenueGrowthScore?: number | null; // Based on exact YoY revenue growth (SEC XBRL)
+    netIncomeScore?: number | null; // Based on exact net income level + YoY trajectory (SEC XBRL)
 
-    // Weighted composite (10% mgmt + 40% beat + 30% price + 20% guidance)
+    // Weighted composite of available components (rev growth 30, net income 25, price 30, tone 15)
     compositeSentimentScore?: number; // 0-100
     compositeSentiment?: "bullish" | "neutral" | "bearish"; // Derived from composite score
   };

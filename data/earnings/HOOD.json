@@ -56,14 +56,11 @@
           "The acquisition of TradePMR allows us to deliver investment advisory capabilities to customers by bringing in a scaled RIA custodial and portfolio management platform."
         ],
         "marketData": {
-          "priceOnEarningsDate": 143.17999267578125,
-          "priceAfter7Days": 145,
-          "priceChangePercent": 1.271132432825304,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 61,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
           "compositeSentiment": "bullish"
         }
       },
@@ -126,15 +123,12 @@
           "This acquisition of Bitstamp accelerates our expansion worldwide"
         ],
         "marketData": {
-          "priceOnEarningsDate": 93.62999725341797,
-          "priceAfter7Days": 93.45999908447266,
-          "priceChangePercent": -0.1815637871751691,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 58,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2025",
@@ -192,15 +186,12 @@
           "Our mission is to democratize finance for all"
         ],
         "marketData": {
-          "priceOnEarningsDate": 41.619998931884766,
-          "priceAfter7Days": 35.40999984741211,
-          "priceChangePercent": -14.920709379728558,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 5,
-          "guidanceAccuracyScoreWeighted": 90,
-          "compositeSentimentScore": 50,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2025",
@@ -260,15 +251,12 @@
           "We have expanded and continue to expand our operations rapidly, which subjects us to a number of uncertainties, risks, and difficulties that could adversely affect our business."
         ],
         "marketData": {
-          "priceOnEarningsDate": 37.2599983215332,
-          "priceAfter7Days": 40.560001373291016,
-          "priceChangePercent": 8.856691359136972,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 80,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 55,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 70,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q4 2024",
@@ -325,14 +313,11 @@
           "Our intent is to continue expanding our operations outside of the United States"
         ],
         "marketData": {
-          "priceOnEarningsDate": 23.420000076293945,
-          "priceAfter7Days": 23.31999969482422,
-          "priceChangePercent": -0.42698710992297717,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 45,
-          "guidanceAccuracyScoreWeighted": 90,
-          "compositeSentimentScore": 62,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 90,
           "compositeSentiment": "bullish"
         }
       },
@@ -387,15 +372,12 @@
           "Our financial performance demonstrates the strength of our platform and customer engagement"
         ],
         "marketData": {
-          "priceOnEarningsDate": 22.790000915527344,
-          "priceAfter7Days": 22.09000015258789,
-          "priceChangePercent": -3.0715258219341566,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 55,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 94,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2024",
@@ -450,15 +432,12 @@
           "We have been named as a defendant in lawsuits and from time to time we have been threatened with, or named as a defendant in arbitrations and administrative proceedings."
         ],
         "marketData": {
-          "priceOnEarningsDate": 19.40999984741211,
-          "priceAfter7Days": 18.559999465942383,
-          "priceChangePercent": -4.379187986356708,
           "managementToneScore": 100,
-          "earningsBeatScore": 50,
-          "priceActionScore": 35,
-          "guidanceAccuracyScoreWeighted": 70,
-          "compositeSentimentScore": 55,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 90,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q1 2024",
@@ -515,14 +494,11 @@
           "We believe a vast majority of the nearly 10,000 tokens in the crypto market are securities"
         ],
         "marketData": {
-          "priceOnEarningsDate": 12.369999885559082,
-          "priceAfter7Days": 12.420000076293945,
-          "priceChangePercent": 0.4042052643285327,
           "managementToneScore": 5,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 47,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
           "compositeSentiment": "neutral"
         }
       },
@@ -575,14 +551,11 @@
           "As of September 30, 2023, an aggregate of 405 million shares had been authorized for issuance under our equity plans"
         ],
         "marketData": {
-          "priceOnEarningsDate": 9.729999542236328,
-          "priceAfter7Days": 9.869999885559082,
-          "priceChangePercent": 1.4388525170534228,
           "managementToneScore": 30,
-          "earningsBeatScore": 50,
-          "priceActionScore": 55,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 57,
           "compositeSentiment": "neutral"
         }
       },
@@ -641,15 +614,12 @@
           "We are cooperating with these investigations"
         ],
         "marketData": {
-          "priceOnEarningsDate": 9.979999542236328,
-          "priceAfter7Days": 10.789999961853027,
-          "priceChangePercent": 8.116237041782403,
           "managementToneScore": 25,
-          "earningsBeatScore": 50,
-          "priceActionScore": 80,
-          "guidanceAccuracyScoreWeighted": 50,
-          "compositeSentimentScore": 57,
-          "compositeSentiment": "neutral"
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 74,
+          "compositeSentiment": "bullish"
         }
       },
       "quarter": "Q2 2023",
@@ -705,7 +675,14 @@
           "We are cooperating with these investigations",
           "The outcomes of these matters are inherently uncertain"
         ],
-        "marketData": {}
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
       },
       "quarter": "Q1 2023",
       "quarterInfo": {
