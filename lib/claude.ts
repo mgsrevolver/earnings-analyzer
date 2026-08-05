@@ -128,7 +128,7 @@ export async function analyzeEarningsReport(
 
     const client = getAnthropicClient();
     const message = await client.messages.create({
-      model: "claude-3-5-haiku-20241022",
+      model: "claude-haiku-4-5",
       max_tokens: 2000,
       messages: [
         {
@@ -243,7 +243,7 @@ If no qualifying partnerships are found, return an empty array: []`;
 
     const client = getAnthropicClient();
     const message = await client.messages.create({
-      model: "claude-3-5-haiku-20241022",
+      model: "claude-haiku-4-5",
       max_tokens: 500,
       messages: [
         {
@@ -312,7 +312,7 @@ Format as a concise 5-7 bullet point summary.`;
   try {
     const client = getAnthropicClient();
     const message = await client.messages.create({
-      model: "claude-3-5-haiku-20241022",
+      model: "claude-haiku-4-5",
       max_tokens: 1500,
       messages: [
         {
