@@ -12,6 +12,163 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001868275-26-000067",
+        "filingDate": "2026-05-11",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000067/ceg-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 7541,
+        "netIncome": 1590,
+        "operatingCashFlow": 425,
+        "freeCashFlow": -850,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "nation's largest producer of clean and reliable energy and leading supplier of energy products and services",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "PJM": 30.4,
+          "MISO": 2.3,
+          "ERCOT": 4.1,
+          "NYISO": 6.8,
+          "ISO-NE": 9.1,
+          "West": 3,
+          "SERC_SPP": 0.6,
+          "International": 1,
+          "Calpine": 21.5,
+          "Other": 24.4
+        },
+        "capexAmount": 1275,
+        "capexGrowth": 58.2,
+        "partnerships": [
+          "Microsoft - 20-year PPA for Crane Clean Energy Center (Three Mile Island Unit 1)",
+          "LS Power - $5.0 billion agreement to sell five PJM generation assets (4.4 GW natural gas capacity)",
+          "Calpine acquisition - serves 62 TWh annually with 23 GW generation capacity",
+          "Calpine",
+          "LS Power"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "DOJ-mandated divestiture of five generating assets in PJM, one in ERCOT, and minority interest in Gregory Power Plant",
+          "FERC waiver request pending for Eddystone CIRs transfer to Crane Clean Energy Center",
+          "NRC comprehensive safety and environmental review required for Crane restart",
+          "State and local permitting requirements for Crane restart"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Constellation Energy delivered strong Q1 2026 results with revenue of $11.1 billion and net income of $1.6 billion, driven by the January 2026 acquisition of Calpine Corporation which adds 23 GW of generation capacity and transforms the company into the nation's largest combined clean energy producer and competitive retail supplier. The Calpine acquisition nearly doubled revenue and strengthened market positioning, though integration activities and required asset divestitures create near-term execution risks; management demonstrates confidence with significant capex investments ($1.3 billion in Q1) and strategic partnerships including a 20-year Microsoft PPA for the restarted Crane Clean Energy Center.",
+        "keyQuotes": [
+          "We are the nation's largest producer of clean and reliable energy and a leading supplier of energy products and services",
+          "The merger couples the largest producer of clean, emissions-free energy with the reliable, dispatchable natural gas assets of Calpine, and also creates the nation's leading competitive retail electric supplier",
+          "The addition of Calpine strengthens our essential role in providing clean, reliable energy as the nation seeks to transition to a more sustainable future"
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 89,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001868275-26-000032",
+        "filingDate": "2026-02-24",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 5693,
+        "netIncome": 432,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "nation's largest producer of clean energy and leading competitive retail electric supplier",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "Mid-Atlantic": 25.4,
+          "Midwest": 22.7,
+          "New York": 8.6,
+          "ERCOT": 7.5,
+          "Other": 21.9,
+          "Other_category": 14.2
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Microsoft - 20-year PPA for Crane Clean Energy Center restart",
+          "Meta Platforms - 20-year PPA for Clinton Clean Energy Center output",
+          "Calpine acquisition - $22 billion transaction completed January 2026",
+          "Federal Financing Bank - $1.0 billion loan guarantee for Crane restart"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "EPA repeal of 2009 Endangerment Finding and proposed GHG emissions regulations",
+          "PJM market reform proposals including reliability backstop auctions",
+          "FERC order on co-located load transmission services",
+          "Water quality certification requirements for hydroelectric licenses",
+          "Section 316(b) cooling water intake compliance",
+          "Russian uranium import restrictions and nuclear fuel supply uncertainty"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Constellation Energy achieved $25.5 billion in revenue and $2.3 billion in net income for 2025, demonstrating strong operational performance as the nation's largest clean energy producer. The company completed the $22 billion acquisition of Calpine in January 2026, creating a diversified generation portfolio with 23 GW of additional capacity, and secured major long-term PPAs with Microsoft and Meta to support nuclear restart and expansion projects. Strong tailwinds from data center demand, AI growth, manufacturing onshoring, and supportive federal energy policies position the company for sustained growth, though nuclear PTC volatility and market reform uncertainties present near-term headwinds.",
+        "keyQuotes": [
+          "We are the nation's largest producer of clean energy and a leading supplier of energy products and services with generation capacity including primarily nuclear, wind, solar, natural gas, and hydroelectric assets.",
+          "The acquisition of Calpine strengthens our essential role in providing clean, reliable energy as the nation seeks to transition to a more sustainable future, and will better position us to pursue investments in new and existing technologies to meet growing demand.",
+          "This growth is creating unprecedented demand for reliable, around-the-clock electricity in the U.S. and globally, driven by widespread adoption of AI technologies and large-scale infrastructure investments by major hyperscalers such as Microsoft, Google, Meta, and Amazon."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 63,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001868275-25-000092",
         "filingDate": "2025-11-07",
         "reportDate": "2025-09-30",
@@ -20,48 +177,53 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 5703,
         "netIncome": 930,
         "operatingCashFlow": 3432,
-        "freeCashFlow": null,
+        "freeCashFlow": 1469,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
+        "deferredRevenue": 851,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Mid-Atlantic": 27,
-          "Midwest": 21,
-          "New York": 8.9,
+          "Mid_Atlantic": 26.8,
+          "Midwest": 21.2,
+          "New_York": 8.5,
           "ERCOT": 9.6,
-          "Other Power Regions": 33.5
+          "Other_Power_Regions": 23.5,
+          "Other": 10.4
         },
         "capexAmount": 1963,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": 6.9,
+        "partnerships": [
+          "Calpine Corporation merger agreement (50M shares + $4.5B cash, ~$12.7B debt assumed)",
+          "South Texas Project joint ownership (44% interest)"
+        ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Nuclear license renewal complexities",
-          "Ongoing regulatory proceedings"
+          "Conowingo Hydroelectric Project license renewal complexity",
+          "Peach Bottom Units 2 and 3 license renewal process"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
-        "overallSentiment": "neutral",
-        "summary": "Constellation Energy delivered steady financial performance in Q3 2025, with revenue of $6.57B and net income of $929M. The company maintained stable operations across multiple geographic regions, with strong operating cash flow of $3.43B.",
+        "overallSentiment": "bullish",
+        "summary": "Constellation delivered Q3 2025 revenue of $6.57B with net income of $929M, demonstrating stable operational performance. The company benefits from strong pricing power in competitive electricity markets, bolstered by nuclear production tax credits ($175M in Q3) and announced $4.5B Calpine acquisition that significantly expands natural gas and renewable generation capacity. Robust operating cash flow of $3.43B and free cash flow of $1.47B support strategic capital deployment and the pending transformative merger.",
         "keyQuotes": [
-          "We are the nation's largest producer of carbon-free energy",
-          "Our generating capacity includes primarily nuclear, wind, solar, natural gas, and hydroelectric assets"
+          "The nation's largest producer of carbon-free energy and a supplier of energy products and services with generating capacity including primarily nuclear, wind, solar, natural gas, and hydroelectric assets.",
+          "In July 2025, Congress passed the OBBBA which affirmed the provisions of the nuclear PTC with no material changes, reinforcing the long-term economic viability of our nuclear generation assets.",
+          "We expect to fund the cash portion of the transaction through a combination of cash on hand and cash flow generated by Calpine in the period between signing and closing of the transaction."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 90,
           "revenueGrowthScore": 76,
           "netIncomeScore": 45,
           "priceActionScore": null,
-          "compositeSentimentScore": 64,
+          "compositeSentimentScore": 68,
           "compositeSentiment": "bullish"
         }
       },
@@ -86,50 +248,58 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 5161,
         "netIncome": 839,
         "operatingCashFlow": 1584,
-        "freeCashFlow": null,
+        "freeCashFlow": 11,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
+        "deferredRevenue": 855,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Mid-Atlantic": 23.5,
-          "Midwest": 23.4,
-          "New York": 8.4,
-          "ERCOT": 5.4,
-          "Other Power Regions": 16.9
+          "Mid-Atlantic": 23.7,
+          "Midwest": 25,
+          "New_York": 8.8,
+          "ERCOT": 7.6,
+          "Other_Power_Regions": 19.3,
+          "Other": 15.6
         },
         "capexAmount": 1573,
-        "capexGrowth": null,
+        "capexGrowth": 22.5,
         "partnerships": [
-          "Proposed acquisition of Calpine Corporation"
+          "Proposed acquisition of Calpine Corporation (50M shares + $4.5B cash, ~$12.7B debt assumption)",
+          "South Texas Project joint ownership with CPS (40%) and City of Austin (16%)",
+          "Nuclear PTC program through 2032",
+          "State-sponsored nuclear compensation programs"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Nuclear regulatory compliance",
-          "DOJ merger review"
+          "DOJ review pending for Calpine merger",
+          "NRC approval required for STP ownership interest sale",
+          "PUCT approval required for STP ownership interest sale",
+          "Nuclear PTC subject to future Treasury/IRS guidance",
+          "State program refund obligations related to nuclear PTC"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Constellation Energy delivered stable quarterly performance with revenues of $6.1B and net income of $833M. The company is focused on carbon-free energy generation and is pursuing a strategic acquisition of Calpine Corporation, which would expand its renewable and gas generation capabilities.",
+        "summary": "Constellation Energy delivered Q2 2025 revenue of $6.1B, up 11% YoY, with net income of $833M. Operating cash flow was strong at $1.6B for the six-month period, though capital expenditures increased 22.5% YoY to $1.6B. The company is pursuing the transformative $4.5B Calpine acquisition (plus ~$12.7B debt assumption) to add 27 GW of generation capacity, with regulatory approvals obtained from PUCT, NYPSC, and FERC; DOJ review remains pending. Management maintains a neutral tone with no explicit forward guidance provided in this 10-Q filing.",
         "keyQuotes": [
-          "We are the nation's largest producer of carbon-free energy",
-          "We expect to fund the cash portion of the transaction through cash on hand and cash flow generated by Calpine"
+          "We are the nation's largest producer of carbon-free energy and a supplier of energy products and services.",
+          "The merger consideration at closing will consist of an aggregate of 50 million newly issued shares of our common stock, no par value, and $4.5 billion in cash. We will also assume approximately $12.7 billion of Calpine's outstanding debt.",
+          "Regulatory approvals for the merger were received by the PUCT and NYPSC in June 2025 and by the FERC in July 2025. Completion of the transaction is conditioned upon review by the DOJ and other customary closing conditions."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 60,
           "priceActionScore": null,
-          "compositeSentimentScore": 69,
+          "compositeSentimentScore": 65,
           "compositeSentiment": "bullish"
         }
       },
@@ -153,50 +323,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000044/ceg-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
         "revenue": 6106,
         "netIncome": 118,
         "operatingCashFlow": 107,
-        "freeCashFlow": null,
+        "freeCashFlow": -699,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Mid-Atlantic": 24.5,
+          "MidAtlantic": 24.6,
           "Midwest": 20.7,
-          "New York": 8.3,
+          "NewYork": 8.3,
           "ERCOT": 5.9,
-          "Other Power Regions": 21.5
+          "OtherPowerRegions": 22.9,
+          "Other": 17.7
         },
         "capexAmount": 806,
-        "capexGrowth": null,
+        "capexGrowth": 9.2,
         "partnerships": [
-          "Calpine Corporation merger"
+          "Calpine Corporation acquisition agreement (January 2025) - $4.5 billion cash plus 50 million shares for 27 GW generation capacity"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Nuclear Production Tax Credit (PTC) guidance pending"
+          "Nuclear PTC phase-out at high gross receipts levels ($43.75+ per MWh)",
+          "State-sponsored programs requiring refund or pass-through of nuclear PTC benefits",
+          "NRC minimum funding requirements for decommissioning",
+          "Regulatory approval needed for STP ownership interest sale to CPS"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Constellation Energy reported stable quarterly performance with revenues of $6.8 billion and net income of $129 million. The company is focused on strategic expansion, including a proposed merger with Calpine Corporation, while navigating regulatory uncertainties around nuclear tax credits.",
+        "summary": "Constellation Energy reported Q1 2025 revenue of $6,788 million with net income attributable to common shareholders of $118 million, down 87% year-over-year due to significantly lower commodity mark-to-market gains and absence of nuclear PTC revenue (estimated to exceed phase-out thresholds). Operating cash flow was positive at $107 million despite elevated collateral postings, while capex increased 9.2% to $806 million. The company is pursuing a transformational $4.5 billion acquisition of Calpine Corporation (27 GW capacity) expected to close by December 31, 2025.",
         "keyQuotes": [
-          "Beginning in 2024, our nuclear fleet is eligible for the nuclear PTC provided by the IRA, an important tool in managing commodity price risk",
-          "We expect the inflation factor for 2025 to be published in the second or third quarter of 2025"
+          "For the three months ended March 31, 2025, we did not record a nuclear PTC benefit as the estimate of full year gross receipts exceeds the phase-out amount for annual gross receipts per MWh for all units.",
+          "On January 10, 2025, we entered an agreement and plan of merger with Calpine Corporation under which we will acquire all the outstanding equity interests of Calpine in a cash and stock transaction.",
+          "We are the nation's largest producer of carbon-free energy and a supplier of energy products and services."
         ],
         "marketData": {
-          "managementToneScore": 45,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 55,
           "compositeSentiment": "neutral"
         }
       },
@@ -220,8 +395,8 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827525000023/ceg-20241231.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
@@ -231,43 +406,39 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "As the nation's largest producer of carbon-free energy",
+        "marketShareMention": "Calpine acquisition will create 'nation's leading competitive retail electric supplier'",
         "customerConcentration": null,
-        "geographicBreakdown": {
-          "Midwest": null,
-          "Mid-Atlantic": null,
-          "ERCOT": null,
-          "New York": null,
-          "Other": null
-        },
+        "geographicBreakdown": null,
         "capexAmount": 1600,
         "capexGrowth": null,
         "partnerships": [
-          "20-year PPA with Microsoft for Crane Clean Energy Center restart",
-          "Pending acquisition of Calpine Corporation"
+          "Microsoft 20-year PPA for Crane Clean Energy Center restart",
+          "Collaboration with national labs, universities, startups, and research institutions"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Russian uranium import restrictions",
-          "EPA greenhouse gas regulations",
-          "State clean energy mandates"
+          "EPA GHG regulations for coal and gas plants",
+          "Clean Water Act Section 316(b) cooling water intake requirements",
+          "CERCLA and RCRA environmental remediation obligations",
+          "NERC mandatory reliability standards",
+          "State-specific nuclear support program expirations (New Jersey ending May 2025)"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Constellation Energy demonstrates strong performance in 2024, leveraging its carbon-free nuclear fleet and positioning for future growth through the proposed Calpine acquisition and Crane nuclear plant restart. The company benefits from nuclear production tax credits and is well-positioned in the clean energy transition.",
+        "summary": "Constellation Energy delivered strong 2024 results with $24.2B revenue and $3.7B net income, significantly exceeding prior year driven by nuclear PTC benefits ($2.08B) and operational excellence. The announced $27B+ Calpine acquisition positions the company as America's largest clean energy producer coupled with dispatchable natural gas and leading retail platform, with significant growth catalysts from AI-driven data center demand, nuclear license extensions, and emerging clean energy technologies. Management demonstrates confidence in long-term value creation through disciplined capital allocation, maintained investment-grade ratings, and strategic positioning in the accelerating energy transition.",
         "keyQuotes": [
-          "We are committed to a clean energy future and aim to meet the growing energy needs of all our customers.",
-          "The demand for reliable, carbon-free energy and sustainability solutions continues to grow across the country.",
-          "We will couple the largest producer of clean, carbon-free energy with the reliable, dispatchable natural gas assets of Calpine"
+          "The demand for reliable, carbon-free energy and sustainability solutions continues to grow across the country...we are committed to a clean energy future and aim to meet the growing energy needs of all our customers.",
+          "The addition of Calpine will strengthen our essential role in providing clean, reliable, and affordable energy as the nation seeks to transition to a more sustainable future, and will better position us to pursue investments in new and existing technologies to meet growing demand.",
+          "In 2024, we achieved a 94.6% percent capacity factor across our nuclear fleet and our ownership of 22 GWs of carbon-free generation capacity at 25 nuclear units produced 182 TWhs of electricity in 2024."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 28,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 66,
+          "compositeSentimentScore": 63,
           "compositeSentiment": "bullish"
         }
       },
@@ -291,15 +462,15 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000069/ceg-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 4773,
         "netIncome": 1200,
         "operatingCashFlow": -1448,
-        "freeCashFlow": null,
+        "freeCashFlow": 3220,
         "daysalesOutstanding": null,
         "deferredRevenue": 35,
         "marketShareMention": null,
@@ -307,31 +478,43 @@
         "geographicBreakdown": {
           "Mid-Atlantic": 24.5,
           "Midwest": 19.5,
-          "New York": 7.7,
+          "New_York": 7.7,
           "ERCOT": 8,
-          "Other Power Regions": 22.1
+          "Other_Power_Regions": 22,
+          "Natural_Gas": 8.1,
+          "Other": 10.2
         },
         "capexAmount": 1836,
         "capexGrowth": 5.8,
-        "partnerships": [],
+        "partnerships": [
+          "South Texas Project (STP) ownership agreement with CPS and City of Austin",
+          "Settlement agreement with CPS, Austin, and NRG regarding STP litigation",
+          "Accounts receivable financing facility with financial institutions and commercial paper conduit (maximum $1.1 billion)"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "NRC regulatory requirements for nuclear decommissioning funding assurance",
+          "Illinois Zero Emission Credit (ZEC) program with annual compensation caps",
+          "Mystic Cost of Service Agreement (ended May 2024)",
+          "Pending NRC and Public Utility Commission of Texas regulatory approvals for STP ownership sale"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Constellation Energy delivered strong quarterly performance with $6.55B in revenue and $1.2B in net income, driven by nuclear production tax credits and stable operational performance across geographic regions. The company is benefiting from the Inflation Reduction Act's nuclear production tax credit program.",
+        "summary": "Constellation Energy reported Q3 2024 revenue of $6.55 billion and net income of $1.196 billion, with strong earnings growth driven by nuclear production tax credits (estimated $670M for the quarter). The company achieved RNF of $3.43 billion (up 25% YoY) and successfully monetized $1 billion of nuclear PTCs during Q3 2024. Operating cash flow was negative $1.448 billion for the nine months due to working capital timing and derivative fair value changes, but free cash flow remained strong at $3.22 billion after capital expenditures and NDT fund activities.",
         "keyQuotes": [
-          "We have determined that we will meet the annual prevailing wage requirements at all our nuclear units and are eligible for the five times multiplier.",
-          "During the third quarter of 2024, we executed agreements for the sale of $1 billion of nuclear PTCs to unaffiliated third parties"
+          "Beginning in 2024, our nuclear units are eligible for a PTC extending through 2032...we have determined that we will meet the annual prevailing wage requirements at all our nuclear units and are eligible for the five times multiplier.",
+          "During the third quarter of 2024, we executed agreements for the sale of $1 billion of nuclear PTCs to unaffiliated third parties at a nominal discount, with approximately $670 million of cash proceeds received upon sale.",
+          "In May 2024, we executed a settlement agreement with all parties (CPS/City of San Antonio, Austin, and NRG), resolving all litigation involving our purchase of the ownership interest in STP."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 18,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 61,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2024",
@@ -355,40 +538,49 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 4406,
         "netIncome": 814,
         "operatingCashFlow": -1336,
-        "freeCashFlow": null,
+        "freeCashFlow": 1366,
         "daysalesOutstanding": null,
         "deferredRevenue": 35,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Mid-Atlantic": 23.8,
-          "Midwest": 21.3,
-          "New York": 9.4,
-          "ERCOT": 6.5,
-          "Other Power Regions": 21.6
+          "mid_atlantic": 23.8,
+          "midwest": 21.3,
+          "new_york": 9.4,
+          "ercot": 6.5,
+          "other_power_regions": 21.6,
+          "natural_gas": 10.6,
+          "other": 6.7
         },
         "capexAmount": 1284,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": -3.9,
+        "partnerships": [
+          "South Texas Project joint ownership (44% stake, with CPS 40%, Austin 16%)",
+          "Settlement agreement with CPS/Austin/NRG on STP ownership dispute"
+        ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Nuclear PTC regulations"
+          "NRC regulations on nuclear decommissioning funding assurance",
+          "Illinois ZEC program with annual compensation caps",
+          "Mystic Cost of Service Agreement (ended May 2024)",
+          "State-sponsored programs requiring refund or pass-through of nuclear PTC benefits"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Constellation Energy delivered a stable quarterly performance with $5.475B in revenue and $809M in net income. The company continues to benefit from nuclear production tax credits and maintains a diverse geographic portfolio across power regions.",
+        "summary": "Constellation Energy reported Q2 2024 revenue of $5.475 billion with net income of $809 million, relatively flat YoY despite a 5% increase in RNF driven by strong nuclear PTC benefits ($712M YTD). Operating cash flow was negative at -$1.336 billion due to working capital timing, though free cash flow remained positive at $1.366 billion. The company is benefiting significantly from IRA nuclear production tax credits, recognizing $712 million YTD, but faces ongoing regulatory complexities including nuclear decommissioning obligations and state compensation program passthrough requirements.",
         "keyQuotes": [
-          "Beginning in 2024, our nuclear fleet is eligible for the nuclear PTC provided by the IRA, an important tool in managing commodity price risk",
-          "Portfolio hedging activities are generally concentrated in the prompt three years"
+          "Beginning in 2024, our nuclear fleet is eligible for a PTC extending through 2032...we have determined that we will meet the annual prevailing wage requirements at all our nuclear units and are eligible for the five times multiplier.",
+          "In May 2024, we executed a settlement agreement with all parties (CPS/City of San Antonio, Austin, and NRG), resolving all litigation involving our purchase of the ownership interest in STP.",
+          "Many of the state-sponsored programs providing compensation for the emissions-free attributes of generation from certain of our nuclear units include contractual or other provisions that require us to refund that compensation up to the amount of the nuclear PTC received."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -419,47 +611,59 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000026/ceg-20240331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "unknown",
         "revenue": 5260,
         "netIncome": 883,
         "operatingCashFlow": -723,
-        "freeCashFlow": null,
+        "freeCashFlow": 92,
         "daysalesOutstanding": null,
         "deferredRevenue": 34,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "Mid-Atlantic": 20.2,
-          "Midwest": 16.2,
+          "Midwest": 17.8,
           "New York": 8.3,
           "ERCOT": 5.2,
-          "Other Power Regions": 23.2
+          "Other Power Regions": 26.4,
+          "Natural Gas": 18.9,
+          "Other": 3.3
         },
         "capexAmount": 738,
         "capexGrowth": 11.8,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "partnerships": [
+          "South Texas Project joint ownership (44% stake acquired from NRG, settlement with CPS and Austin Energy to sell 2% to CPS)",
+          "Constellation Renewables Partners (CRP)",
+          "NewEnergy Receivables (NER) - accounts receivable facility with financial institutions"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "STP ownership transfer litigation with City of San Antonio and City of Austin (resolved May 2024)",
+          "NRC license transfer application subject to rescission/modification",
+          "Nuclear PTC subject to future Treasury and IRS guidance that may materially impact benefits",
+          "State-sponsored programs requiring refund or pass-through of nuclear PTC"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Constellation Energy reported strong Q1 2024 results with robust revenue of $6.161 billion and net income of $883 million, driven by nuclear production tax credits and effective commodity hedging strategies. The company continues to demonstrate financial resilience across diverse geographic power regions.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Constellation Energy reported Q1 2024 revenue of $6.16B (down 19% YoY) and net income of $883M (up 767% YoY), driven primarily by $304M in nuclear production tax credits from the IRA beginning in 2024, partially offset by lower commodity prices impacting purchased power costs. Operationally, the company generated negative free cash flow of -$92M (after capex) due to working capital timing, though the nuclear PTC provides strong structural support for future earnings. Management tone remains neutral with no explicit forward guidance provided, though the company continues capex investments and completed strategic acquisitions including the STP ownership stake.",
         "keyQuotes": [
-          "Beginning in 2024, our nuclear fleet is eligible for the nuclear PTC provided by the IRA, an important tool in managing commodity price risk",
-          "We seek to mitigate the price risk associated with our load serving contracts, non-nuclear generation, and any residual price risk for our nuclear generation"
+          "Beginning in 2024, our nuclear units are eligible for a PTC extending through 2032. The nuclear PTC provides a transferable credit up to $15 per MWh (a base credit of $3 per MWh with a five times multiplier provided certain prevailing wage requirements are met)",
+          "As a result of the enactment of the IRA, we qualify for certain federal government incentives through eligible activities. These incentives include both refundable and transferable tax credits.",
+          "The nuclear PTC continues to be the subject of additional guidance expected to be issued from the U.S. Treasury and IRS that may materially impact the total amount of benefits we receive."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 28,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 66,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2024",
@@ -475,72 +679,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001868275-24-000014",
-        "filingDate": "2024-02-27",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827524000014/ceg-20231231.htm"
-      },
-      "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
-        "revenue": 4994,
-        "netIncome": -37,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "As the nation's largest generator of carbon-free electricity",
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": 875,
-        "capexGrowth": null,
-        "partnerships": [
-          "National labs",
-          "Universities",
-          "Startups",
-          "Research institutions"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "EPA regulations",
-          "State clean energy standards",
-          "Nuclear licensing requirements"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Constellation Energy is positioning itself as a leader in clean energy, with a focus on nuclear power and carbon-free generation. The company is committed to expanding its carbon-free fleet and supporting decarbonization efforts across the energy sector.",
-        "keyQuotes": [
-          "We are committed to a clean energy future and we believe our business is well-positioned to benefit from growing policy support for decarbonization",
-          "We will operate and grow the nation's largest fleet of clean, zero-emissions generation facilities"
-        ],
-        "marketData": {
-          "managementToneScore": 100,
-          "revenueGrowthScore": 38,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 66,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001868275-23-000080",
         "filingDate": "2023-11-06",
         "reportDate": "2023-09-30",
@@ -549,51 +687,57 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 5313,
         "netIncome": 731,
         "operatingCashFlow": -2119,
-        "freeCashFlow": null,
+        "freeCashFlow": 444,
         "daysalesOutstanding": null,
         "deferredRevenue": 40,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "Mid-Atlantic": 23.1,
+          "MidAtlantic": 23.1,
           "Midwest": 18.3,
-          "New York": 8.4,
+          "NewYork": 8.4,
           "ERCOT": 9.1,
-          "Other Power Regions": 41.1
+          "OtherPowerRegions": 26.1,
+          "NaturalGas": 9.9,
+          "Other": 5.2
         },
         "capexAmount": 1735,
-        "capexGrowth": null,
+        "capexGrowth": 59.2,
         "partnerships": [
-          "NRG South Texas LP acquisition"
+          "South Texas Project Nuclear Generating Station acquisition (44% ownership stake from NRG for $1.75 billion)",
+          "Joint owners: City Public Service Board of San Antonio (40%), City of Austin (16%)"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "PJM performance bonus disputes",
-          "Mystic Units regulatory review"
+          "PJM performance bonus disputes from Winter Storm Elliott (15 FERC complaints filed)",
+          "Conowingo license renewal vacated by D.C. Circuit, operating under annual license",
+          "Mystic Cost of Service Agreement settlement reducing capital recovery",
+          "South Texas Project ownership litigation by City of San Antonio claiming right of first refusal"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Constellation Energy delivered solid Q3 performance with $6.1B in revenue and $690M net income, driven by strong nuclear and clean energy generation. The company continues strategic growth through acquisitions like the South Texas Project nuclear plant.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Constellation Energy reported Q3 2023 revenue of $6,111 million (flat vs. prior year) and net income of $690 million versus a loss of $193 million in Q3 2022, driven by lower purchased power and fuel costs. The company completed a transformational $1.75 billion acquisition of a 44% stake in the South Texas Project nuclear facility in November 2023, significantly expanding its clean energy portfolio. Operating cash flow was negative at -$2,119 million for the nine-month period due to working capital changes, though this reflects the timing of deferred purchase price collections and capital investments.",
         "keyQuotes": [
-          "We believe New York will continue to promote policies that support nuclear in the state beyond 2029",
-          "This acquisition is complementary to and aligned strategically with our existing clean energy business operations"
+          "We acquired NRG South Texas LP, which owns a 44% undivided ownership interest in the jointly owned South Texas Project Nuclear Generating Station (STP), a 2,645-megawatt, dual-unit nuclear plant located in Bay City, Texas, for a cash purchase price of $1.75 billion.",
+          "In the third quarter of 2023, we extended our retirement assumptions for Ginna and NMP Unit 1; while the current ZEC program in New York ends in 2029, the state has acknowledged our nuclear assets are vital to achieving its clean energy goals.",
+          "The settlement reduces the recovery we receive for capital projects over the term of the Mystic COS. The settlement also eliminates the possibility that we would need to refund certain costs recovered under the COS Agreement for the EMT facility if the EMT facility continues operating post-Cost-of-Service."
         ],
         "marketData": {
-          "managementToneScore": 90,
+          "managementToneScore": 50,
           "revenueGrowthScore": 48,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 68,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2023",
@@ -616,52 +760,59 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000064/ceg-20230630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
         "revenue": 4701,
         "netIncome": 833,
         "operatingCashFlow": -1126,
-        "freeCashFlow": null,
+        "freeCashFlow": -1465,
         "daysalesOutstanding": null,
         "deferredRevenue": 52,
-        "marketShareMention": "Acquired 44% interest in South Texas Project Nuclear Generating Station, expanding clean energy portfolio",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "Mid-Atlantic": 22,
           "Midwest": 24,
           "New York": 9,
           "ERCOT": 6,
-          "Other Power Regions": 39
+          "Other Power Regions": 20,
+          "Natural Gas": 12,
+          "Other": 7
         },
         "capexAmount": 1336,
-        "capexGrowth": null,
+        "capexGrowth": 67,
         "partnerships": [
-          "Pending acquisition of NRG Energy's 44% stake in South Texas Project Nuclear Generating Station"
+          "South Texas Project Nuclear Generating Station acquisition agreement with NRG Energy (44% ownership, $1.75B purchase price, pending regulatory approval)",
+          "Receivables financing facility with financial institutions and commercial paper conduit (expanded to $1.1B in August 2022)"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Ongoing legal dispute with CPS Energy and Austin Energy regarding South Texas Project acquisition",
-          "FERC settlement discussions regarding winter storm Elliott performance bonuses"
+          "PJM performance bonus disputes from Winter Storm Elliott (December 2022) with 15+ complaints filed at FERC",
+          "Mystic Units 8 and 9 Cost of Service Agreement settlement reducing capital recovery",
+          "Conowingo Hydroelectric Project license renewal vacated by D.C. Circuit, returned to FERC",
+          "Texas price cap litigation regarding February 2021 extreme weather event pricing",
+          "South Texas Project acquisition facing right of first refusal lawsuits from CPS and Austin Energy"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Constellation Energy delivered a strong Q2 2023 with solid financial performance, driven by clean energy generation and strategic expansion into nuclear assets. Despite some regulatory challenges, the company maintains a positive outlook and continues to invest in its clean energy portfolio.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Constellation Energy reported Q2 2023 net income of $824M on revenues of $5.4B, with operating performance improving despite negative operating cash flow of $1.1B driven by working capital movements and collateral requirements. The company faces multiple regulatory uncertainties including PJM performance bonus disputes, Conowingo license challenges, and litigation on its $1.75B South Texas Project acquisition, while pursuing strategic growth in nuclear assets. Capital expenditures increased 67% YoY to $1.3B, reflecting investment in the generation portfolio.",
         "keyQuotes": [
-          "This acquisition is complementary to and aligned strategically with our existing clean energy business operations",
-          "We continue to proceed with the actions necessary to close the transaction by the end of 2023"
+          "On May 31, 2023, we entered into an Equity Purchase Agreement with Texas Genco GP, LLC and Texas Genco LP, LLC, subsidiaries of NRG Energy, Inc. (NRG), for the acquisition of NRG's 44% undivided ownership interest in the jointly owned South Texas Project Nuclear Generating Station (STP), a 2,645-megawatt, dual-unit nuclear plant located in Bay City, Texas, for a cash purchase price of $1.75 billion.",
+          "We cannot reasonably predict the outcome of the complaints or settlement discussions; however, it is reasonably possible that the ultimate impact to our consolidated financial statements could differ materially once these uncertainties are resolved.",
+          "We are unable to further predict the outcome of these proceedings at this time [regarding Conowingo hydroelectric project license renewal]."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 48,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 70,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2023",
@@ -674,75 +825,9 @@
         "reportDate": "2023-06-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001868275-23-000032",
-        "filingDate": "2023-05-04",
-        "reportDate": "2023-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827523000032/ceg-20230331.htm"
-      },
-      "insights": {
-        "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 5833,
-        "netIncome": 96,
-        "operatingCashFlow": -934,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 63,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "Mid-Atlantic": 20.1,
-          "Midwest": 16.8,
-          "New York": 6.5,
-          "ERCOT": 2.8,
-          "Other Power Regions": 21.4
-        },
-        "capexAmount": 660,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "PUCT price cap challenges",
-          "FERC Mystic COS Agreement review"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Constellation Energy reported stable Q1 2023 financial performance with revenue of $7.565 billion and net income of $102 million. The company faces some regulatory challenges but maintains a neutral outlook across its geographic power regions.",
-        "keyQuotes": [
-          "Our generating capacity includes primarily nuclear, wind, solar, natural gas and hydroelectric assets",
-          "We sell electricity, natural gas, and other energy related products and sustainable solutions"
-        ],
-        "marketData": {
-          "managementToneScore": 50,
-          "revenueGrowthScore": 95,
-          "netIncomeScore": 45,
-          "priceActionScore": null,
-          "compositeSentimentScore": 68,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T15:58:14.152Z"
+  "lastUpdated": "2026-08-05T21:10:37.296Z"
 }
