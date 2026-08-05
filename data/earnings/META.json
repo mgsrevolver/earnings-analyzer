@@ -13,6 +13,231 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001628280-26-050705",
+        "filingDate": "2026-07-30",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 60801,
+        "netIncome": 15848,
+        "operatingCashFlow": 64088,
+        "freeCashFlow": 14975,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1160,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 39.2,
+          "Europe": 23,
+          "Asia-Pacific": 26.4,
+          "Rest of World": 11.3
+        },
+        "capexAmount": 49113,
+        "capexGrowth": 66.6,
+        "partnerships": [
+          "Data center co-development venture in Louisiana with 20% ownership interest and ~$27 billion total estimated development costs",
+          "Data center campus co-development in El Paso, Texas",
+          "Multi-year infrastructure purchase agreements with escrow requirements"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "FTC antitrust litigation and consent order modification proceedings",
+          "GDPR privacy investigations and compliance concerns by Irish Data Protection Commission",
+          "European Commission Digital Markets Act (DMA) investigation regarding 'subscription for no ads' model - fine of EUR 200 million imposed",
+          "European Commission antitrust investigation regarding WhatsApp Business API access for AI providers - interim measure requiring free API access",
+          "Multiple state attorneys general lawsuits regarding youth mental health harms",
+          "Children's Online Privacy Protection Act (COPPA) violations alleged",
+          "Competition investigations in Africa, Brazil, and Turkey",
+          "California settlement approved March 2026 for consumer protection violations",
+          "New Mexico Attorney General case with jury verdict of $375 million civil penalty and ongoing injunctive relief proceedings",
+          "Various privacy class actions regarding data collection through business tools (Pixel)",
+          "Multiple securities class actions and derivative actions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Meta reported Q2 2026 revenue of $60.8 billion (+28% YoY) and net income of $15.8 billion (-13% YoY), with strong operating cash flow of $64.1 billion but significant headwinds from $49.1 billion in capex (+67% YoY) driven by massive AI infrastructure investments. The company faces substantial regulatory challenges including FTC antitrust litigation, GDPR compliance issues, DMA fines, and multiple state youth-protection lawsuits, while maintaining strong pricing power and geographic diversification across regions.",
+        "keyQuotes": [
+          "We have contingent obligations to purchase up to $14.72 billion of cloud capacity over a five-year period",
+          "In July 2026, we entered into additional data center leases with lease obligations of approximately $68 billion, which are expected to commence in 2027 and 2028, with lease terms of 18 to 20 years",
+          "We have non-cancelable contractual commitments of $349.31 billion, comprising both short-term and long-term arrangements, mostly relating to third-party cloud capacity and infrastructure investments"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": null,
+          "netIncomeScore": null,
+          "priceActionScore": null,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-26-028526",
+        "filingDate": "2026-04-30",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 56311,
+        "netIncome": 26773,
+        "operatingCashFlow": 32226,
+        "freeCashFlow": 13229,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1120,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 37.76,
+          "Europe": 23.53,
+          "Asia-Pacific": 27.43,
+          "Rest of World": 11.28
+        },
+        "capexAmount": 18997,
+        "capexGrowth": 46.83,
+        "partnerships": [
+          "Data center campus co-development venture in Louisiana with 20% ownership and $27 billion total development commitment",
+          "Multi-year infrastructure contracts (additional $24 billion committed in April 2026)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "FTC modification of consent order proceedings",
+          "European Commission DMA investigation and fines ($200 million for subscription model non-compliance)",
+          "European Commission Facebook Marketplace Article 102 violation ($798 million fine)",
+          "GDPR data transfer compliance issues ($1.2 billion fine from IDPC)",
+          "Multiple youth-related litigation cases across jurisdictions",
+          "State attorneys general investigations and lawsuits",
+          "Antitrust litigation (FTC court ruling in Meta's favor in November 2025, FTC appeal filed January 2026)",
+          "Copyright/AI training litigation",
+          "Privacy and data breach class actions",
+          "Digital Services Act compliance proceedings"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bullish",
+        "summary": "Meta delivered strong Q1 2026 results with revenue of $56.3B (up 33% YoY) and net income of $26.8B (up 61% YoY), driven by robust advertising demand across all geographic regions. The company is aggressively investing in infrastructure with capex of $19B (up 47% YoY) and committed an additional $24B in multi-year infrastructure contracts in April 2026, signaling confidence in AI capacity needs and long-term growth. However, significant regulatory headwinds persist including FTC consent order modifications, European DMA and GDPR enforcement actions totaling over $2B in fines, and extensive youth-related litigation creating material legal uncertainty.",
+        "keyQuotes": [
+          "Our lease agreements with the Venture, which cover the right to use properties on the data center campus, will commence in 2029 and have an aggregate initial lease commitment of approximately $12.31 billion.",
+          "In April 2026, we entered into additional multi-year infrastructure contracts, related to which our non-cancelable contractual commitments increased by approximately $24 billion.",
+          "We have accrued significant amounts for loss contingencies related to these inquiries and investigations in Europe, and we believe there is a reasonable possibility that additional accruals for losses related to these matters could be material individually or in the aggregate."
+        ],
+        "marketData": {
+          "managementToneScore": 70,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 88,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-26-003942",
+        "filingDate": "2026-01-29",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 59894,
+        "netIncome": 22768,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Competition presents ongoing threat; some users prefer competing products; younger users engaging with alternatives",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "FTC consent order modifications sought",
+          "GDPR data transfer restrictions (IDPC fine EUR 1.2B)",
+          "Digital Markets Act (DMA) compliance requirements",
+          "Digital Services Act (DSA) enforcement",
+          "EU-U.S. Data Privacy Framework uncertainty",
+          "Multiple antitrust investigations and litigation",
+          "Content moderation and youth protection regulations",
+          "State privacy laws (CCPA/CPRA, etc.)",
+          "International data localization requirements",
+          "Copyright infringement litigation regarding AI training data"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Meta reported full-year 2025 revenue of $114.9B and net income of $38.2B, demonstrating strong profitability despite significant regulatory headwinds and substantial Reality Labs losses (~$19.2B in 2025). The company faces intensifying competition from rivals and younger users, coupled with extensive litigation exposure (potentially hundreds of billions in aggregate damages across various proceedings) and evolving global regulations that threaten core business practices around data usage, content moderation, and AI training. Management's tone reflects defensive posturing amid ongoing FTC consent order disputes, GDPR enforcement actions, and antitrust challenges, with expectations that Reality Labs losses will persist through 2026.",
+        "keyQuotes": [
+          "Our investments in Reality Labs reduced our 2025 overall operating profit by approximately $19.19 billion, and we expect our 2026 Reality Labs operating losses to remain similar to 2025.",
+          "We believe that some users, particularly younger users, are aware of and actively engaging with other products and services similar to, or as a substitute for, our products and services, and we believe that some users have reduced their use of and engagement with our products and services in favor of these other products and services.",
+          "The maximum aggregate monetary damages or penalties sought across our various legal proceedings could amount to an aggregate of up to hundreds of billions of dollars and, as a result, could be material to the financial condition of the company."
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 60,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001628280-25-047240",
         "filingDate": "2025-10-30",
         "reportDate": "2025-09-30",
@@ -20,46 +245,61 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "pricingPower": "strong",
+        "headcountTrend": "unknown",
         "revenue": 51242,
         "netIncome": 2709,
-        "operatingCashFlow": 79.586,
+        "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
-        "deferredRevenue": 0.924,
+        "deferredRevenue": 924,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 38.5,
+          "United_States_and_Canada": 38.5,
           "Europe": 22.6,
           "Asia_Pacific": 27.9,
-          "Rest_of_World": 11
+          "Rest_of_World": 11.1
         },
-        "capexAmount": 48.308,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
+        "capexAmount": 48308,
+        "capexGrowth": 111.5,
+        "partnerships": [
+          "Scale AI investment (non-voting minority equity stake, $13.79 billion)",
+          "Multi-year third-party cloud capacity arrangements (~$40 billion entered in October 2025)",
+          "Joint venture for data center co-development (contributed $4.66 billion in held-for-sale assets in October 2025)"
+        ],
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "European DSA compliance",
-          "Privacy investigations",
-          "Antitrust scrutiny"
+          "FTC modified consent order proceeding and administrative modifications",
+          "European Commission fines: EUR €798 million for Marketplace conduct, EUR €200 million for subscription model",
+          "GDPR compliance investigations by Irish Data Protection Commission (IDPC) and European regulators",
+          "Digital Markets Act (DMA) investigation and compliance requirements",
+          "Digital Services Act (DSA) formal proceedings for systemic risk assessment",
+          "FTC antitrust litigation regarding Instagram and WhatsApp acquisitions",
+          "Multiple state attorneys general investigations and youth-related litigation",
+          "CFPB investigation into financial services advertising",
+          "Copyright infringement litigation regarding AI training data",
+          "Privacy litigation and class actions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Meta delivered mixed quarterly results with revenue growth offset by significant legal and regulatory challenges. While core advertising business remains stable, increasing regulatory pressures and potential fines pose medium-term risks to the company's financial performance.",
-        "keyQuotes": [],
+        "summary": "Meta reported Q3 2025 revenue of $51.2 billion (26% YoY growth) with net income of $2.7 billion, reflecting significant headwinds including a $16.0 billion tax provision increase and heightened regulatory challenges in Europe. The company demonstrated strong pricing power and aggressive capex expansion ($48.3 billion, +112% YoY) focused on AI infrastructure and data centers, including major cloud partnerships and joint venture arrangements. However, substantial regulatory fines ($998 million), pending litigation with existential implications (DMA compliance, youth-related claims), and deferred revenue impact warrant caution on near-term guidance and policy exposure.",
+        "keyQuotes": [
+          "We extended the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025, resulting in $1.96 billion increase to net income for the nine months ended September 30, 2025.",
+          "In June 2025, we completed an investment in Scale AI by acquiring a non-voting minority of its outstanding equity for $13.79 billion as part of AI infrastructure investments.",
+          "On April 2025, the European Commission issued a final decision that our 'subscription for no ads' model does not comply with DMA requirements and imposed a fine of EUR €200 million. Further fines or modifications to our model may be imposed during the appeal process, which could result in a materially worse user experience for European users and a significant impact to our European business and revenue as early as later in the fourth quarter of 2025."
+        ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "revenueGrowthScore": 88,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 55,
+          "compositeSentimentScore": 60,
           "compositeSentiment": "neutral"
         }
       },
@@ -83,15 +323,15 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 47516,
         "netIncome": 18337,
         "operatingCashFlow": 49587,
-        "freeCashFlow": null,
+        "freeCashFlow": 20108,
         "daysalesOutstanding": null,
         "deferredRevenue": 876,
         "marketShareMention": null,
@@ -103,26 +343,40 @@
           "Rest of World": 10.7
         },
         "capexAmount": 29479,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
+        "capexGrowth": 102.3,
+        "partnerships": [
+          "Scale AI investment - $13.79 billion non-voting minority acquisition",
+          "Tender offers for variable interest entities - up to $3.0 billion"
+        ],
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC investigations",
-          "EU Digital Markets Act compliance",
-          "Privacy regulations"
+          "FTC modified consent order proceedings and potential modifications",
+          "European Commission DMA investigation and fine of EUR €200 million regarding 'subscription for no ads' model",
+          "European Commission competition investigation resulting in EUR €798 million fine related to Facebook Marketplace",
+          "European Data Protection Commission GDPR compliance investigations",
+          "Multiple privacy litigation matters including consumer class actions and derivative suits",
+          "Antitrust litigation by FTC and state attorneys general regarding Instagram and WhatsApp acquisitions",
+          "Youth-related litigation regarding social media addiction and mental health impacts",
+          "Digital Services Act compliance proceedings in Europe",
+          "CFPB investigation into advertising for financial products",
+          "Copyrighted materials litigation regarding AI training data"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q2 2025 results with robust revenue growth and impressive profitability. The company continues to invest heavily in infrastructure and AI technologies while navigating complex regulatory environments across global markets.",
-        "keyQuotes": [],
+        "summary": "Meta delivered strong Q2 2025 results with revenue of $47.5 billion (up 22% YoY) and net income of $18.3 billion (up 36% YoY), demonstrating robust advertising demand and pricing power across all geographies. The company invested heavily in infrastructure with capex doubling YoY to $29.5 billion and made a strategic $13.79 billion investment in Scale AI, signaling aggressive positioning in AI capabilities. However, substantial regulatory headwinds including potential changes to European data policies and ongoing antitrust litigation create material uncertainty around future profitability and user experience.",
+        "keyQuotes": [
+          "In January 2025, we completed an assessment of the useful lives of property and equipment, which resulted in an increase in the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025.",
+          "We cannot rule out that further fines or modifications to our model may be imposed during the appeal process, which could result in a materially worse user experience for European users and a significant impact to our European business and revenue as early as later in the third quarter of 2025.",
+          "We have accrued significant amounts for loss contingencies related to these inquiries and investigations in Europe, and we believe there is a reasonable possibility that additional accruals for losses related to these matters could be material individually or in the aggregate."
+        ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 88,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 91,
+          "compositeSentimentScore": 85,
           "compositeSentiment": "bullish"
         }
       },
@@ -146,48 +400,58 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 42314,
         "netIncome": 16644,
         "operatingCashFlow": 24026,
-        "freeCashFlow": null,
+        "freeCashFlow": 11085,
         "daysalesOutstanding": null,
         "deferredRevenue": 778,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 39.9,
-          "Europe": 22.8,
-          "Asia_Pacific": 26.6,
-          "Rest_of_World": 10.8
+          "United States and Canada": 39.9,
+          "Europe": 22.7,
+          "Asia-Pacific": 26.6,
+          "Rest of World": 10.8
         },
         "capexAmount": 12941,
-        "capexGrowth": 102.2,
+        "capexGrowth": 102.1,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "European Commission Digital Markets Act investigations",
-          "Privacy regulation challenges"
+          "FTC modification of consent order proceedings ongoing",
+          "European Commission DMA investigation - 'subscription for no ads' model compliance",
+          "European Commission issued EUR 200 million fine (April 2025) for DMA non-compliance",
+          "European Commission issued EUR 798 million fine for Facebook Marketplace tying practices",
+          "FTC antitrust case against acquisitions (Instagram, WhatsApp) - trial began April 2025",
+          "Multiple state attorneys general lawsuits regarding youth-related harms and 'social media addiction'",
+          "COPPA violations and child safety concerns in various jurisdictions",
+          "GDPR investigations by Irish Data Protection Commission regarding data transfers and consent models",
+          "Digital Services Act compliance investigations by European Commission",
+          "Copyrighted materials litigation regarding AI model training",
+          "IRS transfer pricing disputes for 2010-2013 tax years with potential $9+ billion exposure"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q1 2025 financial results with robust revenue growth and high profitability. The company continues to invest aggressively in infrastructure, AI, and strategic priorities while maintaining operational efficiency and returning capital to shareholders.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Meta delivered Q1 2025 revenue of $42.3B (up 16% YoY) and net income of $16.6B (up 35% YoY), driven by strong advertising performance across all geographies and improved operational efficiency from extending server useful lives. However, significant regulatory headwinds including a EUR 200M DMA fine, ongoing FTC consent order modifications, antitrust litigation over acquisitions, and youth-related lawsuits create material uncertainty; management provided no forward guidance and flagged potential material revenue impact from required changes to the European 'subscription for no ads' model as early as Q3 2025.",
         "keyQuotes": [
-          "Our Family of Apps continues to drive significant value and engagement globally",
-          "We remain committed to long-term investments in AI and emerging technologies"
+          "Based on feedback from the European Commission in connection with the DMA, we expect we will need to make some modifications to our model, which could result in a materially worse user experience for European users and a significant impact to our European business and revenue as early as the third quarter of 2025.",
+          "We extended the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025. Based on the servers and network assets placed in service as of December 31, 2024, the financial impact of this change in estimate included a reduction in depreciation expense of $826 million and an increase in net income of $695 million, or $0.27 per diluted share, for the three months ended March 31, 2025.",
+          "In January 2025, we completed an assessment of the useful lives of property and equipment, which resulted in an increase in the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -204,71 +468,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001326801-25-000017",
-        "filingDate": "2025-01-30",
-        "reportDate": "2024-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 48386,
-        "netIncome": 20838,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Digital Services Act",
-          "Digital Markets Act",
-          "EU AI Act",
-          "GDPR compliance",
-          "Privacy regulations",
-          "Content moderation requirements"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Meta faces significant regulatory challenges and ongoing legal risks across multiple jurisdictions, with cautious investments in AI and continued restructuring efforts. Despite strong revenues of $135.97 billion and net income of $39.13 billion, the company is navigating complex compliance and content moderation landscapes.",
-        "keyQuotes": [
-          "We are making significant investments in AI initiatives, including generative AI",
-          "We expect our AI initiatives will require increased investment in infrastructure and headcount",
-          "There are significant risks involved in developing and deploying AI"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 88,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 71,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q4 2024",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2024,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2024,
-        "quarter": "Q4 2024",
-        "reportDate": "2024-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001326801-24-000081",
         "filingDate": "2024-10-31",
         "reportDate": "2024-09-30",
@@ -276,46 +475,59 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000081/meta-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 40589,
         "netIncome": 15688,
         "operatingCashFlow": 63340,
-        "freeCashFlow": null,
+        "freeCashFlow": 40509,
         "daysalesOutstanding": null,
         "deferredRevenue": 732,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 38.5,
+          "United States and Canada": 38.5,
           "Europe": 22.7,
-          "Asia_Pacific": 27.7,
-          "Rest_of_World": 11.1
+          "Asia-Pacific": 27.7,
+          "Rest of World": 11.1
         },
         "capexAmount": 22831,
-        "capexGrowth": null,
+        "capexGrowth": 17.3,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC investigations",
-          "European privacy regulations",
-          "Digital Markets Act compliance"
+          "FTC modified consent order modification proceedings",
+          "FTC antitrust investigation regarding Instagram and WhatsApp acquisitions",
+          "EU GDPR investigations and Standard Contractual Clauses compliance issues",
+          "EU Digital Services Act investigations regarding minors safety and systemic risks",
+          "EU Digital Markets Act investigation into subscription for no ads consent model",
+          "Youth-related litigation regarding social media addiction and mental health",
+          "COPPA violations and child safety concerns litigation",
+          "Privacy litigation related to Pixel tracking and data collection",
+          "Competition litigation regarding marketplace tying practices",
+          "Securities litigation regarding disclosure practices",
+          "Copyright infringement litigation regarding AI training data",
+          "CFPB investigation into deceptive advertising for financial products"
         ],
-        "aiInvestmentMentioned": null,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q3 2024 results with revenue of $40.6B and net income of $15.7B, representing significant year-over-year growth. The company continues to generate robust operating cash flow and remains focused on efficiency while investing heavily in infrastructure and technology.",
-        "keyQuotes": [],
+        "summary": "Meta delivered strong Q3 2024 results with revenue of $40.6 billion (up 19% YoY) and net income of $15.7 billion (up 35% YoY), demonstrating robust advertising pricing power and operational efficiency. The company significantly increased capex to $22.8 billion (up 17% YoY) to support AI infrastructure and data center buildout, while generating robust free cash flow of $40.5 billion. However, the company faces substantial regulatory headwinds across multiple jurisdictions including FTC consent order modifications, EU GDPR/DSA investigations, youth-focused litigation, and antitrust challenges.",
+        "keyQuotes": [
+          "We have $ 32.14 billion of non-cancelable contractual commitments as of September 30, 2024, which are mostly related to our investments in servers, network infrastructure, and consumer hardware products in Reality Labs.",
+          "The interpretation and enforcement of the GDPR, as well as the imposition and amount of penalties for non-compliance, are subject to significant uncertainty. Although we are vigorously defending our regulatory compliance, we have accrued significant amounts for loss contingencies related to these inquiries and investigations in Europe, and we believe there is a reasonable possibility that additional accruals for losses related to these matters could be material individually or in the aggregate.",
+          "On May 3, 2023, the FTC filed a public administrative proceeding seeking substantial changes to the modified consent order, which took effect in April 2020 after its entry by the U.S. District Court for the District of Columbia."
+        ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 80,
           "compositeSentiment": "bullish"
         }
       },
@@ -339,46 +551,58 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000069/meta-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 39071,
         "netIncome": 13465,
-        "operatingCashFlow": 38.616,
-        "freeCashFlow": null,
+        "operatingCashFlow": 38616,
+        "freeCashFlow": 24043,
         "daysalesOutstanding": null,
-        "deferredRevenue": 0.675,
+        "deferredRevenue": 675,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US_Canada": 37.5,
+          "United States and Canada": 37.5,
           "Europe": 23.4,
-          "Asia_Pacific": 28.1,
-          "Rest_of_World": 11
+          "Asia-Pacific": 28.1,
+          "Rest of World": 11
         },
-        "capexAmount": 14.573,
-        "capexGrowth": null,
+        "capexAmount": 14573,
+        "capexGrowth": 12.5,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC consent order modifications",
-          "European Digital Services Act investigations",
-          "Privacy regulation compliance"
+          "FTC antitrust investigation and modified consent order proceedings",
+          "FTC proposed modifications to consent order including restrictions on minors' data usage and board composition changes",
+          "European Commission Statement of Objections regarding tying of Facebook Marketplace to Facebook",
+          "European Commission Digital Markets Act investigation into 'subscription for no ads' consent model",
+          "GDPR compliance investigations by Irish Data Protection Commission regarding data transfers and consent models",
+          "Digital Services Act compliance proceedings regarding systemic risks to minors",
+          "Multiple youth-related product liability and COPPA violation lawsuits in US and Canada",
+          "Antitrust litigation regarding Instagram and WhatsApp acquisitions",
+          "Texas biometric facial recognition settlement of $1.4 billion",
+          "Multiple privacy and consumer protection class actions",
+          "Ongoing transfer pricing disputes with IRS"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q2 2024 financial performance with robust revenue growth and solid profitability. The company continues investing heavily in infrastructure and AI while navigating complex regulatory environments across multiple jurisdictions.",
-        "keyQuotes": [],
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Meta reported strong Q2 2024 results with revenue of $39.1 billion (+22% YoY) and net income of $13.5 billion (+73% YoY), demonstrating significant operational momentum and pricing power in its advertising business. Operating cash flow of $38.6 billion and free cash flow of $24.0 billion reflect robust cash generation, while the company returned $20.95 billion to shareholders through buybacks and initiated a dividend program. However, the filing is dominated by extensive regulatory and legal headwinds, including ongoing FTC consent order modifications, European competition investigations, multiple youth-related lawsuits, and a $1.4 billion Texas settlement, creating material legal uncertainty.",
+        "keyQuotes": [
+          "Our revenue increased 22% year-over-year in the second quarter of 2024, driven by strong advertising demand and user growth across our Family of Apps",
+          "We have accrued significant amounts for loss contingencies related to inquiries and investigations in Europe, and we believe there is a reasonable possibility that additional accruals for losses related to these matters could be material individually or in the aggregate",
+          "Capital expenditures for the six months ended June 30, 2024 were $14.6 billion, a 12.5% increase compared to the prior year, primarily related to investments in servers, network infrastructure and data center construction"
+        ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 88,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 91,
+          "compositeSentimentScore": 81,
           "compositeSentiment": "bullish"
         }
       },
@@ -392,75 +616,9 @@
         "reportDate": "2024-06-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001326801-24-000049",
-        "filingDate": "2024-04-25",
-        "reportDate": "2024-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000049/meta-20240331.htm"
-      },
-      "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "stable",
-        "revenue": 36455,
-        "netIncome": 12369,
-        "operatingCashFlow": 19246,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 645,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "US_Canada": 37.4,
-          "Europe": 23,
-          "Asia-Pacific": 28.3,
-          "Rest_of_World": 11.3
-        },
-        "capexAmount": 6400,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "FTC privacy investigations",
-          "European competition inquiries",
-          "Antitrust lawsuits"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Meta delivered strong Q1 2024 results with robust revenue growth and significant net income, driven by advertising strength across Family of Apps. The company continues investing heavily in AI and infrastructure while maintaining a positive outlook despite ongoing regulatory challenges.",
-        "keyQuotes": [
-          "We are vigorously defending our regulatory compliance",
-          "We believe there are multiple legal grounds to satisfy regulatory requests"
-        ],
-        "marketData": {
-          "managementToneScore": 100,
-          "revenueGrowthScore": 88,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 91,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2024",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2024,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2024,
-        "quarter": "Q1 2024",
-        "reportDate": "2024-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
-  "totalFetched": 7,
-  "successfulAnalyses": 7,
-  "lastUpdated": "2026-01-21T17:52:56.575Z"
+  "totalFetched": 9,
+  "successfulAnalyses": 8,
+  "lastUpdated": "2026-08-05T18:39:12.066Z"
 }
