@@ -13,6 +13,208 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001628280-26-052556",
+        "filingDate": "2026-08-04",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000162828026052556/docn-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 281.184,
+        "netIncome": 35.437,
+        "operatingCashFlow": 156889,
+        "freeCashFlow": 63528,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 53039,
+        "marketShareMention": null,
+        "customerConcentration": 20,
+        "geographicBreakdown": {
+          "North America": 47,
+          "Europe": 22,
+          "Asia": 22,
+          "Rest of world": 9
+        },
+        "capexAmount": 93361,
+        "capexGrowth": -1.9,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean delivered Q2 2026 revenue of $281.2M (28.6% YoY growth) with net income of $35.4M, up slightly from Q2 2025's $37.0M despite higher interest expense. ARR reached $1,125M (+28.6% YoY) with AI Customer ARR growing 212% to $234M, indicating strong traction in strategic AI/ML offerings. The company raised $887.9M in net proceeds from a follow-on offering in March 2026 and subsequently repurchased $471.8M of convertible notes, improving its capital structure while investing heavily in infrastructure (capex of $93.4M for H1 2026).",
+        "keyQuotes": [
+          "DigitalOcean is an AI-Native Cloud, purpose-built for inference and agentic workloads that brings infrastructure, core cloud services, inference, data, and agents together in one integrated stack",
+          "Revenue from our DNE Customers as a percentage of total revenue was 67% in the three months ended June 30, 2026, up from approximately 59% in the three months ended June 30, 2025",
+          "Our AI Customer ARR as of June 30, 2026 was $234 million, up from $75 million as of June 30, 2025"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 70,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001582961-26-000049",
+        "filingDate": "2026-05-05",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000049/docn-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
+        "revenue": 257.905,
+        "netIncome": 15.771,
+        "operatingCashFlow": 46.921,
+        "freeCashFlow": 2.189,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 6.283,
+        "marketShareMention": null,
+        "customerConcentration": 16,
+        "geographicBreakdown": {
+          "North America": 44,
+          "Europe": 24,
+          "Asia": 22,
+          "Rest of world": 10
+        },
+        "capexAmount": 44.732,
+        "capexGrowth": -27.8,
+        "partnerships": [
+          "Strategic partnerships to augment platform offerings",
+          "Partnership strategies to drive AI-Native and Cloud-Native customer adoption"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Trade tensions and tariffs",
+          "Geopolitical conflicts",
+          "OECD Pillar Two global minimum tax (15%) - currently not applicable but monitoring"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "DigitalOcean delivered strong Q1 2026 results with revenue growing 22.4% YoY to $257.9M and net income of $15.8M, though down from prior year's $38.2M due to higher debt extinguishment costs. The company achieved strategic milestones including a successful $887.9M follow-on offering, debt repayment, and expanded credit facility, while maintaining healthy operating cash flow of $46.9M. Digital Native Enterprise customers grew to 22,000 (+10% YoY) generating 64% of revenue, with AI Customer ARR surging 220% to $170M, demonstrating strong traction in the high-margin AI inference market.",
+        "keyQuotes": [
+          "ARR increased from $843 million as of March 31, 2025 to $1,032 million as of March 31, 2026",
+          "AI Customer ARR as of March 31, 2026 was $170 million, up from $53 million as of March 31, 2025",
+          "Revenue from our DNE Customers as a percentage of total revenue was 64% in the three months ended March 31, 2026, up from approximately 57% in the three months ended March 31, 2025"
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001582961-26-000019",
+        "filingDate": "2026-02-24",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296126000019/docn-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 242.39,
+        "netIncome": 25.659999999999997,
+        "operatingCashFlow": 160.6,
+        "freeCashFlow": 49.4,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 83.2,
+        "marketShareMention": null,
+        "customerConcentration": 10,
+        "geographicBreakdown": {
+          "North America": 38,
+          "Europe": 28,
+          "Asia": 23,
+          "Rest of World": 11
+        },
+        "capexAmount": 111.2,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "EU AI Act and global AI/ML regulations",
+          "GDPR and international data privacy laws",
+          "Export controls on GPU and semiconductor technology",
+          "Digital Services Tax in multiple jurisdictions",
+          "Content liability under revised CDA Section 230"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean delivered full-year 2025 revenue of $665.8M (+18% YoY) with modest net income of $16.7M, driven by strong growth in DNE Customers (21K, +17% YoY) and improving net dollar retention (100% in 2025 vs 98% in 2024). The company is heavily investing in AI/ML infrastructure and capabilities while facing significant headwinds from GPU supply constraints, evolving regulatory frameworks for AI, and intense competition from hyperscalers.",
+        "keyQuotes": [
+          "Revenue from our DNE Customers as a percentage of total revenue was 60% in 2025, 55% in 2024, and 53% in 2023.",
+          "ARR as of December 31, 2025 was $970 million, up from $820 million as of December 31, 2024",
+          "We are subject to a limited number of suppliers for several components of the equipment we use to operate our platform and provide products to our customers, including competition with larger cloud computing companies for high demand equipment such as GPUs"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 75,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001582961-25-000150",
         "filingDate": "2025-11-05",
         "reportDate": "2025-09-30",
@@ -20,45 +222,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296125000150/docn-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": 15.5,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 229.634,
         "netIncome": 158.371,
-        "operatingCashFlow": 252.324,
-        "freeCashFlow": null,
+        "operatingCashFlow": 252324,
+        "freeCashFlow": 142852,
         "daysalesOutstanding": null,
-        "deferredRevenue": 8.587,
-        "marketShareMention": "Gained market share in cloud computing platform",
+        "deferredRevenue": 8587,
+        "marketShareMention": null,
         "customerConcentration": 11,
         "geographicBreakdown": {
           "North America": 40,
           "Europe": 27,
           "Asia": 23,
-          "Rest of World": 10
+          "Rest of world": 10
         },
-        "capexAmount": 102.931,
-        "capexGrowth": -22.6,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "capexAmount": 109472,
+        "capexGrowth": -17.6,
+        "partnerships": [
+          "Morgan Stanley Senior Funding, Inc. - 2025 Credit Facility administrative agent"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "OECD Pillar Two global minimum tax (15%) - Company monitoring but currently below revenue threshold",
+          "Inflation Reduction Act - 1% excise tax on net share repurchases"
+        ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q3 performance with robust revenue growth, significant net income improvement, and continued expansion of higher-spend customers. The company is strategically investing in AI capabilities and maintaining an efficient go-to-market model.",
+        "summary": "DigitalOcean delivered strong Q3 2025 results with revenue of $229.6M (+15.7% YoY) and net income of $158.4M, driven by a $48.4M debt extinguishment gain and improved operational efficiency. The company demonstrated solid organic growth with ARPU increasing 13.2% to $116.20 and ARR reaching $919M, while maintaining pricing power evidenced by Scalers+ revenue growth. Key highlights include successful debt refinancing (issued $625M 2030 Convertible Notes, repurchased $1.2B of 2026 notes), establishment of a $500M Term Loan Facility, and significant AI/ML platform investments with DigitalOcean Gradient offerings.",
         "keyQuotes": [
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and productivity.",
-          "Growing our Higher Spend Customers is a critical focus for us, and we have successfully increased the number of these customers and their percentage of our total revenue."
+          "Revenue from our Higher Spend Customers as a percentage of total revenue was 89% in the three months ended September 30, 2025, up from approximately 88% in the three months ended September 30, 2024.",
+          "Our annual run-rate (ARR, as further described in 'ARR' below), as of September 30, 2025 was $919 million, up from $794 million as of September 30, 2024.",
+          "We had approximately 177,000 Higher Spend Customers using our platform to build, deploy and scale applications as of September 30, 2025, up from approximately 163,000 as of September 30, 2024."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -82,47 +290,53 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296125000138/docn-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 218.7,
         "netIncome": 37.027,
         "operatingCashFlow": 156.537,
-        "freeCashFlow": null,
+        "freeCashFlow": 57.965,
         "daysalesOutstanding": null,
         "deferredRevenue": 11.264,
         "marketShareMention": null,
         "customerConcentration": 9,
         "geographicBreakdown": {
-          "North America": 37,
-          "Europe": 27,
-          "Asia": 23,
-          "Rest of World": 13
+          "northAmerica": 37,
+          "europe": 27,
+          "asia": 23,
+          "restOfWorld": 13
         },
-        "capexAmount": 95.16,
-        "capexGrowth": null,
+        "capexAmount": 98.572,
+        "capexGrowth": 30.5,
         "partnerships": [
-          "Hugging Face"
+          "Hugging Face partnership for LLM deployment",
+          "Paperspace acquisition for AI/ML offerings",
+          "Cloudways acquisition for Managed Hosting"
         ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "OECD Pillar Two global minimum tax monitoring",
+          "One Big Beautiful Bill Act tax provisions effective 2025-2027"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong quarterly performance with 13% revenue growth and 93% increase in net income. The company continues to invest in AI infrastructure and expand its higher spend customer base, with net dollar retention improving to 99%.",
+        "summary": "DigitalOcean delivered strong Q2 2025 results with revenue of $218.7M (13.6% YoY growth) and net income of $37.0M, driven by expansion in Higher Spend Customers (174k, up 8.75% YoY) and improving NDR of 99%. The company is investing heavily in AI/ML infrastructure with capex up 30.5% YoY, while maintaining operational efficiency with gross margins stable at ~60% and positive free cash flow generation.",
         "keyQuotes": [
-          "We believe that being simple, scalable and approachable are our key differentiators",
-          "We are investing in strategies that we believe will drive adoption by new Higher Spend Customers"
+          "Higher Spend Customers as a percentage of total revenue was 89% in the three months ended June 30, 2025, up from approximately 87% in the three months ended June 30, 2024.",
+          "Our annual run-rate (ARR) as of June 30, 2025 was $875 million, up from $770 million as of June 30, 2024.",
+          "We had approximately 174,000 Higher Spend Customers using our platform to build, deploy and scale applications as of June 30, 2025, up from approximately 160,000 as of June 30, 2024."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -146,18 +360,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296125000087/docn-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "revenue": 210.703,
         "netIncome": 38.204,
         "operatingCashFlow": 64.09,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.642,
-        "marketShareMention": "Higher Spend Customers increased from 87% to 88% of total revenue",
+        "marketShareMention": null,
         "customerConcentration": 9,
         "geographicBreakdown": {
           "northAmerica": 37,
@@ -165,29 +379,31 @@
           "asia": 24,
           "restOfWorld": 11
         },
-        "capexAmount": 64.975,
-        "capexGrowth": null,
+        "capexAmount": 63.992,
+        "capexGrowth": 46.7,
         "partnerships": [
-          "Hugging Face"
+          "Hugging Face partnership for GPU model deployment",
+          "Paperspace acquisition (AI/ML offerings)",
+          "Cloudways acquisition (Managed Hosting)"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q1 2025 results with robust revenue growth and expanding higher-spend customer base. The company continues to invest in AI capabilities and platform innovations while maintaining operational efficiency.",
+        "summary": "DigitalOcean delivered strong Q1 2025 results with revenue of $210.7M (+14.1% YoY) and net income of $38.2M (+170% YoY), demonstrating significant operating leverage and improved profitability. The company achieved 100% net dollar retention, expanded its higher-spend customer base to 171,000 (up 9% YoY), and increased ARR to $843M, driven by successful AI/ML product adoption and disciplined platform investments. Management maintains a confident tone with active pursuit of strategic partnerships and acquisitions to accelerate growth, though no explicit forward guidance was provided in this 10-Q filing.",
         "keyQuotes": [
-          "We continue to invest in our platform to further penetrate the growing markets in which we operate",
-          "We are investing in strategies that we believe will drive adoption by new Higher Spend Customers",
-          "Our product strategy is anchored in addressing the needs of our Higher Spend Customers"
+          "Revenue from our Higher Spend Customers as a percentage of total revenue was 88% as of March 31, 2025, up from approximately 87% as of March 31, 2024.",
+          "Our annual run-rate (ARR) as of March 31, 2025 was $843 million, up from $739 million as of March 31, 2024.",
+          "NDR increased from 97% during the three months ended March 31, 2024 to 100% during the three months ended March 31, 2025 driven by improved net expansion."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -211,17 +427,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296125000035/docn-20241231.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
-        "revenue": 204.925,
-        "netIncome": 18.266,
-        "operatingCashFlow": 102,
-        "freeCashFlow": 81,
+        "revenue": 204.92499999999995,
+        "netIncome": 18.266000000000005,
+        "operatingCashFlow": 134,
+        "freeCashFlow": 87,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
+        "deferredRevenue": 68.8,
         "marketShareMention": null,
         "customerConcentration": 8,
         "geographicBreakdown": {
@@ -230,31 +446,37 @@
           "Asia": 23,
           "Rest of World": 11
         },
-        "capexAmount": null,
+        "capexAmount": 47,
         "capexGrowth": null,
         "partnerships": [
-          "Hugging Face"
+          "Hugging Face partnership for AI model deployment",
+          "Strategic partnerships and acquisitions to augment platform"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "AI regulatory uncertainty"
+          "EU AI Act and evolving AI/ML regulations",
+          "Data privacy regulations (GDPR, CCPA, PIPL, LGPD)",
+          "Export controls on semiconductors and AI chips",
+          "Net neutrality regulatory uncertainty",
+          "Digital services taxes and sales tax obligations",
+          "Section 230 CDA revision proposals"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "DigitalOcean reported annual revenue of $441 million with a net loss of $22 million, focusing on growing higher spend customers and investing in AI/ML offerings. The company maintains a cautious outlook while continuing to expand its cloud computing platform globally.",
+        "summary": "DigitalOcean reported full-year 2024 revenue of $615.5 million and net income of $5.1 million, with Higher Spend Customers representing 87% of revenue and growing to 165,000 customers. The company achieved 13.4% ARR growth to $820 million and positive operating cash flow of $134 million, though net dollar retention declined to 98% from 101% in 2023. Management maintained a measured tone without providing forward guidance, emphasizing strategic investments in AI/ML capabilities, developer community engagement, and platform expansion.",
         "keyQuotes": [
-          "Being simple, scalable and approachable are our key differentiators",
-          "Growing our Higher Spend Customers is a critical focus for us",
-          "We continue to invest in our platform to further penetrate the growing markets in which we operate"
+          "Revenue from our Higher Spend Customers as a percentage of total revenue was 87% in 2024, 86% in 2023 and 85% in 2022.",
+          "Our average revenue per customer (ARPU) has increased from $82.76 in 2022 to $90.99 in 2023 and $100.71 in 2024.",
+          "We have a highly efficient self-service customer acquisition model, which we complement with a sales force focused on inside sales, targeted outside sales and partnership opportunities to drive revenue growth."
         ],
         "marketData": {
-          "managementToneScore": 65,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 79,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -278,18 +500,18 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000155/docn-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 198.484,
         "netIncome": 32.949,
-        "operatingCashFlow": 211.386,
-        "freeCashFlow": null,
+        "operatingCashFlow": 211386,
+        "freeCashFlow": 71808,
         "daysalesOutstanding": null,
-        "deferredRevenue": 5.575,
-        "marketShareMention": "Leading cloud computing platform for startups and digital-native businesses",
+        "deferredRevenue": 5575,
+        "marketShareMention": null,
         "customerConcentration": 9,
         "geographicBreakdown": {
           "northAmerica": 39,
@@ -297,27 +519,32 @@
           "asia": 23,
           "other": 10
         },
-        "capexAmount": 132.886,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexAmount": 139378,
+        "capexGrowth": 107.8,
+        "partnerships": [
+          "Cloudways acquisition",
+          "Paperspace acquisition - AI/ML capabilities"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "OECD Pillar Two global minimum tax (15%) - company currently below threshold"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong quarterly performance with solid revenue growth and continued expansion of higher-spend Builders and Scalers customers. The company remains focused on simplifying cloud computing for startups and digital-native businesses, with increasing investments in AI/ML offerings.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean delivered solid Q3 2024 results with revenue of $198.5M (up 12% YoY) and net income of $33M, demonstrating improved profitability versus prior year ($19.2M). Strong cash generation with $211.4M operating cash flow and healthy ARR growth to $798M, though management provided no forward guidance. The company is investing heavily in infrastructure (capex up 108% YoY) and AI/ML capabilities via the Paperspace acquisition while maintaining disciplined capital allocation through share buybacks.",
         "keyQuotes": [
-          "Our platform simplifies cloud computing, enabling our customers to rapidly accelerate innovation and increase their productivity and agility.",
-          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population.",
-          "We had approximately 18,000 Scalers as of September 30, 2024, up from approximately 16,000 as of September 30, 2023."
+          "Our annual run-rate revenue, or ARR, as of September 30, 2024 was $798 million, up from $713 million as of September 30, 2023.",
+          "Revenue from Builders and Scalers increased 7% and 19%, respectively, for the three months ended September 30, 2024 from the three months ended September 30, 2023.",
+          "We are focusing our sales and support teams to prevent customer churn by ensuring that our products and services provide a high level of value."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -341,46 +568,52 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000122/docn-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 192.476,
         "netIncome": 19.138,
-        "operatingCashFlow": 138.033,
-        "freeCashFlow": null,
+        "operatingCashFlow": 138033,
+        "freeCashFlow": 58453,
         "daysalesOutstanding": null,
-        "deferredRevenue": 6.803,
+        "deferredRevenue": 6803,
         "marketShareMention": null,
         "customerConcentration": 8,
         "geographicBreakdown": {
-          "northAmerica": 38,
+          "north_america": 38,
           "europe": 28,
           "asia": 23,
           "other": 11
         },
-        "capexAmount": 75.534,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "capexAmount": 79580,
+        "capexGrowth": 61.3,
+        "partnerships": [
+          "Cloudways acquisition (managed hosting)",
+          "Paperspace acquisition (AI/ML capabilities)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "OECD Pillar Two global minimum tax monitoring",
+          "Political instability in Pakistan"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered strong Q2 results with revenue growth and continued expansion of its Builders and Scalers customer segments. The company remains focused on cloud computing for startups and growing technology businesses, with investments in AI/ML and platform capabilities.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean delivered Q2 2024 revenue of $192.5M (+13% YoY) with positive net income of $19.1M, demonstrating improved profitability despite operating in a competitive cloud market. The company added customers across segments (18K Scalers, 143K Builders) and grew ARR to $781M, though NDR moderated to 97% from 104% YoY. Management made significant capital investments ($79.6M capex, +61% YoY) in infrastructure expansion while continuing AI/ML product integration from recent acquisitions.",
         "keyQuotes": [
-          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population",
-          "We generate revenue from the usage of our cloud computing platform by our customers",
-          "Our cloud platform was designed with simplicity in mind to ensure that startups and growing technology businesses can spend less time managing their infrastructure"
+          "Revenue from Builders and Scalers increased 8% and 19%, respectively, for the three months ended June 30, 2024 from the three months ended June 30, 2023.",
+          "Our annual run-rate revenue, or ARR, as of June 30, 2024 was $781 million, up from $682 million as of June 30, 2023.",
+          "We view Learners, Builders and Scalers as the most appropriate measure of our customer population, and Testers have therefore been excluded from the total customer population count."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -404,45 +637,50 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000068/docn-20240331.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 184.73,
         "netIncome": 14.139,
         "operatingCashFlow": 66.693,
-        "freeCashFlow": null,
+        "freeCashFlow": 21.465,
         "daysalesOutstanding": null,
         "deferredRevenue": 5.477,
         "marketShareMention": null,
         "customerConcentration": 7,
         "geographicBreakdown": {
-          "NorthAmerica": 37,
+          "North America": 37,
           "Europe": 29,
           "Asia": 24,
           "Other": 10
         },
         "capexAmount": 45.228,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": 94.1,
+        "partnerships": [
+          "Cloudways acquisition (Managed Hosting services)"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "Pillar Two global minimum tax of 15% (monitoring impacts)"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "DigitalOcean delivered solid Q1 2024 results with revenue growth and return to profitability, driven by continued expansion of their cloud platform targeting startups and growing technology businesses. The company is strategically investing in AI/ML and platform offerings while maintaining operational efficiency.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "DigitalOcean reported Q1 2024 revenue of $184.7M (+12% YoY) with a return to profitability ($14.1M net income vs. -$16.4M loss in Q1 2023). The company achieved strong operating cash flow of $66.7M and improved operating margin despite significant capex investments of $45.2M (+94% YoY). ARR reached $749M and customer metrics showed modest growth with 637K total customers, though net dollar retention declined to 97% from 107% YoY, signaling potential headwinds in customer expansion.",
         "keyQuotes": [
-          "We offer mission-critical solutions across Infrastructure-as-a-Service, Platform-as-a-Service, Software-as-a-Service, and AI/ML offerings.",
-          "Our cloud platform was designed with simplicity in mind to ensure that startups and growing technology businesses can spend less time managing their infrastructure and more time building innovative applications."
+          "Our annual run-rate revenue, or ARR, as of March 31, 2024 was $749 million, up from $669 million as of March 31, 2023.",
+          "Revenue from Builders and Scalers increased 9% and 15%, respectively, for the three months ended March 31, 2024 from the three months ended March 31, 2023.",
+          "We had approximately 637,000 Learners, Builders and Scalers using our platform to build, deploy and scale applications."
         ],
         "marketData": {
-          "managementToneScore": 85,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 79,
+          "compositeSentimentScore": 71,
           "compositeSentiment": "bullish"
         }
       },
@@ -459,68 +697,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001582961-24-000031",
-        "filingDate": "2024-02-21",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296124000031/docn-20231231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 180.874,
-        "netIncome": 15.938,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Expanding cloud infrastructure offerings, particularly in AI/ML with Paperspace acquisition",
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [
-          "Paperspace acquisition for AI/ML infrastructure"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Evolving AI regulations",
-          "Data privacy laws"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "DigitalOcean reported a full year revenue of $476.71 million with net income of $20.83 million, highlighting cautious growth and strategic focus on AI/ML through the Paperspace acquisition. The company is navigating challenging market conditions and regulatory complexities.",
-        "keyQuotes": [
-          "Our business will suffer if the market for our solutions proves less lucrative than projected",
-          "We continue to make investments in areas of strategic focus as we seek to develop new, innovative offerings"
-        ],
-        "marketData": {
-          "managementToneScore": 25,
-          "revenueGrowthScore": 88,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 71,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001582961-23-000068",
         "filingDate": "2023-11-02",
         "reportDate": "2023-09-30",
@@ -528,48 +704,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296123000068/docn-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "unknown",
         "headcountTrend": "reducing",
         "revenue": 177.062,
         "netIncome": 19.175,
-        "operatingCashFlow": 154.426,
-        "freeCashFlow": null,
+        "operatingCashFlow": 154426,
+        "freeCashFlow": 88911,
         "daysalesOutstanding": null,
-        "deferredRevenue": 5.094,
+        "deferredRevenue": 5094,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 37,
-          "europe": 29,
-          "asia": 24,
-          "other": 10
+          "North America": 37,
+          "Europe": 29,
+          "Asia": 24,
+          "Other": 10
         },
-        "capexAmount": 67.077,
-        "capexGrowth": null,
+        "capexAmount": 71152,
+        "capexGrowth": -10.7,
         "partnerships": [
-          "Paperspace acquisition for AI/ML capabilities",
-          "Cloudways integration"
+          "Cloudways acquisition (September 2022)",
+          "Paperspace acquisition (July 2023)"
         ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Federal securities class action lawsuit filed September 12, 2023"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "DigitalOcean delivered solid Q3 2023 performance with revenue growth and positive net income. The company continues to focus on cloud infrastructure for SMBs, recently acquiring Paperspace to enhance AI/ML capabilities. A restructuring plan is underway to optimize cost structure.",
+        "summary": "DigitalOcean reported Q3 2023 revenue of $177.1M (+16.4% YoY) with net income of $19.2M, a significant improvement from $7.9M in Q3 2022, driven by better cost management and restructuring benefits. The company is aggressively pursuing AI/ML capabilities through the Paperspace acquisition and generating positive operating cash flow of $154.4M YTD, though headcount reduction via restructuring plan remains ongoing. The company maintains a negative equity position of $(358.8)M and carries substantial convertible debt, creating refinancing risks despite improving operational profitability.",
         "keyQuotes": [
-          "The acquisition and integration of Paperspace's advanced technology into the Company's platform will extend the Company's offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning applications",
-          "In February 2023, the Company initiated a restructuring plan to adjust its cost structure and accelerate its timeline to achieve greater than 20% adjusted free cash flow margins"
+          "The acquisition and integration of Paperspace's advanced technology into the Company's platform will extend the Company's offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning (AI/ML) applications.",
+          "In February 2023, the Company initiated a restructuring plan to adjust its cost structure and accelerate its timeline to achieve greater than 20% adjusted free cash flow margins.",
+          "The Company recorded approximately $5,774 of acquisition related costs that were expensed in the nine months ended September 30, 2023."
         ],
         "marketData": {
-          "managementToneScore": 45,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 74,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -583,136 +762,9 @@
         "reportDate": "2023-09-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001582961-23-000042",
-        "filingDate": "2023-08-11",
-        "reportDate": "2023-06-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296123000042/docn-20230630.htm"
-      },
-      "insights": {
-        "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 169.814,
-        "netIncome": 0.665,
-        "operatingCashFlow": 100.376,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 4.985,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "northAmerica": 38,
-          "europe": 29,
-          "asia": 23,
-          "other": 10
-        },
-        "capexAmount": 46.848,
-        "capexGrowth": null,
-        "partnerships": [
-          "Cloudways",
-          "Paperspace"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "DigitalOcean delivered Q2 revenues of $169.8M with a small net income of $0.665M. The company is undergoing a restructuring plan to reduce costs and improve margins, while making strategic AI-related acquisitions like Paperspace.",
-        "keyQuotes": [
-          "We initiated the Restructuring Plan to adjust our cost structure and accelerate our timeline to achieve greater than 20% adjusted free cash flow margins",
-          "The acquisition and integration of Paperspace's advanced technology will extend our offerings, enabling customers to more easily test, develop and deploy artificial intelligence and machine learning applications"
-        ],
-        "marketData": {
-          "managementToneScore": 50,
-          "revenueGrowthScore": 88,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 76,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-06-30"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001582961-23-000021",
-        "filingDate": "2023-05-09",
-        "reportDate": "2023-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1582961/000158296123000021/docn-20230331.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 165.134,
-        "netIncome": -34.937,
-        "operatingCashFlow": 36.215,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 5.015,
-        "marketShareMention": null,
-        "customerConcentration": 7,
-        "geographicBreakdown": {
-          "North America": 38,
-          "Europe": 29,
-          "Asia": 23,
-          "Other": 10
-        },
-        "capexAmount": 25.108,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "DigitalOcean reported quarterly revenue of $165.1 million with a net loss of $34.9 million, reflecting ongoing challenges in cost management. The company initiated a restructuring plan to achieve better cash flow margins and reduce headcount across geographic footprints.",
-        "keyQuotes": [
-          "We initiated a restructuring plan to adjust our cost structure and accelerate our timeline to achieve greater than 20% adjusted free cash flow margins",
-          "Macroeconomic conditions could cause a decrease in business investments on information technology"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 88,
-          "netIncomeScore": 35,
-          "priceActionScore": null,
-          "compositeSentimentScore": 51,
-          "compositeSentiment": "neutral"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T17:27:10.848Z"
+  "lastUpdated": "2026-08-05T21:27:28.511Z"
 }
