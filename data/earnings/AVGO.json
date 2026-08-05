@@ -12,6 +12,71 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001730168-26-000054",
+        "filingDate": "2026-06-09",
+        "reportDate": "2026-05-03",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "unknown",
+        "revenue": 22187,
+        "netIncome": 9310,
+        "operatingCashFlow": 10493,
+        "freeCashFlow": 10012,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 14242,
+        "marketShareMention": null,
+        "customerConcentration": 45,
+        "geographicBreakdown": {
+          "Americas": 23.4,
+          "AsiaPacific": 65.5,
+          "EMEA": 11
+        },
+        "capexAmount": 481,
+        "capexGrowth": 97.1,
+        "partnerships": [
+          "Long-term contract for custom AI accelerators",
+          "AI rack purchase agreement with investor partner and customer lease arrangements"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Broadcom delivered strong Q1 FY2026 results with revenue of $22.2B (48% YoY growth) and net income of $9.3B (87% YoY growth), driven by exceptional demand for AI-related semiconductor solutions including custom AI accelerators and networking products. The company demonstrated robust operational cash flow of $10.5B and maintained strong gross margins of 69%, while securing a significant $164.6B in remaining performance obligations with approximately 30% expected to be recognized within 12 months. Management is aggressively returning capital with $8.5B in share repurchases and $6.2B in dividends during the first half, while also entering into a $29B maximum backstop agreement for customer AI infrastructure commitments.",
+        "keyQuotes": [
+          "Certain multi-year customer contracts in our semiconductor solutions segment and infrastructure software segment, including contracts where customers do not have termination rights, contain firmly committed amounts and the remaining performance obligations under these contracts as of May 3, 2026 were approximately $164.6 billion.",
+          "We expect approximately 30% of this amount to be recognized as revenue over the next 12 months.",
+          "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and two fiscal quarters ended May 3, 2026 compared to the prior year fiscal periods due to strong demand for our networking solutions, primarily custom AI accelerators and AI networking products."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-05-03"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001730168-25-000098",
         "filingDate": "2025-09-10",
         "reportDate": "2025-08-03",
@@ -19,44 +84,47 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": 22,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "reducing",
         "revenue": 15952,
         "netIncome": 4140,
         "operatingCashFlow": 7166,
-        "freeCashFlow": null,
+        "freeCashFlow": 6780,
         "daysalesOutstanding": null,
         "deferredRevenue": 14336,
-        "marketShareMention": "Strong demand for AI accelerators and networking solutions",
+        "marketShareMention": null,
         "customerConcentration": 40,
         "geographicBreakdown": {
-          "Americas": 30,
-          "AsiaPacific": 56,
-          "EuropeMideastAfrica": 14
+          "americas": 29.6,
+          "asia_pacific": 56.2,
+          "emea": 14.2
         },
         "capexAmount": 386,
-        "capexGrowth": null,
+        "capexGrowth": -9.4,
         "partnerships": [],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "One Big Beautiful Bill Act changes to U.S. taxation impacting CAMT credits"
+        ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q2 performance driven by AI semiconductor solutions and infrastructure software. Revenue grew 22% to $15.9B, with robust demand in networking and AI-related products. Operating cash flow was $7.2B, highlighting strong financial performance.",
+        "summary": "Broadcom delivered strong Q2 FY2025 results with revenue of $15.95B (+22% YoY) and net income of $4.14B, driven by robust demand for AI-related semiconductor solutions and infrastructure software products. The company demonstrated strong operational leverage with 67% gross margins and generated $7.17B in operating cash flow, while maintaining disciplined capital allocation through debt refinancing and dividends. Management execution appears solid with cost discipline offsetting higher R&D investments, though customer concentration at 40% of revenue (with top distributor at 32%) presents ongoing risk.",
         "keyQuotes": [
-          "Strong demand for our networking products, primarily custom AI accelerators and AI networking solutions",
-          "Strong demand for our VMware Cloud Foundation product"
+          "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and three fiscal quarters ended August 3, 2025 compared to the prior year fiscal periods due to strong demand for our networking products, primarily custom AI accelerators and AI networking solutions.",
+          "Gross margin was 67% and 68% of net revenue for the fiscal quarter and three fiscal quarters ended August 3, 2025, respectively, and 64% and 63% for the fiscal quarter and three fiscal quarters ended August 4, 2024, respectively.",
+          "We expect aggregate sales to our top five end customers, through all channels, accounted for approximately 40% of our net revenue for each of the fiscal quarter and three fiscal quarters ended August 3, 2025."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 88,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 87,
+          "compositeSentimentScore": 85,
           "compositeSentiment": "bullish"
         }
       },
@@ -80,44 +148,45 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000064/avgo-20250504.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "reducing",
         "revenue": 15004,
         "netIncome": 4965,
         "operatingCashFlow": 6555,
-        "freeCashFlow": null,
+        "freeCashFlow": 6311,
         "daysalesOutstanding": null,
         "deferredRevenue": 14457,
-        "marketShareMention": "Strong demand for AI networking solutions",
+        "marketShareMention": null,
         "customerConcentration": 40,
         "geographicBreakdown": {
-          "Americas": 31,
-          "Asia Pacific": 54,
-          "Europe/Middle East/Africa": 15
+          "Americas": 31.4,
+          "AsiaPacific": 54,
+          "EMEA": 14.6
         },
         "capexAmount": 244,
-        "capexGrowth": null,
+        "capexGrowth": -3.9,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong quarterly performance driven by AI networking solutions and infrastructure software. Revenue grew 20% year-over-year to $15 billion, with net income of $4.965 billion, reflecting robust demand across semiconductor and software segments.",
+        "summary": "Broadcom delivered strong Q1 FY2025 results with 20% YoY revenue growth to $15.0B and net income of $4.9B, driven by robust demand for AI networking semiconductors and VMware Cloud Foundation software. The company achieved 68% gross margins while reducing headcount and cutting operating expenses, demonstrating excellent operational leverage. Strong cash generation of $6.6B in operating cash flow and $24.7B in committed remaining performance obligations provide confidence in near-term momentum.",
         "keyQuotes": [
-          "Strong demand for our networking products, primarily AI networking solutions",
-          "We generated $6,555 million of cash from operations"
+          "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and two fiscal quarters ended May 4, 2025 compared to the prior year fiscal periods due to strong demand for our networking products, primarily AI networking solutions.",
+          "Higher operating income from our infrastructure software segment in the fiscal quarter and two fiscal quarters ended May 4, 2025 compared to the prior year fiscal periods was primarily due to strong demand for our VCF product, including additional license revenue recognized on contracts where customers do not have the right to terminate and the transition to a subscription license model.",
+          "Certain multi-year customer contracts in our semiconductor solutions segment and infrastructure software segment, including contracts where customers do not have termination rights, contain firmly committed amounts and the remaining performance obligations under these contracts as of May 4, 2025 were approximately $24.7 billion. We expect approximately 36% of this amount to be recognized as revenue over the next 12 months."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 88,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 91,
+          "compositeSentimentScore": 89,
           "compositeSentiment": "bullish"
         }
       },
@@ -141,15 +210,15 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000099/avgo-20240804.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "unknown",
         "headcountTrend": "reducing",
         "revenue": 13072,
         "netIncome": -1875,
         "operatingCashFlow": 14358,
-        "freeCashFlow": null,
+        "freeCashFlow": 13932,
         "daysalesOutstanding": null,
         "deferredRevenue": 15548,
         "marketShareMention": null,
@@ -157,28 +226,37 @@
         "geographicBreakdown": {
           "Americas": 30.5,
           "AsiaPacific": 53.8,
-          "EuropeMEA": 15.7
+          "EMEA": 15.6
         },
         "capexAmount": 426,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": true,
+        "capexGrowth": 22.8,
+        "partnerships": [
+          "VMware acquisition completed November 22, 2023",
+          "Seagate SoC acquisition completed April 23, 2024",
+          "Sale of EUC business to KKR & Co. Inc. for $3.5 billion on July 1, 2024"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "IP infringement litigation matters",
+          "Tax disputes and regulatory investigations",
+          "VMware backlog-related securities litigation pending settlement"
+        ],
+        "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "bearish",
-        "summary": "Broadcom reported a mixed Q2, with strong revenue of $13.1B driven by VMware acquisition, but experiencing a net loss of $1.9B. The company sold its EUC business and continues to focus on semiconductor and infrastructure software solutions.",
+        "summary": "Broadcom reported Q2 FY2024 revenue of $13.1B (+47% YoY), driven by the VMware acquisition which contributed $3.8B in revenue. However, the quarter showed significant profitability challenges with a net loss of $1.9B (vs. $3.3B net income in prior year), primarily due to a $4.2B discrete tax provision related to IP transfer and resulting deferred tax liability. Operating cash flow remained strong at $14.4B (9 months), but the company is undergoing substantial restructuring with $1.4B in charges and elevated integration expenses from the large VMware acquisition.",
         "keyQuotes": [
-          "We acquired VMware to enhance our infrastructure software capabilities.",
-          "We are integrating the acquired business, aligning our workforce and improving efficiencies in our operations."
+          "The VMware stockholders received approximately $30,788 million in cash and 544 million shares of Broadcom common stock with a fair value of $53,398 million.",
+          "We recognized a discrete tax provision of $4,522 million during the fiscal quarter ended August 4, 2024 from the establishment of a deferred tax liability as a result of the book and tax basis difference on these transferred IP rights.",
+          "We expect these restructuring activities to be substantially completed by the end of fiscal year 2025."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 30,
           "revenueGrowthScore": 95,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 51,
+          "compositeSentimentScore": 53,
           "compositeSentiment": "neutral"
         }
       },
@@ -202,47 +280,46 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000080/avgo-20240505.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "unknown",
         "headcountTrend": "reducing",
         "revenue": 12487,
         "netIncome": 2121,
-        "operatingCashFlow": 4580,
-        "freeCashFlow": null,
+        "operatingCashFlow": 9395,
+        "freeCashFlow": 9141,
         "daysalesOutstanding": null,
         "deferredRevenue": 16702,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
           "Americas": 31,
-          "AsiaPacific": 54,
-          "EuropeMiddleEastAfrica": 15
+          "AsiaPacific": 54.1,
+          "EMEA": 14.9
         },
         "capexAmount": 254,
-        "capexGrowth": null,
-        "partnerships": [
-          "Seagate (SoC acquisition)"
-        ],
-        "supplyChainStatus": "normal",
+        "capexGrowth": 12.9,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong quarterly results driven by the VMware acquisition, generating $12.5B in revenue and $2.1B in net income. The company continues to execute on its software and semiconductor strategy, with ongoing restructuring and integration efforts.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bearish",
+        "summary": "Broadcom's Q1 FY2024 results show significant headwinds from VMware integration, with net income declining 39% YoY to $2.1B despite revenue growth to $12.5B driven by the November 2023 VMware acquisition. The company is undergoing major restructuring with $1.1B in integration charges across two quarters, raised debt materially to fund the $84B acquisition, and faces a discrete $4.9B tax charge post-quarter end from IP realignment, signaling execution risk and tax complications.",
         "keyQuotes": [
-          "We are a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions",
-          "Our portfolio of infrastructure and security software is designed to modernize, optimize, and secure the most complex private and hybrid cloud environments"
+          "We recognized $345 million and $1,057 million of restructuring charges primarily related to employee termination costs during the fiscal quarter and two fiscal quarters ended May 5, 2024",
+          "We estimate that we will recognize a discrete tax expense of up to $4.9 billion during the fiscal quarter ending August 4, 2024 from the establishment of a deferred tax liability as a result of the book and tax basis difference on these IP rights",
+          "Remaining performance obligations under these contracts as of May 5, 2024 were approximately $22.9 billion. We expect approximately 49% of this amount to be recognized as revenue over the next 12 months"
         ],
         "marketData": {
-          "managementToneScore": 90,
+          "managementToneScore": 30,
           "revenueGrowthScore": 95,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 71,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2024",
@@ -265,44 +342,50 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000077/avgo-20230730.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 8876,
         "netIncome": 3303,
         "operatingCashFlow": 4719,
-        "freeCashFlow": null,
+        "freeCashFlow": 4372,
         "daysalesOutstanding": null,
         "deferredRevenue": 3256,
         "marketShareMention": null,
         "customerConcentration": 35,
         "geographicBreakdown": {
-          "Americas": 24,
+          "Americas": 23.5,
           "AsiaPacific": 67,
-          "EuropeMiddleEastAfrica": 9
+          "EMEA": 9.5
         },
         "capexAmount": 347,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": 14.9,
+        "partnerships": [
+          "VMware pending acquisition ($61 billion transaction expected to close October 30, 2023)"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "VMware Merger subject to antitrust clearance in certain jurisdictions",
+          "Caltech patent litigation pending settlement discussions"
+        ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Broadcom delivered solid Q2 results with 5% revenue growth, strong semiconductor solutions segment performance, and robust cash generation. Management remains confident about business fundamentals and continues to focus on returning capital to shareholders through dividends and stock repurchases.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Broadcom delivered Q2 FY2023 revenue of $8.876 billion and net income of $3.303 billion, with strong operating cash flow of $4.719 billion. The company demonstrated solid operational performance with 69% gross margins and strong growth in semiconductor solutions (particularly networking and server storage), though guidance was not provided in this 10-Q. Management is focused on closing the pending $61 billion VMware acquisition expected October 30, 2023.",
         "keyQuotes": [
-          "We generated $4,719 million of cash from operations.",
-          "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking products."
+          "Net revenue from our semiconductor solutions segment increased in the fiscal quarter ended July 30, 2023 compared to the prior year fiscal period due to strong product demand, primarily for networking products.",
+          "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 35% of our net revenue for each of the fiscal quarter and three fiscal quarters ended July 30, 2023.",
+          "The VMware Merger, which is expected to be completed on October 30, 2023, is subject to satisfaction or waiver of customary closing conditions, including clearance under the antitrust laws of certain jurisdictions."
         ],
         "marketData": {
-          "managementToneScore": 90,
+          "managementToneScore": 50,
           "revenueGrowthScore": 58,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 71,
+          "compositeSentimentScore": 62,
           "compositeSentiment": "bullish"
         }
       },
@@ -316,70 +399,9 @@
         "reportDate": "2023-07-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001730168-23-000064",
-        "filingDate": "2023-06-07",
-        "reportDate": "2023-04-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016823000064/avgo-20230430.htm"
-      },
-      "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "stable",
-        "revenue": 8733,
-        "netIncome": 3481,
-        "operatingCashFlow": 4502,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 3793,
-        "marketShareMention": null,
-        "customerConcentration": 35,
-        "geographicBreakdown": {
-          "Americas": 26,
-          "Asia Pacific": 64,
-          "Europe/Middle East/Africa": 10
-        },
-        "capexAmount": 225,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Broadcom delivered strong Q1 2023 results with robust semiconductor and infrastructure software segment performance. Revenue grew 8% year-over-year, driven by strong demand in networking, server storage, and broadband products, with continued high customer concentration and healthy gross margins.",
-        "keyQuotes": [
-          "We generated $4,502 million of cash from operations.",
-          "Net revenue from our semiconductor solutions segment increased due to strong product demand, primarily for networking, server storage and broadband products."
-        ],
-        "marketData": {
-          "managementToneScore": 100,
-          "revenueGrowthScore": 66,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 82,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-04-30"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 6,
-  "lastUpdated": "2026-01-22T21:33:06.387Z"
+  "lastUpdated": "2026-08-05T20:06:44.794Z"
 }
