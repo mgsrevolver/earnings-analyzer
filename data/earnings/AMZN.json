@@ -13,6 +13,232 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001018724-26-000026",
+        "filingDate": "2026-07-31",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 200606,
+        "netIncome": 62647,
+        "operatingCashFlow": 45387,
+        "freeCashFlow": -8821,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 20428,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 57.9,
+          "International": 21,
+          "AWS": 21.1
+        },
+        "capexAmount": 54208,
+        "capexGrowth": 68.4,
+        "partnerships": [
+          "AWS and OpenAI expanded multi-year commitment by $100 billion over 8 years",
+          "AWS and Anthropic expanded strategic collaboration by more than $100 billion over 10 years",
+          "AWS commercial arrangement with OpenAI includes contractual obligations for AWS chips performance",
+          "AWS commercial arrangement with Anthropic includes contractual obligations for AWS chips performance",
+          "Amazon-Globalstar acquisition agreement announced ($10.9 billion implied value)",
+          "OpenAI",
+          "Anthropic",
+          "Globalstar"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Multiple antitrust and competition lawsuits in U.S., Canada, and U.K. alleging price fixing and monopolization",
+          "Biometric information privacy litigation under Illinois Biometric Information Privacy Act",
+          "Patent infringement claims from Xockets regarding AWS Nitro System",
+          "IRS examination ongoing for calendar year 2016 and thereafter",
+          "Ongoing tax disputes in Luxembourg, India, Germany, Japan, and United Kingdom",
+          "Non-income tax controversies across multiple jurisdictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q2 2026 results with quarterly revenue of $200.6 billion (up 19.6% YoY) and net income of $62.6 billion, dramatically higher than prior year's $18.2 billion, driven primarily by substantial gains from private equity investments in Anthropic and OpenAI totaling $62.8 billion in unrealized gains for the six-month period. AWS segment showed exceptional momentum with 36.8% YoY growth to $42.2 billion in Q2 revenue, supported by major multi-year AI infrastructure commitments totaling $200+ billion with OpenAI and Anthropic. Capital expenditures surged 68.4% to $54.2 billion in Q2 (on pace for $173 billion annualized), reflecting aggressive infrastructure investments to support cloud and AI services growth.",
+        "keyQuotes": [
+          "In Q1 2026, AWS and OpenAI announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years",
+          "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $100.0 billion over 10.0 years",
+          "The upward adjustments relating to equity investments in private companies of $50.5 billion in Q2 2026 and $62.8 billion for the six months ended June 30, 2026 reflect observable changes in prices, primarily from our nonvoting preferred stock in Anthropic"
+        ],
+        "marketData": {
+          "managementToneScore": 70,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 80,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-26-000014",
+        "filingDate": "2026-04-30",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 181519,
+        "netIncome": 30255,
+        "operatingCashFlow": 26032,
+        "freeCashFlow": -18171,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 20887,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North America": 57.4,
+          "International": 21.9,
+          "AWS": 20.7
+        },
+        "capexAmount": 44203,
+        "capexGrowth": 76.7,
+        "partnerships": [
+          "AWS and OpenAI expanded $38.0 billion commitment by $100.0 billion over 8 years",
+          "Amazon-Apple agreement regarding Globalstar services and equity redemption",
+          "AWS commercial arrangement with OpenAI for cloud services and AWS chips",
+          "Amazon financing arrangement with Anthropic up to $20.0 billion",
+          "OpenAI",
+          "Anthropic",
+          "Globalstar"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "IRS Notice 2026-7 regarding capitalized domestic R&D costs",
+          "Luxembourg tax authority dispute over intangible asset tax basis",
+          "Indian tax authority assertion on cloud services tax applicability",
+          "Multiple non-income tax controversies across jurisdictions",
+          "Ongoing examination by IRS for calendar year 2016 and thereafter"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Amazon delivered strong Q1 2026 results with revenue of $181.5 billion (up 16.5% YoY) and net income of $30.3 billion (up 76.6% YoY), driven by robust AWS growth and healthy retail performance across segments. The company is aggressively investing in AI infrastructure with major commitments to OpenAI ($50B+ total) and Anthropic ($20B+ facility), while significantly increasing capex to $44.2 billion (up 77% YoY) primarily for data center and AI compute capacity. Operating cash flow remained strong at $26.0 billion despite elevated capex, indicating solid underlying business fundamentals.",
+        "keyQuotes": [
+          "In Q1 2026, AWS and OpenAI Group PBC announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
+          "The upward adjustments relating to equity investments in private companies of $12.3 billion in Q1 2026 reflect observable changes in prices, primarily from our nonvoting preferred stock in Anthropic.",
+          "We entered into a financing arrangement to make available to Anthropic an aggregate facility not to exceed $20.0 billion that will expire 30 months after a liquidity event, with amounts becoming available as we reach certain delivery milestones of compute capacity."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 84,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001018724-26-000004",
+        "filingDate": "2026-02-06",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "maintained",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 213386,
+        "netIncome": 21192,
+        "operatingCashFlow": 139514,
+        "freeCashFlow": 11194,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 25000,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "North_America": 59,
+          "International": 23,
+          "AWS": 18
+        },
+        "capexAmount": 128320,
+        "capexGrowth": 65.2,
+        "partnerships": [
+          "Anthropic convertible notes and equity investments ($2.7 billion invested in 2025, $60+ billion total value)",
+          "AWS cloud services arrangement with chip provision"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "FTC lawsuit settlement ($2.5 billion charge in Q3 2025)",
+          "Antitrust and competition investigations in multiple jurisdictions",
+          "EU and global minimum tax frameworks",
+          "Data protection and privacy regulation expansion",
+          "Online advertising and marketplace service revenue taxes",
+          "Government contract procurement regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Amazon delivered strong full-year 2025 revenue growth of 12% to $716.9B with net income of $77.7B, demonstrating solid operational execution across all segments. However, significant headwinds include a $2.5B FTC settlement, $2.7B in severance costs from planned role eliminations, substantial AI infrastructure capex investment ($128.3B, +65% YoY), and cautious Q1 2026 guidance reflecting macroeconomic uncertainty and planned aggressive pricing/investment in international markets. Management's defensive tone around regulatory challenges, AI costs, and macro volatility suggests near-term profitability pressures despite revenue momentum.",
+        "keyQuotes": [
+          "We expect spending in technology and infrastructure will increase over time, which can negatively impact short-term free cash flow, as we add infrastructure and employees, including to support our artificial intelligence and machine learning initiatives, to support long-term growth.",
+          "Our results are inherently unpredictable and may be materially affected by many factors, such as fluctuations in foreign exchange rates and energy prices, changes in global economic and geopolitical conditions, tariff and trade policies, resource and supply volatility, including for memory chips, and customer demand and spending.",
+          "This guidance includes approximately $1 billion of higher year-over-year Amazon Leo costs as we scale in 2026, as well as investment in quick commerce and even sharper prices in our international stores business."
+        ],
+        "marketData": {
+          "managementToneScore": 25,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 70,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001018724-25-000123",
         "filingDate": "2025-10-31",
         "reportDate": "2025-09-30",
@@ -20,49 +246,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "reducing",
         "revenue": 180169,
         "netIncome": 21187,
-        "operatingCashFlow": 35.525,
-        "freeCashFlow": null,
+        "operatingCashFlow": 35525,
+        "freeCashFlow": 430,
         "daysalesOutstanding": null,
-        "deferredRevenue": 21.113,
+        "deferredRevenue": 21113,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 59,
-          "international": 22.7,
-          "aws": 18.3
+          "North America": 58.9,
+          "International": 22.7,
+          "AWS": 18.3
         },
-        "capexAmount": 35.095,
-        "capexGrowth": null,
+        "capexAmount": 35095,
+        "capexGrowth": 55.1,
         "partnerships": [
-          "Anthropic"
+          "AWS commercial arrangement with Anthropic for cloud services and chips",
+          "Continued investment in Anthropic with additional $1.4 billion planned for Q4 2025"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC lawsuit settlement",
-          "Antitrust investigations"
+          "FTC lawsuit settlement of $2.5 billion recorded in Q3 2025",
+          "Multiple antitrust cases pending in U.S., Canada, and United Kingdom",
+          "Italian Competition Authority fine of €752 million (reduced from €1.13 billion)",
+          "Luxembourg tax authority dispute regarding intangible asset basis",
+          "Indian tax authority assertion on cloud services fees",
+          "Various income tax contingencies of approximately $5.9 billion"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q3 results with record quarterly revenue of $180.2 billion and net income of $21.2 billion. AWS continues to drive growth, while the company maintains cost discipline through strategic headcount reductions.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Amazon Q3 2025 showed solid revenue growth of 13.4% YoY to $180.2 billion, with net income increasing 38.2% to $21.2 billion, driven by strong AWS performance and operating efficiency. However, the company faces significant headwinds including a $2.5 billion FTC settlement, $2.0 billion in severance costs, and an accelerated depreciation impact of $298 million from shortened server useful lives to support AI/ML development. Capital intensity is notably increasing with capex up 55% YoY to $35.1 billion, reflecting massive infrastructure investments for AI workloads.",
         "keyQuotes": [
-          "Technology infrastructure assets continue to expand, particularly in AI and machine learning",
-          "We continue to invest strategically in high-growth areas like cloud services and AI"
+          "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from six years to five years. The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning.",
+          "For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $200 billion as of September 30, 2025. The weighted-average remaining life of our long-term contracts is 3.8 years.",
+          "In Q3 2025, we recorded $2.5 billion of expense related to the settlement of a lawsuit with the Federal Trade Commission (FTC)."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -86,46 +318,53 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "headcountTrend": "stable",
         "revenue": 167702,
         "netIncome": 18164,
-        "operatingCashFlow": 32.515,
-        "freeCashFlow": null,
+        "operatingCashFlow": 32515,
+        "freeCashFlow": 315.32,
         "daysalesOutstanding": null,
-        "deferredRevenue": 21.662,
+        "deferredRevenue": 21662,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 59.7,
-          "international": 22,
-          "aws": 18.3
+          "North America": 59.65,
+          "International": 21.91,
+          "AWS": 18.41
         },
-        "capexAmount": 32.183,
-        "capexGrowth": 82.4,
+        "capexAmount": 31400,
+        "capexGrowth": 78,
         "partnerships": [
-          "Anthropic"
+          "Anthropic (convertible notes investment)",
+          "AWS Nitro System technology"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "Patent infringement litigation - Xockets, Inc. vs Amazon/AWS regarding Nitro System patents",
+          "Tax controversies in multiple jurisdictions including Luxembourg, India, and others",
+          "Non-income tax disputes related to sales, value-added, and consumption taxes",
+          "Antitrust and competition proceedings"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q2 2025 results, with robust revenue growth and significant net income expansion. AWS continues to be a key growth driver, and the company is making strategic investments in technology infrastructure and AI capabilities.",
+        "summary": "Amazon delivered strong Q2 2025 results with 13.4% revenue growth to $167.7B and 34.7% net income growth to $18.2B, driven by robust AWS growth (17.5% YoY) and North America retail expansion. The company is aggressively investing in AI and infrastructure with capex jumping 78% YoY to $31.4B, with $1.3B invested in Anthropic and plans for additional $1.4B by Q4. Operating cash flow of $32.5B and improving profitability demonstrate strong execution despite significant capital deployment.",
         "keyQuotes": [
-          "We are seeing continued strong growth in our AWS segment, driven by customer demand for advanced cloud and AI services",
-          "Our investments in technology infrastructure and AI are positioning us for long-term growth and innovation"
+          "AWS segment operating income grew to $10.2B with strong service adoption",
+          "We invested $1.3 billion in convertible notes from Anthropic in Q2 2025, with plans for additional $1.4 billion by Q4 2025",
+          "Cash capital expenditures were $31.4 billion in H1 2025, which primarily reflect investments in technology infrastructure to support AWS business growth and fulfillment network capacity"
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 80,
           "compositeSentiment": "bullish"
         }
       },
@@ -149,44 +388,54 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 155667,
         "netIncome": 17127,
-        "operatingCashFlow": 17.015,
-        "freeCashFlow": null,
+        "operatingCashFlow": 17015,
+        "freeCashFlow": -8004,
         "daysalesOutstanding": null,
-        "deferredRevenue": 20.599,
+        "deferredRevenue": 20599,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 60,
-          "international": 21,
-          "aws": 19
+          "North America": 60,
+          "International": 21,
+          "AWS": 19
         },
-        "capexAmount": 27.449,
-        "capexGrowth": 88.5,
-        "partnerships": [],
+        "capexAmount": 24300,
+        "capexGrowth": 63,
+        "partnerships": [
+          "AWS cloud services and chips arrangement with Anthropic",
+          "Convertible note investments in Anthropic PBC ($1.25B Q3 2023, $2.75B Q1 2024, $1.3B invested Q4 2024 with $2.7B remaining through Q4 2025)"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "Luxembourg GDPR fine of €746 million (upheld on appeal in March 2025, further appeal filed April 2025)",
+          "Indian tax authority asserting cloud services fees taxation",
+          "Luxembourg tax authority disputing intangible asset tax basis from 2021 distribution",
+          "Various non-income tax controversies in multiple jurisdictions",
+          "FTC and other regulatory examinations ongoing"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q1 2025 results with 9% revenue growth and 64% net income growth. AWS continued its robust performance with 17% sales growth, while North America and International segments showed steady expansion. The company continues to invest heavily in technology infrastructure, particularly in AI-related capabilities.",
+        "summary": "Amazon delivered strong Q1 2025 results with revenue up 9% YoY to $155.7B and net income surging 64% to $17.1B, driven by robust AWS growth (+17%) and improved profitability across all segments. The company is significantly accelerating capex investments to $24.3B (up 63% YoY), primarily for AI-focused technology infrastructure, while maintaining solid operating cash flow of $17B despite heavy investment spending. Management demonstrates confidence in growth prospects with AWS benefiting from strong AI-driven customer demand, though they acknowledge macroeconomic uncertainties and expect increased capex throughout 2025.",
         "keyQuotes": [
-          "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure",
-          "The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning"
+          "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+          "Effective January 1, 2025 we changed our estimate of the useful lives of a subset of our servers and networking equipment from six years to five years. The shorter useful lives are due to the increased pace of technology development, particularly in the area of artificial intelligence and machine learning.",
+          "AWS sales increased 17% in Q1 2025 compared to the comparable prior year period. The sales growth primarily reflects increased customer usage, partially offset by pricing changes primarily driven by long-term customer contracts."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 66,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 82,
+          "compositeSentimentScore": 80,
           "compositeSentiment": "bullish"
         }
       },
@@ -210,53 +459,57 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm"
       },
       "insights": {
-        "revenue": 187792,
-        "netIncome": 20004,
         "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "operatingCashFlow": 115.877,
+        "headcountTrend": "reducing",
+        "revenue": 187792,
+        "netIncome": 20004,
+        "operatingCashFlow": 115877,
         "freeCashFlow": 38219,
         "daysalesOutstanding": null,
-        "deferredRevenue": 18103,
-        "marketShareMention": "growing presence in cloud computing and AI infrastructure",
+        "deferredRevenue": 24600,
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 61,
-          "international": 22,
-          "aws": 17
+          "North America": 61,
+          "International": 22,
+          "AWS": 17
         },
-        "capexAmount": 82999,
-        "capexGrowth": 57.3,
+        "capexAmount": 77658,
+        "capexGrowth": 48.2,
         "partnerships": [
-          "Anthropic AI investment",
-          "Rivian strategic partnership",
-          "AWS cloud services partnerships"
+          "Anthropic convertible notes - $1.25B (Q3 2023), $2.75B (Q1 2024), $1.3B invested with $2.7B additional commitment by Q4 2025",
+          "One Medical acquisition - $3.5B (2023)",
+          "MGM Holdings acquisition - $6.1B (2022)",
+          "Rivian equity investment - 158 million shares with ~14% ownership"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "increasing global tax regulations",
-          "data privacy and cybersecurity compliance",
-          "potential antitrust investigations"
+          "Multiple open antitrust investigations related to Amazon retail operations, fulfillment network, Prime, and AWS cloud services",
+          "Investigations under evolving patchwork of data protection and privacy laws across jurisdictions",
+          "Regulatory scrutiny as online 'gatekeeper' with increasing compliance costs",
+          "Tax controversies in various jurisdictions including India regarding cloud services taxation",
+          "Growing regulatory focus on technology companies and artificial intelligence services",
+          "Risks related to AI infringement claims and unauthorized use of third-party technology/content"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong financial performance in 2024, with 11% revenue growth and record net income of $59.2 billion. The company continues to invest heavily in technology infrastructure, AI, and cloud services while maintaining operational efficiency.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Amazon delivered strong full-year 2024 results with revenue of $638B (+11% YoY) and net income of $59.2B, driven by robust AWS growth (+19%) and improved profitability across segments, though management issued cautious Q1 2025 guidance citing $2.1B FX headwinds. The company is significantly accelerating capex to $77.7B (+48% YoY), primarily for AI infrastructure, while facing multiple regulatory investigations and managing early retirement of servers/networking equipment due to rapid AI technology development.",
         "keyQuotes": [
-          "We seek to increase unit sales across our stores, through increased product selection, across numerous product categories.",
-          "We believe that advances in technology, specifically artificial intelligence and machine learning, will continue to improve users' experience",
-          "Our financial focus is on long-term, sustainable growth in free cash flows"
+          "We expect cash capital expenditures to increase in 2025, primarily driven by investments in technology infrastructure.",
+          "We recorded approximately $920 million of accelerated depreciation and related charges for the quarter ended December 31, 2024 related to these decisions...due to an increased pace of technology development, particularly in the area of artificial intelligence and machine learning.",
+          "In Q4 2024, we entered into an agreement and invested $1.3 billion in a third convertible note [with Anthropic], and will invest an additional $2.7 billion by Q4 2025."
         ],
         "marketData": {
-          "managementToneScore": 85,
+          "managementToneScore": 45,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 83,
+          "compositeSentimentScore": 74,
           "compositeSentiment": "bullish"
         }
       },
@@ -280,47 +533,54 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000161/amzn-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 158877,
         "netIncome": 15328,
-        "operatingCashFlow": 25.971,
-        "freeCashFlow": null,
+        "operatingCashFlow": 25971,
+        "freeCashFlow": 3351,
         "daysalesOutstanding": null,
-        "deferredRevenue": 16.305,
+        "deferredRevenue": 16305,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "North America": 95.537,
-          "International": 35.888,
-          "AWS": 27.452
+          "North America": 60.1,
+          "International": 22.6,
+          "AWS": 17.3
         },
-        "capexAmount": 22.62,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexAmount": 22620,
+        "capexGrowth": 81.2,
+        "partnerships": [
+          "AWS cloud services and chip arrangements",
+          "Anthropic convertible note investments ($1.25B Q3 2023, $2.75B Q1 2024)"
+        ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Ongoing antitrust lawsuits",
-          "Patent infringement litigation"
+          "FTC and state Attorneys General antitrust lawsuit alleging monopoly in online superstores and marketplace services",
+          "Multiple state AG antitrust lawsuits (Arizona, California, DC)",
+          "Patent litigation (Kove IO: $525M damages awarded; Broadband iTV; Dialect; Nokia)",
+          "Tax controversies in Luxembourg, India, and multiple jurisdictions",
+          "Non-income tax controversies across multiple jurisdictions"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q3 2024 results with total net sales of $158.9 billion and net income of $15.3 billion. AWS continued to be a key growth driver, while North America and International segments showed solid performance. Operating cash flow remained robust at $26 billion.",
+        "summary": "Amazon delivered strong Q3 2024 results with revenue of $158.9B (+10.9% YoY) and net income of $15.3B (+54.8% YoY), driven by robust AWS growth (19% YoY to $27.5B) and improved profitability across all segments. Operating cash flow surged 22.5% to $26.0B for the quarter, though significant capital expenditures ($22.6B in Q3, up 81.2% YoY) reflect aggressive investments in AI/ML infrastructure and data center capacity. Management signaled continued meaningful capex increases in 2024 to support technology infrastructure, particularly AWS, with a cautious tone on macro conditions but demonstrated pricing power across advertising and subscription services.",
         "keyQuotes": [
           "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
-          "Operating results for the periods presented are not necessarily indicative of the results that may be expected for 2024 due to seasonal and other factors."
+          "The longer useful lives are due to continuous improvements in our hardware, software, and data center designs [6-year server depreciation change reducing capex burden by $2.4B YTD].",
+          "For contracts with original terms that exceed one year, those commitments not yet recognized were approximately $164 billion as of September 30, 2024, with weighted-average remaining life of 3.9 years."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 80,
           "compositeSentiment": "bullish"
         }
       },
@@ -344,47 +604,56 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000130/amzn-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 147977,
         "netIncome": 13485,
-        "operatingCashFlow": 25.281,
-        "freeCashFlow": null,
+        "operatingCashFlow": 25281,
+        "freeCashFlow": 7661,
         "daysalesOutstanding": null,
-        "deferredRevenue": 16.004,
+        "deferredRevenue": 16004,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 90.033,
-          "international": 31.663,
-          "aws": 26.281
+          "North America": 60.9,
+          "International": 21.4,
+          "AWS": 17.8
         },
-        "capexAmount": 17.62,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexAmount": 17620,
+        "capexGrowth": 53.8,
+        "partnerships": [
+          "AWS cloud services arrangement with Rivian including AWS chips",
+          "Anthropic convertible notes ($1.25B in Q3 2023, $2.75B in Q1 2024)"
+        ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Antitrust investigations",
-          "Price fixing allegations"
+          "FTC and state AGs antitrust litigation regarding monopoly practices in online superstores and marketplace services",
+          "Multiple private antitrust class action lawsuits alleging price fixing",
+          "DC and California AG antitrust suits",
+          "Arizona AG antitrust complaint regarding pricing and Featured Offers",
+          "R2 Semiconductor patent infringement claim in Germany regarding Intel processors",
+          "Multiple income tax controversies in Luxembourg, India, and other jurisdictions",
+          "Evolving non-income tax requirements across jurisdictions regarding marketplace seller taxes"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q2 2024 results with robust revenue growth across all segments. Net income of $13.485 billion and operating cash flow of $25.281 billion reflect the company's continued operational efficiency and market strength.",
+        "summary": "Amazon delivered strong Q2 2024 results with revenue of $148B (+10% YoY) and net income of $13.5B (+100% YoY), driven by AWS acceleration (18.8% YoY growth), advertising strength, and North America margin expansion. Operating cash flow surged 53% to $25.3B, though significant capex increases ($17.6B, +53.8% YoY) reflect aggressive AI infrastructure investments targeting 2024 meaningful capex increases. The company maintains robust liquidity of $89.1B and is investing heavily in AI capabilities including Anthropic partnerships, signaling confidence in future growth despite mounting antitrust litigation.",
         "keyQuotes": [
           "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
-          "Cash flows generated from operations and our cash balances will be sufficient to meet our anticipated operating cash needs for at least the next twelve months."
+          "The effect of this change in estimate for Q2 2024...was a reduction in depreciation and amortization expense of $786 million and a benefit to net income of $601 million, or $0.06 per basic share.",
+          "For contracts with original terms that exceed one year, those commitments not yet recognized were $156.6 billion as of June 30, 2024."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -408,17 +677,17 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000083/amzn-20240331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 143313,
         "netIncome": 10431,
-        "operatingCashFlow": 18.989,
-        "freeCashFlow": null,
+        "operatingCashFlow": 18989,
+        "freeCashFlow": 4064,
         "daysalesOutstanding": null,
-        "deferredRevenue": 15.927,
+        "deferredRevenue": 15927,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
@@ -426,26 +695,38 @@
           "International": 22,
           "AWS": 18
         },
-        "capexAmount": 14.925,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexAmount": 13935,
+        "capexGrowth": -2,
+        "partnerships": [
+          "Anthropic convertible note investment ($2.75B in Q1 2024, $1.25B in Q3 2023)",
+          "AWS chips development and commercial arrangement",
+          "Rivian equity investment (16% ownership, ~$1.7B fair value as of March 31, 2024)"
+        ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "IRS examination for calendar year 2016 and thereafter",
+          "Luxembourg tax authority (LTA) assessment regarding intangible asset tax basis",
+          "Indian tax authority (ITA) assertion on cloud services fees taxation",
+          "Multiple jurisdictions disputing tax assessments related to income allocation and characterization",
+          "Non-income tax controversies including sales, VAT, and consumption taxes in various jurisdictions",
+          "Evolving marketplace seller collection and withholding requirements"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q1 2024 performance with 13% revenue growth and a significant increase in operating income. AWS continued to show robust growth, and the company maintained a positive outlook despite macroeconomic challenges.",
+        "summary": "Amazon delivered strong Q1 2024 results with revenue growth of 13% to $143.3 billion and net income surging 229% to $10.4 billion, driven by robust AWS growth (17% YoY), North America segment recovery, and International profitability turnaround. Operating cash flow more than quadrupled to $19.0 billion while the company increased capex investments to $13.9 billion, signaling confidence in infrastructure expansion needs. Key headwinds include tax controversies in multiple jurisdictions, ongoing Rivian investment losses ($2B valuation decline), and expected continued capex increases in 2024, though management maintained a cautious outlook on macro conditions.",
         "keyQuotes": [
-          "Our sales growth primarily reflects increased unit sales, including sales by third-party sellers, advertising sales, and subscription services",
-          "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure"
+          "We expect cash capital expenditures to meaningfully increase in 2024, primarily driven by investments in technology infrastructure.",
+          "Macroeconomic factors, including inflation, increased interest rates, significant capital market and supply chain volatility, and global economic and geopolitical developments, have direct and indirect impacts on our results of operations that are difficult to isolate and quantify.",
+          "The increase in AWS operating income in Q1 2024 is primarily due to increased sales, decreased payroll and related expenses, and a reduction in depreciation and amortization expense from our change in the estimated useful lives of our servers."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 80,
           "compositeSentiment": "bullish"
         }
       },
@@ -462,73 +743,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001018724-24-000008",
-        "filingDate": "2024-02-02",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "freezing",
-        "revenue": 169961,
-        "netIncome": 10624,
-        "operatingCashFlow": 84946,
-        "freeCashFlow": 36813,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 20600,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "northAmerica": 61,
-          "international": 23,
-          "aws": 16
-        },
-        "capexAmount": 48133,
-        "capexGrowth": null,
-        "partnerships": [
-          "Anthropic",
-          "One Medical"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Antitrust investigations",
-          "Data privacy regulations"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong financial performance in 2023, with total revenue of $574.8 billion and net income of $30.4 billion. The company continues to invest strategically in AWS, AI technologies, and expand its diverse business portfolio while maintaining operational efficiency.",
-        "keyQuotes": [
-          "We seek to be Earth's most customer-centric company.",
-          "We believe that advances in technology, specifically the speed and reduced cost of processing power, data storage and analytics, improved wireless connectivity, and the practical applications of artificial intelligence and machine learning, will continue to improve users' experience on the internet."
-        ],
-        "marketData": {
-          "managementToneScore": 85,
-          "revenueGrowthScore": 76,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 79,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001018724-23-000018",
         "filingDate": "2023-10-27",
         "reportDate": "2023-09-30",
@@ -536,51 +750,57 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000018/amzn-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "reducing",
         "revenue": 143083,
         "netIncome": 9879,
         "operatingCashFlow": 21217,
-        "freeCashFlow": null,
+        "freeCashFlow": 8738,
         "daysalesOutstanding": null,
         "deferredRevenue": 14398,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "northAmerica": 61.4,
-          "international": 22.5,
-          "aws": 16.1
+          "North America": 61.4,
+          "International": 22.4,
+          "AWS": 16.1
         },
         "capexAmount": 12479,
         "capexGrowth": -23.8,
         "partnerships": [
-          "Anthropic",
-          "One Medical",
-          "Rivian"
+          "Anthropic investment ($1.25 billion convertible note with option for additional $2.75 billion)",
+          "AWS commercial arrangement with Anthropic for cloud services and chips",
+          "iRobot acquisition agreement (approximately $1.7 billion)"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FTC antitrust lawsuit",
-          "Biometric privacy litigation"
+          "FTC and state Attorneys General antitrust lawsuit filed September 2023 alleging monopoly in online superstores and marketplace services",
+          "Illinois Biometric Information Privacy Act litigation regarding collection of biometric identifiers",
+          "Price fixing and monopolization claims from private litigants and state AGs",
+          "Luxembourg tax authority denial of tax basis for certain intangible assets",
+          "Indian tax authority assertion of tax on cloud services fees",
+          "European Commission state aid investigation regarding Luxembourg tax determinations",
+          "Ongoing tax controversies in multiple jurisdictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q3 2023 results with robust revenue growth across all segments, particularly AWS and advertising. The company continues to focus on cost optimization while investing strategically in emerging technologies like AI.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Amazon delivered Q3 2023 revenue of $143.1 billion (up 12.6% YoY) and net income of $9.9 billion (up 244% YoY), driven by strong AWS growth and improved profitability across segments. The company reduced capex spending by 24% YoY to $12.5 billion and generated robust operating cash flow of $21.2 billion, though management took $500 million in severance charges related to workforce reductions. However, significant regulatory headwinds persist, including a major FTC antitrust lawsuit alleging monopolistic practices, and the company faces rising tax obligations as accelerated depreciation deductions phase out.",
         "keyQuotes": [
-          "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
-          "We invested $1.25 billion in a note from Anthropic, PBC, which is convertible into equity"
+          "For the nine months ended September 30, 2023, we recorded approximately $500 million of estimated severance costs primarily related to planned role eliminations.",
+          "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network.",
+          "We expect the cash taxes we pay in 2023 to increase significantly."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -594,134 +814,9 @@
         "reportDate": "2023-09-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001018724-23-000012",
-        "filingDate": "2023-08-04",
-        "reportDate": "2023-06-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000012/amzn-20230630.htm"
-      },
-      "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 134383,
-        "netIncome": 6750,
-        "operatingCashFlow": 16476,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 14522,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "northAmerica": 61.5,
-          "international": 22.1,
-          "aws": 16.4
-        },
-        "capexAmount": 11455,
-        "capexGrowth": -27.1,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Tax disputes in multiple jurisdictions",
-          "Potential patent litigation"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Amazon delivered strong Q2 2023 performance with robust revenue growth and return to profitability. AWS continues to be a key profit driver, while the company is managing costs through headcount reductions and careful capex spending.",
-        "keyQuotes": [
-          "We expect cash capital expenditures to decrease in 2023, primarily due to lower spending on our fulfillment network",
-          "Operating cash flows result primarily from cash received from our consumer, seller, developer, enterprise, and content creator customers"
-        ],
-        "marketData": {
-          "managementToneScore": 100,
-          "revenueGrowthScore": 76,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 82,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-06-30"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001018724-23-000008",
-        "filingDate": "2023-04-28",
-        "reportDate": "2023-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872423000008/amzn-20230331.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 127358,
-        "netIncome": 3172,
-        "operatingCashFlow": 4.788,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 14.281,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "northAmerica": 60,
-          "international": 23,
-          "aws": 17
-        },
-        "capexAmount": 14.207,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "easing",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "Amazon delivered modest Q1 2023 growth with 9% revenue increase and return to profitability. AWS growth slowed to 16%, reflecting enterprise cost optimization efforts, while North America segment showed resilience with 11% growth.",
-        "keyQuotes": [
-          "We expect the current macroeconomic environment and enterprise customer cost optimization efforts to impact our AWS revenue growth rates.",
-          "We expect some or all of these factors to continue to impact our operations into Q2 2023."
-        ],
-        "marketData": {
-          "managementToneScore": 45,
-          "revenueGrowthScore": 66,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 66,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-01-21T17:49:28.812Z"
+  "lastUpdated": "2026-08-05T18:34:46.533Z"
 }
