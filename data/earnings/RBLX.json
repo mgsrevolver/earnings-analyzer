@@ -9,8 +9,673 @@
     "subCategory": "Gaming",
     "cik": "0001315098"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001628280-26-051082",
+        "filingDate": "2026-07-30",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026051082/rblx-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 1469,
+        "netIncome": -183,
+        "operatingCashFlow": 947,
+        "freeCashFlow": 892,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 6904,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 57,
+          "Europe": 21,
+          "Asia-Pacific": 12,
+          "Rest of world": 10
+        },
+        "capexAmount": 55,
+        "capexGrowth": 37.5,
+        "partnerships": [
+          "Songhua River Investment Limited (Tencent affiliate) - joint venture for Roblox China Holding Corp (51% ownership)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Multiple state attorney general investigations and lawsuits regarding youth protection and digital safety (Arkansas, Florida, Indiana, Iowa, Kentucky, Louisiana, Nebraska, Oklahoma, Tennessee, Texas, Los Angeles County)",
+          "Gambling allegations - putative class action (Colvin v. Roblox) and consolidated Gentry matter regarding minors using third-party virtual casinos to gamble Robux",
+          "State settlement agreements in negotiation or completed with Alabama, Mississippi, Nevada, South Dakota, West Virginia regarding youth-related consumer protection",
+          "Allegations of inadequate child protection, platform safety misrepresentation, insufficient safety controls, platform addictiveness",
+          "Robux potential regulation as security",
+          "Privacy and data protection regulations",
+          "Digital safety regulations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q2 2026 revenue of $1,469 million (36% YoY growth) and net loss of $183 million, with positive operating cash flow of $947 million and strong deferred revenue of $6,904 million. The company faces significant regulatory headwinds from multiple state investigations and lawsuits related to youth protection and gambling allegations, with $91 million in settlements accrued in H1 2026. Capital expenditure increased 37.5% YoY to $55 million, and the company executed $845 million in hosting service commitments, signaling continued infrastructure investment.",
+        "keyQuotes": [
+          "During the six months ended June 30, 2026, we recognized $2.3 billion of revenue that was included in the current deferred revenue balance as of December 31, 2025.",
+          "During the three and six months ended June 30, 2026, the Company accrued $34 million and $91 million of expense, respectively, within general and administrative expense associated with both settlement agreements and settlement discussions that actually occurred.",
+          "In June 2026, the Company executed agreements to purchase a total of $845 million of hosting services over three annual periods beginning July 1, 2026, with annual commitments ranging from $248 million to $296 million."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-26-028904",
+        "filingDate": "2026-04-30",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000162828026028904/rblx-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1442,
+        "netIncome": -246,
+        "operatingCashFlow": 629,
+        "freeCashFlow": 596,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 6805,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 58,
+          "Europe": 20,
+          "Asia-Pacific including Australia and New Zealand": 12,
+          "Rest of world": 10
+        },
+        "capexAmount": 33,
+        "capexGrowth": 94.1,
+        "partnerships": [
+          "Songhua River Investment Limited (Tencent affiliate) - Joint venture for Roblox China"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Youth-related consumer protection and digital safety litigation from multiple state attorneys general",
+          "Investigations and lawsuits related to alleged gambling facilitation by minors on platform",
+          "Settlement agreements with Alabama, Nevada, and West Virginia regarding digital safety matters",
+          "Potential Robux regulation as a security",
+          "Age-verification and child safety regulatory requirements"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Roblox reported Q1 2026 revenue of $1.44B (+39% YoY) with strong bookings growth, but swung to a wider net loss of $246M as operating expenses surged 35% YoY, driven by developer exchange fees ($423M, +50% YoY) and increased infrastructure/trust & safety costs. The company faces significant regulatory headwinds with multiple state attorneys general pursuing digital safety litigation and settlements ($57M accrued in Q1), creating material legal and operational uncertainty that overshadows revenue growth.",
+        "keyQuotes": [
+          "At this time, the Company is unable to reasonably estimate the loss or range of loss, if any, arising from any of the above-referenced matters.",
+          "During the three months ended March 31, 2026, the Company accrued $57 million of expense within general and administrative expense associated with both settlement agreements and settlement discussions that actually occurred.",
+          "In recent periods, there has been increased regulatory and litigation focus on areas that impact the Company's business, including the protection of minors online and digital safety overall."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-26-000024",
+        "filingDate": "2026-02-11",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509826000024/rblx-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "expanding",
+        "revenue": 1415.0210000000006,
+        "netIncome": -316,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international_outside_us_canada": 39,
+          "us_canada": 61
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Apple App Store",
+          "Google Play Store",
+          "Amazon",
+          "Blackhawk",
+          "ePay",
+          "PayPal",
+          "Stripe",
+          "Microsoft Xbox",
+          "Sony PlayStation",
+          "Xsolla",
+          "Incomm",
+          "International Age Rating Coalition",
+          "AWS enterprise agreement",
+          "Tencent Holdings (China JV - 51% ownership)",
+          "Songhua River Investment Limited"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "UK Online Safety Act (OSA)",
+          "EU Digital Services Act (DSA)",
+          "Brazil's Digital Statute for Children and Adolescents (Digital ECA)",
+          "Indonesia child safety and illegal content requirements",
+          "Australia Online Safety Act",
+          "Texas parental consent restrictions (2024)",
+          "Utah, Louisiana, Texas app store parental consent requirements (2025)",
+          "EU Artificial Intelligence Act",
+          "GDPR and UK GDPR",
+          "COPPA (Children's Online Privacy Protection Act)",
+          "Brazil LGPD (Lei Geral de Proteção de Dados Pessoais)",
+          "China PIPL (Personal Information Protection Law)",
+          "CCPA and CPRA (California)",
+          "Multiple state privacy laws",
+          "NIS2 cybersecurity regulations",
+          "EU Data Act",
+          "Brazil's Internet Act (Article 19 unconstitutionality)",
+          "Section 230 CDA restrictions discussions",
+          "Loot box regulations (Belgium, Netherlands, Australia)",
+          "FTC advertising restrictions",
+          "Export control laws and OFAC sanctions",
+          "Trade Control Laws and Regulations",
+          "Digital services taxes (Italy, UK, France)",
+          "OECD Base Erosion and Profit Shifting Project",
+          "Texas Responsible Artificial Intelligence Governance Act",
+          "Colorado AI Act"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Roblox reported full-year 2025 revenue of $1,096.5 million but continued operating losses of $1,065.1 million, reflecting ongoing challenges in achieving profitability despite investments in growth. The company faces significant regulatory headwinds globally, particularly around child safety, content moderation, online safety laws, and AI governance, which are increasing compliance costs and operational complexity. International operations account for 82% of DAUs but only 39% of revenue, indicating monetization challenges in growth markets, while the company relies heavily on Apple (29% of revenue) and Google (15% of revenue) for distribution, creating platform dependency risks.",
+        "keyQuotes": [
+          "We have incurred net losses attributable to common stockholders of $1,065.1 million, $935.4 million, and $1,151.9 million for the years ended December 31, 2025, 2024, and 2023, respectively. As of December 31, 2025, we had an accumulated deficit of $5,060.7 million.",
+          "For the year ended December 31, 2025, 29% of our revenue was attributable to Robux sales through the Apple App Store and 15% of our revenue was attributable to Robux sales through the Google Play Store.",
+          "For the year ended December 31, 2025, approximately 82% of our DAUs and 39% of our revenue was derived from outside the U.S. and Canada region."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 47,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-25-000327",
+        "filingDate": "2025-10-30",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000327/rblx-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "expanding",
+        "revenue": 1359.646,
+        "netIncome": -255.626,
+        "operatingCashFlow": 1189.36,
+        "freeCashFlow": 1046.803,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 5687.793,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 0.61,
+          "Europe": 0.19,
+          "Asia-Pacific": 0.11,
+          "Rest of world": 0.09
+        },
+        "capexAmount": 142.557,
+        "capexGrowth": 23.1,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Regulation of Robux as a security",
+          "Privacy and data protection laws",
+          "Online safety regulations",
+          "Age verification and verification requirements for voice/text chat access",
+          "Litigation related to virtual gambling on platform (Colvin v. Roblox, Gentry v. Roblox consolidated cases)",
+          "Copyright infringement litigation (Robinson v. Binello)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q3 2025 revenue of $1.36 billion, up 48% YoY, though the company remains unprofitable with a net loss of $257.4 million. Operating cash flow was strong at $1.19 billion, demonstrating solid underlying business fundamentals, but free cash flow after capex of $1.05 billion shows continued investment in infrastructure. The company has a large deferred revenue base of $5.69 billion, indicating significant future revenue recognition potential.",
+        "keyQuotes": [
+          "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments...we recognize the majority of revenue over the estimated average lifetime of a paying user, which was 27 months as of September 30, 2025.",
+          "We believe that these metrics are reasonable estimates of our user base for the applicable period of measurement...however, the accuracy of our metrics may be affected by certain factors relating to user activity and our platform's systems and our ability to identify and detect attempts to replicate legitimate user activity, often referred to as botting.",
+          "Our user metrics and other estimates are subject to inherent challenges in measurement, and real or perceived inaccuracies in those metrics may significantly harm and negatively affect our reputation and our business."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-25-000262",
+        "filingDate": "2025-07-31",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000262/rblx-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 1080.677,
+        "netIncome": -278.375,
+        "operatingCashFlow": 643.176,
+        "freeCashFlow": 603.201,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 5114.94,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 62,
+          "Europe": 19,
+          "Asia-Pacific": 11,
+          "Rest of World": 8
+        },
+        "capexAmount": 39.975,
+        "capexGrowth": -53.78,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Online safety regulations and requirements for children protection",
+          "Data protection and privacy regulations (GDPR and similar)",
+          "Potential regulation of Robux as a security",
+          "Litigation related to virtual casinos and gambling with Robux (Colvin v. Roblox, Gentry v. Roblox consolidated matter)",
+          "Copyright infringement litigation (Robinson v. Binello)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q2 2025 revenue of $1.08 billion (up 21% YoY) but posted a net loss of $278.4 million as operating expenses grew faster than revenue, including elevated developer exchange fees and R&D spending. The company generated positive operating cash flow of $643.2 million despite losses, reflecting strong deferred revenue growth of $538.8 million in H1 2025, though no forward guidance was provided in this 10-Q filing.",
+        "keyQuotes": [
+          "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments... We believe bookings provide a timelier indication of trends in our operating results that are not necessarily reflected in our revenue",
+          "During the six months ended June 30, 2025, we recognized $1,680.7 million of revenue that was included in the current deferred revenue balance as of December 31, 2024",
+          "The Company is and, from time to time may in the future become, involved in legal proceedings, claims, and litigation in the ordinary course of business"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-25-000118",
+        "filingDate": "2025-05-01",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509825000118/rblx-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "stable",
+        "revenue": 1035.207,
+        "netIncome": -215.056,
+        "operatingCashFlow": 443.914,
+        "freeCashFlow": 426.549,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4749.872,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 62,
+          "Europe": 19,
+          "Asia-Pacific": 11,
+          "Rest of World": 8
+        },
+        "capexAmount": 17.365,
+        "capexGrowth": -62.8,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Virtual casino gambling by minors (Colvin v. Roblox and Gentry v. Roblox consolidated litigation)",
+          "Copyright infringement claims (Robinson v. Binello)",
+          "Potential regulation of Robux as a security",
+          "Online safety and child protection regulations",
+          "Privacy and data protection regulations internationally"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q1 2025 revenue of $1,035.2M (up 29% YoY) with net loss narrowing to -$215.1M from -$270.6M YoY, driven by strong bookings growth and improving operating cash flow of $443.9M. The company maintains substantial deferred revenue of $4.75B, indicating healthy user monetization and future revenue runway, though significant litigation risk from virtual casino gambling claims and regulatory headwinds around Robux regulation persist.",
+        "keyQuotes": [
+          "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments...we recognize the majority of revenue over the estimated average lifetime of a paying user, which was 27 months as of March 31, 2025.",
+          "The Company is involved in legal proceedings, claims and litigation in the ordinary course of business...The Company cannot determine a reasonable estimate of the maximum possible loss or range of loss for all of these matters.",
+          "We believe that these metrics are reasonable estimates of our user base for the applicable period of measurement, and that the methodologies we employ and update from time-to-time to create these metrics are reasonable bases to identify trends in user behavior."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-24-000250",
+        "filingDate": "2024-10-31",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509824000250/rblx-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 918.953,
+        "netIncome": -239.324,
+        "operatingCashFlow": 637.825,
+        "freeCashFlow": 522.039,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 4190.199,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "united_states_canada": 64,
+          "europe": 18,
+          "asia_pacific": 10,
+          "rest_of_world": 8
+        },
+        "capexAmount": 115.786,
+        "capexGrowth": -54.7,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Potential regulation of Robux as a security",
+          "Online safety regulations",
+          "Privacy and data protection regulations",
+          "Litigation regarding virtual casinos and gambling with Robux (Colvin v. Roblox and Gentry v. Roblox consolidated matters)"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q3 2024 revenue of $919 million (up 29% YoY) with a net loss of $239 million, but the company generated positive operating cash flow of $638 million. The company reduced capex significantly to $116 million (down 55% YoY) and increased deferred revenue to $4.2 billion. However, management faces regulatory headwinds including litigation over gambling mechanics with Robux and potential securities regulation of virtual currency, which present material risks going forward.",
+        "keyQuotes": [
+          "We believe bookings provide a timelier indication of trends in our operating results that are not necessarily reflected in our revenue as a result of the fact that we recognize the majority of revenue over the estimated average lifetime of a paying user",
+          "At this time, the Company is unable to reasonably estimate the loss or range of loss, if any, arising from the above-referenced matter [Colvin/Gentry litigation regarding virtual casinos]",
+          "The estimated paying user life was decreased from 28 months in the first quarter of 2024 to 27 months during the second quarter of 2024"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-24-000095",
+        "filingDate": "2024-05-09",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509824000095/rblx-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 801.3,
+        "netIncome": -270.604,
+        "operatingCashFlow": 238.946,
+        "freeCashFlow": 192.266,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3907.146,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 64,
+          "Europe": 18,
+          "Asia-Pacific": 11,
+          "Rest of World": 7
+        },
+        "capexAmount": 46.68,
+        "capexGrowth": -48.9,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Regulation of Robux as a security",
+          "Privacy and data protection laws",
+          "Online safety regulations",
+          "Litigation from Colvin v. Roblox and Gentry v. Roblox regarding minors gambling with Robux on third-party virtual casinos"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q1 2024 revenue of $801.3 million, up 22% YoY, with continued operating losses of $270.6 million. The company generated positive operating cash flow of $238.9 million, demonstrating cash generation despite unprofitability. However, the company faces significant regulatory headwinds including litigation over minors gambling with Robux and potential regulation of its virtual currency as a security.",
+        "keyQuotes": [
+          "We believe bookings provide a timelier indication of trends in our operating results that are not necessarily reflected in our revenue as a result of the fact that we recognize the majority of revenue over the estimated average lifetime of a paying user, which was 28 months as of March 31, 2024.",
+          "At this time, the Company is unable to reasonably estimate the loss or range of loss, if any, arising from the above-referenced matter [Colvin and Gentry litigation].",
+          "The Company intends to defend itself vigorously against all claims asserted."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001315098-23-000174",
+        "filingDate": "2023-11-08",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1315098/000131509823000174/rblx-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 713.225,
+        "netIncome": -277.158,
+        "operatingCashFlow": 314.875,
+        "freeCashFlow": 59.405,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3397.346,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States and Canada": 65,
+          "Europe": 18,
+          "Asia-Pacific including Australia and New Zealand": 10,
+          "Rest of world": 7
+        },
+        "capexAmount": 255.47,
+        "capexGrowth": -5,
+        "partnerships": [
+          "Data center hosting services agreement committing $450 million over three annual periods",
+          "Sub-lessee agreement for approximately 179,496 square feet of office space in San Mateo, California",
+          "Sub-lessor agreement to sublease approximately 78,911 square feet of San Mateo headquarters"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Regulation of Robux as a security",
+          "Privacy and data protection regulations",
+          "Online safety regulations",
+          "Geopolitical events including war in Ukraine and Hamas attack on Israel"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Roblox reported Q3 2023 revenue of $713.2 million (up 37.7% YoY) but continued to post significant losses with net loss of $277.2 million, reflecting ongoing investments in infrastructure and R&D. The company generated positive operating cash flow of $314.9 million for the nine-month period, though free cash flow was only $59.4 million after substantial capex spending of $255.5 million. Management provided no forward guidance in this 10-Q filing.",
+        "keyQuotes": [
+          "Bookings represent the sales activity in a given period without giving effect to certain non-cash adjustments... We believe bookings provide a timelier indication of trends in our operating results",
+          "The estimated paying user life for the three and nine months ended September 30, 2023 was 28 months",
+          "In June 2023, the Company executed an agreement which commits it to purchase hosting services over three annual periods beginning July 1, 2023. The minimum commitments total $450.0 million over the term of the agreement"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:47:42.516Z"
+  "successfulAnalyses": 9,
+  "lastUpdated": "2026-08-05T19:43:45.589Z"
 }
