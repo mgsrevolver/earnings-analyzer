@@ -13,6 +13,202 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001822928-26-000068",
+        "filingDate": "2026-08-05",
+        "reportDate": "2026-06-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000182292826000068/hlly-20260628.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 172.007,
+        "netIncome": -2.43,
+        "operatingCashFlow": 44254,
+        "freeCashFlow": 34614,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 9640,
+        "capexGrowth": 23.4,
+        "partnerships": [
+          "Cataclean Global Limited - perpetual exclusive license agreement for North America"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Tariff impacts from evolving U.S. trade policy including IEEPA tariffs and Section 122 tariffs",
+          "Supply chain disruptions and inflationary pressures"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Holley reported Q2 2026 revenue of $172.0M, up slightly from $166.7M in Q2 2025, but swung to a net loss of $2.4M from net income of $10.9M, primarily driven by $28.3M in losses on divestitures of non-core brands (Drake, Speartech, ADS). The company faced headwinds from constrained consumer demand, inflationary pressures, and tariff uncertainties, though operating cash flow remained solid at $44.3M. Management is actively divesting lower-margin brands and has mitigated tariff exposure through supplier diversification and a $11.1M refund from IEEPA tariff rulings.",
+        "keyQuotes": [
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
+          "In response to inflationary impacts and supply chain disruptions, the Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels in the distribution channel.",
+          "The divestitures are intended to allow the Company to better focus and utilize its resources on its core brands and other opportunities which the Company believes better align with its long-term strategies."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 32,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001822928-26-000017",
+        "filingDate": "2026-05-06",
+        "reportDate": "2026-03-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000182292826000017/hlly-20260329.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 147.33,
+        "netIncome": 7.257,
+        "operatingCashFlow": -2857,
+        "freeCashFlow": -6328,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 96.15,
+          "Italy": 3.85
+        },
+        "capexAmount": 3471,
+        "capexGrowth": 16.48,
+        "partnerships": [
+          "Cataclean Global Limited - perpetual exclusive North American license agreement ($23,800)"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Tariff exposure and trade policy uncertainty",
+          "Evolving U.S. tariff policies and international retaliatory measures",
+          "Compliance with privacy and data protection laws",
+          "Environmental, health and safety regulations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Holley Inc. reported Q1 2026 revenue of $147.3M, down 3.7% YoY from $153.0M, with net income of $7.3M compared to $2.8M in Q1 2025, reflecting improved profitability despite revenue headwinds. Operating cash flow was negative at -$2.9M due to working capital timing, while the company acquired HRX, an Italian motorsports racewear brand, expanding its Safety & Racing segment. The company faces ongoing tariff headwinds but has implemented mitigation strategies including supplier diversification and product reshoring.",
+        "keyQuotes": [
+          "In February 2025, the U.S. introduced trade policy actions that increased import tariffs across a wide range of countries at various rates, with certain exemptions, and these evolving tariff policies in the U.S., along with responsive measures enacted by other countries, have created additional uncertainty and complexity in the global trade environment.",
+          "The Company continues to monitor international trade developments, including potential changes in tariff rates and the possibility of new exemptions or retaliatory actions, in order to analyze their impact on the business.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001628280-26-018218",
+        "filingDate": "2026-03-16",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000162828026018218/hlly-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 155.43599999999998,
+        "netIncome": 6.301000000000002,
+        "operatingCashFlow": 46.22,
+        "freeCashFlow": 34.221,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 12.321,
+        "capexGrowth": 81.1,
+        "partnerships": [
+          "Cataclean perpetual license agreement acquisition (January 2025)"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Tariffs and trade restrictions",
+          "Environmental regulations and climate disclosure requirements",
+          "Data privacy and cybersecurity regulations (GDPR, CCPA)",
+          "SOX compliance requirements for public company"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "IonQ Inc. reported full-year 2025 revenue of $613.5 million, up 1.9% YoY, with net income of $19.2 million compared to a $23.2 million loss in 2024, driven primarily by operational improvements in gross margins (43.4% vs 39.6%) and the absence of prior-year impairment charges. The company demonstrated improved operational execution with higher manufacturing efficiency and reduced warranty costs, though growth was constrained by mixed volume trends and ongoing macroeconomic headwinds including inflation, supply chain volatility, and potential tariffs. Management maintained a cautious outlook regarding consumer discretionary spending and tariff impacts while indicating sufficient liquidity with $37.2 million cash and $97.5 million revolving credit availability.",
+        "keyQuotes": [
+          "Higher price realization, based upon core business sales data, resulted in an increase of approximately $16.0 million, offset partially by decrease in sales volume of approximately $4.7 million compared to the prior year period.",
+          "The increase in gross profit was primarily due to higher sales volume, reduced warranty claims, and the absence of $8.2 million related to the strategic product rationalization charge in prior year.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if our attempts to mitigate the impact on our supply chain, operations and costs is not successful, our business, results of operations and financial condition may be adversely affected."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001628280-25-050421",
         "filingDate": "2025-11-07",
         "reportDate": "2025-09-28",
@@ -21,46 +217,51 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 138.373,
         "netIncome": -0.806,
-        "operatingCashFlow": 40.067,
-        "freeCashFlow": null,
+        "operatingCashFlow": 40067,
+        "freeCashFlow": 30114,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 97.6,
+          "United_States": 97.6,
           "Italy": 2.4
         },
-        "capexAmount": 9.953,
-        "capexGrowth": null,
+        "capexAmount": 9953,
+        "capexGrowth": 127.4,
         "partnerships": [
-          "Cataclean Global Limited license agreement"
+          "Cataclean Global Limited - perpetual exclusive license agreement for North America"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Tariff complexities"
+          "Tariff policy uncertainty and escalation risks",
+          "Trade policy changes and potential retaliatory actions",
+          "Geopolitical conflicts (Ukraine, Middle East)",
+          "Environmental health and safety regulations",
+          "Climate-related disclosure requirements"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Holley reported steady quarterly performance with slight revenue growth and continued focus on managing macroeconomic challenges like tariffs. The company maintains strategic investments and a stable operational approach.",
+        "managementTone": "cautious",
+        "overallSentiment": "bearish",
+        "summary": "IonQ Inc. reported Q3 2025 revenue of $138.4M, down 0.1% YoY, with a net loss of $806K for the quarter despite positive year-to-date net income of $12.9M. The company is managing tariff headwinds through mitigation strategies including reshoring and supplier diversification, but macro pressures and elevated interest rates continue to constrain profitability with operating income of $15.9M offset by $15.4M in non-operating expenses.",
         "keyQuotes": [
-          "The Company continues to monitor international trade developments, including potential changes in tariff rates",
-          "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
+          "In 2025, the U.S. introduced trade policy actions that have increased import tariffs across a wide range of countries at various rates... the Company has implemented a range of initiatives to mitigate the impact of tariffs, including conducting harmonized tariff code audits, diversifying supplier locations outside of China, reshoring products to North America",
+          "If current tariff levels are sustained or increased, there remains a risk that our profitability, cash flows, and financial estimates could be negatively affected",
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products"
         ],
         "marketData": {
-          "managementToneScore": 50,
+          "managementToneScore": 30,
           "revenueGrowthScore": 58,
           "netIncomeScore": 35,
           "priceActionScore": null,
-          "compositeSentimentScore": 48,
+          "compositeSentimentScore": 44,
           "compositeSentiment": "neutral"
         }
       },
@@ -85,40 +286,43 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 166.661,
         "netIncome": 10.863,
-        "operatingCashFlow": 32.637,
-        "freeCashFlow": null,
+        "operatingCashFlow": 32637,
+        "freeCashFlow": 24829,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 97.5,
-          "Italy": 2.5
+          "United_States": 97.4,
+          "Italy": 2.5,
+          "Other": 0.1
         },
-        "capexAmount": 7.808,
-        "capexGrowth": null,
+        "capexAmount": 7808,
+        "capexGrowth": 195.2,
         "partnerships": [
-          "Cataclean Global Limited license agreement"
+          "Cataclean Global Limited - perpetual exclusive license agreement for North America ($23.8M)"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Trade policy actions and tariffs",
-          "Potential changes in tax regulations"
+          "Tariff impacts and trade policy uncertainty",
+          "Climate-related disclosure compliance",
+          "Data privacy and cybersecurity regulations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported steady quarterly performance with Q2 revenue of $166.7 million and net income of $10.9 million. The company continues to navigate supply chain challenges and trade policy uncertainties while maintaining operational stability.",
+        "summary": "Holley Inc. reported Q2 2025 revenue of $166.7M, down 1.7% YoY, with net income of $10.9M, down 36.4% YoY, primarily due to increased warrant and interest rate collar fair value adjustments. The company demonstrated operational resilience with stable gross margins but faced headwinds from tariff pressures, constrained consumer demand, and elevated interest costs on its $557.6M term loan. Strategic investments include a $23.8M Cataclean perpetual license agreement for North America, indicating management confidence in future growth opportunities despite near-term macro challenges.",
         "keyQuotes": [
-          "The Company continues to monitor international trade developments, including potential changes in tariff rates",
-          "The Company has implemented a range of initiatives to mitigate the impact of tariffs"
+          "The Company's business and results of operations, financial condition, and liquidity are impacted by broad economic conditions, as well as by geopolitical events, including the conflict in Ukraine, the conflict in the Middle East, and the possible expansion of such conflicts and potential geopolitical consequences.",
+          "In response, the Company has implemented a range of initiatives to mitigate the impact of tariffs, including conducting harmonized tariff code audits to ensure accurate classification and compliance, diversifying supplier locations outside of China, reshoring products to North America, and exploring direct shipping from suppliers to international customers to reduce tariff exposure on goods entering the U.S.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -150,35 +354,42 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 153.044,
         "netIncome": 2.817,
-        "operatingCashFlow": -7.85,
-        "freeCashFlow": null,
+        "operatingCashFlow": -7850,
+        "freeCashFlow": -10830,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": 96.4,
+          "United States": 96.4,
           "Italy": 3.6
         },
-        "capexAmount": 2.98,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "capexAmount": 2980,
+        "capexGrowth": 135.6,
+        "partnerships": [
+          "Cataclean Global Limited - perpetual exclusive license agreement for North America"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Environmental health and safety regulations",
+          "Climate-related disclosure requirements",
+          "Privacy and data protection laws"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported stable Q1 2025 performance with revenues of $153 million and net income of $2.8 million. The company continues to navigate macro challenges while maintaining cost discipline and operational efficiency.",
+        "summary": "Holley reported Q1 2025 revenue of $153.0M, down 3.5% YoY, with net income of $2.8M ($0.02 diluted EPS), flat to slightly down YoY. Operating cash flow was negative at -$7.9M reflecting working capital headwinds (receivables increased $14.9M), while the company deployed $2.98M in capex and acquired a Cataclean perpetual license for $23.8M. The company maintains compliance with debt covenants on its $559.3M first lien term loan and shows mixed operational trends with gross margin expansion offset by higher operating expenses.",
         "keyQuotes": [
-          "The Company is an emerging growth company with locations in the United States, Canada, Italy and China.",
-          "Profitability has been, and may continue to be, adversely affected by constrained consumer demand and a shift in sales to lower-margin products"
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
+          "In response to inflationary impacts and supply chain disruptions, the Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels in the distribution channel.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -209,42 +420,46 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774925007614/hlly20241112_10k.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
-        "bookingsGrowth": -8.7,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
-        "revenue": 140.054,
+        "revenue": 140.05400000000003,
         "netIncome": -37.782,
         "operatingCashFlow": 46.899,
         "freeCashFlow": 41.821,
+        "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Strategic product rationalization project aimed at eliminating unprofitable SKUs",
+        "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 6.804,
-        "capexGrowth": null,
+        "capexGrowth": 14.6,
         "partnerships": [],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Climate change reporting requirements",
-          "ESG disclosure expectations"
+          "Compliance with evolving climate disclosure requirements",
+          "Data privacy and cybersecurity regulations (GDPR, CCPA, etc.)",
+          "Foreign Corrupt Practices Act (FCPA) compliance",
+          "Environmental laws and regulations"
         ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": false,
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Holley experienced a challenging year with declining revenues, a net loss, and significant goodwill impairment charges. The company is focused on cost-cutting, product rationalization, and navigating macroeconomic headwinds.",
+        "summary": "IonQ reported FY2024 revenue of $602.2M (down 8.7% YoY) and a net loss of $23.2M, driven primarily by $48.6M in goodwill and intangible asset impairments. The company faced headwinds from lower sales volume across most product categories, reduced pricing power despite cost-cutting efforts, and identified a material weakness in internal controls. Free cash flow remained positive at $41.8M, but operating performance deteriorated significantly.",
         "keyQuotes": [
-          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand",
-          "We have taken steps to minimize the adverse impacts of supply chain volatility and rising inflation"
+          "Net sales for the year ended December 31, 2024, decreased $57.5 million, or 8.7%, to $602.2 million as compared to $659.7 million for the year ended December 31, 2023.",
+          "We have concluded that it is necessary to record a goodwill and trade name impairments of $40.9 million and $7.7 million, respectively.",
+          "We concluded that we did not have sufficient resources with the appropriate accounting expertise that resulted in a lack of adequate controls with respect to the preparation and precision of review of reconciliations, manual journal entries and third party reports supporting journal entries."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 28,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 18,
+          "compositeSentimentScore": 20,
           "compositeSentiment": "bearish"
         }
       },
@@ -268,43 +483,44 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774924034047/hlly20240930_10q.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 134.038,
         "netIncome": -6.288,
-        "operatingCashFlow": 42.773,
-        "freeCashFlow": null,
+        "operatingCashFlow": 42773,
+        "freeCashFlow": 38401,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 97.33,
-          "Italy": 2.67
+          "United States": 97.3,
+          "Italy": 2.7
         },
-        "capexAmount": 4.372,
-        "capexGrowth": null,
+        "capexAmount": 4372,
+        "capexGrowth": -1,
         "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Holley reported a challenging quarter with quarterly revenue of $134 million and a net loss of $6.3 million. The company continues to face margin pressures and macroeconomic headwinds, though maintaining stable operations and generating positive operating cash flow.",
+        "summary": "Holley Inc. reported Q3 2024 revenue of $134.0M, down 14.4% YoY, with net loss of $6.3M compared to net income of $0.8M in Q3 2023. The company recognized $7.5M in asset write-downs related to Detroit Speed Engineering disposition and $8.8M in inventory rationalization charges, indicating operational challenges and portfolio optimization efforts. Operating cash flow of $42.8M YTD demonstrates adequate liquidity, but declining revenue and profitability reflect constrained consumer demand and competitive pressures in the automotive aftermarket.",
         "keyQuotes": [
-          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products",
-          "Should the ongoing macroeconomic conditions not improve, or worsen, the Company's business, results of operations and financial condition may be adversely affected"
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
+          "During the 39-week period ended September 29, 2024, the Company recognized a strategic product rationalization charge of $8,835, primarily due to product rationalization initiatives aimed at eliminating unprofitable or slow-moving stock keeping units.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 18,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 14,
+          "compositeSentimentScore": 15,
           "compositeSentiment": "bearish"
         }
       },
@@ -329,35 +545,41 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 169.496,
         "netIncome": 17.105,
-        "operatingCashFlow": 44.521,
-        "freeCashFlow": null,
+        "operatingCashFlow": 44521,
+        "freeCashFlow": 41876,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 96.42,
-          "Italy": 3.58
+          "United States": 96.4,
+          "Italy": 3.6
         },
-        "capexAmount": 2.645,
+        "capexAmount": 2645,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "easing",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "Climate-related disclosure requirements",
+          "Environmental health and safety regulations",
+          "Privacy and data protection laws",
+          "NYSE listing compliance requirements"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Holley reported stable Q2 2024 performance with quarterly revenue of $169.5M and net income of $17.1M. The company continues to manage inventory and maintain a balanced operational approach across its automotive aftermarket product lines.",
+        "summary": "Holley reported Q2 2024 revenue of $169.5M (down 3.3% YoY) with net income of $17.1M, reflecting pressured consumer demand offset by improved operational efficiency. The company generated $44.5M in operating cash flow and reduced debt by $25M during the period, demonstrating solid capital discipline despite top-line headwinds from product mix shifts and customer demand constraints.",
         "keyQuotes": [
-          "Attempted to minimize potential adverse impacts with cost savings initiatives, price increases, and inventory management",
-          "Ongoing macroeconomic conditions continue to impact business performance"
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
+          "In response to inflationary impacts and supply chain disruptions, the Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels in the distribution channel.",
+          "Based on the Company's results for 2023, no excess cash flow payment is required in 2024."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -388,15 +610,15 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774924015204/hlly20240321_10q.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 158.636,
         "netIncome": 3.73,
-        "operatingCashFlow": 18.843,
-        "freeCashFlow": null,
+        "operatingCashFlow": 18843,
+        "freeCashFlow": 17578,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
@@ -405,26 +627,31 @@
           "United States": 96.6,
           "Italy": 3.4
         },
-        "capexAmount": 1.265,
-        "capexGrowth": null,
+        "capexAmount": 1265,
+        "capexGrowth": 26.4,
         "partnerships": [],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "Climate-related disclosure requirements",
+          "Privacy and data protection law compliance",
+          "Environmental health and safety regulations"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Holley experienced a slight decline in quarterly revenue and net income, with cautious management commentary reflecting ongoing challenges in the automotive aftermarket. The company is managing through supply chain constraints and product rationalization efforts.",
+        "managementTone": "neutral",
+        "overallSentiment": "bearish",
+        "summary": "Holley Inc. reported Q1 2024 revenue of $158.6M, down 7.8% YoY from $172.2M, with net income of $3.7M versus $4.2M in the prior year quarter, reflecting continued demand pressure in the aftermarket automotive sector. The company took $9.7M in inventory charges related to product rationalization initiatives, indicating efforts to optimize its product portfolio amid constrained consumer demand. Operating cash flow of $18.8M improved from $3.6M YoY, supported by working capital management, though the company maintains elevated debt levels ($575.9M) and faces ongoing macroeconomic headwinds including inflation and consumer spending constraints.",
         "keyQuotes": [
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and increased attention to maintaining appropriate inventory levels",
-          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand"
+          "The Company's profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increase our costs.",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected.",
+          "During the 13-week period ended March 31, 2024, the Company recognized inventory charges of $9,713, primarily due to product rationalization initiatives aimed at eliminating unprofitable or slow-moving stock keeping units."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 30,
           "revenueGrowthScore": 28,
           "netIncomeScore": 45,
           "priceActionScore": null,
-          "compositeSentimentScore": 33,
+          "compositeSentimentScore": 35,
           "compositeSentiment": "bearish"
         }
       },
@@ -441,63 +668,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001437749-24-007848",
-        "filingDate": "2024-03-14",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774924007848/hlly20231231_10k.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": -4.2,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 155.707,
-        "netIncome": 1.2220000000000013,
-        "operatingCashFlow": 88.1,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": 5.9,
-        "capexGrowth": -61,
-        "partnerships": [],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Holley experienced a 4.2% revenue decline in 2023 due to supply chain constraints and normalizing demand. The company focused on cost-saving initiatives, improving gross margins, and managing operational efficiency.",
-        "keyQuotes": [
-          "We have attempted to minimize potential adverse impacts on our business with cost savings initiatives, price increases to customers, and by increasing inventory levels",
-          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand"
-        ],
-        "marketData": {
-          "managementToneScore": 25,
-          "revenueGrowthScore": 38,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 33,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001437749-23-030772",
         "filingDate": "2023-11-08",
         "reportDate": "2023-10-01",
@@ -505,44 +675,45 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774923030772/hlly20231001_10q.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 156.53,
         "netIncome": 0.752,
-        "operatingCashFlow": 56.863,
-        "freeCashFlow": null,
+        "operatingCashFlow": 56863,
+        "freeCashFlow": 52446,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": null,
+          "United States": null,
           "International": null
         },
-        "capexAmount": 4.417,
+        "capexAmount": 4417,
         "capexGrowth": null,
         "partnerships": [],
         "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "Holley reported steady quarterly revenue of $156.53 million with modest net income of $0.752 million, reflecting ongoing challenges in the automotive aftermarket. The company is managing supply chain constraints and inflationary pressures while maintaining a cautious outlook.",
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Holley reported Q3 2023 revenue of $156.5M, flat year-over-year, with net income declining sharply to $752K from $31.6M in Q3 2022, driven primarily by warrant and earn-out liability fair value adjustments and higher interest expense. Operating performance improved with gross margin expansion to 37.3%, but the company faces ongoing macro headwinds including elevated interest rates, inflationary pressures, and constrained consumer demand despite some supply chain easing.",
         "keyQuotes": [
-          "Sales growth in certain products has been constrained by supply chain challenges and automotive electronic component shortages",
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers"
+          "The Company's business and results of operations, financial condition, and liquidity are impacted by broad economic conditions including inflation, labor shortages, and disruption of the supply chain, as well as by geopolitical events",
+          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels of certain products",
+          "Should the ongoing macroeconomic conditions not improve, or worsen, or if the Company's attempt to mitigate the impact on its supply chain, operations and costs is not successful, the Company's business, results of operations and financial condition may be adversely affected"
         ],
         "marketData": {
-          "managementToneScore": 45,
+          "managementToneScore": 10,
           "revenueGrowthScore": 48,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 42,
-          "compositeSentiment": "neutral"
+          "compositeSentimentScore": 34,
+          "compositeSentiment": "bearish"
         }
       },
       "quarter": "Q3 2023",
@@ -555,129 +726,9 @@
         "reportDate": "2023-10-01"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001437749-23-022877",
-        "filingDate": "2023-08-10",
-        "reportDate": "2023-07-02",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774923022877/hlly20230702_10q.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 175.262,
-        "netIncome": 12.979,
-        "operatingCashFlow": 34.383,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "US": 97.5,
-          "Italy": 2.5
-        },
-        "capexAmount": 2.738,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "Holley reported a moderate quarter with slightly lower revenues and net income compared to the same period last year, reflecting ongoing supply chain challenges and inflationary pressures. The company maintains a cautious outlook while managing costs and inventory levels.",
-        "keyQuotes": [
-          "Sales growth in certain products has been constrained by continuing supply chain challenges and automotive electronic component shortages",
-          "The Company has attempted to minimize potential adverse impacts on its business with cost savings initiatives, price increases to customers, and by increasing inventory levels"
-        ],
-        "marketData": {
-          "managementToneScore": 45,
-          "revenueGrowthScore": 38,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 37,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-07-02"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001437749-23-013765",
-        "filingDate": "2023-05-11",
-        "reportDate": "2023-04-02",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1822928/000143774923013765/hlly20230402_10q.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
-        "revenue": 172.205,
-        "netIncome": 4.247,
-        "operatingCashFlow": 3.639,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "United States": 96.6,
-          "Italy": 3.4
-        },
-        "capexAmount": 1.001,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Holley reported a Q1 2023 revenue of $172.2 million and net income of $4.2 million, representing a decline from the same quarter last year. The company continues to face supply chain challenges and inflationary pressures, which are impacting its performance.",
-        "keyQuotes": [
-          "Sales growth in certain products has been constrained by continuing supply chain challenges and automotive electronic component shortages.",
-          "Our profitability has been, and may continue to be, adversely affected by constrained consumer demand, a shift in sales to lower-margin products, and demands on our performance that increased our costs."
-        ],
-        "marketData": {
-          "managementToneScore": 45,
-          "revenueGrowthScore": 18,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 29,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-04-02"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T17:43:32.279Z"
+  "lastUpdated": "2026-08-05T21:32:56.828Z"
 }
