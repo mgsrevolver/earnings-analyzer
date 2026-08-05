@@ -9,8 +9,774 @@
     "subCategory": "Gaming",
     "cik": "0001810806"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001810806-26-000032",
+        "filingDate": "2026-05-07",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080626000032/unity-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "reducing",
+        "revenue": 508.238,
+        "netIncome": -347.61,
+        "operatingCashFlow": 71.286,
+        "freeCashFlow": 66.457,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 246.337,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 26.5,
+          "Greater China": 19.8,
+          "EMEA": 31.9,
+          "APAC": 19.3,
+          "Other Americas": 2.5
+        },
+        "capexAmount": 4.829,
+        "capexGrowth": -15.5,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software reported Q1 2026 revenue of $508.2M (up 16.8% YoY) but posted a net loss of $347.6M driven by $279M in impairment charges related to sunsetting the ironSource Ads Network and divesting Supersonic game publishing. Despite positive headline revenue growth, the company is restructuring its monetization business, reducing headcount, and facing significant asset write-downs that overshadow operational improvements.",
+        "keyQuotes": [
+          "Due to this event, we have evaluated the long-lived assets associated with those businesses and determined that the undiscounted cash flows are less than the carrying value of the asset group. As a result, during the first quarter of 2026 we have recorded $279 million of impairment charges",
+          "We expect to continue to incur operating losses on a GAAP basis for the foreseeable future due to the investments we will continue to make in research and development, sales and marketing, and general and administrative",
+          "We expect that our sales and marketing expense will decrease as a result of the divestiture of the Supersonic business"
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 39,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-26-000011",
+        "filingDate": "2026-02-11",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080626000011/unity-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 503.08899999999994,
+        "netIncome": -89.96299999999997,
+        "operatingCashFlow": 422.955,
+        "freeCashFlow": 403.931,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 19.024,
+        "capexGrowth": -35.6,
+        "partnerships": [
+          "Strategic partnerships with resellers and value-added resellers for Create Solutions",
+          "Integration with Google Cloud, AWS, Azure, and Tencent cloud infrastructure providers",
+          "Ad attribution partners and ad mediation platforms for monetization solutions",
+          "Capped call transactions with financial institutions related to convertible notes"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "EU GDPR, UK GDPR, and Digital Services Act privacy regulations",
+          "COPPA and emerging children's privacy laws and age-appropriate design codes",
+          "Digital Omnibus Act and Digital Fairness Act (EU, if adopted)",
+          "CCPA and state privacy laws in the United States",
+          "PCI DSS compliance requirements",
+          "Texas App Store Accountability Act and similar state in-app purchasing regulations",
+          "Export control restrictions affecting China operations with changes effective October 2026",
+          "iOS privacy changes impacting targeted advertising capabilities",
+          "Data localization and cross-border data transfer restrictions",
+          "Loot box and gambling mechanics regulation discussions",
+          "FTC consent order obligations on Tapjoy Offerwall product"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software reported full-year 2025 revenue of $1.85 billion, up modestly 2% YoY, with a net loss of $401.5 million compared to a loss of $664.3 million in 2024. The company is still unprofitable on a GAAP basis with accumulated losses of $4.1 billion, though operating cash flow improved to $423 million driven by cost reductions from workforce reductions and facility consolidations. Management is taking a defensive posture with significant restructuring ongoing, facing substantial regulatory headwinds in privacy and children's protection, and dealing with geopolitical risks including China export restrictions effective October 2026.",
+        "keyQuotes": [
+          "We expect to continue to incur operating losses on a GAAP basis for the foreseeable future due to the investments we will continue to make in research and development, sales and marketing, and general and administrative.",
+          "We believe our existing sources of liquidity will be sufficient to meet our working capital and capital expenditures for at least the next 12 months, including our current intent to settle the principal amount of the 2026 Notes with cash upon maturity in November 2026.",
+          "During the year ended December 31, 2025, we had reductions to our workforce and our office footprint, that resulted in approximately $33 million in employee separation costs, and $14 million of non-employee charges associated with these reductions."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 40,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000169",
+        "filingDate": "2025-11-05",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000169/unity-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 470.615,
+        "netIncome": -126.362,
+        "operatingCashFlow": 301520,
+        "freeCashFlow": 285249,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 242394,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 28,
+          "Greater China": 19,
+          "EMEA": 31,
+          "APAC": 19,
+          "Other Americas": 3
+        },
+        "capexAmount": 16271,
+        "capexGrowth": null,
+        "partnerships": [
+          "Strategic Partnerships mentioned as separate revenue line item"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Unity reported Q3 2025 revenue of $470.6M (up 5.4% YoY) and net loss of $126.4M as the company continues stabilizing following strategic portfolio reset. Dollar-based net expansion rate improved to 103% (from 94% YoY), driven by subscription price increases and enterprise upgrades, while cash flow from operations remained solid at $301.5M. However, the company took a $39M non-cash charge from shortening useful lives of Weta FX intangible assets, indicating shifting priorities away from that acquisition.",
+        "keyQuotes": [
+          "Our dollar-based net expansion rate as of September 30, 2025 was driven primarily by growth in subscriptions revenue, due to broad price increases in our subscription services and existing Create Solutions customers upgrading to enterprise offerings.",
+          "Starting in the third quarter of 2025 we revised down our estimate of the remaining useful life of certain intangible assets from four to seven years, down to one to three years. These assets are primarily 'developed technology' within intangible assets, and primarily relate to assets arising from our acquisition of Weta FX Limited in 2021.",
+          "We expect our gross profit to increase in absolute dollars in the long term but fluctuate in the short term as we stabilize our business following our reset efforts."
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 39,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000151",
+        "filingDate": "2025-08-06",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000151/unity-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 440.944,
+        "netIncome": -108.798,
+        "operatingCashFlow": 146.122,
+        "freeCashFlow": 133.958,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 219.448,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 27.8,
+          "Greater_China": 19,
+          "EMEA": 31.9,
+          "APAC": 18.9,
+          "Other_Americas": 2.4
+        },
+        "capexAmount": 12.164,
+        "capexGrowth": -23.8,
+        "partnerships": [
+          "Strategic Partnerships (revenue line item)",
+          "Supersonic (mentioned as excluded from DBNR calculation)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "New US tax reform legislation enacted July 4, 2025 (expected to reduce tax expense)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity reported Q2 2025 revenue of $440.9M, down 1.8% YoY, with a net loss of $108.8M. The company is undergoing a significant business reset focused on its Strategic Portfolio (Engine and Monetization), having incurred $20M in employee separation costs in H1 2025. Management shows cautious optimism on AI initiatives (Unity Vector migration growing 15% QoQ), but faces headwinds from advertising market competition and declining Grow Solutions revenue.",
+        "keyQuotes": [
+          "These changes contributed to the Unity Ad Network growing 15% from the three months ended March 31, 2025 to the three months ended June 30, 2025, and now represents 49% of total Grow Solutions revenue",
+          "The shortened useful lives are due to certain assets no longer being actively developed and absence of currently established plans for incorporation into future Unity offerings",
+          "In the six months ended June 30, 2025, we had reductions to our workforce and our office footprint, that resulted in approximately $20 million in employee separation costs"
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 35,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000095",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000095/unity-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 435,
+        "netIncome": -77.642,
+        "operatingCashFlow": 13.026,
+        "freeCashFlow": 7.308,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 203.2,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 29,
+          "Greater China": 15,
+          "EMEA": 35,
+          "APAC": 18,
+          "Other Americas": 3
+        },
+        "capexAmount": 5.718,
+        "capexGrowth": -20.5,
+        "partnerships": [
+          "Strategic Partnerships revenue line item mentioned",
+          "AI Platform migration to Unity Vector"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity reported Q1 2025 revenue of $435M (down 5.5% YoY) with a net loss of $77.9M, though operating losses improved significantly from $374.9M in Q1 2024 due to restructuring benefits. The company continues cost-cutting efforts with additional $14M in separation costs in Q1 2025, reducing headcount further following the major 25% workforce reduction in early 2024. Dollar-based net expansion rate deteriorated to 97% from 101% YoY, driven by competitive pressures in Grow Solutions (monetization/advertising) and declining professional services revenue, offset partially by subscription growth.",
+        "keyQuotes": [
+          "Our dollar-based net expansion rate as of March 31, 2025 was driven primarily by decreases in Grow Solutions revenue, due to competition in the advertising market, and to a lesser extent decreases in professional services revenue within Create Solutions, offset by growth in subscriptions revenue.",
+          "To improve the performance of Grow Solutions, in the first quarter of 2025, we started migrating a portion of our traffic to our new AI Platform, which we call 'Unity Vector'. While we expect related revenue to improve as Unity Vector is implemented, this may be partially or fully offset by declines in select areas of the business that do not utilize Unity Vector.",
+          "We expect to continue to incur operating losses on a GAAP basis for the foreseeable future due to the investments we will continue to make in research and development, sales and marketing, and general and administrative."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 27,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-25-000026",
+        "filingDate": "2025-02-21",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080625000026/unity-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 457.09900000000016,
+        "netIncome": -122.72699999999998,
+        "operatingCashFlow": 315.553,
+        "freeCashFlow": 286.004,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 203.15,
+        "marketShareMention": "Decreased Grow Solutions revenue due to competition in the advertising market. Company focused on enhancing machine learning capabilities to be more competitive.",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 29.549,
+        "capexGrowth": -47.2,
+        "partnerships": [
+          "Strategic partnerships with over 20 third-party platforms for interoperability",
+          "Google Cloud, AWS, Azure, and Tencent for cloud infrastructure"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "GDPR and EU Digital Services Act",
+          "COPPA (Children's Online Privacy Protection Act)",
+          "CCPA (California Consumer Privacy Act) and expanded CPRA",
+          "Export control restrictions on China",
+          "Chinese government regulations on gaming industry",
+          "Privacy laws regarding targeted advertising and cookies",
+          "Israel operations impacted by military conflict and conscription risks"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software reported FY2024 revenue of $1.81 billion (down 17% YoY) and net loss of $664 million, driven by declines in both Create Solutions and Grow Solutions amid competitive pressures and a portfolio reset. The company significantly restructured operations in 2024, incurring $214 million in employee separation costs and reducing headcount by ~25%, while also exiting non-strategic businesses and canceling controversial pricing changes. Free cash flow improved to $286 million, though the company faces ongoing profitability challenges and dollar-based net expansion rates declined to 96% from 100%, signaling customer contraction.",
+        "keyQuotes": [
+          "Our dollar-based net expansion rate as of December 31, 2024 was driven primarily by decreases in Grow Solutions revenue, due to competition in the advertising market",
+          "To be more competitive we are focused on enhancing our machine learning stack and data infrastructure capabilities, which we believe will take some time to manifest in sustainable increased performance",
+          "In the near term, we are transitioning to use the new machine learning stack, and we expect that this transition will negatively impact our Grow Solutions revenue, and improve gradually as our model improves and learns over time"
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 21,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000227",
+        "filingDate": "2024-11-07",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000227/unity-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 446.517,
+        "netIncome": -124.739,
+        "operatingCashFlow": 203.361,
+        "freeCashFlow": 180.254,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 189.81,
+        "marketShareMention": "Competition in the advertising market and ongoing restrictions related to the gaming industry in China have impacted our growth rates",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 28.7,
+          "Greater China": 14.7,
+          "EMEA": 35.2,
+          "APAC": 18.3,
+          "Other Americas": 3.1
+        },
+        "capexAmount": 23.107,
+        "capexGrowth": -48.2,
+        "partnerships": [
+          "Strategic Partnerships (mentioned as declining non-strategic revenue)",
+          "Supersonic (mentioned as part of non-strategic portfolio exit)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Restrictions related to the gaming industry in China",
+          "Operating system platform providers or application stores may change terms of service",
+          "Geopolitical instability particularly in Israel where significant portion of Grow Solutions operations located"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity reported Q3 2024 revenue of $446.5 million, down 18% YoY, with net loss of $124.7 million as the company continues restructuring efforts following a troubled 2023 pricing debacle and the January 2024 workforce reduction of ~25%. The company remains unprofitable on a GAAP basis, though free cash flow remained positive at $180.3 million for the nine-month period, supported by a $480 million convertible note repurchase that generated $61.4 million in gains. Management's tone is defensive, acknowledging significant headwinds including advertising market competition, China gaming restrictions, and Israeli geopolitical risk, while noting the cancellation of controversial pricing changes provides some near-term upside uncertainty.",
+        "keyQuotes": [
+          "We have a history of losses and may not achieve or sustain profitability on a GAAP basis in the future.",
+          "Competition in the advertising market and ongoing restrictions related to the gaming industry in China have impacted our growth rates and may continue to do so.",
+          "In the third quarter of 2024, before the pricing changes took effect, we announced the cancellation of those pricing changes, the reversion to a subscription-based model, and price increases, for gaming customers. While the initial customer response to this announcement has been positive and we expect this change to benefit our business over the long term, the ultimate impact remains uncertain."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 14,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000189",
+        "filingDate": "2024-08-08",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000189/unity-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 449.259,
+        "netIncome": -125.574,
+        "operatingCashFlow": 81003,
+        "freeCashFlow": 65047,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 176127,
+        "marketShareMention": "Decreased market share in Grow Solutions due to increased competition in advertising market; core Create Solutions growing but offset by portfolio reset impact",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 29.1,
+          "Greater China": 13.8,
+          "EMEA": 36.5,
+          "APAC": 18.1,
+          "Other Americas": 2.5
+        },
+        "capexAmount": 15956,
+        "capexGrowth": null,
+        "partnerships": [
+          "Strategic Partnerships mentioned as a revenue component",
+          "Wētā FX Limited subscription agreement terminated"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Restrictions related to gaming industry in China",
+          "Operating system platform providers may change terms affecting business",
+          "Geopolitical instability in Israel where significant Grow Solutions operations located"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity faced significant headwinds in Q2 2024, with revenue declining 15.8% YoY to $449.3M despite stabilization efforts. The company executed a major restructuring eliminating 25% of workforce ($201M in separation costs) and reset its portfolio to focus on core Strategic Portfolio (Unity Engine, Cloud, Monetization), exiting non-core businesses. Dollar-based net expansion rate deteriorated to 96% from 103% YoY, driven by competitive pressures in Grow Solutions advertising market and strategic portfolio exit impact. While the company generated positive operating cash flow ($81M) and maintained $1.3B in liquidity, ongoing GAAP losses and management transition risk (new CEO and CFO departure announced) create visibility challenges.",
+        "keyQuotes": [
+          "We have a history of losses and may not achieve or sustain profitability on a GAAP basis in the future.",
+          "Increased competition in the advertising market and ongoing restrictions related to the gaming industry in China have impacted our growth rates and may continue to do so.",
+          "Our ability to successfully manage executive transitions and to retain Mr. Bromberg and other senior executives is critical to our success, and their timing and full impact on our future results of operations, cash flows, or financial condition are uncertain."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 18,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 22,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-24-000098",
+        "filingDate": "2024-05-09",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080624000098/unity-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 460.38,
+        "netIncome": -291.074,
+        "operatingCashFlow": -7.373,
+        "freeCashFlow": -14.563,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 179.515,
+        "marketShareMention": "Increased competition in the advertising market has impacted growth rates. Dollar-based net expansion rate declined to 101% from 102% YoY, primarily due to Grow Solutions weakness from increased advertising competition.",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 30.2,
+          "Greater China": 13,
+          "EMEA": 36.2,
+          "APAC": 18.3,
+          "Other Americas": 2.3
+        },
+        "capexAmount": 7.19,
+        "capexGrowth": -49.9,
+        "partnerships": [
+          "Strategic Partnerships segment mentioned as part of revenue",
+          "Weta FX Limited subscription agreement terminated in 2023"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Ongoing geopolitical instability in Israel, where a significant portion of Grow Solutions operations is located",
+          "Ongoing restrictions related to the gaming industry in China",
+          "Operating system platform providers or application stores may change terms of service"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity reported Q1 2024 revenue of $460.4M (down 8% YoY) and net loss of $291.5M, heavily impacted by $193M in employee separation costs from a 25% workforce reduction and portfolio restructuring. The company is refocusing on its Strategic Portfolio (Unity Engine, Cloud, Monetization) and exiting non-core businesses, with net cash from operations negative at -$7.4M and significant headwinds from increased advertising competition and geopolitical challenges in Israel.",
+        "keyQuotes": [
+          "In January 2024, we committed to a plan to eliminate approximately 25% of our workforce, and we mutually agreed to the departure of the founders of ironSource Ltd. Following these announcements, we incurred incremental employee separation costs of approximately $193 million in the first quarter of 2024.",
+          "The decrease in total revenue was further driven by a decrease in Grow Solutions revenue, which was negatively impacted by increased competition.",
+          "We expect our gross profit to increase in absolute dollars in the long term but decrease in the short term as a result of the reset of our product portfolio to focus on the Unity Engine and Monetization solutions."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 28,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 18,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-23-000181",
+        "filingDate": "2023-11-09",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080623000181/unity-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 544.21,
+        "netIncome": -124.071,
+        "operatingCashFlow": 162597,
+        "freeCashFlow": 118037,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 214788,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 26.2,
+          "Greater China": 11.9,
+          "EMEA": 36.9,
+          "APAC": 22.4,
+          "Other Americas": 2.5
+        },
+        "capexAmount": 44560,
+        "capexGrowth": 5.2,
+        "partnerships": [
+          "ironSource Merger (November 2022)",
+          "Silver Lake and Sequoia Capital (convertible notes purchasers)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Geopolitical instability in Israel affecting Grow Solutions operations",
+          "Gaming industry restrictions in China",
+          "Operating system platform providers changing terms of service and policies"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity Software reported Q3 2023 revenue of $544.2M (69% YoY growth, primarily from ironSource acquisition) but continued GAAP losses of $124.1M. The company faces significant headwinds including a damaging pricing model announcement that triggered customer boycotts and contract slowdown, softness in the advertising market, and geopolitical risks in Israel. Management is undertaking workforce reductions and a comprehensive product portfolio assessment, creating near-term uncertainty.",
+        "keyQuotes": [
+          "In the third quarter of 2023, we announced changes to our pricing model for our Create Solutions, to become effective beginning in 2024. We experienced a high volume of negative customer feedback including a boycott and a slow down of signing new contracts and renewals as a result of these changes.",
+          "In the fourth quarter of 2023, we underwent a CEO change and began a comprehensive assessment of our product portfolio to focus on those offerings that are most valuable to our customers, which are the core aspects of our Create and Grow Solutions. This assessment will likely lead us to decide to discontinue certain offerings, reduce our workforce and reduce our office footprint.",
+          "The timing and full impact of these types of changes on our future results of operations, cash flows, or financial condition are uncertain, and for those reasons we are currently unable to reasonably quantify the potential impacts through the fourth quarter of 2023."
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001810806-23-000128",
+        "filingDate": "2023-08-02",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1810806/000181080623000128/unity-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "reducing",
+        "revenue": 533.478,
+        "netIncome": -192.16,
+        "operatingCashFlow": 42544,
+        "freeCashFlow": 14076,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 215012,
+        "marketShareMention": "Customers contributing more than $100,000 of revenue increased from 1,085 to 1,330 year-over-year, demonstrating strong penetration of larger enterprises and AAA gaming studios",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 26,
+          "Greater China": 13,
+          "EMEA": 35,
+          "APAC": 22,
+          "Other Americas": 3
+        },
+        "capexAmount": 28468,
+        "capexGrowFlow": null,
+        "partnerships": [
+          "ironSource Merger (November 2022)",
+          "Strategic partnerships and customer commitments (estimated $624.1 million in future performance obligations)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Increased restrictions on gaming industry in China",
+          "Operating system platform providers or application stores may change terms of service, policies or technical requirements",
+          "Potential impact of AI regulation on AI-integrated offerings"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Unity reported Q2 2023 revenue of $533.5 million (up 80% YoY), driven primarily by the ironSource acquisition, but the company remains unprofitable with a net loss of $192.2 million. Management implemented an 8% workforce reduction ($25 million in restructuring costs) and cautioned on macroeconomic headwinds including advertising market softness and China gaming restrictions, with dollar-based net expansion rate declining from 121% to 106% YoY.",
+        "keyQuotes": [
+          "Recent negative macroeconomic factors, such as high and persistent inflation, rising interest rates, and limited credit availability has and could further cause economic uncertainty and volatility.",
+          "In May 2023, we announced a workforce reduction of approximately 8% of our then total workforce as we restructured specific teams in order to continue to position ourselves for long-term and profitable growth.",
+          "We expect to continue to incur operating losses on a GAAP basis for the foreseeable future due to the investments we will continue to make in research and development, sales and marketing, and general and administrative."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:43:49.733Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-08-05T19:37:59.728Z"
 }
