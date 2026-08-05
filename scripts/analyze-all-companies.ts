@@ -31,6 +31,7 @@ import { computeMacroAnalysis } from '../lib/macro';
 import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
+import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4 } from '../lib/xbrl';
 
 // Force unbuffered output for GitHub Actions real-time logging
 process.stdout.write('🚀 Script starting... (unbuffered output)\n');
@@ -139,16 +140,25 @@ async function sleep(ms: number) {
 }
 
 /**
- * Check if a company already has complete analysis data
+ * Check if a company already has complete AND fresh analysis data.
+ * Data older than MAX_DATA_AGE_DAYS is re-analyzed so the weekly refresh
+ * actually refreshes (previously any ticker with data was skipped forever).
+ * Set FORCE_REFRESH=1 to re-analyze everything regardless of age.
  */
+const MAX_DATA_AGE_DAYS = 5;
+
 function hasCompleteData(ticker: string): boolean {
+  if (process.env.FORCE_REFRESH) return false;
+
   const outputPath = join(DATA_DIR, `${ticker}.json`);
   if (!existsSync(outputPath)) return false;
 
   try {
     const data = JSON.parse(readFileSync(outputPath, 'utf-8'));
-    // Consider complete if it has at least 3 successful analyses
-    return data.successfulAnalyses >= 3;
+    if (!(data.successfulAnalyses >= 3)) return false;
+
+    const ageDays = (Date.now() - Date.parse(data.lastUpdated ?? 0)) / 86_400_000;
+    return Number.isFinite(ageDays) && ageDays < MAX_DATA_AGE_DAYS;
   } catch {
     return false;
   }
@@ -202,6 +212,12 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       return;
     }
 
+    // Fetch exact XBRL financials once per company (source of truth for revenue/net income)
+    const companyFacts = await fetchCompanyFacts(company.cik);
+    if (!companyFacts) {
+      console.warn(`⚠️  No XBRL facts for ${company.ticker} — falling back to LLM-extracted financials`);
+    }
+
     // Analyze each filing
     const analyzedFilings = [];
     for (let index = 0; index < filings.length; index++) {
@@ -221,6 +237,16 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
 
         // Validate and normalize financial units
         const insights = validateAndNormalizeFinancialUnits(rawInsights, company.name, quarter);
+
+        // Replace LLM-extracted revenue/netIncome with exact SEC XBRL values
+        applyXbrlFinancials(
+          insights,
+          companyFacts,
+          filing.accessionNumber,
+          filing.reportDate,
+          filing.form,
+          `${company.ticker} ${quarter}`
+        );
 
         // Merge detailed partnerships with basic partnerships from insights
         const allPartnerships = Array.from(new Set([
@@ -310,13 +336,20 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
         const q3NetIncome = data.quarters.Q3.insights.netIncome;
         const annualNetIncome = data.annual.insights.netIncome;
 
-        const q4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
+        const rawQ4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
           ? annualRevenue - (q1Revenue + q2Revenue + q3Revenue)
           : null;
 
-        const q4NetIncome = annualNetIncome && q1NetIncome && q2NetIncome && q3NetIncome
+        const rawQ4NetIncome = annualNetIncome && q1NetIncome != null && q2NetIncome != null && q3NetIncome != null
           ? annualNetIncome - (q1NetIncome + q2NetIncome + q3NetIncome)
           : null;
+
+        const { q4Revenue, q4NetIncome } = sanitizeQ4(
+          rawQ4Revenue,
+          rawQ4NetIncome,
+          [q1Revenue, q2Revenue, q3Revenue],
+          `${company.ticker} FY${year}`
+        );
 
         const q4QuarterInfo = getQuarterInfo(data.annual.filing.reportDate, company);
 

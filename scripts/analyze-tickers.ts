@@ -20,6 +20,7 @@ import { computeMacroAnalysis } from '../lib/macro';
 import { fetchMarketData } from '../lib/market-data';
 import { calculateCompositeSentiment } from '../lib/sentiment-calculator';
 import { validateAndNormalizeFinancialUnits } from '../lib/validate-financial-units';
+import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4 } from '../lib/xbrl';
 
 // Load environment variables from .env.local
 config({ path: join(process.cwd(), '.env.local') });
@@ -121,6 +122,12 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       return;
     }
 
+    // Fetch exact XBRL financials once per company (source of truth for revenue/net income)
+    const companyFacts = await fetchCompanyFacts(company.cik);
+    if (!companyFacts) {
+      console.warn(`⚠️  No XBRL facts for ${company.ticker} — falling back to LLM-extracted financials`);
+    }
+
     const analyzedFilings = [];
     for (let index = 0; index < filings.length; index++) {
       const filing = filings[index];
@@ -138,6 +145,16 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
 
         // Validate and normalize financial units
         const insights = validateAndNormalizeFinancialUnits(rawInsights, company.name, quarter);
+
+        // Replace LLM-extracted revenue/netIncome with exact SEC XBRL values
+        applyXbrlFinancials(
+          insights,
+          companyFacts,
+          filing.accessionNumber,
+          filing.reportDate,
+          filing.form,
+          `${company.ticker} ${quarter}`
+        );
 
         const allPartnerships = Array.from(new Set([
           ...insights.partnerships,
@@ -206,10 +223,17 @@ async function analyzeCompany(company: any, companyIndex: number, totalCompanies
       }
 
       if (data.annual && data.quarters?.Q1 && data.quarters?.Q2 && data.quarters?.Q3) {
-        const q4Revenue = data.annual.insights.revenue -
+        const rawQ4Revenue = data.annual.insights.revenue -
           (data.quarters.Q1.insights.revenue + data.quarters.Q2.insights.revenue + data.quarters.Q3.insights.revenue);
-        const q4NetIncome = data.annual.insights.netIncome -
+        const rawQ4NetIncome = data.annual.insights.netIncome -
           (data.quarters.Q1.insights.netIncome + data.quarters.Q2.insights.netIncome + data.quarters.Q3.insights.netIncome);
+
+        const { q4Revenue, q4NetIncome } = sanitizeQ4(
+          rawQ4Revenue,
+          rawQ4NetIncome,
+          [data.quarters.Q1.insights.revenue, data.quarters.Q2.insights.revenue, data.quarters.Q3.insights.revenue],
+          `${company.ticker} FY${year}`
+        );
 
         const q4QuarterInfo = getQuarterInfo(data.annual.filing.reportDate, company);
 

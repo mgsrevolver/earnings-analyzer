@@ -4,6 +4,8 @@ import { getRecentEarningsFilings, getFilingWithText } from '@/lib/edgar';
 import { analyzeEarningsReport } from '@/lib/claude';
 import { fetchMarketData } from '@/lib/market-data';
 import { calculateCompositeSentiment } from '@/lib/sentiment-calculator';
+import { validateAndNormalizeFinancialUnits } from '@/lib/validate-financial-units';
+import { fetchCompanyFacts, applyXbrlFinancials, sanitizeQ4 } from '@/lib/xbrl';
 
 export async function POST(
   _request: Request,
@@ -29,6 +31,9 @@ export async function POST(
     }
 
     console.log(`Found ${filings.length} filings. Analyzing...`);
+
+    // Fetch exact XBRL financials once (source of truth for revenue/net income)
+    const companyFacts = await fetchCompanyFacts(company.cik);
 
     // Helper function to map report date to calendar quarter (industry standard)
     // This normalizes all companies to calendar quarters for meaningful peer comparison
@@ -112,11 +117,23 @@ export async function POST(
       try {
         const { text } = await getFilingWithText(filing);
 
-        const insights = await analyzeEarningsReport(
+        const rawInsights = await analyzeEarningsReport(
           company.name,
           text,
           quarter,
           filing.form
+        );
+
+        const insights = validateAndNormalizeFinancialUnits(rawInsights, company.name, quarter);
+
+        // Replace LLM-extracted revenue/netIncome with exact SEC XBRL values
+        applyXbrlFinancials(
+          insights,
+          companyFacts,
+          filing.accessionNumber,
+          filing.reportDate,
+          filing.form,
+          `${company.ticker} ${quarter}`
         );
 
         // Fetch market data to calculate reality-based sentiment
@@ -203,13 +220,20 @@ export async function POST(
         const annualNetIncome = data.annual.insights.netIncome;
 
         // Calculate Q4 = Annual - (Q1 + Q2 + Q3)
-        const q4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
+        const rawQ4Revenue = annualRevenue && q1Revenue && q2Revenue && q3Revenue
           ? annualRevenue - (q1Revenue + q2Revenue + q3Revenue)
           : null;
 
-        const q4NetIncome = annualNetIncome && q1NetIncome && q2NetIncome && q3NetIncome
+        const rawQ4NetIncome = annualNetIncome && q1NetIncome != null && q2NetIncome != null && q3NetIncome != null
           ? annualNetIncome - (q1NetIncome + q2NetIncome + q3NetIncome)
           : null;
+
+        const { q4Revenue, q4NetIncome } = sanitizeQ4(
+          rawQ4Revenue,
+          rawQ4NetIncome,
+          [q1Revenue, q2Revenue, q3Revenue],
+          `${company.ticker} FY${year}`
+        );
 
         console.log(`Calculated Q4 FY${year}: Revenue ${q4Revenue}M, Net Income ${q4NetIncome}M`);
 

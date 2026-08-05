@@ -1,7 +1,7 @@
 import { Filing } from "@/types";
 
 const EDGAR_BASE_URL = "https://data.sec.gov";
-const USER_AGENT = "EarningsAnalyzer/1.0 (contact@example.com)"; // SEC requires this
+const USER_AGENT = "EarningsAnalyzer/1.0 (clayreimus@gmail.com)"; // SEC requires a real contact
 
 export interface EdgarFiling {
   accessionNumber: string;
