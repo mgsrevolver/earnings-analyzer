@@ -9,8 +9,803 @@
     "subCategory": "Cloud Infrastructure",
     "cik": "0001477333"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001477333-26-000038",
+        "filingDate": "2026-05-08",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000038/cloud-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 639.755,
+        "netIncome": -22.927,
+        "operatingCashFlow": 158.33,
+        "freeCashFlow": 83.074,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 794.971,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 65.231,
+        "capexGrowth": -24.1,
+        "partnerships": [
+          "JD Cloud (China network relationship)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR, OFAC)",
+          "Data protection and privacy regulations globally",
+          "Encryption import regulations in various countries",
+          "Voluntary self-disclosure to OFAC regarding potential sanctions violations (received No Action Letter April 9, 2026)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q1 2026 revenue of $639.8M (+33.5% YoY) with continued profitability challenges, posting a net loss of $22.9M versus $38.5M loss in Q1 2025. The company is transitioning to an AI-first operating model with announced workforce reduction, and recently acquired Replicate to bolster AI capabilities. Strong operating cash flow of $158.3M demonstrates solid business momentum despite ongoing net losses, with deferred revenue of $795M indicating healthy future revenue visibility.",
+        "keyQuotes": [
+          "The ongoing evolution of our business to an agentic AI-first operating model, including our use of artificial intelligence (AI) and other automation tools and resources and our related recently announced workforce reduction, may not achieve the benefits we expect in the time we expect, if at all, and could adversely affect our business, financial condition, and results of operations.",
+          "On April 9, 2026, we received a No Action Letter from OFAC, stating that OFAC was closing its review without penalties or further action.",
+          "As of March 31, 2026, the Company expected to recognize 64% of its remaining performance obligations as revenue over the next 12 months with the remainder recognized thereafter."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-26-000016",
+        "filingDate": "2026-02-26",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 614.5069999999998,
+        "netIncome": -12.076999999999984,
+        "operatingCashFlow": 825.2,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 51,
+          "united_states": 49
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud (China operations)",
+          "ISP partners and co-location facility operators",
+          "Channel partners and systems integrators",
+          "Telecommunications companies",
+          "Managed security service providers",
+          "Global platform providers"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "EU Digital Services Act",
+          "EU Digital Markets Act",
+          "EU Copyright Directive",
+          "EU AI Act",
+          "EU Data Act",
+          "EU NIS2 Cybersecurity Directive",
+          "EU Digital Operational Resiliency Act",
+          "Italian regulatory fine (~€14.2 million)",
+          "US PADFA (Protecting Americans' Data from Foreign Adversaries Act)",
+          "US Executive Order 14117 on data transfers",
+          "UK Online Harms legislation",
+          "Australia Online Harms legislation",
+          "India Digital India Act",
+          "GDPR (with up to 4% of worldwide revenue penalties)",
+          "FedRAMP, PBMM, DoD IL4 certification requirements"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Cloudflare reported full-year 2025 revenue of $3,473.5M with net income of $289.3M and operating cash flow of $825.2M, demonstrating solid profitability. However, the 10-K reveals significant headwinds: the company faces extensive regulatory pressures (EU DSA, NIS2, GDPR fines, and emerging AI regulations), escalating supply chain constraints (particularly DRAM, SSD, CPU shortages impacting 2025), intensifying competitive threats from large cloud providers, and operational challenges including recent network outages and security incidents. Management tone is notably defensive, with extensive risk disclosures indicating macro uncertainty and geopolitical tensions affecting growth.",
+        "keyQuotes": [
+          "Our headcount grew from 3,682 employees as of December 31, 2023, to 4,263 employees as of December 31, 2024, to 5,156 employees as of December 31, 2025.",
+          "We expect significant component shortages that may impact our server supply chain during the current year, particularly in memory products such as Dual In-line Memory Modules (DIMMs), as well as enterprise Solid State Drives (SSDs), Central Processing Units (CPUs), and high-capacity Hard Disk Drives (HDDs).",
+          "A significant part of our business strategy is to focus on long-term growth and to reinvest our cash flow from operations into our business, including the expansion of our global network, the development of new products and features, the expansion of our global workforce, and the potential acquisition of complementary businesses."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000141",
+        "filingDate": "2025-10-30",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/cloud-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 562.027,
+        "netIncome": -1.29,
+        "operatingCashFlow": 412.703,
+        "freeCashFlow": 160.618,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 644.878,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe Middle East Africa": 27,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 251.585,
+        "capexGrowth": 124.7,
+        "partnerships": [
+          "JD Cloud for China network presence"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR, OFAC)",
+          "Voluntary self-disclosure to OFAC regarding potential sanctions violations remains under review",
+          "Privacy and data protection regulations",
+          "AI regulatory compliance requirements",
+          "Geopolitical tensions affecting operations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q3 2025 revenue of $562.0M (30.7% YoY growth) but posted a net loss of $1.3M despite strong operating cash flow of $412.7M and healthy deferred revenue of $644.9M. The company achieved near-breakeven profitability in Q3 while significantly scaling capex investments to $251.6M (up 124.7% YoY), indicating aggressive network infrastructure expansion. Channel partner revenue grew to 27% of total revenue, suggesting successful partner-driven growth diversification.",
+        "keyQuotes": [
+          "The Company is not aware of any specific event or circumstance that would require an update to its estimates or assumptions or a revision of the carrying value of its assets or liabilities as of the date of issuance of this Quarterly Report on Form 10-Q.",
+          "As of September 30, 2025, the aggregate amount of the transaction price allocated to remaining performance obligations was $2,143.1 million. As of September 30, 2025, the Company expected to recognize 64% of its remaining performance obligations as revenue over the next 12 months with the remainder recognized thereafter.",
+          "For the nine months ended September 30, 2025, the Company recognized revenue of $433.5 million, that was included in the corresponding contract liability balance at the beginning of the period presented."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000137",
+        "filingDate": "2025-07-31",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000137/cloud-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
+        "revenue": 512.316,
+        "netIncome": -50.446,
+        "operatingCashFlow": 245.58,
+        "freeCashFlow": 85.947,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 582.503,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 159.433,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud for network presence in China"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "OFAC voluntary self-disclosure under review regarding potential violations of U.S. economic sanctions laws",
+          "Export control and encryption regulations under EAR",
+          "Potential penalties for export control violations and sanctions law non-compliance"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q2 2025 revenue of $512.3 million, up 28% YoY, but posted a net loss of $50.4 million as operating expenses grew faster than revenue. The company raised $2 billion in convertible notes in June 2025 and maintains a strong balance sheet with $1.5 billion in cash, though cash flow from operations of $245.6 million shows the business can generate positive operating cash flow. Management provided no forward guidance in this 10-Q filing, maintaining a cautious tone regarding macroeconomic and geopolitical uncertainties.",
+        "keyQuotes": [
+          "We have based the forward-looking statements contained in this Quarterly Report on Form 10-Q primarily on our current expectations and projections about future events and trends that we believe may affect our business, financial condition, results of operations, and prospects.",
+          "Due in part to the conflicts in the Middle East and Ukraine, the potential worsening and expansion of such conflicts, and other macroeconomic and geopolitical conditions, there is ongoing uncertainty and significant disruption in the global economy and financial markets.",
+          "The Company is not aware of any specific event or circumstance that would require an update to its estimates or assumptions or a revision of the carrying value of its assets or liabilities as of the date of issuance of this Quarterly Report on Form 10-Q."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000082",
+        "filingDate": "2025-05-08",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000082/cloud-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 479.087,
+        "netIncome": -38.454,
+        "operatingCashFlow": 145.784,
+        "freeCashFlow": 52.867,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 535.649,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 49,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 15,
+          "Other": 8
+        },
+        "capexAmount": 92.917,
+        "capexGrowth": 168.6,
+        "partnerships": [
+          "JD Cloud partnership for China network presence"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "OFAC voluntary self-disclosure regarding potential violations of U.S. economic sanctions laws",
+          "Bureau of Industry and Security voluntary self-disclosure regarding export control compliance",
+          "U.S. export control and sanctions laws compliance requirements",
+          "Encryption import/export restrictions across multiple countries",
+          "Data protection and privacy regulation compliance across jurisdictions"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q1 2025 revenue of $479.1M (up 26.6% YoY) with net loss of $38.5M, demonstrating continued growth but persistent unprofitability. Operating cash flow was strong at $145.8M, though capital expenditures surged 168.6% to $92.9M as the company invests in network infrastructure. Geographic diversification improved with Asia Pacific revenue growth to 15% of total.",
+        "keyQuotes": [
+          "As of March 31, 2025, the aggregate amount of the transaction price allocated to remaining performance obligations was $1,864.2 million. As of March 31, 2025, the Company expected to recognize 66% of its remaining performance obligations as revenue over the next 12 months",
+          "The voluntary self-disclosure to OFAC remains under review. If the Company is found to be in violation of U.S. economic sanctions or export control laws, it could result in substantial fines and penalties",
+          "Our forward-looking statements do not reflect the potential impact of any future acquisitions, mergers, dispositions, joint ventures, or investments we may make"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-25-000043",
+        "filingDate": "2025-02-20",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000043/cloud-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 459.94600000000014,
+        "netIncome": -12.847999999999999,
+        "operatingCashFlow": 681.7,
+        "freeCashFlow": 389.9,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 969.8,
+        "marketShareMention": "Cloudflare is expanding market share through increased sales efforts targeting large enterprise customers; competitive position faces pressure from larger companies entering cloud security markets",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 49,
+          "united_states": 51
+        },
+        "capexAmount": 314.3,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud (China operations, agreement through March 2026)",
+          "ISP partners and co-location facility providers globally",
+          "Value-added channel partners",
+          "Systems integrators",
+          "Managed security service providers",
+          "Global platform providers"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "GDPR and EU data protection regulations",
+          "Digital Services Act and Digital Markets Act (EU)",
+          "NIS2 Cybersecurity Directive",
+          "EU Digital Operational Resiliency Act",
+          "FedRAMP certification requirements",
+          "HIPAA, Gramm-Leach-Bliley Act, CCPA compliance",
+          "UK Online Safety Bill",
+          "Australian online harms legislation",
+          "Indian Digital India Act",
+          "Export controls and trade sanctions",
+          "FCPA and anti-bribery laws"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered full-year 2024 revenue of $3.3 billion and net income of $347 million, demonstrating profitability achievement. The company continues expanding headcount (to 4,263 employees) and investing in sales infrastructure targeting larger enterprise customers, though management acknowledges lengthening sales cycles and productivity challenges among newer sales personnel. The 10-K emphasizes extensive risk factors across cybersecurity, regulatory compliance, international operations, and competitive pressures, with particular concerns about data localization requirements, geopolitical tensions, and complex regulatory landscapes.",
+        "keyQuotes": [
+          "A substantial majority of our revenue in the year ended December 31, 2024 was from contracted customers that were acquired through our inside and field sales teams, and we expect our sales teams to continue generating the majority of our revenue for the foreseeable future.",
+          "Since the first half of 2022, however, we have experienced periodic lengthening of our average sales cycle for our new and existing large customers, and the lengthening of our sales cycle to our large customers could continue in the future.",
+          "Our growth has placed, and future growth will continue to place, a significant strain on our management and our administrative, operational, and financial infrastructure."
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000085",
+        "filingDate": "2024-11-07",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000085/cloud-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 430.082,
+        "netIncome": -15.331,
+        "operatingCashFlow": 253.121,
+        "freeCashFlow": 119.161,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 411.785,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe_Middle_East_Africa": 28,
+          "Asia_Pacific": 14,
+          "Other": 8
+        },
+        "capexAmount": 133.96,
+        "capexGrowth": null,
+        "partnerships": [
+          "JD Cloud (China network presence)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR and OFAC)",
+          "Pending OFAC voluntary self-disclosure review",
+          "Various country-specific encryption import regulations",
+          "Data protection and privacy compliance requirements"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare generated Q3 2024 revenue of $430.1 million (28% YoY growth) with a modest net loss of $15.3 million, demonstrating improving unit economics but continued path to profitability. Strong operating cash flow of $253.1 million for the nine-month period signals healthy cash generation despite ongoing operating losses, with deferred revenue of $411.8 million providing visibility. The company faces regulatory headwinds including pending OFAC reviews and export control compliance matters, though management maintained neutral outlook with no new guidance provided.",
+        "keyQuotes": [
+          "The Company's network serves as a scalable, easy-to-use, unified control plane to deliver security, performance, and reliability across on-premises, hybrid, cloud, and software-as-a-service (SaaS) applications.",
+          "The Company has submitted to OFAC and to the Bureau of Industry and Security a voluntary self-disclosure concerning potential violations...the voluntary self-disclosure to OFAC remains under review.",
+          "For the nine months ended September 30, 2024, the Company recognized revenue of $330.5 million, that was included in the corresponding contract liability balance at the beginning of the periods presented."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000070",
+        "filingDate": "2024-08-01",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000070/cloud-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 400.996,
+        "netIncome": -15.078,
+        "operatingCashFlow": 148.4,
+        "freeCashFlow": 73.5,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 394.5,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 51,
+          "Europe_Middle_East_Africa": 28,
+          "Asia_Pacific": 13,
+          "Other": 8
+        },
+        "capexAmount": 74.5,
+        "capexGrowth": 7.3,
+        "partnerships": [
+          "JD Cloud (China network presence partnership)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR/OFAC)",
+          "Encryption import regulations in various countries",
+          "Privacy and data protection regulations globally",
+          "Voluntary self-disclosures regarding potential violations under review"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered Q2 2024 revenue of $401.0 million (30% YoY growth) but reported a net loss of $15.1 million despite strong gross margins of 77.8%. The company generated solid operating cash flow of $148.4 million and free cash flow of $73.5 million, reflecting improving operational efficiency. Management maintains a cautious tone with no forward guidance provided in the 10-Q, citing geopolitical uncertainties and macroeconomic headwinds as ongoing concerns.",
+        "keyQuotes": [
+          "We have a history of net losses and may not be able to achieve or sustain profitability in the future.",
+          "The Hamas-Israel and Russia-Ukraine conflicts and other areas of geopolitical tension around the world...may materially adversely affect our customers, vendors, and partners.",
+          "As of June 30, 2024, the aggregate amount of the transaction price allocated to remaining performance obligations was $1,421.0 million, with 69% expected to be recognized as revenue over the next 12 months."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-24-000050",
+        "filingDate": "2024-05-02",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733324000050/cloud-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 378.602,
+        "netIncome": -35.543,
+        "operatingCashFlow": 73.579,
+        "freeCashFlow": 35.607,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 373.888,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 52,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 12,
+          "Other": 8
+        },
+        "capexAmount": 37.972,
+        "capexGrowth": 116.5,
+        "partnerships": [
+          "JD Cloud for China network presence"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR, OFAC)",
+          "Voluntary self-disclosure to OFAC pending review for potential sanctions violations",
+          "Various countries' encryption technology restrictions",
+          "Privacy and data protection regulations globally"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare delivered Q1 2024 revenue of $378.6M (30.5% YoY growth) with improved operating cash flow of $73.6M, though the company remains unprofitable with net loss of $35.5M. The company continues investing heavily in capex (up 116.5% YoY) and R&D while managing customer retention, but faces regulatory headwinds related to export controls and sanctions compliance.",
+        "keyQuotes": [
+          "Our business model benefits from our ability to serve the needs of all customers ranging from individual developers to the largest enterprises, in a cost-effective manner.",
+          "Given the large customer base we have and the immense amount of Internet traffic that we manage, we are able to negotiate mutually beneficial agreements with Internet service providers (ISPs) that allow us to place our equipment directly in their data centers.",
+          "The Company submitted to OFAC and to the Bureau of Industry and Security a voluntary self-disclosure concerning potential violations, and the Company has submitted a voluntary self-disclosure to the Census Bureau regarding potential violations of the Foreign Trade Regulations."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-23-000064",
+        "filingDate": "2023-11-02",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000064/cloud-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 335.603,
+        "netIncome": -23.535,
+        "operatingCashFlow": 168.965,
+        "freeCashFlow": 68.748,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 311.454,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 52,
+          "Europe, Middle East, and Africa": 28,
+          "Asia Pacific": 13,
+          "Other": 7
+        },
+        "capexAmount": 100.217,
+        "capexGrowth": -3.1,
+        "partnerships": [
+          "JD Cloud (China network presence)",
+          "Co-location and ISP partnerships globally"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR, OFAC)",
+          "Voluntary self-disclosure to OFAC pending review regarding potential sanctions violations",
+          "Privacy and data protection regulations globally",
+          "Encryption technology import/export restrictions by various countries"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare achieved Q3 2023 revenue of $335.6M (32.2% YoY growth) with improving operational efficiency as operating cash flow reached $169.0M for the nine-month period. However, the company remained unprofitable with a net loss of $23.5M in Q3, though losses narrowed sequentially, and the company actively managed its convertible debt by repurchasing and settling $158.4M of 2025 Notes during the period.",
+        "keyQuotes": [
+          "The Company's business depends on the ability to retain and upgrade paying customers, expand the numbers of products sold to paying customers, and convert free customers to paying customers.",
+          "The Hamas-Israel and Russia-Ukraine conflicts, other areas of geopolitical tension around the world, or the worsening of those conflicts or tensions, and any related challenging macroeconomic conditions globally may materially adversely affect our customers, vendors, and partners.",
+          "Remaining performance obligations as of September 30, 2023, the aggregate amount was $1,083.0 million, with 75% expected to be recognized as revenue over the next 12 months."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001477333-23-000056",
+        "filingDate": "2023-08-03",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000056/cloud-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 308.494,
+        "netIncome": -94.467,
+        "operatingCashFlow": 100.865,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 267.979,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 53,
+          "EMEA": 27,
+          "Asia Pacific": 13,
+          "Other": 7
+        },
+        "capexAmount": 67,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "U.S. export control and sanctions laws (EAR)",
+          "OFAC economic sanctions regulations",
+          "Encryption technology import restrictions across various countries",
+          "Data protection and privacy regulations globally"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Cloudflare reported Q2 2023 revenue of $308.5 million (+31% YoY) with net loss of $94.5 million, reflecting ongoing investment phase with improving cash flow ($100.9M operating cash flow). The company incurred a $50.3 million loss on debt extinguishment from early repurchase of 2025 convertible notes, indicating active capital management amid convertible note maturity concerns.",
+        "keyQuotes": [
+          "As of June 30, 2023, the aggregate amount of the transaction price allocated to remaining performance obligations was $1,036.2 million",
+          "In May 2023, the Company repurchased $123.0 million principal amount of the 2025 Notes for $172.7 million in cash",
+          "For the six months ended June 30, 2023, the Company recognized revenue of $169.7 million that was included in the corresponding contract liability balance at the beginning of the periods presented"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:22:30.261Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-08-05T19:07:27.267Z"
 }
