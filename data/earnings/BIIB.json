@@ -12,6 +12,244 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0000875045-26-000075",
+        "filingDate": "2026-07-29",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000075/biib-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 2736,
+        "netIncome": 97.5,
+        "operatingCashFlow": 1094.4,
+        "freeCashFlow": 1002.3,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 57.3,
+        "geographicBreakdown": {
+          "United_States": 54.6,
+          "Rest_of_World": 45.4
+        },
+        "capexAmount": 92.1,
+        "capexGrowth": 44.5,
+        "partnerships": [
+          "Eisai (LEQEMBI collaboration for Alzheimer's disease)",
+          "Genentech/Roche (anti-CD20 therapeutic programs including OCREVUS, RITUXAN, GAZYVA, LUNSUMIO, COLUMVI)",
+          "Supernus (ZURZUVAE commercialization for postpartum depression)",
+          "Samsung Bioepis (biosimilar royalty arrangements)",
+          "Sobi (ASPAVELI sales outside U.S. - inherited from Apellis acquisition)",
+          "TJ Biopharma (felzartamab rights in greater China region)",
+          "Roche",
+          "Genentech",
+          "Sobi",
+          "TJ Pharma"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "IRA Medicare Part D redesign impacts",
+          "MFN drug pricing policy implementation",
+          "Increased competition from generic versions of TECFIDERA and biosimilar entrants of TYSABRI",
+          "Potential changes to reimbursement policies and coverage determinations",
+          "U.S. tariff uncertainties and potential trade restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Biogen reported Q2 2026 revenue of $2,736.0 million (+3.4% YoY) and net income of $97.5 million (-84.6% YoY), heavily impacted by the May 2026 Apellis acquisition which added SYFOVRE and EMPAVELI products and triggered $153.2 million in restructuring charges. Core business showed modest growth with LEQEMBI collaboration revenue (+16.0%) and strong momentum in rare disease (SPINRAZA, SKYCLARYS) offsetting MS product declines, while $5.4 billion Apellis deal and ongoing cost reduction initiatives signal strategic pivot toward specialized immunology and rare disease markets.",
+        "keyQuotes": [
+          "The addition of Apellis is expected to enhance our short- and long-term revenue growth profile by adding two commercialized, differentiated, specialized immunology products to our growth portfolio.",
+          "We implemented an integration plan designed to realize operating synergies through cost savings and avoidance following the closing of the Apellis acquisition.",
+          "Our long-term competitive position depends upon our success in discovering and developing innovative, cost-effective products that serve unmet medical needs, along with our ability to manufacture products efficiently and to launch and market them effectively in a highly competitive environment."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": null,
+          "netIncomeScore": null,
+          "priceActionScore": null,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-26-000045",
+        "filingDate": "2026-04-29",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000045/biib-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 2477.8,
+        "netIncome": 319.5,
+        "operatingCashFlow": 645.5,
+        "freeCashFlow": 594.3,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 42,
+        "geographicBreakdown": {
+          "United States": 33.8,
+          "Rest of World": 66.2
+        },
+        "capexAmount": 51.2,
+        "capexGrowth": 38,
+        "partnerships": [
+          "Eisai - LEQEMBI collaboration",
+          "Genentech - anti-CD20 therapeutic programs (OCREVUS, RITUXAN, GAZYVA, LUNSUMIO, COLUMVI)",
+          "Supernus - ZURZUVAE collaboration",
+          "Samsung Bioepis - biosimilar licensing",
+          "TJ Biopharma - felzartamab licensing",
+          "Proposed acquisition of Apellis Pharmaceuticals (SYFOVRE, EMPAVELI)",
+          "Alcyone Therapeutics acquisition (ThecaFlex DRx)",
+          "Roche",
+          "Genentech"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Medicare Part D redesign under IRA",
+          "MFN drug pricing policy",
+          "Potential generic competition in TECFIDERA",
+          "Biosimilar competition for TYSABRI",
+          "Healthcare reform and pricing pressure",
+          "Reimbursement uncertainties"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Biogen delivered Q1 2026 revenue of $2.48B (up 1.9% YoY) with net income of $319.5M (up 32.7% YoY), driven by strong LEQEMBI collaboration revenue growth and SKYCLARYS momentum offsetting TECFIDERA and SPINRAZA declines. The company maintains a balanced portfolio with solid cash generation ($645.5M operating cash flow) and strategic growth investments, including the proposed $5.6B Apellis acquisition and ongoing clinical development of felzartamab, though management provided no forward guidance in this 10-Q filing. The tone is cautiously optimistic regarding pipeline progression and geographic diversification, with headcount stable following prior cost-cutting measures.",
+        "keyQuotes": [
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
+          "The addition of Apellis is expected to enhance our short- and long-term revenue growth profile by adding two commercialized differentiated immunology and rare disease medicines to our growth portfolio.",
+          "We support our drug discovery and development efforts through internal research and development programs, external collaborations and acquisitions."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 63,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000875045-26-000013",
+        "filingDate": "2026-02-06",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000013/biib-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "stable",
+        "revenue": 2279.4000000000005,
+        "netIncome": -48.899999999999864,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "TECFIDERA facing significant generic competition with deeply discounted prices; RITUXAN biosimilar competition has had significant adverse impact; TYSABRI biosimilar approved in U.S. and E.U. in 2023; MS market intensely competitive with competitors gaining market share",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Eisai - LEQEMBI co-development and co-commercialization",
+          "Supernus - ZURZUVAE joint development and commercialization",
+          "Genentech - RITUXAN, RITUXAN HYCELA, GAZYVA, OCREVUS, LUNSUMIO, COLUMVI",
+          "UCB - dapirolizumab pegol development and commercialization",
+          "Ionis - SPINRAZA, QALSODY, BIIB115, BIIB080",
+          "Denali - BIIB122 LRRK2 inhibitor",
+          "Stoke - zorevunersen (SCN1A ASO)",
+          "Samsung Bioepis - BENEPALI, IMRALDI, FLIXABI biosimilars",
+          "Samsung",
+          "Ionis Pharmaceuticals",
+          "Roche"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Inflation Reduction Act (IRA) drug pricing controls and Medicare negotiation beginning 2026",
+          "Medicare Part D redesign with $2,000 out-of-pocket cap",
+          "Medicaid rebate program requirements",
+          "340B pricing discounts",
+          "Federal agency discounted pricing (FSS)",
+          "OBBBA healthcare reform with potential Medicaid changes",
+          "EU Medical Devices Regulations",
+          "Clinical trial reporting and transparency requirements",
+          "GDPR data privacy regulations",
+          "FCPA and UK Bribery Act compliance",
+          "Post-marketing safety monitoring and REMS requirements"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Biogen reported full-year 2025 revenue of $8,507 million and net income of $1,456 million from its 10-K annual report. The company faces intense competitive pressure with significant revenue headwinds from generic and biosimilar competition across key products (TECFIDERA, RITUXAN, TYSABRI), pricing pressures from healthcare reform including the IRA and OBBBA, and ongoing regulatory and reimbursement challenges. Management tone is defensive, emphasizing extensive risk disclosures around market competition, pricing pressure, regulatory changes, and execution risks on new product launches like LEQEMBI and SKYCLARYS.",
+        "keyQuotes": [
+          "The generic competition for TECFIDERA has significantly reduced our TECFIDERA revenue and we expect that TECFIDERA revenue will continue to decline.",
+          "Biosimilar products referencing RITUXAN are available in the U.S and are being offered at lower prices. This competition has had a significant adverse impact on the pre-tax profits of our collaboration arrangements with Genentech.",
+          "Our ability to set the price for our products varies significantly from country to country... Governments may use a variety of cost-containment measures to control the cost of products, including price cuts, mandatory rebates, value-based pricing and reference pricing."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 43,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0000875045-25-000049",
         "filingDate": "2025-10-30",
         "reportDate": "2025-09-30",
@@ -19,54 +257,60 @@
         "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000049/biib-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2534.7,
         "netIncome": 466.5,
         "operatingCashFlow": 1692.7,
-        "freeCashFlow": null,
+        "freeCashFlow": 1582.8,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 43.8,
         "geographicBreakdown": {
-          "US": 50.7,
-          "RestOfWorld": 49.3
+          "United States": 36.9,
+          "Rest of World": 63.1
         },
         "capexAmount": 109.9,
-        "capexGrowth": null,
+        "capexGrowth": -3.9,
         "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (anti-CD20 programs)",
-          "Supernus (ZURZUVAE)",
+          "Eisai - LEQEMBI Alzheimer's collaboration",
+          "Genentech - Anti-CD20 therapeutic programs (OCREVUS, RITUXAN, GAZYVA, LUNSUMIO, COLUMVI)",
+          "Supernus - ZURZUVAE (postpartum depression) commercialization",
+          "Samsung Bioepis - Biosimilar royalty arrangements",
+          "City Therapeutics - Convertible note investment",
+          "MorphoSys - Felzartamab in-license commitments",
           "Samsung",
-          "Human Immunology Biosciences",
-          "Ionis Pharmaceuticals",
-          "Alcyone Therapeutics"
+          "Ionis Pharmaceuticals"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Inflation Reduction Act impacts",
-          "Medicare Part D redesign"
+          "TECFIDERA generic competition in U.S. and international markets",
+          "TYSABRI biosimilar entrant competition",
+          "IRA Medicare Part D redesign impact",
+          "MFN drug pricing policy",
+          "GAZYVA approval for lupus nephritis (October 2025)",
+          "Potential tariffs and trade restrictions on pharmaceutical products"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered stable quarterly performance with modest growth in key MS and rare disease franchises. The company continues its strategic restructuring program and is making selective investments in pipeline and AI technologies while managing expenses.",
+        "summary": "Biogen reported Q3 2025 revenue of $2,534.7 million, up 2.8% YoY, with net income of $466.5 million (+20.0% YoY). Strong cash generation with operating cash flow of $1,692.7 million for nine months, though management is executing cost-reduction initiatives (Fit for Growth program targeting $1.0 billion in savings by end-2025) and reducing headcount by approximately 1,400 employees. The company is progressing with strategic acquisitions (HI-Bio's felzartamab, pending Alcyone deal) but facing headwinds from generic competition, biosimilar pressure, and healthcare pricing reforms.",
         "keyQuotes": [
-          "We remain focused on our long-term strategy of discovering and developing innovative therapies for serious and complex diseases.",
-          "Our Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025."
+          "We initiated cost saving measures as part of our Fit for Growth program to reduce operating costs, while improving operating efficiency and effectiveness. The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025.",
+          "Our incorporation of technologies using AI into some of our processes represents ongoing strategic investment in our operations.",
+          "We face potential impacts from increased competition from new originator therapies, generics, prodrugs and biosimilars of existing products, including but not limited to increased competition from TECFIDERA generic entrants and a biosimilar entrant of TYSABRI."
         ],
         "marketData": {
-          "managementToneScore": 45,
+          "managementToneScore": 50,
           "revenueGrowthScore": 58,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 61,
+          "compositeSentimentScore": 62,
           "compositeSentiment": "bullish"
         }
       },
@@ -91,51 +335,58 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2645.5,
         "netIncome": 634.8,
         "operatingCashFlow": 420.2,
-        "freeCashFlow": null,
+        "freeCashFlow": 356.5,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": 43.9,
+        "marketShareMention": "competitive environment with increased competition from generics, biosimilars, and new products including TECFIDERA generic entrants and TYSABRI biosimilar",
+        "customerConcentration": 44,
         "geographicBreakdown": {
-          "US": 50.1,
-          "RestOfWorld": 49.9
+          "United States": 35.6,
+          "Rest_of_World": 64.4
         },
         "capexAmount": 63.7,
-        "capexGrowth": null,
+        "capexGrowth": -19.8,
         "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (anti-CD20 therapies)",
-          "Sage (ZURZUVAE)",
-          "HI-Bio acquisition",
-          "Samsung"
+          "Eisai collaboration on LEQEMBI commercialization",
+          "Sage Therapeutics collaboration on ZURZUVAE commercialization",
+          "Genentech collaboration on anti-CD20 therapeutic programs",
+          "Samsung Bioepis license arrangements",
+          "MorphoSys in-license arrangements for felzartamab",
+          "City Therapeutics strategic research arrangement",
+          "Samsung",
+          "Ionis Pharmaceuticals"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Potential IRA Medicare pricing impact",
-          "Generic/biosimilar competition"
+          "IRA Medicare Part D redesign impact",
+          "Increased pricing pressure and reimbursement challenges",
+          "Generic and biosimilar competition for key products",
+          "Regulatory approvals required for pipeline programs",
+          "Patent term and exclusivity considerations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered stable quarterly performance with modest revenue of $1.88B and net income of $634.8M. The company continues to focus on cost reduction via its Fit for Growth program while making strategic investments in pipeline and emerging technologies.",
+        "summary": "Biogen reported Q2 2025 revenue of $2,645.5 million and net income of $634.8 million, showing modest growth as product revenue remained relatively flat while collaboration revenues grew substantially, particularly LEQEMBI collaboration revenue which increased 365% YoY. The company continues executing cost reduction initiatives with $300 million in cumulative Fit for Growth restructuring charges through June 2025, reducing headcount by approximately 1,400 employees, though operating cash flow declined significantly to $420.2 million from $1,179.0 million in the prior year due to working capital changes and tax payments.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases",
-          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+          "our long-term competitive position depends upon our success in discovering and developing innovative, cost-effective products that serve unmet medical needs, along with our ability to manufacture products efficiently and to launch and market them effectively in a highly competitive environment",
+          "the Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025, some of which will be reinvested in various initiatives",
+          "During the second quarter of 2025 the first milestone related to the fourth patient dosed in a phase 3 clinical trial of felzartamab for AMR was achieved, resulting in a $150.0 million milestone payment"
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 66,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 70,
+          "compositeSentimentScore": 66,
           "compositeSentiment": "bullish"
         }
       },
@@ -159,53 +410,56 @@
         "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000018/biib-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2431,
         "netIncome": 240.5,
         "operatingCashFlow": 259.3,
-        "freeCashFlow": null,
+        "freeCashFlow": 222.2,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
-        "customerConcentration": 39.9,
+        "customerConcentration": 40,
         "geographicBreakdown": {
-          "US": 30.9,
-          "RestOfWorld": 69.1
+          "United States": 31,
+          "RestOfWorld": 69
         },
         "capexAmount": 37.1,
-        "capexGrowth": null,
+        "capexGrowth": -19.4,
         "partnerships": [
-          "Eisai (Alzheimer's collaboration)",
-          "Genentech (anti-CD20 therapeutic programs)",
-          "Samsung Bioepis (biosimilars)",
-          "HI-Bio (acquired in July 2024)",
-          "Samsung",
-          "Roche Group Genentech"
+          "Eisai collaboration on LEQEMBI (Alzheimer's disease)",
+          "Sage collaboration on ZURZUVAE (postpartum depression)",
+          "Genentech collaboration on anti-CD20 therapeutic programs",
+          "Samsung Bioepis royalty arrangements",
+          "MorphoSys licensing arrangement for felzartamab and izastobart"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Potential impact of IRA Medicare Part D redesign",
-          "Healthcare reform measures"
+          "TECFIDERA generic competition in U.S. and international markets",
+          "TYSABRI biosimilar competition",
+          "IRA Medicare Part D redesign impact on pricing",
+          "Potential tariffs and trade restrictions on products and operations",
+          "Generic and biosimilar competition risks"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered stable quarterly performance with revenue of $2.43B and net income of $240.5M, reflecting continued focus on cost management through its Fit for Growth program. The company maintains a cautious outlook amid ongoing restructuring and regulatory challenges.",
+        "summary": "Biogen reported Q1 2025 revenue of $2,431.0 million, up 6.1% YoY, with net income of $240.5 million, down 38.9% YoY due to $200.7 million in acquisition-related IPR&D charges and $35.3 million in restructuring costs. Strong performance in LEQEMBI collaboration revenue ($33.0M vs $2.8M) and contract manufacturing ($282.3M vs $152.2M) partially offset declines in core MS products like TECFIDERA and TYSABRI; the company is executing its Fit for Growth program targeting $1.0 billion in savings by end-2025 through 1,400 headcount reductions.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases",
-          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+          "We market the first and only drug approved in the U.S., the E.U. and certain international markets for the treatment of FA in adults and adolescents aged 16 years and older.",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025, some of which will be reinvested in various initiatives.",
+          "felzartamab has received Breakthrough Therapy Designation and ODD from the FDA for development in the treatment of PMN and AMR."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "revenueGrowthScore": 66,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 45,
+          "compositeSentimentScore": 50,
           "compositeSentiment": "neutral"
         }
       },
@@ -229,57 +483,62 @@
         "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504525000009/biib-20241231.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
-        "headcountTrend": "reducing",
+        "headcountTrend": "stable",
         "revenue": 2454.7,
-        "netIncome": 266.7,
+        "netIncome": 266.70000000000005,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Facing generic competition for TECFIDERA and TYSABRI",
+        "marketShareMention": "Multiple TECFIDERA generic entrants with deeply discounted prices have significantly reduced TECFIDERA revenue; TYSABRI biosimilar approved in U.S. and E.U. in 2023 expected to adversely affect future sales",
         "customerConcentration": null,
-        "geographicBreakdown": {
-          "US": null,
-          "Europe": null,
-          "Asia": null,
-          "Other": null
-        },
+        "geographicBreakdown": null,
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Sage (ZURZUVAE)",
-          "Genentech (anti-CD20 therapies)",
-          "Samsung Bioepis (biosimilars)",
+          "Eisai - LEQEMBI co-development and commercialization for Alzheimer's disease",
+          "Sage Therapeutics - ZURZUVAE co-development and commercialization for PPD",
+          "Ionis - ASO therapies including SPINRAZA for SMA and QALSODY for ALS",
+          "Genentech - Anti-CD20 therapies including RITUXAN, GAZYVA, OCREVUS, LUNSUMIO, COLUMVI",
+          "UCB - Dapirolizumab pegol for SLE",
+          "Denali - LRRK2 inhibitors for Parkinson's disease",
+          "Samsung Bioepis - Biosimilar commercialization (BENEPALI, IMRALDI, FLIXABI, BYOOVIZ, OPUVIZ)",
           "Samsung",
-          "Reata Pharmaceuticals",
           "Ionis Pharmaceuticals"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Drug pricing pressures",
-          "Increased regulatory scrutiny",
-          "Potential Medicare drug price negotiations"
+          "Inflation Reduction Act (IRA) provisions for drug price negotiation beginning 2026 for Part D and 2028 for Part B",
+          "Medicare Part D redesign with $2,000 out-of-pocket cap and manufacturer cost sharing up to 20% after cap",
+          "Medicaid Drug Rebate Program adjustments",
+          "Federal agency discounted pricing (FSS, VA, DoD)",
+          "340B Program pricing requirements",
+          "State price control measures and importation laws being considered",
+          "GDPR and CCPA data privacy regulations",
+          "FCPA and UK Bribery Act compliance requirements",
+          "Environmental disclosure requirements (E.U., California)",
+          "Complex biosimilar regulatory pathways"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Biogen faces significant headwinds from generic competition, challenging pricing environment, and ongoing strategic repositioning focused on neurology and specialized immunology.",
+        "summary": "Biogen reported full-year 2024 revenue of $11.66 billion and net income of $1.61 billion. The company faces significant headwinds from generic and biosimilar competition, pricing pressures from government regulation (particularly the IRA), and supply chain challenges tied to geopolitical tensions. Management's tone is defensive, heavily focused on risk enumeration across product portfolios, regulatory compliance, manufacturing capacity utilization, and competitive threats.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
-          "Multiple TECFIDERA generic entrants are now in North America, Brazil and certain European countries and have deeply discounted prices"
+          "Multiple TECFIDERA generic entrants are now in North America, Brazil and certain European countries and have deeply discounted prices compared to TECFIDERA. The generic competition for TECFIDERA has significantly reduced our TECFIDERA revenue and we expect that TECFIDERA revenue will continue to decline.",
+          "The ongoing geopolitical tensions related to Russia's invasion of Ukraine and the military conflict in the Middle East have resulted in global business disruptions and economic volatility.",
+          "We expect drug pricing and other health care costs to continue to be subject to intense political and societal pressures on a global basis."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 48,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 54,
+          "compositeSentimentScore": 55,
           "compositeSentiment": "neutral"
         }
       },
@@ -304,42 +563,49 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2465.8,
         "netIncome": 388.5,
         "operatingCashFlow": 2114.6,
-        "freeCashFlow": null,
+        "freeCashFlow": 2000.2,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 40.7,
         "geographicBreakdown": {
-          "unitedStates": 45.9,
-          "restOfWorld": 54.1
+          "united_states": 45.3,
+          "rest_of_world": 54.7
         },
         "capexAmount": 114.4,
-        "capexGrowth": null,
+        "capexGrowth": -46,
         "partnerships": [
-          "Genentech anti-CD20 therapeutic programs",
-          "Eisai LEQEMBI collaboration",
-          "Samsung Bioepis biosimilars",
+          "Eisai collaboration on LEQEMBI commercialization",
+          "Sage collaboration on ZURZUVAE commercialization",
+          "Genentech collaboration on anti-CD20 therapeutic programs",
+          "Samsung Bioepis biosimilar arrangement",
           "Samsung",
-          "Reata Pharmaceuticals Inc.",
-          "Ionis Pharmaceuticals Inc."
+          "Ionis Pharmaceuticals"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "IRA pricing impacts",
+          "Healthcare cost reduction measures globally",
+          "Biosimilar and generic competition",
+          "Patent expiration risks",
+          "Potential impacts from geopolitical tensions"
+        ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered steady quarterly performance with $1.77B in revenue and $388.5M net income. The company continues strategic restructuring efforts through its Fit for Growth program and recently completed the HI-Bio acquisition to strengthen its immunology pipeline.",
+        "summary": "Biogen reported Q3 2024 revenue of $2.47 billion and net income of $388.5 million, returning to profitability after a loss in Q3 2023, driven by strong performance from acquired products SKYCLARYS and new launches ZURZUVAE and TOFIDENCE. The company continues restructuring initiatives with $1.0 billion in gross operating savings targeted by end of 2025, completed the HI-Bio acquisition for felzartamab pipeline, and generated solid operating cash flow of $2.1 billion, though facing headwinds from biosimilar competition and pricing pressures.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
-          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025, some of which will be reinvested in various initiatives.",
+          "We completed the acquisition of all of the issued and outstanding shares of HI-Bio, a privately-held clinical-stage biotechnology company focused on targeted therapies for patients with severe immune-mediated diseases.",
+          "These forward-looking statements involve risks and uncertainties...that could cause actual results to differ materially from those reflected in such statements."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -371,43 +637,47 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2464.9,
         "netIncome": 583.6,
         "operatingCashFlow": 1179,
-        "freeCashFlow": null,
+        "freeCashFlow": 1099.6,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 37.7,
         "geographicBreakdown": {
-          "US": 34.4,
-          "RestOfWorld": 65.6
+          "United States": 34.4,
+          "Rest of World": 65.6
         },
         "capexAmount": 79.4,
-        "capexGrowth": null,
+        "capexGrowth": -42.3,
         "partnerships": [
-          "Eisai - LEQEMBI collaboration",
-          "Genentech - Anti-CD20 therapeutic programs",
-          "Samsung Bioepis - Biosimilars",
+          "Eisai collaboration on LEQEMBI",
+          "Sage collaboration on ZURZUVAE",
+          "Genentech anti-CD20 therapeutic programs collaboration",
+          "Samsung Bioepis biosimilar license arrangements",
           "Samsung",
-          "Ionis Pharmaceuticals",
-          "Reata Pharmaceuticals",
-          "Human Immunology Biosciences"
+          "Ionis Pharmaceuticals"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "IRA pricing pressures",
+          "Healthcare reform impacts",
+          "Global pricing reduction measures"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered stable quarterly performance with modest revenue growth. The company continues its cost reduction efforts through the Fit for Growth program while maintaining a diversified portfolio across multiple therapeutic areas.",
+        "summary": "Biogen reported Q2 2024 revenue of $2,465M (flat YoY) and net income of $584M, with modest growth offset by portfolio pressures in MS products and integration costs. The company is executing cost reduction initiatives (Fit for Growth targeting $1B savings by end of 2025) while investing in pipeline expansion through acquisitions of HI-Bio and Reata, with new product launches (SKYCLARYS, ZURZUVAE) gaining traction. Operating cash flow remained strong at $1,179M for H1 2024, but significant restructuring charges and R&D investments signal defensive positioning amid competitive and regulatory headwinds.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
-          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025"
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025",
+          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases",
+          "SKYCLARYS received E.U. regulatory approval in February 2024 and became commercially available in certain countries in Europe"
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -439,42 +709,49 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2290.5,
         "netIncome": 393.4,
         "operatingCashFlow": 553.2,
-        "freeCashFlow": null,
+        "freeCashFlow": 507.3,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 37.3,
         "geographicBreakdown": {
-          "US": 43.6,
-          "RestOfWorld": 56.4
+          "United States": 32.6,
+          "Rest of World": 67.4
         },
         "capexAmount": 45.9,
-        "capexGrowth": null,
+        "capexGrowth": -31.1,
         "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (anti-CD20 therapies)",
-          "Sage (ZURZUVAE)",
+          "Eisai - LEQEMBI commercialization collaboration",
+          "Sage - ZURZUVAE commercialization collaboration",
+          "Genentech/Roche - anti-CD20 therapeutic programs (OCREVUS, RITUXAN, GAZYVA, LUNSUMIO, COLUMVI)",
+          "Samsung Bioepis - biosimilar license arrangements",
+          "Ionis Pharmaceuticals - QALSODY development and commercialization",
           "Samsung",
-          "Roche",
-          "Reata Pharmaceuticals"
+          "Roche"
         ],
         "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [],
+        "regulatoryHeadwinds": [
+          "IRA pricing actions and reimbursement pressures",
+          "Healthcare reform and cost containment measures globally",
+          "Patent and intellectual property litigation risks",
+          "Biosimilar and generic competition threats"
+        ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen delivered stable financial performance in Q1 2024, with modest revenue decline offset by cost management efforts. The company continues strategic focus on neurology and rare disease therapies while implementing cost reduction initiatives.",
+        "summary": "Biogen reported Q1 2024 revenue of $2,290.5 million, down 7% YoY, with net income of $393.4 million, essentially flat. The decline was driven by product revenue headwinds (particularly TYSABRI and SPINRAZA) and lower contract manufacturing revenue, partially offset by strong new product launches including SKYCLARYS ($78.0M) and QALSODY ($4.6M). Operating cash flow of $553.2 million remained robust. The company is executing its Fit for Growth restructuring program targeting $1.0 billion in savings by end of 2025 with approximately 1,000 headcount reductions, while managing integration of the Reata acquisition completed in September 2023.",
         "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
-          "We initiated additional cost saving measures as part of our Fit for Growth program to reduce operating costs"
+          "We have a broad portfolio of medicines to treat MS, have introduced the first approved treatment for SMA, co-developed treatments to address a defining pathology of Alzheimer's disease and launched the first approved treatment to target a genetic cause of ALS.",
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by the end of 2025, some of which will be reinvested in various initiatives.",
+          "SKYCLARYS was approved and became commercially available in the E.U. during the first quarter of 2024."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -498,74 +775,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0000875045-24-000009",
-        "filingDate": "2024-02-14",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504524000009/biib-20231231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 2386.3,
-        "netIncome": 249.7,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Facing significant generic competition for TECFIDERA",
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": 195,
-        "capexGrowth": null,
-        "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Sage (ZURZUVAE)",
-          "Genentech (anti-CD20 therapies)",
-          "Samsung",
-          "Roche Group Genentech",
-          "Eisai",
-          "Reata Pharmaceuticals"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Potential drug price negotiations under Inflation Reduction Act",
-          "Complex international regulatory environments"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Biogen is experiencing significant revenue pressures from generic competition, particularly for TECFIDERA. The company is exploring strategic options and focusing on new product launches like LEQEMBI and SKYCLARYS while managing manufacturing capacity challenges.",
-        "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, specialized immunology and rare diseases.",
-          "The generic competition for TECFIDERA has significantly reduced our TECFIDERA revenue and we expect that TECFIDERA revenue will continue to decline in the future."
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 38,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 29,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0000875045-23-000038",
         "filingDate": "2023-11-08",
         "reportDate": "2023-09-30",
@@ -573,51 +782,59 @@
         "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000038/biib-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 2530.3,
         "netIncome": -68.1,
         "operatingCashFlow": 1534.7,
-        "freeCashFlow": null,
+        "freeCashFlow": 1322.9,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": 37.4,
         "geographicBreakdown": {
-          "US": 44,
-          "RestOfWorld": 56
+          "United States": 31.2,
+          "Rest of World": 40.1,
+          "Anti-CD20 programs": 16.6,
+          "Contract manufacturing and other": 12
         },
         "capexAmount": 211.8,
-        "capexGrowth": null,
+        "capexGrowth": 37.5,
         "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (anti-CD20 therapies)",
-          "Sage Therapeutics (ZURZUVAE)",
-          "Samsung"
+          "Eisai (LEQEMBI co-development and commercialization)",
+          "Sage Therapeutics (ZURZUVAE co-commercialization)",
+          "Genentech (anti-CD20 therapeutic programs collaboration)",
+          "Samsung Bioepis (royalty arrangement)",
+          "Ionis Pharmaceuticals (SPINRAZA)",
+          "Sangamo Therapeutics (investment)",
+          "Samsung",
+          "Reata Pharmaceuticals"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Inflation Reduction Act pricing pressures",
-          "Medicare/Medicaid reimbursement challenges"
+          "IRA pricing provisions impact on future revenues",
+          "Ongoing pricing pressure and healthcare cost containment measures worldwide",
+          "Regulatory uncertainty around Alzheimer's disease therapies and biosimilars"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Biogen experienced revenue decline and a quarterly net loss, driven by challenges in multiple sclerosis franchise and ongoing restructuring. The company completed the Reata acquisition, adding Friedreich's Ataxia treatment SKYCLARYS, and continues cost reduction initiatives.",
+        "summary": "Biogen reported Q3 2023 revenue of $2.53 billion (flat YoY) with a net loss of $68.1 million, primarily driven by a $300 million loss on strategic investments and $120 million in restructuring charges related to the 2023 Fit for Growth program and Reata integration. The company completed a transformative $6.6 billion acquisition of Reata (SKYCLARYS for Friedreich's Ataxia) in late September, funded through cash and a $1.0 billion term loan, while navigating ongoing product declines in legacy MS therapies offset partially by growth in SPINRAZA and newly launched products (LEQEMBI, ZURZUVAE, QALSODY). Operating cash flow remained healthy at $1.53 billion, but the company is in a restructuring phase with aggressive cost-cutting measures expected to generate $1.0 billion in savings by 2025.",
         "keyQuotes": [
-          "We initiated additional cost saving measures as part of our Fit for Growth program to reduce operating costs, while improving operating efficiency and effectiveness.",
-          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by 2025"
+          "The Fit for Growth program is expected to generate approximately $1.0 billion in gross operating expense savings by 2025, some of which will be reinvested in various initiatives and includes net headcount reduction of approximately 1,000 employees.",
+          "The acquisition of Reata is expected to complement our global portfolio of neuromuscular and rare disease therapies. The addition of SKYCLARYS is anticipated to provide potential operating synergies with SPINRAZA and QALSODY.",
+          "We recognized approximately $393.4 million as compensation attributable to the post-acquisition service period [related to Reata equity awards], of which $196.4 million was recognized as selling, general and administrative expense with the remaining $197.0 million in research and development expense."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "revenueGrowthScore": 48,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 31,
+          "compositeSentimentScore": 37,
           "compositeSentiment": "bearish"
         }
       },
@@ -631,146 +848,9 @@
         "reportDate": "2023-09-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000875045-23-000030",
-        "filingDate": "2023-07-25",
-        "reportDate": "2023-06-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000030/biib-20230630.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 2456,
-        "netIncome": 591.6,
-        "operatingCashFlow": 942.3,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Multiple Sclerosis product revenues declining",
-        "customerConcentration": 36.3,
-        "geographicBreakdown": {
-          "US": 0.61,
-          "RestOfWorld": 0.39
-        },
-        "capexAmount": 137.6,
-        "capexGrowth": null,
-        "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (Anti-CD20 therapies)",
-          "Samsung",
-          "Roche Group Genentech"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "FDA approvals",
-          "Biosimilar competition"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Biogen experienced revenue and earnings decline driven by MS product weakness. Cost reduction initiatives ongoing, with continued focus on strategic partnerships and new product launches.",
-        "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, neuropsychiatry, specialized immunology and rare diseases",
-          "We initiated additional cost saving measures as part of our Fit for Growth initiative"
-        ],
-        "marketData": {
-          "managementToneScore": 25,
-          "revenueGrowthScore": 28,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 29,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-06-30"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000875045-23-000016",
-        "filingDate": "2023-04-25",
-        "reportDate": "2023-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/875045/000087504523000016/biib-20230331.htm"
-      },
-      "insights": {
-        "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 2463,
-        "netIncome": 387.9,
-        "operatingCashFlow": 455.3,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": 34.7,
-        "geographicBreakdown": {
-          "US": 46.5,
-          "RestOfWorld": 53.5
-        },
-        "capexAmount": 66.6,
-        "capexGrowth": null,
-        "partnerships": [
-          "Eisai (LEQEMBI)",
-          "Genentech (Anti-CD20 programs)",
-          "Samsung",
-          "Roche Group Genentech",
-          "Eisai",
-          "Centers for Medicare and Medicaid Services"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Inflation Reduction Act"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Biogen delivered a solid Q1 2023 with robust revenue and earnings, driven by continued strength in multiple sclerosis portfolio and new collaboration revenues. The company is managing costs through restructuring and maintaining a confident outlook.",
-        "keyQuotes": [
-          "We are focused on advancing our pipeline in neurology, neuropsychiatry, specialized immunology and rare diseases.",
-          "We collaborate with Eisai on the commercialization of LEQEMBI for the treatment of Alzheimer's disease"
-        ],
-        "marketData": {
-          "managementToneScore": 90,
-          "revenueGrowthScore": 38,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 68,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T06:26:44.116Z"
+  "lastUpdated": "2026-08-05T20:36:34.651Z"
 }
