@@ -12,6 +12,140 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0000804328-26-000086",
+        "filingDate": "2026-07-29",
+        "reportDate": "2026-06-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 9947,
+        "netIncome": 2002,
+        "operatingCashFlow": 8405,
+        "freeCashFlow": 6827,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 361,
+        "marketShareMention": "Apple increasingly using own modem products rather than Qualcomm products; Samsung also pursuing vertical integration; losing market share in handsets",
+        "customerConcentration": 67,
+        "geographicBreakdown": null,
+        "capexAmount": 1578,
+        "capexGrowth": 100.8,
+        "partnerships": [
+          "Alphawave acquisition for data center connectivity technologies",
+          "Modular acquisition for AI-native software platform",
+          "Multiple QCT acquisitions for product development and technology"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "U.S./China trade and national security tensions",
+          "ParkerVision patent litigation",
+          "Arm Ltd. architecture license disputes and breach allegations",
+          "Ongoing regulatory investigations and proceedings in various jurisdictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Qualcomm reported Q3 2026 revenue of $9.9B, down 4% YoY, with net income declining 25% to $2.0B due to handset weakness from memory supply constraints and customer inventory adjustments. The company faces significant headwinds from Apple and Samsung vertical integration, supply chain tightness, and ongoing legal disputes, though Alphawave and Modular acquisitions signal commitment to data center and AI diversification. Management's tone is cautious regarding near-term demand and margins pressured by higher supplier costs.",
+        "keyQuotes": [
+          "We expect recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results.",
+          "In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "The semiconductor industry is experiencing a broad-based increase in input costs and capacity constraints across wafer fabrication, assembly, test, advanced packaging, memory and other materials, due in part to increasing demand for leading-edge technologies, AI and data center applications."
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 33,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000804328-26-000061",
+        "filingDate": "2026-04-29",
+        "reportDate": "2026-03-29",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000061/qcom-20260329.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 10599,
+        "netIncome": 7370,
+        "operatingCashFlow": 7414,
+        "freeCashFlow": 6332,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 393,
+        "marketShareMention": "Apple increasingly using its own modem products rather than Qualcomm products; vertical integration by certain customers (Apple and Samsung) creating competitive pressure",
+        "customerConcentration": 46,
+        "geographicBreakdown": null,
+        "capexAmount": 1082,
+        "capexGrowth": 120.37,
+        "partnerships": [
+          "Alphawave IP Group plc acquisition ($2.3 billion) for high-speed wired connectivity technologies and data center expansion",
+          "Six other business acquisitions ($985 million) supporting QCT business and diversification strategy"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "ParkerVision patent litigation - Federal Circuit reversed prior judgment and remanded case",
+          "Arm Ltd. licensing disputes and potential termination threats regarding Nuvia-acquired CPU technology",
+          "U.S./China trade tensions and national security restrictions impacting business",
+          "Ongoing antitrust and trade regulation investigations",
+          "One Big Beautiful Bill Act (OBBB) tax reform requiring significant adjustments to deferred tax accounting"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Qualcomm reported Q1 FY2026 revenue of $10.6 billion (down 3% YoY) with net income of $7.4 billion, significantly boosted by a $5.7 billion tax benefit from releasing federal deferred tax asset valuation allowance. Core business deteriorated with QCT revenues declining 4% due to handset weakness from memory supply constraints, though automotive and IoT showed growth. Management warned of continued headwinds from memory supply issues, Apple's vertical integration, and intensifying competition, indicating a defensive posture despite strong near-term earnings.",
+        "keyQuotes": [
+          "Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "We expect recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results.",
+          "We released our valuation allowance on our federal deferred tax assets resulting in a $5.7 billion income tax benefit in the second quarter of fiscal 2026."
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 38,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 50,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-29"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0000804328-25-000045",
         "filingDate": "2025-07-30",
         "reportDate": "2025-06-29",
@@ -19,46 +153,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000045/qcom-20250629.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": 11,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 10365,
         "netIncome": 2666,
         "operatingCashFlow": 10016,
-        "freeCashFlow": null,
+        "freeCashFlow": 9231,
         "daysalesOutstanding": null,
         "deferredRevenue": 378,
-        "marketShareMention": "Continued leadership in 5G technology development",
+        "marketShareMention": "Apple began utilizing its own modem in recently released smartphone and expected to increasingly use own modem products, which will have significant negative impact on QCT revenues",
         "customerConcentration": 52,
         "geographicBreakdown": null,
         "capexAmount": 785,
         "capexGrowth": 0,
         "partnerships": [
-          "New long-term licenses with two Chinese OEMs",
-          "Comprehensive 4G and 5G license agreement with Transsion"
+          "New long-term licenses with two key Chinese OEMs",
+          "Comprehensive 4G and 5G license agreements with Transsion",
+          "Pending acquisition of Alphawave IP Group plc for ~$2.4 billion (announced June 9, 2025)"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "U.S./China trade tensions",
-          "Potential tax law changes with One Big Beautiful Bill Act"
+          "U.S./China trade tensions and tariffs",
+          "One Big Beautiful Bill Act (OBBB) tax reform legislation enacted July 4, 2025 with potential adverse impacts",
+          "ParkerVision patent litigation (Federal Circuit reversed district court judgment September 2024)",
+          "Arm Ltd. v. QUALCOMM litigation regarding Nuvia ALA breach (jury found in favor of Qualcomm on breach claim December 2024)",
+          "QUALCOMM v. Arm Ltd. regarding breach of Qualcomm ALA and TLA (trial scheduled March 9, 2026)"
         ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Qualcomm delivered strong Q2 2025 performance with 10% revenue growth and 25% net income increase, driven by strength in handsets, IoT, and automotive segments. The company remains focused on 5G leadership and technology diversification.",
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Qualcomm delivered Q2 FY2025 revenue of $10.4B (+10% YoY) and net income of $2.7B (+25% YoY), driven by strong QCT growth across handsets, IoT, and automotive segments, with pricing power offsetting product cost increases. However, management tone is increasingly defensive with significant headwinds: Apple's vertical integration into modems will materially harm QCT revenues, U.S./China trade tensions persist, and upcoming tax reform (OBBB) will adversely impact future earnings despite improving cash taxes. The company maintains strong liquidity ($12.3B) and is aggressively returning capital ($6.3B share repurchases, $2.8B dividends in 9M) while pursuing the $2.4B Alphawave acquisition to diversify into data center.",
         "keyQuotes": [
-          "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption of technologies beyond mobile handsets",
-          "We continue to monitor recent changes in global trade policy"
+          "Apple began utilizing its own modem (rather than our products) in its recently released smartphone and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "We expect this change will have a favorable effect on our cash flows from operations due to significantly lower cash tax payments. However, we expect it will adversely affect our total provision for income taxes and results of operations.",
+          "We expect transitions to new generations of leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 25,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 70,
           "compositeSentiment": "bullish"
         }
       },
@@ -82,49 +221,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000031/qcom-20250330.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": 17,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 10979,
         "netIncome": 2812,
         "operatingCashFlow": 7141,
-        "freeCashFlow": null,
+        "freeCashFlow": 6650,
         "daysalesOutstanding": null,
         "deferredRevenue": 314,
-        "marketShareMention": "5G leadership position maintained",
+        "marketShareMention": "Apple began utilizing its own modem rather than Qualcomm products and expected to increasingly use its own modem products, which will have significant negative impact on QCT revenues",
         "customerConcentration": 55,
-        "geographicBreakdown": {
-          "China": 45,
-          "Other": 55
-        },
+        "geographicBreakdown": null,
         "capexAmount": 491,
         "capexGrowth": 23.4,
         "partnerships": [
-          "Transsion licensing agreement",
-          "New Chinese OEM license agreements"
+          "New long-term licenses with two key Chinese OEMs",
+          "Comprehensive 4G and 5G license agreements with Transsion"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Potential OECD global minimum tax implementation",
-          "U.S./China trade tensions"
+          "U.S./China trade and national security tensions",
+          "Recent changes in global trade policy including tariffs",
+          "Arm Ltd. litigation regarding CPU design licensing",
+          "Consumer class action lawsuits regarding antitrust and unfair competition",
+          "ParkerVision patent infringement litigation",
+          "OECD Pillar Two global minimum tax implementation"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Qualcomm delivered strong Q1 2025 results with 17% revenue growth and 21% net income increase, driven by strong performance in handsets, automotive, and IoT segments. The company maintains a positive outlook on 5G and AI technologies.",
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Qualcomm delivered Q1 FY2025 results with revenues of $11.0B (+17% YoY) and net income of $2.8B (+21% YoY), driven by strong QCT segment growth across handsets, automotive, and IoT. However, management tone is cautious due to significant headwinds including Apple's vertical integration into modems, intensifying China trade tensions, and ongoing litigation with Arm over CPU designs. The company maintains strong pricing power and returned $5.5B to shareholders through buybacks and dividends, but faces structural challenges to long-term growth.",
         "keyQuotes": [
-          "We believe that 5G combined with high-performance, low-power computing and on-device artificial intelligence will continue to drive adoption",
-          "We continue to monitor the recent changes in global trade policy"
+          "Apple began utilizing its own modem (rather than our products) in its recently released smartphone and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "We continue to monitor the recent changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business, financial condition and results of operations will depend on future developments, which are uncertain.",
+          "QCT revenues increased by 18% in the second quarter of fiscal 2025 compared to the year ago quarter, due to higher handsets, automotive and IoT revenues."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 25,
           "revenueGrowthScore": 76,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 81,
+          "compositeSentimentScore": 65,
           "compositeSentiment": "bullish"
         }
       },
@@ -148,43 +289,52 @@
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000056/qcom-20240623.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "reducing",
+        "headcountTrend": "stable",
         "revenue": 9393,
         "netIncome": 2129,
         "operatingCashFlow": 9555,
-        "freeCashFlow": null,
+        "freeCashFlow": 8770,
         "daysalesOutstanding": null,
         "deferredRevenue": 371,
-        "marketShareMention": null,
-        "customerConcentration": 45,
+        "marketShareMention": "Mobile industry experiencing concentration of device share among few companies, particularly at premium tier. Certain Chinese OEMs increasing device share in China and certain regions outside China.",
+        "customerConcentration": 46,
         "geographicBreakdown": null,
         "capexAmount": 785,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": -32.1,
+        "partnerships": [
+          "License agreement with Shenzhen Transsion Holdings Limited for 5G products",
+          "Extended, renewed or entered into license agreements with several key OEMs",
+          "Pursuing negotiations with key OEMs whose agreements expire in early fiscal 2025 including Huawei"
+        ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "U.S./China trade tensions",
-          "Ongoing patent licensing disputes"
+          "U.S./China trade relations and national security protection policies may negatively impact business",
+          "Consolidated Securities Class Action Lawsuit - proposed settlement of $75 million pending final court approval",
+          "Consumer Class Action Lawsuits in multiple jurisdictions alleging antitrust and unfair competition violations",
+          "Arm Ltd. litigation regarding Nuvia acquisition - trial scheduled December 16, 2024",
+          "ParkerVision patent infringement appeal",
+          "Various government investigations and proceedings regarding licensing practices"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Qualcomm delivered strong Q2 2024 results with 11% revenue growth and 18% net income increase. The company continues to face challenges from IoT inventory drawdown and intense competition, but remains optimistic about 5G technology opportunities beyond mobile handsets.",
+        "summary": "Qualcomm reported Q2 FY2024 revenues of $9.4 billion (up 11% YoY) and net income of $2.1 billion (up 18% YoY), driven by strong handset and automotive growth offsetting IoT weakness. QCT segment showed robust 12% growth with higher-tier Snapdragon platform mix expansion, while QTL licensing remained stable at 3% growth. Management maintains a measured outlook citing inventory normalization benefits offset by elevated customer inventory levels in IoT, continued wafer cost pressure from advanced nodes, intense competition, and significant China-related policy headwinds.",
         "keyQuotes": [
-          "We believe that 5G combined with high-performance, low-power processing and on-device intelligence will continue to drive adoption of certain technologies",
-          "We expect certain IoT customers will continue to draw down on their inventory, which will continue to have a negative impact on our revenues"
+          "Current U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "We expect certain IoT customers (primarily in edge networking) will continue to draw down on their inventory (which remains at elevated levels), which will continue to have a negative impact on our revenues, results of operations and cash flows.",
+          "We expect transitions to new generations of leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
         ],
         "marketData": {
-          "managementToneScore": 65,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 73,
+          "compositeSentimentScore": 70,
           "compositeSentiment": "bullish"
         }
       },
@@ -209,36 +359,43 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "reducing",
+        "headcountTrend": "stable",
         "revenue": 9389,
         "netIncome": 2326,
         "operatingCashFlow": 6503,
-        "freeCashFlow": null,
+        "freeCashFlow": 6105,
         "daysalesOutstanding": null,
         "deferredRevenue": 388,
-        "marketShareMention": null,
+        "marketShareMention": "Customer concentration risk; vertical integration by Samsung and Huawei mentioned as competitive threat",
         "customerConcentration": 57,
         "geographicBreakdown": null,
         "capexAmount": 398,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": -53.2,
+        "partnerships": [
+          "Nokia - long-term license agreement",
+          "Multiple OEM license agreements recently extended or renewed",
+          "Negotiations ongoing with key OEMs including Huawei"
+        ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "U.S./China trade tensions",
-          "Ongoing patent licensing negotiations"
+          "U.S./China trade tensions and national security policies",
+          "European Commission investigation ongoing",
+          "Multiple antitrust and consumer class action lawsuits",
+          "Arm Ltd. patent infringement litigation",
+          "ParkerVision patent litigation"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Qualcomm delivered stable quarterly results with modest revenue growth and strong net income driven by semiconductor and licensing segments. The company faces ongoing challenges from IoT inventory drawdown, intense competition, and geopolitical tensions.",
+        "summary": "Qualcomm reported Q2 FY2024 revenues of $9.4B (up 1% YoY) with net income of $2.3B (up 37% YoY), driven by strong handset and automotive growth offset by IoT weakness. Operating cash flow strengthened to $6.5B for the first half, but management flagged elevated inventory levels, customer inventory drawdowns, and wafer supplier cost increases as headwinds. The company faces multiple regulatory and litigation challenges, particularly around Chinese operations and patent licensing disputes.",
         "keyQuotes": [
-          "We expect certain IoT customers will continue to draw down on their inventory, which will continue to have a negative impact on our revenues",
-          "We expect continued intense competition, including from vertical integration by certain of our customers",
-          "Current U.S./China trade relations and/or national security protection policies may negatively impact our business"
+          "We expect certain IoT customers will continue to draw down on their inventory (which remains at elevated levels), which will continue to have a negative impact on our revenues, results of operations and cash flows.",
+          "Current U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "We expect transitions to new generations of leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
         ],
         "marketData": {
           "managementToneScore": 25,
@@ -259,129 +416,9 @@
         "reportDate": "2024-03-24"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000804328-23-000043",
-        "filingDate": "2023-08-02",
-        "reportDate": "2023-06-25",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432823000043/qcom-20230625.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 8451,
-        "netIncome": 1803,
-        "operatingCashFlow": 7209,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 341,
-        "marketShareMention": null,
-        "customerConcentration": 47,
-        "geographicBreakdown": null,
-        "capexAmount": 1157,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "easing",
-        "regulatoryHeadwinds": [
-          "Antitrust investigations in Korea",
-          "European Commission legal challenges"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": false,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Qualcomm experienced significant revenue and earnings decline in Q2 2023, driven by macroeconomic weakness, reduced consumer demand for smartphones, and elevated customer inventory levels. The company is implementing cost reduction initiatives and restructuring efforts to manage the challenging environment.",
-        "keyQuotes": [
-          "Revenues were negatively impacted by the weakness in the macroeconomic environment",
-          "We expect to take additional restructuring actions to enable continued investments in key growth and diversification opportunities"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 8,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 16,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-06-25"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000804328-23-000023",
-        "filingDate": "2023-05-03",
-        "reportDate": "2023-03-26",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432823000023/qcom-20230326.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 9275,
-        "netIncome": 1704,
-        "operatingCashFlow": 4552,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 381,
-        "marketShareMention": null,
-        "customerConcentration": 52,
-        "geographicBreakdown": null,
-        "capexAmount": 851,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "easing",
-        "regulatoryHeadwinds": [
-          "Ongoing antitrust investigations",
-          "Patent licensing challenges"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": false,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Qualcomm experienced a significant 17% revenue decline in Q1 2023, driven by macroeconomic weakness and customer inventory drawdowns. The company is facing challenges in smartphone and IoT markets while maintaining moderate pricing power.",
-        "keyQuotes": [
-          "We expect the current macroeconomic environment challenges to continue",
-          "Macroeconomic environment weakness negatively impacted consumer demand for smartphones and other devices"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 18,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 20,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-26"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 6,
-  "lastUpdated": "2026-01-22T21:26:48.468Z"
+  "lastUpdated": "2026-08-05T20:01:18.161Z"
 }
