@@ -12,6 +12,232 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0000872589-26-000025",
+        "filingDate": "2026-07-30",
+        "reportDate": "2026-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000025/regn-20260630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
+        "revenue": 4290.7,
+        "netIncome": 1296.9,
+        "operatingCashFlow": 1891.9,
+        "freeCashFlow": 1421.1,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 904.8,
+        "marketShareMention": null,
+        "customerConcentration": 77,
+        "geographicBreakdown": null,
+        "capexAmount": 470.8,
+        "capexGrowth": 5,
+        "partnerships": [
+          "Sanofi collaboration for Dupixent, Kevzara, and itepekimab",
+          "Bayer collaboration for EYLEA 8mg and EYLEA",
+          "Ultragenyx for Evkeeza commercialization outside US",
+          "Kiniksa for ARCALYST commercialization",
+          "Sanofi",
+          "Bayer"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Patent litigation with Amgen regarding EYLEA aflibercept biosimilar",
+          "Department of Justice investigations regarding anti-kickback statute violations",
+          "False Claims Act allegations related to EYLEA reimbursement rates",
+          "Product liability litigation for Dupixent related to T-cell lymphoma claims",
+          "Shareholder derivative complaints regarding corporate governance",
+          "Patent disputes with Sandoz and Sam Chun Dang in Germany and South Korea"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron reported Q2 2026 revenue of $4,290.7M (+16.7% YoY) and net income of $1,296.9M (-6.8% YoY), with strong collaboration revenue growth (+31.9%) driven by Sanofi partnership profits. However, core product sales growth was mixed—Dupixent (+38%) and Libtayo (+30%) showed strength, while EYLEA declined 21% due to biosimilar pressure and managed care restrictions. The company faces significant regulatory headwinds including patent litigation with Amgen, DOJ investigations on anti-kickback compliance, and emerging Dupixent product liability claims.",
+        "keyQuotes": [
+          "As of June 30, 2026, the 'development balance,' which represented the Company's obligation to reimburse Sanofi for development expenses that were previously funded by Sanofi, was fully repaid and will no longer reduce Sanofi collaboration revenue beginning in the third quarter of 2026.",
+          "Sales to each of these customers as a percentage of the Company's total gross product revenue are as follows: Customer A 45%, Customer B 32%",
+          "On May 15, 2025, the jury reached a verdict in Regeneron's favor on nine of the ten counts submitted to it and awarded Regeneron $135.6 million in compensatory damages and $271.2 million in punitive damages [in Praluent vs. Amgen litigation]"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000872589-26-000016",
+        "filingDate": "2026-04-29",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000016/regn-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
+        "revenue": 3605.4,
+        "netIncome": 727.2,
+        "operatingCashFlow": 1078.9,
+        "freeCashFlow": 848.3,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 861.3,
+        "marketShareMention": "EYLEA market share impacted by biosimilar competition; EYLEA HD growing while EYLEA declining due to biosimilar penetration",
+        "customerConcentration": 75,
+        "geographicBreakdown": null,
+        "capexAmount": 230.6,
+        "capexGrowth": 0.6,
+        "partnerships": [
+          "Sanofi collaboration for Dupixent, Kevzara, and itepekimab",
+          "Bayer collaboration for EYLEA development and commercialization outside U.S.",
+          "Samsung Bioepis settlement agreement on aflibercept biosimilar (launch delayed to January 2027)",
+          "Formycon settlement in Europe and select markets (launch starting May 2026)",
+          "Ultragenyx for Evkeeza commercialization outside U.S.",
+          "Kiniksa for ARCALYST development and commercialization",
+          "Sanofi",
+          "Bayer"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "EYLEA patent litigation with Amgen regarding aflibercept 2mg biosimilar",
+          "Multiple EYLEA biosimilar patent challenges in Europe (EPO oppositions)",
+          "DOJ False Claims Act investigations regarding EYLEA average sales price reporting",
+          "DOJ Anti-Kickback Statute investigations relating to patient assistance programs",
+          "Multiple state attorney general complaints regarding EYLEA pricing practices",
+          "Product liability litigation against Dupixent regarding T-cell lymphoma claims",
+          "Shareholder derivative complaints regarding DOJ matters and director compensation",
+          "Antitrust litigation history with Amgen regarding Praluent (verdict in Regeneron's favor in May 2025)"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Q1 2026 revenues grew 19% YoY to $3.6B driven by Dupixent collaboration profits (+42%) and Libtayo growth (+54%), partially offset by EYLEA decline (-12%) due to increasing biosimilar competition. Net income declined 10% to $727M despite higher revenue due to increased R&D spending and IPR&D expenses. Strong cash generation ($1.1B operating cash flow) but facing significant regulatory headwinds including DOJ investigations, patent litigation with competitors, and emerging product liability claims.",
+        "keyQuotes": [
+          "EYLEA HD sales of $468.4M grew 53% YoY, while total EYLEA declined 12% YoY to $1.67B driven by biosimilar competition",
+          "Dupixent collaboration revenue of $1.45B grew 42% YoY reflecting strong global sales momentum across multiple indications",
+          "R&D expenses increased to $1.54B (+16% YoY) reflecting continued investment in pipeline development and acquired IPR&D of $101.9M"
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000872589-26-000008",
+        "filingDate": "2026-02-04",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258926000008/regn-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "expanding",
+        "revenue": 3884.300000000001,
+        "netIncome": 844.5999999999995,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "EYLEA HD and EYLEA losing market share to biosimilar competition and compounded bevacizumab; biosimilar versions approved and launched in multiple markets",
+        "customerConcentration": 77,
+        "geographicBreakdown": null,
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Bayer (EYLEA HD/EYLEA commercialization outside US)",
+          "Sanofi (Dupixent collaboration and co-commercialization)",
+          "Santen (Japan co-promotion agreement for EYLEA)",
+          "Sanofi",
+          "Bayer",
+          "Tessera Therapeutics",
+          "Hanosh Pharmaceutical Group Company Limited",
+          "Sonoma Biotherapeutics",
+          "Alnylam Pharmaceuticals",
+          "Intellia Therapeutics"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "FDA review delays and reduced staffing at FDA",
+          "Multiple CRLs received for regulatory submissions (odronextamab, EYLEA HD pre-filled syringe)",
+          "Increased scrutiny of manufacturing compliance (cGMP requirements)",
+          "Medicare Drug Price Negotiation Program starting 2026 for Part B drugs",
+          "Inflation Reduction Act pricing and rebate requirements",
+          "Executive orders on most-favored-nation (MFN) pricing",
+          "State Medicaid supplemental rebate programs",
+          "Pediatric Investigation Plan (PIP) and PREA requirements"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Regeneron faces significant headwinds with EYLEA experiencing a 42% decline in US net product sales due to biosimilar competition and compounded bevacizumab pricing pressure, though offset partially by Dupixent collaboration revenue representing 41% of total revenues. The company faces intense regulatory and pricing pressures including FDA staffing reductions, multiple Complete Response Letters for key programs, and emerging government price negotiation initiatives. Supply chain remains constrained with manufacturing capacity limitations, high customer concentration (77% from two distributors), and dependence on Sanofi and Bayer collaborations.",
+        "keyQuotes": [
+          "For the year ended December 31, 2025, EYLEA U.S. net product sales declined by 42% compared to the corresponding period in 2024 as a result of competitive pressures and other factors",
+          "For the years ended December 31, 2025 and 2024, our product sales to two distributor customers accounted on a combined basis for 77% and 74% of our total gross product revenue, respectively",
+          "Efforts implemented or commenced in 2025 to reduce the size and budgets of U.S. government agencies, downsize the federal workforce, and restructure parts of the executive branch of the federal government have directly or indirectly impacted agencies that support research and development activities or are otherwise important to our business, including the HHS and the FDA"
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 60,
+          "priceActionScore": null,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0000872589-25-000028",
         "filingDate": "2025-10-28",
         "reportDate": "2025-09-30",
@@ -19,55 +245,53 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258925000028/regn-20250930.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 3754.3,
         "netIncome": 1460,
         "operatingCashFlow": 3808.2,
-        "freeCashFlow": null,
+        "freeCashFlow": 3158.5,
         "daysalesOutstanding": null,
         "deferredRevenue": 764.8,
-        "marketShareMention": "Defending EYLEA patent through multiple legal proceedings",
+        "marketShareMention": "Defending EYLEA franchise against multiple biosimilar challengers through patent litigation",
         "customerConcentration": 79,
-        "geographicBreakdown": {
-          "US": 90,
-          "RestOfWorld": 10
-        },
+        "geographicBreakdown": null,
         "capexAmount": 649.7,
-        "capexGrowth": null,
+        "capexGrowth": 16.8,
         "partnerships": [
-          "Sanofi collaboration",
-          "Bayer collaboration",
-          "Hansoh Pharmaceuticals licensing agreement",
+          "Sanofi collaboration for Dupixent, Kevzara, itepekimab",
+          "Bayer collaboration for EYLEA 8mg and EYLEA outside U.S.",
+          "Hansoh Pharmaceuticals license for HS-20094 (GLP-1/GIP agonist)",
           "Sanofi",
-          "Bayer",
-          "Hanosh Pharmaceutical Group Company Limited",
-          "Sonoma Biotherapeutics Inc"
+          "Bayer"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple patent litigation proceedings",
-          "Department of Justice investigations"
+          "Multiple patent infringement lawsuits related to EYLEA biosimilars",
+          "Department of Justice False Claims Act investigations related to anti-kickback allegations",
+          "Multiple shareholder derivative lawsuits",
+          "FDA Rare Pediatric Disease Priority Review Voucher regulatory investment"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong quarterly results with robust revenue and net income, driven by key product sales and collaborative partnerships. The company continues to defend its intellectual property through extensive patent litigation while maintaining a positive financial outlook.",
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron reported Q3 2025 revenues of $3.75 billion and net income of $1.46 billion, with collaboration revenue rising 18.6% YoY to $1.97 billion, driven by the Sanofi partnership. However, net product sales declined 18.4% to $1.59 billion, primarily due to EYLEA erosion from biosimilar competition, partially offset by strong EYLEA HD growth. The company faces significant legal headwinds from patent litigation defending EYLEA against multiple biosimilar competitors and DOJ False Claims Act investigations, while maintaining strong cash generation and continued R&D investment.",
         "keyQuotes": [
-          "Continued strong performance across our product portfolio",
-          "Successfully defending our intellectual property through strategic legal proceedings"
+          "Net product sales declined 18.4% YoY driven by EYLEA revenue decline from biosimilar competitive pressures",
+          "Collaboration revenue from Sanofi partnership generated $1.46 billion representing 39% of total revenue",
+          "Operating cash flow of $3.81 billion for nine months ended September 30, 2025 reflects strong cash generation despite litigation costs"
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 30,
           "revenueGrowthScore": 48,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 69,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2025",
@@ -90,54 +314,53 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000087258925000019/regn-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
         "revenue": 3675.6,
         "netIncome": 1391.6,
         "operatingCashFlow": 2189.5,
-        "freeCashFlow": null,
+        "freeCashFlow": 1741.2,
         "daysalesOutstanding": null,
-        "deferredRevenue": 481.9,
-        "marketShareMention": "Multiple patent litigation cases to protect EYLEA market share",
+        "deferredRevenue": 688.2,
+        "marketShareMention": null,
         "customerConcentration": 76,
-        "geographicBreakdown": {
-          "US": 75,
-          "RestOfWorld": 25
-        },
+        "geographicBreakdown": null,
         "capexAmount": 448.3,
-        "capexGrowth": null,
+        "capexGrowth": 42.6,
         "partnerships": [
-          "Sanofi collaboration",
-          "Bayer collaboration",
-          "Hansoh Pharmaceuticals licensing agreement",
+          "Sanofi collaboration for Dupixent, Kevzara, and itepekimab",
+          "Bayer license and collaboration for EYLEA 8mg and EYLEA outside US",
+          "Hansoh Pharmaceuticals for HS-20094 (GLP-1/GIP agonist)",
           "Sanofi",
-          "Bayer",
-          "Hanosh Pharmaceutical Group Company Limited"
+          "Bayer"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Ongoing Department of Justice investigations",
-          "Patent litigation challenges"
+          "Multiple EYLEA biosimilar patent litigations (Mylan/Biocon, Celltrion, Samsung Bioepis, Formycon, Amgen, Sandoz)",
+          "Department of Justice investigations regarding Anti-Kickback Statute violations and False Claims Act",
+          "Shareholder derivative lawsuits related to DOJ matters and director compensation",
+          "Class action civil complaint regarding federal securities law violations"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q2 2025 financial performance with robust revenue and net income. The company continues to defend its key drug EYLEA through multiple patent litigation cases and maintains strategic collaborations with Sanofi and Bayer.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron reported Q2 2025 revenue of $3.7 billion and net income of $1.4 billion, with strong collaboration revenue from Sanofi and Bayer partnerships offsetting a 15% decline in net product sales driven by EYLEA erosion due to ongoing biosimilar competition. The company generated robust operating cash flow of $2.2 billion while significantly increasing capex spending by 43% year-over-year, signaling continued investment in manufacturing capacity and pipeline development.",
         "keyQuotes": [
-          "The company is party to a global, strategic collaboration with Sanofi to research, develop, and commercialize fully human monoclonal antibodies",
-          "Sanofi is generally responsible for funding 80% to 100% of agreed-upon development costs"
+          "Total EYLEA HD and EYLEA U.S. product sales declined from $1,534.7 million in Q2 2024 to $1,147.5 million in Q2 2025, reflecting biosimilar competitive pressures",
+          "Collaboration revenue increased to $1,860.7 million in Q2 2025 from $1,524.0 million in Q2 2024, driven by Sanofi and Bayer partnerships",
+          "Capital expenditures increased to $448.3 million for the six months ended June 30, 2025 compared to $314.4 million in the prior year period"
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 58,
           "netIncomeScore": 60,
           "priceActionScore": null,
-          "compositeSentimentScore": 68,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2025",
@@ -160,52 +383,62 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422025000022/regn-20250331.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 3028.7,
         "netIncome": 808.7,
         "operatingCashFlow": 1045.1,
-        "freeCashFlow": null,
+        "freeCashFlow": 815.8,
         "daysalesOutstanding": null,
-        "deferredRevenue": 831.3,
-        "marketShareMention": "Regeneron continues to maintain strong market positioning in ophthalmology and immunology markets",
+        "deferredRevenue": 831.1,
+        "marketShareMention": "EYLEA facing biosimilar competitive pressure from multiple manufacturers (Samsung Bioepis, Formycon, Celltrion, Amgen, Sandoz); preliminary injunctions affirmed against several biosimilar competitors; Mylan/Biocon settlement restricts launch to H2 2026",
         "customerConcentration": 76,
         "geographicBreakdown": {
-          "US": 60,
-          "ROW": 40
+          "US_percentage": null,
+          "ROW_percentage": null,
+          "note": "Product-level breakdown available; consolidated percentages not disclosed"
         },
         "capexAmount": 229.3,
-        "capexGrowth": null,
+        "capexGrowth": 71.3,
         "partnerships": [
-          "Sanofi collaboration",
-          "Bayer collaboration",
+          "Sanofi - Dupixent, Kevzara, itepekimab collaboration (profit sharing arrangement)",
+          "Bayer - EYLEA development and commercialization outside US (equal profit sharing)",
+          "Roche - REGEN-COV (COVID-19) collaboration",
+          "Ultragenyx - Evkeeza commercialization outside US",
+          "Kiniksa - ARCALYST development and commercialization",
+          "Settlement with Mylan/Biocon regarding aflibercept 2mg biosimilar (launch H2 2026)",
           "Sanofi",
           "Bayer"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Ongoing patent litigation for EYLEA",
-          "Department of Justice investigations"
+          "Multiple EYLEA biosimilar patent litigations ongoing across US, Europe, Canada, and South Korea",
+          "Department of Justice investigations regarding anti-kickback statute and False Claims Act violations related to patient assistance programs and physician consulting fees",
+          "Multiple civil complaints from payors (UnitedHealthcare, Humana, Blue Cross, etc.) alleging violations of anti-kickback statutes and RICO",
+          "Shareholder derivative lawsuits filed January 2025 alleging breach of fiduciary duties related to DOJ matters",
+          "European Patent Office revoked EYLEA '306 Patent in November 2024 (under appeal)",
+          "FDA post-grant review proceedings filed by biosimilar manufacturers against EYLEA '865 Patent"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q1 2025 financial results with robust revenue growth driven by Dupixent and continued profitability. The company maintains a positive outlook despite ongoing patent litigation challenges.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron reported Q1 2025 revenues of $3,028.7M (down 3.7% YoY) and net income of $808.7M (up 12% YoY), driven by strong collaboration revenue growth (+20.8% YoY to $1,531.2M) primarily from Sanofi partnership, partially offset by a 19.6% decline in net product sales due to EYLEA erosion from biosimilar competitive pressure. The company faces significant headwinds from multiple biosimilar patent litigations and DOJ investigations regarding anti-kickback practices, though recent court victories have affirmed preliminary injunctions against several competitors and a settlement with Mylan/Biocon restricts launch to H2 2026. Strong cash generation ($1,045.1M operating cash flow) and elevated capex spending ($229.3M, +71% YoY) suggest continued investment in manufacturing capacity.",
         "keyQuotes": [
-          "Our core business strategy is to maintain a strong foundation in scientific research and drug development using our proprietary technologies",
-          "We continue to advance as an integrated, multi-product biotechnology company"
+          "On April 14, 2025, the parties entered into a settlement agreement, pursuant to which Mylan and Biocon's appeal to the Federal Circuit and all related litigation have been dismissed and Biocon will be precluded from launching its aflibercept 2 mg biosimilar until the second half of 2026.",
+          "Regeneron's share of profits [from Sanofi collaboration]: Collaboration revenue $1,018.2M (Q1 2025 vs $804.0M Q1 2024)",
+          "EYLEA HD and EYLEA total sales declined 16% to $1,900.6M in Q1 2025 from $2,251.0M in Q1 2024, with US EYLEA declining 39% YoY due to competitive pressure from biosimilars and market access challenges"
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 38,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 65,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2025",
@@ -228,58 +461,57 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422025000011/regn-20241231.htm"
       },
       "insights": {
-        "guidanceTone": "neutral",
+        "guidanceTone": "cautious",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "expanding",
-        "revenue": 3789.2,
-        "netIncome": 917.7,
+        "revenue": 3789.2000000000007,
+        "netIncome": 917.7000000000003,
         "operatingCashFlow": null,
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "EYLEA biosimilar competition launched; EYLEA U.S. net product sales declined 17% YoY due to biosimilar entry following May 2024 regulatory exclusivity expiration",
         "customerConcentration": 74,
-        "geographicBreakdown": {
-          "US": 76,
-          "International": 24
-        },
+        "geographicBreakdown": null,
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
+          "Sanofi collaboration for Dupixent commercialization (32% of 2024 revenues)",
+          "Bayer collaboration for EYLEA/EYLEA HD distribution outside U.S.",
+          "Bristol-Myers Squibb, E.R. Squibb & Sons, Ono Pharmaceutical license for Libtayo development and commercialization",
           "Sanofi",
           "Bayer",
-          "Roche",
-          "Sonoma Biotherapeutics",
-          "Alnylam Pharmaceuticals",
-          "Intellia Therapeutics",
-          "Checkmate Pharmaceuticals",
-          "Besse Medical",
-          "McKesson Corporation"
+          "Roche"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Medicare Drug Price Negotiation Program",
-          "Medicare Inflation Based Rebates",
-          "Medicare Part D Program Redesign"
+          "FDA Medicines Inflation Based Rebates under Inflation Reduction Act",
+          "Medicare Drug Price Negotiation Program beginning 2026 for Part B drugs",
+          "Medicaid rebate liability increased effective January 1, 2024 (no longer capped at 100% of average manufacturer price)",
+          "340B ceiling price requirements and compliance obligations",
+          "REMS requirements and post-approval study obligations",
+          "Clinical holds and CRLs issued for multiple product candidates (odronextamab, Dupixent CSU, linvoseltamab)",
+          "International data protection regulations (GDPR) with significant compliance costs"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Regeneron faces increasing competition and regulatory challenges, particularly for its key products EYLEA and Dupixent. The company continues to expand its workforce and relies heavily on collaborations with Sanofi and Bayer.",
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Regeneron reported FY 2024 revenues of $14,033 million and net income of $2,213 million, with significant headwinds from EYLEA biosimilar competition following the May 2024 loss of U.S. regulatory exclusivity. EYLEA U.S. sales declined 17% YoY, though partially offset by EYLEA HD (20% of combined U.S. EYLEA/EYLEA HD sales). The company faces substantial regulatory, competitive, and operational challenges, including reliance on two major collaborators (Sanofi and Bayer) for 74% of net product revenue, heightened pricing pressures from government programs, and significant manufacturing capacity constraints.",
         "keyQuotes": [
-          "We are substantially dependent on the success of EYLEA, EYLEA HD, and Dupixent.",
-          "Attracting, developing, and retaining skilled and experienced employees is crucial to our ability to compete effectively."
+          "For the year ended December 31, 2024, EYLEA U.S. net product sales declined by 17% compared to the same period in 2023. Following the expiration of the U.S. regulatory exclusivity period for EYLEA (i.e., the period during which no biosimilar product can be approved by the FDA) in May 2024, several biosimilar versions of EYLEA have been approved by the FDA, and one such product has launched in the United States.",
+          "For the years ended December 31, 2024 and 2023, our product sales to two distributor customers accounted on a combined basis for 74% and 76% of our total gross product revenue, respectively.",
+          "We are substantially dependent on our share of profits from the commercialization of Dupixent under our Antibody Collaboration with Sanofi. For the years ended December 31, 2024 and 2023, Sanofi collaboration revenue (most of which is attributable to our share of profits from the commercialization of Dupixent) represented 32% and 29% of our total revenues, respectively."
         ],
         "marketData": {
-          "managementToneScore": 50,
+          "managementToneScore": 5,
           "revenueGrowthScore": 66,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 66,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q4 2024",
@@ -302,54 +534,60 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422024000040/regn-20240930.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
         "revenue": 3720.7,
         "netIncome": 1340.6,
         "operatingCashFlow": 3157.7,
-        "freeCashFlow": null,
+        "freeCashFlow": 2601.4,
         "daysalesOutstanding": null,
-        "deferredRevenue": 627.2,
-        "marketShareMention": "Patents and litigation suggest strong market position in ophthalmology and biologics",
+        "deferredRevenue": 834.6,
+        "marketShareMention": null,
         "customerConcentration": 75,
         "geographicBreakdown": {
-          "US": 80,
-          "RestOfWorld": 20
+          "US": 78.9,
+          "RestOfWorld": 21.1
         },
         "capexAmount": 556.3,
-        "capexGrowth": null,
+        "capexGrowth": 19.1,
         "partnerships": [
+          "Sanofi (Dupixent, Kevzara, itepekimab)",
+          "Bayer (EYLEA global development and commercialization)",
+          "Roche (REGEN-COV casirivimab and imdevimab)",
+          "Sonoma Biotherapeutics",
           "Sanofi",
           "Bayer",
           "Roche",
-          "McKesson Corporation",
-          "Besse Medical",
-          "Sonoma Biotherapeutics",
           "Alnylam Pharmaceuticals"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Multiple patent litigation proceedings",
-          "DOJ investigations regarding marketing practices"
+          "Multiple patent challenges for EYLEA (aflibercept) from biosimilar competitors",
+          "DOJ investigation regarding Anti-Kickback Statute violations and False Claims Act",
+          "Multiple lawsuits from payors (UHC, Humana, BCBS, MMO, Horizon, Local 464A)",
+          "Shareholder derivative complaint",
+          "Patent litigation with Amgen regarding Praluent",
+          "California Department of Insurance subpoena"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong quarterly performance with robust revenue and net income growth. The company continues to defend its key drug patents and maintain strategic collaborations while facing some regulatory scrutiny.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron delivered Q3 2024 revenue of $3.72 billion (up 10.6% YoY) with net income of $1.34 billion, driven by strong product sales growth in EYLEA HD (+818% YoY) and collaboration revenue increases from Sanofi and Bayer. However, the company faces significant regulatory headwinds including multiple biosimilar patent challenges for EYLEA, DOJ investigations related to kickback allegations, and various payors' lawsuits, which create material uncertainty despite solid financial performance and cash generation.",
         "keyQuotes": [
-          "Continued strength in EYLEA and collaboration revenues",
-          "Successful patent defense strategies across multiple geographies"
+          "Net income per share - diluted $ 11.54 (Q3 2024) vs $ 8.89 (Q3 2023)",
+          "EYLEA HD U.S. $ 392.3 million (Q3 2024) vs $ 42.7 million (Q3 2023) - representing significant launch success",
+          "Regeneron's share of profits from Sanofi collaboration $ 1,088.3 million (Q3 2024) vs $ 863.0 million (Q3 2023)"
         ],
         "marketData": {
-          "managementToneScore": 90,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 84,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -373,52 +611,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422024000028/regn-20240630.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "unknown",
         "revenue": 3547.1,
         "netIncome": 1432.3,
         "operatingCashFlow": 1866.5,
-        "freeCashFlow": null,
+        "freeCashFlow": 1552.1,
         "daysalesOutstanding": null,
-        "deferredRevenue": 586,
+        "deferredRevenue": 791.6,
         "marketShareMention": null,
         "customerConcentration": 75,
-        "geographicBreakdown": {
-          "US": 80,
-          "ROW": 20
-        },
+        "geographicBreakdown": null,
         "capexAmount": 314.4,
-        "capexGrowth": null,
+        "capexGrowth": 8,
         "partnerships": [
+          "Sanofi - global strategic collaboration for monoclonal antibodies (Dupixent, Kevzara, itepekimab)",
+          "Bayer - license and collaboration agreement for EYLEA global development and commercialization",
+          "Roche - collaboration for casirivimab and imdevimab (REGEN-COV/Ronapreve)",
+          "Sonoma Biotherapeutics - collaboration agreement",
           "Sanofi",
           "Bayer",
-          "Roche",
-          "McKessoner Corporation",
-          "Sonoma Biotherapeutics Inc"
+          "Roche"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Patent litigation for EYLEA and other products",
-          "Department of Justice investigations"
+          "Patent litigation relating to EYLEA (aflibercept) biosimilar infringement across multiple jurisdictions (US, EU, Canada, South Korea)",
+          "Patent litigation relating to Praluent (alirocumab) with Amgen alleging anticompetitive bundling",
+          "Department of Justice investigation regarding Anti-Kickback Statute violations and False Claims Act violations relating to patient support programs",
+          "Multiple qui tam complaints alleging kickback schemes and inflated reimbursement rates for EYLEA",
+          "State and private payor litigation regarding alleged anti-competitive conduct and pricing practices"
         ],
         "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong quarterly performance with revenue of $1.92B and net income of $1.43B, driven by continued growth in key products like EYLEA. The company maintains a robust pipeline and strategic collaborations while navigating ongoing patent litigation.",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Regeneron reported Q2 2024 revenue of $3,547.1M (up 12.3% YoY) and net income of $1,432.3M (up 47.9% YoY), driven by strong product sales growth in EYLEA and Libtayo and collaboration revenues from Sanofi and Bayer. The company generated solid operating cash flow of $1,866.5M for the six-month period, with free cash flow of $1,552.1M. However, the company faces significant regulatory headwinds including extensive patent litigation on EYLEA biosimilars across multiple jurisdictions and ongoing DOJ investigations related to anti-kickback and false claims allegations, which could impact future commercialization and profitability.",
         "keyQuotes": [
-          "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "We continue to advance as an integrated, multi-product biotechnology company"
+          "Three Months Ended June 30, 2024: Net product sales $1,918.6M, Collaboration revenue $1,524.0M, showing strong commercial momentum across key franchises",
+          "EYLEA products (HD and U.S.) generated $1,534.7M in Q2 2024 compared to $1,500.1M in Q2 2023, with EYLEA HD contributing significantly following launch",
+          "Libtayo global sales grew to $297.4M in Q2 2024 from $210.0M in Q2 2023, representing 41.6% growth driven by U.S. and international expansion"
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 86,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -443,54 +684,59 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "unknown",
         "revenue": 3145,
         "netIncome": 722,
         "operatingCashFlow": 1512.5,
-        "freeCashFlow": null,
+        "freeCashFlow": 1378.6,
         "daysalesOutstanding": null,
-        "deferredRevenue": 532.2,
-        "marketShareMention": "Continued strong performance across key product lines like EYLEA, Dupixent, and Libtayo",
+        "deferredRevenue": 702.5,
+        "marketShareMention": null,
         "customerConcentration": 75,
-        "geographicBreakdown": {
-          "US": null,
-          "ROW": null
-        },
+        "geographicBreakdown": null,
         "capexAmount": 133.9,
-        "capexGrowth": null,
+        "capexGrowth": -24.8,
         "partnerships": [
-          "Sanofi collaboration for antibody development",
-          "Bayer partnership for EYLEA commercialization",
-          "Alnylam collaboration for RNA therapeutics",
+          "Sanofi - global strategic collaboration for monoclonal antibodies (Dupixent, Kevzara, itepekimab)",
+          "Bayer - license and collaboration for EYLEA development and commercialization outside U.S.",
+          "Alnylam - collaboration for RNA interference therapeutics for eye, CNS, and liver disease targets",
+          "Roche - collaboration for REGEN-COV (casirivimab and imdevimab) development and distribution",
+          "Sonoma Biotherapeutics - license and collaboration for regulatory T cell therapies for autoimmune diseases",
           "Sanofi",
           "Bayer",
           "Alnylam Pharmaceuticals",
           "Roche",
           "Sonoma Biotherapeutics"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Ongoing patent litigation for EYLEA and other products",
-          "Department of Justice investigations into patient assistance programs"
+          "Multiple EYLEA patent disputes (IPR proceedings, litigation in U.S., Europe, Canada, South Korea)",
+          "Praluent anticompetitive bundling litigation with Amgen in U.S. and Europe",
+          "DOJ investigation into patient assistance programs and Anti-Kickback Statute violations",
+          "False Claims Act investigations relating to EYLEA, Praluent, Dupixent, and other products",
+          "California Department of Insurance investigation into EYLEA marketing and distribution",
+          "Multiple qui tam complaints and interventions by DOJ and state authorities",
+          "Shareholder derivative lawsuit related to patient assistance program allegations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Regeneron delivered stable financial performance in Q1 2024, with consistent revenues and solid net income. The company continues to leverage its diverse product portfolio and strategic collaborations while managing ongoing legal and regulatory challenges.",
+        "summary": "Regeneron reported Q1 2024 revenues of $3,145.0 million (down slightly from $3,162.1M in Q1 2023) with net income of $722.0 million, maintaining profitability despite collaboration revenue decline. The company generated strong operating cash flow of $1,512.5 million and free cash flow of $1,378.6 million, though EYLEA U.S. product sales declined 16% YoY while newer products like Libtayo showed strong growth (49% YoY increase). Significant regulatory and litigation headwinds persist, including extensive patent disputes over EYLEA and investigations into compliance practices.",
         "keyQuotes": [
-          "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "Regeneron is a fully integrated biotechnology company that invents, develops, manufactures, and commercializes medicines for people with serious diseases"
+          "For the three months ended March 31, 2024, the Company's effective tax rate was (3.0%) and 4.7% for the three months ended March 31, 2023, respectively.",
+          "Sales to each of these customers as a percentage of the Company's total gross product revenue are as follows: Besse Medical 51% and McKesson Corporation 24%.",
+          "As of March 31, 2024, the Company's contingent reimbursement obligation to Sanofi under the collaboration was approximately $2.200 billion."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 48,
           "netIncomeScore": 45,
           "priceActionScore": null,
-          "compositeSentimentScore": 52,
+          "compositeSentimentScore": 47,
           "compositeSentiment": "neutral"
         }
       },
@@ -507,77 +753,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001804220-24-000009",
-        "filingDate": "2024-02-05",
-        "reportDate": "2023-12-31",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422024000009/regn-20231231.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "stable",
-        "revenue": 3434.3,
-        "netIncome": 1159.6,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": 76,
-        "geographicBreakdown": null,
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [
-          "Sanofi",
-          "Bayer",
-          "Alnylam Pharmaceuticals",
-          "Roche",
-          "Intellia",
-          "Sonoma Biotherapeutics",
-          "BARDA",
-          "Decibel Therapeutics",
-          "Checkmate Pharmaceuticals"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Medicare Drug Price Negotiation Program",
-          "Medicare Inflation Based Rebates",
-          "Medicare Part D Program Redesign"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Regeneron faces significant headwinds from potential Medicare drug pricing reforms, biosimilar competition for EYLEA, and increasing regulatory complexity. The company remains substantially dependent on EYLEA and Dupixent, with concentrated customer base and weak pricing power.",
-        "keyQuotes": [
-          "Our commercial success depends significantly on our ability to operate without infringing the patents and other proprietary rights of others",
-          "We are substantially dependent on the success of EYLEA, EYLEA HD, and Dupixent"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 66,
-          "netIncomeScore": 45,
-          "priceActionScore": null,
-          "compositeSentimentScore": 45,
-          "compositeSentiment": "neutral"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-31"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001804220-23-000031",
         "filingDate": "2023-11-02",
         "reportDate": "2023-09-30",
@@ -586,57 +761,65 @@
       },
       "insights": {
         "guidanceTone": "neutral",
-        "guidanceDirection": "maintained",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "unknown",
-        "headcountTrend": "unknown",
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
         "revenue": 3362.7,
         "netIncome": 1007.8,
         "operatingCashFlow": 3504.3,
-        "freeCashFlow": null,
+        "freeCashFlow": 3037.1,
         "daysalesOutstanding": null,
-        "deferredRevenue": 417.3,
+        "deferredRevenue": 542.6,
         "marketShareMention": null,
         "customerConcentration": 77,
         "geographicBreakdown": null,
         "capexAmount": 467.2,
-        "capexGrowth": null,
+        "capexGrowth": 6.7,
         "partnerships": [
+          "Sanofi - Antibody collaboration (Dupixent, Kevzara, itepekimab)",
+          "Sanofi - Immuno-oncology (Libtayo global rights acquired July 2022)",
+          "Bayer - EYLEA global development and commercialization",
+          "Roche - REGEN-COV casirivimab/imdevimab collaboration",
+          "Alnylam - RNAi therapeutics for eye, CNS, and liver targets",
+          "Sonoma Biotherapeutics - Regulatory T cell therapies for autoimmune diseases",
+          "BARDA - COVID-19 monoclonal antibody development (up to $326M funding)",
+          "Decibel Therapeutics - Acquired September 2023 for hearing loss therapies",
           "Sanofi",
           "Bayer",
           "Roche",
-          "Alnylam",
-          "Sonoma",
-          "Decibel",
           "Alnylam Pharmaceuticals",
           "Sonoma Biotherapeutics",
-          "BARDA",
-          "US Government",
-          "Decibel Therapeutics",
-          "Checkmate Pharmaceuticals",
-          "McKesson Corporation"
+          "Decibel Therapeutics"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Patent infringement proceedings",
-          "Department of Justice investigations"
+          "Praluent patent litigation with Amgen in U.S., Europe, and Canada",
+          "EYLEA patent challenges including IPR proceedings and biosimilar litigation",
+          "EYLEA pre-filled syringe patent dispute with Novartis",
+          "REGEN-COV patent infringement lawsuit from Allele Biotechnology",
+          "DOJ investigation regarding Anti-Kickback Statute violations for patient assistance programs",
+          "DOJ investigation regarding EYLEA pricing and reimbursement reporting",
+          "California Insurance Commissioner investigation regarding EYLEA marketing and pricing",
+          "Multiple qui tam actions regarding False Claims Act violations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Regeneron delivered solid quarterly performance with $3.36B in revenue and $1.01B in net income. The company continues to manage multiple strategic collaborations across pharmaceuticals while navigating complex legal and regulatory challenges.",
+        "summary": "Regeneron reported Q3 2023 net product sales of $1,786.1M (down 0.9% YoY) with collaboration revenue of $1,438.3M (up 36.9% YoY), resulting in total revenues of $3,362.7M and net income of $1,007.8M (down 23.4% YoY). The company faces significant patent litigation exposure, particularly with Amgen over Praluent and multiple biosimilar challenges to EYLEA, while also navigating DOJ investigations related to patient assistance programs and pricing practices. Strong cash generation ($3.5B operating cash flow YTD) and strategic partnerships with Sanofi, Bayer, and others support growth, though top customer concentration (77% from Besse Medical and McKesson) presents risk.",
         "keyQuotes": [
-          "Continuing to expand collaboration partnerships across multiple therapeutic areas",
-          "Maintaining strong financial performance despite ongoing patent and regulatory proceedings"
+          "During the three months ended September 30, 2023, the Company earned the final $50.0 million sales-based milestone from Sanofi, upon aggregate annual sales of antibodies outside the United States exceeding $3.0 billion on a rolling twelve-month basis.",
+          "Effective July 1, 2022, the Company obtained the exclusive right to develop, commercialize, and manufacture Libtayo worldwide under an Amended and Restated Immuno-oncology License and Collaboration Agreement with Sanofi.",
+          "In September 2023, the Company completed its acquisition of Decibel for hearing loss therapies with up to $97 million in contingent value rights upon achievement of clinical and regulatory milestones."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 45,
           "priceActionScore": null,
-          "compositeSentimentScore": 64,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2023",
@@ -649,154 +832,9 @@
         "reportDate": "2023-09-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001804220-23-000023",
-        "filingDate": "2023-08-03",
-        "reportDate": "2023-06-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422023000023/regn-20230630.htm"
-      },
-      "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
-        "revenue": 3158.1,
-        "netIncome": 968.4,
-        "operatingCashFlow": 2390,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 497.3,
-        "marketShareMention": null,
-        "customerConcentration": 76,
-        "geographicBreakdown": {
-          "US": null,
-          "ROW": null
-        },
-        "capexAmount": 291.2,
-        "capexGrowth": null,
-        "partnerships": [
-          "Sanofi",
-          "Bayer",
-          "Roche",
-          "Alnylam",
-          "Sonoma Biotherapeutics",
-          "Alnylam Pharmaceuticals",
-          "Checkmate Pharmaceuticals",
-          "McKesson Corporation",
-          "Besse Medical"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Patent litigation for EYLEA and Praluent",
-          "Department of Justice investigations"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q2 2023 financial results with revenues of $3.16 billion and net income of $968.4 million. The company maintains a robust pipeline and continues to invest in R&D while facing some patent and regulatory challenges.",
-        "keyQuotes": [
-          "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
-        ],
-        "marketData": {
-          "managementToneScore": 90,
-          "revenueGrowthScore": 76,
-          "netIncomeScore": 75,
-          "priceActionScore": null,
-          "compositeSentimentScore": 79,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-06-30"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001804220-23-000016",
-        "filingDate": "2023-05-04",
-        "reportDate": "2023-03-31",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/872589/000180422023000016/regn-20230331.htm"
-      },
-      "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "stable",
-        "revenue": 3162.1,
-        "netIncome": 817.8,
-        "operatingCashFlow": 1367.6,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 512.8,
-        "marketShareMention": null,
-        "customerConcentration": 77,
-        "geographicBreakdown": {
-          "US": 70,
-          "ROW": 30
-        },
-        "capexAmount": 178.2,
-        "capexGrowth": null,
-        "partnerships": [
-          "Sonoma Biotherapeutics collaboration for T reg therapies",
-          "Ongoing collaborations with Sanofi, Bayer, Roche",
-          "Sanofi",
-          "Bayer",
-          "Roche",
-          "Sonoma Biotherapeutics",
-          "Celltrion Inc",
-          "Apotex Inc"
-        ],
-        "supplyChainStatus": "normal",
-        "regulatoryHeadwinds": [
-          "Patent challenges for EYLEA and other products",
-          "Department of Justice investigations"
-        ],
-        "aiInvestmentMentioned": false,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "Regeneron delivered strong Q1 2023 financial results with robust revenue of $3.16 billion and net income of $817.8 million. Key products like Dupixent and Libtayo continue to show growth, while the company maintains a diversified portfolio and strategic collaborations.",
-        "keyQuotes": [
-          "Our core business strategy is to maintain a strong foundation in basic scientific research and discovery-enabling technologies",
-          "Our objective is to continue to advance as an integrated, multi-product biotechnology company"
-        ],
-        "marketData": {
-          "managementToneScore": 100,
-          "revenueGrowthScore": 66,
-          "netIncomeScore": 45,
-          "priceActionScore": null,
-          "compositeSentimentScore": 66,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-03-31"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2025-11-26T06:17:07.221Z"
+  "lastUpdated": "2026-08-05T20:30:41.527Z"
 }
