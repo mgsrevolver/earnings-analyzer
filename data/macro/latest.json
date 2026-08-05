@@ -1,69 +1,51 @@
 {
-  "period": "Q4 2024",
-  "generatedAt": "2026-08-05T16:31:51.832Z",
+  "period": "Q4 2025",
+  "generatedAt": "2026-08-05T21:32:58.953Z",
   "companies": [
     "AAPL",
     "AMC",
+    "AMD",
     "AMZN",
     "BIIB",
     "CEG",
+    "COIN",
     "CORZ",
+    "DDOG",
     "DOCN",
+    "GILD",
     "GOOGL",
     "HOOD",
     "INTC",
     "IONQ",
     "META",
+    "MRNA",
     "MSFT",
+    "NET",
     "NVDA",
+    "PLTR",
+    "RBLX",
     "REGN",
     "TSLA",
+    "U",
+    "VRTX",
     "VST"
   ],
   "aggregateInsights": {
-    "averageCapexGrowth": 141.98333333333332,
-    "companiesRaisingGuidance": 5,
-    "companiesLoweringGuidance": 2,
-    "aiInvestmentCount": 13,
-    "overallMarketSentiment": "neutral",
+    "averageCapexGrowth": 98.63333333333334,
+    "companiesRaisingGuidance": 0,
+    "companiesLoweringGuidance": 0,
+    "aiInvestmentCount": 26,
+    "overallMarketSentiment": "bearish",
     "partnershipNetwork": [
       {
-        "partner": "Google search distribution",
+        "partner": "Co-brand credit card partnerships",
         "mentions": 1,
         "connectedCompanies": [
-          "AAPL"
+          "AMC"
         ]
       },
       {
-        "partner": "Anthropic AI investment",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AMZN"
-        ]
-      },
-      {
-        "partner": "AWS cloud services partnerships",
-        "mentions": 1,
-        "connectedCompanies": [
-          "AMZN"
-        ]
-      },
-      {
-        "partner": "Eisai",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
-        "partner": "Sage",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
-        "partner": "Genentech",
+        "partner": "Stoke - zorevunersen",
         "mentions": 1,
         "connectedCompanies": [
           "BIIB"
@@ -77,13 +59,6 @@
         ]
       },
       {
-        "partner": "Reata Pharmaceuticals",
-        "mentions": 1,
-        "connectedCompanies": [
-          "BIIB"
-        ]
-      },
-      {
         "partner": "Ionis Pharmaceuticals",
         "mentions": 1,
         "connectedCompanies": [
@@ -91,65 +66,100 @@
         ]
       },
       {
-        "partner": "CoreWeave",
+        "partner": "Roche",
         "mentions": 1,
         "connectedCompanies": [
-          "CORZ"
+          "BIIB"
         ]
       },
       {
-        "partner": "Hugging Face",
+        "partner": "Circle",
         "mentions": 1,
         "connectedCompanies": [
-          "DOCN"
+          "COIN"
         ]
       },
       {
-        "partner": "Morningstar",
+        "partner": "Deribit",
+        "mentions": 1,
+        "connectedCompanies": [
+          "COIN"
+        ]
+      },
+      {
+        "partner": "Collaboration with Arcus Biosciences",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GILD"
+        ]
+      },
+      {
+        "partner": "Wiz acquisition agreement",
+        "mentions": 1,
+        "connectedCompanies": [
+          "GOOGL"
+        ]
+      },
+      {
+        "partner": "Citadel Securities",
         "mentions": 1,
         "connectedCompanies": [
           "HOOD"
         ]
       },
       {
-        "partner": "OpenAI",
+        "partner": "Wintermute Trading",
         "mentions": 1,
         "connectedCompanies": [
-          "MSFT"
+          "HOOD"
         ]
       },
       {
-        "partner": "Activision Blizzard",
+        "partner": "Recordati - PA therapeuticcollaboration",
         "mentions": 1,
         "connectedCompanies": [
-          "MSFT"
+          "MRNA"
         ]
       },
       {
-        "partner": "Sanofi",
+        "partner": "OpenAI - AI collaboration",
         "mentions": 1,
         "connectedCompanies": [
-          "REGN"
+          "MRNA"
+        ]
+      },
+      {
+        "partner": "Merck",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
+        ]
+      },
+      {
+        "partner": "Vertex",
+        "mentions": 1,
+        "connectedCompanies": [
+          "MRNA"
         ]
       }
     ],
     "supplyChainSentiment": {
-      "tight": 9,
-      "easing": 0,
-      "normal": 5,
-      "unknown": 3
+      "tight": 12,
+      "easing": 2,
+      "normal": 6,
+      "unknown": 7
     },
     "headcountTrends": {
-      "expanding": 5,
-      "stable": 6,
+      "expanding": 13,
+      "stable": 8,
       "freezing": 0,
-      "reducing": 6
+      "reducing": 5
     },
     "pricingPowerDistribution": {
-      "strong": 5,
-      "moderate": 8,
-      "weak": 4,
-      "unknown": 0
+      "strong": 7,
+      "moderate": 13,
+      "weak": 5,
+      "unknown": 2
     }
   },
   "sectorAnalyses": [
@@ -160,27 +170,22 @@
         "AAPL"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
+      "averageCapexGrowth": -19.3,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 0,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 1
       },
       "supplyChainStatus": {
         "tight": 0,
         "easing": 0,
-        "normal": 1,
-        "unknown": 0
+        "normal": 0,
+        "unknown": 1
       },
-      "aiInvestmentPercentage": 0,
-      "averageSentiment": 0,
-      "topPartners": [
-        {
-          "partner": "Google search distribution",
-          "mentions": 1
-        }
-      ]
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": 1,
+      "topPartners": []
     },
     {
       "sector": "Consumer",
@@ -189,7 +194,67 @@
         "AMC"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 8.8,
+      "averageCapexGrowth": 0.2,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 0,
+        "lowered": 0,
+        "notProvided": 1
+      },
+      "supplyChainStatus": {
+        "tight": 0,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 1
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "Co-brand credit card partnerships",
+          "mentions": 1
+        }
+      ]
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "Semiconductors",
+      "companies": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 79.4,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 0,
+        "lowered": 0,
+        "notProvided": 3
+      },
+      "supplyChainStatus": {
+        "tight": 3,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 0
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": -0.3333333333333333,
+      "topPartners": [
+        {
+          "partner": "Groq",
+          "mentions": 1
+        }
+      ]
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "E-commerce",
+      "companies": [
+        "AMZN"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 65.2,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 1,
@@ -207,64 +272,50 @@
       "topPartners": []
     },
     {
-      "sector": "Technology",
-      "subCategory": "E-commerce",
-      "companies": [
-        "AMZN"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 57.3,
-      "guidanceSentiment": {
-        "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 1,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 0
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 1,
-      "topPartners": [
-        {
-          "partner": "Anthropic AI investment",
-          "mentions": 1
-        },
-        {
-          "partner": "AWS cloud services partnerships",
-          "mentions": 1
-        }
-      ]
-    },
-    {
       "sector": "Healthcare",
       "subCategory": "Biotech",
       "companies": [
         "BIIB",
-        "REGN"
+        "GILD",
+        "MRNA",
+        "REGN",
+        "VRTX"
       ],
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 0,
         "lowered": 0,
-        "notProvided": 1
+        "notProvided": 5
       },
       "supplyChainStatus": {
         "tight": 2,
         "easing": 0,
-        "normal": 0,
+        "normal": 3,
         "unknown": 0
       },
-      "aiInvestmentPercentage": 50,
-      "averageSentiment": -0.5,
+      "aiInvestmentPercentage": 80,
+      "averageSentiment": -0.4,
       "topPartners": [
         {
-          "partner": "Samsung",
+          "partner": "Bayer",
+          "mentions": 2
+        },
+        {
+          "partner": "Sanofi",
+          "mentions": 2
+        },
+        {
+          "partner": "CRISPR Therapeutics",
+          "mentions": 2
+        },
+        {
+          "partner": "Zai Lab",
+          "mentions": 2
+        },
+        {
+          "partner": "Ono Pharmaceuticals",
           "mentions": 2
         }
       ]
@@ -279,20 +330,58 @@
       "averageRevenueGrowth": 0,
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
-        "raised": 2,
+        "raised": 0,
         "maintained": 0,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 2
       },
       "supplyChainStatus": {
         "tight": 1,
         "easing": 0,
-        "normal": 1,
-        "unknown": 0
+        "normal": 0,
+        "unknown": 1
       },
-      "aiInvestmentPercentage": 50,
-      "averageSentiment": 1,
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": 0,
       "topPartners": []
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "FinTech",
+      "companies": [
+        "COIN",
+        "HOOD"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": 0,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 0,
+        "lowered": 0,
+        "notProvided": 2
+      },
+      "supplyChainStatus": {
+        "tight": 0,
+        "easing": 0,
+        "normal": 0,
+        "unknown": 2
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "Circle",
+          "mentions": 1
+        },
+        {
+          "partner": "Deribit",
+          "mentions": 1
+        },
+        {
+          "partner": "Citadel Securities",
+          "mentions": 1
+        }
+      ]
     },
     {
       "sector": "Technology",
@@ -301,12 +390,12 @@
         "CORZ"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 486.4,
+      "averageCapexGrowth": 667.4,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 0,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 1
       },
       "supplyChainStatus": {
         "tight": 1,
@@ -315,106 +404,49 @@
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0,
-      "topPartners": [
-        {
-          "partner": "CoreWeave",
-          "mentions": 1
-        }
-      ]
+      "averageSentiment": -1,
+      "topPartners": []
     },
     {
       "sector": "Technology",
       "subCategory": "Cloud Infrastructure",
       "companies": [
+        "DDOG",
         "DOCN",
         "GOOGL",
-        "MSFT"
+        "MSFT",
+        "NET"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 63,
-      "guidanceSentiment": {
-        "raised": 2,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 2,
-        "unknown": 1
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": 0.6666666666666666,
-      "topPartners": [
-        {
-          "partner": "Hugging Face",
-          "mentions": 1
-        },
-        {
-          "partner": "OpenAI",
-          "mentions": 1
-        },
-        {
-          "partner": "Activision Blizzard",
-          "mentions": 1
-        }
-      ]
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "FinTech",
-      "companies": [
-        "HOOD"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
+      "averageCapexGrowth": 74.1,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
-        "lowered": 0,
-        "notProvided": 0
-      },
-      "supplyChainStatus": {
-        "tight": 0,
-        "easing": 0,
-        "normal": 0,
-        "unknown": 1
-      },
-      "aiInvestmentPercentage": 100,
-      "averageSentiment": -1,
-      "topPartners": [
-        {
-          "partner": "Morningstar",
-          "mentions": 1
-        }
-      ]
-    },
-    {
-      "sector": "Technology",
-      "subCategory": "Semiconductors",
-      "companies": [
-        "INTC",
-        "NVDA"
-      ],
-      "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 209,
-      "guidanceSentiment": {
-        "raised": 1,
         "maintained": 0,
-        "lowered": 1,
-        "notProvided": 0
+        "lowered": 0,
+        "notProvided": 5
       },
       "supplyChainStatus": {
-        "tight": 2,
+        "tight": 3,
         "easing": 0,
-        "normal": 0,
-        "unknown": 0
+        "normal": 1,
+        "unknown": 1
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": 0,
-      "topPartners": []
+      "topPartners": [
+        {
+          "partner": "Wiz acquisition agreement",
+          "mentions": 1
+        },
+        {
+          "partner": "JD Cloud",
+          "mentions": 1
+        },
+        {
+          "partner": "Telecommunications companies",
+          "mentions": 1
+        }
+      ]
     },
     {
       "sector": "Technology",
@@ -423,21 +455,21 @@
         "IONQ"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 0,
+      "averageCapexGrowth": 81.1,
       "guidanceSentiment": {
         "raised": 0,
         "maintained": 0,
-        "lowered": 1,
-        "notProvided": 0
+        "lowered": 0,
+        "notProvided": 1
       },
       "supplyChainStatus": {
-        "tight": 1,
-        "easing": 0,
+        "tight": 0,
+        "easing": 1,
         "normal": 0,
         "unknown": 0
       },
-      "aiInvestmentPercentage": 0,
-      "averageSentiment": -1,
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": 0,
       "topPartners": []
     },
     {
@@ -450,15 +482,15 @@
       "averageCapexGrowth": 0,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 0,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 1
       },
       "supplyChainStatus": {
         "tight": 0,
-        "easing": 0,
+        "easing": 1,
         "normal": 0,
-        "unknown": 1
+        "unknown": 0
       },
       "aiInvestmentPercentage": 100,
       "averageSentiment": -1,
@@ -468,60 +500,99 @@
       "sector": "Technology",
       "subCategory": "AI/ML",
       "companies": [
+        "PLTR",
         "TSLA"
       ],
       "averageRevenueGrowth": 0,
-      "averageCapexGrowth": 27.4,
+      "averageCapexGrowth": -24.8,
       "guidanceSentiment": {
         "raised": 0,
-        "maintained": 1,
+        "maintained": 0,
         "lowered": 0,
-        "notProvided": 0
+        "notProvided": 2
       },
       "supplyChainStatus": {
         "tight": 1,
         "easing": 0,
         "normal": 0,
+        "unknown": 1
+      },
+      "aiInvestmentPercentage": 100,
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "SOMPO Holdings, Inc.",
+          "mentions": 1
+        },
+        {
+          "partner": "HD Hyundai Co. Ltd.",
+          "mentions": 1
+        },
+        {
+          "partner": "Global system integrators",
+          "mentions": 1
+        }
+      ]
+    },
+    {
+      "sector": "Technology",
+      "subCategory": "Gaming",
+      "companies": [
+        "RBLX",
+        "U"
+      ],
+      "averageRevenueGrowth": 0,
+      "averageCapexGrowth": -35.6,
+      "guidanceSentiment": {
+        "raised": 0,
+        "maintained": 0,
+        "lowered": 0,
+        "notProvided": 2
+      },
+      "supplyChainStatus": {
+        "tight": 1,
+        "easing": 0,
+        "normal": 1,
         "unknown": 0
       },
       "aiInvestmentPercentage": 100,
-      "averageSentiment": 0,
-      "topPartners": []
+      "averageSentiment": -1,
+      "topPartners": [
+        {
+          "partner": "Apple App Store",
+          "mentions": 1
+        },
+        {
+          "partner": "Google Play Store",
+          "mentions": 1
+        },
+        {
+          "partner": "Amazon",
+          "mentions": 1
+        }
+      ]
     }
   ],
   "divergences": [
-    {
-      "theme": "Guidance Direction",
-      "winners": [
-        "CEG",
-        "GOOGL",
-        "MSFT",
-        "NVDA",
-        "VST"
-      ],
-      "losers": [
-        "INTC",
-        "IONQ"
-      ],
-      "details": "5 companies raised guidance vs 2 lowered"
-    },
     {
       "theme": "Capital Expenditure",
       "winners": [
         "AMZN",
         "CORZ",
         "GOOGL",
-        "NVDA",
-        "TSLA"
+        "IONQ",
+        "NVDA"
       ],
-      "losers": [],
-      "details": "5 companies increasing capex >20% vs 0 decreasing >10%"
+      "losers": [
+        "AAPL",
+        "TSLA",
+        "U"
+      ],
+      "details": "5 companies increasing capex >20% vs 3 decreasing >10%"
     }
   ],
   "topThemes": [
     "AI Infrastructure Investment",
-    "Supply Chain Constraints",
-    "Optimistic Outlook",
-    "Cost Cutting Measures"
+    "Supply Chain Constraints"
   ]
 }

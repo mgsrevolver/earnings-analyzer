@@ -1,0 +1,832 @@
+{
+  "company": {
+    "ticker": "GILD",
+    "name": "Gilead Sciences Inc.",
+    "category": [
+      "Biotech"
+    ],
+    "sector": "Healthcare",
+    "subCategory": "Biotech",
+    "cik": "0000882095"
+  },
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0000882095-26-000024",
+        "filingDate": "2026-05-07",
+        "reportDate": "2026-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000024/gild-20260331.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 6960,
+        "netIncome": 2021,
+        "operatingCashFlow": 2544,
+        "freeCashFlow": 2427,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 47,
+        "marketShareMention": "Cell Therapy experiencing competitive headwinds; Trodelvy gaining traction with higher demand",
+        "customerConcentration": 60,
+        "geographicBreakdown": {
+          "US": 70.7,
+          "Europe": 16.4,
+          "RestOfWorld": 12.8
+        },
+        "capexAmount": 117,
+        "capexGrowth": 12.5,
+        "partnerships": [
+          "Galapagos collaboration on Ouro TCE programs - 50/50 cost and milestone sharing",
+          "LEO Pharma STAT6 oral programs partnership",
+          "Arcellx acquisition for anito-cel BCMA CAR-T therapy",
+          "Tubulis acquisition for next-generation ADCs",
+          "Ouro Medicines acquisition for TCE autoimmune therapies",
+          "Suzhou Genhouse Bio collaboration"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "BIC/LEN NDA accepted with priority review; PDUFA date August 27, 2026",
+          "Anito-cel BLA accepted; PDUFA date December 23, 2026",
+          "Tecartus received full FDA approval for R/R mantle cell lymphoma",
+          "Litigation with generic manufacturers (Aspiro - Veklury settlement through May 2041; Cipla - Descovy patent challenge)",
+          "Antitrust litigation ongoing related to HIV drugs",
+          "Product liability litigation for Viread, Truvada, Atripla, Complera, Stribild",
+          "Qui tam litigation for HCV sales practices"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered Q1 2026 revenue of $6.96 billion (+4% YoY) and net income of $2.02 billion (+54% YoY), driven by strong HIV portfolio growth (Biktarvy +7%, Descovy +38%) and Trodelvy momentum (+37%), partially offset by Veklury decline (-52% due to lower COVID hospitalizations) and cell therapy headwinds. However, management guidance is cautious as the company expects ~$11.5 billion in IPR&D charges in Q2 2026 from major acquisitions (Arcellx, Tubulis, Ouro), resulting in anticipated net loss for Q2 and full year 2026. The company maintains strong pricing power and operating cash flow generation ($2.54B in Q1), but faces ongoing litigation risks and competitive pressures in cell therapy.",
+        "keyQuotes": [
+          "As a result of the recent acquisitions completed or announced above, we expect to record related charges of approximately $11.5 billion to Acquired in-process research and development expenses in the second quarter of 2026, which we expect to result in a net loss for the second quarter and full year 2026.",
+          "HIV product sales increased 10% to $5.0 billion for the three months ended March 31, 2026, compared to the same period in 2025, primarily due to higher demand and average realized price, partially offset by unfavorable inventory dynamics.",
+          "Cell Therapy product sales decreased 12% to $407 million for the three months ended March 31, 2026, compared to the same period in 2025, primarily due to lower demand reflecting ongoing competitive headwinds."
+        ],
+        "marketData": {
+          "managementToneScore": 45,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 67,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-26-000006",
+        "filingDate": "2026-02-24",
+        "reportDate": "2025-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209526000006/gild-20251231.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 7925,
+        "netIncome": 2183,
+        "operatingCashFlow": 10019,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Market share gains by competitive products, including generics; lower demand reflecting ongoing competitive headwinds in Cell Therapy; Biktarvy patent settlements extend exclusivity to April 2036",
+        "customerConcentration": 90,
+        "geographicBreakdown": {
+          "United_States": 71,
+          "Europe": 17,
+          "Rest_of_World": 12
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Arcellx acquisition agreement for anitocabtagene autoleucel",
+          "Partnership with U.S. State Department and PEPFAR for lenacapavir distribution",
+          "Collaboration with Shenzhen Pregene Biopharma for in vivo therapies",
+          "Interius BioTherapeutics acquisition for in vivo CAR-T",
+          "LEO Pharma partnership for STAT6 programs",
+          "Kymera Therapeutics option agreement for CDK2 degraders",
+          "Collaboration with Arcus Biosciences (discontinued STAR-221 study)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. Medicare price negotiation (Biktarvy selected for 2028)",
+          "Inflation Reduction Act implementation and Part D redesign impact",
+          "MFN pricing agreement with U.S. administration",
+          "Tariff threats on pharmaceuticals (paused for 3 years under agreement)",
+          "BIOSECURE Act constraints on foreign manufacturing partnerships",
+          "Proposed ABC Safe Drug Act",
+          "State-level drug pricing legislation and affordability reviews",
+          "EU pricing and reimbursement review procedures",
+          "Potential PEPFAR and CDC funding reductions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead reported 2% revenue growth to $29.4B and significant net income improvement to $8.5B in 2025, driven by strong HIV product sales growth (6%) and Liver Disease expansion, partially offset by Veklury decline (49% decrease due to lower COVID-19 hospitalizations). The company faces substantial regulatory headwinds including Medicare price negotiation, MFN pricing mandates, and tariff threats, though management has secured a 3-year tariff pause agreement. Management maintains neutral outlook with expected continued product sales growth offset by policy impacts and competitive pressures in Cell Therapy.",
+        "keyQuotes": [
+          "During 2025, we delivered growth in our HIV product sales, introduced Yeztugo, the first and only twice-yearly HIV pre-exposure prophylaxis option available in the U.S., and expanded Livdelzi's market share in the treatment of primary biliary cholangitis.",
+          "As we look to 2026, we expect to see continued growth for our product sales overall, bolstered by increased demand in our HIV business. We anticipate that such growth will be partially offset by the impact of various policy-related developments in the U.S.",
+          "In December 2025, Gilead reached an agreement with the administration to (1) pause the imposition of Section 232 tariffs on Gilead for three years, (2) implement MFN prices in Medicaid for select existing and future launched products, (3) set a new direct-to-patient price for Epclusa and (4) return a portion of increased international revenues to the U.S."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-25-000047",
+        "filingDate": "2025-11-07",
+        "reportDate": "2025-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000047/gild-20250930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 7769,
+        "netIncome": 3052,
+        "operatingCashFlow": 6692,
+        "freeCashFlow": 6334,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 56,
+        "marketShareMention": null,
+        "customerConcentration": 60,
+        "geographicBreakdown": {
+          "United States": 68,
+          "Europe": 20,
+          "Rest of World": 12
+        },
+        "capexAmount": 358,
+        "capexGrowth": -4.8,
+        "partnerships": [
+          "LEO Pharma - STAT6 oral program partnership ($250M upfront, up to $1.5B in milestones)",
+          "Galapagos - amended OLCA with potential separation into SpinCo",
+          "Janssen Ireland - Symtuza revenue sharing arrangement",
+          "Arcus Biosciences - 30% equity stake, increased board representation to 3 designees"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Multiple antitrust and consumer protection class action litigations related to HIV drugs (Truvada, Atripla, Complera)",
+          "Product liability lawsuits related to Viread, Truvada, Atripla, Complera, Stribild (approximately 23,000 active plaintiffs)",
+          "Qui tam litigation alleging False Claims Act violations related to HCV sales/marketing activities",
+          "ANDA challenges from generic manufacturers (Lupin, Laurus, Cipla for Biktarvy; Aspiro for Veklury)",
+          "Potential tariffs and trade policy changes under consideration"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead reported Q3 2025 revenue of $7.77B (+3% YoY) with net income of $3.05B, significantly improved from Q3 2024's $1.25B primarily due to absence of prior-year $1.75B IPR&D impairment charges. The company recognized a $190M impairment on bulevirtide IPR&D in Q2 2025 due to competitive pressures. Cash generation remains strong with 9-month operating cash flow of $6.69B and disciplined capital allocation including $1.69B in share repurchases and $3.01B in dividend payments. The company is reducing headcount through ongoing restructuring ($101M in 9-month charges) and faces substantial litigation headwinds including antitrust suits on HIV drugs and product liability cases involving ~23,000 plaintiffs.",
+        "keyQuotes": [
+          "In June 2023, the jury returned a complete verdict in Gilead's favor on the remaining plaintiffs' Phase I allegations [in antitrust litigation]",
+          "We recorded a partial impairment charge of $190 million...related to certain acquired in-process research and development assets [for bulevirtide] due to additional competitive clinical data becoming available indicating a potentially more competitive market",
+          "In October 2025, we closed an agreement to acquire all outstanding shares of Interius BioTherapeutics, Inc. for approximately $350 million in cash consideration"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 58,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 68,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-25-000032",
+        "filingDate": "2025-08-07",
+        "reportDate": "2025-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000032/gild-20250630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 7082,
+        "netIncome": 1960,
+        "operatingCashFlow": 2584,
+        "freeCashFlow": 2373,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 58,
+        "marketShareMention": "Generic competition threats from Lupin, Larius, Cipla for Biktarvy; Aspiro for Veklury",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 71.4,
+          "Europe": 16.8,
+          "Rest_of_World": 11.9
+        },
+        "capexAmount": 211,
+        "capexGrowth": -10.2,
+        "partnerships": [
+          "LEO Pharma strategic partnership for oral STAT6 programs ($250M upfront, up to $1.5B in milestones)",
+          "Galapagos amended option, license and collaboration agreement (potential separation into SpinCo)",
+          "Arcus collaboration with 30% equity stake held"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Clinical hold placed on GS-1720 and/or GS-4182 HIV treatment trials (WONDERS-1 and WONDERS-2)",
+          "Multiple generic ANDA challenges for Biktarvy, Veklury from Lupin, Larius, Cipla, Aspiro",
+          "Antitrust litigation ongoing in multiple jurisdictions regarding HIV and HCV products",
+          "Product liability lawsuits related to Viread, Truvada, Atripla, Complera, Stribild (kidney, bone, tooth injuries)"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered Q2 2025 revenue of $7.1B (+1.8% YoY) and net income of $1.96B (+21.5% YoY), driven by solid performance in HIV (particularly Biktarvy growth) and oncology offset by challenges in liver disease. The company recorded a $190M impairment on bulevirtide IPR&D due to increased competitive pressures, demonstrating cautious outlook on certain programs. Strategic partnerships with LEO Pharma ($250M upfront) and continued equity stakes in Galapagos and Arcus signal ongoing M&A and collaboration activity, though significant legal headwinds from antitrust, product liability, and patent litigation remain.",
+        "keyQuotes": [
+          "In March 2025, we completed the acquisition of CymaBay Therapeutics, Inc. for total consideration of $3.9 billion, net of cash acquired.",
+          "Based on our evaluation of the data, and in connection with the preparation of the financial statements for the second quarter, we performed an interim impairment test and determined that the revised estimated fair value of the bulevirtide IPR&D intangible asset was below its carrying value.",
+          "In January 2025, we entered into a strategic partnership with LEO Pharma A/S to accelerate the development and commercialization of LEO Pharma's small molecule oral signal transducer and activator of transcription 6 programs."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-25-000012",
+        "filingDate": "2025-05-07",
+        "reportDate": "2025-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000012/gild-20250331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 6667,
+        "netIncome": 1315,
+        "operatingCashFlow": 1757,
+        "freeCashFlow": 1653,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 56,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 70,
+          "Europe": 16.3,
+          "Rest_of_World": 13.7
+        },
+        "capexAmount": 104,
+        "capexGrowth": null,
+        "partnerships": [
+          "LEO Pharma strategic partnership for STAT6 programs ($250M upfront, up to $1.5B in milestones)",
+          "Galapagos amended OLCA with planned separation into SpinCo",
+          "Arcus Biosciences equity investment and collaboration (30% ownership)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "FDA Trodelvy EVOKE-01 study failed primary endpoint in NSCLC",
+          "Medicare Part D program redesign impacting U.S. product pricing",
+          "Multiple antitrust class action litigation ongoing",
+          "Product liability lawsuits related to Viread, Truvada, Atripla, Complera, Stribild (kidney, bone, tooth injuries)"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered flat Q1 2025 revenues of $6.7 billion despite headwinds from lower Veklury sales (COVID-19 decline) and Medicare Part D redesign, offset by strong HIV growth (+6%, driven by Biktarvy and Descovy) and new Liver Disease products. Q1 net income of $1.3 billion swung sharply positive versus prior year's $4.2B loss, primarily due to non-repeat of $3.9B CymaBay IPR&D charge and $2.4B Trodelvy impairment, though current period was pressured by $253M LEO Pharma IPR&D expense and $426M equity investment losses. The company continues workforce reduction (restructuring charges of $74M in Q1) while maintaining robust cash generation ($1.76B operating cash flow) and strategic partnerships (LEO Pharma, Galapagos separation), though faces material litigation risks including antitrust claims and product liability exposure.",
+        "keyQuotes": [
+          "Total revenues of $6.7 billion remained relatively flat for the three months ended March 31, 2025, compared to the same period in 2024, primarily due to lower Veklury and Oncology sales being mostly offset by higher HIV and Liver Disease sales.",
+          "HIV product sales increased 6% to $4.6 billion for the three months ended March 31, 2025, compared to the same period in 2024, primarily due to higher demand and higher average realized price, inclusive of the impact of the redesign of the U.S. Medicare Part D program.",
+          "If future events result in adverse changes in the key assumptions used in determining fair value, including the timing of product launches, information on the competitive landscape of treatments in this indication, changes to the probability of technical or regulatory success, failure to obtain anticipated regulatory approval or discount rate, among others, additional impairments may be recorded and could be material to our financial statements."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-25-000006",
+        "filingDate": "2025-02-28",
+        "reportDate": "2024-12-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209525000006/gild-20241231.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 7569,
+        "netIncome": 1783,
+        "operatingCashFlow": 10828,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Market share gains by competitive products, including generics noted as a risk; Biktarvy gaining share from Genvoya and other HIV products",
+        "customerConcentration": 90,
+        "geographicBreakdown": {
+          "United States": 71.6,
+          "Europe": 16.1,
+          "Rest of World": 12.3
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Arcus Biosciences collaboration continuation",
+          "Arcellx collaboration milestones",
+          "Tmunity acquisition milestones",
+          "Janssen Pharmaceutica NV royalty buyout for seladelpar ($320M)",
+          "LEO Pharma A/S collaboration for STAT6 programs (early 2025)",
+          "Medicines Patent Pool licensing agreements for generic versions in low/middle-income countries"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "FDA issued class labeling change for CAR T-cell therapies with boxed warning about secondary T-cell malignancies",
+          "FDA complete response letter for bulevirtide",
+          "Voluntary withdrawal of Trodelvy accelerated approval for urothelial cancer following Phase 3 TROPiCS-04 failure",
+          "Inflation Reduction Act impacts on Medicare pricing and Part D discounts",
+          "State-level drug pricing affordability reviews and proposed restrictions",
+          "Potential Medicare drug price negotiation selections in future years",
+          "Enhanced scrutiny of patient assistance programs",
+          "BIOSECURE Act potential restrictions on biotech equipment/services",
+          "Executive Order repealing Biden's CMS payment model testing",
+          "Potential tariffs on pharmaceuticals"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered 6% revenue growth to $28.8B in 2024 driven by strong HIV product performance (8% growth), Oncology expansion, and Liver Disease growth, though net income collapsed to $480M from $5.7B due to $4.2B Trodelvy NSCLC impairment charges and $3.8B CymaBay acquisition costs. Operating cash flow strengthened to $10.8B, but management's 2025 outlook is cautious, expecting volume growth offset by IRA pricing pressures, Veklury declines, and FX headwinds.",
+        "keyQuotes": [
+          "We anticipate that strong, demand-led volume growth in 2025 will be offset by: (i) the effects of the Inflation Reduction Act, which is expected to increase our payment obligations under the redesigned Medicare Part D discount program; (ii) an expected decrease in our Veklury product sales reflecting lower rates of COVID-19-related hospitalizations; and (iii) the impact of the U.S. dollar strengthening against major foreign currencies.",
+          "Total revenues increased 6% to $28.8 billion in 2024, compared to 2023, primarily due to higher sales in HIV, Oncology and Liver Disease, partially offset by lower sales of Veklury.",
+          "Net income attributable to Gilead was $480 million...The decrease was primarily due to: A pre-tax IPR&D partial impairment charge of $4.2 billion related to Trodelvy IPR&D assets"
+        ],
+        "marketData": {
+          "managementToneScore": 45,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 49,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2024",
+        "reportDate": "2024-12-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-24-000028",
+        "filingDate": "2024-11-12",
+        "reportDate": "2024-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000028/gild-20240930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 7545,
+        "netIncome": 1253,
+        "operatingCashFlow": 7853,
+        "freeCashFlow": 7477,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 68,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 72.2,
+          "Europe": 15.5,
+          "Rest of World": 12.3
+        },
+        "capexAmount": 376,
+        "capexGrowth": 1.6,
+        "partnerships": [
+          "Collaboration with Arcellx on CART-ddBCMA co-development and co-commercialization",
+          "Amended collaboration with Arcus (33% ownership stake, $320M investment)",
+          "Revenue share agreement with Janssen for Symtuza"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "HHS patent litigation regarding Truvada and Descovy for PrEP",
+          "Multiple generic manufacturer ANDA challenges (Lupin, Apotex, Cipla for Biktarvy, Symtuza, Genvoya)",
+          "Antitrust litigation with BMS, Johnson & Johnson, Teva regarding HIV drug pricing",
+          "Product liability litigation regarding Viread, Truvada, Atripla related to kidney/bone injuries",
+          "FDA accelerated approval voluntary withdrawal for Trodelvy in urothelial cancer",
+          "Government investigation regarding promotional speaker programs"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bearish",
+        "summary": "Gilead reported Q3 2024 revenue of $7.5B (up 7.0% YoY) and net income of $1.3B, but year-to-date results reflect a $1.3B net loss due to $4.2B in IPR&D impairments related to failed Trodelvy NSCLC trials and the $3.9B CymaBay acquisition. The company demonstrated pricing power with HIV product growth (Biktarvy +12.5% YoY in Q3), but is facing significant regulatory headwinds including generic litigation, antitrust claims, and the voluntary withdrawal of accelerated approval for Trodelvy. Restructuring charges of $112M YTD indicate workforce optimization amid strategic portfolio challenges.",
+        "keyQuotes": [
+          "In January 2024, we received data from our Phase 3 EVOKE-01 study of Trodelvy evaluating SG indicating that the study did not meet its primary endpoint of overall survival in previously treated metastatic NSCLC, thus triggering a review for potential impairment",
+          "In September 2024, based on discussions with regulators and external opinion leaders and the completed evaluation of the Phase 3 EVOKE-01 study data, we made a strategic decision to discontinue our clinical development program in metastatic NSCLC for Trodelvy",
+          "In August 2024, FDA granted accelerated approval for Livdelzi (seladelpar) for the treatment of primary biliary cholangitis in combination with ursodeoxycholic acid"
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 32,
+          "priceActionScore": null,
+          "compositeSentimentScore": 46,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-24-000022",
+        "filingDate": "2024-08-08",
+        "reportDate": "2024-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000022/gild-20240630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 6954,
+        "netIncome": 1614,
+        "operatingCashFlow": 3544,
+        "freeCashFlow": 3309,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 76,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 71,
+          "Europe": 16,
+          "Rest of World": 13
+        },
+        "capexAmount": 235,
+        "capexGrowth": -5.2,
+        "partnerships": [
+          "Merus N.V. - research collaboration and license agreement for novel antibody-based trispecific T-cell engagers",
+          "Xilio Therapeutics, Inc. - exclusive license agreement for XTX301 tumor-activated IL-12 program",
+          "Janssen Pharmaceutica NV - royalty buyout agreement for seladelpar ($320 million)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Patent litigation with generic manufacturers (Lupin, Apotex, Laurus, Cipla) challenging Biktarvy and Symtuza patents",
+          "HHS patent infringement litigation regarding PrEP products (Truvada and Descovy) - appeal filed July 2024",
+          "Antitrust litigation from multiple plaintiffs regarding HIV drug pricing",
+          "Product liability lawsuits regarding kidney, bone and tooth injuries from Viread, Truvada, Atripla, Complera and Stribild",
+          "Qui tam litigation regarding False Claims Act violations in HCV marketing",
+          "Government investigation from U.S. Attorney's Office regarding promotional speaker programs"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead delivered Q2 2024 quarterly revenue of $6.95 billion (up 5% YoY) with net income of $1.61 billion, reflecting solid core product performance offset by significant non-recurring charges including $4.17 billion in acquired IPR&D expenses from the CymaBay acquisition and a $2.43 billion NSCLC impairment charge on Trodelvy. The company is executing strategic acquisitions and partnerships while managing workforce reductions, though facing material litigation headwinds including antitrust cases, patent challenges, and product liability suits that could materially impact future results.",
+        "keyQuotes": [
+          "We completed the acquisition of CymaBay Therapeutics, Inc. for $4.3 billion in total equity value...adding investigational candidate seladelpar for the treatment of primary biliary cholangitis",
+          "We performed an interim impairment test and determined that the revised estimated fair value of the NSCLC IPR&D intangible asset was below its carrying value...we recognized a partial impairment charge of $2.4 billion",
+          "Total revenues increased 5% to $7.0 billion and $13.6 billion for the three and six months ended June 30, 2024, respectively, compared to the same periods in 2023, primarily due to higher product sales in HIV, Oncology and Liver Disease"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-06-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-24-000013",
+        "filingDate": "2024-05-08",
+        "reportDate": "2024-03-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209524000013/gild-20240331.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 6686,
+        "netIncome": -4170,
+        "operatingCashFlow": 2219,
+        "freeCashFlow": 2114,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 84,
+        "marketShareMention": "Biktarvy gaining share from Genvoya and other HIV products",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 69.3,
+          "Europe": 17.3,
+          "Rest of World": 13.4
+        },
+        "capexAmount": 105,
+        "capexGrowth": -3.7,
+        "partnerships": [
+          "Merus N.V. - research collaboration and license agreement for trispecific T-cell engagers",
+          "Xilio Therapeutics - exclusive license agreement for tumor-activated IL-12 program (XTX301)",
+          "Janssen - Symtuza revenue sharing arrangement"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "HHS patent litigation related to PrEP (Truvada/Descovy) - partially resolved favorably in March 2024",
+          "Generic challenges from Lupin, Laurus, Cipla for Biktarvy adult and pediatric formulations (trials scheduled 2025)",
+          "Generic challenge from Apotex for Genvoya and Symtuza (trial February 2025)",
+          "Antitrust litigation related to HIV drug pricing - settled direct purchaser class for $525M in 2023, Phase I verdict favored Gilead in June 2023",
+          "Product liability litigation for Viread/Truvada/Atripla related to kidney/bone injuries (~25,000 plaintiffs)"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Gilead reported Q1 2024 revenues of $6.7B (+5% YoY) driven by HIV, oncology, and liver disease growth, but posted a net loss of $4.2B primarily due to $3.9B in acquired IPR&D charges from the CymaBay acquisition and a $2.4B impairment charge on Trodelvy NSCLC assets following Phase 3 trial failure. Operating cash flow remained positive at $2.2B, but the company is undertaking workforce reductions and faces significant patent litigation and generic competition challenges across multiple product lines.",
+        "keyQuotes": [
+          "In January 2024, we received data from our Phase 3 EVOKE-01 study of Trodelvy evaluating SG indicating that the study did not meet its primary endpoint of overall survival in previously treated metastatic NSCLC, thus triggering a review for potential impairment",
+          "We completed the acquisition of CymaBay Therapeutics, Inc. for total consideration of $3.9 billion, net of cash acquired...seladelpar is an investigational, oral, selective peroxisome proliferator-activated receptor delta agonist with Orphan Drug Designation",
+          "During the three months ended March 31, 2024, we incurred restructuring charges of $63 million primarily related to the initiation of reductions in our commercial and research and development workforce"
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 36,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-03-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-23-000031",
+        "filingDate": "2023-11-07",
+        "reportDate": "2023-09-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000031/gild-20230930.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
+        "revenue": 7051,
+        "netIncome": 2180,
+        "operatingCashFlow": 5837,
+        "freeCashFlow": 5467,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 68,
+        "marketShareMention": null,
+        "customerConcentration": 66,
+        "geographicBreakdown": {
+          "United_States": 71,
+          "Europe": 15,
+          "Other_International": 14
+        },
+        "capexAmount": 370,
+        "capexGrowth": -32.3,
+        "partnerships": [
+          "Janssen - Symtuza revenue share",
+          "Arcellx - CART-ddBCMA co-development and co-commercialization agreement with $115 million equity investment",
+          "Strategic collaboration arrangements mentioned in acquisitions section"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Pre-exposure prophylaxis patent litigation with U.S. Department of Health and Human Services",
+          "Generic manufacturer challenges (Lupin, Apotex, Cipla, Laurus) for Biktarvy, Symtuza, and Genvoya",
+          "Product liability lawsuits related to Viread, Truvada, Atripla, Complera, Stribild (kidney, bone, tooth injuries)",
+          "Antitrust litigation related to HIV drug pricing",
+          "Qui tam False Claims Act litigation",
+          "IRS examination for 2016-2018 tax years"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead reported Q3 2023 revenue of $7.05 billion with net income of $2.18 billion, showing modest growth driven by HIV and oncology products. The company maintains strong cash generation with $5.8 billion operating cash flow and $5.5 billion free cash flow, though capex declined 32% YoY. Key headwinds include significant ongoing patent litigation, generic manufacturer challenges to core products, and product liability lawsuits that could impact future revenues.",
+        "keyQuotes": [
+          "Generic manufacturers have sought and may continue to seek FDA approval for a similar or identical drug through an abbreviated new drug application ('ANDA'), the application form typically used by manufacturers seeking approval of a generic drug. The sale of generic versions of our products prior to their patent expiration would have a significant negative effect on our revenues and results of operations.",
+          "In May 2023, we settled claims with the direct purchaser class and the retailer opt-out plaintiffs for $525 million...The settlement agreements are not an admission of liability or fault by us.",
+          "While we believe the Phase II claims are without merit, we cannot predict the ultimate outcome. If the plaintiffs are successful in their Phase II claims, we could be required to pay monetary damages or could be subject to permanent injunctive relief in favor of the plaintiffs."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 58,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-09-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000882095-23-000025",
+        "filingDate": "2023-08-04",
+        "reportDate": "2023-06-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/882095/000088209523000025/gild-20230630.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "unknown",
+        "revenue": 6599,
+        "netIncome": 1045,
+        "operatingCashFlow": 4082,
+        "freeCashFlow": 3834,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 103,
+        "marketShareMention": null,
+        "customerConcentration": 66,
+        "geographicBreakdown": {
+          "United States": 72.5,
+          "Europe": 15.6,
+          "Other International": 12
+        },
+        "capexAmount": 248,
+        "capexGrowth": -36.4,
+        "partnerships": [
+          "Arcellx collaboration for CART-ddBCMA co-development and co-commercialization",
+          "Symtuza revenue share with Janssen",
+          "Pionyr equity interest retained (option waived in March 2023)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "HHS Patent litigation related to PrEP (Truvada/Descovy)",
+          "University of Minnesota patent litigation related to sofosbuvir",
+          "Generic manufacturer challenges (Lupin, Apotex, Cipla, Laurus seeking ANDA approvals for Symtuza, Biktarvy, Genvoya)",
+          "European Patent Office oppositions to sofosbuvir and TAF hemifumarate patents",
+          "Antitrust litigation related to HIV drug pricing"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Gilead reported Q2 2023 revenue of $6.6 billion and net income of $1.0 billion, relatively flat compared to Q2 2022 ($6.3B revenue, $1.1B net income). HIV products remain the core revenue driver with Biktarvy leading growth, while Trodelvy oncology sales expanded following FDA approval. The company faces substantial litigation headwinds including antitrust claims, generic manufacturer challenges, and patent disputes, with a $525 million antitrust settlement accrued.",
+        "keyQuotes": [
+          "In May 2023, the District Court held a trial regarding the government's patent infringement claims, and the jury rendered a full defense verdict in favor of Gilead, finding that the asserted claims of the HHS Patents are invalid and not infringed.",
+          "In March 2023, we settled claims with the direct purchaser class and the retailer opt-out plaintiffs for $525 million, which we have agreed to pay in the second half of 2023.",
+          "In February 2023, FDA granted approval of Trodelvy for use in adult patients with unresectable locally advanced or metastatic HR+/HER2- breast cancer"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 45,
+          "priceActionScore": null,
+          "compositeSentimentScore": 55,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-06-30"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
+  "totalFetched": 12,
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-08-05T20:18:53.009Z"
+}
