@@ -9,8 +9,777 @@
     "subCategory": "Cloud Infrastructure",
     "cik": "0001640147"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001640147-26-000030",
+        "filingDate": "2026-05-29",
+        "reportDate": "2026-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000030/snow-20260430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 1390.951,
+        "netIncome": -295.571,
+        "operatingCashFlow": 243.223,
+        "freeCashFlow": 232.772,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2877.475,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 75,
+          "Americas Other": 2.6,
+          "EMEA": 16.6,
+          "Asia-Pacific and Japan": 5.8
+        },
+        "capexAmount": 10.451,
+        "capexGrowth": -76.8,
+        "partnerships": [
+          "Snowflake Marketplace",
+          "AI Data Cloud network"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "heightened risks related to federal, state, local, and foreign government contracts",
+          "supply chain restrictions for regulated organizations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake achieved Q1 FY2027 revenue of $1.39B (+33% YoY) with strong product revenue growth of 34%, demonstrating pricing power and consumption momentum despite remaining unprofitable at the operating level with a $326M loss. The company acquired Observe Inc. for observability platform technology and talent, invested heavily in R&D and S&M ($589M and $535M respectively), and generated positive operating cash flow of $243M while maintaining a substantial $9.2B RPO base.",
+        "keyQuotes": [
+          "The AI Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos and derive value from a growing number of data sets in secure, governed, and compliant ways.",
+          "The Company's RPO was approximately $9.2 billion, of which the Company expects approximately 50% to be recognized as revenue in the 12 months ending April 30, 2027 based on historical customer consumption patterns.",
+          "If we are not successful in executing an effective AI strategy, our business, financial condition, and results of operations could be harmed."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000211",
+        "filingDate": "2025-12-05",
+        "reportDate": "2025-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000211/snow-20251031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1212.909,
+        "netIncome": -293.957,
+        "operatingCashFlow": 440.788,
+        "freeCashFlow": 355.229,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2434.506,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 75.3,
+          "Other Americas": 2.7,
+          "EMEA": 16.4,
+          "Asia-Pacific and Japan": 5.7
+        },
+        "capexAmount": 85.559,
+        "capexGrowth": 144.3,
+        "partnerships": [
+          "Strategic partnerships mentioned in forward-looking statements regarding partner relationships",
+          "Snowflake Marketplace partnerships (evidenced by accrued customer liabilities)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Compliance with federal, state, local, and foreign government contract requirements",
+          "Heightened risks related to special contract terms with heavily regulated organizations",
+          "Compliance with additional processes, rules, and regulations for government contracts"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake reported Q3 FY2026 revenue of $1.21B (28.7% YoY growth) with a net loss of $294M, reflecting continued investment in growth despite profitability challenges. The company generated positive operating cash flow of $441M and maintained a strong balance sheet with $3.4B in cash and investments, though remaining unprofitable. Geographic diversification shows 75% revenue from US with emerging strength in international markets, while the company continues heavy R&D spending (41% of revenue) indicating commitment to AI/ML technology development.",
+        "keyQuotes": [
+          "We have experienced rapid revenue growth and have a limited operating history, both of which make it difficult to forecast our future results of operations.",
+          "If we are not successful in executing our investments in AI Technology, our business, financial condition, and results of operations could be harmed.",
+          "Our RPO was $7.9 billion, of which the Company expects approximately 48% to be recognized as revenue in the 12 months ending October 31, 2026 based on historical customer consumption patterns."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000187",
+        "filingDate": "2025-09-05",
+        "reportDate": "2025-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000187/snow-20250731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 1144.969,
+        "netIncome": -298.017,
+        "operatingCashFlow": 303.269,
+        "freeCashFlow": 241.615,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2279.927,
+        "marketShareMention": null,
+        "customerConcentration": 0,
+        "geographicBreakdown": {
+          "United States": 75.3,
+          "EMEA": 16.2,
+          "Other Americas": 2.7,
+          "Asia-Pacific and Japan": 5.9
+        },
+        "capexAmount": 61.654,
+        "capexGrowth": 186,
+        "partnerships": [
+          "AI Data Cloud network with customers, partners, developers, data providers, and data consumers",
+          "Crunchy Data Solutions acquisition for PostgreSQL technology integration"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Compliance with special contract terms and non-standard product deployments for government and heavily regulated organizations",
+          "GDPR and data privacy regulations",
+          "Public sector customer contractual requirements for software possession and hosting"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered Q2 FY2026 revenue of $1.145B (+32% YoY), demonstrating strong consumption-driven growth with improved gross margins. However, the company remains unprofitable with a net loss of $298M, though operating cash flow of $303M shows improving cash generation. Management maintains focus on AI investments and platform expansion while managing cost discipline, but provides no forward guidance in this 10-Q filing.",
+        "keyQuotes": [
+          "The Company provides its platform through a customer-centric, consumption-based business model, only charging customers for the resources they use.",
+          "Through its platform, the Company delivers the AI Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos and derive value",
+          "If we are not successful in executing our investments in AI Technology, including generative AI Technology, our business, financial condition, and results of operations could be harmed."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000110",
+        "filingDate": "2025-05-30",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000110/snow-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 1042.074,
+        "netIncome": -430.092,
+        "operatingCashFlow": 228.373,
+        "freeCashFlow": 183.384,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2323.527,
+        "marketShareMention": null,
+        "customerConcentration": 0,
+        "geographicBreakdown": {
+          "United_States": 75.2,
+          "Other_Americas": 2.8,
+          "EMEA": 16.2,
+          "Asia_Pacific_Japan": 5.7
+        },
+        "capexAmount": 44.989,
+        "capexGrowth": 172.2,
+        "partnerships": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Data security breach litigation from June 2024 affecting multiple customers",
+          "Securities class action lawsuit alleging Exchange Act violations",
+          "NLRB retaliation charge with potential $25 million exposure pending appeal"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered Q1 FY2026 revenue of $1.04 billion (25.8% YoY growth) with gross margin of 66.5%, but posted a net loss of $430 million driven by elevated operating expenses (up 26% YoY) and $106 million in facility impairment charges from the San Mateo office exit. Operating cash flow of $228 million remains positive but deferred revenue declined 10% sequentially, signaling potential consumption headwinds, while the company maintains strong liquidity with $2.2 billion in cash after issuing $2.3 billion in convertible notes in September 2024.",
+        "keyQuotes": [
+          "The Company provides its platform through a customer-centric, consumption-based business model, only charging customers for the resources they use.",
+          "During the three months ended April 30, 2025, the Company recognized impairment charges of $85.9 million for operating lease right-of-use assets and $20.6 million for property and equipment, net, primarily relating to the cease-use of its San Mateo office facility.",
+          "RPO was $6.7 billion, of which the Company expects approximately 50% to be recognized as revenue in the twelve months ending April 30, 2026 based on historical customer consumption patterns."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-25-000052",
+        "filingDate": "2025-03-21",
+        "reportDate": "2025-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000052/snow-20250131.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 226.44399999999996,
+        "netIncome": -263.5740000000002,
+        "operatingCashFlow": 2456,
+        "freeCashFlow": 2170,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3108,
+        "marketShareMention": "Growing demand for platform particularly from large enterprises; customers include 745 of Forbes Global 2000",
+        "customerConcentration": 42,
+        "geographicBreakdown": {
+          "United_States": 76,
+          "International": 24
+        },
+        "capexAmount": 286,
+        "capexGrowth": null,
+        "partnerships": [
+          "Data providers and consumers in AI Data Cloud ecosystem",
+          "Snowflake Marketplace partners",
+          "Global system integrators",
+          "Managed service providers",
+          "Resellers"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "GDPR and UK GDPR compliance requirements",
+          "EU Digital Operational Resilience Act (DORA)",
+          "India's Digital Personal Data Protection Act (DPDP Act)",
+          "US state privacy laws including CCPA/CPRA",
+          "EU Artificial Intelligence Act",
+          "Colorado and South Korea AI regulations",
+          "Export control regulations and encryption restrictions",
+          "Anti-corruption and anti-money laundering laws",
+          "Data localization and cross-border transfer restrictions"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake achieved FY2025 revenue of $8.53B (+32% YoY) with net income of $1.35B, demonstrating strong profitability despite macroeconomic headwinds. The company maintains solid operational metrics (126% NRR, 11,159 customers including 745 Global 2000 firms contributing 42% of revenue) but faces significant regulatory, cybersecurity, and competitive risks that management addresses defensively throughout the filing, with particular concern around the May 2024 customer account breaches and ongoing litigation.",
+        "keyQuotes": [
+          "our net revenue retention rate of 126% and 131% as of January 31, 2025 and 2024, respectively",
+          "customers included 745 of the Forbes Global 2000...and those customers contributed approximately 42% of our revenue for the fiscal year ended January 31, 2025",
+          "In May 2024, we became aware that a cybersecurity threat actor had accessed a number of our customers' Snowflake accounts as a result of such customers' failure to fulfill certain of their obligations under our shared responsibility cybersecurity model"
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 48,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2024",
+        "reportDate": "2025-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000250",
+        "filingDate": "2024-11-27",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000250/snow-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 942.094,
+        "netIncome": -324.279,
+        "operatingCashFlow": 527.039,
+        "freeCashFlow": 468.609,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1986.907,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 76.3,
+          "Other Americas": 2.8,
+          "EMEA": 15.6,
+          "Asia-Pacific and Japan": 5.2
+        },
+        "capexAmount": 58.43,
+        "capexGrowth": null,
+        "partnerships": [
+          "Snowflake Marketplace",
+          "Snowpark"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Compliance with federal, state, local, and foreign government regulations",
+          "Heightened risks related to special contract terms and non-standard product deployments for heavily regulated organizations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake reported Q3 2024 revenue of $942.1M (28% YoY growth) but posted a net loss of $324.3M, driven by elevated operating expenses in R&D and sales/marketing totaling $880.4M for the quarter. The company generated positive operating cash flow of $527M for the nine-month period and maintains $2.9B in cash/investments, though accumulated losses have grown significantly. Management continues investing heavily in AI/ML capabilities and made new product announcements (Iceberg tables generally available in June 2024) but provided no updated financial guidance.",
+        "keyQuotes": [
+          "Customers choose to consume the platform under either capacity arrangements, in which customers commit to a certain amount of consumption at specified prices, or under on-demand arrangements",
+          "Starting from June 2024, customers are allowed to select compute, storage, and data transfer resources separately, at their discretion",
+          "If we are not successful in executing our investments in artificial intelligence and machine learning technology (AI Technology), including generative AI technology, our business, financial condition, and results of operations could be harmed"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000207",
+        "filingDate": "2024-08-29",
+        "reportDate": "2024-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000207/snow-20240731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 868.823,
+        "netIncome": -316.899,
+        "operatingCashFlow": 425.333,
+        "freeCashFlow": 390.375,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1860.656,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 76.4,
+          "Other Americas": 2.6,
+          "EMEA": 15.9,
+          "Asia-Pacific and Japan": 5.1
+        },
+        "capexAmount": 34.958,
+        "capexGrowth": null,
+        "partnerships": [
+          "Snowflake Marketplace",
+          "Snowpark platform"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "NLRB litigation regarding alleged wrongful termination and retaliation"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake reported Q2 FY2025 revenue of $868.8M (+29% YoY), demonstrating continued strong growth driven by platform consumption, though net losses widened to $316.9M as the company invests heavily in R&D and sales/marketing. The company maintains a solid balance sheet with $1.28B in cash and generated positive operating cash flow of $425.3M, though profitability remains elusive as operating expenses grew faster than revenue, and RPO of $5.2B signals healthy forward momentum but with ~50% expected to recognize within 12 months.",
+        "keyQuotes": [
+          "The Company's AI Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos and derive value from rapidly growing data sets",
+          "Starting from June 2024, customers are allowed to select compute, storage, and data transfer resources separately, at their discretion",
+          "RPO was $5.2 billion, of which the Company expects approximately 50% to be recognized as revenue in the twelve months ending July 31, 2025"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000135",
+        "filingDate": "2024-05-31",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000135/snow-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
+        "revenue": 828.709,
+        "netIncome": -316.988,
+        "operatingCashFlow": 355.468,
+        "freeCashFlow": 331.345,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1950.334,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 76.3,
+          "Other Americas": 2.9,
+          "EMEA": 15.9,
+          "Asia-Pacific and Japan": 5
+        },
+        "capexAmount": 23.923,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "NLRB litigation regarding alleged wrongful termination in retaliation for protected concerted activity"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake reported Q1 FY2025 revenue of $828.7M (+32.8% YoY) with product revenue of $789.6M (+33.9% YoY), demonstrating strong top-line growth in its consumption-based cloud data platform. However, the company posted a net loss of $317.0M as operating expenses grew faster than revenue, with R&D spending up 48.1% YoY to $410.8M, reflecting investments in AI capabilities and platform development. The company maintained strong cash generation with $355.5M operating cash flow and $5.0B in remaining performance obligations, but lacks explicit forward guidance on future financial performance.",
+        "keyQuotes": [
+          "The Company provides its platform through a customer-centric, consumption-based business model, only charging customers for the resources they use.",
+          "The Company's RPO was $5.0 billion, of which the Company expects approximately 51% to be recognized as revenue in the twelve months ending April 30, 2025 based on historical customer consumption patterns.",
+          "Snowflake provides a cloud-based data platform, which enables customers to consolidate data into a single source of truth to drive meaningful insights, apply AI to solve business problems, build data applications, and share data and data products."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-24-000101",
+        "filingDate": "2024-03-26",
+        "reportDate": "2024-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014724000101/snow-20240131.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 166.86299999999983,
+        "netIncome": 122.06899999999996,
+        "operatingCashFlow": 848.1,
+        "freeCashFlow": 778.9,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": 41,
+        "geographicBreakdown": {
+          "United States": 77,
+          "International": 23
+        },
+        "capexAmount": 69.2,
+        "capexGrowth": null,
+        "partnerships": [
+          "AWS",
+          "Azure",
+          "GCP",
+          "Global system integrators",
+          "Managed service providers",
+          "Resellers",
+          "Data providers partnership ecosystem",
+          "Snowflake Marketplace partnerships"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "GDPR and UK GDPR compliance requirements",
+          "CCPA and CPRA data privacy regulations",
+          "State privacy laws (California, Virginia, Colorado, Connecticut, Utah)",
+          "FedRAMP certification requirements",
+          "Export control regulations and encryption restrictions",
+          "Data localization requirements",
+          "Anti-corruption and FCPA compliance",
+          "EU Data Act requirements",
+          "Minimum 15% global tax rate framework",
+          "AI Technology regulatory uncertainty"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered FY2024 revenue of $8.6 billion (37% YoY growth) with net income of $1.2 billion, demonstrating improved profitability after years of losses. The company generated strong free cash flow of $779 million while maintaining a customer base of 9,437 (up 22% YoY) with 691 Forbes Global 2000 customers contributing 41% of revenue. However, net revenue retention rate declined significantly to 131% from 158%, reflecting macroeconomic headwinds, customer budget rationalization, and consumption optimization efforts that are partially offsetting growth from new customer acquisition.",
+        "keyQuotes": [
+          "Our business and financial condition have been, and may continue to be, impacted by adverse macroeconomic conditions, including inflation, higher interest rates, and fluctuations or volatility in capital markets or foreign currency exchange rates. These conditions have caused, and may continue to cause, customers to rationalize budgets, prioritize cash flow management, including through shortened contract duration, and optimize consumption.",
+          "We are investing significantly in artificial intelligence and machine learning technology, or AI Technology. Our investments include internally developing AI Technology, acquiring companies with complementary AI Technology, and partnering with companies to bring AI Technology to our platform.",
+          "Our net revenue retention rate is subject to adjustments for acquisitions, consolidations, spin-offs, and other market activity. We expect our net revenue retention rate to decrease over the long-term as customers that have consumed our platform for an extended period of time become a larger portion of both our overall customer base."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000260",
+        "filingDate": "2023-12-01",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000260/snow-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 734.173,
+        "netIncome": -214.251,
+        "operatingCashFlow": 503.542,
+        "freeCashFlow": 454.424,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1617.669,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United_States": 77.6,
+          "Other_Americas": 2.5,
+          "EMEA": 15,
+          "Asia_Pacific_Japan": 4.9
+        },
+        "capexAmount": 49.118,
+        "capexGrowth": null,
+        "partnerships": [
+          "Snowflake Marketplace",
+          "Snowpark",
+          "Data Cloud ecosystem partnerships"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "NLRB labor dispute - former employee retaliation claim with potential $25M exposure"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered Q3 FY2024 revenue of $734.2M (31% YoY growth) with continued gross margin strength, though the company remains unprofitable with a net loss of $214.3M. Strong operating cash flow generation of $503.5M demonstrates conversion of consumption-based model, while significant investment in R&D ($332M) and M&A activity ($280M spent on acquisitions including Neeva and others) reflect commitment to AI/ML capabilities and platform expansion. Management provided no forward guidance in this 10-Q filing.",
+        "keyQuotes": [
+          "Through its platform, the Company delivers the Data Cloud, a network where Snowflake customers, partners, developers, data providers, and data consumers can break down data silos and derive value from rapidly growing data sets in secure, governed, and compliant ways.",
+          "Our ability to successfully integrate and realize the benefits of strategic acquisitions",
+          "If we are not successful in executing our investments in artificial intelligence and machine learning technology, or AI Technology, including generative AI Technology, our business, financial condition, and results of operations could be harmed."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001640147-23-000199",
+        "filingDate": "2023-08-31",
+        "reportDate": "2023-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014723000199/snow-20230731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 674.018,
+        "netIncome": -226.867,
+        "operatingCashFlow": 382.635,
+        "freeCashFlow": 351.952,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1535.562,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 76.6,
+          "Other Americas": 2.6,
+          "EMEA": 15.8,
+          "Asia-Pacific and Japan": 5
+        },
+        "capexAmount": 30.483,
+        "capexGrowth": null,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Snowflake delivered Q2 FY2024 revenue of $674.0M (+35.5% YoY) with strong product revenue growth of 37.3%, though the company remains unprofitable with a net loss of $226.9M. Operating cash flow was robust at $382.6M (+53.8% YoY), demonstrating quality earnings despite GAAP losses, while the company aggressively deployed capital on three strategic acquisitions totaling ~$323M and initiated a $2B share buyback program.",
+        "keyQuotes": [
+          "The Company provides its platform through a customer-centric, consumption-based business model, only charging customers for the resources they use.",
+          "As of July 31, 2023, the Company's RPO was $3.5 billion, of which the Company expects approximately 57% to be recognized as revenue in the twelve months ending July 31, 2024",
+          "In June 2023, the Company amended one of its third-party cloud infrastructure agreements. Under the amended agreement, the Company has committed to spend at least $1.0 billion between June 2023 and May 2028 on cloud infrastructure services"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:14:52.233Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-08-05T18:56:20.792Z"
 }
