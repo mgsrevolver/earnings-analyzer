@@ -12,6 +12,221 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0000050863-26-000157",
+        "filingDate": "2026-07-24",
+        "reportDate": "2026-06-27",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "reducing",
+        "revenue": 16128,
+        "netIncome": -11033,
+        "operatingCashFlow": 8102,
+        "freeCashFlow": 1910,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1200,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 6192,
+        "capexGrowth": -29.1,
+        "partnerships": [
+          "Apollo partnership for Ireland SCIP (reacquired 49% stake for $14.2B in April 2026)",
+          "Brookfield partnership for Arizona SCIP (49% ownership)",
+          "Altera divestiture to SLP (49% retained)",
+          "SK hynix NAND memory business sale (completed March 2025)",
+          "Mentee Robotics acquisition by Mobileye for $637M"
+        ],
+        "supplyChainStatus": "easing",
+        "regulatoryHeadwinds": [
+          "VLSI litigation with $1.0B accrued liability",
+          "EC-imposed fine of $308M (including revaluation and interest)",
+          "Export control restrictions related to China",
+          "Geopolitical tensions impacting Middle East operations"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Intel reported Q2 2026 revenue of $16.1B (up 25% YoY) but posted a net loss of $11.0B, driven primarily by a $13.6B mark-to-market loss on Escrowed Shares derivatives and a $3.9B Mobileye goodwill impairment. Operating cash flow was positive at $8.1B, but the company faces significant headwinds including restructuring charges of $4.2B YTD, elevated debt levels, and geopolitical/macroeconomic uncertainties affecting Mobileye's autonomous driving business.",
+        "keyQuotes": [
+          "Our quantitative assessment for the first quarter of 2026 was performed by measuring the Mobileye reporting unit's fair value using the income approach...a significant increase in the discount rate was required...resulting from higher market-based and Mobileye-specific risk premiums arising from changes in global macroeconomic conditions, including heightened geopolitical risks associated with operations in the Middle East.",
+          "In the first quarter of 2026, we recognized non-cash goodwill impairment charges of $3.9 billion within restructuring and other charges...substantially all of which related to our Mobileye reporting unit.",
+          "During the three and six months ended June 27, 2026, we recognized $12.5 billion and $13.6 billion, respectively, of losses related to the net change in fair value of both Escrowed Shares released and Escrowed Shares still held in escrow."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 44,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q2 2026",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2026,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2026,
+        "quarter": "Q2 2026",
+        "reportDate": "2026-06-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000050863-26-000079",
+        "filingDate": "2026-04-24",
+        "reportDate": "2026-03-28",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "unknown",
+        "headcountTrend": "reducing",
+        "revenue": 13577,
+        "netIncome": -3728,
+        "operatingCashFlow": 1096,
+        "freeCashFlow": -2540,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 3636,
+        "capexGrowth": -29.9,
+        "partnerships": [
+          "Ireland SCIP (49% minority stake reacquired for ~$14.2 billion in April 2026)",
+          "Arizona SCIP with Brookfield (51% Intel, 49% Brookfield)",
+          "Altera equity method investment (49% stake retained after sale)",
+          "Mobileye acquisition of Mentee Robotics for $637 million"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "EC competition fine of €237 million ($277 million) reduced from €376 million, under appeal",
+          "Spectre/Meltdown security vulnerability litigation pending in U.S. and Canada",
+          "Downfall vulnerability litigation in Northern District of California (subclass claims surviving dismissal)",
+          "VLSI litigation with $1.0 billion accrual",
+          "Securities class action regarding segment reporting and foundry model",
+          "Geopolitical tensions affecting Mobileye operations in Middle East"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Intel reported Q1 2026 revenue of $13.6 billion, up 7.2% YoY, but posted a net loss of $3.7 billion attributable to Intel, primarily due to a $3.9 billion Mobileye goodwill impairment and $4.1 billion in restructuring charges. Operating cash flow of $1.1 billion was modest and free cash flow turned negative at -$2.5 billion as capex declined 30% to $3.6 billion, signaling reduced growth investment confidence. The company faces significant headwinds including reduced capex guidance, goodwill impairment driven by Mobileye's competitive challenges, and ongoing regulatory litigation, with management adopting a defensive posture on future product ramps and foundry market demand.",
+        "keyQuotes": [
+          "a potential pause or discontinuation of our pursuit of Intel 14A and other next-generation leading-edge process technologies if we are unable to secure sufficient committed demand for Intel 14A through product design wins with potential significant external customers",
+          "increased uncertainty related to Mobileye's evolving competitive landscape... greater risk was attributed to the forecasted cash flows in later projection periods, which contributed to the higher discount rate applied",
+          "As of March 28, 2026 we were required to substantially complete construction of Fab 34 in accordance with contractual parameters and timelines or we would be required to pay delay-related liquidated damages to Apollo, the other investor, beginning in the second half of 2026, not to exceed $1.1 billion in total"
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 66,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 34,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-03-28"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0000050863-26-000011",
+        "filingDate": "2026-01-23",
+        "reportDate": "2025-12-27",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm"
+      },
+      "insights": {
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "weak",
+        "headcountTrend": "reducing",
+        "revenue": 13674,
+        "netIncome": -591,
+        "operatingCashFlow": 9697,
+        "freeCashFlow": -1612,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Intel lost market share in recent years in both client and data center markets in x86-based semiconductor products and more generally in markets for semiconductor compute products",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 70,
+          "china": 24,
+          "united_states": 30
+        },
+        "capexAmount": 11204,
+        "capexGrowth": null,
+        "partnerships": [
+          "TSMC for various tiles and products",
+          "SoftBank Group - $2.0 billion share sale (87M shares at $23.00)",
+          "NVIDIA - $5.0 billion share sale (215M shares at $23.28)",
+          "U.S. Department of Commerce - CHIPS Act amendment with $5.7B accelerated disbursements",
+          "UMC strategic collaboration for 12nm process platform (expected 2027)",
+          "Brookfield - Arizona SCIP joint investment",
+          "Apollo - Fab 34 Ireland SCIP joint investment"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "U.S. export controls on AI and advanced computing products",
+          "Restrictions on export to certain Chinese technology companies",
+          "EU antitrust fine of €401 million (appeal pending)",
+          "Trade restrictions and tariffs between U.S. and China",
+          "Evolving AI regulations and compliance requirements"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Intel reported full-year 2025 revenue of $52.9B (down 0.5% YoY) with a net loss of $267M attributable to Intel, despite generating $9.7B in operating cash flow. The company faces severe headwinds including supply constraints limiting Q4 2025 and Q1 2026 shipments, accelerating market share losses to competitors in both client and data center segments, and critical uncertainty around its Intel 14A foundry strategy—threatening to pause next-gen node development if unable to secure significant external customers, which could require massive asset write-downs and talent exodus.",
+        "keyQuotes": [
+          "We expect these supply constraints to persist into 2026, with the most severe constraints impacting Q1 2026, limiting our ability to fully meet customer demand.",
+          "However, if we are unable to secure a significant external foundry customer for Intel 14A, we may pause or discontinue our pursuit of next generation leading-edge process technologies.",
+          "We have been unsuccessful to date in becoming a meaningful participant in that market while certain of our key competitors have been highly successful in that market [referring to AI GPUs]."
+        ],
+        "marketData": {
+          "managementToneScore": 5,
+          "revenueGrowthScore": 48,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 34,
+          "compositeSentiment": "bearish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2025",
+        "reportDate": "2025-12-27"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0000050863-25-000179",
         "filingDate": "2025-11-06",
         "reportDate": "2025-09-27",
@@ -19,48 +234,55 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/intc-20250927.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "unknown",
         "headcountTrend": "reducing",
         "revenue": 13653,
         "netIncome": 4063,
         "operatingCashFlow": 5409,
-        "freeCashFlow": null,
+        "freeCashFlow": -5749,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 11158,
-        "capexGrowth": null,
+        "capexGrowth": -38.4,
         "partnerships": [
-          "SoftBank Group share sale",
-          "NVIDIA share sale",
-          "U.S. Department of Commerce CHIPS Act agreement"
+          "U.S. Government - Warrant and Common Stock Agreement (275M shares, 241M warrant shares, $5.7B accelerated funding)",
+          "SoftBank Group - $2.0B private placement (87M shares at $23.00)",
+          "NVIDIA - $5.0B private placement agreement (215M shares at $23.28, pending closing)",
+          "Silver Lake Partners - Altera divestiture (51% stake for $4.3B net proceeds)",
+          "Arizona SCIP with Brookfield - Manufacturing facility co-investment",
+          "Ireland SCIP with Apollo - Fab 34 co-investment",
+          "Silver Lake Partners"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "CHIPS and Science Act implementation",
-          "Tax Cuts and Jobs Act modifications"
+          "Geopolitical tensions between U.S. and China impacting trade policies and export controls",
+          "Potential pause or discontinuation of Intel 14A process development if external customer not secured",
+          "Complex evolving laws and regulations across multiple jurisdictions",
+          "Environmental, health, safety, and product regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Intel delivered a profitable quarter with $13.7B revenue and $4.3B net income, driven by continued restructuring efforts and strategic partnerships. The company is focusing on core businesses while reducing expenses and investing in AI and foundry capabilities.",
+        "summary": "Intel reported Q3 2025 revenue of $13.7B (+2.8% YoY) with net income of $4.1B, driven by gross margin recovery and significant one-time gains from the Altera divestiture ($5.5B) and U.S. government funding agreements. However, free cash flow was negative at $(5.7B) due to high capex of $11.2B (-38% YoY), and the company continues aggressive restructuring with $2.2B in charges through nine months, indicating structural challenges in foundry operations.",
         "keyQuotes": [
-          "We continue to evaluate the impact of the Act's provisions that take effect in future years",
-          "This initiative is intended to lower expenses, streamline our organizational structure and reduce management layers"
+          "A potential pause or discontinuation of our pursuit of Intel 14A and other next generation leading-edge process technologies if we are unable to secure a significant external customer for Intel 14A",
+          "In the first quarter of 2025, we made an organizational change to integrate our Networking and Edge (NEX) business into CCG and DCAI",
+          "We are required to substantially complete construction of Fab 34 in accordance with contractual parameters and timelines or we will be required to pay delay-related liquidated damages to Apollo, the other investor, beginning in 2026, not to exceed $1.1 billion in total"
         ],
         "marketData": {
-          "managementToneScore": 65,
+          "managementToneScore": 30,
           "revenueGrowthScore": 58,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 67,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 59,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2025",
@@ -83,47 +305,50 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000109/intc-20250628.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
         "revenue": 12859,
         "netIncome": -2918,
-        "operatingCashFlow": null,
-        "freeCashFlow": null,
+        "operatingCashFlow": 2863,
+        "freeCashFlow": -5870,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 8733,
-        "capexGrowth": null,
+        "capexGrowth": -25.1,
         "partnerships": [
-          "Apollo",
-          "Brookfield"
+          "Apollo (Ireland SCIP - Fab 34 investment)",
+          "Brookfield (Arizona SCIP - foundry factories)",
+          "Silver Lake Partners (Altera 51% stake sale)",
+          "SK hynix (NAND memory business second phase closing)"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "CHIPS Act compliance",
-          "Ongoing European Commission investigations"
+          "European Commission €376 million fine for payments to prevent rival sales",
+          "Potential tariffs and export controls affecting international trade",
+          "Taiwan geopolitical tensions impacting supply chain"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel continues to face significant challenges with a substantial quarterly net loss, ongoing restructuring efforts, and strategic shifts in its manufacturing and foundry models. The company is reducing headcount, investing heavily in capex, and navigating complex regulatory and technological landscapes.",
+        "summary": "Intel reported Q2 2025 revenue of $12.9 billion, essentially flat year-over-year, but suffered a net loss of $2.9 billion driven by gross margin compression (27.5% vs 35.4% YoY) and $1.9 billion in restructuring charges. The company announced a major 2025 restructuring plan targeting cost reduction and organizational streamlining, while divesting Altera (51%) and completing the NAND memory business sale, signaling strategic repositioning amid foundry business losses of $3.2 billion.",
         "keyQuotes": [
-          "This initiative is intended to lower expenses, streamline our organizational structure and reduce management layers across functions",
-          "We are investing in and deploying manufacturing assets in response to manufacturing capacity requirements",
-          "We anticipate certain construction delays in the near term"
+          "This initiative is intended to lower expenses, streamline our organizational structure and reduce management layers across functions while reallocating resources toward our core client and server businesses by reducing lower-priority programs and initiatives.",
+          "We evaluated our current process technology node capacities relative to projected market demand for our products and services, concluding that our manufacturing asset portfolio exceeded manufacturing capacity requirements.",
+          "A potential pause or discontinuation of our pursuit of Intel 14A and other next generation leading-edge process technologies if we are unable to secure a significant external customer for Intel 14A."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 48,
           "netIncomeScore": 12,
           "priceActionScore": null,
-          "compositeSentimentScore": 26,
+          "compositeSentimentScore": 27,
           "compositeSentiment": "bearish"
         }
       },
@@ -147,47 +372,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000074/intc-20250329.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "unknown",
         "headcountTrend": "reducing",
         "revenue": 12667,
         "netIncome": -821,
         "operatingCashFlow": 813,
-        "freeCashFlow": null,
+        "freeCashFlow": -4370,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 5183,
-        "capexGrowth": null,
+        "capexGrowth": -13.2,
         "partnerships": [
-          "Apollo",
-          "Brookfield"
+          "Apollo Global Management partnership for Ireland SCIP (Fab 34)",
+          "Brookfield Asset Management partnership for Arizona SCIP",
+          "Silver Lake Partners transaction agreement to acquire 51% of Altera"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "CHIPS Act incentives",
-          "European Commission competition matter"
+          "European Commission €376 million fine for payments to prevent sales of rival products",
+          "VLSI patent litigation with $1.0 billion accrual",
+          "Securities class action lawsuits related to segment reporting and foundry model",
+          "Spectre/Meltdown security vulnerability litigation",
+          "Multiple patent infringement cases (Eire Og Innovations)"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel continues to face significant challenges with another quarterly loss, ongoing restructuring efforts, and strategic shifts in its business model. The company is investing heavily in manufacturing capacity and AI while simultaneously reducing operating expenses.",
+        "summary": "Intel reported Q1 2025 revenue of $12.7 billion (flat YoY) with a net loss of $821 million, driven by elevated manufacturing costs, foundry operating losses, and continuing restructuring charges. The company is aggressively reducing capex and headcount while pursuing strategic partnerships (Apollo, Brookfield, Silver Lake) and divestitures (Altera, NAND business), but faces significant legal headwinds including $1.0 billion VLSI patent accrual and regulatory fines.",
         "keyQuotes": [
-          "We are committed to our IDM strategy, Smart Capital strategy, and internal foundry model",
-          "Cost reduction and capital efficiency remain our primary focus",
-          "We continue to invest in next-generation products and AI technologies"
+          "We expect actions pursuant to the 2024 Restructuring Plan to be substantially complete by the fourth quarter of 2025, which is subject to change.",
+          "We have accrued a charge of approximately $1.0 billion related to the VLSI litigation. We are unable to make a reasonable estimate of losses in excess of recorded amounts.",
+          "The assets held by Arizona SCIP, which are not available to us as they can be used only to settle obligations of the VIE and substantially consisted of property, plant, and equipment, were $14.3 billion as of March 29, 2025."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 48,
           "netIncomeScore": 12,
           "priceActionScore": null,
-          "compositeSentimentScore": 26,
+          "compositeSentimentScore": 27,
           "compositeSentiment": "bearish"
         }
       },
@@ -211,9 +440,9 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000009/intc-20241228.htm"
       },
       "insights": {
-        "guidanceTone": "negative",
-        "guidanceDirection": "lowered",
-        "bookingsGrowth": -2,
+        "guidanceTone": "cautious",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
         "revenue": 14260,
@@ -225,36 +454,41 @@
         "marketShareMention": "We have lost market share in recent years as competitors have introduced highly competitive data center and client platform products",
         "customerConcentration": 45,
         "geographicBreakdown": {
-          "outsideUS": 76
+          "international_percentage": 76,
+          "china_percentage": 29
         },
-        "capexAmount": 25100,
-        "capexGrowth": null,
+        "capexAmount": 23900,
+        "capexGrowth": -7.4,
         "partnerships": [
-          "UMC collaboration for 12nm foundry process",
-          "CHIPS Act government incentive arrangements"
+          "Brookfield joint investment in Arizona manufacturing expansion",
+          "Apollo joint investment for Fab 34 in Ireland",
+          "UMC collaboration on 12nm foundry process technology",
+          "CHIPS Act government incentives and direct funding agreements"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Export restrictions",
-          "CHIPS Act compliance requirements",
-          "Privacy and data protection regulations"
+          "US export controls on semiconductors and advanced computing products",
+          "CHIPS Act compliance requirements and milestones",
+          "EU competition regulations",
+          "Evolving AI and data privacy regulations",
+          "Geopolitical trade restrictions and tariffs"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel experienced a challenging year with a significant net loss, revenue decline, and restructuring efforts. The company is pivoting towards AI and foundry services while reducing headcount and managing complex macroeconomic and competitive pressures.",
+        "summary": "Intel reported full-year 2024 revenue of $53.1B (down 2% YoY) with a net loss of $18.8B, driven by $3.3B in asset impairments, $2.8B in restructuring charges, and a $9.9B tax valuation allowance. The company is undergoing significant transformation with a 15% planned headcount reduction, delayed foundry projects, and negative free cash flow of $2.2B, reflecting intensifying competition, product delays, and execution challenges in regaining process technology leadership.",
         "keyQuotes": [
-          "We are making significant, long-term and inherently risky investments in R&D and manufacturing facilities that may not realize a favorable return.",
-          "We expect to continue to benefit from government incentives, though recent US government actions create uncertainty",
-          "To the extent we are unable to compete effectively, or if our foundry strategy is unsuccessful, our financial results will be adversely affected"
+          "We have lost market share in recent years as competitors have introduced highly competitive data center and client platform products. Our data center business has been further negatively impacted by the shift of customer spend toward GPUs in the past few years.",
+          "In 2024, we recognized $922 million in Gaudi AI accelerator inventory-related charges recognized in 2024, and in the third quarter of 2024 we recorded $3.1 billion of charges related to non-cash impairments and the accelerated depreciation for certain manufacturing assets, a substantial majority of which related to the Intel 7 process node.",
+          "The headcount actions in connection with the 2024 Restructuring Plan are expected to result in an approximate 15% decrease in our core Intel workforce by early 2025."
         ],
         "marketData": {
-          "managementToneScore": 0,
+          "managementToneScore": 5,
           "revenueGrowthScore": 38,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 22,
+          "compositeSentimentScore": 23,
           "compositeSentiment": "bearish"
         }
       },
@@ -278,41 +512,46 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000149/intc-20240928.htm"
       },
       "insights": {
-        "revenue": 13284,
-        "netIncome": -16639,
-        "operatingCashFlow": 5123,
-        "freeCashFlow": -700,
         "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
+        "revenue": 13284,
+        "netIncome": -16639,
+        "operatingCashFlow": 5123,
+        "freeCashFlow": -13987,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "CCG revenue decreased 7%, Altera revenue decreased 44%, external Intel Foundry revenue decreased 79%",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 18110,
-        "capexGrowth": null,
+        "capexGrowth": -4.95,
         "partnerships": [
-          "Apollo Global Management semiconductor co-investment",
-          "Brookfield partnership",
-          "CHIPS Act funding"
+          "Apollo Global Management partnership for Ireland SCIP (49% stake sale for $11.0B)",
+          "Brookfield partnership mentioned in strategy",
+          "CHIPS and Science Act funding ($3.0B awarded for Secure Enclave program)",
+          "SK hynix NAND memory business agreement",
+          "Brookfield Asset Management",
+          "TSMC"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "European Commission competition matter",
-          "R2 semiconductor patent litigation"
+          "European Commission competition fine ($401 million)",
+          "VLSI Technology LLC patent litigation ($1.0 billion accrual)",
+          "R2 Semiconductor patent litigation ($780 million settlement)",
+          "Geopolitical tensions between US and China"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel reported a challenging quarter with significant non-cash impairments and restructuring charges, resulting in a substantial net loss. The company is aggressively reducing costs, launching new AI solutions, and restructuring its foundry business to improve performance.",
+        "summary": "Intel reported Q3 2024 revenue of $13.3B, down 6% year-over-year, with a significant net loss of $16.6B driven by $3.1B in asset impairments (primarily Intel 7 process node), $2.9B in goodwill/intangible impairments, and a $9.9B tax valuation allowance. The company implemented aggressive cost restructuring with 16,500 headcount reductions and announced establishing Intel Foundry as an independent subsidiary, signaling structural challenges in competing with TSMC. Cash flow deteriorated with negative free cash flow of $700M despite $5.1B operating cash flow, reflecting the impact of $18.1B in capex spending.",
         "keyQuotes": [
-          "We continued to advance our previously-announced cost-reduction measures by effectuating the 2024 Restructuring Plan",
-          "We announced our intention to establish Intel Foundry as an independent subsidiary",
-          "We launched our latest family of x86 processors, the Intel Core Ultra 200V series processors"
+          "We continued to advance our previously-announced cost-reduction measures by effectuating the 2024 Restructuring Plan, including reductions in headcount by 16,500 employees, other operating expenditures, capital expenditures, and cost of sales",
+          "We announced our intention to establish Intel Foundry as an independent subsidiary. This structure provides clearer separation for external foundry customers and suppliers between Intel Foundry and our Intel Products businesses",
+          "Our consolidated results of operations were materially impacted by non-cash impairments and the acceleration of depreciation for certain manufacturing assets, a substantial majority of which related to our Intel 7 process node"
         ],
         "marketData": {
           "managementToneScore": 5,
@@ -344,38 +583,45 @@
       },
       "insights": {
         "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 12833,
         "netIncome": -1610,
         "operatingCashFlow": 1069,
-        "freeCashFlow": 2000,
+        "freeCashFlow": -10583,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": null,
+        "marketShareMention": "lower server volume from lower demand in a competitive environment",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 11652,
-        "capexGrowth": null,
+        "capexGrowth": -12.4,
         "partnerships": [
-          "Apollo Global Management investment in Fab 34",
-          "Semiconductor Co-Investment Program (SCIP)"
+          "Apollo Global Management - $11.0 billion investment for 49% equity stake in Fab 34 (Ireland SCIP)",
+          "Brookfield - mentioned in context of Smart Capital strategy",
+          "SK hynix - NAND memory business wafer manufacturing and sale agreement",
+          "Bain Capital - 20% minority stake in IMS business",
+          "Taiwan Semiconductor Manufacturing Company - 10% minority stake in IMS business",
+          "TSMC"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "European Commission competition matter",
-          "Patent litigation challenges"
+          "European Commission €376 million ($401 million) fine for making payments to prevent sales of rival products",
+          "VLSI patent litigation - multiple cases with varying outcomes, accumulated charges of $1.0 billion",
+          "Spectre/Meltdown security vulnerability litigation - pending class action suits",
+          "Geopolitical tensions between US and China affecting business"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
+        "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel reported a challenging quarter with revenue declining 1% to $12.8 billion and a net loss of $1.654 billion. The company is implementing cost-reduction measures, including headcount reductions, and facing competitive pressures in the data center and AI markets.",
+        "summary": "Intel Q2 2024 showed minimal revenue growth (-0.9% YoY to $12.8B) with a significant net loss of $1.6B attributable to higher unit costs, restructuring charges ($943M), and a $780M litigation settlement. The company announced major cost-reduction initiatives including headcount reductions and suspended Q4 2024 dividends to preserve liquidity, while securing $11B in co-investment from Apollo for Irish fab operations. Free cash flow turned sharply negative (-$10.6B) despite flat operating cash flow, driven by elevated capex spending and negative working capital changes, signaling deep operational stress.",
         "keyQuotes": [
-          "We announced the planned implementation of cost-reduction measures, including reductions in headcount, other operating expenditures, capital expenditures, and cost of sales.",
-          "These initiatives are designed to accelerate profitable growth, enable further operational efficiency and agility, and create capacity for sustained investment in technology and manufacturing leadership."
+          "We announced the planned implementation of cost-reduction measures, including reductions in headcount, other operating expenditures, capital expenditures, and cost of sales. These initiatives are designed to accelerate profitable growth, enable further operational efficiency and agility, and create capacity for sustained investment in technology and manufacturing leadership.",
+          "We announced our Board of Directors suspended the declaration of dividends on our common stock starting with Q4 2024, recognizing the importance of prioritizing liquidity to support the investments needed to execute our strategy.",
+          "DCAI revenue decreased due to lower server volume from lower demand in a competitive environment, partially offset by higher server ASPs primarily due to a lower mix of hyperscale customer-related revenue and a higher mix of high core count products."
         ],
         "marketData": {
           "managementToneScore": 5,
@@ -406,46 +652,51 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000076/intc-20240330.htm"
       },
       "insights": {
-        "guidanceTone": "cautiously optimistic",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 12724,
         "netIncome": -381,
         "operatingCashFlow": -1223,
-        "freeCashFlow": -6200,
+        "freeCashFlow": -7193,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 5970,
-        "capexGrowth": null,
+        "capexGrowth": -19.5,
         "partnerships": [
-          "U.S. Department of Commerce CHIPS Act funding",
-          "Brookfield Asset Management semiconductor co-investment"
+          "Brookfield Asset Management - Arizona Fab LLC co-investment",
+          "Bain Capital and TSMC - IMS Nanofabrication minority stakes",
+          "Government funding - $8.5 billion direct CHIPS Act funding proposed with $11 billion loans available"
         ],
-        "supplyChainStatus": "normalizing",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "European Commission competition matter",
-          "Patent litigation challenges"
+          "European Commission €376 million fine for alleged payments to prevent rival sales",
+          "VLSI litigation - $1 billion accrued, multiple ongoing patent disputes",
+          "R2 Semiconductor injunction in Germany",
+          "Spectre/Meltdown security vulnerability litigation",
+          "SEC/regulatory oversight of foundry operations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Intel's Q1 2024 results show signs of stabilization with revenue up 9% YoY, driven by notebook and desktop volume normalization. The company continues strategic repositioning with Intel Foundry and AI investments while managing restructuring and legal challenges.",
+        "summary": "Intel reported Q1 2024 revenue of $12.7B (+9% YoY) with improving margins but remained unprofitable with a net loss of $381M. The company is executing its IDM 2.0 strategy with foundry business launch and government CHIPS Act support, though facing significant headwinds from litigation costs, capex reductions, and negative free cash flow of $7.2B. Management tone remains measured amid restructuring activities and strategic repositioning.",
         "keyQuotes": [
-          "We launched Intel Foundry as a more sustainable systems foundry business designed for the AI era",
-          "Higher CCG revenue. Higher GAAP gross margin from higher revenue and lower period charges"
+          "CCG revenue increased primarily due to higher notebook and desktop volumes as customer inventory levels normalized compared to higher levels in Q1 2023.",
+          "We launched Intel Foundry as a more sustainable systems foundry business designed for the AI era and announced an expanded process roadmap, which includes evolutions for Intel 3, Intel 18A, and Intel 14A process technologies.",
+          "The U.S. Department of Commerce has proposed up to $8.5 billion in direct funding and to make up to $11.0 billion in loans available under the CHIPS and Science Act to help advance our manufacturing and research and development projects."
         ],
         "marketData": {
-          "managementToneScore": 30,
+          "managementToneScore": 50,
           "revenueGrowthScore": 66,
           "netIncomeScore": 35,
           "priceActionScore": null,
-          "compositeSentimentScore": 47,
+          "compositeSentimentScore": 52,
           "compositeSentiment": "neutral"
         }
       },
@@ -462,76 +713,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0000050863-24-000010",
-        "filingDate": "2024-01-26",
-        "reportDate": "2023-12-30",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000010/intc-20231230.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 15406,
-        "netIncome": 2669,
-        "operatingCashFlow": 11471,
-        "freeCashFlow": -11853,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Competitive market share challenges in data center and client computing segments",
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "US": null,
-          "China": 27,
-          "International": 74
-        },
-        "capexAmount": 25800,
-        "capexGrowth": null,
-        "partnerships": [
-          "Microsoft AI collaboration",
-          "ARM technology agreement",
-          "Synopsys IP development"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "Export control restrictions",
-          "AI regulatory uncertainty",
-          "Potential government incentive limitations"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Intel faced challenging market conditions in 2023 with significant revenue decline and profitability pressures. The company is investing heavily in process technology, AI capabilities, and foundry services while managing cost reductions and strategic repositioning.",
-        "keyQuotes": [
-          "We are committed to advancing PC experiences by delivering an annual cadence of leadership products",
-          "AI PC represents a critical inflection point for the PC market",
-          "We expect to deliver more than 230 Intel Core Ultra designs to market"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 18,
-          "netIncomeScore": 32,
-          "priceActionScore": null,
-          "compositeSentimentScore": 20,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2023,
-        "quarter": "Q4 2023",
-        "reportDate": "2023-12-30"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0000050863-23-000103",
         "filingDate": "2023-10-27",
         "reportDate": "2023-09-30",
@@ -539,46 +720,52 @@
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000103/intc-20230930.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "weak",
         "headcountTrend": "reducing",
         "revenue": 14158,
         "netIncome": 297,
-        "operatingCashFlow": 6.8,
-        "freeCashFlow": -10.5,
+        "operatingCashFlow": 6847,
+        "freeCashFlow": -12207,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
-        "capexAmount": 19.054,
-        "capexGrowth": null,
+        "capexAmount": 19054,
+        "capexGrowth": -0.5,
         "partnerships": [
-          "Commercial agreement with Tower for foundry services",
-          "Partnership with Brookfield for Arizona fab"
+          "Brookfield Asset Management (Arizona Fab manufacturing partnership - 51/49 ownership)",
+          "Tower Semiconductor (foundry services agreement for 300mm advanced analog processing)",
+          "TSMC (12.5% minority stake sale in IMS Nanofabrication expected Q4 2023)",
+          "Bain Capital (20% minority stake sale in IMS Nanofabrication)"
         ],
-        "supplyChainStatus": "easing",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "European Commission fine",
-          "Tower acquisition termination due to regulatory approval"
+          "European Commission €376 million fine for payments to prevent sales of rival products",
+          "VLSI Technology patent litigation with $2.2 billion accrued charge",
+          "Spectre/Meltdown security vulnerability litigation pending in US, Canada, Argentina",
+          "R2 Semiconductor patent infringement litigation in UK and Germany",
+          "Tower Semiconductor acquisition terminated due to regulatory approval delays"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Intel faced revenue challenges in Q3 2023 with an 8% decline, driven by softness in desktop, notebook, and data center markets. Despite cost-cutting efforts and restructuring, the company continues to navigate complex industry dynamics and regulatory challenges.",
+        "summary": "Intel reported Q3 2023 revenue of $14.2B, down 8% YoY with declining performance across all major segments (CCG -3%, DCAI -10%, NEX -32%), driven by weak demand and inventory normalization. The company generated only $297M net income (down 72% YoY) despite $6.8B operating cash flow, but adjusted free cash flow was negative $10.5B due to heavy $19.1B capex investments. The company faces significant headwinds including a $2.2B patent litigation accrual, a new €376M EC fine, and major restructuring charges, while margin pressure from higher unit costs and pricing weakness offset modest operational improvements.",
         "keyQuotes": [
-          "Our Ireland fab began high-volume production of Intel 4 technology.",
-          "We announced our upcoming Intel® Core™ Ultra processors, featuring our first integrated neural processing unit."
+          "CCG revenue decreased due to lower desktop volume from lower demand across business market segments and lower notebook ASPs due to a higher mix of small core products combined with a higher mix of older generation products.",
+          "DCAI revenue decreased due to lower server volume resulting from a softening CPU data center market, partially offset by higher ASPs from a lower mix of hyperscale customer-related revenue.",
+          "We have accrued a charge of approximately $2.2 billion related to the VLSI litigation. While we dispute VLSI's claims and intend to vigorously defend against them, we are unable to make a reasonable estimate of losses in excess of recorded amounts given recent developments and future proceedings."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 28,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 25,
+          "compositeSentimentScore": 26,
           "compositeSentiment": "bearish"
         }
       },
@@ -592,131 +779,9 @@
         "reportDate": "2023-09-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000050863-23-000069",
-        "filingDate": "2023-07-28",
-        "reportDate": "2023-07-01",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000069/intc-20230701.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "reducing",
-        "revenue": 12949,
-        "netIncome": 1481,
-        "operatingCashFlow": 1023,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "none",
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": 13301,
-        "capexGrowth": null,
-        "partnerships": [
-          "Brookfield Asset Management semiconductor co-investment program",
-          "Potential Tower Semiconductor acquisition"
-        ],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Ongoing EC competition matter",
-          "Potential Tower Semiconductor acquisition regulatory approvals"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Intel reported a challenging quarter with revenue down 15% YoY, driven by softening demand in notebook and desktop markets. The company is focusing on AI strategy, manufacturing expansion, and cost-cutting measures while navigating market uncertainties.",
-        "keyQuotes": [
-          "An important part of our AI strategy is to democratize AI – scaling it and making it ubiquitous across the full continuum of workloads and usage models.",
-          "We announced plans to expand our manufacturing capacity... These investments further our IDM 2.0 strategy"
-        ],
-        "marketData": {
-          "managementToneScore": 25,
-          "revenueGrowthScore": 18,
-          "netIncomeScore": 78,
-          "priceActionScore": null,
-          "compositeSentimentScore": 41,
-          "compositeSentiment": "neutral"
-        }
-      },
-      "quarter": "Q2 2023",
-      "quarterInfo": {
-        "calendarQuarter": 2,
-        "calendarYear": 2023,
-        "fiscalQuarter": 2,
-        "fiscalYear": 2023,
-        "quarter": "Q2 2023",
-        "reportDate": "2023-07-01"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0000050863-23-000028",
-        "filingDate": "2023-04-28",
-        "reportDate": "2023-04-01",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086323000028/intc-20230401.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
-        "bookingsGrowth": null,
-        "pricingPower": "weak",
-        "headcountTrend": "reducing",
-        "revenue": 11715,
-        "netIncome": -2758,
-        "operatingCashFlow": -1785,
-        "freeCashFlow": -8800,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": null,
-        "customerConcentration": null,
-        "geographicBreakdown": null,
-        "capexAmount": 7413,
-        "capexGrowth": null,
-        "partnerships": [
-          "Arm multigeneration agreement for low-power compute SoCs"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": false,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Intel faced significant revenue and profitability challenges in Q1 2023, with a 36% revenue decline driven by weak demand in client computing, data center, and networking segments. The company is experiencing macroeconomic headwinds, inventory corrections, and softening market conditions across multiple business units.",
-        "keyQuotes": [
-          "Q1 2023 results were impacted by an uncertain macroeconomic environment, with slowing consumer and enterprise demand, persistent inflation, and higher interest rates",
-          "We believe CCG, DCAI, and NEX customers, among others, tempered purchases to reduce their existing inventories and adjust to the macroeconomic uncertainty"
-        ],
-        "marketData": {
-          "managementToneScore": 5,
-          "revenueGrowthScore": 8,
-          "netIncomeScore": 15,
-          "priceActionScore": null,
-          "compositeSentimentScore": 10,
-          "compositeSentiment": "bearish"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2023,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-04-01"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-01-22T21:19:42.660Z"
+  "lastUpdated": "2026-08-05T19:55:24.378Z"
 }
