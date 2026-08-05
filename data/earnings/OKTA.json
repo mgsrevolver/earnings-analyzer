@@ -9,8 +9,730 @@
     "subCategory": "Cybersecurity",
     "cik": "0001660134"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001660134-26-000051",
+        "filingDate": "2026-05-29",
+        "reportDate": "2026-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013426000051/okta-20260430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 765,
+        "netIncome": 74,
+        "operatingCashFlow": 277,
+        "freeCashFlow": 271,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1752,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 6,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations",
+          "Channel partners including cloud marketplaces, resellers, system integrators"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Modified taxation of profits derived from foreign operations under One Big Beautiful Bill Act"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Okta delivered solid Q1 FY2027 results with 11% revenue growth to $765M and net income of $74M, driven by strong subscription revenue growth (11% YoY) and a healthy 107% Dollar-Based Net Retention Rate. The company demonstrated operating leverage with operating income growing 44% YoY, though management expressed caution regarding extended sales cycles and prior cybersecurity incidents. Strong cash generation of $277M from operations and strategic share repurchases of $241M signal management confidence in capital deployment.",
+        "keyQuotes": [
+          "For IT and security leaders, the Okta Platform governs the seamless and secure access by human users and non-human identities ('NHIs') to the applications they need to do their most important work. We are expanding these capabilities to include AI agents with the introduction of new product offerings currently in development and early access.",
+          "Our Dollar-Based Net Retention Rate is primarily attributable to our healthy gross retention, an expansion of users and upselling additional solutions within our existing customers.",
+          "We believe our existing cash and cash equivalents, our investments and cash provided by sales of our solutions will be sufficient to meet our short-term and long-term projected working capital and capital expenditure needs for the foreseeable future."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 75,
+          "priceActionScore": null,
+          "compositeSentimentScore": 79,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000171",
+        "filingDate": "2025-12-03",
+        "reportDate": "2025-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000171/okta-20251031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "stable",
+        "revenue": 742,
+        "netIncome": 43,
+        "operatingCashFlow": 626,
+        "freeCashFlow": 611,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1586,
+        "marketShareMention": "leading independent identity partner with over 7,000 integrations",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 15,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations with cloud, mobile and web applications",
+          "Channel partners including resellers, system integrators and other distribution partners",
+          "Axiom Security Ltd acquisition for privileged access management capabilities"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Potential impact of modified or new laws and regulations",
+          "Compliance with industry standards",
+          "International expansion regulatory challenges"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "Okta delivered strong Q3 FY2026 results with 12% revenue growth to $742M and net income of $43M, driven by volume-driven new business and a 106% dollar-based net retention rate despite macroeconomic headwinds. The company achieved improved gross margins (77%) and operating leverage, with operating income of $23M versus a loss in the prior year quarter, while maintaining solid cash generation of $626M in operating cash flow for the nine-month period. Management demonstrated confidence in its market position as the leading independent identity provider, with 5,030 customers having ACV above $100,000 (up 7% YoY) and continued investment in platform capabilities through strategic acquisitions.",
+        "keyQuotes": [
+          "Okta, Inc. is the leading independent identity partner. Our Okta Platform and Auth0 Platform enable our customers to securely connect the right people to the right technologies and services at the right time.",
+          "For the three and nine months ended October 31, 2025, the increase in subscription revenue was primarily caused by volume-driven increases from new business, which includes new customers and sales of additional solutions to existing customers as reflected in our 106% dollar-based net retention rate",
+          "We expect our sales and marketing expenses will continue to be our largest operating expense category for the foreseeable future. We expect sales and marketing expenses as a percentage of total revenue to decrease as our total revenue grows."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 84,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000157",
+        "filingDate": "2025-08-27",
+        "reportDate": "2025-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000157/okta-20250731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 728,
+        "netIncome": 67,
+        "operatingCashFlow": 408,
+        "freeCashFlow": 400,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1550,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 8,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Macroeconomic uncertainties and negative trends including tariffs and trade protectionism",
+          "Changes in government spending levels",
+          "Potential impacts from cybersecurity incident disclosures",
+          "Compliance with modified or new laws and regulations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered Q2 FY2026 revenue of $728M (13% YoY growth) and net income of $67M, with strong gross margins improving to 77% and operating income of $41M. The company demonstrated operational leverage with decreased R&D and G&A expenses as a percentage of revenue, though dollar-based net retention rate declined to 106% from 110% YoY due to macroeconomic headwinds. Management completed a restructuring plan reducing headcount by ~180 employees and maintains $2.9B in liquidity while navigating upcoming convertible note maturities.",
+        "keyQuotes": [
+          "The decrease in our Dollar-Based Net Retention Rate as of July 31, 2025, compared to July 31, 2024, was primarily a result of the macroeconomic environment, with overall ACV from existing customers increasing at a slower rate in the current period.",
+          "Our gross margin for subscription revenue improved to 80% for the three months ended July 31, 2025 compared to 78% for the three months ended July 31, 2024. The improvement was primarily driven by improved spend efficiency resulting in lower relative cost of subscription revenue.",
+          "Future growth may be impacted by longer sales cycles, which we have experienced, which in turn, could result in delays in deals closing, creating near-term headwinds for cash flow, RPO and billings growth."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 75,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2025",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2025,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2025,
+        "quarter": "Q2 2025",
+        "reportDate": "2025-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000093",
+        "filingDate": "2025-05-28",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000093/okta-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 688,
+        "netIncome": 62,
+        "operatingCashFlow": 241,
+        "freeCashFlow": 238,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1582,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 3,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations with cloud, mobile and web applications and IT infrastructure and security vendors"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Compliance with modified or new laws, regulations and industry standards",
+          "Foreign currency fluctuations"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered Q1 FY2026 revenue of $688M (+12% YoY) with net income of $62M, a significant swing from a $40M loss in the prior year quarter. The company achieved improved profitability through better spend efficiency while growing subscription revenue 12% and expanding gross margin from 76% to 77%, though its dollar-based net retention rate declined to 106% from 111% due to macroeconomic headwinds affecting existing customer expansion.",
+        "keyQuotes": [
+          "The decrease in our Dollar-Based Net Retention Rate as of April 30, 2025, compared to April 30, 2024, was primarily a result of the macroeconomic environment, with overall ACV from existing customers increasing at a slower rate in the current period.",
+          "The Company's gross margin for subscription revenue improved from 78% to 80% for the three months ended April 30, 2025 compared to the three months ended April 30, 2024. The increase was primarily driven by improved spend efficiency resulting in lower relative cost of subscription revenue.",
+          "We believe our existing cash and cash equivalents, our investments and cash provided by sales of our solutions will be sufficient to meet our short-term and long-term projected working capital and capital expenditure needs for the foreseeable future."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-25-000049",
+        "filingDate": "2025-03-05",
+        "reportDate": "2025-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013425000049/okta-20250131.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 452,
+        "netIncome": -144,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "Microsoft identified as principal competitor; notes intensifying competition from larger established companies",
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 21,
+          "united_states": 79
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations",
+          "Channel partners including resellers and system integrators",
+          "AWS cloud infrastructure partnership",
+          "Strategic investments in private growth-stage companies"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "FedRAMP compliance requirements for government sales",
+          "GDPR and evolving EU data protection laws",
+          "Multiple U.S. state privacy laws creating patchwork compliance",
+          "Data localization requirements in various jurisdictions",
+          "Export controls and sanctions laws",
+          "Artificial Intelligence Act (EU)",
+          "Tax Cuts and Jobs Act Section 174 capitalization requirements"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "neutral",
+        "summary": "Okta achieved profitability in fiscal 2025 with $2.61B revenue (15% YoY growth) and $28M net income, a significant improvement from $355M loss in fiscal 2024. However, Dollar-Based Net Retention Rate declined to 107% from 111%, reflecting macroeconomic headwinds and slower ACV growth from existing customers. The company is reducing headcount while maintaining operational efficiency, though ongoing cybersecurity incidents and regulatory complexity present material business risks.",
+        "keyQuotes": [
+          "We have experienced revenue growth rates of 43%, 22% and 15% during fiscal 2023, 2024 and 2025, respectively.",
+          "The decrease in our Dollar-Based Net Retention Rate as of January 31, 2025, compared to January 31, 2024, was primarily a result of the macroeconomic environment, with overall ACV from existing customers increasing at a slower rate in the current period.",
+          "While we achieved profitability in fiscal 2025, we have incurred net losses of $355 million and $815 million in fiscal 2024 and 2023, respectively."
+        ],
+        "marketData": {
+          "managementToneScore": 30,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 67,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2024",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2024,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2025,
+        "quarter": "Q4 2024",
+        "reportDate": "2025-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000168",
+        "filingDate": "2024-12-04",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000168/okta-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 665,
+        "netIncome": 16,
+        "operatingCashFlow": 464,
+        "freeCashFlow": 446,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1440,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 18,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations",
+          "Channel partners including resellers, system integrators and distribution partners"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Tax Cuts and Jobs Act Section 174 requiring capitalization of R&E expenses over 5-15 years increasing cash taxes"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta returned to profitability in Q3 FY2025 with $665M revenue (14% YoY growth) and $16M net income, driven by strong 108% Dollar-Based Net Retention Rate and subscription revenue growth of 14%. The company is managing costs effectively post-restructuring while maintaining gross margins at 76%, though the impact of past cybersecurity incidents and longer sales cycles remain headwinds to future growth.",
+        "keyQuotes": [
+          "For the three and nine months ended October 31, 2024, the increase in subscription revenue was primarily due to an increase in users and sales of additional products to existing customers and the addition of new customers, attributable to increased revenue from existing customers as reflected in our Dollar-Based Net Retention Rate of 108%.",
+          "In the past, we have experienced cybersecurity incidents...that harmed our reputation and customer relations, adversely impacted our financial results and may create additional liabilities.",
+          "Future growth may be impacted by longer sales cycles, which we have experienced, which in turn, could result in delays in deals closing, creating near-term headwinds for cash flow, RPO and billings growth."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000138",
+        "filingDate": "2024-08-29",
+        "reportDate": "2024-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000138/okta-20240731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 646,
+        "netIncome": 29,
+        "operatingCashFlow": 305,
+        "freeCashFlow": 292,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1415,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 13,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations with cloud, mobile, web applications and IT infrastructure vendors"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Tax Cuts and Jobs Act Section 174 requiring capitalization and amortization of R&E expenditures over 5 years (U.S.) or 15 years (non-U.S.), increasing cash tax burden since fiscal 2023"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta reported Q2 FY2025 revenue of $646M (up 16% YoY) with net income of $29M, a significant turnaround from the $111M loss in Q2 FY2024. The company demonstrated improving operational efficiency with gross margin of 76% and reduced operating expenses across R&D, S&M, and G&A categories. However, management acknowledged macroeconomic headwinds impacting customer expansion, with dollar-based net retention declining to 110% from 115% YoY, indicating slower growth in existing customer spending despite strong new customer additions.",
+        "keyQuotes": [
+          "The decrease in our Dollar-Based Net Retention Rate as of July 31, 2024, compared to July 31, 2023, was primarily a result of the macroeconomic environment, with overall ACV from existing customers increasing at a slower rate in the current period.",
+          "For the three and six months ended July 31, 2024, the increase in subscription revenue was primarily due to an increase in users and sales of additional products to existing customers and the addition of new customers.",
+          "We expect our sales and marketing expenses will continue to be our largest operating expense category for the foreseeable future. We expect sales and marketing expenses as a percentage of total revenue to decrease as our total revenue grows."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 71,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2024",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2024,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2024,
+        "quarter": "Q2 2024",
+        "reportDate": "2024-07-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000088",
+        "filingDate": "2024-05-30",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000088/okta-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 617,
+        "netIncome": -40,
+        "operatingCashFlow": 219,
+        "freeCashFlow": 215,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1410,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 5,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations",
+          "System integrators and resellers network",
+          "Channel partners for product distribution"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Tax Cuts and Jobs Act Section 174 - capitalization of R&D expenses requiring 5-year amortization for U.S. and 15-year for foreign activities, increasing cash taxes"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta achieved Q1 FY2025 revenue of $617M (+19% YoY), driven by strong 111% Dollar-Based Net Retention Rate and 19,100 total customers (+1,050 YoY), though net loss improved to $40M from $119M year-ago. The company demonstrated operational improvements with 76% gross margins and positive operating cash flow of $219M, but faces headwinds from prior cybersecurity incidents, extended sales cycles, and macroeconomic pressures reflected in declining NRR (from 117%).",
+        "keyQuotes": [
+          "Our gross margin for subscription revenue improved to 78% from 76% for the three months ended April 30, 2024 compared to the three months ended April 30, 2023. The increase was primarily driven by improved spend efficiency resulting in lower relative cost of subscription revenue.",
+          "The decrease in our Dollar-Based Net Retention Rate as of April 30, 2024, compared to April 30, 2023, was primarily a result of the macroeconomic environment, with ACV from existing customers increasing at a slower rate in the current period.",
+          "We believe our existing cash and cash equivalents, our investments and cash provided by sales of our products and services will be sufficient to meet our short-term and long-term projected working capital and capital expenditure needs for the foreseeable future."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 76,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-24-000025",
+        "filingDate": "2024-03-01",
+        "reportDate": "2024-01-31",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013424000025/okta-20240131.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 335,
+        "netIncome": -360,
+        "operatingCashFlow": null,
+        "freeCashFlow": null,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "international": 21,
+          "united_states": 79
+        },
+        "capexAmount": null,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations",
+          "Channel partners including resellers and system integrators"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "FedRAMP compliance requirements",
+          "HIPAA Business Associate obligations",
+          "GDPR and EU Data Privacy Framework",
+          "California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)",
+          "Multiple state privacy laws with varying requirements",
+          "Proposed EU Artificial Intelligence Act",
+          "Export controls and economic sanctions laws"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "Okta reported fiscal 2024 revenue of $2,263 million (22% YoY growth, decelerating from 43% prior year) with a net loss of $355 million. The company continues to face headwinds from past cybersecurity incidents, lengthening sales cycles, and macroeconomic uncertainty. Management executed two restructuring plans reducing headcount by ~700 employees, signaling cost-control measures amid slower growth and slowing customer growth rates.",
+        "keyQuotes": [
+          "From fiscal 2023 to fiscal 2024, our revenue grew from $1,858 million to $2,263 million, an increase of 22%. In future periods, we may not be able to sustain revenue growth consistent with recent history, or at all.",
+          "Customer growth has slowed in recent periods and could fall below expectations. We have experienced significant growth in the number of our customers since our founding, but this growth has slowed in recent periods.",
+          "Our sales cycles are lengthening in certain circumstances and becoming less predictable, which may harm our financial results."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 52,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q4 2023",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2023,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2024,
+        "quarter": "Q4 2023",
+        "reportDate": "2024-01-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-23-000068",
+        "filingDate": "2023-12-01",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013423000068/okta-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "reducing",
+        "revenue": 584,
+        "netIncome": -81,
+        "operatingCashFlow": 338,
+        "freeCashFlow": 323,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1274,
+        "marketShareMention": "Leading independent identity partner with 18,800 customers as of October 31, 2023, up from 17,050 customers as of October 31, 2022",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 15,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations with cloud, mobile and web applications and IT infrastructure and security vendors",
+          "Channel partners including resellers, system integrators and other distribution partners"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Cybersecurity incidents including October 2023 incident where threat actor gained unauthorized access to customer support system",
+          "Pending securities class action litigation regarding cybersecurity controls and Auth0 integration disclosures",
+          "Derivative lawsuits alleging breaches of fiduciary duty related to cybersecurity incidents"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta reported Q3 FY2024 revenue of $584M (up 21% YoY) with subscription revenue growing 22% to $569M, driven by 10% customer growth to 18,800 and a Dollar-Based Net Retention Rate of 115%. However, the company posted a net loss of $81M despite improved gross margins (75%), with operating cash flow of $338M reflecting strong deferred revenue dynamics. Management tone remains cautious due to pending cybersecurity litigation, recent security incidents, and macroeconomic headwinds affecting customer expansion rates.",
+        "keyQuotes": [
+          "The increase in subscription revenue was primarily due to the addition of new customers, an increase in users and sales of additional products to existing customers.",
+          "The decrease in our Dollar-Based Net Retention Rate as of October 31, 2023, compared to October 31, 2022, was primarily a result of the macroeconomic environment, with ACV from existing customers increasing at a slower rate in the current period.",
+          "We expect to continue to incur operating losses and cash flows from operations that may fluctuate between positive and negative amounts for the foreseeable future."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001660134-23-000045",
+        "filingDate": "2023-08-31",
+        "reportDate": "2023-07-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1660134/000166013423000045/okta-20230731.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 556,
+        "netIncome": -111,
+        "operatingCashFlow": 182,
+        "freeCashFlow": 173,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1242,
+        "marketShareMention": "leading independent identity partner with over 18,400 customers",
+        "customerConcentration": null,
+        "geographicBreakdown": null,
+        "capexAmount": 9,
+        "capexGrowth": null,
+        "partnerships": [
+          "Okta Integration Network with over 7,000 integrations with cloud, mobile and web applications and IT infrastructure and security vendors",
+          "Channel partners including resellers, system integrators and other distribution partners"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Securities litigation related to cybersecurity controls and Auth0 integration",
+          "Derivative shareholder lawsuits related to fiduciary duty claims"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Okta delivered Q2 FY2024 quarterly revenue of $556M (up 23% YoY), with subscription revenue at $542M (up 24% YoY), though the company remains unprofitable with a net loss of $111M. The company achieved positive operating cash flow of $182M in H1 2023 and successfully reduced debt by repurchasing $750M of convertible notes, generating $73M in gains. However, Dollar-Based Net Retention Rate declined to 115% from 122% YoY due to macroeconomic headwinds, and management took restructuring charges of $24M related to workforce reduction and real estate optimization.",
+        "keyQuotes": [
+          "The decrease in our Dollar-Based Net Retention Rate as of July 31, 2023, compared to July 31, 2022, was primarily a result of the macroeconomic environment, with ACV from existing customers increasing at a slower rate in the current period.",
+          "We expect our subscription revenue gross margin to improve over the long-term as we achieve additional economies of scale.",
+          "We believe our existing cash and cash equivalents, our investments and cash provided by sales of our products and services will be sufficient to meet our short-term and long-term projected working capital and capital expenditure needs for the foreseeable future."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q2 2023",
+      "quarterInfo": {
+        "calendarQuarter": 2,
+        "calendarYear": 2023,
+        "fiscalQuarter": 2,
+        "fiscalYear": 2023,
+        "quarter": "Q2 2023",
+        "reportDate": "2023-07-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:37:48.210Z"
+  "successfulAnalyses": 11,
+  "lastUpdated": "2026-08-05T19:29:09.959Z"
 }
