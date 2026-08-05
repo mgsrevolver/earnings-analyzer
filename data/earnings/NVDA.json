@@ -14,6 +14,158 @@
   "reports": [
     {
       "filing": {
+        "accessionNumber": "0001045810-26-000052",
+        "filingDate": "2026-05-20",
+        "reportDate": "2026-04-26",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 81615,
+        "netIncome": 58321,
+        "operatingCashFlow": 50344,
+        "freeCashFlow": 48587,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 3117,
+        "marketShareMention": null,
+        "customerConcentration": 54,
+        "geographicBreakdown": {
+          "United States": 78,
+          "Taiwan": 15,
+          "China_including_Hong_Kong": 6,
+          "Other": 2
+        },
+        "capexAmount": 1757,
+        "capexGrowth": 43.2,
+        "partnerships": [
+          "InfiniBand solutions",
+          "Spectrum-X Ethernet solutions",
+          "NVLink solutions",
+          "Groq Inc. non-exclusive license agreement",
+          "Infrastructure funds investments",
+          "Cloud service partnerships"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "U.S. government export controls on H200 to China",
+          "25% tariff on H200 imports to China under licensing program",
+          "Potential tariff impacts on supply chain",
+          "Middle East conflict impact on Israel operations (5,900 employees)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "confident",
+        "overallSentiment": "bullish",
+        "summary": "NVIDIA delivered exceptional Q1 FY2027 results with revenue of $81.6B (+85% YoY) and net income of $58.3B (+211% YoY), driven by strong Blackwell platform adoption and data center acceleration demand. Gross margins expanded significantly to 74.9% from 60.5% YoY due to non-recurrence of H20 excess inventory charges, though management highlighted macroeconomic headwinds including tariffs, geopolitical risks, and energy/capital constraints as potential future challenges. The company deployed $18.6B in strategic investments in private companies and infrastructure funds while maintaining strong operating cash flow of $50.3B, demonstrating confidence in the AI infrastructure buildout cycle despite competitive and regulatory uncertainties.",
+        "keyQuotes": [
+          "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance.",
+          "Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers, including AI Clouds, industrial, enterprise, and sovereign customers.",
+          "Revenue from sales to customers headquartered outside of the United States accounted for 22% of total revenue for the first quarter of fiscal year 2027 and 42% of total revenue for the first quarter of fiscal year 2026."
+        ],
+        "marketData": {
+          "managementToneScore": 90,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 92,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2027,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-04-26"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001045810-26-000021",
+        "filingDate": "2026-02-25",
+        "reportDate": "2026-01-25",
+        "form": "10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 68127,
+        "netIncome": 42960,
+        "operatingCashFlow": 102718,
+        "freeCashFlow": 96618,
+        "daysalesOutstanding": null,
+        "deferredRevenue": null,
+        "marketShareMention": "competitive disadvantage from export controls; lost opportunity in China market due to foreclosure from data center computing market; competitors building larger developer ecosystems",
+        "customerConcentration": 36,
+        "geographicBreakdown": {
+          "international": 31,
+          "united_states": 69
+        },
+        "capexAmount": 6100,
+        "capexGrowth": 79.4,
+        "partnerships": [
+          "Groq intellectual property license arrangement",
+          "OpenAI investment and partnership agreement (pending)",
+          "Microsoft Xbox agreement with first and last rights of refusal",
+          "Cloud service agreements for R&D support",
+          "Groq"
+        ],
+        "supplyChainStatus": "tight",
+        "regulatoryHeadwinds": [
+          "US export controls on GPUs and AI chips (China, D:1, D:4, D:5 countries)",
+          "H20 export licensing requirements and excess inventory charge of $4.5 billion",
+          "EU AI Act compliance requirements",
+          "Data privacy regulations (GDPR, CCPA, NIS2)",
+          "Antitrust investigations from EU, US, UK, China, South Korea",
+          "China antitrust finding regarding Mellanox acquisition compliance",
+          "Potential new US export control rules (GAIN AI Act, upcoming replacement for AI Diffusion IFR)",
+          "Connected Vehicle restrictions on automotive products",
+          "Multiple state AI regulations (effective January 1, 2026)"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "NVIDIA delivered strong FY2026 revenue growth of 65% to $215.9B driven by AI/accelerated computing demand, but management tone is defensive due to significant regulatory headwinds. A $4.5B H20 inventory charge from export control licensing requirements reflects structural challenges in accessing the China market. The company faces multiple regulatory pressures including antitrust investigations, data privacy compliance burden, and AI regulation complexity, combined with tight supply chain constraints expected to persist.",
+        "keyQuotes": [
+          "We incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished.",
+          "As of the end of fiscal year 2026, we were effectively foreclosed from competing in China's data center computing/compute market, and our effective foreclosure from the China market helped our competitors build larger developer and customer ecosystems to challenge us worldwide.",
+          "Export controls have in the past and may in the future negatively impact demand for our products and services not only in China, but also in other markets, such as Europe, Latin America, and Southeast Asia."
+        ],
+        "marketData": {
+          "managementToneScore": 10,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 90,
+          "priceActionScore": null,
+          "compositeSentimentScore": 75,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q4 2025",
+      "quarterInfo": {
+        "calendarQuarter": 4,
+        "calendarYear": 2025,
+        "fiscalQuarter": 4,
+        "fiscalYear": 2026,
+        "quarter": "Q4 2025",
+        "reportDate": "2026-01-25"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
         "accessionNumber": "0001045810-25-000230",
         "filingDate": "2025-11-19",
         "reportDate": "2025-10-26",
@@ -21,53 +173,60 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 57006,
         "netIncome": 31910,
         "operatingCashFlow": 66530,
-        "freeCashFlow": null,
+        "freeCashFlow": 61772,
         "daysalesOutstanding": null,
         "deferredRevenue": 2413,
-        "marketShareMention": "Data Center computing grew 59% year-on-year",
+        "marketShareMention": "Market leadership in accelerated computing and AI platforms; Blackwell architecture dominance across customer categories",
         "customerConcentration": 22,
         "geographicBreakdown": {
-          "United_States": 68.7,
+          "United States": 68.7,
           "Taiwan": 24.1,
-          "China": 5.2,
-          "Other": 2
+          "China_including_Hong_Kong": 5.2,
+          "Other": 1.9
         },
         "capexAmount": 4758,
-        "capexGrowth": null,
+        "capexGrowth": 120.3,
         "partnerships": [
-          "OpenAI",
+          "Investment in Intel Corporation ($5 billion, subject to regulatory approval)",
+          "Letter of intent opportunity to invest in OpenAI",
+          "Agreement to invest up to $10 billion in Anthropic (November 2025, subject to closing conditions)",
+          "Facility lease guarantee agreement with partner for data center capacity ($860 million maximum exposure)",
+          "Cloud service agreements with CSPs ($26 billion multi-year commitments)",
           "Anthropic"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls on AI chips to China",
-          "Potential new AI export regulations",
-          "GAIN AI Act restrictions"
+          "H20 export license requirement to China (April 2025) resulting in $4.5 billion charge",
+          "H20 licensing restrictions under new USG requirements; $50 million revenue generated to date under licenses",
+          "Uncertainty regarding replacement AI Diffusion rule scope and timing",
+          "GAIN AI Act passed in Senate as part of NDAA restricting Trump Administration's ability to adapt export control rules",
+          "Potential 15% revenue share requirement for licensed H20 sales (not yet codified)",
+          "Global trade policy uncertainty including tariffs and export controls"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered strong Q3 results driven by data center and AI compute platforms. Data Center revenue grew 66% year-over-year, with Blackwell architecture becoming the leading platform across customer categories. Regulatory challenges persist but do not significantly impede growth momentum.",
+        "summary": "NVIDIA delivered exceptional Q3 FY2026 results with $57.0B revenue (62% YoY growth) and $31.9B net income (65% YoY growth), driven by dominant Blackwell architecture momentum in Data Center (66% YoY growth to $51.2B). The company maintains strong pricing power and market leadership across accelerated computing and AI platforms, though facing regulatory headwinds from U.S. export controls on China products and upcoming policy uncertainty. Aggressive capex spending (+120% YoY to $4.8B) and AI venture investments signal confidence in long-term demand despite near-term supply chain complexity and customer concentration risks.",
         "keyQuotes": [
-          "Blackwell Ultra is now our leading architecture across all customer categories",
-          "We are increasing our U.S.-based manufacturing and investing in specialized equipment",
-          "The recent rise in high-quality open-source foundation models is making advanced AI capabilities broadly accessible"
+          "Data Center revenue was $51.2 billion, up 66% from a year ago and up 25% sequentially, driven by three platform shifts –accelerated computing, powerful AI models, and agentic applications. Blackwell Ultra is now our leading architecture across all customer categories while our prior Blackwell architecture saw continued strong demand.",
+          "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers is crucial, and any shortage of these resources could impact our future revenue and financial performance.",
+          "In April 2025, the U.S. government informed us that a license is required for exports of our H20 product into the China market. As a result of these new requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 94,
+          "compositeSentimentScore": 92,
           "compositeSentiment": "bullish"
         }
       },
@@ -91,41 +250,45 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": 56,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 46743,
         "netIncome": 26422,
         "operatingCashFlow": 42779,
-        "freeCashFlow": null,
+        "freeCashFlow": 39657,
         "daysalesOutstanding": null,
         "deferredRevenue": 2035,
-        "marketShareMention": "We recognized Blackwell revenue across 25 all customer categories, led by large cloud service providers",
-        "customerConcentration": 23,
+        "marketShareMention": null,
+        "customerConcentration": 39,
         "geographicBreakdown": {
           "United_States": 50,
-          "International": 50
+          "Singapore": 22,
+          "Taiwan": 18,
+          "China_Hong_Kong": 6,
+          "Other": 4
         },
         "capexAmount": 3122,
-        "capexGrowth": null,
-        "partnerships": [
-          "U.S. government licensing agreements"
-        ],
+        "capexGrowth": 131.9,
+        "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Export controls on AI chips to China",
-          "Potential new AI export regulations"
+          "H20 export license requirement imposed by US government in April 2025",
+          "AI Diffusion IFR proposed in January 2025 (rescinded in May 2025 with replacement rule pending)",
+          "Worldwide licensing requirement concerns for H200, GB200, GB300",
+          "Export controls and tariffs creating supply chain complexity"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q2 results driven by accelerated computing and AI platforms, with Data Center revenue growing 56% year-over-year. The company continues to expand its Blackwell architecture and navigate complex geopolitical export regulations.",
+        "summary": "NVIDIA delivered exceptional Q2 FY2026 results with $46.7B revenue (+56% YoY) and $26.4B net income (+59% YoY), driven by massive Data Center demand for accelerated computing and AI solutions, particularly Blackwell architecture ramping successfully. Gross margins expanded sequentially to 72.4% despite near-term H20 regulatory headwinds ($4.5B charge in Q1), demonstrating strong underlying business momentum with two direct customers representing 39% of revenue. Strong cash generation ($42.8B operating cash flow, $39.7B free cash flow) and aggressive capital deployment ($9.7B share repurchases in Q2 alone) underscore management confidence, though regulatory uncertainty around export controls and potential new AI-related licensing requirements present material near-term risks.",
         "keyQuotes": [
-          "We continue to ramp our Blackwell architecture, which grew 17% sequentially, including our newest architecture, Blackwell Ultra.",
-          "We plan to increase our U.S.-based manufacturing and invest in specialized equipment and processes to support domestic production."
+          "We continue to ramp our Blackwell architecture, which grew 17% sequentially, including our newest architecture, Blackwell Ultra. We recognized Blackwell revenue across all customer categories, led by large cloud service providers, which represented approximately 50% of Data Center revenue.",
+          "In April 2025, the U.S. government informed us that a license is required for exports of our H20 product into the China market. As a result of these new requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations.",
+          "Indirect customers primarily purchase our products through system integrators and distributors. For the second quarter of fiscal year 2026, two indirect customers—primarily purchasing our products through Direct Customers A and B—are each estimated to represent 10% or more of total revenue and attributable to the Compute & Networking segment."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -156,49 +319,56 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
-        "guidanceDirection": "lowered",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 44062,
         "netIncome": 18775,
         "operatingCashFlow": 27414,
-        "freeCashFlow": null,
+        "freeCashFlow": 26187,
         "daysalesOutstanding": null,
         "deferredRevenue": 2078,
-        "marketShareMention": "Blackwell architecture ramp expanding to all customer categories",
+        "marketShareMention": "Blackwell architecture ramp extended beyond large cloud service providers to include consumer internet companies and regional cloud service providers",
         "customerConcentration": 30,
         "geographicBreakdown": {
-          "United_States": 47.1,
-          "Singapore": 20.5,
-          "Taiwan": 16.2,
-          "China": 12.5,
-          "Other": 3.7
+          "United States": 47,
+          "Singapore": 20,
+          "Taiwan": 16,
+          "China_including_Hong_Kong": 13,
+          "Other": 4
         },
         "capexAmount": 1227,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": 232.5,
+        "partnerships": [
+          "NVLink compute fabric integration in GB200 systems",
+          "Ethernet adoption for AI solutions at cloud service providers",
+          "DGX Cloud computing services offerings"
+        ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls on H20 products to China",
-          "Potential new AI export regulations"
+          "H20 export licensing requirements to China (April 9, 2025) requiring government license",
+          "AI Diffusion IFR potential worldwide licensing requirements on ECCNs 3A090.a and 4A090.a products (rescinded in May 2025, replacement rule pending)",
+          "Complex export controls addressing processing performance, performance density, interconnect bandwidth, and memory bandwidth parameters",
+          "Tariffs and global trade policy changes increasing supply chain complexity and costs"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "cautious",
-        "overallSentiment": "neutral",
-        "summary": "NVIDIA reported strong Data Center and AI revenue growth of 69% YoY, driven by Blackwell architecture, but faced significant challenges from US export controls on H20 products to China, resulting in a $4.5 billion inventory charge. Future revenue and market access in China remain uncertain.",
+        "managementTone": "defensive",
+        "overallSentiment": "bearish",
+        "summary": "NVIDIA delivered strong Q1 FY2026 results with $44.1B revenue (up 69% YoY) driven by Blackwell AI accelerator demand, but the company took a devastating $4.5B charge related to H20 product export restrictions imposed by the U.S. government on April 9, 2025. Gross margins compressed dramatically to 60.5% from 78.4% YoY primarily due to this H20 charge and higher system costs, while the company faces material headwinds from Chinese market foreclosure and pending regulatory uncertainty around AI export controls that could significantly impact future competitiveness.",
         "keyQuotes": [
-          "We are still evaluating our limited options to supply Data Center compute products compliant with the USG's export control rules.",
-          "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue."
+          "On April 9, 2025, the U.S. government informed us that it requires a license for export to China (including Hong Kong and Macau) of our H20 integrated circuits...we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 excess inventory and purchase obligations",
+          "We may be unable to create a competitive product for China's data center market that receives approval from the USG. In that event, we would effectively be foreclosed from competing in China's data center computing/compute market, with a material and adverse impact on our business",
+          "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers is crucial, and any shortage of these resources could impact our future revenue and financial performance"
         ],
         "marketData": {
-          "managementToneScore": 45,
+          "managementToneScore": 10,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 83,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -222,49 +392,58 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm"
       },
       "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": 114,
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
-        "revenue": null,
+        "revenue": 39331,
         "netIncome": 22091,
         "operatingCashFlow": 64089,
-        "freeCashFlow": null,
+        "freeCashFlow": 60689,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Powered 8 of the top 10 most energy-efficient systems",
-        "customerConcentration": 33,
+        "marketShareMention": "Competitive positioning challenged by export controls; Data Center revenue in China remains well below pre-October 2023 levels despite growth",
+        "customerConcentration": 34,
         "geographicBreakdown": {
-          "US": 47,
+          "United States": 47,
           "International": 53
         },
         "capexAmount": 3400,
         "capexGrowth": 209,
         "partnerships": [
-          "Cloud Service Providers for NVIDIA DGX Cloud",
-          "Ethernet for AI platform partnerships"
+          "Cloud service partnerships (CSPs) for NVIDIA DGX Cloud services",
+          "System integrator partnerships for data center buildouts",
+          "Multiple foundry and contract manufacturing partnerships",
+          "Ethernet for AI partnership (Spectrum-X end-to-end platform)"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls on AI chips to China",
-          "Emerging AI regulations in EU and other regions"
+          "US export controls on AI GPUs to China and Tier 2 countries",
+          "AI Diffusion IFR (January 2025) requiring worldwide licensing for advanced AI chips",
+          "EU AI Act (effective August 1, 2024) impacting AI model training and deployment",
+          "Multiple state-level AI regulations in US",
+          "Data privacy regulations (GDPR, CCPA, NIS2)",
+          "Potential restrictions on automotive products incorporating Chinese components",
+          "Chinese government restrictions on gaming and digital platforms",
+          "Antitrust scrutiny from EU, US, UK, South Korea, and China regulators"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "confident",
+        "managementTone": "defensive",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional financial performance in fiscal 2025, driven by strong demand for AI and accelerated computing platforms. Data Center revenue grew 162%, powered by Hopper and new Blackwell architectures. The company continues to lead in AI technology innovation.",
+        "summary": "NVIDIA delivered exceptional fiscal 2025 results with $130.5B revenue (+114% YoY) and $72.9B net income (+145% YoY), driven by explosive demand for Data Center AI solutions (up 142% YoY) on the back of Hopper architecture adoption. Despite strong financial performance, management tone is notably defensive given extensive export control headwinds, particularly the new AI Diffusion IFR announced January 2025 that imposes worldwide licensing requirements and threatens market access in China and Tier 2 countries—a material competitive risk that already reduced China Data Center revenue to well below pre-October 2023 levels.",
         "keyQuotes": [
-          "Advancements in accelerated computing and generative AI models have driven increased demand for our Data Center systems",
-          "We continue to increase our supply and capacity purchases to support demand projections"
+          "Data Center revenue for fiscal year 2025 was up 142% from a year ago. The strong year-on-year growth was driven by demand for our Hopper architecture accelerated computing platform used for large language models, recommendation engines, and generative AI applications.",
+          "Our competitive position has been harmed by the existing export controls, and our competitive position and future results may be further harmed, over the long term, if there are further changes in the USG's export controls.",
+          "On January 15, 2025, the USG published the 'AI Diffusion' IFR in the Federal Register...the worldwide licensing requirements will apply to the following NVIDIA products...A100, A800, H100, H200, H800, B100, B200, GB200, L4, L40S, and RTX 6000 Ada."
         ],
         "marketData": {
-          "managementToneScore": 90,
+          "managementToneScore": 50,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 92,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -288,49 +467,57 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000316/nvda-20241027.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 35082,
         "netIncome": 19309,
         "operatingCashFlow": 47460,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
+        "freeCashFlow": 45301,
+        "daysalesOutstanding": 54,
         "deferredRevenue": 1585,
-        "marketShareMention": "Strong demand for Hopper architecture and H200 offering",
-        "customerConcentration": 50,
+        "marketShareMention": "Demand for Hopper architecture is strong. Blackwell demand expected to exceed supply for several quarters in fiscal year 2026.",
+        "customerConcentration": 47,
         "geographicBreakdown": {
-          "United_States": 42.2,
+          "United States": 42.1,
           "Singapore": 21.9,
-          "China": 15.4,
+          "China_including_Hong_Kong": 15.4,
           "Taiwan": 14.7,
-          "Other": 5.8
+          "Other_countries": 5.7
         },
         "capexAmount": 2159,
-        "capexGrowth": null,
-        "partnerships": [],
+        "capexGrowth": 165,
+        "partnerships": [
+          "Cloud service providers represent approximately 50% of Data Center revenue",
+          "Consumer internet and enterprise companies",
+          "Multi-year cloud service agreements totaling $11.3 billion"
+        ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "U.S. export controls on AI chips to China",
-          "Potential restrictions on products with Chinese technologies"
+          "U.S. export controls on AI chips to China, requiring licenses for Blackwell and other products exceeding performance thresholds",
+          "Export restrictions to China (including Hong Kong and Macau), Russia, and Country Groups D1, D4, D5 (Saudi Arabia, UAE, Vietnam)",
+          "No licenses received to date for restricted products to China",
+          "Potential U.S. restrictions on import and sale of automotive products incorporating technologies developed or manufactured in China",
+          "Licensing requirements for A100, A800, H100, H800, L4, L40, L40S products and upcoming Blackwell systems"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q3 performance driven by strong AI and Data Center demand, with revenue up 94% YoY to $35.1B. Data Center revenue grew 112% YoY, representing approximately 88% of total revenue, fueled by generative AI and large language model applications.",
+        "summary": "NVIDIA delivered exceptional Q3 FY2025 results with revenue of $35.1 billion (up 94% YoY) and net income of $19.3 billion (up 109% YoY), driven by explosive demand for Data Center AI accelerators. The company maintains strong pricing power and generated robust operating cash flow of $47.5 billion, though faces near-term supply constraints on Blackwell chips and ongoing export control headwinds in China markets. Management projects strong demand to exceed supply for several quarters into FY2026.",
         "keyQuotes": [
-          "Advancements in accelerated computing and generative AI models, along with the growth in model complexity and scale, have driven increased demand for our Data Center systems",
-          "We have introduced a new architecture cadence of our Data Center solutions where we seek to complete a new computing architecture each year"
+          "Demand for the Hopper architecture is strong and our H200 offering grew significantly in the quarter. Blackwell production shipments are scheduled to begin in the fourth quarter of fiscal year 2025 and will continue to ramp into fiscal year 2026.",
+          "The demand for Blackwell is expected to exceed supply for several quarters in fiscal year 2026.",
+          "Data Center revenue was up 112% from a year ago and up 17% sequentially. The strong year-on-year and sequential growth was driven by demand for our Hopper computing platform for training and inferencing of large language models, recommendation engines, and generative AI applications."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 94,
+          "compositeSentimentScore": 92,
           "compositeSentiment": "bullish"
         }
       },
@@ -354,53 +541,63 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000264/nvda-20240728.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 30040,
         "netIncome": 16599,
         "operatingCashFlow": 29833,
-        "freeCashFlow": null,
+        "freeCashFlow": 28487,
         "daysalesOutstanding": null,
         "deferredRevenue": 1721,
-        "marketShareMention": "Strong Hopper GPU and emerging Blackwell architecture market position",
-        "customerConcentration": 45,
+        "marketShareMention": null,
+        "customerConcentration": 49,
         "geographicBreakdown": {
-          "United_States": 43.4,
+          "United States": 43.3,
           "Taiwan": 19.1,
           "Singapore": 18.7,
-          "China": 12.2,
-          "Other_Countries": 6.6
+          "China_including_Hong_Kong": 12.2,
+          "Other_countries": 6.6
         },
         "capexAmount": 1346,
-        "capexGrowth": null,
+        "capexGrowth": 150.5,
         "partnerships": [
-          "Cloud service providers",
-          "Enterprise AI companies",
-          "Consumer internet companies"
+          "Spectrum-X Ethernet networking platform adoption by cloud service providers",
+          "NVIDIA Inference Microservices (NIM) integration by over 150 companies",
+          "NVIDIA AI Foundry service partnerships",
+          "Llama 3.1 model collaboration",
+          "MLPerf benchmark leadership with partners",
+          "NVIDIA ACE generative AI microservices partnerships",
+          "RTX games and apps ecosystem (600+ titles)",
+          "GeForce NOW expansion to Japan",
+          "Taiwanese electronics makers manufacturing partnerships"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls to China",
-          "Licensing requirements for advanced AI chips"
+          "U.S. government export control licensing requirements for A100, H100, A800, H800, L4, L40, L40S products to China",
+          "Export restrictions to Country Groups D1, D4, D5 including Saudi Arabia, UAE, Vietnam (excluding Israel)",
+          "Blackwell GPU mask change required to improve production yield, impacting gross margin",
+          "No licenses received to ship restricted products to China",
+          "Geopolitical tensions increasing strategic importance of export control enforcement"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
-        "managementTone": "confident",
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q2 performance driven by strong AI and data center demand, with revenue growing 122% year-over-year. The company is positioning itself at the forefront of AI computing with its Hopper and upcoming Blackwell architectures, despite geopolitical challenges.",
+        "summary": "NVIDIA delivered exceptional Q2 FY2025 results with revenue of $30.0 billion (+122% YoY, +15% QoQ) driven by extraordinary demand for Hopper GPUs in data center AI applications, where revenue surged 154% YoY. The company maintains strong pricing power with 75.1% gross margins despite Blackwell yield-related provisions, and generated $29.8 billion in operating cash flow. However, management adopted a cautious tone regarding product transition complexities, inventory provisions, export control headwinds to China, and geopolitical risks, while providing no forward guidance beyond noting expectation of \"several billion dollars\" in Blackwell revenue in Q4 FY2025.",
         "keyQuotes": [
-          "Demand estimates for our new products, applications, and services can be incorrect and create volatility in our revenue or supply levels.",
-          "We expect to ship several billion dollars in Blackwell revenue in the fourth quarter of fiscal year 2025."
+          "Revenue growth in the second quarter of fiscal year 2025 was driven by data center compute platforms and networking for accelerated computing and AI solutions. Hopper architecture demand is strong, and shipments are expected to increase in the second half of fiscal 2025.",
+          "In the fourth quarter of fiscal year 2025, we expect to ship several billion dollars in Blackwell revenue.",
+          "Our Data Center revenue in China grew sequentially in the second quarter of fiscal year 2025 and is a significant contributor to our Data Center revenue. As a percentage of total Data Center revenue, it remains below levels seen prior to the imposition of export controls in October 2023."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 70,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 94,
+          "compositeSentimentScore": 88,
           "compositeSentiment": "bullish"
         }
       },
@@ -424,56 +621,63 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000124/nvda-20240428.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 26044,
         "netIncome": 14881,
         "operatingCashFlow": 15345,
-        "freeCashFlow": null,
+        "freeCashFlow": 14976,
         "daysalesOutstanding": null,
         "deferredRevenue": 1549,
-        "marketShareMention": "Expanding market presence in AI computing and data center solutions",
+        "marketShareMention": null,
         "customerConcentration": 24,
         "geographicBreakdown": {
-          "United_States": 52,
-          "Taiwan": 17,
-          "Singapore": 15,
-          "China": 10,
-          "Other_Countries": 6
+          "United States": 51.8,
+          "Taiwan": 16.8,
+          "Singapore": 15.5,
+          "China_including_Hong_Kong": 9.6,
+          "Other_countries": 6.3
         },
         "capexAmount": 369,
-        "capexGrowth": null,
+        "capexGrowth": 48.8,
         "partnerships": [
-          "Lucid electric vehicles",
-          "IM Motors",
-          "BYD",
-          "XPENG",
-          "GAC's AION Hyper",
-          "Nuro"
+          "Lucid Motors using NVIDIA DRIVE Orin platform",
+          "IM Motors using NVIDIA DRIVE Orin platform",
+          "BYD adopting NVIDIA DRIVE Thor",
+          "XPENG adopting NVIDIA DRIVE Thor",
+          "GAC's AION Hyper adopting NVIDIA DRIVE Thor",
+          "Nuro adopting NVIDIA DRIVE Thor",
+          "Nine supercomputers using Grace Hopper Superchips",
+          "NVIDIA Quantum InfiniBand and Spectrum Ethernet switches partnerships"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls on AI chips to China",
-          "Licensing requirements for advanced GPU exports"
+          "U.S. export control licensing requirements for A100, H100, A800, H800, L4, L40, L40S products to China and Country Groups D1, D4, D5",
+          "Export restrictions became effective October 23, 2023",
+          "No licenses received for restricted products to China",
+          "Data Center revenue in China down significantly from prior levels",
+          "Middle East export restrictions on performance-threshold exceeding products",
+          "Geopolitical tensions affecting supply chain resilience"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q1 results driven by massive AI-driven data center demand, with revenue up 262% year-over-year and net income up 628%. The company's Hopper GPU platform and AI infrastructure solutions continue to see tremendous market traction across cloud, enterprise, and consumer internet segments.",
+        "summary": "NVIDIA delivered exceptional Q1 FY2025 results with revenue of $26.0 billion (+262% YoY, +18% QoQ) driven by extraordinary Data Center demand for Hopper GPU architecture supporting large language models and generative AI. Gross margin expanded dramatically to 78.4% from 64.6% YoY, with net income of $14.9 billion demonstrating significant operating leverage, though management noted supply constraints will persist into next year with Blackwell ramp expected in H2. The company faces material headwinds from U.S. export controls restricting sales to China, which has significantly impacted that region's Data Center revenue.",
         "keyQuotes": [
-          "We believe the initial demand for Blackwell is well ahead of the projected supply for this fiscal year",
-          "Large cloud providers continued to drive strong growth as they deploy and ramp NVIDIA AI infrastructure at scale"
+          "Data Center revenue was up 427% from a year ago and up 23% sequentially. Data Center compute revenue was $19.4 billion, up 478% from a year ago and up 29% sequentially. These increases reflect higher shipments of the NVIDIA Hopper GPU computing platform used for training and inferencing with large language models, recommendation engines, and generative AI applications.",
+          "We believe the initial demand for Blackwell is well ahead of the projected supply for this fiscal year. We expect supply constraints for our Blackwell offerings will continue into next year.",
+          "Our Data Center revenue in China is down significantly from the level prior to the imposition of new export control restrictions in October 2023. To the extent that a customer requires products covered by the licensing requirements, we may seek a license for the customer but have no assurance that the USG will grant such a license."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 94,
+          "compositeSentimentScore": 92,
           "compositeSentiment": "bullish"
         }
       },
@@ -490,73 +694,6 @@
     },
     {
       "filing": {
-        "accessionNumber": "0001045810-24-000029",
-        "filingDate": "2024-02-21",
-        "reportDate": "2024-01-28",
-        "form": "10-K",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm"
-      },
-      "insights": {
-        "guidanceTone": "confident",
-        "guidanceDirection": "raised",
-        "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
-        "revenue": 22103,
-        "netIncome": 12286,
-        "operatingCashFlow": 28090,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": null,
-        "marketShareMention": "Strong demand driven by enterprise software, consumer internet, automotive, financial services, healthcare",
-        "customerConcentration": 13,
-        "geographicBreakdown": {
-          "US": 44,
-          "International": 56
-        },
-        "capexAmount": 3500,
-        "capexGrowth": null,
-        "partnerships": [
-          "MediaTek for automotive chips",
-          "Foxconn for electric vehicles",
-          "Microsoft Azure for Omniverse Cloud"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "US export controls on AI chips to China",
-          "Potential AI technology restrictions"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional financial performance in fiscal year 2024, with revenue growing 126% to $60.9B and net income surging 581% to $29.8B, driven primarily by strong AI and Data Center demand.",
-        "keyQuotes": [
-          "Demand for our data center systems and products surged in fiscal year 2024",
-          "We launched AI inference platforms that combine our full-stack inference software with NVIDIA processors optimized for generative AI"
-        ],
-        "marketData": {
-          "managementToneScore": 90,
-          "revenueGrowthScore": 95,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 92,
-          "compositeSentiment": "bullish"
-        }
-      },
-      "quarter": "Q4 2023",
-      "quarterInfo": {
-        "calendarQuarter": 4,
-        "calendarYear": 2023,
-        "fiscalQuarter": 4,
-        "fiscalYear": 2024,
-        "quarter": "Q4 2023",
-        "reportDate": "2024-01-28"
-      },
-      "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
         "accessionNumber": "0001045810-23-000227",
         "filingDate": "2023-11-21",
         "reportDate": "2023-10-29",
@@ -564,55 +701,59 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000227/nvda-20231029.htm"
       },
       "insights": {
-        "guidanceTone": "extremely positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 18120,
         "netIncome": 9243,
         "operatingCashFlow": 16591,
-        "freeCashFlow": null,
+        "freeCashFlow": 15776,
         "daysalesOutstanding": null,
         "deferredRevenue": 938,
-        "marketShareMention": "Strong sales of NVIDIA HGX platform, gaining significant market share in AI compute infrastructure",
+        "marketShareMention": "Leading position in AI accelerated computing with dominance in data center GPU market",
         "customerConcentration": 12,
         "geographicBreakdown": {
-          "United_States": 34.8,
-          "Taiwan": 24,
-          "China": 22.2,
+          "United States": 34.8,
+          "Taiwan": 23.9,
+          "China_including_Hong_Kong": 22.2,
           "Singapore": 14.9,
-          "Other_Countries": 4.1
+          "Other_countries": 4.2
         },
         "capexAmount": 815,
-        "capexGrowth": null,
+        "capexGrowth": -38.4,
         "partnerships": [
-          "Microsoft Azure",
-          "Dell Technologies",
-          "Hewlett Packard Enterprise",
-          "Lenovo",
+          "Microsoft Azure (AI foundry service)",
+          "Dell Technologies (Spectrum-X integration)",
+          "Hewlett Packard Enterprise (Spectrum-X integration)",
+          "Lenovo (Spectrum-X integration)",
           "Amdocs",
           "Dropbox",
-          "Foxconn",
-          "Genentech",
+          "Foxconn (EV collaboration)",
+          "Genentech/Roche Group",
           "Infosys",
           "Reliance Industries",
           "Scaleway",
-          "Tata Group"
+          "Tata Group",
+          "ARM"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls on AI chips to China",
-          "Licensing requirements for advanced AI products"
+          "U.S. export controls on A100, H100, H800, L40, L40S, and RTX 4090 to China, Russia, and certain Middle East countries",
+          "Expected 20-25% decline in China-related Data Center revenue in Q4 FY2024",
+          "Additional licensing requirements for exports to Country Groups D1, D4, D5",
+          "Ongoing geopolitical risk with Israel operations (3,400 employees impacted)"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q3 performance, driven by explosive AI demand and Data Center growth. Revenue surged 206% YoY to $18.12B, with Data Center revenue up 279%, reflecting massive adoption of AI computing platforms.",
+        "summary": "NVIDIA delivered exceptional Q3 FY2024 results with $18.1B revenue (+206% YoY, +34% QoQ) and $9.2B net income (+1,259% YoY), driven by massive data center demand for AI training and inference. Gross margins expanded significantly to 74% from 53.6% YoY, reflecting strong product mix and lower inventory provisions. However, new U.S. export controls effective immediately are expected to reduce China/Middle East sales by 20-25% of data center revenue in Q4, though management expects this to be offset by strong growth in other regions. Supply chain remains tight with $17.1B in purchase obligations as the company scales to meet expected demand extending into next year.",
         "keyQuotes": [
           "Demand for our data center systems and products has surged over the last three quarters and our demand visibility extends into next year.",
-          "Strong sales of the NVIDIA HGX platform were driven by global demand for the training and inferencing of large language models, recommendation engines, and generative AI applications."
+          "Our sales to China and other affected destinations, derived from products that are now subject to licensing requirements, have consistently contributed approximately 20-25% of Data Center revenue over the past few quarters. We expect that our sales to these destinations will decline significantly in the fourth quarter of fiscal year 2024, though we believe the decline will be more than offset by strong growth in other regions.",
+          "Data Center revenue was up 279% from a year ago and up 41% sequentially. Strong sales of the NVIDIA HGX platform were driven by global demand for the training and inferencing of large language models, recommendation engines, and generative AI applications."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -643,27 +784,27 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000175/nvda-20230730.htm"
       },
       "insights": {
-        "guidanceTone": "positive",
-        "guidanceDirection": "raised",
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 13507,
         "netIncome": 6188,
         "operatingCashFlow": 9259,
-        "freeCashFlow": null,
+        "freeCashFlow": 8722,
         "daysalesOutstanding": null,
         "deferredRevenue": 729,
-        "marketShareMention": "Strong market positioning in AI and data center computing",
+        "marketShareMention": null,
         "customerConcentration": 22,
         "geographicBreakdown": {
-          "United_States": 44.7,
-          "Taiwan": 21,
-          "China": 20.3,
-          "Other_Countries": 14
+          "united_states": 44.7,
+          "taiwan": 21,
+          "china_hong_kong": 20.3,
+          "other_countries": 13.9
         },
         "capexAmount": 537,
-        "capexGrowth": null,
+        "capexGrowth": -32.3,
         "partnerships": [
           "ServiceNow",
           "Accenture",
@@ -676,23 +817,25 @@
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "US export controls to China"
+          "U.S. export controls on A100 and H100 chips to China",
+          "Additional licensing requirements for subset of A100 and H100 products to Middle East and certain regions"
         ],
         "aiInvestmentMentioned": true,
-        "priorGuidanceHit": true,
+        "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered exceptional Q2 results, driven by surging demand for AI and data center computing platforms. Revenue and net income more than doubled year-over-year, with generative AI and large language models fueling unprecedented growth in the compute and networking segment.",
+        "summary": "NVIDIA delivered exceptional Q2 FY2024 results with $13.5B revenue (+101% YoY) and $6.2B net income (+843% YoY), driven by explosive Data Center demand for AI accelerators. Gross margin expanded dramatically to 70.1% on strong Hopper-based HGX platform adoption and normalized inventory, though the company faces supply chain complexity, export control headwinds to China, and product transition execution risks.",
         "keyQuotes": [
-          "Demand for our data center systems and products has surged over the last two quarters and our demand visibility extends into next year",
-          "Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI"
+          "Demand for our data center systems and products has surged over the last two quarters and our demand visibility extends into next year.",
+          "Data Center revenue for the second quarter of fiscal year 2024 was $10.32 billion, up 171% from a year ago... Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI.",
+          "A large CSP, which primarily purchases indirectly through multiple system integrators and distributors, is estimated to represent approximately 22% and 19% of total revenue for the second quarter and first half of fiscal year 2024, respectively."
         ],
         "marketData": {
-          "managementToneScore": 100,
+          "managementToneScore": 90,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 94,
+          "compositeSentimentScore": 92,
           "compositeSentiment": "bullish"
         }
       },
@@ -706,81 +849,9 @@
         "reportDate": "2023-07-30"
       },
       "analyzedSuccessfully": true
-    },
-    {
-      "filing": {
-        "accessionNumber": "0001045810-23-000093",
-        "filingDate": "2023-05-26",
-        "reportDate": "2023-04-30",
-        "form": "10-Q",
-        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000093/nvda-20230430.htm"
-      },
-      "insights": {
-        "guidanceTone": "cautiously optimistic",
-        "guidanceDirection": "maintained",
-        "bookingsGrowth": null,
-        "pricingPower": "moderate",
-        "headcountTrend": "expanding",
-        "revenue": 7192,
-        "netIncome": 2043,
-        "operatingCashFlow": 2911,
-        "freeCashFlow": null,
-        "daysalesOutstanding": null,
-        "deferredRevenue": 597,
-        "marketShareMention": "Strong demand from large consumer internet companies and cloud service providers",
-        "customerConcentration": null,
-        "geographicBreakdown": {
-          "United_States": 33,
-          "Taiwan": 25,
-          "China": 22,
-          "Singapore": 11,
-          "Other_Countries": 9
-        },
-        "capexAmount": null,
-        "capexGrowth": null,
-        "partnerships": [
-          "Google Cloud for NVIDIA L4 Tensor Core GPU",
-          "ServiceNow for generative AI",
-          "Dell Technologies for generative AI solutions",
-          "Medtronic for AI medical device platform",
-          "Microsoft for Omniverse Cloud"
-        ],
-        "supplyChainStatus": "tight",
-        "regulatoryHeadwinds": [
-          "US export controls on chip exports to China",
-          "Potential Chinese government restrictions"
-        ],
-        "aiInvestmentMentioned": true,
-        "priorGuidanceHit": null,
-        "managementTone": "confident",
-        "overallSentiment": "bullish",
-        "summary": "NVIDIA delivered strong Q1 results driven by generative AI demand, particularly in Data Center segment. Despite macroeconomic challenges, the company showed resilience with 14% year-over-year growth in Compute & Networking revenue and continued investment in AI technologies.",
-        "keyQuotes": [
-          "Growing demand for generative AI and large language models using GPUs based on our NVIDIA Hopper and Ampere architectures",
-          "We launched NVIDIA AI Foundations to help businesses create and operate custom large language models and generative AI models"
-        ],
-        "marketData": {
-          "managementToneScore": 90,
-          "revenueGrowthScore": 18,
-          "netIncomeScore": 90,
-          "priceActionScore": null,
-          "compositeSentimentScore": 59,
-          "compositeSentiment": "neutral"
-        }
-      },
-      "quarter": "Q1 2023",
-      "quarterInfo": {
-        "calendarQuarter": 1,
-        "calendarYear": 2023,
-        "fiscalQuarter": 1,
-        "fiscalYear": 2024,
-        "quarter": "Q1 2023",
-        "reportDate": "2023-04-30"
-      },
-      "analyzedSuccessfully": true
     }
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-01-21T18:05:54.665Z"
+  "lastUpdated": "2026-08-05T18:50:50.132Z"
 }
