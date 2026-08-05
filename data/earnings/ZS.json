@@ -9,8 +9,416 @@
     "subCategory": "Cybersecurity",
     "cik": "0001713683"
   },
-  "reports": [],
+  "reports": [
+    {
+      "filing": {
+        "accessionNumber": "0001713683-26-000096",
+        "filingDate": "2026-05-26",
+        "reportDate": "2026-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000096/zs-20260430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 850.475,
+        "netIncome": -13.883,
+        "operatingCashFlow": 850.369,
+        "freeCashFlow": 718.369,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2477.166,
+        "marketShareMention": "Approximately 40% of Forbes Global 2000 as customers as of July 31, 2025; customer base expanded to over 9,400 customers",
+        "customerConcentration": 12,
+        "geographicBreakdown": {
+          "United States": 53,
+          "Europe_Middle_East_Africa": 28,
+          "Asia_Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 131.99,
+        "capexGrowth": null,
+        "partnerships": [
+          "Channel partners represented 85% of Q1 2026 revenue",
+          "Planned acquisition of Symmetry Systems for $175 million (announced May 19, 2026)"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Tariffs and trade regulations",
+          "Global minimum tax rules under OECD guidance",
+          "Various litigation matters including patent, commercial, product liability, employment and class action claims"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered Q1 FY2026 revenue of $850.5 million (25.4% YoY growth) but reported a net loss of $13.9 million on deteriorating operating margins as the company aggressively invests in AI-focused acquisitions and R&D. Strong deferred revenue of $2.5 billion and positive operating cash flow of $850 million demonstrate business momentum, but near-term profitability remains challenged by elevated operating expenses and $770 million in acquisition spending during the nine-month period.",
+        "keyQuotes": [
+          "The emergence and rapid adoption of AI is revolutionizing the transformational impact of cloud adoption and mobility. AI is fundamentally changing how organizations operate, creating new cybersecurity threats and IT challenges, but also the opportunity to use AI to counter cybersecurity threats and improve IT operations.",
+          "We continue to see customer scrutiny of and elongated approval processes for transactions, particularly larger deals, as customers continue to carefully consider purchasing decisions and are requiring multiple approvals for large expenditures in response to the uncertain economic environment.",
+          "We expect we will continue to incur net losses for the foreseeable future, as we continue to invest in our sales and marketing organization to maximize our market opportunity, to invest in research and development efforts to enhance the functionality of our cloud platform."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 12,
+          "priceActionScore": null,
+          "compositeSentimentScore": 53,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2026",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2026,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2026,
+        "quarter": "Q1 2026",
+        "reportDate": "2026-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-25-000205",
+        "filingDate": "2025-11-25",
+        "reportDate": "2025-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000205/zs-20251031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "reducing",
+        "revenue": 788.112,
+        "netIncome": -11.615,
+        "operatingCashFlow": 448.28,
+        "freeCashFlow": 413.296,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 2351.304,
+        "marketShareMention": "Approximately 40% of Forbes Global 2000 as customers; expansion from 8,650 to 9,400+ customers YoY",
+        "customerConcentration": 12,
+        "geographicBreakdown": {
+          "United States": 54,
+          "Europe_Middle_East_Africa": 27,
+          "Asia_Pacific": 15,
+          "Other": 4
+        },
+        "capexAmount": 34.984,
+        "capexGrowth": null,
+        "partnerships": [
+          "Channel partners account for 85% of revenue",
+          "Strategic partnerships and joint marketing activities with channel partners"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Tariffs and trade regulations compliance requirements",
+          "Various litigation matters including patent, commercial, product liability, employment and class action claims"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler reported Q3 FY2026 revenue of $788.1M (+25.5% YoY) with continued net losses of $11.6M, though narrowly improved from $12.1M prior year. The company demonstrated strong operating cash flow of $448.3M and maintained healthy dollar-based net retention of 115%, reflecting successful land-and-expand execution. Strategic acquisitions of Red Canary ($651.4M) and SPLXAI ($40.6M) signal aggressive AI security positioning, though restructuring charges of $4.7M indicate ongoing operational streamlining efforts.",
+        "keyQuotes": [
+          "Dollar-based net retention rate was 115% for the trailing 12 months ended October 31, 2025, demonstrating the value of our customer relationships and our land-and-expand model",
+          "We expect customer cautiousness to continue in the near term, elongating our sales cycles and the timing of large deals",
+          "We plan to integrate SPLX's technology with our AI Security offerings and accelerate innovations in Agentic AI-driven security operations with Red Canary acquisition"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2025",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2025,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2025,
+        "quarter": "Q3 2025",
+        "reportDate": "2025-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-25-000079",
+        "filingDate": "2025-05-29",
+        "reportDate": "2025-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368325000079/zs-20250430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 678.034,
+        "netIncome": -4.125,
+        "operatingCashFlow": 721.849,
+        "freeCashFlow": 554.172,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1984.985,
+        "marketShareMention": "Approximately 35% of the Forbes Global 2000 as customers as of July 31, 2024; customer base expanded from 7,700 to 8,650 customers year-over-year",
+        "customerConcentration": 11,
+        "geographicBreakdown": {
+          "United States": 51,
+          "Europe_Middle_East_Africa": 30,
+          "Asia_Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 167.077,
+        "capexGrowth": null,
+        "partnerships": [
+          "Channel partners represent 88% of Q1 FY2025 revenue"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Compliance with tariffs and trade regulations",
+          "Multiple ongoing litigation matters including patent, commercial, product liability, employment and class action claims"
+        ],
+        "aiInvestmentMentioned": true,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler achieved Q1 FY2025 revenue of $678.0 million (22% YoY growth) but posted a net loss of $4.1 million as operating expenses grew faster than revenue, with sales/marketing up 20% YoY. The company maintains strong cash generation ($721.8M operating cash flow YTD) and a healthy deferred revenue base of $1.98B, though GAAP profitability remains elusive with nine-month net losses of $23.9M; management provided no forward guidance in this 10-Q filing.",
+        "keyQuotes": [
+          "As of July 31, 2024, we had approximately 35% of the Forbes Global 2000 as customers",
+          "Our revenue has experienced significant growth in recent periods. For the nine months ended April 30, 2025 and 2024, our revenue was $1,953.9 million and $1,574.9 million, respectively",
+          "We continue to see customer scrutiny of and elongated approval processes for transactions, particularly larger deals, as customers continue to carefully consider purchasing decisions and are requiring multiple approvals for large expenditures in response to the uncertain economic environment"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 15,
+          "priceActionScore": null,
+          "compositeSentimentScore": 54,
+          "compositeSentiment": "neutral"
+        }
+      },
+      "quarter": "Q1 2025",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2025,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2025,
+        "quarter": "Q1 2025",
+        "reportDate": "2025-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-24-000150",
+        "filingDate": "2024-12-05",
+        "reportDate": "2024-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000150/zs-20241031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": 13,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 627.955,
+        "netIncome": -12.051,
+        "operatingCashFlow": 331.335,
+        "freeCashFlow": 291.881,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1783.72,
+        "marketShareMention": "Approximately 35% of the Forbes Global 2000 as customers as of July 31, 2024; expanded from approximately 8,650 customers across major industries",
+        "customerConcentration": 11,
+        "geographicBreakdown": {
+          "United States": 51,
+          "Europe_Middle_East_Africa": 30,
+          "Asia_Pacific": 16,
+          "Other": 3
+        },
+        "capexAmount": 39.454,
+        "capexGrowth": -32.7,
+        "partnerships": [
+          "Non-cancelable agreement with public cloud provider for $100.0 million over five-year term (September 2024)",
+          "Non-cancelable agreement with public cloud provider for $300.0 million over five-year term (November 2024)",
+          "Channel partners representing 89% of revenue"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered Q3 2025 revenue of $628.0M (26% YoY growth) with improved profitability, reporting a net loss of $12.1M versus $33.5M loss in the prior year. The company generated strong free cash flow of $291.9M (46% margin) and calculated billings grew 13% to $516.7M, though dollar-based net retention declined to 114% from 120% YoY, reflecting macroeconomic headwinds and customer purchasing caution. Management maintained neutral guidance with no explicit forward outlook, citing elongated sales cycles and customer scrutiny particularly on larger deals.",
+        "keyQuotes": [
+          "For the three months ended October 31, 2024 and 2023, our revenue was $628.0 million and $496.7 million, respectively.",
+          "We continue to see customer scrutiny of and elongated approval processes for transactions, particularly larger deals, as customers continue to scrutinize purchasing decisions and are requiring multiple approvals for large expenditures in response to the uncertain economic environment.",
+          "For the trailing 12 months ended October 31, 2024 and 2023, the dollar-based net retention rate was 114% and 120%, respectively."
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 88,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 61,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2024",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2024,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2024,
+        "quarter": "Q3 2024",
+        "reportDate": "2024-10-31"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-24-000075",
+        "filingDate": "2024-06-07",
+        "reportDate": "2024-04-30",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368324000075/zs-20240430.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": null,
+        "pricingPower": "strong",
+        "headcountTrend": "expanding",
+        "revenue": 553.201,
+        "netIncome": 19.124,
+        "operatingCashFlow": 576.289,
+        "freeCashFlow": 448.632,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1576.014,
+        "marketShareMention": null,
+        "customerConcentration": null,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe, Middle East and Africa": 31,
+          "Asia Pacific": 15,
+          "Other": 4
+        },
+        "capexAmount": 127.657,
+        "capexGrowth": null,
+        "partnerships": [
+          "Cloud Platform Service agreement with third-party service provider (December 2023, $100M over 5 years)"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "bullish",
+        "summary": "Zscaler delivered strong Q1 FY2024 results with revenue of $553.2M (32% YoY growth) and returned to profitability with $19.1M net income, a dramatic turnaround from a $46M loss in the prior year quarter. The company generated $576.3M in operating cash flow and ended the quarter with $1.58B in deferred revenue (+9.5% YoY), indicating robust future revenue visibility. Two strategic acquisitions (Avalor and Airgap) totaling $381M in the quarter suggest management confidence in the business and commitment to technology innovation.",
+        "keyQuotes": [
+          "Our subscription pricing is primarily calculated on a per-user basis. We recognize subscription and support revenue ratably over the life of the contract, which is generally one to three years.",
+          "We expect we will continue to incur net losses for the foreseeable future, as we continue to invest in our sales and marketing organization to take advantage of our market opportunity, to invest in research and development efforts to enhance the functionality of our cloud platform",
+          "As of April 30, 2024, the aggregate amount of the transaction price allocated to remaining performance obligations was $3,824.1 million. We expect to recognize 51% of the transaction price over the next 12 months and 95% of the transaction price over the next three years"
+        ],
+        "marketData": {
+          "managementToneScore": 70,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 78,
+          "priceActionScore": null,
+          "compositeSentimentScore": 84,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q1 2024",
+      "quarterInfo": {
+        "calendarQuarter": 1,
+        "calendarYear": 2024,
+        "fiscalQuarter": 1,
+        "fiscalYear": 2024,
+        "quarter": "Q1 2024",
+        "reportDate": "2024-04-30"
+      },
+      "analyzedSuccessfully": true
+    },
+    {
+      "filing": {
+        "accessionNumber": "0001713683-23-000171",
+        "filingDate": "2023-12-06",
+        "reportDate": "2023-10-31",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368323000171/zs-20231031.htm"
+      },
+      "insights": {
+        "guidanceTone": "neutral",
+        "guidanceDirection": "not_provided",
+        "bookingsGrowth": 34,
+        "pricingPower": "moderate",
+        "headcountTrend": "expanding",
+        "revenue": 496.703,
+        "netIncome": -33.483,
+        "operatingCashFlow": 260.806,
+        "freeCashFlow": 224.718,
+        "daysalesOutstanding": null,
+        "deferredRevenue": 1399.544,
+        "marketShareMention": "Over 640 of the Forbes Global 2000 as customers as of July 31, 2023; Over 7,700 total customers across all major geographies",
+        "customerConcentration": 10,
+        "geographicBreakdown": {
+          "United States": 50,
+          "Europe_Middle_East_Africa": 32,
+          "Asia_Pacific": 15,
+          "Other": 3
+        },
+        "capexAmount": 36.088,
+        "capexGrowth": null,
+        "partnerships": [
+          "Channel partners represent 91% of Q3 FY2024 revenue"
+        ],
+        "supplyChainStatus": "unknown",
+        "regulatoryHeadwinds": [
+          "Potential legal proceedings and litigation matters in ordinary course of business",
+          "Compliance costs as a public company"
+        ],
+        "aiInvestmentMentioned": false,
+        "priorGuidanceHit": null,
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Zscaler delivered strong revenue growth of 40% YoY to $496.7M in Q3 FY2024 with improving profitability despite GAAP net losses. The company generated robust free cash flow of $224.7M (45% FCF margin) and maintained healthy deferred revenue of $1.4B, though dollar-based net retention rate declined from 125%+ to 120%, signaling some customer expansion headwinds in a challenging macroeconomic environment.",
+        "keyQuotes": [
+          "For the three months ended October 31, 2023 and 2022, our revenue was $496.7 million and $355.5 million, respectively",
+          "For the trailing 12 months ended October 31, 2023 and 2022, the dollar-based net retention rate was 120% and above 125%, respectively",
+          "We continue to see customer scrutiny of and elongated approval processes for transactions, particularly larger deals, as potential new customers continue to scrutinize purchasing decisions"
+        ],
+        "marketData": {
+          "managementToneScore": 50,
+          "revenueGrowthScore": 95,
+          "netIncomeScore": 35,
+          "priceActionScore": null,
+          "compositeSentimentScore": 64,
+          "compositeSentiment": "bullish"
+        }
+      },
+      "quarter": "Q3 2023",
+      "quarterInfo": {
+        "calendarQuarter": 3,
+        "calendarYear": 2023,
+        "fiscalQuarter": 3,
+        "fiscalYear": 2023,
+        "quarter": "Q3 2023",
+        "reportDate": "2023-10-31"
+      },
+      "analyzedSuccessfully": true
+    }
+  ],
   "totalFetched": 12,
-  "successfulAnalyses": 0,
-  "lastUpdated": "2026-08-05T17:33:58.470Z"
+  "successfulAnalyses": 6,
+  "lastUpdated": "2026-08-05T19:23:40.153Z"
 }
