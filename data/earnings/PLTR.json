@@ -37,27 +37,28 @@
           "Rest of world": 19
         },
         "capexAmount": 21.955,
-        "capexGrowth": 59,
+        "capexGrowth": 58.8,
         "partnerships": [
-          "Cloud services agreement amended in March 2026 with $5.6 billion commitment through February 2036"
+          "Cloud services agreement amended in March 2026 with $5.6 billion commitment through February 2036",
+          "Third-party cloud hosting services partnerships"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
           "OECD Base Erosion and Profit Shifting (BEPS) Pillar Two global minimum tax rules",
-          "Federal Acquisition Streamlining Act (FASA) impacts on government sales",
           "Data protection and privacy regulations",
           "Cybersecurity regulations",
-          "Artificial intelligence regulations"
+          "Artificial intelligence regulations",
+          "Federal Acquisition Streamlining Act (FASA) impacts on government sales"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered exceptional Q2 2026 results with 93% revenue growth to $1.9B and a net income of $1.1B, demonstrating strong pricing power and expanding customer relationships. The company achieved an 85% gross margin, grew its customer base to 1,049 (up from 849), and generated robust operating cash flow of $2.1B, signaling high-quality earnings and operational excellence. Management's confident tone around platform democratization, AIP adoption, and sustained government/commercial demand growth suggests bullish momentum ahead, though macro uncertainties and geopolitical risks merit monitoring.",
+        "summary": "Palantir delivered exceptional Q2 2026 results with 93% YoY revenue growth to $1.9B and net income of $1.1B, driven by strong demand across both government (52%) and commercial (48%) segments. The company demonstrated pricing power with 85% gross margins, healthy cash generation ($2.1B operating cash flow), and meaningful customer expansion to 1,049 customers with top-20 customers averaging $124M in revenue. Management maintains a confident tone on long-term growth prospects despite macro headwinds, with significant RTO commitments ($4.9B) and strategic AI platform investments positioning the company well for continued expansion.",
         "keyQuotes": [
-          "For the three months ended June 30, 2026, we generated $1.9 billion in revenue, reflecting a 93% growth rate from the three months ended June 30, 2025 when we generated $1.0 billion in revenue.",
+          "We believe that every institution faces challenges that our platforms and products were designed to address.",
           "Our average revenue for the top twenty customers during the trailing twelve months ended June 30, 2026 was $124 million, which grew 67% from an average of $75 million in revenue from the top twenty customers during the trailing twelve months ended June 30, 2025, demonstrating our expanding relationships with existing customers.",
-          "Revenue from our U.S. customers during the trailing twelve months ended June 30, 2026 was $4.8 billion, which grew 99% from the prior twelve-month period. We expect that U.S. customers will continue to be a source of significant revenue growth for us."
+          "In the six months ended June 30, 2026, we generated $3.6 billion in revenue, reflecting a 89% growth rate from the six months ended June 30, 2025 when we generated $1.9 billion in revenue."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -98,7 +99,7 @@
         "operatingCashFlow": 899.165,
         "freeCashFlow": 891.764,
         "daysalesOutstanding": null,
-        "deferredRevenue": 558,
+        "deferredRevenue": 516.868,
         "marketShareMention": null,
         "customerConcentration": 31,
         "geographicBreakdown": {
@@ -109,22 +110,22 @@
         "capexAmount": 7.401,
         "capexGrowth": 19.7,
         "partnerships": [
-          "Cloud services agreement with $5.6 billion commitment over 10 years (2026-2036)"
+          "Cloud services agreement amendment with minimum commitments of $5.6 billion over ten years through February 2036"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Securities class action litigation (Cupat case - dismissed with prejudice April 2025, appeal pending)",
-          "OECD Pillar Two global minimum tax rules (not material impact to date)"
+          "OECD Base Erosion and Profit Shifting (Pillar Two) global minimum tax provision at varying stages of adoption",
+          "Federal Acquisition Streamlining Act of 1994 (FASA) impacts on government market"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered exceptional Q1 2026 results with 85% YoY revenue growth to $1.63B and net income of $870.5M, demonstrating strong execution and market traction. The company achieved 87% gross margins (88% excluding stock-based comp) and 73% contribution margins, reflecting significant operational leverage and pricing power. Strong cash generation ($899M operating cash flow) and a $4.5B remaining performance obligations backlog provide solid visibility, though the 10-Q contains no forward guidance per standard SEC practice.",
+        "summary": "Palantir delivered exceptional Q1 2026 results with 85% YoY revenue growth to $1.63B and net income of $871M, demonstrating strong operational leverage with 87% gross margins and 73% contribution margins. The company expanded its customer base to 1,007 customers (31% growth YoY) while achieving impressive profitability, with operating cash flow of $899M and a $5.6B long-term cloud infrastructure commitment signaling confidence in growth trajectory. Both government (53% of revenue, +76% growth) and commercial segments (47% of revenue, +95% growth) showed robust expansion, with AIP (Artificial Intelligence Platform) deployment accelerating across both sectors.",
         "keyQuotes": [
           "For the three months ended March 31, 2026, we generated $1.6 billion in revenue, reflecting a 85% growth rate from the three months ended March 31, 2025",
           "Our average revenue for the top twenty customers during the trailing twelve months ended March 31, 2026 was $108 million, which grew 55% from an average of $70 million in revenue from the top twenty customers during the trailing twelve months ended March 31, 2025",
-          "The Company's remaining performance obligations were $4.5 billion as of March 31, 2026, of which the Company expects to recognize approximately 39% as revenue over the next 12 months"
+          "In the three months ended March 31, 2026, 53% of our revenue came from government customers and 47% came from commercial customers"
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -174,38 +175,41 @@
         "partnerships": [
           "SOMPO Holdings, Inc. (Japan joint venture)",
           "HD Hyundai Co. Ltd. (South Korea joint venture)",
-          "Global system integrators (channel sales relationships)"
+          "Global system integrators channel partnerships",
+          "AWS and Microsoft Azure infrastructure partnerships",
+          "U.S. Army (Tactical Intelligence Targeting Access Node contract)"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
           "GDPR compliance requirements",
-          "EU AI Act (EU AIA) implementation",
-          "NIS2 cybersecurity directive",
-          "Data Act (EU) compliance",
-          "CCPA and CPRA (California) with CPPA enforcement",
-          "State-level comprehensive consumer privacy laws (20+ states)",
-          "FCPA and anti-corruption laws",
-          "Export control (EAR/ITAR) compliance",
-          "U.S. sanctions and trade control regulations",
-          "Federal government shutdown impacts on contracting",
-          "Data privacy and security breach notification requirements"
+          "EU AI Act implementation",
+          "CCPA and CPRA privacy regulations",
+          "NIS2 cybersecurity requirements",
+          "DORA regulatory requirements",
+          "EU Data Act compliance",
+          "Export control regulations (EAR, ITAR)",
+          "U.S. sanctions regulations",
+          "FCPA anti-corruption compliance",
+          "EU AIA AI regulatory framework",
+          "Colorado AI consumer protection bill",
+          "State-level AI governance legislation"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
-        "overallSentiment": "bearish",
-        "summary": "Palantir reported FY2025 revenue of $3,640 million (full-year) with net income of $797 million, but the 10-K filing is predominantly risk-focused, containing extensive disclosure of regulatory, competitive, and operational headwinds. The company faces significant challenges from evolving AI regulation (EU AIA, state-level oversight), expanding privacy/data protection laws globally (GDPR, CCPA/CPRA, NIS2), reliance on government contracts vulnerable to budget cycles and political changes, and intense competition. Management emphasizes defensive positioning around culture, customer values alignment, and non-China operations rather than forward growth initiatives.",
+        "managementTone": "neutral",
+        "overallSentiment": "neutral",
+        "summary": "Palantir reported FY2025 full-year revenue of $3.64 billion and net income of $797 million. The company emphasized expansion into commercial markets and continued investment in AI capabilities through its AIP platform, while facing significant headwinds from regulatory complexity, geopolitical risks, and intense competition. Management tone is cautious regarding future growth amid macro uncertainty and regulatory challenges.",
         "keyQuotes": [
-          "We do not work with the Chinese communist party and have chosen not to host our platforms in China, which may limit our growth prospects.",
-          "If we are unable to modify or develop pricing models and strategies that are attractive to existing and prospective customers, while enabling us to significantly grow our sales and revenue relative to our associated costs and expenses in a reasonable period of time, our business, financial condition, and results of operations may be adversely impacted.",
-          "A significant portion of our business depends on sales to the public sector, and our failure to receive and maintain government contracts or changes in the contracting or fiscal policies of the public sector has adversely affected and could continue to adversely affect our business, results of operations, financial condition, and growth prospects."
+          "We have entered into, and expect in the future to enter into, agreements with our customers that include exclusivity arrangements or unique contractual, pricing, or payment terms, which may result in significant risks or liabilities to us.",
+          "Our success depends in part on our ability to protect proprietary methods and technologies that we develop under a combination of patent and other intellectual property and proprietary rights in the United States and other jurisdictions outside the United States.",
+          "AI is enabled by or integrated into some of our technology platforms and is a significant and growing element of our business."
         ],
         "marketData": {
-          "managementToneScore": 10,
+          "managementToneScore": 50,
           "revenueGrowthScore": 95,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 75,
+          "compositeSentimentScore": 84,
           "compositeSentiment": "bullish"
         }
       },
@@ -233,44 +237,39 @@
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "strong",
-        "headcountTrend": "stable",
+        "headcountTrend": "unknown",
         "revenue": 1181.092,
         "netIncome": 475.599,
         "operatingCashFlow": 1357.178,
         "freeCashFlow": 1336.568,
         "daysalesOutstanding": null,
-        "deferredRevenue": 316.722,
+        "deferredRevenue": 360.623,
         "marketShareMention": null,
         "customerConcentration": 27,
         "geographicBreakdown": {
-          "United States": 75,
-          "United Kingdom": 10,
-          "Rest of world": 15
+          "United_States": 75,
+          "United_Kingdom": 10,
+          "Rest_of_World": 15
         },
         "capexAmount": 20.61,
-        "capexGrowth": 116.02,
-        "partnerships": [
-          "Cloud hosting services agreements with major providers",
-          "Strategic investments and commercial contracts with various entities"
-        ],
-        "supplyChainStatus": "normal",
+        "capexGrowth": 116.1,
+        "partnerships": [],
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Global political and economic uncertainty",
+          "Federal Acquisition Streamlining Act of 1994 (FASA) impact on federal procurement",
+          "Tax law changes including OECD Pillar Two global minimum tax provisions",
           "Data protection and privacy regulations",
-          "Cybersecurity regulations",
-          "AI regulations and governance",
-          "Potential tariffs and trade impacts",
-          "OECD Pillar Two global minimum tax rules"
+          "AI regulatory developments"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q3 2025 results with 63% revenue growth to $1.18B and net income of $476M (40% margin), significantly outperforming prior year. The company demonstrated pricing power with gross margins of 82% and expanded its customer base to 911 (up from 629 YoY), with top 20 customers averaging $83M in trailing twelve-month revenue. Strong cash generation of $1.36B in operating cash flow and strategic investments in AI capabilities position the company well for continued growth, though no forward guidance was explicitly provided.",
+        "summary": "Palantir demonstrated exceptional Q3 2025 performance with 63% YoY revenue growth to $1.18B and 232% operating income growth to $393M, driven by strong demand across government (55%) and commercial (45%) segments. The company maintains exceptional profitability metrics with 82% gross margins, $1.36B operating cash flow, and expanded customer base from 629 to 911 customers, with top-20 customer revenue averaging $83M (up 38% YoY). Strong balance sheet positioning with $1.6B cash and $4.8B in marketable securities supports significant AI platform investments and growth initiatives.",
         "keyQuotes": [
-          "For the three months ended September 30, 2025, we generated $1.2 billion in revenue, reflecting a 63% growth rate",
-          "AIP uniquely allows users to connect LLMs and other AI with their data and operations to facilitate decision-making within the legal, ethical, and security constraints that they require",
-          "Our average revenue for the top twenty customers during the trailing twelve months ended September 30, 2025 was $83.0 million, which grew 38%"
+          "For the three months ended September 30, 2025, we generated $1.2 billion in revenue, reflecting a 63% growth rate from the three months ended September 30, 2024, when we generated $0.7 billion in revenue.",
+          "During the period ended September 30, 2025, we had 911 customers, including companies in various commercial sectors and government agencies around the world. During the period ended September 30, 2024, we had 629 customers.",
+          "Our average revenue for the top twenty customers during the trailing twelve months ended September 30, 2025 was $83.0 million, which grew 38% from an average of $60.1 million in revenue from the top twenty customers during the trailing twelve months ended September 30, 2024, demonstrating our expanding relationships with existing customers."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -311,38 +310,35 @@
         "operatingCashFlow": 849.514,
         "freeCashFlow": 835.696,
         "daysalesOutstanding": null,
-        "deferredRevenue": 421.422,
-        "marketShareMention": null,
+        "deferredRevenue": 376.784,
+        "marketShareMention": "Expanding customer base from 593 customers (Q2 2024) to 849 customers (Q2 2025), demonstrating market share gains through platform democratization and broader commercial penetration",
         "customerConcentration": 22,
         "geographicBreakdown": {
           "United States": 73,
-          "United Kingdom": 10,
-          "Rest of world": 17
+          "United_Kingdom": 10,
+          "Rest_of_world": 17
         },
         "capexAmount": 13.818,
-        "capexGrowth": 149.2,
+        "capexGrowth": 149.4,
         "partnerships": [
-          "Cloud services agreements with third-party providers",
-          "Strategic Commercial Contracts with various entities"
+          "Strategic cloud services agreement with minimum $1.95 billion commitment through September 30, 2033",
+          "Investment partnerships and strategic commercial contracts with various publicly-traded and privately-held entities"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Taxation and privacy regulations",
-          "Data protection and cybersecurity regulations",
-          "Artificial intelligence regulatory developments",
-          "Federal Acquisition Streamlining Act (FASA) impacts",
-          "OECD global minimum tax provision (Pillar 2) adoption",
-          "Potential tariffs and trade relation impacts"
+          "OECD Pillar 2 global minimum tax adoption across multiple jurisdictions",
+          "Federal Acquisition Streamlining Act (FASA) impact on government procurement",
+          "Evolving AI regulation and data protection requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir demonstrated robust Q2 2025 performance with $1.0B in quarterly revenue (+48% YoY) and $326.7M net income, maintaining strong 81% gross margins and generating healthy operating cash flow of $849.5M. The company expanded its customer base to 849 accounts (from 593 in Q2 2024) with top-20 customers averaging $74.7M revenue (+30% YoY), signaling strong pricing power and deepening customer relationships. Management maintains a confident tone on AI monetization (AIP platform) and platform accessibility expansion, though forward guidance remains absent from this 10-Q filing.",
+        "summary": "Palantir delivered strong Q2 2025 results with 48% YoY revenue growth to $1.0B and dramatic profitability expansion, achieving $327M net income (vs. $134M in Q2 2024) while expanding customer base 43% to 849 customers. The company demonstrates exceptional operating leverage with 81% gross margins and meaningful positive free cash flow generation ($836M H1 2025), supported by robust customer expansion metrics including 55% government and 45% commercial revenue mix with U.S. representing 73% of Q2 revenue.",
         "keyQuotes": [
           "For the three months ended June 30, 2025, we generated $1.0 billion in revenue, reflecting a 48% growth rate from the three months ended June 30, 2024",
-          "Our average revenue for the top twenty customers during the trailing twelve months ended June 30, 2025 was $74.7 million, which grew 30% from an average of $57.3 million",
-          "In the six months ended June 30, 2025, 55% of our revenue came from government customers and 45% came from commercial customers"
+          "Our average revenue for the top twenty customers during the trailing twelve months ended June 30, 2025 was $74.7 million, which grew 30% from an average of $57.3 million in revenue from the top twenty customers during the trailing twelve months ended June 30, 2024, demonstrating our expanding relationships with existing customers",
+          "Revenue from our U.S. customers during the trailing twelve months ended June 30, 2025 was $2.4 billion, which grew 55% from the prior twelve-month period"
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -383,8 +379,8 @@
         "operatingCashFlow": 310.263,
         "freeCashFlow": 304.079,
         "daysalesOutstanding": null,
-        "deferredRevenue": 318.556,
-        "marketShareMention": "Expanding reach among increasingly broad set of customers in commercial and government sectors",
+        "deferredRevenue": 354.928,
+        "marketShareMention": null,
         "customerConcentration": 23,
         "geographicBreakdown": {
           "United States": 71,
@@ -392,28 +388,25 @@
           "Rest of world": 19
         },
         "capexAmount": 6.184,
-        "capexGrowth": null,
+        "capexGrowth": 132.1,
         "partnerships": [
           "Strategic Commercial Contracts with various entities",
-          "Cloud services agreements with $1.95B commitment through September 2033",
-          "Third-party cloud hosting services partnerships"
+          "Cloud services partnership with minimum commitment of $1.95 billion over ten years through September 2033"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Securities litigation matters (Cupat v. Palantir dismissed with prejudice April 2025)",
-          "Stockholder derivative actions pending",
-          "OECD Pillar 2 global minimum tax provisions adoption across jurisdictions",
-          "Federal Acquisition Streamlining Act (FASA) impacts on government contracting"
+          "OECD Pillar 2 global minimum tax adoption across jurisdictions",
+          "Federal Acquisition Streamlining Act (FASA) expectations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q1 2025 results with 39% YoY revenue growth to $883.9M and net income of $214.0M, demonstrating robust demand for its software platforms. The company expanded its customer base from 554 to 769 customers and achieved 80% gross margins (82% excluding SBC), with particularly strong growth in U.S. commercial and government segments. High-quality earnings are evidenced by strong operating cash flow ($310.3M) and expanding customer relationships, with top 20 customers averaging $69.9M in trailing twelve-month revenue.",
+        "summary": "Palantir delivered strong Q1 2025 results with 39% revenue growth to $883.9M and net income of $217.7M, demonstrating excellent operational leverage with gross margin of 80% and 61% contribution margin. The company expanded its customer base to 769 accounts (up from 554 YoY) with diversified growth across government (55% of revenue) and commercial (45%) segments, while maintaining significant pricing power evidenced by top 20 customer average revenue growth of 26% year-over-year.",
         "keyQuotes": [
-          "In the three months ended March 31, 2025, we generated $883.9 million in revenue, reflecting a 39% growth rate from the three months ended March 31, 2024, when we generated $634.3 million in revenue.",
-          "Our average revenue for the top twenty customers during the trailing twelve months ended March 31, 2025 was $69.9 million, which grew 26% from an average of $55.5 million in revenue from the top twenty customers during the trailing twelve months ended March 31, 2024.",
-          "In the three months ended March 31, 2025, our gross profit was $710.9 million, reflecting a gross margin of 80%, or 82% when excluding stock-based compensation."
+          "For the three months ended March 31, 2025, we generated $883.9 million in revenue, reflecting a 39% growth rate from the three months ended March 31, 2024",
+          "In the three months ended March 31, 2025, our gross profit was $710.9 million, reflecting a gross margin of 80%, or 82% when excluding stock-based compensation",
+          "During the period ended March 31, 2025, we had 769 customers, including companies in various commercial sectors and government agencies around the world"
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -451,42 +444,40 @@
         "headcountTrend": "expanding",
         "revenue": 827.5190000000002,
         "netIncome": 79.00899999999996,
-        "operatingCashFlow": 1183,
-        "freeCashFlow": 1070,
+        "operatingCashFlow": 590,
+        "freeCashFlow": 429,
         "daysalesOutstanding": null,
-        "deferredRevenue": null,
+        "deferredRevenue": 2341,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": null,
-        "capexAmount": 113,
+        "capexAmount": 161,
         "capexGrowth": null,
         "partnerships": [
-          "SOMPO Holdings Inc. (Japan joint venture)",
+          "SOMPO Holdings, Inc. (Japan joint venture)",
           "HD Hyundai Co. Ltd. (South Korea joint venture)",
-          "Channel sales relationships with global system integrators",
-          "AWS and Microsoft Azure cloud infrastructure partnerships"
+          "Global system integrators channel relationships",
+          "AWS and Microsoft Azure cloud infrastructure partners"
         ],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "EU AI Act compliance obligations",
-          "Colorado AI consumer protection law",
-          "GDPR data protection regulations",
-          "CCPA and CPRA California privacy laws",
-          "Multiple state privacy laws (Connecticut, Virginia, Colorado, Utah, Florida, Montana, Oregon, Texas, Tennessee, Iowa, Delaware, New Hampshire, New Jersey, Maryland, Minnesota, Nebraska, Indiana, Kentucky, Rhode Island)",
-          "Export controls (EAR, ITAR)",
-          "Economic sanctions and trade restrictions",
-          "International data transfer restrictions",
-          "AI regulation and oversight"
+          "EU AI Act (EU AIA) compliance requirements",
+          "Colorado Consumer Protections for Artificial Intelligence regulations",
+          "GDPR and international data protection regulations",
+          "Export controls (EAR, ITAR) limiting market access",
+          "U.S. and foreign government sanctions and trade restrictions",
+          "State-level privacy legislation (CCPA, CPRA, VCCPA, etc.)",
+          "AI regulation evolution across jurisdictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Palantir Technologies reported full-year 2024 revenue of $3,644 million and net income of $1,156 million, demonstrating profitability. The company is expanding its commercial customer base beyond its traditional government focus, investing significantly in AI capabilities (AIP platform), and maintaining a growing headcount despite acknowledging talent competition challenges. However, the earnings report is dominated by risk disclosures around regulatory complexity, geopolitical uncertainties, cybersecurity threats, competitive pressures, and operational challenges in scaling globally—reflecting a company navigating substantial business complexity rather than demonstrating strong forward momentum.",
+        "summary": "Palantir reported full-year 2024 revenue of $2,226 million and net income of $297 million, with strong operating cash flow of $590 million. The company is expanding internationally through joint ventures in Asia and pursuing commercial market growth, particularly in AI-enabled platforms. However, the extensive risk factor disclosures reflect significant headwinds including regulatory challenges around AI governance, data privacy, export controls, and government contracting dynamics.",
         "keyQuotes": [
           "We do not work with the Chinese communist party and have chosen not to host our platforms in China, which may limit our growth prospects.",
-          "Our culture emphasizes rapid innovation and advancement of successful hires who may in some cases have limited prior industry expertise and prioritizes customer outcomes over short-term financial results.",
-          "We have in the past changed, and we expect that in the future we may change, our pricing models, including as a result of competition, global economic conditions, general reductions in our customers' spending levels."
+          "Our success depends on our ability to effectively source and staff people with the right mix of skills and experience to perform services for our customers, including our ability to transition personnel to new assignments on a timely basis.",
+          "Issues raised by the use of AI (including machine learning, large language and other generative AI models, and software functionality to operationalize the foregoing) in our platforms and business may result in reputational harm or liability."
         ],
         "marketData": {
           "managementToneScore": 30,
@@ -536,28 +527,25 @@
           "Rest of world": 21
         },
         "capexAmount": 9.528,
-        "capexGrowth": -7.07,
+        "capexGrowth": -7.08,
         "partnerships": [
-          "Cloud hosting services agreement with $1.95 billion commitment through September 2033"
+          "Cloud hosting services agreement with $1.95 billion commitment over 10 years"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "FASA (Federal Acquisition Streamlining Act of 1994) impacts",
-          "Data privacy and data protection regulations",
-          "Export and trade controls",
-          "AI regulations and compliance requirements",
-          "Antitrust/competition law requirements",
-          "Cybersecurity requirements"
+          "Securities class action litigation (Cupat matter)",
+          "Stockholder derivative actions",
+          "FASA (Federal Acquisition Streamlining Act) compliance"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q3 2024 results with 30% YoY revenue growth to $725.5M and net income of $143.5M, demonstrating improved operational leverage and profitability. The company is expanding headcount, investing heavily in AI capabilities through its AIP platform, and maintaining strong pricing power across both government and commercial segments. Cash generation remains robust with $693.5M operating cash flow in nine months, though the company provides no explicit forward guidance in this 10-Q filing.",
+        "summary": "Palantir delivered strong Q3 2024 results with 30% YoY revenue growth to $725.5M and net income of $143.5M, demonstrating solid operational leverage and cash generation. The company maintains significant government and commercial revenue streams (56%/44% split), strong gross margins (79.8%), and positive operating cash flow of $693.5M. Management exhibits confidence through continued investment in AI capabilities (AIP platform), strategic cloud partnerships, and modest share buyback activity, though 10-Q filings contain no explicit forward guidance.",
         "keyQuotes": [
-          "We build software that empowers organizations to effectively integrate their data, decisions, and operations at scale.",
-          "AIP is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence via the combination of our existing software platforms with generative AI models, including LLMs.",
-          "For the three months ended September 30, 2024, we generated $725.5 million in revenue, reflecting a 30% growth rate from the three months ended September 30, 2023."
+          "For the three months ended September 30, 2024, we generated $725.5 million in revenue, reflecting a 30% growth rate from the three months ended September 30, 2023",
+          "In the three months ended September 30, 2024, we generated income from operations of $113.1 million, or adjusted income from operations of $275.5 million when excluding stock-based compensation and related employer payroll taxes",
+          "Our remaining performance obligations were $1.6 billion as of September 30, 2024, of which the Company expects to recognize approximately 46% as revenue over the next 12 months"
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -602,31 +590,33 @@
         "marketShareMention": null,
         "customerConcentration": 32,
         "geographicBreakdown": {
-          "United States": 64,
-          "United Kingdom": 11,
-          "Rest of world": 25
+          "united_states": 64,
+          "united_kingdom": 11,
+          "rest_of_world": 25
         },
         "capexAmount": 5.543,
-        "capexGrowth": -36.15,
+        "capexGrowth": -36.14,
         "partnerships": [
-          "Cloud hosting services agreement with $1.95 billion commitment through September 2033"
+          "Strategic Commercial Contracts with various entities including SPACs and privately-held companies",
+          "Cloud hosting services agreement commitment of $1.95 billion over ten years through September 2033"
         ],
-        "supplyChainStatus": "unknown",
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Litigation related to securities claims",
+          "Securities litigation related to alleged false and misleading statements about business and prospects",
+          "Stockholder derivative actions asserting breach of fiduciary duty",
+          "Potential AI regulation and compliance requirements",
           "Data privacy and protection regulations",
-          "Export and trade controls",
-          "AI regulation and compliance requirements"
+          "Export and trade control compliance requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q2 2024 results with 27% YoY revenue growth to $678M and net income of $134M, demonstrating improved profitability and operational leverage. The company added 172 net new customers (593 total vs. 421 YoY) with strong government and commercial segment growth, while maintaining 81% gross margins and generating $274M in operating cash flow. Management's confident tone on AI platform adoption (AIP) and $1.4B remaining performance obligations suggest solid forward momentum, though the 10-Q provides no explicit forward guidance.",
+        "summary": "Palantir delivered strong Q2 2024 results with 27% YoY revenue growth to $678.1M and a return to profitability with $134.1M net income, significantly outpacing prior year's $28.1M. The company demonstrated robust gross margins of 81% (83% ex-SBC), customer expansion to 593 customers (+41% YoY), and improved operational leverage with $105.3M operating income versus $10.1M in Q2 2023. Cash generation remains healthy with $273.8M operating cash flow in H1 2024.",
         "keyQuotes": [
-          "For the three months ended June 30, 2024, we generated $678.1 million in revenue, reflecting a 27% growth rate",
-          "In the three months ended June 30, 2024, our gross profit was $549.6 million, reflecting a gross margin of 81%, or 83% when excluding stock-based compensation",
-          "The Company's remaining performance obligations were $1.4 billion as of June 30, 2024, of which the Company expects to recognize approximately 50% as revenue over the next 12 months"
+          "For the three months ended June 30, 2024, we generated $678.1 million in revenue, reflecting a 27% growth rate from the three months ended June 30, 2023 when we generated $533.3 million in revenue.",
+          "In the three months ended June 30, 2024, we generated income from operations of $105.3 million, or adjusted income from operations of $253.6 million when excluding stock-based compensation and related employer payroll taxes.",
+          "During the period ended June 30, 2024, we had 593 customers, including companies in various commercial sectors and government agencies around the world. During the period ended June 30, 2023, we had 421 customers."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -672,33 +662,33 @@
         "customerConcentration": 22,
         "geographicBreakdown": {
           "United States": 64,
-          "Rest of world": 36
+          "Rest of World": 36
         },
         "capexAmount": 2.664,
         "capexGrowth": -43.9,
         "partnerships": [
           "Strategic partnership with Israeli Defense Ministry",
-          "Partnerships with Ukraine for defense and reconstruction efforts",
+          "Partnerships with Ukraine for defense and reconstruction",
           "Cloud hosting services agreement with $1.95 billion commitment through September 2033"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Federal Acquisition Streamlining Act (FASA) impacts on government sales",
-          "Export and trade control requirements",
-          "Data privacy and data protection regulations",
+          "Export and trade controls",
+          "Data privacy and protection regulations",
           "Cybersecurity requirements",
           "Antitrust/competition law requirements",
-          "Anti-corruption requirements"
+          "Anti-corruption requirements",
+          "Artificial intelligence regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir demonstrated strong Q1 2024 performance with 21% YoY revenue growth to $634.3M and a significant profitability improvement, generating $105.5M in net income (vs. $16.8M prior year). The company expanded its customer base to 554 customers (from 391 in Q1 2023) while maintaining strong pricing power, with gross margins of 82%, and improved cash generation despite capital constraints from recent wars and geopolitical investments.",
+        "summary": "Palantir delivered strong Q1 2024 results with 21% YoY revenue growth to $634.3M and net income of $105.5M, marking significant profitability improvement with 82% gross margins. The company expanded its customer base to 554 customers (up from 391 YoY) with growing commercial segment traction (47% of revenue) and accelerating AIP adoption as a strategic growth driver. Management demonstrates confidence in market expansion while maintaining prudent capital allocation with minimal capex and disciplined cash management.",
         "keyQuotes": [
           "For the three months ended March 31, 2024, we generated $634.3 million in revenue, reflecting a 21% growth rate from the three months ended March 31, 2023",
           "Our average revenue for the top twenty customers during the trailing twelve months ended March 31, 2024 was $55.5 million, which grew 9% from an average of $50.9 million in revenue from the top twenty customers during the trailing twelve months ended March 31, 2023",
-          "In the three months ended March 31, 2024, our gross profit was $518.1 million, reflecting a gross margin of 82%, or 83% when excluding stock-based compensation"
+          "During the period ended March 31, 2024, we had 554 customers, including companies in various commercial sectors and government agencies around the world. During the period ended March 31, 2023, we had 391 customers."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -732,7 +722,7 @@
         "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "stable",
         "revenue": 558.159,
         "netIncome": 71.505,
@@ -740,7 +730,7 @@
         "freeCashFlow": 400.757,
         "daysalesOutstanding": null,
         "deferredRevenue": 258.387,
-        "marketShareMention": "We anticipate that our reach among an increasingly broad set of customers, in both the commercial and government sectors, will accelerate moving forward.",
+        "marketShareMention": "Expanding customer base from 337 to 453 customers YoY; top 20 customers average revenue grew 13% YoY to $53.7M",
         "customerConcentration": 34,
         "geographicBreakdown": {
           "United States": 62,
@@ -750,27 +740,28 @@
         "capexAmount": 10.254,
         "capexGrowth": -70.8,
         "partnerships": [
-          "Cloud hosting services agreement with $1.95 billion commitment over ten years through September 2033",
-          "Strategic Commercial Contracts with total value of $392.1 million as of September 30, 2023",
-          "Investments in complementary businesses and equity method investment partners"
+          "Cloud hosting services agreement amendment with $1.95 billion commitment over 10 years through September 2033",
+          "Strategic Commercial Contracts valued at $392.1 million with investment partners",
+          "Multiple equity investments in complementary businesses and technologies"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Federal Acquisition Streamlining Act of 1994 (FASA) impacts",
-          "Tax, privacy, data protection, cybersecurity regulations",
-          "Artificial intelligence regulatory developments",
+          "Data privacy and data protection regulations",
+          "Cybersecurity requirements",
           "Export and trade controls",
-          "Antitrust/competition law requirements"
+          "Anti-corruption requirements",
+          "Antitrust/competition law requirements",
+          "Artificial intelligence regulatory developments"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "confident",
         "overallSentiment": "bullish",
-        "summary": "Palantir delivered strong Q3 2023 results with $558.2M in revenue (17% YoY growth) and returned to profitability with $71.5M net income, demonstrating operational improvement and strong unit economics. The company expanded its customer base to 453 customers (up from 337), with government revenue at 56% and commercial at 44%, while maintaining an 81% gross margin. Management appears confident in long-term growth driven by platform expansion, AI investments through the AIP offering, and scaling existing customer relationships, evidenced by top-20 customer average revenue growing 13% YoY to $53.7M.",
+        "summary": "Palantir delivered strong Q3 2023 results with 17% YoY revenue growth to $558.2M and returned to profitability with $71.5M net income, compared to a $123.9M loss in Q3 2022. Customer count grew 34% YoY to 453 customers with expanding top-tier relationships, and the company maintained strong 81% gross margins while achieving positive operating cash flow of $411M. Strategic investments in AI capabilities and a significant long-term cloud infrastructure commitment demonstrate confidence in future growth opportunities.",
         "keyQuotes": [
-          "We believe that every institution faces challenges that our platforms and products were designed to address.",
+          "During the period ended September 30, 2023, we had 453 customers, including companies in various commercial sectors and government agencies around the world. During the period ended September 30, 2022, we had 337 customers.",
           "Our average revenue for the top twenty customers during the trailing twelve months ended September 30, 2023 was $53.7 million, which grew 13% from an average of $47.7 million in revenue from the top twenty customers during the trailing twelve months ended September 30, 2022, demonstrating our expanding relationships with existing customers.",
-          "AIP is designed for customers across the commercial and government sectors, enabling them to derive value from recent breakthroughs in artificial intelligence via the combination of our existing software platforms with large language models."
+          "We have deployed our newest offering, the Artificial Intelligence Platform ('AIP'), to select customers, and we are continuing to onboard additional customers to AIP while we develop and release new features and components."
         ],
         "marketData": {
           "managementToneScore": 90,
@@ -795,5 +786,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-08-05T19:01:53.489Z"
+  "lastUpdated": "2026-08-16T03:40:23.068Z"
 }
