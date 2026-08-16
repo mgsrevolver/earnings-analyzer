@@ -21,10 +21,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "moderate",
+        "pricingPower": "strong",
         "headcountTrend": "expanding",
         "revenue": 109417,
         "netIncome": 29789,
@@ -32,7 +32,7 @@
         "freeCashFlow": 110197,
         "daysalesOutstanding": null,
         "deferredRevenue": 14900,
-        "marketShareMention": "Company has minority market share in global smartphone, personal computer, tablet and wearables markets",
+        "marketShareMention": null,
         "customerConcentration": 18,
         "geographicBreakdown": {
           "Americas": 41.9,
@@ -44,36 +44,34 @@
         "capexAmount": 6799,
         "capexGrowth": -28.2,
         "partnerships": [
-          "Google licensing arrangements for search services",
-          "Third-party cloud service providers for computing resources"
+          "Google licensing arrangement for search services"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "European Commission Digital Markets Act investigations and €500M fine",
-          "U.S. Department of Justice antitrust lawsuit regarding smartphone monopolization",
+          "EU Digital Markets Act (DMA) investigations and €500M fine imposed April 2025",
+          "DOJ antitrust lawsuit filed March 2024 alleging smartphone monopolization",
           "Epic Games litigation regarding App Store practices",
           "Section 232 semiconductor tariff investigation",
-          "Section 301 tariffs on China imports",
+          "Section 301 tariffs on imports",
           "Data localization requirements in China",
-          "Online safety and age verification requirements",
-          "EU Digital Markets Act interoperability obligations"
+          "Online safety and age verification regulations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered Q3 2026 revenue of $109.4B (16% YoY growth) with net income of $29.8B (27% YoY growth), driven by strong iPhone (+22%) and Mac (+29%) sales across all geographic segments. However, management tone is notably defensive due to significant supply chain headwinds (advanced semiconductors, NAND, DRAM constraints expected to intensify), substantial R&D investments in AI infrastructure (+32% YoY), and mounting regulatory pressures including DMA fines, antitrust litigation, and tariff uncertainty that could materially impact margins and business operations.",
+        "summary": "Apple delivered strong Q3 2026 results with 16% revenue growth to $109.4B and 27% net income growth to $29.8B, driven by iPhone Pro sales strength and services growth. However, management's tone remains cautious due to intensifying supply constraints, rising component costs (semiconductors, NAND, DRAM), significant regulatory headwinds (DMA, antitrust lawsuits, tariffs), and expected margin pressures. The company is aggressively investing in AI infrastructure while managing complex geopolitical and regulatory challenges.",
         "keyQuotes": [
           "The Company is experiencing a period of supply constraints and increasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced semiconductors, storage (NAND) and memory (DRAM). The Company expects these trends to intensify, which may materially negatively impact the Company's revenue, costs, gross margin, results of operations and financial condition.",
           "Research and development expense increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher infrastructure-related costs, including investments in artificial intelligence, and headcount-related expenses.",
-          "If the Company is unable to obtain adequate compute capacity in a timely manner or at commercially reasonable rates, this can limit the functionality and availability of its products and services, delay the deployment of new features or offerings, or cause the Company to incur significantly higher costs to operate its business."
+          "Demand for cloud computing and artificial intelligence infrastructure has increased substantially across the technology industry, resulting in constrained supply, extended lead times, and increasing costs."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 90,
           "priceActionScore": null,
-          "compositeSentimentScore": 70,
+          "compositeSentimentScore": 75,
           "compositeSentiment": "bullish"
         }
       },
@@ -113,35 +111,34 @@
         "geographicBreakdown": {
           "Americas": 40.6,
           "Europe": 25.2,
-          "Greater_China": 18.4,
+          "GreaterChina": 18.4,
           "Japan": 7.6,
-          "Rest_of_Asia_Pacific": 8.2
+          "RestOfAsiaPacific": 8.2
         },
         "capexAmount": 4344,
         "capexGrowth": -27.7,
         "partnerships": [
-          "Google licensing arrangement for search services"
+          "Google licensing arrangements for search services on Apple platforms"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act (DMA) investigations and €500M fine",
-          "DOJ antitrust lawsuit alleging smartphone market monopolization",
-          "Epic Games lawsuit regarding App Store practices",
-          "Multiple U.S. state antitrust actions",
-          "Section 232 semiconductor tariff investigation",
-          "U.S. tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam, EU",
-          "Data localization requirements in China",
-          "Online safety and minor protection regulations"
+          "EU Digital Markets Act investigations and €500M fine (April 2025)",
+          "DOJ antitrust lawsuit regarding smartphone market monopolization",
+          "Epic Games litigation and court orders restricting App Store commission structure",
+          "EU DMA Article 6(4) Investigation with preliminary findings issued",
+          "Tariffs on imports including from China, India, Japan, South Korea, Taiwan, Vietnam, and EU",
+          "U.S. Section 232 semiconductor investigation",
+          "China data localization and processing requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered strong Q2 2026 results with revenue of $111.2B (+17% YoY) and net income of $29.6B (+19% YoY), driven by robust iPhone sales (+22%) and Services growth (+16%). However, the company faces significant macroeconomic headwinds including supply constraints, rising component costs, widespread tariffs, and intense regulatory scrutiny globally. Management's tone remains cautious despite solid execution, emphasizing downward pressure on gross margins and uncertain tariff impacts.",
+        "summary": "Apple delivered strong Q2 2026 results with 17% revenue growth to $111.2B and net income up 19% to $29.6B, driven by iPhone strength (22% growth) and Services growth (16%). However, the company faces significant regulatory headwinds including the EU DMA fine, DOJ antitrust litigation, and court-ordered restrictions on App Store commissions, alongside macroeconomic pressures from tariffs, supply constraints, and rising component costs that management explicitly expects to intensify.",
         "keyQuotes": [
-          "The Company is experiencing a period of supply constraints and increasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced semiconductors, storage (NAND) and memory (DRAM). The Company expects these trends to intensify.",
-          "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
-          "The Company believes, in general, gross margins will be subject to volatility and downward pressure."
+          "The Company is experiencing a period of supply constraints and increasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced semiconductors, storage (NAND) and memory (DRAM). The Company expects these trends to intensify, which, together with actions that may be taken by the Company in response to such trends, may materially adversely affect demand for the Company's products and negatively impact the Company's revenue, costs, gross margin, results of operations and financial condition.",
+          "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain and will depend on several factors.",
+          "On April 30, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store."
         ],
         "marketData": {
           "managementToneScore": 30,
@@ -187,9 +184,9 @@
         "customerConcentration": 25,
         "geographicBreakdown": {
           "Americas": 40.7,
-          "Europe": 26.6,
+          "Europe": 26.5,
           "GreaterChina": 17.8,
-          "Japan": 6.6,
+          "Japan": 6.5,
           "RestOfAsiaPacific": 8.5
         },
         "capexAmount": 2373,
@@ -197,27 +194,27 @@
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act Article 5(4) Investigation - €500 million fine imposed April 2025",
-          "EU Digital Markets Act Article 6(4) Investigation - preliminary findings issued April 2025, potential fines up to 10% of annual worldwide net sales",
-          "DOJ antitrust lawsuit filed March 2024 regarding smartphone market monopolization",
-          "Epic Games litigation regarding App Store practices - Ninth Circuit Court upheld injunction in part December 2025"
+          "EU Digital Markets Act investigation and €500M fine imposed in April 2025",
+          "DOJ antitrust lawsuit regarding smartphone market monopolization",
+          "Epic Games App Store lawsuit with recent Ninth Circuit Court ruling requiring modifications",
+          "Potential tariffs on semiconductor products and derivatives under Section 232 investigation"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
-        "overallSentiment": "bullish",
-        "summary": "Apple delivered strong Q1 FY2026 results with 16% revenue growth to $143.8B and 16% net income growth to $42.1B, driven by 23% iPhone growth and broad geographic strength, particularly in Greater China (+38%). Operating cash flow of $53.9B demonstrates robust cash generation; however, significant regulatory headwinds including EU DMA fines and ongoing DOJ antitrust litigation create uncertainty ahead.",
+        "overallSentiment": "neutral",
+        "summary": "Apple delivered strong Q1 FY2026 results with revenue of $143.8B (+16% YoY) and net income of $42.1B (+16% YoY), driven primarily by iPhone sales growth of 23% and Services growth of 14%. However, management is cautious about macroeconomic headwinds, tariff impacts, and significant regulatory challenges including DMA fines, DOJ antitrust litigation, and Epic Games rulings that could affect App Store economics. Operating cash flow remained robust at $53.9B, though capital expenditures declined 19% YoY, reflecting near-term uncertainty.",
         "keyQuotes": [
-          "R&D expense growth during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in infrastructure-related costs, headcount-related expenses and engineering program costs.",
           "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
-          "Products gross margin and gross margin percentage increased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to a different mix of products, partially offset by tariff costs."
+          "The growth in research and development expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in infrastructure-related costs, headcount-related expenses and engineering program costs.",
+          "The Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 76,
           "netIncomeScore": 75,
           "priceActionScore": null,
-          "compositeSentimentScore": 74,
+          "compositeSentimentScore": 70,
           "compositeSentiment": "bullish"
         }
       },
@@ -257,35 +254,35 @@
         "geographicBreakdown": {
           "Americas": 42.8,
           "Europe": 26.7,
-          "GreaterChina": 15.5,
+          "Greater_China": 15.5,
           "Japan": 6.9,
-          "RestOfAsiaPacific": 8.1
+          "Rest_of_Asia_Pacific": 8.1
         },
         "capexAmount": 12715,
         "capexGrowth": 34.6,
         "partnerships": [
-          "Google (search services licensing arrangements)",
-          "Cellular network carriers distribution",
-          "Manufacturing partners in China, India, Japan, South Korea, Taiwan, Vietnam"
+          "Google licensing arrangement for search services",
+          "Cellular network carriers and resellers for product distribution"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act (DMA) investigation and €500M fine",
-          "DOJ antitrust lawsuit regarding smartphone monopolization",
-          "Epic Games App Store litigation",
-          "Section 232 investigation on semiconductor imports",
-          "New U.S. tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam, EU",
-          "Reciprocal tariffs from multiple countries in response to U.S. tariffs"
+          "EU Digital Markets Act (DMA) compliance and €500 million fine",
+          "DOJ antitrust lawsuit regarding smartphone markets",
+          "Epic Games lawsuit regarding App Store practices",
+          "U.S. tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam, EU",
+          "Section 232 investigation into semiconductor imports",
+          "App Store regulatory investigations in multiple jurisdictions",
+          "Google antitrust finding impacting search licensing revenue"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered full-year FY2025 revenue of $416.2B (+6% YoY) and net income of $112.0B (+19% YoY), with strong Services growth (+14%) offsetting flat iPhone growth. However, the company faces significant macro headwinds including new U.S. tariffs, EU regulatory pressure (€500M DMA fine), DOJ antitrust litigation, and ongoing supply chain concentration risks. Capital expenditure surged 35% to $12.7B, signaling AI infrastructure investments, yet management maintains a cautious outlook given geopolitical tensions, pricing pressure, and regulatory uncertainty.",
+        "summary": "Apple reported FY2025 revenue of $416.2B (+6% YoY) and net income of $112.0B (+19% YoY), with strong Services growth (+14%) and improved gross margins (46.9%). However, the company faces significant macro headwinds including new U.S. tariffs, intense regulatory scrutiny from the EU (€500M DMA fine) and DOJ antitrust litigation, Greater China weakness (-4% YoY), and ongoing supply chain concentration risks. Management maintains a defensive posture, emphasizing risk factors over forward opportunities.",
         "keyQuotes": [
-          "Beginning in the second quarter of 2025, new tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the European Union. The ultimate impact remains uncertain and will depend on several factors.",
-          "The Company believes its balances of cash, cash equivalents and marketable securities, which totaled $132.4 billion as of September 27, 2025, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
-          "On April 23, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store."
+          "New tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
+          "The Company's minority market share in the global smartphone, personal computer, tablet and wearables markets can make developers less inclined to develop or upgrade software for the Company's products.",
+          "If disputes and conflicts further escalate, actions by governments in response could be significantly more severe and restrictive."
         ],
         "marketData": {
           "managementToneScore": 30,
@@ -341,19 +338,19 @@
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act investigations and €500M fine (April 2025)",
-          "DOJ antitrust lawsuit regarding smartphone markets (filed March 2024)",
-          "Epic Games injunction regarding App Store alternative payment mechanisms",
-          "Potential tariffs on imports including semiconductors and downstream products"
+          "EU Digital Markets Act investigation - €500 million fine issued April 2025",
+          "DOJ antitrust lawsuit filed March 2024 regarding smartphone monopolization",
+          "Epic Games injunction violations - April 2025 court finding",
+          "Section 232 investigation on semiconductor imports initiated by U.S. Department of Commerce"
         ],
-        "aiInvestmentMentioned": true,
+        "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered Q3 2025 revenue of $94.0B (+10% YoY) and net income of $23.4B (+9% YoY), driven by strong iPhone (+13%) and Services (+13%) growth, offset by weakness in iPad and Wearables. Operating cash flow of $81.8B reflects solid underlying business quality, though the company faces significant regulatory headwinds from EU DMA investigations, DOJ antitrust litigation, and emerging tariff uncertainties that could pressure future margins.",
+        "summary": "Apple delivered Q3 2025 revenue of $94.0B (+10% YoY) and net income of $23.4B (+9% YoY), driven by strong iPhone sales (+13%) and Services growth (+13%), though Greater China remains challenged (-4% YTD). Management faces significant headwinds from EU regulatory fines, U.S. tariffs, and antitrust litigation that could impact margins and operations, though the company maintains strong cash generation with $81.8B operating cash flow YTD.",
         "keyQuotes": [
-          "Products gross margin percentage decreased during the third quarter of 2025 compared to the third quarter of 2024 due primarily to tariffs and a different mix of products, partially offset by favorable costs.",
           "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
+          "Products gross margin percentage decreased during the third quarter of 2025 compared to the third quarter of 2024 due primarily to tariffs and a different mix of products, partially offset by favorable costs.",
           "The Company believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond."
         ],
         "marketData": {
@@ -401,41 +398,38 @@
         "geographicBreakdown": {
           "Americas": 42.3,
           "Europe": 25.6,
-          "GreaterChina": 16.8,
+          "Greater_China": 16.8,
           "Japan": 7.7,
-          "RestOfAsiaPacific": 7.6
+          "Rest_of_Asia_Pacific": 7.6
         },
         "capexAmount": 6011,
         "capexGrowth": 37,
         "partnerships": [],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act investigations and €500M fine imposed April 23, 2025",
-          "DMA Article 5(4) Investigation resulting in cease and desist order",
-          "DMA Article 6(4) Investigation pending final determination with potential fines up to 10% of annual worldwide net sales",
-          "DOJ antitrust lawsuit filed March 21, 2024 alleging smartphone market monopolization",
-          "Epic Games litigation - California District Court found violation of 2021 Injunction on April 30, 2025",
-          "Multiple state and federal antitrust lawsuits pending",
-          "U.S. tariffs announced on imports from China, India, Japan, South Korea, Taiwan, Vietnam, and EU",
-          "Section 232 investigation by U.S. Department of Commerce into semiconductor imports"
+          "European Commission Digital Markets Act investigations and €500M fine for App Store steering restrictions",
+          "DOJ antitrust lawsuit alleging smartphone market monopolization",
+          "Epic Games litigation on App Store practices with contempt findings",
+          "New U.S. tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam, and EU",
+          "Section 232 investigation into semiconductor imports"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "defensive",
         "overallSentiment": "neutral",
-        "summary": "Apple reported Q2 2025 revenue of $95.4B (+5% YoY) and net income of $24.8B (+4.8% YoY), with solid growth in Services (+12%) and Mac/iPad (+7-15%), offset by iPhone momentum flattening YoY and Greater China declining -7% YoY for the first half. The company faces significant regulatory headwinds including a €500M EU DMA fine, pending antitrust litigation from DOJ and Epic Games, and emerging tariff uncertainties that could impact gross margins, though strong cash generation and expanded capex signal confidence in long-term investments.",
+        "summary": "Apple reported Q2 2025 revenue of $95.4B (+5% YoY) with net income of $24.8B (+5% YoY), driven by strength in Services (+12%), iPhone Pro models, and Mac/iPad sales. However, growth is moderating amid Greater China weakness (-2% Q2, -7% H1), significant tariff headwinds, and multiple regulatory challenges including a €500M EU fine and App Store litigation contempt findings. The company is expanding headcount and capex significantly while maintaining operational efficiency despite macroeconomic pressures.",
         "keyQuotes": [
-          "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
-          "On April 23, 2025, the Commission fined the Company €500 million in the Article 5(4) Investigation and issued a cease and desist order requiring the Company to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store.",
-          "Services net sales increased during the second quarter and first six months of 2025 compared to the same periods in 2024 due primarily to higher net sales from advertising, the App Store and cloud services."
+          "Tariffs and other measures that are applied to the Company's products or their components can have a material adverse impact on the Company's business, results of operations and financial condition, including impacting the Company's supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain.",
+          "The Company's future gross margins can be impacted by a variety of factors...the Company believes, in general, gross margins will be subject to volatility and downward pressure.",
+          "Beginning in the second quarter of 2025, new U.S. Tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the European Union."
         ],
         "marketData": {
-          "managementToneScore": 50,
+          "managementToneScore": 30,
           "revenueGrowthScore": 66,
           "netIncomeScore": 60,
           "priceActionScore": null,
-          "compositeSentimentScore": 60,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 56,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q1 2025",
@@ -474,33 +468,32 @@
         "geographicBreakdown": {
           "Americas": 42.3,
           "Europe": 27.2,
-          "GreaterChina": 14.9,
+          "Greater_China": 14.9,
           "Japan": 7.2,
-          "RestOfAsiaPacific": 8.3
+          "Rest_of_Asia_Pacific": 8.3
         },
         "capexAmount": 2940,
         "capexGrowth": 22.9,
         "partnerships": [
-          "Google search licensing arrangements"
+          "Google licensing arrangements for search services"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act investigations and compliance requirements",
-          "DOJ antitrust litigation regarding smartphone markets",
-          "Epic Games litigation regarding App Store practices",
-          "App Store regulatory changes in multiple jurisdictions",
-          "EU State Aid Decision tax obligation of €3.3 billion",
-          "Export and import regulations"
+          "EU Digital Markets Act (DMA) compliance with formal noncompliance investigations",
+          "DOJ antitrust lawsuit alleging monopolization in smartphone markets",
+          "Epic Games antitrust litigation regarding App Store practices",
+          "EU state aid investigation requiring €3.3 billion remaining payment obligation",
+          "Complex regulations on privacy, data security, antitrust, and AI/machine learning"
         ],
-        "aiInvestmentMentioned": false,
+        "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported Q1 FY2025 revenue of $124.3 billion (+4% YoY) and net income of $36.3 billion (+7% YoY), with strong Services growth of 14% offset by flat iPhone sales and Greater China decline of 11%. The company maintains robust cash generation ($29.9B operating cash flow) and continued shareholder returns ($23.3B in buybacks and $3.9B in dividends), but faces significant regulatory headwinds from DMA compliance, antitrust litigation, and a €3.3 billion remaining State Aid tax obligation.",
+        "summary": "Apple delivered Q1 2025 revenue of $124.3B (up 4% YoY) with net income of $36.3B, driven by Services growth (+14%) and Mac/iPad strength, though iPhone remained flat and Greater China declined 11%. The company maintains strong operational cash flow of $29.9B and continues aggressive capital returns ($23.3B in buybacks), but faces significant regulatory headwinds including EU DMA compliance investigations and U.S. antitrust lawsuits that could materially impact business operations.",
         "keyQuotes": [
-          "The Company believes its balances of unrestricted cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
-          "Services net sales increased during the first quarter of 2025 compared to the same quarter in 2024 due primarily to higher net sales from advertising, the App Store and cloud services.",
-          "Greater China net sales decreased during the first quarter of 2025 compared to the same quarter in 2024 due to lower net sales of iPhone."
+          "New and changing laws, regulations, executive orders, directives, and enforcement priorities can adversely affect the Company's business by increasing the Company's costs, limiting the Company's ability to offer a product, service or feature to customers",
+          "If the Commission makes a final determination that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company's annual worldwide net sales",
+          "Services net sales increased during the first quarter of 2025 compared to the same quarter in 2024 due primarily to higher net sales from advertising, the App Store and cloud services"
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -542,41 +535,40 @@
         "freeCashFlow": 108807,
         "daysalesOutstanding": null,
         "deferredRevenue": 12800,
-        "marketShareMention": "Apple has minority market share in global smartphone, personal computer and tablet markets; faces substantial competition",
+        "marketShareMention": "The Company has a minority market share in the global smartphone, personal computer and tablet markets.",
         "customerConcentration": 38,
         "geographicBreakdown": {
           "Americas": 42.7,
           "Europe": 25.9,
-          "Greater China": 17.1,
+          "Greater_China": 17.1,
           "Japan": 6.4,
-          "Rest of Asia Pacific": 7.8
+          "Rest_of_Asia_Pacific": 7.8
         },
         "capexAmount": 9447,
-        "capexGrowth": -13.8,
+        "capexGrowth": -14,
         "partnerships": [
-          "Google LLC - search services licensing arrangement",
-          "Carrier partnerships for financing and installment payment plans",
-          "Manufacturing partnerships in China mainland, India, Japan, South Korea, Taiwan and Vietnam"
+          "Google LLC licensing arrangements for search services on Apple platforms",
+          "Cellular network carriers for device distribution and financing",
+          "Manufacturing partners in China mainland, India, Japan, South Korea, Taiwan and Vietnam"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "European Commission Digital Markets Act investigations and noncompliance findings",
-          "DOJ antitrust lawsuit alleging monopolization in smartphone markets",
-          "Epic Games antitrust litigation regarding App Store practices",
-          "EU Digital Markets Act compliance requirements",
-          "Antitrust investigations in multiple jurisdictions",
-          "Data privacy and security regulations across multiple jurisdictions",
-          "International trade restrictions and tariff risks"
+          "Digital Markets Act (DMA) investigations in European Commission with preliminary findings of App Store violations",
+          "Department of Justice antitrust lawsuit alleging monopolization in performance smartphones and smartphones markets",
+          "Epic Games litigation regarding App Store Review Guidelines",
+          "Ongoing antitrust investigations in various jurisdictions",
+          "Data protection and privacy regulations across multiple jurisdictions",
+          "Environmental, social and governance compliance requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple delivered stable full-year FY2024 results with $391.0B revenue (+2% YoY) and $93.7B net income (-3% YoY), driven by Services growth (+13% YoY to $96.2B) offsetting flat iPhone sales and weakness in Greater China (-8% YoY). The company faces significant regulatory headwinds including EU Digital Markets Act compliance investigations and DOJ antitrust litigation, while maintaining strong gross margins at 46.2% and generating robust operating cash flow of $118.3B. Capital expenditures declined 13.8% YoY to $9.4B, and the company recorded a one-time $10.2B tax charge related to the EU State Aid Decision.",
+        "summary": "Apple reported FY2024 revenue of $391.0 billion, up 2% YoY, with net income of $93.7 billion despite a $10.2 billion one-time tax charge related to the European Court of Justice's State Aid Decision. Services revenue grew 13% to $96.2 billion, demonstrating strength in high-margin recurring revenue, while Products revenue declined slightly. The company faces significant regulatory headwinds including DMA investigations in Europe and DOJ antitrust litigation in the U.S., which could materially impact business operations and profitability.",
         "keyQuotes": [
-          "The Company believes its balances of unrestricted cash, cash equivalents and marketable securities, which totaled $140.8 billion as of September 28, 2024, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program.",
-          "Services gross margin percentage increased during 2024 compared to 2023 due to a different Services mix, with Services net sales increasing 13% driven primarily by higher net sales from advertising, the App Store and cloud services.",
-          "On September 10, 2024, the ECJ announced that it had set aside the 2020 judgment of the General Court and confirmed the Commission's 2016 State Aid Decision, resulting in a one-time income tax charge of $10.2 billion, net."
+          "If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company's business.",
+          "The Company has a minority market share in the global smartphone, personal computer and tablet markets.",
+          "Services gross margin percentage increased during 2024 compared to 2023 due to a different Services mix, demonstrating the high-margin nature of the growing services business."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -610,7 +602,7 @@
         "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
+        "pricingPower": "moderate",
         "headcountTrend": "expanding",
         "revenue": 85777,
         "netIncome": 21448,
@@ -623,35 +615,30 @@
         "geographicBreakdown": {
           "Americas": 43.9,
           "Europe": 25.5,
-          "Greater_China": 17.2,
+          "GreaterChina": 17.2,
           "Japan": 5.9,
-          "Rest_of_Asia_Pacific": 7.5
+          "RestOfAsiaPacific": 7.4
         },
         "capexAmount": 6539,
         "capexGrowth": -25.6,
-        "partnerships": [
-          "Manufacturing partnerships with outsourcing partners for subassemblies and final assembly",
-          "Component suppliers for product manufacturing"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "EU Digital Markets Act investigations - three formal noncompliance investigations opened",
-          "DMA Article 5(4) investigation regarding App Store developer communication and contract conclusion",
-          "DMA Article 6(3) investigation regarding default settings, app uninstallation, and browser choice screen",
-          "DMA investigation regarding third-party app developer and marketplace contractual requirements",
-          "DOJ antitrust lawsuit filed March 21, 2024 alleging monopolization in smartphone markets",
-          "Epic Games litigation regarding App Store practices - injunction issued requiring external link policy changes",
-          "EU State Aid Decision appeal pending - ECJ decision expected Q4 2024"
+          "EU Digital Markets Act investigations regarding App Store practices and Article 5(4) compliance",
+          "EU Digital Markets Act investigation regarding Article 6(3) compliance with default settings and app uninstallation",
+          "DOJ antitrust lawsuit alleging monopolization in smartphone markets filed March 21, 2024",
+          "Epic Games lawsuit regarding App Store operation and antitrust violations",
+          "European Commission State Aid Decision potentially requiring additional taxes for 2003-2014 period; ECJ decision expected Q4 2024"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported Q3 2024 revenue of $85.8 billion (up 5% YoY) and net income of $21.4 billion (up 8% YoY), demonstrating solid operational performance driven by Services growth (14% YoY) and iPad strength (24% YoY), offset by iPhone softness (-1% YoY). However, the company faces significant regulatory headwinds from multiple EU Digital Markets Act investigations and US DOJ antitrust litigation, while Greater China sales declined 7% due to iPhone weakness and FX headwinds. The company announced Apple Intelligence integration across iOS, macOS, and iPadOS but did not provide forward guidance.",
+        "summary": "Apple reported Q3 2024 revenue of $85.8B (+5% YoY) with net income of $21.4B (+8% YoY), driven by Services growth (+14%) and strong iPad sales (+24%). However, iPhone sales were flat and Greater China declined -7%, signaling geographic and product mix headwinds. The company faces significant regulatory pressure from EU Digital Markets Act investigations and DOJ antitrust litigation, while maintaining healthy margins and strong cash generation.",
         "keyQuotes": [
-          "The Company announced Apple Intelligence™, a personal intelligence system that uses generative models, which will be available on certain iPhone, Mac and iPad devices. Apple Intelligence is deeply integrated into iOS 18, macOS Sequoia and iPadOS 18.",
-          "Services gross margin increased during the third quarter and first nine months of 2024 compared to the same periods in 2023 due primarily to higher Services net sales.",
-          "The growth in research and development expense during the third quarter and first nine months of 2024 compared to the same periods in 2023 was driven primarily by increases in headcount-related expenses."
+          "The Company announced Apple Intelligence™, a personal intelligence system that uses generative models, which will be available on certain iPhone, Mac and iPad devices.",
+          "Greater China net sales decreased during the third quarter of 2024 compared to the third quarter of 2023 due primarily to lower net sales of iPhone.",
+          "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -704,33 +691,31 @@
         },
         "capexAmount": 4388,
         "capexGrowth": -34.5,
-        "partnerships": [
-          "Search services licensing arrangements (subject to government investigations)"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "European Commission DMA investigations (Article 5(4) and 6(3))",
-          "U.S. DOJ antitrust lawsuit regarding smartphone monopolization",
-          "Epic Games litigation regarding App Store practices",
-          "Multiple state attorney general antitrust actions",
-          "Potential fines up to 10% of annual worldwide net sales under DMA"
+          "European Commission DMA investigations on App Store developer communications and default settings",
+          "DOJ antitrust lawsuit alleging smartphone market monopolization",
+          "Epic Games litigation regarding App Store compliance injunction",
+          "Multiple state/district antitrust lawsuits in U.S.",
+          "App Store regulatory investigations in multiple jurisdictions"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Apple reported Q2 2024 revenue of $90.8 billion (down 4% YoY) and net income of $23.6 billion (down 2% YoY), with notable weakness in iPhone (-10% YoY) and iPad (-17% YoY) offset partially by Services growth (+14% YoY). The company faces significant regulatory headwinds including two formal EU DMA investigations, a U.S. DOJ antitrust lawsuit, and ongoing Epic Games litigation, which could result in substantial fines and mandatory business practice changes. Strong cash generation of $62.6 billion in operating cash flow and aggressive capital returns ($44 billion in share repurchases YTD) demonstrate financial strength, though geographic exposure to China weakness (-8% Q2, -11% H1) and currency headwinds present near-term headlights.",
+        "overallSentiment": "bearish",
+        "summary": "Apple's Q2 2024 revenue declined 4% YoY to $90.8B with net income down 2% to $23.6B, driven by iPhone weakness (down 10%) and regional softness, particularly Greater China (down 8%). Services growth of 14% provided partial offset but could not overcome product headwinds. Significant regulatory headwinds emerged including DMA investigations, DOJ antitrust lawsuit, and Epic Games compliance disputes, creating material business and reputational risks going forward.",
         "keyQuotes": [
-          "If the Commission concludes that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the Company's annual worldwide net sales.",
-          "The growth in research and development expense during the second quarter and first six months of 2024 compared to the same periods in 2023 was driven primarily by increases in headcount-related expenses.",
-          "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond."
+          "Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.",
+          "If such investigations or litigation are resolved against the Company, the Company can be exposed to significant fines and may be required to make further changes to its business practices, all of which could materially adversely affect the Company's business, reputation, results of operations and financial condition.",
+          "Greater China net sales decreased during the second quarter and first six months of 2024 compared to the same periods in 2023 due primarily to lower net sales of iPhone and iPad."
         ],
         "marketData": {
-          "managementToneScore": 50,
+          "managementToneScore": 30,
           "revenueGrowthScore": 38,
           "netIncomeScore": 60,
           "priceActionScore": null,
-          "compositeSentimentScore": 48,
+          "compositeSentimentScore": 44,
           "compositeSentiment": "neutral"
         }
       },
@@ -779,21 +764,21 @@
         "partnerships": [],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Epic Games App Store antitrust litigation with ongoing compliance obligations",
-          "Masimo patent infringement case regarding Apple Watch blood oxygen feature with limited exclusion order",
-          "Digital Markets Act (DMA) compliance in European Union requiring business model changes",
-          "Antitrust investigations in multiple jurisdictions regarding App Store terms",
-          "Government investigations into search service licensing arrangements"
+          "Epic Games antitrust litigation regarding App Store terms",
+          "Masimo patent infringement case regarding Apple Watch blood oxygen feature",
+          "Digital Markets Act (DMA) compliance requirements in European Union",
+          "Antitrust investigations in multiple jurisdictions worldwide",
+          "App Store regulatory scrutiny and government investigations"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Apple reported Q1 2024 revenue of $119.6B (+2% YoY) with net income of $33.9B (+13% YoY), demonstrating strong profitability despite modest topline growth. Services delivered robust 11% growth while iPhone grew 6%, but Greater China declined 13% signaling regional weakness; gross margins expanded to 45.9% from 43.0% driven by cost savings and favorable product mix. The company faces significant regulatory headwinds including DMA compliance in EU, ongoing App Store litigation, and Masimo patent disputes, though management projects stable cash generation with capex declining 37% to $2.4B.",
+        "summary": "Apple reported Q1 2024 revenue of $119.6 billion, up 2% YoY, with net income of $33.9 billion, up 13% YoY, driven by strong iPhone (+6%) and Services (+11%) growth offsetting weakness in Greater China (-13%) and iPad (-25%). The company demonstrated pricing power with gross margin expansion to 45.9% from 43.0%, supported by cost savings and product mix improvements, while managing significant regulatory headwinds from antitrust litigation and DMA compliance requirements.",
         "keyQuotes": [
           "Macroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company's results of operations and financial condition.",
-          "The Company believes its balances of cash, cash equivalents and unrestricted marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
-          "In January 2024, the Company announced changes to iOS, the App Store and Safari in the European Union to comply with the Digital Markets Act (the 'DMA'), including new business terms and alternative fee structures for iOS apps, alternative methods of distribution for iOS apps, alternative payment processing for apps across the Company's operating systems, and additional tools and application programming interfaces ('APIs') for developers."
+          "The Company's future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2023 Form 10-K under the heading 'Risk Factors.' As a result, the Company believes, in general, gross margins will be subject to volatility and downward pressure.",
+          "Although the Company's compliance plan is intended to address the DMA's obligations, it is still subject to potential challenge by the European Commission or private litigants."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -818,5 +803,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-08-05T18:17:29.352Z"
+  "lastUpdated": "2026-08-16T02:56:40.375Z"
 }
