@@ -24,7 +24,7 @@
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "unknown",
+        "headcountTrend": "stable",
         "revenue": 28236,
         "netIncome": 1114,
         "operatingCashFlow": 8634,
@@ -39,32 +39,30 @@
           "Other": null
         },
         "capexAmount": 8282,
-        "capexGrowth": 113.2,
+        "capexGrowth": null,
         "partnerships": [
-          "SpaceX equity investment acquisition ($2.0 billion stake as of Q2 2026)",
-          "AI hardware company acquisition ($1.95 billion in stock and equity awards)",
-          "Warehouse Agreement with syndicate of banks ($1.5 billion revolving facility)"
+          "SpaceX equity investment ($2.002 billion purchase during H1 2026)",
+          "Commercial banking partners for vehicle leasing programs"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Tariff uncertainty following US Supreme Court ruling on IEEPA tariffs (February 2026)",
-          "Ongoing NHTSA and NTSB inquiries regarding Autopilot and FSD technology",
-          "SEC and DOJ investigations into various business matters",
-          "California Civil Rights Department discrimination lawsuit (trial set September 2026)",
-          "EEOC race harassment and retaliation claims in discovery",
-          "Multiple product liability class actions regarding Autopilot/FSD capabilities",
-          "Benavides verdict: $329M damages ($129M compensatory, $200M punitive) on appeal",
-          "Regulatory restrictions on automotive regulatory credit programs"
+          "Tariff invalidation ruling (February 2026) - potential refunds on imported goods",
+          "Regulatory credit program restrictions",
+          "NHTSA investigations into Autopilot/FSD technology",
+          "SEC, DOJ and NTSB inquiries",
+          "California Civil Rights Department discrimination lawsuit (trial set September 21, 2026)",
+          "EEOC race harassment and retaliation claims",
+          "Multiple class action lawsuits regarding FSD capability claims and Autopilot effectiveness"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Tesla reported Q2 2026 revenue of $28.2B (+25.4% YoY) with net income of $1.1B, though operating income declined to $398M from $923M year-over-year due to elevated R&D (+49%) and SG&A (+45%) expenses. The company generated $8.6B in operating cash flow but consumed $8.3B in capex (113% increase YoY), reflecting substantial investments in AI infrastructure and facility expansion. Deferred revenue of $7.5B indicates strong future revenue visibility, though significant regulatory headwinds and ongoing litigation present material business risks.",
+        "summary": "Tesla's Q2 2026 results showed mixed performance with revenue of $28.2B (+25.5% YoY) but net income of $1.1B (-4.9% YoY), reflecting margin compression despite higher automotive sales. The company is aggressively investing in AI infrastructure ($10.8B in PP&E) and made a $2B SpaceX investment, signaling strategic diversification. However, mounting regulatory headwinds including discrimination lawsuits, FSD misrepresentation claims, and tariff uncertainties present material risks to near-term operations and brand reputation.",
         "keyQuotes": [
-          "For the three months ended June 30, 2026, we recorded a $1.00 billion net gain on our SpaceX equity investment.",
-          "We expect to recognize $962 million of revenue in the next 12 months from automotive deferred revenue balances.",
-          "Of the total deferred revenue balance as of June 30, 2026, we expect to recognize $4.56 billion in the next 12 months for energy generation and storage contracts with original expected length of more than one year."
+          "As of June 30, 2026, total transaction price allocated to performance obligations that were unsatisfied or partially unsatisfied for contracts with an original expected length of more than one year was $10.05 billion for Energy segment",
+          "We recorded stock-based compensation expense of $527 million for the six months ended June 30, 2026 related to the 2025 CEO Performance Award, with $9.82 billion unrecognized expense to be recognized over 9.2 years",
+          "An unfavorable outcome in some or all of these proceedings could have a material adverse impact on results of operations or cash flows for a particular period"
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -99,7 +97,7 @@
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "stable",
+        "headcountTrend": "unknown",
         "revenue": 22387,
         "netIncome": 477,
         "operatingCashFlow": 3937,
@@ -112,27 +110,26 @@
         "capexAmount": 2493,
         "capexGrowth": 67.1,
         "partnerships": [
-          "SpaceX equity investment - $2 billion common stock investment",
-          "SpaceX product sales - $87 million in Q1 2026 for Megapack products",
-          "Commercial banking partnerships for vehicle leasing programs with resale value guarantees"
+          "SpaceX equity investment of $2.0 billion",
+          "Commercial banking partnerships for vehicle leasing programs"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Tariff disputes - U.S. Supreme Court invalidated certain IEEPA tariffs in February 2026, potential refund eligibility",
-          "Regulatory credit program restrictions - governmental actions restricted certain regulatory credit programs",
-          "FSD/Autopilot litigation - multiple class action lawsuits alleging misrepresentations about driver assistance technology",
-          "Discrimination and harassment investigations - CRD, EEOC litigation ongoing",
-          "NHTSA and NTSB investigations into vehicle safety and autonomous features"
+          "Tariff uncertainty following February 2026 U.S. Supreme Court ruling on IEEPA tariffs",
+          "Restrictions on automotive regulatory credit programs",
+          "Multiple ongoing regulatory investigations by NHTSA, NTSB, SEC, DOJ regarding Autopilot and FSD technology",
+          "CRD civil complaint for systemic discrimination (trial set July 20, 2026)",
+          "EEOC cause finding and civil complaint for race harassment"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Tesla reported Q1 2026 revenue of $22.4 billion (up 16% YoY) and net income of $477 million (up 17% YoY), with strong automotive sales growth of 19.6% offset by regulatory credit decline and energy storage headwinds. Operating cash flow of $3.9 billion demonstrates solid cash generation, though capex intensity increased 67% YoY to $2.5 billion reflecting AI infrastructure expansion. The company faces material regulatory and litigation headwinds including tariff disputes, FSD misrepresentation claims, and employment discrimination suits, while deferred revenue of $7.3 billion provides near-term revenue visibility.",
+        "summary": "Tesla's Q1 2026 revenue grew 15.8% YoY to $22.4 billion with automotive sales driving gains, though net income grew only 16.5% to $477 million, indicating margin compression from higher R&D and SG&A expenses. Operating cash flow improved to $3.9 billion while capex surged 67% to $2.5 billion, primarily for AI infrastructure ($7.7 billion cumulative), reflecting significant strategic investment in autonomous and AI capabilities. The company faces substantial litigation and regulatory headwinds including ongoing Autopilot/FSD investigations and discrimination claims, while substantial deferred revenue of $7.3 billion provides near-term revenue visibility.",
         "keyQuotes": [
-          "As of March 31, 2026, we determined that the operational milestone involving the delivery of 20 million Tesla vehicles, is probable over the term of the award based on our current assumptions.",
-          "Changes in government and economic incentives or tariffs may impact the transaction price or our ability to execute these existing contracts.",
-          "We have financed receivables on our consolidated balance sheets related to loans we provide for financing our energy products."
+          "Our CEO must hold shares for five years after they become Earned Shares...requiring him to remain in continuous service as CEO or as an executive officer responsible for product development or operations through January 19, 2028",
+          "As of March 31, 2026, we determined that the operational milestone involving the delivery of 20 million Tesla vehicles, is probable over the term of the award based on our current assumptions",
+          "In February 2026, the U.S. Supreme Court issued a ruling invalidating certain tariffs previously imposed...As the recoverability and timing of any such refund remains uncertain, we have not recognized a receivable"
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -167,7 +164,7 @@
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
-        "headcountTrend": "reducing",
+        "headcountTrend": "stable",
         "revenue": 24901,
         "netIncome": 840,
         "operatingCashFlow": 14747,
@@ -180,30 +177,31 @@
         "capexAmount": 8527,
         "capexGrowth": -24.8,
         "partnerships": [
-          "Panasonic - lithium-ion battery cells supplier",
-          "Contemporary Amperex Technology Co. Limited (CATL) - lithium-ion battery cells supplier",
-          "xAI - mentioned investment agreement in January 2026"
+          "Panasonic - battery cell supplier",
+          "CATL (Contemporary Amperex Technology Co. Limited) - battery cell supplier",
+          "Commercial banking partners - vehicle leasing programs",
+          "Other automotive manufacturers - Supercharger network adoption and NACS agreements"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "U.S. trade policy changes including heightened import tariffs in 2025",
-          "OBBBA (Inflation Reduction Act provisions) - removal of EV tax credits and battery cell expense impacts",
-          "Retaliatory tariffs imposed by other countries on U.S. exports",
-          "Regulatory restrictions on autonomous driving capabilities and Robotaxi operations",
-          "Net metering reductions or eliminations in multiple jurisdictions affecting solar products",
-          "NHTSA Standing General Order requiring crash reports for autonomous/advanced driver assistance systems",
-          "Data privacy and cybersecurity regulations (GDPR, CCPA, China data localization requirements)",
-          "State direct-to-consumer vehicle sales restrictions"
+          "U.S. trade policy changes including heightened import tariffs",
+          "Retaliatory tariffs from other countries",
+          "OBBBA (Omnibus Appropriations Bill) restrictions on EV tax credits and regulatory credit programs",
+          "Provisions restricting consumer, manufacturing and charging infrastructure tax credits",
+          "Net metering reductions and eliminations in multiple jurisdictions",
+          "Complex international regulations on autonomous driving and driver assistance features",
+          "Data privacy and cybersecurity regulations (GDPR, CCPA, similar jurisdictions)",
+          "Government investigations ongoing with SEC and DOJ"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Tesla reported FY2025 revenue of $94.8B (down 3% YoY) and net income of $3.8B (down 47% YoY), primarily driven by 8% decline in vehicle deliveries, pricing pressure, and lower regulatory credits revenue. The company is aggressively investing in AI infrastructure (expected capex exceeding $20B in 2026) and Robotaxi development, but faces significant headwinds from tariffs, supply chain constraints, and reduced government EV incentives that are compressing margins.",
+        "summary": "Tesla reported full-year 2025 revenues of $94.83 billion, down 2.9% YoY, with net income declining 46.5% to $3.79 billion amid pricing pressure, lower regulatory credits (-28%), and increased R&D spending (+41% to $6.41B for AI initiatives). While energy storage margins expanded to 29.8%, automotive gross margins compressed to 17.8% from 18.4%, reflecting tariff impacts, competitive pricing, and demand softness. Management guidance is notably cautious, warning of tariff headwinds, supply chain constraints, and macroeconomic pressures, though the company maintained positive operating cash flow of $14.75B and expects 2026 capex exceeding $20B focused on AI infrastructure and manufacturing expansion.",
         "keyQuotes": [
           "As a result of rapidly evolving trade and fiscal policy, uncertainty in the automotive and energy markets continues, posing risks to our global supply chain and cost structure which could have a meaningfully adverse impact on demand for our products and our profitability.",
-          "The current tariff regime will have a relatively larger impact on our energy generation and storage business compared to our automotive business.",
-          "Higher tariffs on imports and subsequent retaliatory tariffs could adversely impact consumer spending and demand for durable goods and related services."
+          "Higher tariffs on imports and subsequent retaliatory tariffs could adversely impact consumer spending and demand for durable goods and related services.",
+          "We currently expect our capital expenditures to be in excess of $20 billion in 2026, driven by our AI initiatives, including investments in compute infrastructure and data centers."
         ],
         "marketData": {
           "managementToneScore": 5,
@@ -248,30 +246,30 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "US": null,
-          "China": null,
-          "Other": null
+          "us_percentage": null,
+          "china_percentage": null,
+          "other_percentage": null
         },
         "capexAmount": 6134,
         "capexGrowth": -28.4,
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Repeal and restriction of regulatory credit programs tied to products (OBBBA impact)",
-          "NHTSA, NTSB, SEC, DOJ inquiries on vehicle operations, Autopilot, FSD, and Robotaxi",
-          "CRD and EEOC investigations for alleged discrimination and harassment",
-          "Multiple class action lawsuits regarding Autopilot and FSD misrepresentation claims",
-          "Benavides v. Tesla verdict: $129M compensatory + $200M punitive damages awarded related to Autopilot fatality case"
+          "Repeal and restriction of certain regulatory credit programs tied to products (OBBBA impact)",
+          "Potential going private litigation and SEC oversight",
+          "NHTSA and NTSB investigations into Autopilot and FSD technology",
+          "Ongoing discrimination and harassment investigations by CRD and EEOC",
+          "Multiple product liability and securities class action lawsuits regarding Autopilot/FSD misrepresentation claims"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "bearish",
-        "summary": "Tesla reported Q3 2025 revenue of $28.1B, up 11.5% YoY, but net income declined 37% to $1.37B due to margin compression (gross margin fell from 19.8% to 18.0%) and higher R&D spending ($1.63B, up 57% YoY). Operating cash flow remained solid at $10.9B for 9M 2025, but capex fell 28% YoY to $6.1B, signaling reduced investment intensity. Regulatory headwinds are mounting with loss of EV credits, multiple Autopilot/FSD lawsuits, and a major $329M damage verdict in the Benavides case, creating significant legal and regulatory uncertainty.",
+        "summary": "Tesla's Q3 2025 revenues grew 11.5% YoY to $28.1B, but net income declined 36.5% to $1.4B due to higher R&D spending (+57% YoY) and elevated operating expenses, partly offset by strong operating cash flow of $10.9B. The company faces significant regulatory headwinds including loss of regulatory credit programs under OBBBA, extensive litigation over Autopilot/FSD misrepresentation, and ongoing government investigations, while significantly increasing AI infrastructure capex ($6.6B PP&E) despite a 28% decline in overall capex YoY.",
         "keyQuotes": [
           "In 2025, governmental and regulatory actions have repealed and/or restricted certain regulatory credit programs tied to our products, contributing to the $1.41 billion decrease in our remaining performance obligations as of September 30, 2025 compared to December 31, 2024.",
-          "The jury awarded $129 million in total compensatory damages, finding the driver 67% at fault and the Company 33% at fault. The jury also awarded $200 million in punitive damages.",
-          "We are unable to reasonably estimate the possible loss or range of loss, if any, associated with these claims [related to Autopilot and FSD technology litigation]."
+          "The grant date fair value of the 2025 CEO Interim Award is $26.06 billion...As of September 30, 2025, the vesting of the 2025 CEO Interim Award is not deemed probable based on the probability of performance conditions being met.",
+          "Should the government decide to pursue an enforcement action, there exists the possibility of a material adverse impact on our business, results of operations, prospects, cash flows, financial position or brand."
         ],
         "marketData": {
           "managementToneScore": 30,
@@ -302,10 +300,10 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "stable",
         "revenue": 22496,
         "netIncome": 1172,
@@ -323,30 +321,33 @@
         "capexAmount": 3886,
         "capexGrowth": -23,
         "partnerships": [
-          "Commercial banking partners for vehicle leasing programs"
+          "Commercial banking partners for vehicle leasing programs",
+          "Financing partners for automotive and energy products"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Repeal and restriction of certain regulatory credit programs",
-          "Changes to fiscal and trade policy with respect to tariffs and export controls",
-          "Impact from OBBBA legislation eliminating certain regulatory credit programs"
+          "Changes to tariff regime with larger impact on energy segment",
+          "Potential modifications to income tax provisions under OBBBA",
+          "Elimination of certain penalties for regulatory credit violations",
+          "Government and economic incentives changes affecting energy contracts"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Tesla reported Q2 2025 revenue of $22.5B, down 12% YoY, with net income of $1.17B, down 16% YoY, reflecting significant headwinds from regulatory credit losses, tariff uncertainty, and competitive pricing pressures. The company is investing heavily in AI infrastructure ($6.2B capex including AI assets) and launched Robotaxi service in June, but near-term demand challenges and policy uncertainty are creating a cautious outlook. Management's tone is defensive regarding macro uncertainties while emphasizing long-term AI and autonomy opportunities.",
+        "summary": "Tesla's Q2 2025 results show significant headwinds with revenue declining 12% YoY to $22.5B and net income down 16% to $1.17B, driven by lower automotive sales, reduced regulatory credit revenue, and pricing pressure. The company faces mounting regulatory challenges including repealed credit programs ($1.11B impact to remaining performance obligations), tariff uncertainty, and litigation risks, while capex was reduced 23% YoY reflecting a more cautious capital deployment stance. Management's tone is notably defensive, emphasizing operational challenges from trade policy uncertainty and highlighting near-term headwinds despite positioning AI/robotics investments for long-term growth.",
         "keyQuotes": [
           "As a result of rapidly evolving trade and fiscal policy, uncertainty in the automotive and energy markets continues to increase, posing risks to our global supply chain and cost structure which could have a meaningfully adverse impact on demand for our products and our profitability.",
           "Recent governmental and regulatory actions have repealed and/or restricted certain regulatory credit programs tied to our products, contributing to the $1.11 billion decrease in our remaining performance obligations as of June 30, 2025 compared to March 31, 2025.",
-          "In June 2025, we launched our Robotaxi service in Austin, capitalizing on our AI investments and scalable mobility infrastructure to advance a service-driven business model."
+          "The current tariff regime will have a relatively larger impact on our energy generation and storage business compared to our automotive business."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 18,
           "netIncomeScore": 45,
           "priceActionScore": null,
-          "compositeSentimentScore": 25,
+          "compositeSentimentScore": 26,
           "compositeSentiment": "bearish"
         }
       },
@@ -385,40 +386,42 @@
         "customerConcentration": null,
         "geographicBreakdown": {
           "United States": 53.4,
-          "China": 22.2,
-          "Other international": 24.3
+          "China": 22.3,
+          "Other International": 24.3
         },
         "capexAmount": 1492,
         "capexGrowth": -46.3,
         "partnerships": [
-          "NACS (North American Charging Standard) adoption agreements with other automotive manufacturers for Supercharger access"
+          "North American Charging Standard (NACS) adoption agreements with other automotive manufacturers for Supercharger access"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
-          "Tariff uncertainty and trade policy changes impacting global supply chain",
-          "Import tariffs on battery cells and components",
-          "Automotive regulatory credit regulation changes",
-          "Discrimination and harassment litigation (CRD and EEOC cases)",
-          "FSD (Full Self-Driving) trademark and marketing practice litigation",
-          "Autopilot and autonomous driving capability lawsuits",
-          "Data breach litigation from 2023 misappropriated data incident"
+          "Trade policy uncertainty and tariff regime impacts",
+          "Import tariffs on batteries and components",
+          "Export controls and trade restrictions",
+          "FSD (Full Self-Driving) litigation and regulatory scrutiny",
+          "NHTSA, NTSB, SEC, and DOJ investigations on vehicle technology and operations",
+          "California Civil Rights Department discrimination lawsuit (trial scheduled September 2025)",
+          "EEOC race harassment and retaliation complaint",
+          "Multiple Autopilot/FSD misrepresentation class actions pending",
+          "Antitrust claims related to repair and service practices"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Tesla's Q1 2025 results show significant headwinds with revenue declining 9.2% YoY to $19.3B and net income down 70.6% to $409M, driven by automotive sales weakness ($12.9B, -21.5% YoY) partially offset by strong energy storage growth (+67%). Operating cash flow improved to $2.2B from $242M YoY, but capital expenditures dropped 46% to $1.5B, signaling a shift toward profitability over growth investment. Management's tone is defensive regarding near-term macro challenges, tariffs, and supply chain pressures, though the company highlights operational achievements like simultaneous factory changeovers and $3.6B in deferred revenue from FSD features.",
+        "summary": "Tesla Q1 2025 delivered $19.3B in revenue and $409M in net income, down 9.2% and 70.6% YoY respectively, reflecting challenging automotive demand amid tariff headwinds and margin compression. Operating cash flow improved to $2.16B while capex fell 46% to $1.49B, though the company faces significant macro uncertainties from trade policy, competitive pressures, and multiple regulatory investigations. Management adopted a defensive posture emphasizing cost reduction and operational efficiency while acknowledging that trade policy, tariffs, and macroeconomic headwinds pose material risks to profitability.",
         "keyQuotes": [
           "As a result of rapidly evolving trade policy, uncertainty in the automotive and energy markets continues to increase, posing risks to our global supply chain and cost structure which could have a meaningfully adverse impact on demand for our products and our profitability.",
-          "While the final scope and application of recently announced changes in trade policy remain uncertain at this time, higher tariffs on imports and subsequent retaliatory tariffs could adversely impact consumer spending and demand for durable goods and related services.",
-          "In the first quarter of 2025, we accomplished an industry first - simultaneously changing over production lines across all factories for our New Model Y. While there were several weeks of lost production in the quarter from this changeover, we successfully ramped our production lines across four factories."
+          "The current tariff regime will have a relatively larger impact on our energy generation and storage business compared to our automotive business.",
+          "While the final scope and application of recently announced changes in trade policy remain uncertain at this time, higher tariffs on imports and subsequent retaliatory tariffs could adversely impact consumer spending and demand for durable goods and related services."
         ],
         "marketData": {
-          "managementToneScore": 30,
+          "managementToneScore": 10,
           "revenueGrowthScore": 28,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 30,
+          "compositeSentimentScore": 26,
           "compositeSentiment": "bearish"
         }
       },
@@ -445,7 +448,7 @@
         "guidanceTone": "cautious",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "weak",
+        "pricingPower": "moderate",
         "headcountTrend": "reducing",
         "revenue": 25707,
         "netIncome": 2317,
@@ -453,43 +456,42 @@
         "freeCashFlow": 3584,
         "daysalesOutstanding": null,
         "deferredRevenue": 6485,
-        "marketShareMention": null,
+        "marketShareMention": "increased competition from new entrants; competitors entering EV market at scale",
         "customerConcentration": null,
         "geographicBreakdown": null,
         "capexAmount": 11339,
         "capexGrowth": 27.5,
         "partnerships": [
-          "Panasonic battery cell supply partnership",
-          "CATL battery cell supply partnership",
-          "Commercial banking partner vehicle leasing programs",
-          "NACS charging standard adoption by other automakers"
+          "Panasonic battery cell partnership at Gigafactory Nevada",
+          "CATL battery cell supplier",
+          "Commercial banking partners for vehicle leasing programs",
+          "NACS adoption by other automotive manufacturers with Supercharger access agreements"
         ],
-        "supplyChainStatus": "tight",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "NHTSA scrutiny of Autopilot and FSD crash investigations",
-          "Regulatory limitations on direct-to-consumer vehicle sales in certain U.S. states",
-          "Complex international regulatory requirements for Autopilot and FSD features",
-          "California deferred tax asset limitations",
-          "Net metering policy reductions in various jurisdictions",
-          "SUNY Foundation Gigafactory New York employment and spending obligations",
-          "GDPR and California Consumer Privacy Act compliance requirements"
+          "Regulatory challenges to direct-to-consumer sales model in certain U.S. states",
+          "Autopilot and FSD regulatory restrictions across jurisdictions",
+          "Data privacy and cybersecurity regulations (GDPR, CCPA, China data laws)",
+          "Vehicle safety and emissions standards varying by jurisdiction",
+          "Net metering policy reductions and eliminations in multiple jurisdictions",
+          "Government incentive reductions and tariff impacts"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
-        "overallSentiment": "neutral",
-        "summary": "Tesla reported full-year 2024 revenue of $97.69 billion, up only 1% YoY, with net income declining 53% to $7.09 billion due to non-recurrence of 2023's $6.54 billion valuation allowance release. The company faced significant headwinds including pricing pressure (8% decline in automotive sales revenue), margin compression (18.4% automotive gross margin vs 19.4% prior year), and a 54% increase in R&D spend on AI initiatives. Management signaled a defensive posture, disclosing a $583 million restructuring charge, capex guidance of $11B+ annually, and acknowledging macroeconomic volatility, competitive pressures, and manufacturing ramp challenges.",
+        "overallSentiment": "bearish",
+        "summary": "Tesla delivered full-year 2024 revenue of $97.7 billion (up 1% YoY) and net income of $7.1 billion (down 53% YoY), with automotive gross margin declining from 19.4% to 18.4% due to pricing pressure and Cybertruck ramp costs. The company faces significant macro headwinds including demand softness, increased competition, supply chain pressures, and regulatory uncertainty, while projecting capex exceeding $11 billion annually through 2027. Management's guidance is notably cautious regarding 2025 production ramps and demand volatility, with substantial investment required in AI, autonomy, and new vehicle platforms.",
         "keyQuotes": [
-          "In 2024, our net income attributable to common stockholders was $7.09 billion, representing a decrease of $7.91 billion compared to the prior year, primarily due to the impact of releasing $6.54 billion of our valuation allowance associated with U.S. federal and state deferred tax assets in the fourth quarter of 2023.",
           "In the first quarter of 2025, as we launch our New Model Y worldwide, we may similarly experience delays or declines in production volumes due to simultaneous manufacturing ramps in facilities on three continents.",
-          "We are simultaneously developing and ramping new products, building or ramping manufacturing facilities on three continents, piloting the development and manufacture of new battery cell technologies, expanding our Supercharger network and investing in autonomy and other artificial intelligence enabled training and products, and the pace of our capital spend may vary depending on overall priority among projects."
+          "We operate in a cyclical industry that is sensitive to shifting consumer trends, political and regulatory uncertainty, including with respect to trade and the environment, all of which can be compounded by inflationary pressures, rising energy prices, interest rate fluctuations",
+          "We are highly dependent on the services of Elon Musk, Technoking of Tesla and our Chief Executive Officer. Although Mr. Musk spends significant time with Tesla and is highly active in our management, he does not devote his full time and attention to Tesla."
         ],
         "marketData": {
-          "managementToneScore": 25,
+          "managementToneScore": 5,
           "revenueGrowthScore": 48,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 37,
+          "compositeSentimentScore": 33,
           "compositeSentiment": "bearish"
         }
       },
@@ -527,30 +529,30 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 49.98,
-          "China": 22.49,
-          "Other International": 27.53
+          "United States": 49.95,
+          "China": 22.51,
+          "Other international": 27.54
         },
         "capexAmount": 8556,
         "capexGrowth": 29.73,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Automotive regulatory credit revenue dependency",
-          "Environmental regulations and trade policy uncertainty",
-          "Ongoing NHTSA, SEC, and DOJ inquiries regarding Autopilot and FSD Capability",
-          "Multiple class action lawsuits related to driver assistance technology claims",
-          "EEOC and California Civil Rights Department investigations for alleged discrimination"
+          "Potential trade policy uncertainty and tariffs",
+          "Environmental regulations and compliance requirements",
+          "SEC investigations and subpoenas regarding Autopilot and FSD Capability",
+          "NHTSA investigations into vehicle functionality and incidents",
+          "Data privacy regulatory requests"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Tesla delivered Q3 2024 quarterly revenues of $25.2B (up 8% YoY) with net income of $2.2B (up 17% YoY), though 9-month net income of $4.8B was down 32% YoY reflecting a significantly tougher first half. Operating cash flow improved 14% to $10.1B YTD, but capex surged 30% to $8.6B, reflecting aggressive AI infrastructure buildout ($3.7B in AI capex) and manufacturing expansion. Energy storage momentum is strong (52% YoY growth), but automotive margins face pressure from pricing competition and modest 1% unit growth YTD.",
+        "summary": "Tesla reported Q3 2024 revenue of $25.2 billion (+7.9% YoY) with net income of $2.2 billion (+17.0% YoY), driven by strength in energy storage (52% YoY growth) and modest automotive growth. The company is investing heavily in AI infrastructure ($3.7B in construction) and capex expanded 30% YoY to $8.6B, though management faces headwinds from regulatory scrutiny, competition, and macroeconomic uncertainty. Operating cash flow improved to $10.1B for 9M 2024, but near-term growth depends on next-generation platform launches and autonomous capabilities.",
         "keyQuotes": [
-          "Additionally, we are increasingly focused on products and services based on AI, robotics and automation.",
+          "We are increasingly focused on products and services based on AI, robotics and automation.",
           "We ended the third quarter of 2024 with $33.65 billion in cash and cash equivalents and investments, representing an increase of $4.55 billion from the end of 2023.",
-          "Our cash flows provided by operating activities were $10.11 billion during the nine months ended September 30, 2024, compared to $8.89 billion during the same period ended September 30, 2023, representing an increase of $1.22 billion."
+          "The next phase of production growth will depend on the continued ramp at our factories and be initiated by advances in autonomy and the introduction of new products, including those built on our next generation vehicle platform."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -597,35 +599,35 @@
         "geographicBreakdown": {
           "United States": 52,
           "China": 18,
-          "Other international": 30
+          "Other International": 30
         },
         "capexAmount": 5043,
         "capexGrowth": 22.1,
         "partnerships": [],
         "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "Potential impact from tariffs and trade uncertainties",
-          "Environmental regulations and initiatives",
-          "Political and regulatory uncertainty affecting automotive sector",
-          "Government incentives changes may impact sales and competitive landscape"
+          "Regulatory uncertainty regarding trade and environment",
+          "Government incentives and tariff changes",
+          "SEC investigations and various regulatory requests",
+          "DOJ and NHTSA inquiries regarding vehicle technology"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "defensive",
+        "managementTone": "neutral",
         "overallSentiment": "bearish",
-        "summary": "Tesla's Q2 2024 results show operational challenges with revenue of $25.5B (+2.3% YoY) but net income declining 45% to $1.5B as margins compressed. The company is reducing headcount significantly (restructuring charges of $583M) while increasing capex investment, particularly in AI infrastructure ($2.5B in PP&E). Operating cash flow declined 31% YoY to $3.9B, indicating margin pressure and working capital challenges despite strong deferred revenue of $6.2B.",
+        "summary": "Tesla's Q2 2024 saw 2.4% YoY revenue growth to $25.5B but net income declined 45% to $1.48B, reflecting margin compression amid pricing pressures and a $583M restructuring charge. Operating cash flow declined 31% YoY to $3.85B, while capex surged 22% to $5.04B, particularly for AI infrastructure. The company faces headwinds from competitive pressures, regulatory uncertainty, and macroeconomic challenges, though deferred revenue of $6.15B provides some visibility.",
         "keyQuotes": [
           "During the three and six months ended June 30, 2024, our net income attributable to common stockholders was $1.48 billion and $2.61 billion, respectively, representing decreases of $1.23 billion and $2.61 billion, respectively, compared to the same periods in the prior year.",
           "In the second quarter of 2024, we initiated and substantially completed certain restructuring actions to reduce costs and improve efficiency. As a result, we recognized $583 million of employee termination expenses.",
-          "We are increasingly focused on products and services based on AI, robotics and automation."
+          "The next phase of production growth will depend on the continued ramp at our factories and be initiated by advances in autonomy and the introduction of new products, including those built on our next generation vehicle platform."
         ],
         "marketData": {
-          "managementToneScore": 10,
+          "managementToneScore": 30,
           "revenueGrowthScore": 58,
           "netIncomeScore": 32,
           "priceActionScore": null,
-          "compositeSentimentScore": 38,
-          "compositeSentiment": "bearish"
+          "compositeSentimentScore": 43,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q2 2024",
@@ -662,31 +664,31 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 45.8,
-          "China": 21.6,
-          "Other International": 32.6
+          "united_states": 45.8,
+          "china": 21.6,
+          "other_international": 32.6
         },
         "capexAmount": 2773,
-        "capexGrowth": 33.7,
+        "capexGrowth": 33.8,
         "partnerships": [
-          "North American Charging Standard (NACS) adoption agreements with other automotive manufacturers for Supercharger access"
+          "North American Charging Standard (NACS) adoption agreements with automotive manufacturers"
         ],
         "supplyChainStatus": "tight",
         "regulatoryHeadwinds": [
           "Political and regulatory uncertainty regarding trade and environment",
-          "Changes in government and economic incentives for electric vehicles",
-          "Red Sea shipping diversions impact",
-          "Multiple ongoing investigations and litigation matters"
+          "Government incentive changes for electric vehicles",
+          "Red Sea conflict causing shipping diversions",
+          "Multiple pending litigation cases regarding discrimination, harassment, and product misrepresentation"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Tesla's Q1 2024 results show significant deterioration with revenue down 9% YoY to $21.3B and net income down 55% to $1.1B, driven by aggressive price cuts that compressed margins and production disruptions from Red Sea diversions and factory issues. Cash flow from operations collapsed to $242M (vs. $2.5B YoY) while capex increased 34% to $2.8B, resulting in negative free cash flow of -$2.5B and a $4.7B cash burn. Management signaled cost discipline with a $350M+ restructuring ahead while indicating capex expectations of $10B+ for 2024, suggesting continued heavy investment in AI, robotics, and manufacturing capacity despite near-term profitability headwinds.",
+        "summary": "Tesla delivered a weak Q1 2024 with revenue declining 9% YoY to $21.3B and net income falling 55% to $1.1B, driven by lower vehicle pricing and production headwinds from manufacturing challenges and geopolitical disruptions. Operating cash flow collapsed to $242M from $2.5B, while capex surged 34% to $2.8B, creating negative free cash flow of $2.5B. Management is taking defensive posture with announced restructuring costs exceeding $350M and maintaining cautious guidance on macroeconomic headwinds.",
         "keyQuotes": [
-          "during the first quarter of 2024, we experienced a sequential decline in production volumes partially caused by the early phase of the production ramp of the updated Model 3 at our Fremont factory, and factory shutdowns at Gigafactory Berlin-Brandenburg resulting from shipping diversions caused by the Red Sea conflict and an arson attack",
-          "In April 2024, we initiated certain restructuring actions in order to reduce costs and improve efficiency. As a result, we expect to recognize in excess of $350 million of costs primarily related to employee termination expenses in the second quarter of 2024",
-          "our capital expenditures to exceed $10.00 billion in 2024 and be between $8.00 to $10.00 billion in each of the following two fiscal years"
+          "During the first quarter of 2024, we experienced a sequential decline in production volumes partially caused by the early phase of the production ramp of the updated Model 3 at our Fremont factory, and factory shutdowns at Gigafactory Berlin-Brandenburg resulting from shipping diversions caused by the Red Sea conflict and an arson attack.",
+          "We currently expect our capital expenditures to exceed $10.00 billion in 2024 and be between $8.00 to $10.00 billion in each of the following two fiscal years.",
+          "In April 2024, we initiated certain restructuring actions in order to reduce costs and improve efficiency. As a result, we expect to recognize in excess of $350 million of costs primarily related to employee termination expenses in the second quarter of 2024."
         ],
         "marketData": {
           "managementToneScore": 5,
@@ -731,33 +733,32 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 46.6,
+          "United_States": 46.6,
           "China": 21.5,
-          "Other international": 31.9
+          "Other_International": 31.9
         },
         "capexAmount": 6592,
         "capexGrowth": 24.4,
         "partnerships": [],
-        "supplyChainStatus": "normal",
+        "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "SEC examination of governance processes and compliance with SEC settlement",
-          "DOJ subpoenas regarding Autopilot and FSD features",
-          "DOJ inquiries regarding personal benefits, related parties, vehicle range and personnel decisions",
-          "NHTSA, NTSB regulatory requests and investigations",
-          "CRD (California Civil Rights Department) civil complaint alleging systemic race discrimination",
-          "EEOC civil complaint asserting race harassment and retaliation claims",
-          "Multiple class action liabilities related to Autopilot and FSD misrepresentation claims",
-          "Antitrust litigation regarding repair and service practices"
+          "SEC investigations and subpoenas related to Autopilot and Full Self-Driving features",
+          "DOJ requests for information regarding Autopilot, FSD features, and other matters",
+          "NHTSA inquiries",
+          "Class action litigation regarding Autopilot and Full Self-Driving misrepresentations",
+          "Antitrust litigation regarding repair and service practices",
+          "California Civil Rights Department systemic discrimination investigation",
+          "EEOC discrimination and retaliation claims"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "Tesla delivered Q3 2023 revenues of $23.35 billion (up 8.8% YoY) with quarterly net income of $1.88 billion (down 43.6% YoY) as gross margins compressed significantly due to price reductions and elevated cost structure. Operating cash flow declined 22.4% to $8.89 billion for the nine-month period despite revenue growth, reflecting working capital headwinds, while capex accelerated 24.4% to $6.59 billion for capacity expansion. Management maintains a neutral tone with no forward guidance provided, acknowledging focus on cost reductions and volume growth amid multiple regulatory investigations and litigation related to Autopilot/FSD safety claims.",
+        "summary": "Tesla reported Q3 2023 revenues of $23.35 billion (+8.8% YoY) with net income of $1.88 billion (-43.8% YoY), reflecting margin compression from competitive pricing pressures and higher operating expenses. Operating cash flow declined 22.4% to $8.89 billion for 9M 2023, though the company maintains strong liquidity at $26.08 billion and continues aggressive capex expansion at $6.59 billion (+24.4% YoY) for manufacturing capacity. The company faces mounting regulatory headwinds including DOJ and SEC investigations into Autopilot/FSD features and multiple class action lawsuits challenging marketing claims.",
         "keyQuotes": [
           "During the three and nine months ended September 30, 2023, our net income attributable to common stockholders was $1.85 billion and $7.07 billion, respectively, representing unfavorable changes of $1.44 billion and $1.80 billion, respectively, over the same periods ended September 30, 2022.",
-          "We continue to focus on further cost reductions and operational efficiencies while maximizing delivery volumes.",
-          "We are currently focused on increasing vehicle production, capacity and delivery capabilities, reducing costs, improving and developing our vehicles and battery technologies, vertically integrating and localizing our supply chain."
+          "We are currently focused on increasing vehicle production, capacity and delivery capabilities, reducing costs, improving and developing our vehicles and battery technologies, vertically integrating and localizing our supply chain, improving and further deploying our FSD capabilities, increasing the affordability and efficiency of our vehicles, bringing new products to market and expanding our global infrastructure.",
+          "Automotive sales revenue of $18.58 billion in Q3 2023 represented a 4.5% increase from Q3 2022, but gross margin compression was significant as cost of automotive sales rose 19.4% YoY while revenues grew only 4.5%."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -782,5 +783,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-08-05T18:44:49.784Z"
+  "lastUpdated": "2026-08-16T03:23:33.262Z"
 }
