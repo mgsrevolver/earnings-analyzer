@@ -35,25 +35,27 @@
         "geographicBreakdown": {
           "Americas": 46.9,
           "EMEA": 42.7,
-          "AsiaPacific": 10.3
+          "Asia_Pacific": 10.3
         },
         "capexAmount": 6.2,
-        "capexGrowth": -57,
+        "capexGrowth": -56.8,
         "partnerships": [
-          "BCNY (The Browser Company) acquisition - Dia and Arc browsers",
-          "DX (A Software Company) acquisition - engineering intelligence platform"
+          "Acquisition of The Browser Company (BCNY) - Arc and Dia browsers",
+          "Acquisition of A Software Company (DX) - engineering intelligence platform"
         ],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "End-of-life announced for Data Center deployment offering (no new sales as of March 2026, end of support March 2029)"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Atlassian reported Q1 FY2026 revenue of $1.79B (+31.7% YoY) driven by subscription growth to $1.70B, but posted a net loss of $98.4M reflecting significant restructuring charges of $279.5M from a 10% workforce reduction and real estate optimization. The company is aggressively investing in AI and acquiring strategic assets (BCNY, DX) totaling $1.2B while managing cash burn through operational challenges and declining margins.",
+        "summary": "Atlassian reported Q1 FY2026 subscription revenue growth of 33.5% YoY to $1.7B, but posted a net loss of $98.4M versus $70.8M loss in Q1 FY2025. The company is executing aggressive restructuring with a 10% workforce reduction, $279.5M in total restructuring charges, and facility consolidation impairments of $80M. While deferred revenue remains strong at $2.4B, operating profitability remains challenged with negative operating cash flow after accounting for significant acquisition-related stock compensation.",
         "keyQuotes": [
           "The March 2026 Plan includes a reduction in force that resulted in the elimination of certain roles, which impacted approximately 10% of the Company's workforce",
-          "The Company recorded total severance and other termination benefits of $198.1 million...and impairment charges of $80.0 million associated with the optimization of its leased facilities",
-          "Atlassian puts AI at the center of the Company's portfolio to enhance teamwork for users across apps and Collections, a carefully curated set of apps and agents designed to solve complex tasks"
+          "As of March 2026, the Company no longer sells term licenses to new customers, and the Company will stop selling term licenses and expansions to existing customers in March 2028",
+          "The Company's portfolio of interconnected apps, AI agents, and products...are all built on the Atlassian Cloud Platform...puts AI at the center of the Company's portfolio"
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -98,36 +100,35 @@
         "marketShareMention": null,
         "customerConcentration": 0,
         "geographicBreakdown": {
-          "Americas": 49.27,
+          "Americas": 49.2,
           "EMEA": 39.5,
-          "AsiaPacific": 11.23
+          "AsiaPacific": 11.2
         },
         "capexAmount": 14.112,
-        "capexGrowth": 129.4,
+        "capexGrowth": 129.5,
         "partnerships": [
-          "The Browser Company of New York Inc. (BCNY) - Arc and Dia browsers acquisition"
+          "DX (engineering intelligence platform) acquisition agreement for ~$1.0 billion, expected to close Q2 FY2026",
+          "The Browser Company acquisition (Dia and Arc browsers) for ~$610 million, closed October 20, 2025"
         ],
         "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [
-          "Data Center deployment end-of-life plan with phased migration strategy"
-        ],
+        "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
-        "overallSentiment": "neutral",
-        "summary": "Atlassian reported Q3 FY2026 revenue of $1.43B (+20.6% YoY) with subscription revenue growing 21.4% to $1.37B, demonstrating strong top-line momentum driven by Cloud expansion and customer expansion to 300K+ total customers with 53K customers exceeding $10K Cloud ARR. However, the company reported a net loss of $51.9M (vs. loss of $123.8M prior year) primarily due to $55.7M in restructuring charges including $27.9M severance and $26.3M in real estate optimization, indicating a shift toward operational efficiency amid increased R&D investments and competitive pressures. Free cash flow improved to $114.6M (+54% YoY) demonstrating underlying business quality, though the company is managing through a strategic transition with plans to end its Data Center offering by March 2029 while aggressively investing in AI capabilities and making significant M&A moves ($1.61B announced for DX and BCNY acquisitions).",
+        "overallSentiment": "bearish",
+        "summary": "Atlassian reported Q3 FY2026 revenue of $1.43 billion (+20.6% YoY) with positive subscription growth, but posted a net loss of $51.9 million due to $55.7 million in restructuring charges, including $27.9 million in severance and $26.3 million in lease impairment. The company is reducing headcount, ending Data Center product support by 2029, and making significant M&A investments ($1.6+ billion announced), signaling portfolio transformation but near-term margin pressures.",
         "keyQuotes": [
-          "We've put AI at the center of our portfolio to enhance teamwork for users across our apps and Collections; a carefully curated set of apps and agents designed to solve complex tasks.",
-          "We initiated a rebalancing of resources resulting in the elimination of certain roles...part of our initiatives to reduce additional capacity no longer necessary due to the increased ability, accessibility, performance, stability, and supportability of our products.",
-          "In September 2025, we announced plans to end-of-life our Data Center deployment offering. Beginning in March 2026, we will no longer sell term licenses to new customers."
+          "We've put AI at the center of our portfolio to enhance teamwork for users across our apps and Collections",
+          "In September 2025, we announced plans to end-of-life our Data Center deployment offering. Beginning in March 2026, we will no longer sell term licenses to new customers",
+          "During the three months ended September 30, 2025, we initiated a rebalancing of resources resulting in the elimination of certain roles...we recorded severance and other termination benefits of $27.9 million"
         ],
         "marketData": {
-          "managementToneScore": 50,
+          "managementToneScore": 30,
           "revenueGrowthScore": 88,
           "netIncomeScore": 35,
           "priceActionScore": null,
-          "compositeSentimentScore": 61,
-          "compositeSentiment": "bullish"
+          "compositeSentimentScore": 57,
+          "compositeSentiment": "neutral"
         }
       },
       "quarter": "Q3 2025",
@@ -162,33 +163,33 @@
         "daysalesOutstanding": null,
         "deferredRevenue": 2368.203,
         "marketShareMention": null,
-        "customerConcentration": null,
+        "customerConcentration": 0,
         "geographicBreakdown": {
-          "Americas": 46.98,
-          "EMEA": 42.13,
-          "Asia_Pacific": 10.89
+          "Americas": 46.97,
+          "EMEA": 42.14,
+          "AsiaPacific": 10.89
         },
         "capexAmount": 14.366,
-        "capexGrowth": 36.51,
+        "capexGrowth": 36.54,
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "Atlassian reported Q1 FY2025 revenue of $1.36B (+14% YoY) driven by 19% subscription revenue growth, but the quarter was marked by a $70.8M net loss vs. $12.8M profit in Q1 FY2024, primarily due to elevated tax provisions and operating expenses. Despite strong free cash flow generation of $638.3M and an expanding customer base (50,715 customers with >$10K Cloud ARR), operating leverage remains elusive as R&D and M&S investments outpaced revenue growth, and management provided no forward guidance.",
+        "summary": "Atlassian reported Q1 FY2025 revenue of $1.36B (+14% YoY) but posted a net loss of $70.8M due to elevated R&D spending (50% of revenue) and a $63.5M tax provision, causing negative operating income of $12.5M. Cloud ARR customers >$10K grew to 50,715 (10% YoY), with strong deferred revenue of $2.37B, yet the company faces margin pressure from aggressive investment in AI/product development and unfavorable tax positions despite $638M in free cash flow.",
         "keyQuotes": [
-          "Through a portfolio of interconnected products with discrete value propositions that are powered by the Atlassian platform and data model, Atlassian gives all teams the right teamwork foundations so they can plan and track work, align on goals, and unleash knowledge across the organization.",
+          "Through a portfolio of interconnected products with discrete value propositions that are powered by the Atlassian platform and data model, the Atlassian System of Work helps customers of any size align work to goals, plan and track work, and unleash their organization's collective knowledge.",
           "Customers with greater than $10,000 in Cloud ARR represent the majority of our Cloud revenue.",
-          "We define the number of total customers at the end of any particular period as the number of organizations with unique domains with an active subscription for two or more seats."
+          "We prioritize product quality, automated distribution, transparent pricing, and customer service to land new customers and expand to new teams."
         ],
         "marketData": {
-          "managementToneScore": 30,
+          "managementToneScore": 10,
           "revenueGrowthScore": 76,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 44,
+          "compositeSentimentScore": 40,
           "compositeSentiment": "neutral"
         }
       },
@@ -215,8 +216,8 @@
         "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "pricingPower": "moderate",
+        "headcountTrend": "stable",
         "revenue": 1187.781,
         "netIncome": -123.769,
         "operatingCashFlow": 80.492,
@@ -231,26 +232,34 @@
           "AsiaPacific": 11.3
         },
         "capexAmount": 6.151,
-        "capexGrowth": 67.4,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
-        "regulatoryHeadwinds": [],
+        "capexGrowth": 67.5,
+        "partnerships": [
+          "Solution partners and resellers for regional expansion",
+          "Loom acquisition for asynchronous video collaboration",
+          "Rovo for organizational knowledge unlocking"
+        ],
+        "supplyChainStatus": "normal",
+        "regulatoryHeadwinds": [
+          "Securities class action litigation dismissed but previously pending",
+          "Stockholder derivative lawsuits (voluntarily dismissed without prejudice)",
+          "General regulatory uncertainty in macroeconomic environment"
+        ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
-        "managementTone": "neutral",
+        "managementTone": "confident",
         "overallSentiment": "bearish",
-        "summary": "Atlassian reported Q3 FY2025 revenue of $1.19B (+21.5% YoY), driven by strong subscription revenue growth of 32.8% to $1.13B, but net loss deteriorated to -$123.8M from -$31.9M YoY due to higher tax provisions and operating expenses growing faster than revenue. Free cash flow declined 54.4% to $74.3M YoY despite solid deferred revenue of $2.01B and 46,844 enterprise customers (>$10K Cloud ARR), signaling profitability pressures amid aggressive R&D and stock-based compensation spending.",
+        "summary": "Atlassian reported Q3 2024 revenue of $1.19B (+21.5% YoY) driven by strong subscription growth (+32.9% YoY to $1.13B), but posted a net loss of $123.8M vs. $31.9M loss in prior year due to higher operating expenses and significant tax provisions. Operating cash flow declined to $80.5M from $167.0M YoY, while the company continues investing heavily in R&D ($603M, +25% YoY) and maintaining a product-led growth strategy with 46,844 customers at $10K+ Cloud ARR.",
         "keyQuotes": [
-          "Our primary products include Jira for planning and project management, Confluence for content creation and sharing, Jira Service Management for team service, management and support applications, Loom for asynchronous video collaboration, and Rovo for unlocking organizational knowledge.",
-          "Customers with greater than $10,000 in Cloud ARR represent the majority of our Cloud revenue with 46,844 such customers as of September 30, 2024.",
-          "We expect cost of revenues to increase as we continue to invest in our cloud-based infrastructure to support migrations and our Cloud customers."
+          "Through a connected portfolio of products with discrete value propositions built on the Atlassian platform and data model, Atlassian gives all teams the right teamwork foundations so they can plan and track work, align on goals, and unleash knowledge across the organization.",
+          "Subscription revenues consist primarily of fees earned from subscription-based arrangements for providing customers the right to use our software in a cloud-based-infrastructure that we provide.",
+          "Our high-velocity, low-friction distribution model is designed to drive exceptional customer scale by making products that are free to try and affordable to purchase online."
         ],
         "marketData": {
-          "managementToneScore": 30,
+          "managementToneScore": 50,
           "revenueGrowthScore": 88,
           "netIncomeScore": 12,
           "priceActionScore": null,
-          "compositeSentimentScore": 48,
+          "compositeSentimentScore": 53,
           "compositeSentiment": "neutral"
         }
       },
@@ -266,7 +275,7 @@
       "analyzedSuccessfully": true
     }
   ],
-  "totalFetched": 7,
+  "totalFetched": 8,
   "successfulAnalyses": 4,
-  "lastUpdated": "2026-08-05T19:32:18.519Z"
+  "lastUpdated": "2026-08-16T04:11:05.798Z"
 }
