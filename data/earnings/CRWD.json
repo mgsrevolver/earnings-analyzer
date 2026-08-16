@@ -28,7 +28,7 @@
         "netIncome": 27.774,
         "operatingCashFlow": 590.937,
         "freeCashFlow": 470.742,
-        "daysalesOutstanding": null,
+        "daysalesOutstanding": 24.1,
         "deferredRevenue": 4722.193,
         "marketShareMention": null,
         "customerConcentration": null,
@@ -43,19 +43,19 @@
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "July 19 Incident litigation and regulatory inquiries",
-          "Data privacy and security compliance requirements",
-          "Complex evolving laws and regulations in multiple jurisdictions"
+          "July 19 Incident ongoing legal proceedings including class action lawsuits and derivative lawsuits",
+          "Multiple lawsuits related to product defects from July 19 Incident",
+          "Complex data privacy and security compliance requirements across multiple jurisdictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "CrowdStrike achieved Q1 FY2027 profitability with net income of $27.8M on revenue growth of 25.6% YoY to $1.39B, driven by strong subscription revenue growth of 25.8%. The company maintained healthy cash generation with operating cash flow of $591M and free cash flow of $471M. However, management tone remains cautious given ongoing litigation from the July 19 Incident and the strategic restructuring efforts underway.",
+        "summary": "CrowdStrike returned to profitability in Q1 FY2027 with quarterly revenue of $1.39B (+25.6% YoY) and net income of $27.8M, driven by strong subscription revenue growth of $1.32B (+25.7% YoY) and solid gross margins of 75.3%. The company generated robust operating cash flow of $590.9M and maintains strong deferred revenue of $4.72B; however, the company remains significantly impacted by the July 19 Incident with multiple ongoing lawsuits and regulatory challenges that create ongoing uncertainty.",
         "keyQuotes": [
           "The Company is a global cybersecurity leader that delivers an AI-native platform designed for the agentic era and is purpose-built to stop breaches.",
           "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
-          "As of April 30, 2026, the aggregate amount of the transaction price allocated to remaining performance obligations was $8.8 billion."
+          "In February 2026, the Company completed an assessment of the estimated period of benefit of commissions earned upon the initial acquisition of a contract, or subsequent upsell, and determined that it should increase from four to five years."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -94,7 +94,7 @@
         "revenue": 1234.244,
         "netIncome": -33.997,
         "operatingCashFlow": 1114.48,
-        "freeCashFlow": 862.641,
+        "freeCashFlow": 862.341,
         "daysalesOutstanding": null,
         "deferredRevenue": 4063.25,
         "marketShareMention": null,
@@ -110,19 +110,20 @@
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Data privacy and security compliance requirements across multiple jurisdictions",
-          "Complex and evolving laws and regulations relating to data privacy and security",
-          "Cybersecurity industry regulatory requirements and government inquiries"
+          "Data privacy and security compliance requirements",
+          "Complex evolving laws and regulations in multiple jurisdictions",
+          "Contractual obligations related to data privacy and security",
+          "Public sector contract requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported Q3 2025 revenue of $1.23B (+22% YoY) but posted a net loss of $34M, continuing losses from the July 19 incident aftermath. Operating cash flow remains strong at $1.11B, but the company is burning significant capital on growth investments amid competitive pressures and ongoing incident-related challenges. Management's defensive tone reflects continued headwinds from the incident's impact on customer and partner relationships.",
+        "summary": "CrowdStrike reported Q3 2025 revenue of $1,234.2M (+22% YoY) with subscription revenue of $1,168.7M, but the company posted a net loss of -$34.0M (vs -$16.8M loss in Q3 2024). Operating cash flow remained strong at $1,114.5M for the nine-month period, but the company is burning cash operationally when accounting for working capital changes. The July 19 Incident continues to cast a shadow over near-term prospects, with management adopting a defensive posture in forward-looking statements despite solid top-line growth.",
         "keyQuotes": [
           "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
-          "We have a history of losses, and while we have achieved profitability in certain periods, including fiscal 2024, we may not be able to achieve or sustain profitability in the future.",
-          "If our solutions fail or are perceived to fail to detect or prevent incidents or have or are perceived to have defects, errors, or vulnerabilities, our brand and reputation would be harmed, which would adversely affect our business and results of operations."
+          "If organizations do not adopt cloud-based SaaS-delivered endpoint security solutions, our ability to grow our business and results of operations may be adversely affected.",
+          "We face intense competition and could lose market share to our competitors, which could adversely affect our business, financial condition, and results of operations."
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -153,7 +154,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000025/crwd-20250731.htm"
       },
       "insights": {
-        "guidanceTone": "cautious",
+        "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
         "pricingPower": "moderate",
@@ -161,7 +162,7 @@
         "revenue": 1168.952,
         "netIncome": -77.675,
         "operatingCashFlow": 716.939,
-        "freeCashFlow": 565.965,
+        "freeCashFlow": 565.465,
         "daysalesOutstanding": null,
         "deferredRevenue": 3834.857,
         "marketShareMention": null,
@@ -173,30 +174,32 @@
           "Other": 7
         },
         "capexAmount": 150.974,
-        "capexGrowth": 32.2,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "capexGrowth": null,
+        "partnerships": [
+          "channel partners (system integrators and value-added resellers)"
+        ],
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Complex and evolving data privacy and security laws and regulations",
-          "Compliance with stringent regulations in multiple jurisdictions",
-          "Potential fines and penalties for regulatory non-compliance"
+          "July 19 Incident - adverse effects on business, sales, customer relations, reputation, and results of operations",
+          "Complex data privacy and security regulations across multiple jurisdictions",
+          "Stringent compliance requirements for public sector contracting"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported Q2 2025 revenue of $1.17B (+21% YoY) but swung to a net loss of $77.7M versus prior-year profit of $47M, driven by elevated operating expenses (up 36% YoY) reflecting ongoing remediation costs and headcount reduction efforts from the July 19 incident. The company maintains strong deferred revenue of $3.8B and positive operating cash flow of $717M, but management commentary is notably defensive with substantial risk factor disclosures dominating the filing, signaling continued business uncertainty and reputational damage.",
+        "summary": "CrowdStrike reported Q2 FY2026 revenue of $1.17B (+21% YoY) but swung to a net loss of $77.7M from $47M profit in the prior year quarter, primarily due to elevated operating expenses (+36% YoY) and the ongoing impact of the July 19 Incident. The company generated strong operating cash flow of $717M, though free cash flow declined year-over-year, and deferred revenue grew to $3.8B, indicating healthy contract momentum despite significant operational and reputational challenges.",
         "keyQuotes": [
           "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
           "We have experienced rapid growth in recent periods, and if we do not manage our future growth, our business and results of operations will be adversely affected.",
-          "If we are unable to attract and retain qualified personnel, our business could be harmed."
+          "If we are unable to attract new customers, our future results of operations could be harmed."
         ],
         "marketData": {
-          "managementToneScore": 5,
+          "managementToneScore": 10,
           "revenueGrowthScore": 88,
           "netIncomeScore": 15,
           "priceActionScore": null,
-          "compositeSentimentScore": 44,
+          "compositeSentimentScore": 45,
           "compositeSentiment": "neutral"
         }
       },
@@ -228,38 +231,36 @@
         "revenue": 1103.434,
         "netIncome": -110.207,
         "operatingCashFlow": 384.107,
-        "freeCashFlow": 284.919,
+        "freeCashFlow": 285.919,
         "daysalesOutstanding": null,
         "deferredRevenue": 3771.395,
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 67,
-          "Europe_Middle_East_Africa": 16,
-          "Asia_Pacific": 10,
+          "United States": 67,
+          "EMEA": 16,
+          "APAC": 10,
           "Other": 7
         },
         "capexAmount": 103.188,
-        "capexGrowth": null,
+        "capexGrowth": 107.3,
         "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "July 19 Incident litigation from securities class actions",
-          "Delta Airlines litigation for damages from July 19 Incident",
-          "Derivative shareholder lawsuits alleging breach of fiduciary duty",
-          "U.S. Department of Justice inquiries regarding revenue recognition and ARR reporting",
-          "U.S. Securities and Exchange Commission inquiries regarding revenue recognition and ARR reporting",
-          "Multiple airline passenger class actions related to flight disruptions from July 19 Incident"
+          "DOJ and SEC requests for information regarding revenue recognition, ARR reporting, and the July 19 Incident",
+          "Multiple securities class action lawsuits alleging false/misleading statements",
+          "Derivative lawsuits alleging breach of fiduciary duty and securities law violations",
+          "Delta Airlines litigation alleging computer trespass, breach of contract, and product defect"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported Q1 FY2026 revenue of $1.1B (up 20% YoY) but swung to a net loss of $110.2M versus prior year profit of $42.8M, primarily driven by the catastrophic July 19 Incident's ongoing impact through increased operating costs, litigation, and customer commitments. The company faces significant headwinds from multiple securities class actions, derivative suits, and investigations from the DOJ and SEC, while deferred revenue of $3.8B and strong operating cash flow of $384M suggest underlying demand persists despite the reputational damage.",
+        "summary": "CrowdStrike reported Q1 FY2026 revenue of $1.10B (+19.8% YoY) with strong subscription growth, but swung to a $110.2M net loss versus $42.8M profit in Q1 FY2025, primarily due to elevated operating expenses related to the July 19 Incident remediation efforts. The company faced significant operational headwinds from the July 19 incident, including multiple lawsuits, regulatory inquiries, and customer relationship damage, which depressed profitability despite healthy top-line growth and $384M in operating cash flow.",
         "keyQuotes": [
           "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
-          "The Company is subject to a number of legal proceedings in connection with the July 19 Incident, including putative class action lawsuits, derivative lawsuits, and a complaint from Delta Airlines seeking unspecified monetary damages, attorneys' fees and unspecified punitive damages.",
-          "The Company has received requests for information from the U.S. Department of Justice and the U.S. Securities and Exchange Commission relating to the Company's recognition of revenue and reporting of ARR for transactions with certain customers, the July 19 Incident and related matters."
+          "Operating expenses increased 36% year-over-year driven by elevated sales and marketing spend and R&D investments, partially offset by cost management efforts related to strategic reorganization.",
+          "As of April 30, 2025, the aggregate amount of the transaction price allocated to remaining performance obligations was $6.8 billion, with approximately 52% expected to be recognized in the 12 months following April 30, 2025."
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -301,7 +302,7 @@
         "freeCashFlow": null,
         "daysalesOutstanding": null,
         "deferredRevenue": null,
-        "marketShareMention": "Competitors aggressively approached customers following July 19 Incident; risk of losing market share to competitors",
+        "marketShareMention": "facing intense competition, potential loss of market share due to July 19 Incident",
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 32,
@@ -310,28 +311,29 @@
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Amazon Web Services (AWS) - primary cloud infrastructure provider",
-          "Channel partners for sales and distribution"
+          "Amazon Web Services (AWS)",
+          "Channel partners for sales and distribution",
+          "Technology alliance partnerships"
         ],
         "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "GDPR and U.K. GDPR compliance requirements",
-          "CCPA and state privacy laws",
-          "Export controls and sanctions regulations",
-          "FCPA and anti-corruption laws",
-          "Federal, state and local data privacy laws",
-          "FedRAMP certification requirements for government sales",
-          "Evolving AI regulation including EU AI Act"
+          "Data privacy and security regulations (GDPR, CCPA, HIPAA)",
+          "Export controls and economic sanctions laws",
+          "Anti-corruption and anti-bribery laws (FCPA, UK Bribery Act)",
+          "FedRAMP certification requirements",
+          "AI regulatory frameworks (EU AI Act, California AI laws)",
+          "Product safety and environmental regulations",
+          "Government contracting requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported full year fiscal 2025 revenue of $3,051 million but swung to a net loss of $19.3 million after profitability in fiscal 2024, primarily due to significant ongoing costs and damage from the July 19 incident. The company faces substantial headwinds including ongoing litigation, customer churn, competitive pressures from rivals exploiting the incident, extended sales cycles, and continued investment in remediation efforts. Despite headcount expansion from 7,273 to 10,118 employees, the company remains defensive about near-term prospects given reputation damage and customer commitment packages that lengthen revenue recognition periods.",
+        "summary": "CrowdStrike reported full-year fiscal 2025 revenue of $3,050.9 million but swung to a net loss of $19.3 million, primarily due to the catastrophic July 19 Incident that caused widespread system crashes and significant remediation costs. The company faces ongoing litigation, customer attrition, competitive pressures from rivals capitalizing on reputational damage, and extended sales cycles, with management adopting a defensive posture acknowledging the incident's continued adverse effects on business operations and financial condition.",
         "keyQuotes": [
-          "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
-          "We experienced net losses of $19.3 million and $183.2 million for fiscal 2025 and 2023, respectively, and net income of $89.3 million for fiscal 2024.",
-          "We have incurred, and expect to continue to incur, significant costs and expenses related to the incident, including in connection with remediation efforts, customer and partner relations, measures taken to address the damage to our reputation, and other measures taken in response to the incident."
+          "On July 19, 2024, we released a content configuration update for our Falcon sensor that resulted in system crashes for certain Windows systems (the 'July 19 Incident'). We have incurred, and expect to continue to incur, significant costs and expenses related to the incident...",
+          "As a result of the incident, certain of our existing or prospective customers have elected to, and may in the future elect to, defer purchasing decisions relating to our products and services or not purchase our products and services at all. Customers have also decided, and may in the future decide, to terminate or not renew their agreements with us.",
+          "Our management and other personnel have devoted, and may continue to devote, significant time and resources to address the impacts of the July 19 Incident."
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -370,39 +372,35 @@
         "revenue": 1010.178,
         "netIncome": -16.822,
         "operatingCashFlow": 1036.005,
-        "freeCashFlow": 826.797,
+        "freeCashFlow": 826.097,
         "daysalesOutstanding": null,
         "deferredRevenue": 3196.518,
         "marketShareMention": null,
         "customerConcentration": 0,
         "geographicBreakdown": {
           "United States": 68,
-          "Europe_Middle_East_Africa": 16,
-          "Asia_Pacific": 10,
+          "EMEA": 16,
+          "AsiaPacific": 10,
           "Other": 6
         },
         "capexAmount": 208.907,
         "capexGrowth": null,
-        "partnerships": [
-          "channel partners",
-          "system integrators",
-          "value-added resellers"
-        ],
+        "partnerships": [],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Complex and evolving data privacy and security laws globally",
-          "Potential litigation and investigations related to July 19 Incident",
-          "Public sector compliance requirements"
+          "July 19 Incident resulting in multiple lawsuits and investigations",
+          "Complex and evolving data privacy and security regulations across multiple jurisdictions",
+          "Compliance requirements for government and public sector customers"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported Q3 2024 revenue of $1.01B (+28% YoY) with negative net income of -$16.8M, a sharp reversal from prior year profitability, primarily driven by the July 19 Incident impact on the business. Operating cash flow remains strong at $1.04B for the nine-month period, but the company faces significant headwinds including massive litigation exposure, customer churn risk, and reputational damage from the critical software bug that caused widespread Windows system outages.",
+        "summary": "CrowdStrike reported Q3 2024 revenue of $1,010.2M (+28.5% YoY) with subscription revenue growing 31.3%, but swung to a net loss of $16.8M (-$26.5M swing from Q3 2023 profit) due to elevated operating expenses (up 38% YoY) and the July 19 Incident's ongoing impact on sales, customer relations, and legal exposure. The company maintains strong deferred revenue of $3.2B and positive operating cash flow of $1.04B YTD, but management tone is defensive with significant uncertainty around the incident's ultimate business and financial consequences.",
         "keyQuotes": [
           "The July 19 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
-          "If our solutions fail or are perceived to fail to detect or prevent incidents or have or are perceived to have defects, errors, or vulnerabilities, our brand and reputation would be harmed, which would adversely affect our business and results of operations.",
-          "Remaining Performance Obligations were $5.4 billion as of October 31, 2024, with 57% expected to be recognized within the next 12 months."
+          "As of October 31, 2024, the aggregate amount of the transaction price allocated to remaining performance obligations was $5.4 billion.",
+          "We have experienced rapid growth in recent periods, and if we do not manage our future growth, our business and results of operations will be adversely affected."
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -445,7 +443,7 @@
         "daysalesOutstanding": null,
         "deferredRevenue": 3093.197,
         "marketShareMention": null,
-        "customerConcentration": 0,
+        "customerConcentration": null,
         "geographicBreakdown": {
           "United States": 68,
           "Europe_Middle_East_Africa": 15,
@@ -453,24 +451,28 @@
           "Other": 7
         },
         "capexAmount": 113.932,
-        "capexGrowth": null,
-        "partnerships": [],
-        "supplyChainStatus": "unknown",
+        "capexGrowth": 10.8,
+        "partnerships": [
+          "Channel partners (system integrators and value-added resellers)",
+          "Technology alliance partners",
+          "Amazon Web Services (cloud infrastructure)"
+        ],
+        "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Channel File 291 Incident litigation - putative class action lawsuits filed",
-          "Securities law violations alleged",
-          "Negligence and California Unfair Competition Law claims",
-          "Potential regulatory investigations and inquiries"
+          "Stringent data privacy and security compliance requirements across multiple jurisdictions",
+          "Complex evolving laws and regulations in cybersecurity sector",
+          "Government investigations and inquiries potential",
+          "SEC filing and regulatory compliance obligations"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "defensive",
         "overallSentiment": "bearish",
-        "summary": "CrowdStrike reported Q2 2024 revenue of $963.9M (+32% YoY) and net income of $47.0M, demonstrating strong subscription growth and return to profitability. However, the company faces significant headwinds from the July 19 Channel File 291 Incident, which caused widespread Windows system crashes and triggered multiple class action lawsuits, representing a material operational and reputational crisis that will likely impact near-term customer relationships and future revenue.",
+        "summary": "CrowdStrike reported Q2 2024 revenue of $963.9M (32% YoY growth) with net income of $47.0M, demonstrating profitability recovery. However, the July 19, 2024 Channel File 291 Incident—a catastrophic Falcon sensor update causing Windows system crashes—has created significant legal, reputational, and operational headwinds, with multiple lawsuits filed and ongoing remediation efforts expected to materially impact business, customer relationships, and financial condition.",
         "keyQuotes": [
           "The Channel File 291 Incident has had, and is expected to continue to have, an adverse effect on our business, sales, customer and partner relations, reputation, results of operations and financial condition.",
           "If our solutions fail or are perceived to fail to detect or prevent incidents or have or are perceived to have defects, errors, or vulnerabilities, our brand and reputation would be harmed, which would adversely affect our business and results of operations.",
-          "We have achieved profitability in certain periods, including fiscal 2024, we may not be able to achieve or sustain profitability in the future."
+          "We have experienced rapid growth in recent periods, and if we do not manage our future growth, our business and results of operations will be adversely affected."
         ],
         "marketData": {
           "managementToneScore": 10,
@@ -515,30 +517,31 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United States": 68,
+          "United_States": 68,
           "Europe_Middle_East_Africa": 15,
           "Asia_Pacific": 10,
           "Other": 7
         },
         "capexAmount": 60.162,
-        "capexGrowth": -3.4,
+        "capexGrowth": null,
         "partnerships": [
+          "Channel partner network of system integrators and value-added resellers",
           "Amazon Web Services"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Data protection, security, privacy, and government-specific laws and regulations",
-          "Compliance with industry-specific requirements"
+          "Data protection, security, privacy, and other government- and industry-specific laws and regulations",
+          "Compliance with applicable data protection requirements across international jurisdictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "bullish",
-        "summary": "CrowdStrike demonstrated strong Q1 FY2025 performance with revenue of $921M (+33% YoY) and returned to profitability with net income of $42.8M vs. $0.5M prior year. The company generated solid operating cash flow of $383.2M while maintaining strong deferred revenue of $3.07B and remaining performance obligations of $4.7B, indicating robust future revenue visibility. Management's neutral forward-looking tone reflects standard risk factor disclosures with no explicit updated guidance provided, though the company's profitability inflection and strong cash generation suggest operational momentum.",
+        "summary": "CrowdStrike delivered strong Q1 FY2025 results with subscription revenue of $872.2M (+33.9% YoY) and net income of $42.8M vs. $0.5M in prior year, demonstrating improved profitability and pricing power. The company maintains substantial deferred revenue of $3.1B (+27.6% YoY) and positive operating cash flow of $383.2M, indicating strong customer retention and cash generation. Management focuses on AI-native platform capabilities and recent acquisitions (Flow Security, Bionic) while maintaining disciplined capital allocation.",
         "keyQuotes": [
           "The Company is a global cybersecurity leader that delivers cybersecurity's AI-native platform for the XDR era, purpose-built to stop breaches.",
-          "As of April 30, 2024, the aggregate amount of the transaction price allocated to remaining performance obligations was $4.7 billion. The Company expects to recognize approximately 60% of the remaining performance obligations in the 12 months following April 30, 2024.",
-          "Due to recent profitability, a material reversal of the Company's valuation allowance in U.S jurisdictions in the foreseeable future is reasonably possible."
+          "The Company's unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data via a software as a service (SaaS) subscription-based model that spans multiple large security markets.",
+          "As of April 30, 2024, the aggregate amount of the transaction price allocated to remaining performance obligations was $4.7 billion."
         ],
         "marketData": {
           "managementToneScore": 70,
@@ -584,34 +587,33 @@
         "customerConcentration": null,
         "geographicBreakdown": {
           "international": 32,
-          "domestic": 68
+          "united_states": 68
         },
         "capexAmount": null,
         "capexGrowth": null,
         "partnerships": [
-          "Amazon Web Services (AWS)",
-          "Technology alliance partnerships (referenced generically)",
+          "AWS (Amazon Web Services) - primary cloud infrastructure provider",
           "Channel partners for sales and distribution"
         ],
         "supplyChainStatus": "easing",
         "regulatoryHeadwinds": [
-          "GDPR and UK GDPR compliance requirements",
-          "CCPA and state privacy laws",
-          "FedRAMP certification maintenance requirements",
-          "Export controls and trade sanctions compliance",
-          "FCPA and anti-bribery regulations",
-          "Emerging AI regulation (EU AI Act)",
-          "Data localization requirements"
+          "GDPR and U.K. GDPR compliance requirements",
+          "CCPA and state-level privacy laws",
+          "Export controls and economic sanctions laws",
+          "FCPA and anti-corruption laws",
+          "FedRAMP certification requirements for government sales",
+          "Evolving AI regulation including EU AI Act",
+          "Data localization requirements in various jurisdictions"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "CrowdStrike achieved full-year fiscal 2024 revenue of $2,241.9 million with net income of $89.3 million, marking the company's first full-year profitability after historical losses. The company expanded headcount from 4,965 to 7,925 employees and generates a higher percentage of annual orders in the second half of the year due to customer budget cycles. The 10-K is primarily risk-focused, with significant sections devoted to competitive pressures, regulatory compliance challenges, and operational risks rather than forward-looking strategic guidance.",
+        "summary": "CrowdStrike achieved full-year FY2024 revenue of $2,241.2 million and returned to profitability with net income of $89.3 million, a significant turnaround from losses in prior years. The company significantly expanded headcount from 4,965 to 7,925 employees to support growth, while generating 32% of revenue from international markets. Management maintains a neutral tone focused on business execution challenges, competitive pressures, and regulatory compliance complexities rather than forward-looking optimism.",
         "keyQuotes": [
-          "We have experienced net gains of $89.3 million for fiscal 2024, and net losses of $183.2 million, and $234.8 million for fiscal 2023, and fiscal 2022, respectively.",
-          "new ARR generation is typically greater in the second half of the year, particularly in the fourth quarter, as compared to the first half of the year",
-          "our headcount grew from 4,965 employees as of January 31, 2022, to 7,925 employees as of January 31, 2024"
+          "We have experienced rapid growth in recent periods and we expect to continue to invest broadly across our organization to support our growth.",
+          "We experienced net gains of $89.3 million for fiscal 2024, and net losses of $183.2 million, and $234.8 million for fiscal 2023, and fiscal 2022, respectively.",
+          "The market for security and IT operations solutions is intensely competitive, fragmented, and characterized by rapid changes in technology, customer requirements, industry standards, increasingly sophisticated attackers."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -645,8 +647,8 @@
         "guidanceTone": "neutral",
         "guidanceDirection": "not_provided",
         "bookingsGrowth": null,
-        "pricingPower": "strong",
-        "headcountTrend": "expanding",
+        "pricingPower": "unknown",
+        "headcountTrend": "unknown",
         "revenue": 786.014,
         "netIncome": 26.665,
         "operatingCashFlow": 819.191,
@@ -662,33 +664,33 @@
           "Other": 6
         },
         "capexAmount": 162.55,
-        "capexGrowth": null,
+        "capexGrowth": -9.5,
         "partnerships": [
-          "Amazon Web Services (AWS) - $600M minimum commitment through Sept 2026",
-          "Channel partner network of system integrators and value-added resellers"
+          "Amazon Web Services - $600M minimum commitment through September 2026",
+          "Channel partners including system integrators and value-added resellers"
         ],
         "supplyChainStatus": "unknown",
         "regulatoryHeadwinds": [
-          "Data protection, security, privacy regulations",
-          "Government and industry-specific compliance requirements",
-          "International regulatory expansion challenges"
+          "Data protection, security, and privacy compliance requirements",
+          "Government-specific laws and regulations",
+          "Industry-specific standards and requirements"
         ],
         "aiInvestmentMentioned": true,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
-        "overallSentiment": "bullish",
-        "summary": "CrowdStrike returned to profitability in Q3 FY2024 with quarterly revenue of $786.0M (up 35% YoY) and net income of $26.7M versus a loss of $54.9M in the prior year. The company generated strong operating cash flow of $819.2M for the nine-month period and maintains a robust deferred revenue position of $2.5B, demonstrating solid customer demand and subscription renewal dynamics. However, management provided no forward guidance in this 10-Q filing, maintaining a cautious stance amid broader market uncertainties.",
+        "overallSentiment": "neutral",
+        "summary": "CrowdStrike achieved Q3 2023 revenue of $786.0M (35% YoY growth) with positive quarterly net income of $26.7M, demonstrating a return to profitability after prior year losses. The company maintains a strong balance sheet with $2.97B cash and positive operating cash flow of $819.2M YTD, though the 10-Q filing contains only forward-looking risk factors without explicit management guidance.",
         "keyQuotes": [
-          "The Company is a global cybersecurity leader that provides cloud-delivered protection of endpoints, cloud workloads, identity, and data via a software as a service (SaaS) subscription-based model that spans multiple large security markets",
-          "As of October 31, 2023, the aggregate amount of the transaction price allocated to remaining performance obligations was $3.7 billion. The Company expects to recognize approximately 64% of the remaining performance obligations in the 12 months following October 31, 2023",
-          "The Company capitalized $60.0 million and $34.5 million during the nine months ended October 31, 2023 and October 31, 2022, respectively, in internal-use software and website development costs"
+          "The Company is a global cybersecurity leader that provides cloud-delivered protection of endpoints, cloud workloads, identity, and data via a software as a service subscription-based model that spans multiple large security markets, including corporate endpoint security, security and IT operations, managed security services, observability, cloud security, identity protection, threat intelligence, data protection and cybersecurity generative AI.",
+          "As of October 31, 2023, the aggregate amount of the transaction price allocated to remaining performance obligations was $3.7 billion. The Company expects to recognize approximately 64% of the remaining performance obligations in the 12 months following October 31, 2023.",
+          "In October 2021, the Company entered into a new private pricing addendum with Amazon Web Services, which provides the Company with cloud computing infrastructure. Under the new pricing addendum, the minimum commitment is $600.0 million of cloud services from AWS through September 2026."
         ],
         "marketData": {
-          "managementToneScore": 70,
+          "managementToneScore": 50,
           "revenueGrowthScore": 95,
           "netIncomeScore": 78,
           "priceActionScore": null,
-          "compositeSentimentScore": 84,
+          "compositeSentimentScore": 79,
           "compositeSentiment": "bullish"
         }
       },
@@ -726,31 +728,32 @@
         "marketShareMention": null,
         "customerConcentration": null,
         "geographicBreakdown": {
-          "United_States": 69,
-          "Europe_Middle_East_Africa": 15,
-          "Asia_Pacific": 10,
+          "United States": 69,
+          "EMEA": 15,
+          "APAC": 10,
           "Other": 6
         },
         "capexAmount": 128.656,
         "capexGrowth": null,
         "partnerships": [
-          "Amazon Web Services (AWS) - cloud computing infrastructure provider",
+          "AWS private pricing agreement with minimum $600M commitment through September 2026",
+          "Channel partner network of system integrators and value-added resellers",
           "Amazon"
         ],
         "supplyChainStatus": "normal",
         "regulatoryHeadwinds": [
-          "Compliance with data protection, security, and privacy regulations",
-          "Intellectual property litigation with Webroot Inc. regarding patent infringement"
+          "Data protection and privacy compliance requirements",
+          "Intellectual property litigation with Webroot regarding patent infringement"
         ],
         "aiInvestmentMentioned": false,
         "priorGuidanceHit": null,
         "managementTone": "neutral",
         "overallSentiment": "neutral",
-        "summary": "CrowdStrike achieved profitability in Q2 2023 with revenue of $731.6M (36% YoY growth) and net income of $8.5M, driven by strong subscription revenue growth from its cloud-based Falcon platform. The company demonstrates healthy unit economics with deferred revenue of $2.5B (up 36% YoY) and strong operating cash flow of $545.7M for the first half, though it carries $741.8M in long-term debt. Management maintains a neutral tone with no forward guidance provided in the filing, relying on strong execution in a growing cybersecurity market.",
+        "summary": "CrowdStrike achieved profitability in Q2 2023 with $731.6M quarterly revenue (36.7% YoY growth) and $8.5M net income, a significant turnaround from prior year losses. Strong cash generation of $545.7M operating cash flow and solid deferred revenue growth to $2.5B demonstrate healthy subscription renewals and customer expansion. However, the 10-Q contains only boilerplate forward-looking statements and risk factors without explicit management guidance on future performance.",
         "keyQuotes": [
-          "The Company is a global cybersecurity leader that provides cloud-delivered protection of endpoints, cloud workloads, identity, and data via a software as a service (SaaS) subscription-based model",
-          "As of July 31, 2023, the aggregate amount of the transaction price allocated to remaining performance obligations was $3.6 billion",
-          "The Company expects to recognize approximately 64% of the remaining performance obligations in the 12 months following July 31, 2023, and 35% of the remaining performance obligations between 13 to 36 months"
+          "The Company's subscription contracts with its customers have a typical term of one to three years and most subscription contracts are non-cancelable.",
+          "As of July 31, 2023, the aggregate amount of the transaction price allocated to remaining performance obligations was $3.6 billion.",
+          "The Company expects to recognize approximately 64% of the remaining performance obligations in the 12 months following July 31, 2023, and 35% of the remaining performance obligations between 13 to 36 months."
         ],
         "marketData": {
           "managementToneScore": 50,
@@ -775,5 +778,5 @@
   ],
   "totalFetched": 12,
   "successfulAnalyses": 11,
-  "lastUpdated": "2026-08-05T19:12:54.036Z"
+  "lastUpdated": "2026-08-16T03:51:13.871Z"
 }
